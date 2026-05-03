@@ -1,0 +1,6 @@
+*.json
+*.py
+*.md
+*.txt
+*_backup*
+*backup*
