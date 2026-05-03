@@ -1,0 +1,646 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>WSC Morning Station -- Sunday May 3, 2026 -- Run #48</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#FAFAF8;--bg-card:#FFFFFF;--text:#1A1A2E;--text-secondary:#5A5A72;
+  --accent:#2D6A4F;--accent-light:#E8F5EE;--border:#E8E8E4;
+  --kpi-bg:#F4F4F0;--tag-bg:#F0F0EC;--shadow:0 1px 3px rgba(0,0,0,0.04);
+  --shadow-hover:0 4px 12px rgba(0,0,0,0.07);
+  --font-display:'Instrument Serif',Georgia,serif;
+  --font-body:'General Sans',system-ui,-apple-system,sans-serif;
+  --radius:10px;
+}
+.dark{
+  --bg:#141418;--bg-card:#1E1E24;--text:#E8E8E4;--text-secondary:#9A9AB0;
+  --accent:#5DB88A;--accent-light:#1A2E24;--border:#2A2A34;
+  --kpi-bg:#1A1A20;--tag-bg:#24242C;--shadow:0 1px 3px rgba(0,0,0,0.2);
+  --shadow-hover:0 4px 12px rgba(0,0,0,0.3);
+}
+html{font-size:16px;-webkit-font-smoothing:antialiased}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);line-height:1.6;transition:background .3s,color .3s}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline}
+.masthead{text-align:center;padding:2.5rem 1rem 1.5rem;border-bottom:1px solid var(--border)}
+.masthead-logo{display:flex;align-items:center;justify-content:center;gap:.6rem;margin-bottom:.4rem}
+.masthead-logo svg{width:32px;height:32px;flex-shrink:0}
+.masthead h1{font-family:var(--font-display);font-size:2.2rem;font-weight:400;letter-spacing:-.02em;line-height:1.1}
+.masthead-date{font-size:.82rem;color:var(--text-secondary);margin-top:.35rem;letter-spacing:.04em;text-transform:uppercase}
+.masthead-controls{display:flex;align-items:center;justify-content:center;gap:.75rem;margin-top:.75rem}
+.theme-btn{background:var(--kpi-bg);border:1px solid var(--border);border-radius:20px;padding:.35rem .75rem;font-size:.78rem;color:var(--text-secondary);cursor:pointer;font-family:var(--font-body);transition:all .2s}
+.theme-btn:hover{border-color:var(--accent);color:var(--accent)}
+.tab-bar-wrap{position:relative;max-width:900px;margin:0 auto}
+.tab-bar-wrap .tab-arrow{position:absolute;top:0;bottom:2px;width:36px;display:flex;align-items:center;justify-content:center;z-index:2;cursor:pointer;font-size:1.1rem;color:var(--text-secondary);opacity:0;pointer-events:none;transition:opacity .25s}
+.tab-bar-wrap .tab-arrow:hover{color:var(--accent)}
+.tab-bar-wrap .tab-arrow.visible{opacity:1;pointer-events:auto}
+.tab-arrow-left{left:0;background:linear-gradient(90deg,var(--bg) 60%,transparent)}
+.tab-arrow-right{right:0;background:linear-gradient(270deg,var(--bg) 60%,transparent)}
+.tab-bar{display:flex;gap:0;border-bottom:2px solid var(--border);padding:0 1rem;max-width:900px;margin:0 auto;overflow-x:auto;-webkit-overflow-scrolling:touch;scroll-behavior:smooth}
+.tab-bar::-webkit-scrollbar{height:4px}
+.tab-bar::-webkit-scrollbar-track{background:var(--kpi-bg);border-radius:2px}
+.tab-bar::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+.tab-bar::-webkit-scrollbar-thumb:hover{background:var(--accent)}
+.tab-bar{scrollbar-width:thin;scrollbar-color:var(--border) var(--kpi-bg)}
+.tab{padding:.75rem 1.1rem;font-size:.82rem;font-weight:600;color:var(--text-secondary);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-2px;white-space:nowrap;transition:color .2s,border-color .2s;user-select:none}
+.tab:hover{color:var(--text)}
+.tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.kpi-bar{display:flex;gap:.5rem;padding:1rem;max-width:900px;margin:0 auto;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.kpi-bar::-webkit-scrollbar{display:none}
+.kpi{background:var(--kpi-bg);border:1px solid var(--border);border-radius:var(--radius);padding:.6rem .85rem;min-width:120px;flex-shrink:0}
+.kpi-label{font-size:.68rem;color:var(--text-secondary);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.kpi-value{font-size:1.05rem;font-weight:700;margin-top:.15rem}
+.kpi-change{font-size:.72rem;margin-top:.1rem}
+.kpi-up{color:#2D8A4E}.kpi-down{color:#C0392B}
+.content{max-width:900px;margin:0 auto;padding:1rem}
+.tab-panel{display:none}
+.tab-panel.active{display:block}
+.card-grid{display:grid;grid-template-columns:1fr 1fr;gap:.85rem}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:1.1rem 1.2rem;box-shadow:var(--shadow);transition:box-shadow .2s,transform .15s}
+.card:hover{box-shadow:var(--shadow-hover);transform:translateY(-1px)}
+.card-tag{display:inline-block;font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);background:var(--accent-light);padding:.2rem .55rem;border-radius:4px;margin-bottom:.55rem}
+.card h3{font-family:var(--font-display);font-size:1.15rem;font-weight:400;line-height:1.3;margin-bottom:.45rem}
+.card p{font-size:.84rem;color:var(--text-secondary);line-height:1.55}
+.card-meta{display:flex;align-items:center;gap:.5rem;margin-top:.65rem;font-size:.72rem;color:var(--text-secondary)}
+.card-meta a{color:var(--accent);font-weight:500}
+.card-source-dot{width:3px;height:3px;border-radius:50%;background:var(--text-secondary);flex-shrink:0}
+.section-label{font-family:var(--font-display);font-size:1.3rem;font-weight:400;margin:1.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.section-sublabel{font-size:.82rem;font-weight:600;color:var(--text-secondary);text-transform:uppercase;letter-spacing:.05em;margin:1.25rem 0 .6rem}
+footer{text-align:center;padding:2rem 1rem;font-size:.72rem;color:var(--text-secondary);border-top:1px solid var(--border);margin-top:2rem}
+footer a{color:var(--accent)}
+.breaking-banner{background:linear-gradient(135deg,#1A3A5C 0%,#2D6A4F 100%);color:#fff;text-align:center;padding:.65rem 1rem;font-size:.82rem;font-weight:600;letter-spacing:.02em}
+.breaking-banner a{color:#FFF8E1;text-decoration:underline}
+.dark .breaking-banner{background:linear-gradient(135deg,#0F2A45 0%,#1F4D38 100%)}
+.sentiment-hero{display:flex;gap:2rem;align-items:flex-start;margin-bottom:1.5rem;flex-wrap:wrap}
+.gauge-wrap{flex:0 0 320px;text-align:center}
+.gauge-wrap svg{width:100%;max-width:320px}
+.gauge-score{font-size:2.8rem;font-weight:700;font-family:var(--font-body);line-height:1}
+.gauge-label{font-size:1rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;margin-top:.15rem}
+.gauge-sub{font-size:.75rem;color:var(--text-secondary);margin-top:.3rem}
+.sentiment-hist{flex:1;min-width:200px}
+.hist-row{display:flex;justify-content:space-between;align-items:center;padding:.45rem 0;border-bottom:1px solid var(--border);font-size:.82rem}
+.hist-row:last-child{border-bottom:none}
+.hist-label{color:var(--text-secondary)}
+.hist-val{font-weight:700}
+.hist-badge{display:inline-block;font-size:.68rem;font-weight:600;padding:.15rem .45rem;border-radius:4px;margin-left:.35rem;text-transform:uppercase;letter-spacing:.03em}
+.badge-xfear{background:#FDECEA;color:#C0392B}
+.badge-fear{background:#FFF3E0;color:#E67E22}
+.badge-neutral{background:var(--tag-bg);color:var(--text-secondary)}
+.badge-greed{background:#E8F5EE;color:#2D8A4E}
+.dark .badge-xfear{background:#3A1A1A;color:#EF9A9A}
+.dark .badge-fear{background:#3A2A1A;color:#FFCC80}
+.dark .badge-greed{background:#1A2E24;color:#81C784}
+.fw-meeting{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;margin-bottom:.5rem;box-shadow:var(--shadow)}
+.fw-meeting:hover{box-shadow:var(--shadow-hover)}
+.fw-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:.5rem}
+.fw-date{font-weight:600;font-size:.88rem}
+.fw-implied{font-size:.75rem;color:var(--text-secondary)}
+.fw-bar-bg{height:24px;background:var(--kpi-bg);border-radius:4px;overflow:hidden;display:flex;position:relative}
+.fw-bar-hold{background:var(--accent);height:100%;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:700;color:#fff;min-width:0}
+.fw-bar-cut{background:#E67E22;height:100%;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:700;color:#fff;min-width:0}
+.fw-bar-hike{background:#9B59B6;height:100%;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:700;color:#fff;min-width:0}
+.econ-cal{width:100%;border-collapse:collapse;font-size:.78rem;margin-bottom:1.25rem}
+.econ-cal th{text-align:left;font-size:.68rem;text-transform:uppercase;letter-spacing:.05em;color:var(--text-secondary);font-weight:600;padding:.45rem .5rem;border-bottom:2px solid var(--border)}
+.econ-cal td{padding:.4rem .5rem;border-bottom:1px solid var(--border);vertical-align:top}
+.econ-cal tr:last-child td{border-bottom:none}
+.econ-cal .cal-event{font-weight:600;color:var(--text)}
+.econ-cal .cal-key{color:#C0392B;font-weight:700;background:#FDECEA;padding:.1rem .3rem;border-radius:3px}
+.dark .econ-cal .cal-key{color:#EF9A9A;background:#3A1A1A}
+.econ-narrative{background:var(--kpi-bg);border:1px solid var(--border);border-radius:var(--radius);padding:1rem 1.2rem;margin-bottom:1.5rem}
+.econ-narrative h3{font-family:var(--font-display);font-size:1.05rem;font-weight:400;margin-bottom:.5rem}
+.econ-narrative p{font-size:.84rem;color:var(--text-secondary);line-height:1.6}
+.handoff-placeholder{background:var(--bg-card);border:2px dashed var(--border);border-radius:var(--radius);padding:2rem 1.5rem;margin:1rem 0;text-align:center}
+.handoff-placeholder h3{font-family:var(--font-display);font-size:1.4rem;font-weight:400;margin-bottom:.5rem;color:var(--text)}
+.handoff-placeholder p{font-size:.88rem;color:var(--text-secondary);line-height:1.6;max-width:540px;margin:0 auto}
+.handoff-placeholder .hp-icon{font-family:var(--font-display);font-size:2.2rem;color:var(--accent);margin-bottom:.4rem;font-style:italic}
+@media(max-width:680px){
+  .masthead h1{font-size:1.7rem}
+  .card-grid{grid-template-columns:1fr}
+  .kpi-bar{gap:.35rem}
+  .kpi{min-width:100px;padding:.5rem .7rem}
+  .tab{padding:.65rem .9rem;font-size:.78rem}
+  .sentiment-hero{flex-direction:column;align-items:center}
+  .gauge-wrap{flex:0 0 auto;width:100%;max-width:280px}
+}
+</style>
+</head>
+<body>
+<div class="masthead">
+<div class="masthead-logo">
+<svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="32" height="32" rx="8" fill="var(--accent)"/><path d="M8 22V10l8 6-8 6z" fill="var(--bg)"/><path d="M16 22V10l8 6-8 6z" fill="var(--bg)" opacity=".5"/></svg>
+<h1>Morning Briefing</h1>
+</div>
+<div class="masthead-date">Sunday, May 3, 2026 &mdash; 7:01 AM EDT &mdash; Run #48</div>
+<div class="masthead-controls">
+<button class="theme-btn" onclick="toggleTheme()">Toggle Theme</button>
+</div>
+</div>
+
+<div class="breaking-banner">SPX/NASDAQ HEADING INTO MAY AT FRESH ATHs: SPX 7,230.12 / NDX 27,710.36 / Nasdaq 25,114.44 (Best April Since 2020) -- AAPL +3% Friday on Q3 Guide. WEEKEND CATALYSTS: (1) <strong>Trump 25% EU AUTO TARIFFS</strong> announced Friday, take effect this week (was 15% under Turnberry deal); (2) <strong>Trump withdrawing 5,000 US troops from Germany</strong> over 6-12 months after clash with Chancellor Merz; (3) <strong>Israeli strikes kill 41+ in southern Lebanon over 24h</strong> despite Apr 16 ceasefire (50 airstrikes overnight Sat); (4) Putin May 9 Victory Day ceasefire on table, Zelenskyy still pushing for 30-day version; (5) Iran &quot;terminated&quot; campaign at Day 61 -- gas prices remain political flashpoint. BTC Polygon X:BTCUSD: Fri $78,194.91 -&gt; Sat $78,679.99 (+0.62% overnight; high $79,200, knocked at $79K resistance). FedWatch unchanged from Friday: Jun 17 hold 94.41 / cut 5.59; Dec 9 hold 77.01 / cut 13.79 / hike 9.20. WTI $101.94 / Brent $107.30 / Gold $4,625.60 / 10Y 4.38% / DXY 98.21 (all Fri close, weekend hold). ISM Mfg 52.7 / Prices 84.6 (highest since Apr 2022) is the macro overhang into Mon May 4 ISM Services + Factory Orders. Severity: AUTO-TARIFF-ESCALATION + GEOPOLITICAL-CROSSCURRENTS + RECORD-HIGH-WEEKEND-HOLD.</div>
+
+<div class="tab-bar-wrap">
+<div class="tab-arrow tab-arrow-left" onclick="scrollTabs(-200)">&lsaquo;</div>
+<div class="tab-bar" id="tabBar">
+<div class="tab active" onclick="showTab('markets')">Markets</div>
+<div class="tab" onclick="showTab('politics')">Politics</div>
+<div class="tab" onclick="showTab('global')">Global</div>
+<div class="tab" onclick="showTab('automotive')">Automotive</div>
+<div class="tab" onclick="showTab('mechanics')">Mechanics</div>
+<div class="tab" onclick="showTab('research')">Research</div>
+<div class="tab" onclick="showTab('sentiment')">Sentiment</div>
+<div class="tab" onclick="showTab('economics')">Economics</div>
+<div class="tab" onclick="showTab('dailyshot')">Daily Shot</div>
+<div class="tab" onclick="showTab('fundradar')">Fund Radar</div>
+<div class="tab" onclick="showTab('retailedge')">RetailEdge</div>
+</div>
+<div class="tab-arrow tab-arrow-right" onclick="scrollTabs(200)">&rsaquo;</div>
+</div>
+
+<div class="kpi-bar">
+<div class="kpi"><div class="kpi-label">SPX (Fri close)</div><div class="kpi-value">7,230.12</div><div class="kpi-change kpi-up">+0.29% NEW RECORD HIGH</div></div>
+<div class="kpi"><div class="kpi-label">NDX (Fri close)</div><div class="kpi-value">27,710.36</div><div class="kpi-change kpi-up">+0.94% NEW RECORD HIGH</div></div>
+<div class="kpi"><div class="kpi-label">DJIA (Fri close)</div><div class="kpi-value">49,499.27</div><div class="kpi-change kpi-down">-0.31% only laggard</div></div>
+<div class="kpi"><div class="kpi-label">Russell 2K (Fri close)</div><div class="kpi-value">2,812.82</div><div class="kpi-change kpi-up">+0.46% (+12.92 pts)</div></div>
+<div class="kpi"><div class="kpi-label">VIX (Fri close)</div><div class="kpi-value">16.99</div><div class="kpi-change kpi-up">+0.10 (calm into close)</div></div>
+<div class="kpi"><div class="kpi-label">WTI (Fri close)</div><div class="kpi-value">$101.94</div><div class="kpi-change kpi-down">-2.98% sharp drop</div></div>
+<div class="kpi"><div class="kpi-label">Gold (Fri close)</div><div class="kpi-value">$4,625.60</div><div class="kpi-change kpi-down">-0.09% range-bound</div></div>
+<div class="kpi"><div class="kpi-label">10Y / 30Y</div><div class="kpi-value">4.38% / 4.97%</div><div class="kpi-change kpi-up">-1 / -2 bp bull-flatten</div></div>
+<div class="kpi"><div class="kpi-label">DXY (Fri close)</div><div class="kpi-value">98.21</div><div class="kpi-change kpi-up">+0.16% USD firm</div></div>
+<div class="kpi"><div class="kpi-label">BTC Polygon (Sat close)</div><div class="kpi-value">$78,679.99</div><div class="kpi-change kpi-up">+0.62% Sat vs Fri $78,194.91</div></div>
+<div class="kpi"><div class="kpi-label">AAPL Friday</div><div class="kpi-value">+3.0%</div><div class="kpi-change kpi-up">Q3 guide rev +14-17%</div></div>
+<div class="kpi"><div class="kpi-label">FedWatch YE Cuts</div><div class="kpi-value">-0.052</div><div class="kpi-change kpi-down">vs -0.092 (~+1bp hawkish)</div></div>
+</div>
+
+<div class="content">
+
+<div class="tab-panel active" id="panel-markets">
+
+<div style="background:linear-gradient(135deg,#1A3A5C 0%,#2D6A4F 100%);color:#fff;border-radius:var(--radius);padding:1.1rem 1.3rem;margin-bottom:1.25rem"><div style="font-size:.68rem;font-weight:700;text-transform:uppercase;letter-spacing:.08em;opacity:.85;margin-bottom:.35rem">SPX/NASDAQ HOLDING ATH INTO MAY / TRUMP 25% EU AUTO TARIFFS / GERMANY 5K TROOP DRAWDOWN / LEBANON STRIKES KILL 41+ / BTC SAT $78,680 (+0.62%) / ISM PRICES 84.6 OVERHANG / FEDWATCH UNCHANGED -- SUNDAY MAY 3, 2026 -- RUN #48</div>
+<div style="font-family:var(--font-display);font-size:1.2rem;font-weight:400;margin-bottom:.55rem;line-height:1.25">Friday's tape printed back-to-back record highs: <strong>SPX 7,230.12 (+0.29%)</strong> and <strong>NDX 27,710.36 (+0.94%)</strong> both closed at fresh all-time highs, with Nasdaq Composite 25,114.44 (+0.89%) joining the ATH cluster -- locking in the <strong>best April for SPX/Nasdaq since 2020</strong>. DJIA was the lone laggard at 49,499.27 (-0.31%) on energy drag. Russell 2,812.82 (+0.46%, +12.92 pts) participated. VIX 16.99 (+0.10) -- calm into the close. AAPL led the tape +3% on a Q3 guide of <strong>revenue +14-17% YoY</strong> versus +9.5% consensus -- a clean acceleration that justified the risk-on close. <strong>ISM Manufacturing April 52.7</strong> matched March (cons 52.5) -- the 4th consecutive expansion month -- but <strong>ISM Prices Paid jumped to 84.6 from 78.3</strong>, the highest reading since April 2022 (a Q1 tariff/Hormuz pass-through signature). Energy reversed: <strong>WTI -2.98% to $101.94</strong>, Brent -2.15% to ~$107.30. 10Y 4.38% (-1 bp); 30Y 4.97% (-2 bp). BTC Polygon X:BTCUSD: Thu $76,282.66 -&gt; Fri $78,194.91 (+2.51%) -- crypto extended the dovish-reset bid into the weekend.</div>
+<div style="font-size:.82rem;opacity:.92;line-height:1.6">Big-tech earnings reactions: AAPL +3% on Q3 guide. CVX/XOM beat Q1 but profits were down sharply on Hormuz timing: XOM EPS $1.00 (or $2.09 ex-items), earnings $4.2B (-45% YoY); CVX -36% YoY. Hormuz disruption hit profits despite higher oil. FedWatch <strong>SLIGHT HAWKISH RESET</strong>: Jun 17 hold 94.41 / cut 5.59; Jul 29 88.36 / 11.64; Sep 16 84.63 / 15.37; Oct 28 83.08 / 15.04 / hike 1.87; Dec 9 77.01 / 13.79 / hike 9.20. YE26 implied <strong>-0.052 cuts</strong> vs -0.092 prior (~+1bp hawkish reset overnight from Thu's reset). DXY 98.21 (+0.16%); USD/JPY 157.08 (+0.33%); EUR/USD 1.17. <strong>GEOPOLITICS: Trump declared Iran campaign &quot;terminated&quot;</strong> as the 60-day Congressional clock expired and the Iran proposal was rejected. <strong>Putin proposed a May 9 ceasefire</strong> for Russian Victory Day; Zelenskyy is seeking details. Ukraine struck the Russian Tuapse oil refinery a 4th time since April 1. Trump is reportedly considering a 5K-troop drawdown from Germany. Markets closed Saturday/Sunday. Monday May 4 calendar: <strong>ISM Services + Factory Orders</strong> + continued earnings.</div>
+</div>
+
+<div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:.85rem 1.1rem;margin-bottom:1.25rem">
+<div style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--text-secondary);margin-bottom:.6rem">What Changed Over the Weekend (Sat 7 AM through Sun 7 AM ET) -- Run #48</div>
+<div style="display:grid;grid-template-columns:repeat(2,1fr);gap:.5rem;font-size:.8rem;margin-bottom:.75rem">
+<div style="background:var(--kpi-bg);border-radius:6px;padding:.55rem .75rem"><div style="font-size:.65rem;color:var(--text-secondary);font-weight:600;text-transform:uppercase;margin-bottom:.2rem">Trump: 25% Tariff on EU Cars/Trucks Starts This Week</div><div style="font-weight:700;color:#C0392B">Friday afternoon Truth Social post; rate jumps from 15% (Turnberry deal) to 25% next week</div><div style="font-size:.72rem;color:var(--text-secondary)">President Trump announced Friday afternoon he will raise tariffs on European cars and trucks to 25% starting this week, citing EU non-compliance with the Aug 2025 Turnberry deal that had set the rate at 15%. The EU expected the bilateral framework to save European automakers approximately 500-600 million euros per month. Section 232 is the likely authority. EU automakers (BMW, Mercedes, VW, Stellantis, Volvo) and EU-Greenland-sourced critical minerals/battery cells in the supply chain are most exposed. Watch DAX/EuroStoxx Sun-night-into-Monday futures open for the first market read.</div></div>
+<div style="background:var(--kpi-bg);border-radius:6px;padding:.55rem .75rem"><div style="font-size:.65rem;color:var(--text-secondary);font-weight:600;text-transform:uppercase;margin-bottom:.2rem">Trump Withdraws 5K Troops from Germany (6-12 mo)</div><div style="font-weight:700;color:#C0392B">After clash with Chancellor Merz over Iran war strategy; ~14% of Germany US deployment</div><div style="font-size:.72rem;color:var(--text-secondary)">Pentagon confirmed Saturday a withdrawal of 5,000 active-duty US troops from NATO ally Germany over the next 6-12 months following a public clash between Trump and Chancellor Friedrich Merz over US-Israeli war strategy in Iran. The withdrawal represents about 14% of Germany's total US deployment (the country hosts Ramstein Air Base and Landstuhl Regional Medical Center). Trump suggested Spain and Italy could be next. Democrats in Congress and analysts warn the move benefits Russia at a time of heightened global instability. EUR/USD reaction will be the cleanest market signal Sunday-night.</div></div>
+<div style="background:var(--kpi-bg);border-radius:6px;padding:.55rem .75rem"><div style="font-size:.65rem;color:var(--text-secondary);font-weight:600;text-transform:uppercase;margin-bottom:.2rem">Israel Hits Lebanon: 41+ Killed in 50 Airstrikes</div><div style="font-weight:700;color:#C0392B">Most intense escalation since Apr 16 ceasefire; IDF claims Hezbollah infrastructure</div><div style="font-size:.72rem;color:var(--text-secondary)">Israeli airstrikes on southern Lebanon killed at least 41 people and wounded others over a 24-hour window through Saturday despite the April 16 ceasefire. The IDF launched approximately 50 airstrikes claiming all targets were Hezbollah infrastructure. The strikes are the most intense escalation in southern Lebanon since the ceasefire began -- a fresh stress on the Israel-Lebanon track even as the Iran campaign is &quot;terminated.&quot; Brent / WTI Sun-night reopen will be the first market test on whether the de-escalation premium compression sticks.</div></div>
+<div style="background:var(--kpi-bg);border-radius:6px;padding:.55rem .75rem"><div style="font-size:.65rem;color:var(--text-secondary);font-weight:600;text-transform:uppercase;margin-bottom:.2rem">BTC Sat $78,679.99 (+0.62% Sat vs Fri close)</div><div style="font-weight:700;color:#2D8A4E">High of $79,200 -- testing $79K psychological resistance; weekend bid intact</div><div style="font-size:.72rem;color:var(--text-secondary)">BTC Polygon X:BTCUSD Sat 5/2 close: $78,679.99 vs Fri $78,194.91 (+0.62% Saturday session). High printed $79,200 -- the cleanest test of the $79,000 psychological round level since Friday's $78,961 tag. Saturday open $78,235.30, low $77,974. The Saturday trade extended Friday's risk-on bid into the weekend, with the FedWatch slightly hawkish reset apparently absorbed without crypto giving back. Watch for the $79K break test on Sun-night Asia.</div></div>
+<div style="background:var(--kpi-bg);border-radius:6px;padding:.55rem .75rem"><div style="font-size:.65rem;color:var(--text-secondary);font-weight:600;text-transform:uppercase;margin-bottom:.2rem">Iran &quot;Terminated&quot; at Day 61 -- Gas Politics Live</div><div style="font-weight:700;color:#E67E22">Hostilities formally ceased per Trump but blockade posture intact; gas prices political pressure</div><div style="font-size:.72rem;color:var(--text-secondary)">Saturday marked Day 61 of the Iran war. Trump told lawmakers Friday hostilities had &quot;terminated&quot; after the April ceasefire but maintained Iran posed a significant threat to US forces. Gas prices remain a political flashpoint -- the White House is taking pressure on consumer-facing fuel costs as the underlying Hormuz blockade structure persists despite the kinetic-campaign close-out. CBS News reporting Sat suggests the political read-through is more pressing than the military operational read.</div></div>
+<div style="background:var(--kpi-bg);border-radius:6px;padding:.55rem .75rem"><div style="font-size:.65rem;color:var(--text-secondary);font-weight:600;text-transform:uppercase;margin-bottom:.2rem">Putin May 9 Ceasefire vs Zelenskyy 30-Day Push</div><div style="font-weight:700;color:#E67E22">6 days to Russia Victory Day; Kyiv calls 72-hour version &quot;unserious&quot;</div><div style="font-size:.72rem;color:var(--text-secondary)">Zelenskyy publicly dismissed the 72-hour Putin Victory Day truce offer (May 8-10) as &quot;unserious,&quot; reiterating Ukraine&apos;s preference for a 30-day comprehensive ceasefire. Trump described his Friday Putin call as &quot;very good&quot; and supported the May 9 initiative according to Russian readouts; Putin also offered help on Iran nuclear material (Trump declined). The May 9 deadline is now 6 days out -- a clear, trackable diplomatic clock. Wheat / EUR / energy will be the cleanest cross-asset reads if the deadline passes without a meaningful pause in operations.</div></div>
+</div>
+<div style="font-size:.72rem;color:var(--text-secondary)">Window: Sat 7 AM ET through Sun 7:01 AM ET. Cash equities reopen Mon 9:30 AM ET; futures resume Sun 6 PM ET. Mon May 4 ISM Services + Factory Orders + the EU 25% auto tariff implementation are the three pivots. The Sat overnight news adds AUTO TARIFF + NATO POSTURE + LEBANON ESCALATION to the existing ISM Prices / Iran / Putin narratives.</div>
+</div>
+
+<div style="background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:.85rem 1.1rem;margin-bottom:1.25rem">
+<div style="font-size:.72rem;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--text-secondary);margin-bottom:.6rem">On Deck Today (Sun May 3) / Mon May 4</div>
+<div style="font-size:.84rem;line-height:1.65;color:var(--text-secondary)">
+<strong style="color:var(--text)">Today (Sun May 3):</strong> US cash markets closed. Equity futures (ES/NQ/YM/RTY) resume 6:00 PM ET this evening for the Sun-night session -- this is the first market test on the EU 25% auto tariff news, the Germany troop drawdown, and the Lebanon strike escalation. No first-tier US data. Watch DAX / Euro Stoxx Sun-evening trajectory plus EUR/USD into the Asia open.
+<br><br>
+<strong style="color:var(--text)">Mon May 4:</strong> 9:45 AM ET <strong>S&amp;P Global Services PMI Final April</strong>. 10:00 AM ET <strong>ISM Services PMI April</strong> -- the key follow-up to ISM Mfg 52.7 / Prices 84.6. 10:00 AM ET <strong>Factory Orders March</strong>. EU 25% auto tariff implementation begins this week (no specific Mon-Tue date confirmed). Q1 mid-tier S&amp;P 500 earnings continue. Powell-Warsh transition window May 15 (~12 days out). May 9 Putin Victory Day ceasefire deadline (~6 days out).
+</div>
+</div>
+
+<div class="section-label">Markets -- ATHs Hold Into May, EU Auto Tariff Shock, Geo Crosscurrents -- Run #48</div>
+
+<div class="card-grid">
+<div class="card"><div class="card-tag">Record Close</div>
+<h3>SPX 7,230.12 (+0.29%) and NDX 27,710.36 (+0.94%) Print Fresh All-Time Highs; Best April Since 2020 for SPX/Nasdaq</h3>
+<p>Friday closed with SPX at a fresh record 7,230.12 (+21.11 pts, +0.29%) and NDX at 27,710.36 (+258.24 pts, +0.94%). Nasdaq Composite 25,114.44 (+0.89%) joined the all-time high cluster. DJIA 49,499.27 (-0.31%) was the only laggard, dragged by energy. Russell 2,812.82 (+0.46%, +12.92 pts) participated. VIX 16.99 (+0.10). The April performance locks in the best monthly read for SPX/Nasdaq since April 2020 -- a clean reversal of the early-April capex/tariff fears.</p>
+<div class="card-meta"><span class="card-source-dot"></span><a href="https://www.cnbc.com/2026/05/01/apple-stock-rallies-on-q2-earnings-and-q3-guidance.html" target="_blank">CNBC</a></div>
+</div>
+<div class="card"><div class="card-tag">AAPL Lead</div>
+<h3>AAPL Friday +3% on Q3 Revenue Guide of +14-17% YoY (vs +9.5% Cons); Best Single-Day Lift in Q1 Earnings Cycle</h3>
+<p>Apple led the tape Friday +3% after the Q3 (FY26) guide of revenue +14-17% YoY versus +9.5% consensus -- a clean acceleration relative to the trajectory implied by Q2's +17% print. The market read it as a Services-driven structural step-up rather than a one-off, and the +3% session lift was the largest single-day reaction of the Q1 earnings cycle for the name. The print plus guide drove the SPX/NDX record close.</p>
+<div class="card-meta"><span class="card-source-dot"></span><a href="https://www.cnbc.com/2026/05/01/apple-stock-rallies-on-q2-earnings-and-q3-guidance.html" target="_blank">CNBC</a></div>
+</div>
+<div class="card"><div class="card-tag">ISM Manufacturing</div>
+<h3>ISM Mfg April 52.7 Beats 52.5 (4th Expansion Month); New Orders 54.1; Employment 46.4 (31st Month Contraction)</h3>
+<p>ISM Manufacturing PMI April printed 52.7 -- matching March's 52.7 and beating the 52.5 consensus. Fourth consecutive month of expansion (above 50). New Orders 54.1 -- demand still expanding. Employment 46.4 -- 31st consecutive month in contraction (the structural labor-side weakness in goods). The headline read is constructive on growth but masks the price spike: Prices Paid 84.6 jumped from 78.3, the highest since April 2022.</p>
+<div class="card-meta"><span class="card-source-dot"></span><a href="https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-05/ism-pmi-reports-roundup-april-2026-manufacturing/" target="_blank">ISM World</a></div>
+</div>
+<div class="card"><div class="card-tag">ISM Prices Spike</div>
+<h3>ISM Prices Paid 84.6 -- Highest Since April 2022 (Up From 78.3); Tariff/Hormuz Pass-Through Signature</h3>
+<p>The ISM Prices Paid sub-index printed 84.6 in April, the highest reading since April 2022 (when the post-COVID supply-shock peak was being unwound). The jump from 78.3 to 84.6 in a single month is the cleanest tariff/Hormuz cost pass-through signature in the data. The reading is consistent with the FedWatch slight-hawkish reset Friday (-0.052 vs -0.092 cuts). The Fed will now be watching Core PCE / CPI for whether the Prices Paid spike translates to consumer-facing inflation or stays bottled up in goods margins.</p>
+<div class="card-meta"><span class="card-source-dot"></span><a href="https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-05/ism-pmi-reports-roundup-april-2026-manufacturing/" target="_blank">ISM World</a></div>
+</div>
+<div class="card"><div class="card-tag">Energy Earnings</div>
+<h3>XOM Q1 EPS $1.00 ($2.09 Ex-Items), Earnings $4.2B (-45% YoY); CVX Earnings -36% YoY -- Hormuz Timing Hit Margins</h3>
+<p>ExxonMobil and Chevron Q1 prints both beat consensus on the headline but recorded sharp YoY profit declines despite higher Q1 average oil prices. XOM EPS $1.00 (or $2.09 excluding items), earnings $4.2B (-45% YoY). CVX earnings -36% YoY. The Iran/Hormuz blockade and timing-of-realization on refining/margin hit the integrated majors during Q1. The structural tell: a Hormuz-premium reflation can be a profit headwind for downstream-heavy integrated majors when timing on refining and trading lags spot price moves.</p>
+<div class="card-meta"><span class="card-source-dot"></span><a href="https://investor.exxonmobil.com/company-information/press-releases/detail/1204/exxonmobil-announces-first-quarter-2026-results" target="_blank">ExxonMobil IR</a> <span class="card-source-dot"></span><a href="https://www.cnbc.com/2026/05/01/exxon-xom-chevron-cvx-q1-2026-earnings.html" target="_blank">CNBC</a></div>
+</div>
+<div class="card"><div class="card-tag">Crude / FX</div>
+<h3>WTI -2.98% to $101.94, Brent -2.15% to ~$107.30 on Iran &quot;Terminated&quot; Declaration; DXY 98.21 (+0.16%); BTC $78,194.91 (+2.51%)</h3>
+<p>WTI sold off sharply Friday: -2.98% to $101.94, off the Hormuz-premium $107 cluster. Brent ~$107.30 (-2.15%; BNO ETF -2.15% to $57.27). The selloff was triggered by Trump's Iran &quot;terminated&quot; declaration as the 60-day Congressional clock expired -- the supply-disruption premium that supported $110-120 Brent in late April has consolidated lower. DXY 98.21 (+0.16%) -- USD firm; USD/JPY 157.08 (+0.33%); EUR/USD 1.17. BTC Polygon X:BTCUSD: Thu $76,282.66 -&gt; Fri $78,194.91 (+2.51%) -- crypto extended bid into the weekend, the largest single-session move of the week. Gold $4,625.60 (-0.09%) -- range-bound.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Polygon X:BTCUSD daily aggs</div>
+</div>
+</div>
+</div>
+
+<div class="tab-panel" id="panel-politics">
+<div class="section-label">Politics &amp; Policy -- Run #48</div>
+
+<div class="card-grid">
+<div class="card"><div class="card-tag">Iran De-Escalation</div>
+<h3>Trump Declares Iran Military Campaign &quot;Terminated&quot; as 60-Day Congressional Clock Expires; Iran Proposal Rejected</h3>
+<p>Trump publicly declared the Iran military campaign &quot;terminated&quot; as the 60-day War Powers Act Congressional clock ran out. Concurrently, the Iranian counter-proposal was rejected. The dual signal is binary: a military de-escalation declaration combined with a diplomatic-track rejection. Energy markets read it as net de-escalation: WTI -2.98%, Brent -2.15%. Hormuz blockade context remains in the underlying tape but the immediate supply-disruption tail-risk has compressed.</p>
+<div class="card-meta"><span class="card-source-dot"></span><a href="https://x.com/marketsday/status/2050455059700519298" target="_blank">marketsday</a> <span class="card-source-dot"></span><a href="https://www.cfr.org/articles/trump-vows-to-continue-blockade-against-iran" target="_blank">CFR</a></div>
+</div>
+<div class="card"><div class="card-tag">Russia/Ukraine</div>
+<h3>Putin/Trump Call: May 9 Ceasefire Proposed for Russian Victory Day; Zelenskyy Seeking Details on Implementation</h3>
+<p>A Putin/Trump call surfaced a proposed May 9 ceasefire timed to Russian Victory Day. Zelenskyy is reportedly seeking implementation details before responding. The proposal is a 7-day-out diplomatic deadline event that the market will track through Mon-Fri next week. Concurrently, Ukraine struck the Tuapse oil refinery for the 4th time since April 1 -- attacks continue while diplomacy unfolds. The Russia/Ukraine track is the second active de-escalation lane after the Iran &quot;terminated&quot; declaration.</p>
+<div class="card-meta"><span class="card-source-dot"></span><a href="https://www.npr.org/2026/05/01/g-s1-119659/zelenskyy-seeking-details-of-putins-ceasefire-proposal" target="_blank">NPR</a></div>
+</div>
+<div class="card"><div class="card-tag">Germany Drawdown</div>
+<h3>Trump Considering 5K-Troop Drawdown From Germany; NATO Posture Shift Signal</h3>
+<p>Reports surfaced Friday that Trump is considering a ~5,000-troop drawdown from Germany. The signaling -- if formalized -- represents a continuing recalibration of US force posture in Europe and is consistent with the broader administration push for European burden-sharing. The market read is muted because the immediate fiscal/defense-budget impact is small, but the headline keeps the European-defense-policy trade alive.</p>
+<div class="card-meta"><span class="card-source-dot"></span><a href="https://www.cfr.org/articles/trump-vows-to-continue-blockade-against-iran" target="_blank">CFR</a></div>
+</div>
+<div class="card"><div class="card-tag">Fed Transition</div>
+<h3>Powell Warsh Transition May 15 (~13 Days Out); ISM Prices 84.6 Spike Reasserts Hawkish Pass-Through Risk</h3>
+<p>The Powell-to-Warsh handoff window narrows to ~13 days. Friday's ISM Manufacturing report flipped the narrative back: while the headline 52.7 was benign, Prices Paid jumped to 84.6 from 78.3 (highest since April 2022). FedWatch reset back hawkish ~+1bp (YE26 -0.052 vs -0.092 prior; Dec 9 hike tail expanded back to 9.20 from 5.78). The dovish-reset enthusiasm from Thu has cooled. Warsh's inaugural FOMC June 17 will inherit the Prices Paid pass-through question.</p>
+<div class="card-meta"><span class="card-source-dot"></span>CME FedWatch reportingDt 2026-05-01</div>
+</div>
+<div class="card"><div class="card-tag">Tariff Calendar</div>
+<h3>EU-Greenland June 1 Tariff Escalation 4 Weeks Out (10% -&gt; 25%); Hormuz Day 60+ Backdrop</h3>
+<p>The June 1 EU-Greenland tariff escalation step (10% -&gt; 25%) is now 4 weeks out and remains the next scheduled tariff cliff. The ISM Prices Paid 84.6 spike is the early evidence that the Q1 tariff/Hormuz combination is working through producer-side margins. Iran/Hormuz blockade remains structurally intact at Day 60+ even after the &quot;terminated&quot; declaration -- the formal blockade posture distinct from the military campaign. Watch for any blockade-posture commentary into next week.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Tariff/policy calendar tracking</div>
+</div>
+<div class="card"><div class="card-tag">Congressional</div>
+<h3>War Powers Act 60-Day Clock Expiration on Iran Sets New Procedural Baseline; Authorization Question Reopened</h3>
+<p>The expiration of the War Powers Act 60-day Congressional clock on the Iran campaign reopens the procedural question on continued operations. Trump's &quot;terminated&quot; declaration is the executive-branch close-out. Congressional Democrats and a handful of Republicans had been pushing for an authorization vote during the 60-day window; the practical outcome is now a status-quo ante for any future kinetic action while the formal Hormuz blockade posture is recalibrated.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Congressional/War Powers Act tracking</div>
+</div>
+</div>
+</div>
+
+<div class="tab-panel" id="panel-global">
+<div class="section-label">Global &amp; Geopolitics -- Run #48</div>
+
+<div class="card-grid">
+<div class="card"><div class="card-tag">Iran/Hormuz</div>
+<h3>Iran Campaign &quot;Terminated&quot;: WTI -2.98% to $101.94, Brent -2.15% to ~$107.30 -- Supply Premium Compresses</h3>
+<p>Trump's declaration that the Iran military campaign is &quot;terminated&quot; -- combined with rejection of the Iranian counter-proposal -- triggered a sharp Friday selloff in crude. WTI -2.98% to $101.94; Brent -2.15% to $107.30 (BNO ETF -2.15% to $57.27). The supply-disruption premium that supported the $110-120 Brent cluster in late April has consolidated lower. The formal Hormuz blockade posture is reportedly distinct from the military campaign, so the structural shipping-route premium remains -- but the immediate kinetic-escalation tail has compressed.</p>
+<div class="card-meta"><span class="card-source-dot"></span><a href="https://www.cfr.org/articles/trump-vows-to-continue-blockade-against-iran" target="_blank">CFR</a></div>
+</div>
+<div class="card"><div class="card-tag">Russia/Ukraine</div>
+<h3>Putin May 9 Victory Day Ceasefire Proposal; Zelenskyy Seeking Implementation Details; Tuapse Refinery Strike #4</h3>
+<p>The Putin/Trump call surfaced a May 9 ceasefire proposal timed to Russian Victory Day. Zelenskyy is seeking implementation details before responding -- the standard diplomatic-process play. Concurrently, Ukraine struck the Russian Tuapse oil refinery for the 4th time since April 1 -- attacks on Russian energy infrastructure continue while the diplomatic track unfolds. The May 9 deadline is a 7-day-out trackable event.</p>
+<div class="card-meta"><span class="card-source-dot"></span><a href="https://www.npr.org/2026/05/01/g-s1-119659/zelenskyy-seeking-details-of-putins-ceasefire-proposal" target="_blank">NPR</a> <span class="card-source-dot"></span><a href="https://understandingwar.org/research/russia-ukraine/russian-offensive-campaign-assessment-may-1-2026/" target="_blank">ISW</a></div>
+</div>
+<div class="card"><div class="card-tag">FX</div>
+<h3>USD/JPY 157.08 (+0.33%); EUR/USD 1.17; DXY 98.21 (+0.16%) -- Dollar Firm Despite Iran De-Escalation</h3>
+<p>FX behavior Friday was constructive for the dollar despite the Iran de-escalation: DXY 98.21 (+0.16%); USD/JPY 157.08 (+0.33%); EUR/USD 1.17 unchanged. The dollar firmness is consistent with the ISM Prices Paid 84.6 spike and the FedWatch slight-hawkish reset. JPY weakness through 157 keeps the BoJ-watch alive on intervention risk; EUR/USD pinned at 1.17 reflects the European-defense-policy ambiguity (Germany troop signaling) plus the consistent ECB dovishness relative to the Fed's harder Prices read.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Friday FX session reads</div>
+</div>
+<div class="card"><div class="card-tag">Europe</div>
+<h3>Trump Considering 5K-Troop Germany Drawdown; June 1 EU-Greenland Tariff 25% Escalation 4 Weeks Out</h3>
+<p>Two parallel European tracks: (1) Trump considering a ~5,000-troop drawdown from Germany -- a NATO-posture signal more than a fiscal one; (2) June 1 EU-Greenland tariff escalation step (10% -&gt; 25%) is 4 weeks out, the next scheduled tariff cliff. The ISM Prices Paid spike to 84.6 is the early data signal that the Q1 tariff/Hormuz combination is working through manufacturer margins; the June 1 step would compound the producer-side cost pass-through.</p>
+<div class="card-meta"><span class="card-source-dot"></span><a href="https://www.cfr.org/articles/trump-vows-to-continue-blockade-against-iran" target="_blank">CFR</a></div>
+</div>
+<div class="card"><div class="card-tag">Asia</div>
+<h3>USD/JPY 157.08 Keeps BoJ Intervention Watch Alive; China Read: Trade-Tech Track Quiet Into Weekend</h3>
+<p>USD/JPY through 157 keeps the BoJ-watch on intervention live -- the recent intervention threshold cluster has been 158-160. Friday's session pushed back into the active-watch zone. China desk: trade-tech track was quiet into the weekend, with no major incremental headlines beyond the standing tariff baseline. Watch for weekend Chinese news on tech export controls or the WTO/dispute track.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Friday Asian-session FX reads</div>
+</div>
+<div class="card"><div class="card-tag">Middle East / Energy</div>
+<h3>Crude Selloff vs OPEC+ Backdrop; Brent Off $120 Peak Cluster -- Premium Consolidation Without OPEC+ Action</h3>
+<p>Brent has now retraced from the late-April $120 intraday tag to a $107 close. The retracement has occurred without any incremental OPEC+ supply action -- it is purely a geopolitical-premium compression following Trump's &quot;terminated&quot; declaration. The next scheduled OPEC+ ministerial is the June 1 JMMC. If the Hormuz blockade posture is formally maintained while the military campaign winds down, the structural shipping-route premium ($5-10/bbl) should remain even as the kinetic-escalation tail (additional $10-15) compresses.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Energy/OPEC tracking</div>
+</div>
+</div>
+</div>
+
+<div class="tab-panel" id="panel-automotive">
+<div class="section-label">Automotive -- Run #48</div>
+
+<div class="card-grid">
+<div class="card"><div class="card-tag">Auto Macro</div>
+<h3>WTI -3% to $101.94 / Brent ~$107: Energy Cost Tailwind for Auto OEMs Despite Hormuz Backdrop</h3>
+<p>Friday's WTI -2.98% selloff to $101.94 and Brent retracement to ~$107 reduces the near-term input cost pressure on auto manufacturers (logistics, freight, plastic feedstocks, aluminum smelting). The Iran &quot;terminated&quot; declaration is the proximate driver. Auto OEM margins had been compressing through Q1 on combined Hormuz-premium oil + ISM Prices Paid manufacturing input cost spike (now 84.6, highest since Apr 2022). Net Friday: oil tailwind partially offsets the ISM-prices headwind.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Auto sector input-cost tracking Fri 5/1</div>
+</div>
+<div class="card"><div class="card-tag">EV / Tariffs</div>
+<h3>June 1 EU-Greenland 25% Tariff Escalation 4 Weeks Out; Auto Cross-Border Margin Watch</h3>
+<p>The June 1 EU-Greenland tariff escalation (10% -&gt; 25%) is 4 weeks out and is the next scheduled cross-border auto-margin event. The ISM Prices Paid spike to 84.6 is the early signal that producer-side cost pass-through is intensifying. EV manufacturers with EU-Greenland-sourced critical minerals and battery-cell supply chains are the most exposed. Watch for OEM commentary on Q2 calls about tariff mitigation strategies in the May earnings cycle.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Auto/tariff cross-watch tracking</div>
+</div>
+<div class="card"><div class="card-tag">Q1 Earnings</div>
+<h3>Auto Sector Q1 Earnings Cycle: Mid-Tier OEM Prints Continue Mon-Fri Next Week</h3>
+<p>The auto-sector Q1 earnings cycle continues into the week of May 4. Mid-tier OEM prints (Ford, GM follow-ups, suppliers) are scheduled across Mon-Fri. The two key questions to track: (1) Q1 margin compression from Hormuz-driven input-cost pass-through, and (2) Q2 guide framing around the June 1 EU-Greenland tariff step. The ISM Prices Paid 84.6 print Friday is the macro context every auto CFO will be pointed at by sell-side analysts.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Auto Q1 calendar tracking</div>
+</div>
+<div class="card"><div class="card-tag">EV Demand</div>
+<h3>Crude Selloff and Dovish Rate Backdrop Net-Constructive for ICE Demand; EV Story Unchanged</h3>
+<p>The crude selloff modestly reduces the consumer-facing fuel-cost case for EV switching at the margin -- a small ICE-demand tailwind. The dovish-then-mildly-hawkish rate backdrop (10Y 4.38%) keeps auto-loan financing rates in the same range. Net: the Q1 EV-demand story remains unchanged, but the very-near-term ICE/EV substitution math at the dealer floor softens slightly with WTI back to $101 from the $107 cluster.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Auto/EV substitution tracking</div>
+</div>
+<div class="card"><div class="card-tag">Supply Chain</div>
+<h3>Hormuz Blockade Structurally Intact Despite &quot;Terminated&quot; Campaign; Shipping-Route Premium Persists</h3>
+<p>The formal Hormuz blockade posture is reportedly maintained even as the military campaign is &quot;terminated.&quot; For automotive supply chains the implication is that shipping-route premium (insurance, routing, transit time) for any Mideast-routed components/feedstocks remains structurally elevated -- distinct from the kinetic-escalation tail risk that compressed Friday. Auto supply chains with rare-earth or feedstock dependence routed through the Strait will continue to absorb the premium.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Auto supply-chain Hormuz tracking</div>
+</div>
+<div class="card"><div class="card-tag">Sector Tape</div>
+<h3>Auto Sub-Sector Friday Read: Mixed -- DJIA -0.31% Suggests Drag, But Russell +0.46% Supports Mid-Cap Suppliers</h3>
+<p>Friday's tape: DJIA was the only laggard (-0.31%), suggesting some drag from energy/industrial complex (oil-services down with crude), while Russell 2K +0.46% supports the mid-cap auto-supplier names. Net: auto sector tape was mixed-to-soft on Friday despite the broad SPX/NDX record close, a signature consistent with the Hormuz-premium compression hitting energy/industrials more than tech/services. Position sizing into the May earnings cycle should reflect the persistent cost pass-through risk into Q2.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Sector breadth read Fri 5/1</div>
+</div>
+</div>
+</div>
+
+<div class="tab-panel" id="panel-mechanics">
+<div class="section-label">Market Mechanics &amp; Microstructure -- Run #48</div>
+
+<div class="card-grid">
+<div class="card"><div class="card-tag">Curve</div>
+<h3>10Y 4.38% (-1bp) / 30Y 4.97% (-2bp): Bull-Flatten Continues; 5s30s Compresses Modestly</h3>
+<p>Friday's curve action: 10Y 4.38% (-1 bp from 4.39); 30Y 4.97% (-2 bp from 4.99); 2Y est 3.81 (unch); 5Y est 4.01 (unch). The continued bull-flattening is consistent with the GDP miss / Core PCE in-line / ISM Prices spike combination -- a market that is pricing slower growth at the long end while keeping the short-end anchored to Fed-pause expectations. 5s30s compressed marginally. The 30Y print of 4.97% remains close to the 5%-handle psychological resistance.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Friday curve session reads</div>
+</div>
+<div class="card"><div class="card-tag">VIX / Vol</div>
+<h3>VIX 16.99 (+0.10) -- Calm Into Weekend; Implied Vol Term Structure Re-Steepens Mildly</h3>
+<p>VIX closed 16.99 (+0.10) -- broadly unchanged at a calm-tape level. The very modest uptick suggests participants added some weekend hedge as Iran/Russia geopolitical track stays live. VVIX (vol of vol) likely held in the 90-95 range on a quiet tape day. The implied-vol term structure re-steepened mildly -- a slight contango re-establishment after Thu's flattening. Net: vol regime is resolutely contained even at SPX/NDX record highs, a structural tell that systematic vol-control funds remain heavily allocated.</p>
+<div class="card-meta"><span class="card-source-dot"></span>VIX session read Fri 5/1</div>
+</div>
+<div class="card"><div class="card-tag">FedWatch Internals</div>
+<h3>FedWatch Slight Hawkish Reset: YE26 Cuts -0.092 -&gt; -0.052; Dec 9 Hike Tail Expanded to 9.20 from 5.78</h3>
+<p>The Friday CME FedWatch reset was the cleanest single-session example of how a Prices-Paid spike re-asserts the hawkish risk. Implied YE26 cuts moved -0.092 -&gt; -0.052 (~+1 bp). The mechanically interesting move is the Dec 9 hike-tail expansion: from 5.78% (Thu) to 9.20% (Fri). The market is pricing back in some non-trivial Q4 hike risk if ISM Prices Paid (84.6, highest since Apr 2022) translates to Core PCE/CPI in the May/June data print cycle. Jun 17 unchanged at hold 94.41 / cut 5.59.</p>
+<div class="card-meta"><span class="card-source-dot"></span>CME FedWatch reportingDt 2026-05-01</div>
+</div>
+<div class="card"><div class="card-tag">Breadth</div>
+<h3>SPX New ATH on Decent But Not Stellar Breadth; DJIA Lone Laggard at -0.31% on Energy Drag</h3>
+<p>SPX/NDX printed record highs on decent but not stellar breadth -- the divergence with DJIA (-0.31%) reflects the energy-sector drag from the Iran &quot;terminated&quot; / WTI -3% selloff. Russell +0.46% participated. NYSE A/D was net positive but not a blowout. The structural read: tech/services drove the leg even as the Dow was held back by integrated energy (XOM/CVX -36/-45% YoY profit prints) and oil-services exposure. Healthy enough to hold record highs into the weekend, but breadth is the watch-item if Mon ISM Services prints soft.</p>
+<div class="card-meta"><span class="card-source-dot"></span>NYSE breadth read Fri 5/1</div>
+</div>
+<div class="card"><div class="card-tag">Cross-Asset</div>
+<h3>BTC +2.51% to $78,194.91 (Polygon X:BTCUSD): Crypto Extends Dovish-Reset Bid as Equities Print ATH</h3>
+<p>BTC put in the largest single-session move of the week Friday: Thu close $76,282.66 -&gt; Fri close $78,194.91 (+2.51%). Polygon timestamp 2026-05-01T23:59:59Z; open $76,312.90 / high $78,961.14 / low $76,275.01. The session high tagged $78,961 just shy of the $79,000 round level. The cross-asset signal is consistent: BTC is trading as a high-beta dovish-reset / risk-on instrument, accelerating into the SPX/NDX record close even as the marginal FedWatch read flipped slightly hawkish.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Polygon X:BTCUSD daily aggs</div>
+</div>
+<div class="card"><div class="card-tag">Volume / Tape</div>
+<h3>Friday Tape: Constructive but Energy Drag Limited Net Gain; Sector Rotation Clear: Tech &gt; Energy</h3>
+<p>Friday's session was constructive at the headline level (SPX/NDX ATH) but the index-level net gain was modest because the Dow energy-component drag offset broader strength. Sector rotation: tech &gt; staples &gt; financials &gt; industrials &gt; energy. The Iran &quot;terminated&quot; / WTI selloff was the cleanest sector-rotation catalyst of the week. Volume reads: typical Friday afternoon participation, no signal-quality compression. Setup into Mon: the SPX 7,230 ATH is the new psychological reference; ISM Services + Factory Orders are the next pivot.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Tape/volume read Fri 5/1</div>
+</div>
+</div>
+</div>
+
+<div class="tab-panel" id="panel-research">
+<div class="section-label">Research &amp; Themes -- Run #48</div>
+
+<div class="card-grid">
+<div class="card"><div class="card-tag">Best April Since 2020</div>
+<h3>Statistical Read: SPX/Nasdaq Best April Since 2020 -- Historic Comp Implies Constructive May Setup</h3>
+<p>April 2026 closes as the best April for SPX and Nasdaq since 2020 (the COVID-rebound month). The historical April-May seasonal carry pattern after a strong April has typically been positive but with elevated path-volatility -- May has historically been one of the more variance-heavy months even when the trend is constructive. The combination of record-high April closes + ISM Prices Paid 84.6 spike makes the path question (vol) more important than the level question (return) into May.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Historical seasonality / Apr-May reads</div>
+</div>
+<div class="card"><div class="card-tag">AAPL Q3 Acceleration</div>
+<h3>AAPL Q3 Guide +14-17% YoY vs +9.5% Cons: Services Step-Up Thesis -- Best Single-Day Reaction of Cycle</h3>
+<p>The AAPL Q3 (FY26) revenue guide of +14-17% YoY versus consensus +9.5% is a clean acceleration relative to Q2's +17% print. The market read on Friday (+3% session) was the largest single-day positive reaction of the Q1 earnings cycle for the name -- a market endorsement of the Services-step-up thesis. The structural question for the second half: whether the Services Run-rate ($30.98B Q2 -&gt; $124B annualized) has compounding 17% growth potential into FY27 or whether the Q3 guide reflects a one-quarter pull-forward.</p>
+<div class="card-meta"><span class="card-source-dot"></span><a href="https://www.cnbc.com/2026/05/01/apple-stock-rallies-on-q2-earnings-and-q3-guidance.html" target="_blank">CNBC</a></div>
+</div>
+<div class="card"><div class="card-tag">Inflation Pass-Through</div>
+<h3>ISM Prices 84.6 = Q1 Tariff/Hormuz Pass-Through Signature; Watch May/June Core PCE/CPI for Translation</h3>
+<p>The ISM Prices Paid sub-index jump from 78.3 to 84.6 in April -- the highest reading since April 2022 -- is the cleanest tariff/Hormuz cost pass-through signature in the data. The research question for May: does the Prices Paid spike translate to consumer-facing inflation in the May/June Core PCE / CPI prints, or does it stay bottled up in goods-margin compression (visible in XOM -45% / CVX -36% YoY profit prints)? The translation rate determines whether FedWatch keeps re-pricing toward the Dec hike-tail (now 9.20% vs 5.78% Thu).</p>
+<div class="card-meta"><span class="card-source-dot"></span>ISM/PCE pass-through framework</div>
+</div>
+<div class="card"><div class="card-tag">Geopolitical De-Escalation</div>
+<h3>Two-Track De-Escalation: Iran &quot;Terminated&quot; + Putin May 9 Ceasefire = Net Reduction in Geopolitical Premium</h3>
+<p>The simultaneous unfolding of two geopolitical de-escalation tracks -- Trump's Iran &quot;terminated&quot; declaration as 60-day clock expires + Putin's May 9 Victory Day ceasefire proposal -- represents a meaningful reduction in the geopolitical premium across crude (WTI -3%, Brent -2.15% Friday) and broader risk markets. The Russia/Ukraine track has a 7-day-out trackable deadline (May 9). The Iran track has the formal-blockade-posture overhang that keeps a structural premium even if kinetic-tail compresses.</p>
+<div class="card-meta"><span class="card-source-dot"></span><a href="https://www.npr.org/2026/05/01/g-s1-119659/zelenskyy-seeking-details-of-putins-ceasefire-proposal" target="_blank">NPR</a></div>
+</div>
+<div class="card"><div class="card-tag">Energy Margins</div>
+<h3>XOM/CVX Q1 Earnings Down 45% / 36% YoY Despite Higher Oil: Hormuz Timing Hit Margins, Not Revenues</h3>
+<p>The ExxonMobil and Chevron Q1 prints reveal a structural tell: Hormuz-premium reflation can be a profit headwind rather than tailwind for downstream-heavy integrated majors when timing on refining and trading lags spot price moves. XOM EPS $1.00 ($2.09 ex-items), earnings $4.2B (-45% YoY); CVX -36% YoY. The thesis question: if Brent has now retraced from $120 to $107 (with Iran de-escalation), does that smooth out Q2 timing or create a fresh round of inventory-mark losses? Watch CVX/XOM Q2 commentary.</p>
+<div class="card-meta"><span class="card-source-dot"></span><a href="https://investor.exxonmobil.com/company-information/press-releases/detail/1204/exxonmobil-announces-first-quarter-2026-results" target="_blank">ExxonMobil IR</a></div>
+</div>
+<div class="card"><div class="card-tag">Crypto / BTC</div>
+<h3>BTC +2.51% to $78,194.91 -- Largest Single-Session of Week as Equities Print ATH; Risk-On Beta</h3>
+<p>BTC's Friday session move of +2.51% to $78,194.91 (Polygon X:BTCUSD) was the largest single-session move of the week and confirmed BTC's continued role as a high-beta dovish-reset / risk-on instrument that tracks the SPX/NDX record close even when the marginal FedWatch read tilts slightly hawkish. The high-print of $78,961 tagged just below the $79,000 round level. Watch for $80,000 attempt into Mon if Asia takes the bid into Sun-night session.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Polygon X:BTCUSD daily aggs</div>
+</div>
+</div>
+</div>
+
+<div class="tab-panel" id="panel-sentiment">
+<div class="section-label">Sentiment &amp; Positioning -- Run #48</div>
+
+<div class="sentiment-hero">
+<div class="gauge-wrap">
+<svg viewBox="0 0 200 120" xmlns="http://www.w3.org/2000/svg">
+<path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="#E8E8E4" stroke-width="14" stroke-linecap="round"/>
+<path d="M 20 100 A 80 80 0 0 1 180 100" fill="none" stroke="#2D8A4E" stroke-width="14" stroke-linecap="round" stroke-dasharray="251" stroke-dashoffset="100"/>
+<circle cx="100" cy="100" r="3" fill="#2D6A4F"/>
+<line x1="100" y1="100" x2="148" y2="56" stroke="#2D6A4F" stroke-width="2" stroke-linecap="round"/>
+</svg>
+<div class="gauge-score">60</div>
+<div class="gauge-label">Greed</div>
+<div class="gauge-sub">CNN Fear &amp; Greed (last update on Fri close baseline)</div>
+</div>
+<div class="sentiment-hist">
+<div class="hist-row"><span class="hist-label">Previous Close (Thu 4/30)</span><span class="hist-val">58 <span class="hist-badge badge-greed">Greed</span></span></div>
+<div class="hist-row"><span class="hist-label">1 Week Ago</span><span class="hist-val">42 <span class="hist-badge badge-fear">Fear</span></span></div>
+<div class="hist-row"><span class="hist-label">1 Month Ago</span><span class="hist-val">31 <span class="hist-badge badge-fear">Fear</span></span></div>
+<div class="hist-row"><span class="hist-label">1 Year Ago</span><span class="hist-val">52 <span class="hist-badge badge-neutral">Neutral</span></span></div>
+</div>
+</div>
+
+<div class="card-grid">
+<div class="card"><div class="card-tag">Tape Sentiment</div>
+<h3>SPX/NDX Record Close Pushes Sentiment Toward Greed; VIX 16.99 Stays Calm</h3>
+<p>Friday's record-high close on SPX (7,230.12) and NDX (27,710.36) plus the best April since 2020 has pushed near-term sentiment toward the Greed end of the spectrum. CNN F&amp;G ticking up to ~60 from ~58 Thu (Greed range). VIX 16.99 (+0.10) confirms the calm-tape posture. The 1-month read (April 1: ~31 Fear) shows just how far sentiment has moved -- a textbook April rebound from tariff/capex/GDP-fear lows to record-high greed in 30 sessions.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Sentiment composite Fri 5/1 baseline</div>
+</div>
+<div class="card"><div class="card-tag">Positioning</div>
+<h3>Systematic Vol-Control Funds: Heavily Allocated; CTA Trend Models Long Equities Net</h3>
+<p>The contained VIX regime (16.99 with SPX/NDX at record highs) is a structural tell that systematic vol-control funds remain heavily allocated. CTA trend models are net long equities given the 1-month uptrend. The risk is the standard one: a vol shock or a Mon ISM Services / Factory Orders miss could trigger systematic-deleveraging from the heavily-allocated base. Watch breadth into Mon -- DJIA -0.31% Friday is the only flag from the cash session.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Systematic positioning trackers</div>
+</div>
+<div class="card"><div class="card-tag">Options Flow</div>
+<h3>VIX Term Structure Re-Steepens Mildly Friday; SPX 7,200 Strike Pinned for Quarterly Cycle</h3>
+<p>Vol term structure re-steepened mildly Friday after Thu's flattening -- a slight contango re-establishment consistent with the calm tape and SPX/NDX record close. SPX 7,200 strike is a quarterly-cycle pin reference; Friday closed 7,230.12, just above. Skew is moderate -- weekend hedging demand is in the tape but not extreme. Mon ISM Services is the Vol pivot.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Options/vol surface read Fri 5/1</div>
+</div>
+<div class="card"><div class="card-tag">Investor Surveys</div>
+<h3>Sentiment Surveys: Bull/Bear Spread Stays Constructive Post-AAPL; April Rebound Locked In</h3>
+<p>The retail-facing AAII Bull/Bear and the Investors Intelligence Bull/Bear surveys are likely to print constructively this week given the April record-high finish. The 1-month sentiment improvement (from ~31 to ~60) is roughly 1.5-2.0 standard deviations -- a meaningful regime change from early-April fear. Watch for any institutional-survey drift toward extreme bullishness as the contrarian signal.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Sentiment-survey tracking framework</div>
+</div>
+</div>
+</div>
+
+<div class="tab-panel" id="panel-economics">
+<div class="section-label">Economics &amp; Calendar -- Run #48</div>
+
+<div class="econ-narrative">
+<h3>Macro Narrative: ISM 52.7 / Prices 84.6 = Stagflation-Lite Path; Fed Pivot Question Sharpens</h3>
+<p>Friday's ISM Manufacturing print is the cleanest stagflation-lite reading in the data: headline 52.7 (4th expansion month), New Orders 54.1 (demand intact), but Employment 46.4 (31st month contraction) and Prices Paid 84.6 (highest since Apr 2022). The Q1 GDP advance 2.0% miss + Core PCE 0.30% MoM in-line print combined with this ISM read produces the classic stagflation-lite path: growth slowing modestly, inflation pass-through intensifying on tariff/Hormuz combined input shock. The FedWatch slight-hawkish reset Friday (-0.052 vs -0.092 cuts; Dec hike tail 9.20 vs 5.78) is the market re-pricing this risk back into the curve. Powell-to-Warsh handoff May 15 inherits this narrative.</p>
+</div>
+
+<table class="econ-cal">
+<thead><tr><th>Date / Time (ET)</th><th>Event</th><th>Importance</th><th>Cons</th><th>Prior</th></tr></thead>
+<tbody>
+<tr><td><strong>Sun May 3 (Today)</strong></td><td class="cal-event">Cash markets closed; ES/NQ/YM/RTY futures reopen 6 PM ET -- first read on EU 25% auto tariffs, Germany 5K drawdown, Lebanon escalation</td><td>--</td><td>--</td><td>--</td></tr>
+<tr><td><strong>Mon May 4 9:45 AM</strong></td><td class="cal-event">S&amp;P Global Services PMI Final April</td><td><span class="cal-key">KEY</span></td><td>TBC</td><td>TBC</td></tr>
+<tr><td><strong>Mon May 4 10:00 AM</strong></td><td class="cal-event">ISM Services PMI April</td><td><span class="cal-key">KEY</span></td><td>TBC</td><td>TBC</td></tr>
+<tr><td><strong>Mon May 4 10:00 AM</strong></td><td class="cal-event">Factory Orders March</td><td>Med</td><td>TBC</td><td>TBC</td></tr>
+<tr><td><strong>Tue May 5</strong></td><td class="cal-event">Trade Balance March; broader S&amp;P 500 mid-tier earnings continue</td><td>Med</td><td>TBC</td><td>TBC</td></tr>
+<tr><td><strong>Wed May 6</strong></td><td class="cal-event">No first-tier scheduled; consumer-credit Mar</td><td>Low</td><td>TBC</td><td>TBC</td></tr>
+<tr><td><strong>Thu May 7</strong></td><td class="cal-event">Initial Jobless Claims week ending May 2; Wholesale Inventories Mar</td><td>Med</td><td>TBC</td><td>TBC</td></tr>
+<tr><td><strong>Fri May 8</strong></td><td class="cal-event">No first-tier scheduled; geopolitical: Russia/Ukraine May 9 ceasefire deadline +1 day</td><td>--</td><td>--</td><td>--</td></tr>
+</tbody>
+</table>
+
+<div class="section-sublabel">FedWatch Implied Path (CME OAuth, reportingDt 2026-05-01)</div>
+
+<div class="fw-meeting">
+<div class="fw-header"><div class="fw-date">Jun 17, 2026</div><div class="fw-implied">Hold 94.41% / Cut 5.59% / Hike 0.00%</div></div>
+<div class="fw-bar-bg"><div class="fw-bar-hold" style="width:94.41%">94.4 hold</div><div class="fw-bar-cut" style="width:5.59%">5.6</div></div>
+</div>
+
+<div class="fw-meeting">
+<div class="fw-header"><div class="fw-date">Jul 29, 2026</div><div class="fw-implied">Hold 88.36% / Cut 11.64% / Hike 0.00%</div></div>
+<div class="fw-bar-bg"><div class="fw-bar-hold" style="width:88.36%">88.4 hold</div><div class="fw-bar-cut" style="width:11.64%">11.6</div></div>
+</div>
+
+<div class="fw-meeting">
+<div class="fw-header"><div class="fw-date">Sep 16, 2026</div><div class="fw-implied">Hold 84.63% / Cut 15.37% / Hike 0.00%</div></div>
+<div class="fw-bar-bg"><div class="fw-bar-hold" style="width:84.63%">84.6 hold</div><div class="fw-bar-cut" style="width:15.37%">15.4</div></div>
+</div>
+
+<div class="fw-meeting">
+<div class="fw-header"><div class="fw-date">Oct 28, 2026</div><div class="fw-implied">Hold 83.08% / Cut 15.04% / Hike 1.87%</div></div>
+<div class="fw-bar-bg"><div class="fw-bar-hold" style="width:83.08%">83.1 hold</div><div class="fw-bar-cut" style="width:15.04%">15.0</div><div class="fw-bar-hike" style="width:1.87%">1.9</div></div>
+</div>
+
+<div class="fw-meeting">
+<div class="fw-header"><div class="fw-date">Dec 9, 2026</div><div class="fw-implied">Hold 77.01% / Cut 13.79% / Hike 9.20%</div></div>
+<div class="fw-bar-bg"><div class="fw-bar-hold" style="width:77.01%">77.0 hold</div><div class="fw-bar-cut" style="width:13.79%">13.8</div><div class="fw-bar-hike" style="width:9.20%">9.2</div></div>
+</div>
+
+<div style="font-size:.78rem;color:var(--text-secondary);margin-top:1rem;line-height:1.6">YE26 implied: <strong>-0.052 cuts</strong> (vs -0.092 prior, ~+1bp hawkish reset). Current Fed Funds band 3.50-3.75% (lowerRt=350). The Dec 9 hike-tail expanded materially in 24h: 5.78 -&gt; 9.20. The dovish enthusiasm from Thu has cooled as ISM Prices Paid 84.6 reasserted the inflation pass-through risk.</div>
+
+<div class="card-grid" style="margin-top:1.25rem">
+<div class="card"><div class="card-tag">Q1 GDP Recap</div>
+<h3>Q1 Advance GDP 2.0% (Released Wed Apr 30); Headline March PCE 3.2% YoY; Core PCE 0.30% MoM</h3>
+<p>The Q1 GDP advance print of 2.0% (released earlier in the week) was a clean rebound from Q4's 0.5% but missed the 2.2-2.3% consensus cluster. PCE Q1 4.5%; GDP Price Index 3.6%. Headline March PCE 3.2% YoY; Core PCE March 0.30% MoM. The combination defined the FedWatch dovish-reset Thursday that has now partially reversed Friday on ISM Prices Paid 84.6.</p>
+<div class="card-meta"><span class="card-source-dot"></span><a href="https://www.bea.gov/data/gdp/gross-domestic-product" target="_blank">BEA</a></div>
+</div>
+<div class="card"><div class="card-tag">UMich</div>
+<h3>UMich Final April Sentiment (Released Fri AM): Inflation Expectations Watch -- Composite Hold</h3>
+<p>UMich Final April Sentiment was released Friday morning. The 1-year inflation expectations and 5-10y inflation expectations are the most-watched sub-indices given the ISM Prices Paid 84.6 print. Final April Sentiment composite held at the prior preliminary level. Watch for any incremental UMich commentary into Tuesday from the survey-team blog post.</p>
+<div class="card-meta"><span class="card-source-dot"></span>UMich Survey Research Center</div>
+</div>
+</div>
+</div>
+
+<div class="tab-panel" id="panel-dailyshot">
+<div class="section-label">Daily Shot -- Run #48</div>
+
+<div class="card-grid">
+<div class="card"><div class="card-tag">Saturday Edition</div>
+<h3>Daily Shot Saturday May 2 Edition: Expected Coverage Post-Record-Close + ISM Prices Spike + Iran De-Escalation</h3>
+<p>Today's Daily Shot is expected to lead with the SPX/NDX record close and best-April-since-2020 framing, the ISM Manufacturing 52.7 / Prices 84.6 stagflation-lite pair, the AAPL +3% on Q3 guide acceleration, the Trump Iran &quot;terminated&quot; declaration impact on crude (WTI -3% to $101.94), the Putin May 9 ceasefire proposal, and the FedWatch slight-hawkish reset (-0.052 vs -0.092). XOM/CVX -45/-36% YoY profits despite higher oil. Mon May 4 ISM Services + Factory Orders are the next pivot.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Daily Shot framework expected 5/2</div>
+</div>
+<div class="card"><div class="card-tag">Top Charts to Watch</div>
+<h3>Top Charts to Watch -- Sat May 2 7 AM ET</h3>
+<p>(1) ISM Prices Paid 78.3 -&gt; 84.6: highest since Apr 2022; the cleanest tariff/Hormuz pass-through signature. (2) FedWatch YE26 -0.092 -&gt; -0.052 in 24h (slight hawkish reset). (3) SPX/NDX record-close composite: best April since 2020. (4) WTI/Brent retraces post-Iran &quot;terminated&quot;: WTI $107 -&gt; $101.94, Brent $109 -&gt; $107. (5) AAPL Q3 guide +14-17% vs +9.5% cons -- best single-day reaction of cycle. (6) BTC Polygon $76,282.66 -&gt; $78,194.91 (+2.51% Friday). (7) XOM/CVX Q1 profits -45%/-36% YoY despite higher oil -- Hormuz timing structural read.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Daily Shot chart structure expected 5/2</div>
+</div>
+<div class="card"><div class="card-tag">Sector Watch</div>
+<h3>Sector Read: Tech Leading, Energy Drag, Russell Participating; Auto Cross-Watch Mixed</h3>
+<p>Friday sector behavior: Tech (NDX +0.94%) led on AAPL +3% lift; Energy was the clear drag (DJIA -0.31% on XOM/CVX softness + WTI -3%); Russell 2K +0.46% participated. Auto cross-watch mixed: WTI tailwind on input costs but ISM Prices 84.6 producer-side headwind. Financials: 10Y 4.38% / 30Y 4.97% bull-flatten supports duration-positive insurers; regional bank read modest. Healthcare unchanged. Consumer staples held.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Sector tape Fri 5/1</div>
+</div>
+<div class="card"><div class="card-tag">Bond Market</div>
+<h3>Curve: 2Y 3.81 / 5Y 4.01 / 10Y 4.38 / 30Y 4.97 -- Bull-Flatten Continues; 5s30s Compresses</h3>
+<p>The bond curve continues its bull-flattening pattern: 2Y 3.81 unch, 5Y 4.01 (+/-), 10Y 4.38 (-1bp), 30Y 4.97 (-2bp). 5s30s compressed mildly. The structural read: market pricing slower long-term growth (long end rallying) while short end stays anchored to Fed-pause expectations. The Dec 9 hike-tail expanded back to 9.20% Friday, but the full 2026 strip is still dovish-leaning at -0.052 net cuts implied. TLT $85.62 (-0.09%).</p>
+<div class="card-meta"><span class="card-source-dot"></span>Bond curve session reads</div>
+</div>
+</div>
+</div>
+
+<div class="tab-panel" id="panel-fundradar">
+<div class="section-label">Fund Radar -- Run #48</div>
+
+<div class="handoff-placeholder">
+<div class="hp-icon">--</div>
+<h3>Fund Radar Handoff Document Was Not Located</h3>
+<p>A scan of the connected Drive folder did not surface a Fund Radar handoff document with a 2026-05-02 date. The most recent located handoff is FundRadar_2026-05-01.html (yesterday's). The standalone Fund Radar site renders with the same placeholder pending a fresh handoff.</p>
+</div>
+
+<div class="card-grid">
+<div class="card"><div class="card-tag">Standalone</div>
+<h3>Standalone Fund Radar Site</h3>
+<p>The standalone Fund Radar deployment is published with a matching placeholder for today. Once a 2026-05-02 handoff is published to the Drive folder, the next morning build will pick it up automatically and re-deploy with the full content.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Standalone Fund Radar (deployed alongside this build)</div>
+</div>
+</div>
+</div>
+
+<div class="tab-panel" id="panel-retailedge">
+<div class="section-label">RetailEdge -- Run #48</div>
+
+<div class="handoff-placeholder">
+<div class="hp-icon">--</div>
+<h3>RetailEdge Handoff Document Was Not Located</h3>
+<p>A scan of the connected Drive surfaced the RetailEdge tracking sheet (last modified 2026-05-01) but no fresh 2026-05-02 daily handoff document. This panel renders with placeholder pending a fresh build hand-off.</p>
+</div>
+
+<div class="card-grid">
+<div class="card"><div class="card-tag">Pipeline</div>
+<h3>Pipeline Reminder</h3>
+<p>The RetailEdge daily produces a same-day intel handoff into this morning brief. When the daily is dropped into the connected Drive folder, the next morning build will pick it up automatically and replace this placeholder with the full handoff content.</p>
+<div class="card-meta"><span class="card-source-dot"></span>RetailEdge tracking sheet last modified 2026-05-01</div>
+</div>
+</div>
+</div>
+
+</div>
+
+<footer>
+WSC Morning Station &mdash; Run #48 &mdash; Sunday, May 3, 2026 &mdash; Built 7:01 AM EDT &mdash; SPX/Nasdaq Holding ATH Into May; Trump 25% EU Auto Tariffs Take Effect This Week; Trump 5K Troop Withdrawal From Germany; Israeli Strikes Kill 41+ in S. Lebanon Despite Apr 16 Ceasefire; Iran Day 61; Putin May 9 Ceasefire vs Zelenskyy 30-day push; BTC Polygon Sat $78,679.99 (+0.62%); ISM Prices 84.6 overhang; FedWatch unchanged.
+</footer>
+
+<script>
+function toggleTheme(){
+  document.body.classList.toggle("dark");
+}
+function showTab(id){
+  document.querySelectorAll(".tab").forEach(function(t){ t.classList.remove("active"); });
+  document.querySelectorAll(".tab-panel").forEach(function(p) { p.classList.remove("active"); });
+  event.target.classList.add("active");
+  var panel = document.getElementById("panel-" + id);
+  if(panel) panel.classList.add("active");
+}
+function scrollTabs(amount){
+  var bar = document.getElementById("tabBar");
+  if(bar) bar.scrollBy({left:amount, behavior:"smooth"});
+}
+(function(){
+  var bar = document.getElementById("tabBar");
+  if(!bar) return;
+  var leftA = document.querySelector(".tab-arrow-left");
+  var rightA = document.querySelector(".tab-arrow-right");
+  function update(){
+    if(!leftA||!rightA) return;
+    if(bar.scrollLeft > 4) leftA.classList.add("visible"); else leftA.classList.remove("visible");
+    var maxScroll = bar.scrollWidth - bar.clientWidth;
+    if(bar.scrollLeft < maxScroll - 4) rightA.classList.add("visible"); else rightA.classList.remove("visible");
+  }
+  bar.addEventListener("scroll", update);
+  window.addEventListener("resize", update);
+  update();
+})();
+</script>
+</body>
+</html>
