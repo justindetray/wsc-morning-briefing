@@ -1,41 +1,76 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WSC Fund Radar -- Monday May 4, 2026</title>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WSC Fund Radar -- Tuesday May 5, 2026</title>
 <style>
-:root{--bg:#FAFAF7;--bg-card:#fff;--text:#1A1A1A;--text-secondary:#666;--border:#E5E5E0;--accent:#1A3A5C}
+:root{--bg:#FAFAF7;--bg-card:#fff;--text:#1A1A1A;--text-secondary:#666;--border:#E5E5E0;--accent:#1A3A5C;--up:#2D8A4E;--down:#B8252F}
 *{box-sizing:border-box;margin:0;padding:0}
 body{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;padding:2rem 1rem}
 .wrap{max-width:880px;margin:0 auto}
-.masthead{border-bottom:2px solid var(--accent);padding-bottom:1rem;margin-bottom:2rem}
+.masthead{border-bottom:2px solid var(--accent);padding-bottom:1rem;margin-bottom:2rem;display:flex;justify-content:space-between;align-items:flex-end}
 .masthead h1{font-size:1.5rem;letter-spacing:.04em;color:var(--accent);font-weight:600}
 .masthead .date{color:var(--text-secondary);font-size:.85rem;margin-top:.25rem;text-transform:uppercase;letter-spacing:.08em}
-.card{background:var(--bg-card);border:1px solid var(--border);border-radius:6px;padding:2rem;margin-bottom:1.25rem}
-.card h2{font-size:1.1rem;color:var(--accent);margin-bottom:.75rem;font-weight:600}
-.card p{color:var(--text-secondary);font-size:.95rem;margin-bottom:.75rem}
-.muted{color:var(--text-secondary);font-size:.85rem;font-style:italic}
-.flag{background:#FEF3C7;border:1px solid #F59E0B;color:#92400E;padding:.6rem .85rem;border-radius:6px;font-size:.85rem;margin-bottom:1rem}
+.masthead .back{color:var(--accent);text-decoration:none;font-size:.85rem;font-weight:600}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:6px;padding:1.5rem 1.75rem;margin-bottom:1.25rem}
+.card h2{font-size:1.05rem;color:var(--accent);margin-bottom:.75rem;font-weight:600;letter-spacing:.02em}
+.card p{color:var(--text-secondary);font-size:.92rem;margin-bottom:.6rem}
+.card p strong{color:var(--text)}
+.muted{color:var(--text-secondary);font-size:.82rem;font-style:italic}
+.up{color:var(--up);font-weight:600}.down{color:var(--down);font-weight:600}
+table{width:100%;border-collapse:collapse;margin-top:.5rem;font-size:.88rem}
+th,td{padding:.45rem .55rem;text-align:left;border-bottom:1px solid var(--border)}
+th{background:#F5F5F0;color:var(--text);font-weight:600}
 .footer{margin-top:2rem;padding-top:1rem;border-top:1px solid var(--border);color:var(--text-secondary);font-size:.8rem;text-align:center}
 </style></head><body><div class="wrap">
-<div class="masthead"><h1>WSC FUND RADAR</h1><div class="date">Monday, May 4, 2026 -- Run #49</div></div>
-<div class="flag"><strong>Handoff missing 3rd consecutive day</strong> (5/2, 5/3, 5/4). Upstream Fund Radar agent has not delivered to the Drive folder. Operator should check the upstream cron health.</div>
+<div class="masthead"><div><h1>WSC FUND RADAR</h1><div class="date">Tuesday, May 5, 2026 -- Run #50</div></div><a class="back" href="../">&laquo; Back to Morning Briefing</a></div>
+
 <div class="card">
-<h2>Awaiting Today's Handoff</h2>
-<p>The Fund Radar handoff document for May 4, 2026 has not been delivered to the Drive folder. This is the third consecutive missing day -- prior runs on 5/2 and 5/3 were also without a handoff.</p>
-<p class="muted">Most recent published version: FundRadar_2026-05-01.html (Friday close).</p>
+<h2>Theme: Energy Re-Rates as Strait of Hormuz Heats Up</h2>
+<p>Iran's Monday strikes on UAE oil infrastructure (Fujairah fire, Barakah tanker hit, 12 ballistic missiles intercepted) plus the launch of a US Navy escort mission through the Strait reset the energy complex overnight. WTI closed <span class="up">+4.39% to $104.32</span>; Brent +1.13% to $113.15; gasoline futures +3.98%. The shock has bled into rates: 10Y +7 bp to 4.45%, with FedWatch hike probabilities emerging meaningfully across Sep-Dec for the first time this cycle. The bid is asymmetric -- energy and inflation hedges are working; growth-cyclicals (autos, financials, transports) are softening.</p>
 </div>
+
 <div class="card">
-<h2>Friday Close Carryover (most recent published)</h2>
-<p>S&amp;P 500 closed Friday at 7,230.12 (+0.29%) -- fresh all-time high. NDX 27,710.36 (+0.94%) ATH. Nasdaq Composite 25,114.44 capped its best April since 2020. VIX 16.99. WTI $101.94 (-2.98%). Gold $4,625.60. 10Y 4.38%. DXY 98.21.</p>
-<p class="muted">Full carryover plus weekend overnight catalysts available in the Morning Briefing.</p>
+<h2>Energy & Commodity Funds -- Setup</h2>
+<table>
+<tr><th>Fund</th><th>Focus</th><th>Mon Close</th><th>Note</th></tr>
+<tr><td>XLE</td><td>S&amp;P Energy</td><td>--</td><td>WTI +4.4% Mon -- E&amp;P leverage to Brent breakouts</td></tr>
+<tr><td>XOP</td><td>S&amp;P Oil &amp; Gas E&amp;P</td><td>--</td><td>Higher beta to crude than XLE; small/mid producers</td></tr>
+<tr><td>USO</td><td>Crude oil futures</td><td>--</td><td>Direct WTI exposure -- watch contango if disruption protracted</td></tr>
+<tr><td>GLD / IAU</td><td>Gold bullion</td><td>$4,553.50 spot</td><td>Up +0.75% as safe-haven; modest given the catalyst</td></tr>
+<tr><td>UNG</td><td>Natural gas</td><td>--</td><td>European LNG dynamics if Hormuz disruption extends</td></tr>
+</table>
+<p class="muted">Levels reflect Mon May 4 close from underlying spot. ETF closing prices not refetched in this build.</p>
 </div>
+
 <div class="card">
-<h2>Mon May 4 Open Setup</h2>
-<p>AAPL Q2 beat: $111.2B revenue (+17%), EPS $2.01 (+22%), Q3 guide +14-17% YoY -- AAPL premarket ~+4%. Berkshire AGM Sunday (Greg Abel's first as CEO; $397B cash). EU 25% auto tariff implementation week begins. Iran ceasefire flagged at breaking point per Iran military. Putin May 9 / Zelenskyy 30-day standoff -- 4 trading days out. BTC Polygon X:BTCUSD Sun close $78,549.99 (+0.45% weekend; $79K resistance rejected). FedWatch unchanged from Friday.</p>
+<h2>Defense & Cybersecurity Funds</h2>
+<table>
+<tr><th>Fund</th><th>Focus</th><th>Note</th></tr>
+<tr><td>ITA / XAR</td><td>Aerospace &amp; Defense</td><td>Hormuz escort mission and ongoing Iran tensions support cycle</td></tr>
+<tr><td>HACK / CIBR</td><td>Cybersecurity</td><td>Asymmetric tail-risk hedge if conflict broadens</td></tr>
+</table>
 </div>
+
 <div class="card">
-<h2>Week Ahead Calendar</h2>
-<p><strong>Tue May 5 10am ET:</strong> ISM Services PMI April (prior 54.0). Pairs with ISM Mfg 52.7 / Prices 84.6.</p>
-<p><strong>Fri May 8 8:30am ET:</strong> Nonfarm Payrolls April -- the headline labor read.</p>
-<p><strong>Sat May 9:</strong> Putin Victory Day ceasefire deadline.</p>
-<p><strong>Mid-May:</strong> Powell-Warsh Fed Chair transition window (~May 15).</p>
+<h2>Currency & Rates Tilts</h2>
+<p><strong>USD (DXY 98.50, +0.03%):</strong> Flat overnight despite the rate move; the inflation re-pricing is offsetting any safe-haven flow. The pattern argues less for DXY tactical longs and more for selectively short EUR (auto export exposure) and selectively long JPY-cross gamma.</p>
+<p><strong>Long-end Treasuries (TLT $84.96, -0.76% Mon):</strong> 10Y 4.45% / 30Y 5.03%. The hike-probability emergence is durable until the Iran shock unwinds. Avoid duration extension on dips that rely on cut narratives -- the rate market is now pricing a HIKE more likely than a CUT for the back half.</p>
+<p><strong>2s10s:</strong> 4.45 - (2Y proxied via 5Y 4.09 - typical curve shape; estimate 2Y ~3.85). Curve steepening on the long end as inflation concern dominates.</p>
 </div>
-<div class="footer">WSC Morning Station -- Run #49 -- Monday, May 4, 2026 -- Built 7:06 AM EDT -- Awaiting Fund Radar handoff (3rd consecutive missing day)</div>
+
+<div class="card">
+<h2>BTC Tracker (Polygon X:BTCUSD)</h2>
+<table>
+<tr><th>Date</th><th>Open</th><th>High</th><th>Low</th><th>Close</th><th>%Chg vs prior</th></tr>
+<tr><td>Mon May 4</td><td>$78,547.40</td><td><strong>$80,870.30</strong></td><td>$78,169.00</td><td><span class="up">$79,830.93</span></td><td><span class="up">+1.63%</span></td></tr>
+</table>
+<p>BTC briefly tagged $80,870 -- the first print above $80K -- before fading to a $79,830 close. Crypto is behaving as a risk-on inflation hedge: rallying with energy and against duration. <strong>Watch zone:</strong> $80,400-$80,500 resistance (clean break opens $86K); $73-74K support is the structure-defining level if Hormuz tensions ease.</p>
+</div>
+
+<div class="card">
+<h2>Today's Catalysts</h2>
+<p><strong>10am ET:</strong> ISM Services PMI April (prior 56.10) and JOLTS March -- services-sector inflation pressure is the key read.</p>
+<p><strong>3-Yr Note Auction:</strong> Treasury's first leg of refunding week -- demand will be tested against the FedWatch hawkish reset.</p>
+<p><strong>UK FTSE 100 reopens</strong> after Monday's bank holiday and reacts to the EU auto tariff news.</p>
+<p><strong>Russia-Ukraine:</strong> Zelenskyy's unilateral ceasefire begins midnight tonight Kyiv time (May 5-6).</p>
+</div>
+
+<div class="footer">WSC Fund Radar -- Tuesday, May 5, 2026 -- Run #50 -- Built 7:00 AM EDT</div>
 </div></body></html>
