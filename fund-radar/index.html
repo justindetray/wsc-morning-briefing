@@ -1,13 +1,16 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WSC Fund Radar -- Tuesday May 5, 2026</title>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>WSC Fund Radar -- Wednesday May 6, 2026</title>
 <style>
 :root{--bg:#FAFAF7;--bg-card:#fff;--text:#1A1A1A;--text-secondary:#666;--border:#E5E5E0;--accent:#1A3A5C;--up:#2D8A4E;--down:#B8252F}
+[data-theme="dark"]{--bg:#1A1A1A;--bg-card:#252525;--text:#EAEAEA;--text-secondary:#999;--border:#383838;--accent:#7AB0E5}
 *{box-sizing:border-box;margin:0;padding:0}
-body{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;padding:2rem 1rem}
+body{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;padding:2rem 1rem;transition:background .2s,color .2s}
 .wrap{max-width:880px;margin:0 auto}
-.masthead{border-bottom:2px solid var(--accent);padding-bottom:1rem;margin-bottom:2rem;display:flex;justify-content:space-between;align-items:flex-end}
+.masthead{border-bottom:2px solid var(--accent);padding-bottom:1rem;margin-bottom:2rem;display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:.5rem}
 .masthead h1{font-size:1.5rem;letter-spacing:.04em;color:var(--accent);font-weight:600}
 .masthead .date{color:var(--text-secondary);font-size:.85rem;margin-top:.25rem;text-transform:uppercase;letter-spacing:.08em}
+.masthead-controls{display:flex;gap:.75rem;align-items:center}
 .masthead .back{color:var(--accent);text-decoration:none;font-size:.85rem;font-weight:600}
+.theme-toggle{background:transparent;border:1px solid var(--border);color:var(--text);padding:.3rem .65rem;border-radius:4px;cursor:pointer;font-size:.78rem}
 .card{background:var(--bg-card);border:1px solid var(--border);border-radius:6px;padding:1.5rem 1.75rem;margin-bottom:1.25rem}
 .card h2{font-size:1.05rem;color:var(--accent);margin-bottom:.75rem;font-weight:600;letter-spacing:.02em}
 .card p{color:var(--text-secondary);font-size:.92rem;margin-bottom:.6rem}
@@ -16,61 +19,62 @@ body{font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;background:
 .up{color:var(--up);font-weight:600}.down{color:var(--down);font-weight:600}
 table{width:100%;border-collapse:collapse;margin-top:.5rem;font-size:.88rem}
 th,td{padding:.45rem .55rem;text-align:left;border-bottom:1px solid var(--border)}
-th{background:#F5F5F0;color:var(--text);font-weight:600}
+th{background:var(--bg);color:var(--text);font-weight:600}
+[data-theme="dark"] th{background:#1A1A1A}
 .footer{margin-top:2rem;padding-top:1rem;border-top:1px solid var(--border);color:var(--text-secondary);font-size:.8rem;text-align:center}
 </style></head><body><div class="wrap">
-<div class="masthead"><div><h1>WSC FUND RADAR</h1><div class="date">Tuesday, May 5, 2026 -- Run #50</div></div><a class="back" href="../">&laquo; Back to Morning Briefing</a></div>
-
-<div class="card">
-<h2>Theme: Energy Re-Rates as Strait of Hormuz Heats Up</h2>
-<p>Iran's Monday strikes on UAE oil infrastructure (Fujairah fire, Barakah tanker hit, 12 ballistic missiles intercepted) plus the launch of a US Navy escort mission through the Strait reset the energy complex overnight. WTI closed <span class="up">+4.39% to $104.32</span>; Brent +1.13% to $113.15; gasoline futures +3.98%. The shock has bled into rates: 10Y +7 bp to 4.45%, with FedWatch hike probabilities emerging meaningfully across Sep-Dec for the first time this cycle. The bid is asymmetric -- energy and inflation hedges are working; growth-cyclicals (autos, financials, transports) are softening.</p>
+<div class="masthead">
+<div><h1>WSC FUND RADAR</h1><div class="date">Wednesday, May 6, 2026 -- Run #51</div></div>
+<div class="masthead-controls">
+<button class="theme-toggle" onclick="toggleTheme()">Dark mode</button>
+<a class="back" href="../">&laquo; Back to Morning Briefing</a>
+</div>
 </div>
 
 <div class="card">
-<h2>Energy & Commodity Funds -- Setup</h2>
-<table>
-<tr><th>Fund</th><th>Focus</th><th>Mon Close</th><th>Note</th></tr>
-<tr><td>XLE</td><td>S&amp;P Energy</td><td>--</td><td>WTI +4.4% Mon -- E&amp;P leverage to Brent breakouts</td></tr>
-<tr><td>XOP</td><td>S&amp;P Oil &amp; Gas E&amp;P</td><td>--</td><td>Higher beta to crude than XLE; small/mid producers</td></tr>
-<tr><td>USO</td><td>Crude oil futures</td><td>--</td><td>Direct WTI exposure -- watch contango if disruption protracted</td></tr>
-<tr><td>GLD / IAU</td><td>Gold bullion</td><td>$4,553.50 spot</td><td>Up +0.75% as safe-haven; modest given the catalyst</td></tr>
-<tr><td>UNG</td><td>Natural gas</td><td>--</td><td>European LNG dynamics if Hormuz disruption extends</td></tr>
-</table>
-<p class="muted">Levels reflect Mon May 4 close from underlying spot. ETF closing prices not refetched in this build.</p>
+<h2>Theme: Energy Reverses as Hormuz De-Escalates -- Risk-On Squeeze Across Cyclicals</h2>
+<p>Trump's Tuesday-evening pause of "Project Freedom" through the Strait of Hormuz, combined with claims of 8 Iranian boats destroyed Mon and Pakistan-mediated talks, drove a near-complete reversal of the Mon energy bid. <span class="down">WTI -11.5% to $90.20</span>; Brent -8.7% to $98.78. Equity futures ripped overnight (ES +1.39%, NQ +2.74%, RTY +3.32%) with cyclicals leading and small-caps squeezing. AMD beat Q1 ($10.25B / $1.37 EPS) and guided Q2 +46% YoY, +6.27% AH; ARM +12.80% AH on FY26 Q4. The energy complex is unwinding the geopolitical premium; growth-cyclicals (autos, financials, transports) are catching a strong bid.</p>
 </div>
 
 <div class="card">
-<h2>Defense & Cybersecurity Funds</h2>
-<table>
-<tr><th>Fund</th><th>Focus</th><th>Note</th></tr>
-<tr><td>ITA / XAR</td><td>Aerospace &amp; Defense</td><td>Hormuz escort mission and ongoing Iran tensions support cycle</td></tr>
-<tr><td>HACK / CIBR</td><td>Cybersecurity</td><td>Asymmetric tail-risk hedge if conflict broadens</td></tr>
-</table>
+<h2>Energy &amp; Commodity Funds -- Trim Setup</h2>
+<p>The Mon-Tue energy spike that took XLE/XOP/USO well above their 50-DMAs has reversed in a single overnight session. <strong>USO</strong> (United States Oil Fund) tracks WTI -- expect a -10% open print. <strong>XLE</strong> (Energy Select) likely opens -3% to -4% on the integrated names. <strong>XOP</strong> (oil &amp; gas E&amp;P) higher beta, -5% to -6% tape. The setup that mattered Monday (energy as Hormuz hedge) is now mean-reverting violently. Tactical clients holding Mon's energy adds should consider trimming back into yesterday's pre-spike levels; strategic energy positions remain valid for inflation hedging but the geopolitical premium has been recycled out.</p>
+<p class="muted">Watching: USO, XLE, XOP, OIH, FCG, AMLP. Wed open should reveal whether the WTI -11.5% futures move has been digested or whether option positioning produces a continued unwind through the morning.</p>
 </div>
 
 <div class="card">
-<h2>Currency & Rates Tilts</h2>
-<p><strong>USD (DXY 98.50, +0.03%):</strong> Flat overnight despite the rate move; the inflation re-pricing is offsetting any safe-haven flow. The pattern argues less for DXY tactical longs and more for selectively short EUR (auto export exposure) and selectively long JPY-cross gamma.</p>
-<p><strong>Long-end Treasuries (TLT $84.96, -0.76% Mon):</strong> 10Y 4.45% / 30Y 5.03%. The hike-probability emergence is durable until the Iran shock unwinds. Avoid duration extension on dips that rely on cut narratives -- the rate market is now pricing a HIKE more likely than a CUT for the back half.</p>
-<p><strong>2s10s:</strong> 4.45 - (2Y proxied via 5Y 4.09 - typical curve shape; estimate 2Y ~3.85). Curve steepening on the long end as inflation concern dominates.</p>
+<h2>AI / Semis -- AMD &amp; ARM AH Beats Anchor the NQ Squeeze</h2>
+<p><strong>AMD</strong> reported Q1 revenue $10.25B (vs $9.89B est) and EPS $1.37 (vs $1.29 est). Data Center +57% YoY to $5.8B is the headline. Q2 guide: $11.2B revenue (vs $10.52B est), implying +46% YoY at the midpoint. Lisa Su called out MI450 / Helios traction, with leading customer forecasts "exceeding our initial expectations." AMD <span class="up">+6.27% AH to $377.53</span>. <strong>ARM</strong> Q4 FY26 reported AMC; <span class="up">+12.80% AH to $235.44</span> as the company shifts business model focus. Combined, these reads keep the AI capex thesis alive and reinforce NQ leadership.</p>
+<p class="muted">Watching: SMH, SOXX, AIQ, NVDA, AVGO, MRVL, TSM ADRs. The AMD print is a strong tell that hyperscaler capex is not slowing; positions in semis ETFs should be allowed to run.</p>
 </div>
 
 <div class="card">
-<h2>BTC Tracker (Polygon X:BTCUSD)</h2>
-<table>
-<tr><th>Date</th><th>Open</th><th>High</th><th>Low</th><th>Close</th><th>%Chg vs prior</th></tr>
-<tr><td>Mon May 4</td><td>$78,547.40</td><td><strong>$80,870.30</strong></td><td>$78,169.00</td><td><span class="up">$79,830.93</span></td><td><span class="up">+1.63%</span></td></tr>
-</table>
-<p>BTC briefly tagged $80,870 -- the first print above $80K -- before fading to a $79,830 close. Crypto is behaving as a risk-on inflation hedge: rallying with energy and against duration. <strong>Watch zone:</strong> $80,400-$80,500 resistance (clean break opens $86K); $73-74K support is the structure-defining level if Hormuz tensions ease.</p>
+<h2>Small Caps -- Squeeze Setup</h2>
+<p>RTY closed Tue +3.23% to 2,845 in cash; futures another +3.32% overnight. The combined ~6.5% two-session move in a crowded short / under-positioned ETF is the cleanest squeeze setup of the spring. <strong>IWM</strong> (Russell 2000 ETF) is the proxy. Domestic-revenue tilt of small-caps means they benefit disproportionately from the Hormuz de-escalation (less FX/global sensitivity) plus any Fed-pivot re-pricing if the Hormuz oil shock fades from the inflation outlook.</p>
+<p class="muted">Watching: IWM, IJR, VBR, SLY. The catalyst chain to monitor: ADP today + NFP Friday. A weak NFP combined with this oil retracement re-opens the Fed-cut narrative and IWM has more room to run.</p>
 </div>
 
 <div class="card">
-<h2>Today's Catalysts</h2>
-<p><strong>10am ET:</strong> ISM Services PMI April (prior 56.10) and JOLTS March -- services-sector inflation pressure is the key read.</p>
-<p><strong>3-Yr Note Auction:</strong> Treasury's first leg of refunding week -- demand will be tested against the FedWatch hawkish reset.</p>
-<p><strong>UK FTSE 100 reopens</strong> after Monday's bank holiday and reacts to the EU auto tariff news.</p>
-<p><strong>Russia-Ukraine:</strong> Zelenskyy's unilateral ceasefire begins midnight tonight Kyiv time (May 5-6).</p>
+<h2>Volatility -- VIX Compression Through 16</h2>
+<p>VIX printed 16.52 (-2.19%), back below 17. The full-cycle implied vol re-pricing that took VIX above 18 on Mon's Hormuz tape has unwound in one session. <strong>VIXY</strong> / <strong>UVXY</strong> see the contango bleed accelerate; <strong>SVXY</strong> (short VIX) catches a tailwind. The opportunity for hedgers is asymmetric here: vol is cheap on a realized basis given the geopolitical / NFP / FOMC speakers calendar, but the carry cost of long-vol positions through the rest of the week is meaningful. Selective hedge entries (VXX calls, SPX puts at 2-3% OTM) make more sense than broad long-vol exposure.</p>
+<p class="muted">Watching: VIXY, UVXY, SVXY, VXX. Term structure: assess whether the front-month bid has fully unwound or if some demand persists into NFP.</p>
 </div>
 
-<div class="footer">WSC Fund Radar -- Tuesday, May 5, 2026 -- Run #50 -- Built 7:00 AM EDT</div>
-</div></body></html>
+<div class="card">
+<h2>Currency / Carry -- Yen Rally Largest of Cycle</h2>
+<p>USD/JPY 155.80 (-2.74% from Mon's 157.69). The single largest single-session yen rally of the cycle. <strong>FXY</strong> (yen ETF) prints a clean +2.7% gap up. <strong>YCS</strong> (short yen ETF) crushes -5.4% on the inverse leverage. EUR/USD 1.18 (+0.91%) and GBP 1.36 (+1.09%) confirm broad dollar weakness, with DXY -0.58% to 97.64. The clean read: yen-funded carry trades that built into Mon's WTI tape are unwinding hard. Watch 155 -- if it holds, BoJ intervention talk fades; if 152 prints, structural carry unwind continues.</p>
+<p class="muted">Watching: FXY, FXE, FXB, UUP, UDN. JPY futures (6J) for next move.</p>
+</div>
+
+<div class="footer">WSC Fund Radar -- Standalone scaffolding; subset of Morning Briefing. Run #51 -- Built 7:05 AM EDT Wed May 6, 2026.</div>
+
+</div>
+<script>
+var isDark = false;
+function toggleTheme() {
+  isDark = !isDark;
+  document.documentElement.setAttribute('data-theme', isDark ? 'dark' : 'light');
+  document.querySelector('.theme-toggle').textContent = isDark ? 'Light mode' : 'Dark mode';
+}
+</script>
+</body></html>
