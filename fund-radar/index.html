@@ -1,175 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<title>WSC Fund Radar -- Tuesday, June 16, 2026 -- Run #92 / WARSH FOMC Day 1 / Iran MoU signed Mon / Mon SPX 7,554 +1.65% NDX 30,544 +3.06% DJIA 51,671 +0.92% / VIX 16.20 / WTI $80.67 / Gold $4,362.93 / 10Y 4.47% / Tue prints Housing Starts+Permits+Import Prices / Geneva signing T-3</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WSC Fund Radar -- Monday, June 15, 2026 -- Run #91 SPECIAL PRE-FOMC</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
+<link href="https://api.fontshare.com/v2/css?f[]=general-sans@400,500,600,700&display=swap" rel="stylesheet">
 <style>
-:root{--bg:#f4f1ea;--text:#1a1a1a;--text-secondary:#555;--card-bg:#fff;--accent:#1A3A5C;--accent-2:#2D6A4F;--border:#d9d3c4;--kpi-bg:#e9e3d2;--radius:8px;--font-display:Georgia,'Times New Roman',serif;--font-body:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
-[data-theme="dark"]{--bg:#0e1117;--text:#e6e6e6;--text-secondary:#a0a0a0;--card-bg:#1c1f26;--accent:#5fa8d3;--accent-2:#7ec896;--border:#2a2f38;--kpi-bg:#262a32}
-*{box-sizing:border-box;margin:0;padding:0}
-body{font-family:var(--font-body);background:var(--bg);color:var(--text);line-height:1.55;font-size:14px;padding:1.25rem;max-width:1280px;margin:0 auto;transition:background .2s,color .2s}
-header{display:flex;justify-content:space-between;align-items:center;border-bottom:2px solid var(--accent);padding-bottom:.85rem;margin-bottom:1.1rem;flex-wrap:wrap;gap:.6rem}
-.title{font-family:var(--font-display);font-size:1.55rem;font-weight:700;color:var(--accent)}
-.date{font-size:.8rem;color:var(--text-secondary)}
-.controls{display:flex;gap:.5rem;align-items:center}
-.btn{background:var(--card-bg);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:.4rem .75rem;cursor:pointer;font-size:.72rem;font-weight:600;font-family:var(--font-body)}
-.btn:hover{border-color:var(--accent)}
-.panel{background:var(--card-bg);border:1px solid var(--border);border-radius:var(--radius);padding:1.1rem 1.3rem;margin-bottom:1rem}
-h2{font-family:var(--font-display);font-size:1.15rem;color:var(--accent);margin-bottom:.65rem;border-bottom:1px solid var(--border);padding-bottom:.35rem}
-h3{font-size:.95rem;color:var(--text);margin:.85rem 0 .35rem;font-weight:700}
-p{margin-bottom:.55rem;font-size:.82rem}
-.card{background:var(--kpi-bg);border-radius:6px;padding:.7rem .9rem;margin-bottom:.65rem;border-left:3px solid var(--accent-2)}
-.card-title{font-weight:700;font-size:.85rem;margin-bottom:.25rem;color:var(--text)}
-.card-meta{font-size:.7rem;color:var(--text-secondary);margin-bottom:.35rem}
-.tag{display:inline-block;background:var(--accent);color:#fff;font-size:.64rem;font-weight:700;text-transform:uppercase;letter-spacing:.04em;padding:.18rem .45rem;border-radius:3px;margin-right:.4rem}
-.tag-warn{background:#B8252F}
-.tag-pos{background:#2D6A4F}
-table{width:100%;border-collapse:collapse;margin:.5rem 0;font-size:.78rem}
-th,td{padding:.4rem .55rem;text-align:left;border-bottom:1px solid var(--border)}
-th{background:var(--kpi-bg);font-weight:700;font-size:.72rem;text-transform:uppercase}
-td.num{text-align:right;font-variant-numeric:tabular-nums}
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#FAFAF8;--bg-card:#FFFFFF;--text:#1A1A2E;--text-secondary:#5A5A72;
+  --accent:#2D6A4F;--accent-light:#E8F5EE;--border:#E8E8E4;
+  --kpi-bg:#F4F4F0;--tag-bg:#F0F0EC;--shadow:0 1px 3px rgba(0,0,0,0.04);
+  --shadow-hover:0 4px 12px rgba(0,0,0,0.07);
+  --font-display:'Instrument Serif',Georgia,serif;
+  --font-body:'General Sans',system-ui,-apple-system,sans-serif;
+  --radius:10px;
+}
+.dark{
+  --bg:#141418;--bg-card:#1E1E24;--text:#E8E8E4;--text-secondary:#9A9AB0;
+  --accent:#5DB88A;--accent-light:#1A2E24;--border:#2A2A34;
+  --kpi-bg:#1A1A20;--tag-bg:#24242C;--shadow:0 1px 3px rgba(0,0,0,0.2);
+  --shadow-hover:0 4px 12px rgba(0,0,0,0.3);
+}
+html{font-size:16px;-webkit-font-smoothing:antialiased}
+body{background:var(--bg);color:var(--text);font-family:var(--font-body);line-height:1.6;transition:background .3s,color .3s}
 a{color:var(--accent);text-decoration:none}
 a:hover{text-decoration:underline}
-footer{border-top:1px solid var(--border);padding-top:.7rem;margin-top:1.25rem;font-size:.7rem;color:var(--text-secondary);text-align:center}
+.masthead{text-align:center;padding:2.5rem 1rem 1.5rem;border-bottom:1px solid var(--border)}
+.masthead-logo{display:flex;align-items:center;justify-content:center;gap:.6rem;margin-bottom:.4rem}
+.masthead-logo svg{width:32px;height:32px;flex-shrink:0}
+.masthead h1{font-family:var(--font-display);font-size:2.2rem;font-weight:400;letter-spacing:-.02em;line-height:1.1}
+.masthead-date{font-size:.82rem;color:var(--text-secondary);margin-top:.35rem;letter-spacing:.04em;text-transform:uppercase}
+.masthead-controls{display:flex;align-items:center;justify-content:center;gap:.75rem;margin-top:.75rem}
+.theme-btn{background:var(--kpi-bg);border:1px solid var(--border);border-radius:20px;padding:.35rem .75rem;font-size:.78rem;color:var(--text-secondary);cursor:pointer;font-family:var(--font-body);transition:all .2s}
+.theme-btn:hover{border-color:var(--accent);color:var(--accent)}
+.tab-bar-wrap{position:relative;max-width:900px;margin:0 auto}
+.tab-bar-wrap .tab-arrow{position:absolute;top:0;bottom:2px;width:36px;display:flex;align-items:center;justify-content:center;z-index:2;cursor:pointer;font-size:1.1rem;color:var(--text-secondary);opacity:0;pointer-events:none;transition:opacity .25s}
+.tab-bar-wrap .tab-arrow:hover{color:var(--accent)}
+.tab-bar-wrap .tab-arrow.visible{opacity:1;pointer-events:auto}
+.tab-arrow-left{left:0;background:linear-gradient(90deg,var(--bg) 60%,transparent)}
+.tab-arrow-right{right:0;background:linear-gradient(270deg,var(--bg) 60%,transparent)}
+.tab-bar{display:flex;gap:0;border-bottom:2px solid var(--border);padding:0 1rem;max-width:900px;margin:0 auto;overflow-x:auto;-webkit-overflow-scrolling:touch;scroll-behavior:smooth}
+.tab-bar::-webkit-scrollbar{height:4px}
+.tab-bar::-webkit-scrollbar-track{background:var(--kpi-bg);border-radius:2px}
+.tab-bar::-webkit-scrollbar-thumb{background:var(--border);border-radius:2px}
+.tab-bar::-webkit-scrollbar-thumb:hover{background:var(--accent)}
+.tab-bar{scrollbar-width:thin;scrollbar-color:var(--border) var(--kpi-bg)}
+.tab{padding:.75rem 1.1rem;font-size:.82rem;font-weight:600;color:var(--text-secondary);cursor:pointer;border-bottom:2px solid transparent;margin-bottom:-2px;white-space:nowrap;transition:color .2s,border-color .2s;user-select:none}
+.tab:hover{color:var(--text)}
+.tab.active{color:var(--accent);border-bottom-color:var(--accent)}
+.kpi-bar{display:flex;gap:.5rem;padding:1rem;max-width:900px;margin:0 auto;overflow-x:auto;-webkit-overflow-scrolling:touch}
+.kpi-bar::-webkit-scrollbar{display:none}
+.kpi{background:var(--kpi-bg);border:1px solid var(--border);border-radius:var(--radius);padding:.6rem .85rem;min-width:120px;flex-shrink:0}
+.kpi-label{font-size:.68rem;color:var(--text-secondary);text-transform:uppercase;letter-spacing:.06em;font-weight:600}
+.kpi-value{font-size:1.05rem;font-weight:700;margin-top:.15rem}
+.kpi-change{font-size:.72rem;margin-top:.1rem}
+.kpi-up{color:#2D8A4E}.kpi-down{color:#C0392B}
+.content{max-width:900px;margin:0 auto;padding:1rem}
+.tab-panel{display:none}
+.tab-panel.active{display:block}
+.card-grid{display:grid;grid-template-columns:1fr 1fr;gap:.85rem}
+.card{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:1.1rem 1.2rem;box-shadow:var(--shadow);transition:box-shadow .2s,transform .15s}
+.card:hover{box-shadow:var(--shadow-hover);transform:translateY(-1px)}
+.card-tag{display:inline-block;font-size:.65rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;color:var(--accent);background:var(--accent-light);padding:.2rem .55rem;border-radius:4px;margin-bottom:.55rem}
+.card h3{font-family:var(--font-display);font-size:1.15rem;font-weight:400;line-height:1.3;margin-bottom:.45rem}
+.card p{font-size:.84rem;color:var(--text-secondary);line-height:1.55}
+.card-meta{display:flex;align-items:center;gap:.5rem;margin-top:.65rem;font-size:.72rem;color:var(--text-secondary)}
+.card-meta a{color:var(--accent);font-weight:500}
+.card-source-dot{width:3px;height:3px;border-radius:50%;background:var(--text-secondary);flex-shrink:0}
+.section-label{font-family:var(--font-display);font-size:1.3rem;font-weight:400;margin:1.5rem 0 .75rem;padding-bottom:.4rem;border-bottom:1px solid var(--border)}
+.section-sublabel{font-size:.82rem;font-weight:600;color:var(--text-secondary);text-transform:uppercase;letter-spacing:.05em;margin:1.25rem 0 .6rem}
+footer{text-align:center;padding:2rem 1rem;font-size:.72rem;color:var(--text-secondary);border-top:1px solid var(--border);margin-top:2rem}
+footer a{color:var(--accent)}
+.breaking-banner{background:linear-gradient(135deg,#1A3A5C 0%,#2D6A4F 100%);color:#fff;text-align:center;padding:.65rem 1rem;font-size:.82rem;font-weight:600;letter-spacing:.02em}
+.breaking-banner a{color:#FFF8E1;text-decoration:underline}
+.dark .breaking-banner{background:linear-gradient(135deg,#0F2A45 0%,#1F4D38 100%)}
+.sentiment-hero{display:flex;gap:2rem;align-items:flex-start;margin-bottom:1.5rem;flex-wrap:wrap}
+.gauge-wrap{flex:0 0 320px;text-align:center}
+.gauge-wrap svg{width:100%;max-width:320px}
+.gauge-score{font-size:2.8rem;font-weight:700;font-family:var(--font-body);line-height:1}
+.gauge-label{font-size:1rem;font-weight:600;text-transform:uppercase;letter-spacing:.06em;margin-top:.15rem}
+.gauge-sub{font-size:.75rem;color:var(--text-secondary);margin-top:.3rem}
+.sentiment-hist{flex:1;min-width:200px}
+.hist-row{display:flex;justify-content:space-between;align-items:center;padding:.45rem 0;border-bottom:1px solid var(--border);font-size:.82rem}
+.hist-row:last-child{border-bottom:none}
+.hist-label{color:var(--text-secondary)}
+.hist-val{font-weight:700}
+.hist-badge{display:inline-block;font-size:.68rem;font-weight:600;padding:.15rem .45rem;border-radius:4px;margin-left:.35rem;text-transform:uppercase;letter-spacing:.03em}
+.badge-xfear{background:#FDECEA;color:#C0392B}
+.badge-fear{background:#FFF3E0;color:#E67E22}
+.badge-neutral{background:var(--tag-bg);color:var(--text-secondary)}
+.badge-greed{background:#E8F5EE;color:#2D8A4E}
+.dark .badge-xfear{background:#3A1A1A;color:#EF9A9A}
+.dark .badge-fear{background:#3A2A1A;color:#FFCC80}
+.dark .badge-greed{background:#1A2E24;color:#81C784}
+.fw-meeting{background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius);padding:.85rem 1rem;margin-bottom:.5rem;box-shadow:var(--shadow)}
+.fw-meeting:hover{box-shadow:var(--shadow-hover)}
+.fw-header{display:flex;justify-content:space-between;align-items:center;margin-bottom:.5rem}
+.fw-date{font-weight:600;font-size:.88rem}
+.fw-implied{font-size:.75rem;color:var(--text-secondary)}
+.fw-bar-bg{height:24px;background:var(--kpi-bg);border-radius:4px;overflow:hidden;display:flex;position:relative}
+.fw-bar-hold{background:var(--accent);height:100%;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:700;color:#fff;min-width:0}
+.fw-bar-cut{background:#E67E22;height:100%;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:700;color:#fff;min-width:0}
+.fw-bar-hike{background:#9B59B6;height:100%;display:flex;align-items:center;justify-content:center;font-size:.65rem;font-weight:700;color:#fff;min-width:0}
+.econ-cal{width:100%;border-collapse:collapse;font-size:.78rem;margin-bottom:1.25rem}
+.econ-cal th{text-align:left;font-size:.68rem;text-transform:uppercase;letter-spacing:.05em;color:var(--text-secondary);font-weight:600;padding:.45rem .5rem;border-bottom:2px solid var(--border)}
+.econ-cal td{padding:.4rem .5rem;border-bottom:1px solid var(--border);vertical-align:top}
+.econ-cal tr:last-child td{border-bottom:none}
+.econ-cal .cal-event{font-weight:600;color:var(--text)}
+.econ-cal .cal-key{color:#C0392B;font-weight:700;background:#FDECEA;padding:.1rem .3rem;border-radius:3px}
+.dark .econ-cal .cal-key{color:#EF9A9A;background:#3A1A1A}
+.econ-narrative{background:var(--kpi-bg);border:1px solid var(--border);border-radius:var(--radius);padding:1rem 1.2rem;margin-bottom:1.5rem}
+.econ-narrative h3{font-family:var(--font-display);font-size:1.05rem;font-weight:400;margin-bottom:.5rem}
+.econ-narrative p{font-size:.84rem;color:var(--text-secondary);line-height:1.6}
+.handoff-placeholder{background:var(--bg-card);border:2px dashed var(--border);border-radius:var(--radius);padding:2rem 1.5rem;margin:1rem 0;text-align:center}
+.handoff-placeholder h3{font-family:var(--font-display);font-size:1.4rem;font-weight:400;margin-bottom:.5rem;color:var(--text)}
+.handoff-placeholder p{font-size:.88rem;color:var(--text-secondary);line-height:1.6;max-width:540px;margin:0 auto}
+.handoff-placeholder .hp-icon{font-family:var(--font-display);font-size:2.2rem;color:var(--accent);margin-bottom:.4rem;font-style:italic}
+@media(max-width:680px){
+  .masthead h1{font-size:1.7rem}
+  .card-grid{grid-template-columns:1fr}
+  .kpi-bar{gap:.35rem}
+  .kpi{min-width:100px;padding:.5rem .7rem}
+  .tab{padding:.65rem .9rem;font-size:.78rem}
+  .sentiment-hero{flex-direction:column;align-items:center}
+  .gauge-wrap{flex:0 0 auto;width:100%;max-width:280px}
+}
 </style>
 </head>
 <body>
-<header class="masthead">
-  <div class="masthead-title">WSC Fund Radar</div>
-  <div class="masthead-date">Monday, June 15, 2026 &mdash; 7:00 AM EDT &mdash; Run #91 SPECIAL PRE-FOMC BUILD (US-Iran peace deal REACHED Sun 6/14 PM / Geneva formal signing Fri 6/19 / Nikkei record +5% / WTI -4.6% to $80 / Gold $4,300 gap-up / Warsh inaugural FOMC Tue-Wed)</div>
-  <div class="masthead-actions">
-    <button onclick="toggleTheme()" class="theme-toggle">Dark</button>
-    <a href="../" class="back-link">Back to Briefing</a>
-  </div>
-</header>
-<main class="container">
-  <section id="panel-fundradar" class="panel">
-    <h2 class="section-title">Fund Radar -- Mon 6/15/2026 -- Pre-FOMC Day One / Deal-Realization Tape</h2>
-    <div class="card">
-      <div class="card-header">US-Iran Peace Deal Confirmed -- Signing Geneva Fri 6/19</div>
-      <div class="card-body">
-        <p>Pakistani Prime Minister Shehbaz Sharif posted on X Sunday evening: &quot;After extensive discussions, we are delighted to reveal that a Peace Deal between the United States of America and the Islamic Republic of Iran has been ACHIEVED.&quot; Iran's Supreme National Security Council and Deputy Foreign Minister Kazem Gharibabadi announced agreement on a final draft of the MoU after 15 hours of meetings with Qatari officials in Tehran.</p>
-        <p>Trump on Truth Social: &quot;The arrangement with the Islamic Republic of Iran is now finalized. I hereby fully authorize the toll-free reopening of the Strait of Hormuz and simultaneously permit the immediate cessation of the United States Naval blockade.&quot; Vice President Vance on Fox News: deal is &quot;a tremendous benefit for the American populace,&quot; framing it as the path to lower gasoline prices.</p>
-        <p><strong>Caveat per ISW June 14 Special Report:</strong> The Iranian SNSC and Gharibabadi confirmed ceasefire and US blockade lift but did NOT comment on whether Iran would re-open the strait without tolls. Iran has repeatedly emphasized that the strait is under Iranian control and part of its broader deterrence strategy. ISW assesses Iran will likely retain some management functions over the strait. This is the residual risk for the energy trade post-signing.</p>
-        <p><strong>Deal mechanics (per Pakistani and regional officials):</strong> 14-page MoU establishes 60-day post-signing framework for technical discussions on nuclear program, frozen assets, and termination of all sanctions on Iran. US sanctions on Iranian oil exports to be lifted. Strait reopens within 30 days. Deal does NOT solve thorniest issues (Iran's nuclear program, frozen assets) but offers framework for talks during the 60-day window. US and Israel appear to have fallen short of original goals of destroying Iran's missile and nuclear programs and ending support for proxies.</p>
-        <p><strong>Beirut wildcard:</strong> Israel bombed Beirut suburbs Sunday in retaliation for Hezbollah drone incursions into northern Israel. Iranian negotiator Ghalibaf said the strike could derail the deal. Three Iranian officials said Iran called off a planned attack on Israel after Trump urged restraint. Hegseth on Face the Nation: Israel's response was &quot;very measured,&quot; deal proceeds &quot;not a matter of if, but when.&quot;</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">Asia Monday: Risk-On Cascade</div>
-      <div class="card-body">
-        <p>Asia ripped on the deal confirmation:</p>
-        <ul>
-          <li><strong>Nikkei 225 +5% above 69,000</strong> -- new record highs per Trading Economics (Mitsui Mining +16.98%, Sumitomo Metal Mining +11.49%, Lasertec +10.35% as resource-import beneficiaries)</li>
-          <li><strong>Kospi +5.7%</strong> -- on top of Fri +8.4% = +14% two sessions</li>
-          <li><strong>Topix +2.6%</strong></li>
-          <li><strong>Taiwan Taiex +2.7%</strong></li>
-          <li><strong>Australia ASX200 +1.5%</strong></li>
-          <li><strong>Hong Kong Hang Seng +1%</strong></li>
-        </ul>
-        <p>ANZ desk: &quot;Markets had reacted late last week when Trump indicated a deal was close; the actual confirmation spurred a further rally.&quot; 2026 Asia outperformance theme intact -- watch SE Asian equities for second-leg benefit on lower oil prices.</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">Pre-Cash US Futures Setup</div>
-      <div class="card-body">
-        <p>ES_M26 trading 7,524 +1.18% (Boursorama Mon AM, extended from Sun PM gap +0.83% to 7,496). NQ_M26 +1.31% to 30,051 (above pivotal 30,000). YM_M26 +0.65% to 51,938. SpaceX surged 19% on debut per Saxo desk note. Note: VIX print is Fri's 17.68 (no Mon AM print yet); expected Mon open ~15-16 if futures hold.</p>
-        <p>Friday cash close reference: SPX 7,431.46 / NDX 29,635.95 / IXIC 25,888.84 / DJIA 51,202.26 / R2K 2,943.99 / VIX 17.68 -9.05%.</p>
-        <p>If ES holds 7,524 into cash open = SPX gap +1.25% to 7,524, NDX gap +1.4% to 30,050. Index-add flow window for MRVL + FLEX -&gt; S&amp;P 500 (effective Jun 22, T-7 from Mon close) provides incremental bid support. Multi-asset risk-on tape consistent with deal-realization positioning rather than overshoot.</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">BTC Polygon X:BTCUSD -- Fourth Consecutive Higher Close</div>
-      <div class="card-body">
-        <p>Sunday 6/14 daily close $65,714.29 +2.01% from open $64,367 (intraday high $65,794.40 / low $63,588, volume 8,676.67 BTC, transactions 474,173). FOURTH consecutive higher daily close after Wed sub-60K test. Cumulative four-session gain ~+10% from Wed lows. Crypto tape reading the deal realization +30-day Hormuz reopen as cleanly risk-on. Next resistance $68K (May high); support $63K (recent base).</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">Crude Sell-Off -- Two-Month Low</div>
-      <div class="card-body">
-        <p>WTI Mon AM ~$80 -4.62% (two-month low per Saxo + IC Markets desks). Brent low-$84 -3%. Crude has now drained roughly $13-14/barrel of Hormuz-premium over the past five sessions from the Thu high $94 area. If deal signs cleanly Fri 6/19 and Hormuz reopens fully within 30 days, fair value risks $75-78 handle near term. Residual risk per ISW: Iran retaining management functions could create &quot;toll&quot; friction in 30-day reopen window. Watch IRGC posture for any walk-back of Iran's reopen commitment.</p>
-        <p>Energy positioning: trim XLE/XOP to half-position now. Names most exposed: SLB, HAL, FANG, COP, CVX. Refining (PSX, VLO, MPC) less impacted as lower crude widens crack spreads -- relative rotation candidate.</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">Gold Gap-Up Despite Risk-On -- Treasury-Rally Story</div>
-      <div class="card-body">
-        <p>Gold gapped to $4,300 +1% Mon AM despite risk-on tone. Counter-intuitive at first glance, but explained by: (1) Treasury rally on Iran deal pulling real yields lower, (2) front-end Fed-cut-unwind narrative compressed but long-end disinflation-realization supportive, (3) dollar softer on deal as risk currencies rally and JPY weakens notably (Saxo). Silver firm. ETF holdings still washed out from prior 3-day outflow = positioning supportive of re-accumulation. Hold GLD/IAU core, no incremental adds at $4,300 print -- wait for retest of $4,150-4,180.</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">Rates: 10Y Toward 4.40% -- Steepening Setup</div>
-      <div class="card-body">
-        <p>10Y nearing 4.40% on Iran-deal flow. Saxo: 2yr futures up 3 ticks, 10yr futures up 12 ticks early Asian trading. Nomura: yield curve expected to STEEPEN as front-end yields fall more than long-end yields on Fed-cut unwind narrative. This is the key cross-asset insight pre-FOMC: bond futures market is now pricing potential RATE HIKE by December per ANZ + Nomura desks, even as the Fed remains on hold Wed.</p>
-        <p>SHY/VGSH &gt; TLT positioning intact. Long-end fragility persists from Thu 30Y auction tail (1.2bp tail, dealer take 14.74%) despite the deal-rally rally. 2026 dot-plot Wed expected to revise upward materially per Wells Fargo desk -- effectively eliminating previously implied cuts. Implications: TLT vulnerable to 5-7% drawdown if Warsh signals hawkish dot-plot framework.</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">VIX Compression Continues -- Vol-Targeting Mechanical Buying Active</div>
-      <div class="card-body">
-        <p>VIX 17.68 Fri (no Mon AM print yet; expected sub-16 on futures gap). At 17.68 vol-targeting gates are open and the deal-realization gap-up should re-engage CTA + vol-control flows aggressively. Mechanical equity buying alongside MRVL+FLEX index-add demand could create flow squeeze through Wed pre-FOMC. Tail risk: any Iranian official walk-back of Sunday's MoU agreement between now and Geneva Fri 6/19 = sharp vol re-build to 20+ in single session given how compressed positioning has become.</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">RetailEdge / VCX Signal Block</div>
-      <div class="card-body">
-        <p>RetailEdge gate: STATUS OPEN per VIX 17.68 below 20-line. VCX held at $39 cost basis. Deal realization unlocks RetailEdge re-engagement immediately. Mon 8:30 ET prints + Wed FOMC are the two near-term price-action waypoints. Consider scaling VCX adds on any pullback to $40-41 range if futures hold gains into cash open. ETF contrarian signals neutralized given broad risk-on tape across geographies (Asia rip, US futures rip, crypto rip).</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">Mon 6/15 ON DECK -- Last Day of Fed Blackout</div>
-      <div class="card-body">
-        <ul>
-          <li><strong>8:30 ET Retail Sales May</strong> -- consensus +0.5% MoM (prior +0.5%); core +0.5% (prior +0.7%). Control group is the read for consumer demand post hot-PPI</li>
-          <li><strong>8:30 ET Empire State Manufacturing Jun</strong> -- consensus 13.2 (prev 19.6) -- first June regional Fed survey</li>
-          <li><strong>9:15 ET Industrial Production May</strong> -- consensus +0.3% (prev +0.7%)</li>
-          <li><strong>9:15 ET Capacity Utilization May</strong> -- consensus 76.2% (prev 76.1%)</li>
-          <li><strong>10:00 ET NAHB Housing Market Index Jun</strong> -- consensus 36 (prev 37) -- builder sentiment slipping</li>
-          <li>MRVL + FLEX index-add flow window OPENS today (T-7 from Mon close, Jun 22 effective)</li>
-          <li>Watch for hawkish guests on financial media (Bullard, Mester proxies) breaking blackout</li>
-          <li>Last day of Fed blackout pre Warsh INAUGURAL FOMC Tue-Wed 6/16-17</li>
-        </ul>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">Warsh Inaugural FOMC -- The Week's Main Event</div>
-      <div class="card-body">
-        <p>Warsh INAUGURAL FOMC Tue-Wed 6/16-17. Wed 2pm ET statement + 2:30 ET presser. CME FedWatch 97.4% probability of HOLD at 3.50-3.75% target; only 2.6% probability of 25bp cut. Bond futures market is pricing potential RATE HIKE by December per ANZ + Nomura desks.</p>
-        <p>Wall Street setup per The Daily Upside: probability of hold near 99% this meeting and 92% for July. Majority of Reuters-surveyed economists expect Fed on hold throughout 2026. May headline CPI jumped to 3-year-high 4.2% (vs Fed 2% target) -- zero cover for cuts despite resilient labor market.</p>
-        <p>Wells Fargo desk: 2026 dot-plot likely to move higher, effectively eliminating previously implied rate cuts; insufficient consensus for shift to tightening bias at this stage.</p>
-        <p>Warsh's first communication priorities to watch: (1) statement language on energy disinflation pass-through post Iran deal; (2) dot-plot 2026 + 2027 medians; (3) balance-sheet QT runoff guidance; (4) any explicit acknowledgement of June PCE risk (released Jun 25). Hawkish lean = TLT down 3-5%, USD up, equities give back deal-rally; dovish lean = SPX 7,600+ retest is in play.</p>
-      </div>
-    </div>
-    <div class="card">
-      <div class="card-header">UHNW Positioning -- Pre-FOMC Mon AM</div>
-      <div class="card-body">
-        <ol>
-          <li><strong>Equity:</strong> Maintain neutral target equity allocation. Allow deal-realization gap to materialize without adding leverage into Wed FOMC. SPX 7,524 print = +1.25% gap above Fri close; do not chase.</li>
-          <li><strong>Duration:</strong> SHY/VGSH &gt; TLT. Long-end fragile from Thu 30Y auction tail. Pre-FOMC: trim TLT if held, rotate to 2-3yr Treasury exposure.</li>
-          <li><strong>Energy:</strong> Trim XLE/XOP to half-position TODAY. Refining (PSX/VLO/MPC) rotation candidate as crack spreads widen on lower crude. Reduce SLB/HAL/FANG/COP active exposure.</li>
-          <li><strong>Gold:</strong> Hold GLD/IAU core. NO incremental adds at $4,300 print. Re-accumulate on retest of $4,150-4,180.</li>
-          <li><strong>Hedges:</strong> ITA/XAR/PPA defense allocation -- prepare to trim 25% on Geneva signing confirmation Fri 6/19. Hold balance through PCE release Jun 25.</li>
-          <li><strong>Crypto:</strong> Strategic BTC core position validated by four-session +10% rip post-Wed lows. No incremental adds at $65,700; rebalance only above $68K.</li>
-          <li><strong>Cash:</strong> 5-7% dry powder retained for Mon prints + Wed FOMC volatility.</li>
-          <li><strong>Reversal triggers:</strong> Iranian official walk-back of MoU agreement, IRGC public rejection of Geneva signing, or any kinetic event in Hormuz before Fri 6/19 = full restoration of ITA/XAR/PPA + rebuild XLE/XOP.</li>
-          <li><strong>Index-add trade:</strong> MRVL + FLEX index inclusion flow window opens today -- last touch Mon close to enter at slight pre-flow discount. Effective Jun 22.</li>
-        </ol>
-      </div>
-    </div>
-  </section>
-</main>
-<footer class="site-footer">
-  <p>WSC Morning Station &middot; Wealthspire / Justin Detray &middot; Run #91 SPECIAL PRE-FOMC &middot; Mon Jun 15 2026</p>
-</footer>
-<script>
-var isDark=false;
-function toggleTheme(){
-  isDark=!isDark;
-  document.body.classList.toggle('dark', isDark);
-  var btn=document.querySelector('.theme-toggle');
-  if(btn) btn.textContent = isDark ? 'Light' : 'Dark';
-}
-</script>
+<div class="masthead">
+<div class="masthead-container">
+<div class="masthead-title">WSC Fund Radar</div>
+<div class="masthead-date">Tuesday, June 16, 2026 &mdash; 7:00 AM EDT &mdash; Run #92 WARSH FOMC Day 1 (Mon close: SPX 7,554.29 +1.65% / NDX 30,544 +3.06%; Iran MoU signed Mon electronically; Geneva ceremony Fri 6/19; WTI $80.67; Gold $4,362.93; 10Y 4.47%)</div>
+<div class="masthead-actions">
+<button class="theme-toggle" onclick="toggleTheme()">Toggle Theme</button>
+<a class="back-link" href="../">&laquo; Back to Briefing</a>
+</div>
+</div>
+</div>
+<div class="tab-panel" id="panel-fundradar">
+<div class="section-label">Fund Radar -- Fri 6/5 / NFP DAY BUILD / Thu 6/4 K-SHAPE SESSION DJIA 51,561.93 +1.72% +874 pts RECORD CLOSE / SPX 7,584.31 +0.41% / NDX 30,407.81 -0.53% / IXIC 26,830.96 -0.09% / R2K 2,935.33 +1.59% / VIX 15.40 / 10Y 4.47% -2.1bp / Brent $94.74 -3.14% / Thu Claims 225K vs 212K cons HOT MISS / Challenger 97K +16% AI 3rd month / Thu AMC LULU -13.19% AH FY guide cut / DOCU -4.30% AH beat-but-faded / CIEN +40% YoY BEAT $1.57B EPS $1.64 raised FY26 to $6.3B AI-capex bull-case validation / Polygon BTC Thu $63,795.83 -0.34% sub-$64K stabilizing 3-day -10.55% / Iran de-escalation ISW nothing significant / Hezbollah rejected Litani framework / TODAY Fri 8:30 ET May NFP cons 80-96K UE 4.3% AHE +0.3% MoM / 10:00 ET Wholesale Inv Apr / FOMC blackout begins / 11 days to Warsh FOMC -- Run #81</div>
+
+<div class="card-grid">
+
+<div class="card">
+<div class="card-tag">Universe Snapshot</div>
+<h3>NFP Day Friday / Thu K-Shape Session DJIA Record +874 pts but NDX -0.53% on AVGO -15% / LULU FY Cut vs CIEN +40% AI-Capex Validation / BTC Sub-$64K Stabilizing</h3>
+<p>Fund universe enters NFP Friday with four distinct read-throughs from Thursday&apos;s cash session and AMC. (1) <strong>The Thu cash session was decisively K-shape</strong>: DJIA <strong>51,561.93 (+1.72%, +874 pts) RECORD CLOSE</strong> per <a href="https://www.investopedia.com/stock-market-today-dow-jones-s-and-p-500-06042026-11990727">Investopedia</a> while NDX -0.53% on <strong>AVGO -15% intraday</strong>; SPX +0.41% to 7,584.31, IXIC -0.09%, R2K +1.59% to 2,935.33. Old-economy cyclicals + financials carried the index while AI-capex cohort digested AVGO&apos;s FY26 AI reaffirmation gap. (2) <strong>Thu AMC delivered three distinct cohort signals</strong>: LULU FY26 revenue guide CUT to $11.0-11.15B from $11.15-11.3B (flat-to-down 1% vs 2025), op margin -380bp, EPS to $10.95-11.15 from $14.58-14.78 on "negative brand commentary" plus underperforming product launches in North America -- <strong>stock -13.19% AH</strong> per <a href="https://www.marketbeat.com/earnings/reports/2026-6-4-lululemon-athletica-inc-stock/">MarketBeat</a>. DOCU Q1 beat with strong margins (non-GAAP op 32% +250bp, FCF margin 35%) but stock <strong>-4.30% AH</strong> on growth deceleration concerns. <strong>CIEN delivered the AI-capex bull-case validation</strong>: Q2 revenue $1.57B vs $1.50B cons (+40% YoY), adj EPS $1.64 vs $1.46, AOM 19.5% vs 8.2%, raised FY26 to $6.3B from $6.18B (+32% YoY) per <a href="https://www.stocktitan.net/sec-filings/CIEN/8-k-ciena-corp-reports-material-event-26f71311f5b9.html">SEC 8-K via StockTitan</a> -- the optical-networking complement to AVGO came in cleanly, partially unwinding the AI-capex multiple compression. (3) <strong>BTC Polygon Thu close $63,795.83 (-0.34%)</strong> stabilized after Wed -4.04% but tested $61,256 low intraday; 3-day Mon-Thu now -10.55% from $71,322; sub-$60K remains next regime-shift threshold. (4) <strong>Iran kinetic premium unwound</strong>: Brent $94.74 (-3.14%) per <a href="https://tradingeconomics.com/commodity/brent-crude-oil">Trading Economics</a> on Israel-Lebanon ceasefire framework signed June 3 (Hezbollah rejected June 4 but no new strikes reported per <a href="https://understandingwar.org/research/middle-east/iran-update-special-report-june-4-2026/">ISW June 4</a>). <strong>Fri 8:30 ET May NFP cons 80-96K, UE 4.3%, AHE +0.3% MoM</strong> is the primary catalyst.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Investopedia Thu close / MarketBeat AMC / StockTitan CIEN 8-K / Trading Economics Brent / ISW Iran update</div>
+</div>
+
+<div class="card">
+<div class="card-tag tag-warn">NFP Day Setup</div>
+<h3>Fri 8:30 ET May NFP Cons 80-96K UE 4.3% AHE +0.3% MoM -- Post-ADP 122K Beat the Bar for Upside is Raised / 110K+ Likely Tests 4.50% on 10Y / Last Pre-FOMC Marquee Print</h3>
+<p><strong>The Wed-Thu macro carry-in</strong>: ADP May 122K BEAT vs 110K cons (strongest since January 2025), ISM Services 54.5 BEAT vs 53.8 cons (23rd consecutive expansion, Prices 71.3 HOT), Beige Book 10/12 districts expanding versus 8 prior. Thu added a hot Initial Claims miss (<strong>225K vs 212K cons</strong>, prior 212K per <a href="https://fred.stlouisfed.org/series/ICSA">FRED</a>) and Challenger May 97K (+16% MoM, AI cited as leading cause for 3rd consecutive month, tech alone +38K highest since March 2023) per <a href="https://finance.yahoo.com/economy/article/layoff-announcements-tick-higher-in-may-with-ai-as-the-leading-cause-093000409.html">Yahoo</a>. The marginal-buyer narrative is now: services-sector hiring is re-tightening and services-sector pricing remains elevated, but the layoff announcements signal cyclical-cooling underneath. <strong>Fri NFP framing</strong>: (1) <strong>Bull-of-bulls (110K+ NFP, UE sub-4.3%, AHE +0.4%+)</strong> -- decisively reinforces hot-economy thesis, 10Y likely tests 4.50% (currently 4.47% per <a href="https://ycharts.com/indicators/10_year_treasury_rate">YCharts</a>), Warsh FOMC dialogue pivots to hawkish-hold framing through year-end, equity duration trade compresses further. (2) <strong>Consensus (~85K, UE 4.3%, AHE +0.3%)</strong> -- partially unwinds ADP-driven curve repricing; 10Y can fade toward 4.40%; cohort-rotation continues with Thu&apos;s K-shape pattern (DJIA records on cyclicals + financials, NDX trades on individual stories). (3) <strong>Dovish (60-70K, UE 4.4%, AHE +0.2%)</strong> -- partially unwinds hot-economy narrative, 10Y back to 4.35-4.40%, dec-cut probabilities lift, opens reflation-into-FOMC trade. <strong>11 days to Warsh inaugural FOMC Jun 16-17</strong>; FOMC blackout begins post-NFP Friday evening -- today&apos;s print is the priors-anchoring data for Powell&apos;s successor.</p>
+<div class="card-meta"><span class="card-source-dot"></span>FRED Claims / Yahoo Challenger / YCharts 10Y / 11 days to FOMC / NFP day primary catalyst</div>
+</div>
+
+<div class="card">
+<div class="card-tag tag-warn">AI-Capex Cohort -- CIEN Validation</div>
+<h3>CIEN Q2 BEAT $1.57B +40% YoY / Adj EPS $1.64 vs $1.46 / AOM 19.5% vs 8.2% / Raised FY26 to $6.3B from $6.18B -- The AI-Capex Bull-Case Validation Post AVGO -11% AH Gap</h3>
+<p>Per <a href="https://www.stocktitan.net/sec-filings/CIEN/8-k-ciena-corp-reports-material-event-26f71311f5b9.html">CIEN 8-K via StockTitan</a> + <a href="https://ca.finance.yahoo.com/news/ciena-reports-fiscal-q2-earnings-160200493.html">Yahoo</a>: Ciena Q2 FY26 delivered the AI-capex bull-case validation that the cohort needed after Wed&apos;s AVGO -11% AH on FY26 AI reaffirmation. <strong>Revenue $1.57B vs $1.50B cons (+39.5% YoY)</strong> -- a $71M beat versus management guide; GAAP EPS $1.49 vs $0.06 prior year; <strong>adj EPS $1.64 vs $1.46 cons (4x prior year)</strong>; <strong>adj gross margin 44.9% vs 41.0%</strong>; <strong>AOM 19.5% vs 8.2%</strong>; FCF $219M (+71% YoY); <strong>FY26 guide raised to $6.3B +/- $100M from $6.18B (+32% YoY at midpoint)</strong>; Q3 guide $1.625B +/- $50M (above consensus). Optical-networking growth +42% YoY, routing-switching $174.2M -- the cloud-provider AI-capex pipeline at the optical interconnect layer. <strong>Cohort read-through</strong>: (1) <strong>AVGO -15% Thursday intraday</strong> on the FY26 AI reaffirmation gap (only 1.5x H2/H1 vs hoped 2x) is partially offset by CIEN&apos;s clean beat + raise -- the optical-interconnect layer is accelerating into hyperscaler capex, validating that the buildout is happening, just not yet at the 2x H2/H1 pace AVGO had hoped to signal. (2) <strong>NVDA</strong> Aug earnings becomes the deciding print: AVGO + CIEN combined suggests the absolute-dollar growth in AI capex is intact; what&apos;s contested is the H2/H1 ramp magnitude. (3) <strong>CRDO / ANET / MRVL</strong> -- AI optical sub-cohort gets a positive read; pair-trade vs AVGO (long CRDO/CIEN vs AVGO) was the post-print play. <strong>The structural takeaway</strong>: AI-capex is bifurcating between hyperscaler-custom-silicon (AVGO Multiple compressing) and infrastructure-pick-and-shovel (CIEN/CRDO multiple holding) -- the trade is migrating up the stack.</p>
+<div class="card-meta"><span class="card-source-dot"></span>StockTitan 8-K / Yahoo proactive / 32% YoY guide raise / AOM 19.5% / optical-interconnect bull-case validated</div>
+</div>
+
+<div class="card">
+<div class="card-tag tag-warn">Athleisure / Discretionary K-Shape</div>
+<h3>LULU -13.19% AH to $108.45 / FY26 Rev Guide CUT to $11.0-11.15B (Flat-to-Down 1%) / Op Margin -380bp / EPS to $10.95-11.15 vs Prior $14.58-14.78 / N America -3% Comp -6%</h3>
+<p>Per <a href="https://www.marketbeat.com/earnings/reports/2026-6-4-lululemon-athletica-inc-stock/">MarketBeat</a> + <a href="https://www.wsj.com/business/earnings/lululemon-cuts-outlook-as-headwinds-mount-66af8d02">WSJ</a> + earnings call transcript: LULU Q1 FY26 revenue <strong>$2.47B BEAT vs $2.43B cons (+4.3% YoY)</strong>, EPS <strong>$1.69 vs $1.67 inline (vs $2.60 prior year)</strong>. <strong>The FY guide cut is the print</strong>: full-year revenue to <strong>$11.0-11.15B (flat to -1% vs 2025) from prior $11.15-11.3B</strong>; operating margin <strong>-380bp vs 2025</strong>; full-year EPS to <strong>$10.95-11.15 vs prior $14.58-14.78</strong>. North America revenue -3% (comp -6%), with US -4%, Canada -3% (-6% cc); China still +30% (+23% cc); rest of world +13%. Management cited "spikes of negative commentary in media and on social channels" hitting traffic, plus underperforming Q1 product launches; mitigation is more marketing spend, faster product chase capabilities, SKU reductions in stores, enterprise efficiency. <strong>Q2 specific guide</strong>: revenue $2.45-2.475B (down 2-3%), EPS $1.76-1.81 vs $3.10 prior year; gross margin -410bp YoY. <strong>Tariff impact</strong>: 280bp gross negative in Q1, 150bp expected Q2 (down from 280bp assumption based on prior 20% incremental rate now 10%); full-year tariff 30bp net after offsets. <strong>Stock -13.19% AH to $108.45</strong> -- the 41% YTD decline now compounds. <strong>Cohort read-through</strong>: (1) <strong>The K-shape upper-mid-tier consumer narrative</strong> from COST/ULTA Wed is now partially contradicted by LULU&apos;s North America softness -- premium-athleisure is more cyclical than club-store membership. (2) <strong>"Negative brand commentary"</strong> is an interesting language choice -- suggests social-media-driven brand erosion (politicized commentary, executive missteps, or product perception) hitting traffic. (3) <strong>Athleisure-cohort multiple compression</strong>: NKE, UA, ALO follow-through trade; the buyback-as-floor pattern that worked for ULTA does not appear to be working for LULU at this magnitude of guide cut. (4) <strong>Pair-trade opportunity</strong>: long discount/value retail (TJX, ROST, BURL) vs short premium-discretionary (LULU, NKE).</p>
+<div class="card-meta"><span class="card-source-dot"></span>MarketBeat AH / WSJ outlook cut / FY EPS -25%+ guide reduction / N America comp -6% / athleisure cohort multiple compression</div>
+</div>
+
+<div class="card">
+<div class="card-tag tag-warn">BTC / Risk Asset Mirror</div>
+<h3>Polygon BTC Thu $63,795.83 -0.34% Sub-$64K Stabilizing / Intraday Low $61,256 Tested Sub-$62K / 3-Day Decline Mon-Thu -10.55% / Sub-$60K = Next Regime-Shift Threshold</h3>
+<p>Polygon X:BTCUSD Thu 6/4 daily close: <strong>$63,795.83 (-0.34% from open $64,035)</strong>, high $64,750, low $61,256 (tested sub-$62K intraday), volume 46,807 BTC. After Wed&apos;s -4.04% the Thu print stabilized but the 3-day cumulative decline Mon-Thu is <strong>-10.55% ($71,322 -> $63,796)</strong>. <strong>Reads</strong>: (1) The intraday low at $61,256 tested but did not break the next compounded regime-shift threshold at sub-$60K -- the latter would validate the broader cross-asset bifurcation thesis on the next leg of equity vol or credit weakness. (2) The Wed -4.04% / Thu -0.34% sequence shows compressed-vol mirror function relative to equity (DJIA record Thu) is decisively severed -- BTC traded as risk-off on Wed, then independent of the Thu DJIA record. (3) The Iran de-escalation Thu likely capped further downside; if Friday NFP comes in 110K+ with sub-4.3% UE and AHE +0.4%+, the dollar pop and 10Y test of 4.50% could push BTC toward $60K. A miss to 60-70K NFP could spark the relief bounce back toward $66K. <strong>Sub-$60K compounds</strong> the regime-shift further and likely triggers the next leg of cross-asset bifurcation; sub-$66K already validated the threshold. <strong>The relevant cross-asset question for Friday post-NFP</strong>: which of these holds first -- BTC sub-$60K, 10Y at 4.50%, or VIX above 17?</p>
+<div class="card-meta"><span class="card-source-dot"></span>Polygon X:BTCUSD T+1 / 7th consecutive run / Thu low $61,256 / sub-$60K = next threshold</div>
+</div>
+
+<div class="card">
+<div class="card-tag">Rates / Duration</div>
+<h3>10Y 4.47% -2.1bp Thu / 4.50% HELD on Hot-Claims-but-De-Escalation Tape / Fri NFP Decides Whether 4.50% Tests / FOMC Blackout Begins Post-NFP</h3>
+<p>Thu close: <strong>10Y at 4.47% (-2.1bp from 4.491% Wed)</strong> per <a href="https://ycharts.com/indicators/10_year_treasury_rate">YCharts</a> -- the 4.50% threshold held despite the hot Claims miss (225K vs 212K cons), partially because Iran de-escalation removed the supply-premium tail-risk pricing. The day&apos;s curve tone: hawkish on labor data, dovish on geopolitics, net -2.1bp on 10Y. <strong>Fri NFP framing</strong>: per CME FedWatch June 17 hold at 97-99% probability remains intact -- the curve&apos;s sensitivity now sits in the 10Y testing 4.50% (currently 3bp below) and the December cut probability (currently ~45% per Polymarket aggregates). <strong>NFP scenarios</strong>: (1) Bull-of-bulls 110K+ NFP / sub-4.3% UE / AHE +0.4%+ MoM -> 10Y tests 4.50%, possibly breaks; December cut probability falls toward 35%. (2) Consensus ~85K / UE 4.3% / AHE +0.3% -> 10Y 4.40-4.50% range, December cut steady ~45%. (3) Dovish miss 60-70K / UE 4.4% / AHE +0.2% -> 10Y back to 4.35-4.40%, December cut probability lifts toward 55%. <strong>Today&apos;s 10:00 ET Wholesale Inventories April</strong> -- secondary print, tariff-induced restocking indicator. <strong>FOMC blackout begins post-NFP Friday evening</strong>; no Fed speakers between today and the Jun 16-17 Warsh inaugural FOMC. The data we see today is the priors-anchoring print for the new chair&apos;s first decision.</p>
+<div class="card-meta"><span class="card-source-dot"></span>YCharts 10Y / 4.50% held -2.1bp Thu / NFP scenarios / FOMC 11 days / blackout begins post-NFP</div>
+</div>
+
+<div class="card">
+<div class="card-tag tag-pos">Iran / Geopolitical De-Escalation</div>
+<h3>ISW June 4: "Nothing Significant to Report" on US/Israeli Strikes / Hezbollah Rejected Joint US/Israel/Lebanon Litani Withdrawal Framework / US-Iran Nuclear Talks Stalled on Lebanon Condition / Brent -3.14% Partial De-Escalation</h3>
+<p>Per <a href="https://understandingwar.org/research/middle-east/iran-update-special-report-june-4-2026/">ISW Iran Update June 4 Special Report</a>: the cycle paused. <strong>US/Israeli Air Campaign section: "Nothing significant to report."</strong> The June 3 joint US/Israel/Lebanon statement committed to a ceasefire framework conditional on Hezbollah halting all attacks and withdrawing fighters south of the Litani River; <strong>Hezbollah Secretary General Naim Qassem rejected this June 4</strong>, demanding instead a "comprehensive ceasefire" requiring Israel to cease all operations and withdraw from Lebanon. Lebanese President Aoun called the framework the "last opportunity" for resolution. The most significant overnight US-Iran development: <strong>nuclear talks remained stalled</strong> -- Iran suspended negotiations on its nuclear program until a complete Lebanon ceasefire is reached; Iranian Deputy FM Gharibabadi said Iran continues to demand the immediate release of half its frozen assets upon MOU signing, with the second half in the subsequent period. Iran reiterated its position on the Strait of Hormuz (a Voice of Iran op-ed claimed "winning cards" and that the strait&apos;s status will not return to pre-war conditions). <strong>Market translation</strong>: <strong>Brent $94.74 (-3.14%)</strong> per <a href="https://tradingeconomics.com/commodity/brent-crude-oil">Trading Economics</a> unwound roughly 1.5x Wed&apos;s +1.98% spike -- the Iran kinetic premium remains structural at the Strait of Hormuz layer but the immediate-escalation premium (Kuwait Airport, Bahrain BMs, Lexie tanker) has been partially priced out. <strong>The asymmetric setup persists</strong>: a return to kinetic strikes flips Brent back toward $100+; sustained pause with MOU progress could compress toward $90; but the no-MOU duration trade and the Hormuz binary keep the supply premium intact for weeks-to-months. <strong>For Friday positioning</strong>: oil-equity cohort (XLE, OIH) faded Thursday but the structural overhang remains a portfolio-construction consideration; gold (+1.66% Thu spot to $4,460.75) suggests safe-haven demand persists despite the de-escalation.</p>
+<div class="card-meta"><span class="card-source-dot"></span>ISW June 4 / Hezbollah rejection / Hormuz binary / Brent -3.14% unwinds 1.5x Wed spike / structural premium persists</div>
+</div>
+
+<div class="card">
+<div class="card-tag tag-pos">Hot-Labor Mixed-Signal</div>
+<h3>Thu Claims 225K vs 212K Cons HOT MISS / Challenger May 97K +16% MoM AI 3rd Consecutive Month Leading Cause / Tech Alone +38K Highest Since March 2023</h3>
+<p>Thu&apos;s labor prints delivered an internally-contradictory read. <strong>Initial Claims week ending 5/30 ACTUAL 225K vs 212K cons</strong> (prior 212K) per <a href="https://fred.stlouisfed.org/series/ICSA">FRED</a> -- a 13K jump above prior and 13K miss versus consensus; federal-employee claims rose 37 to 464 (continues post-DOGE workforce reductions tail). <strong>Challenger May ACTUAL 97,006 (+16% MoM, +14K vs Apr 83K)</strong> per <a href="https://finance.yahoo.com/economy/article/layoff-announcements-tick-higher-in-may-with-ai-as-the-leading-cause-093000409.html">Yahoo</a> -- highest May total since 2020. <strong>AI cited as leading layoff cause for 3rd consecutive month</strong>; tech sector alone <strong>+38K layoffs in May, highest monthly figure since March 2023</strong>. YTD through May 2026 ~400K positions earmarked (versus ~700K in same period 2025 -- improving on full-year base). <strong>Internal contradiction with Wed&apos;s ADP 122K beat</strong>: services-side hiring (ADP) re-tightened in May, while large-cap technology continued workforce restructuring (Challenger). This is precisely the K-shape labor read -- broad-based services hiring at the median firm, concentrated cost-cutting at the AI-transforming large-cap. <strong>Implication for Fri NFP</strong>: the ADP/Claims spread is now 113K (122K hire vs 225K claims) -- historically that&apos;s a wider spread than typical, suggesting payroll-survey volatility. The NFP base case at 80-96K embeds this duality. <strong>The clean tell will be the unemployment rate</strong>: UE held at 4.3% with consensus payrolls means churn is matched; UE tick to 4.4% with payrolls miss means the layoffs are starting to bite the household survey.</p>
+<div class="card-meta"><span class="card-source-dot"></span>FRED Claims / Yahoo Challenger / AI 3rd month / tech +38K highest since Mar 2023 / K-shape labor confirmed</div>
+</div>
+
+<div class="card">
+<div class="card-tag">Catalyst Calendar</div>
+<h3>Week Ahead -- Fri NFP Primary / FOMC Blackout Begins Post-NFP / 11 Days to Warsh Inaugural FOMC / Next Week Quiet Pre-FOMC</h3>
+<p><strong>Fri 6/5 TODAY</strong>: 8:30 ET <strong>May NFP cons 80-96K</strong>, UE cons 4.3%, AHE cons +0.3% MoM (primary week catalyst); 10:00 ET Wholesale Inventories April. <strong>FOMC blackout begins Friday evening post-NFP</strong> -- no Fed speakers between today and Jun 16-17 decision. <strong>Next week (6/8-6/12) light pre-FOMC slate</strong>: Wed 6/10 8:30 ET May CPI cons +0.2% MoM / +2.4% YoY (the other major Fed input); Thu 6/11 8:30 ET May PPI cons +0.2% MoM; Thu 6/11 8:30 ET Initial Claims wk 6/6; Fri 6/12 10:00 ET June Michigan Consumer Sentiment prelim. <strong>FOMC week (6/15-6/19)</strong>: Mon 6/15 8:30 ET Empire State Manufacturing June; Tue 6/16 8:30 ET May Retail Sales / Industrial Production / NAHB Housing; <strong>Wed 6/17 FOMC decision + Warsh press conference 2:00/2:30 PM ET</strong> -- the inaugural meeting. <strong>Curve scenarios into Warsh FOMC</strong>: (1) hot NFP + hot CPI -> hawkish-hold framing through year-end, 10Y above 4.50%, December cut probability falls toward 35%; (2) consensus NFP + cooling CPI -> dovish-hold framing, October cut signal possible, 10Y fades to 4.30-4.40%; (3) miss NFP + soft CPI -> September cut conversation re-opens, 10Y at 4.30%. <strong>Per CME FedWatch</strong>: June 17 hold ~97-99%; year-end 2026 zero-cut ~50% (Polymarket aggregates), December cut ~45-55% probability.</p>
+<div class="card-meta"><span class="card-source-dot"></span>Week ahead / FOMC blackout begins post-NFP / 11 days to FOMC / next week CPI/PPI / Warsh inaugural decision</div>
+</div>
+
+<div class="card">
+<div class="card-tag">Standalone</div>
+<h3>Standalone Fund Radar Site (Run #81)</h3>
+<p>Standalone Fund Radar deployment refreshed for Run #81 Friday NFP-day build with full universe snapshot, Thu K-shape session context (DJIA record +874 pts versus NDX -0.53% on AVGO -15%), CIEN +40% YoY AI-capex bull-case validation post AVGO -11% AH, LULU FY guide cut athleisure-cohort multiple compression, DOCU beat-but-faded extended-multiple software digestion, BTC sub-$64K stabilizing with $61K intraday test, Iran de-escalation Brent -3.14% partial unwind, Thu hot-Claims-but-Challenger-AI-3rd-month mixed labor read, and Fri 8:30 ET NFP scenarios into the 11-day countdown to Warsh inaugural FOMC. Renders independently from main briefing.</p>
+<div class="card-meta"><span class="card-source-dot"></span><a href="https://justindetray.github.io/wsc-morning-briefing/fund-radar/">Standalone Fund Radar (deployed alongside this build)</a></div>
+</div>
+
+</div>
+</div>
+<div class="footer">WSC Fund Radar Run #92 / Tue 6/16/2026 / Mon cash close + Warsh FOMC Day 1 / data via Polygon + APIs / built 11:00 UTC</div>
+<script>var isDark=false;function toggleTheme(){isDark=!isDark;document.body.classList.toggle("dark",isDark);}</script>
 </body>
 </html>
