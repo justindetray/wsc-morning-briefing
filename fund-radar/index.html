@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>WSC Fund Radar -- Fri June 19, 2026 -- Run #95 GENEVA SIGNING DAY + JUNETEENTH</title>
+<title>WSC Fund Radar -- Sat 6/20/2026 -- Run #96 POST-GENEVA WEEKEND</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
@@ -132,17 +132,15 @@ footer a{color:var(--accent)}
 </style>
 </head>
 <body>
-<header style="padding:1rem 1.5rem;border-bottom:1px solid var(--border);display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.5rem">
-  <div>
-    <div style="font-family:var(--font-display);font-size:1.4rem">WSC Fund Radar</div>
-    <div class="masthead-date" style="margin-top:.25rem">Friday, June 19, 2026 -- Run #95 GENEVA SIGNING DAY + JUNETEENTH (US Markets Closed)</div>
-  </div>
-  <div style="display:flex;gap:.75rem;align-items:center">
-    <button onclick="toggleTheme()" style="background:transparent;border:1px solid var(--border);padding:.4rem .8rem;border-radius:4px;cursor:pointer;font-family:inherit;color:inherit">Dark Mode</button>
-    <a href="../" style="color:inherit;text-decoration:none;border:1px solid var(--border);padding:.4rem .8rem;border-radius:4px">&larr; Back to Briefing</a>
-  </div>
-</header>
-<main style="padding:1.5rem;max-width:1280px;margin:0 auto">
+<div class="container">
+<div class="masthead">
+<div class="masthead-title">WSC Fund Radar</div>
+<div class="masthead-date">Saturday, June 20, 2026 -- 7:00 AM EDT -- Run #96 POST-GENEVA WEEKEND</div>
+<div style="margin-top:1rem;display:flex;gap:1rem;align-items:center;">
+<a href="https://justindetray.github.io/wsc-morning-briefing/" style="color:var(--accent);text-decoration:none;font-size:.9rem;">&larr; Back to Morning Briefing</a>
+<button onclick="toggleTheme()" style="background:var(--bg-secondary);border:1px solid var(--border);color:var(--text);padding:.4rem .8rem;border-radius:4px;cursor:pointer;font-size:.85rem;">Toggle Dark Mode</button>
+</div>
+</div>
 <div class="tab-panel" id="panel-fundradar">
 <div class="section-label">Fund Radar -- Fri 6/5 / NFP DAY BUILD / Thu 6/4 K-SHAPE SESSION DJIA 51,561.93 +1.72% +874 pts RECORD CLOSE / SPX 7,584.31 +0.41% / NDX 30,407.81 -0.53% / IXIC 26,830.96 -0.09% / R2K 2,935.33 +1.59% / VIX 15.40 / 10Y 4.47% -2.1bp / Brent $94.74 -3.14% / Thu Claims 225K vs 212K cons HOT MISS / Challenger 97K +16% AI 3rd month / Thu AMC LULU -13.19% AH FY guide cut / DOCU -4.30% AH beat-but-faded / CIEN +40% YoY BEAT $1.57B EPS $1.64 raised FY26 to $6.3B AI-capex bull-case validation / Polygon BTC Thu $63,795.83 -0.34% sub-$64K stabilizing 3-day -10.55% / Iran de-escalation ISW nothing significant / Hezbollah rejected Litani framework / TODAY Fri 8:30 ET May NFP cons 80-96K UE 4.3% AHE +0.3% MoM / 10:00 ET Wholesale Inv Apr / FOMC blackout begins / 11 days to Warsh FOMC -- Run #81</div>
 
@@ -220,16 +218,16 @@ footer a{color:var(--accent)}
 
 </div>
 </div>
-</main>
-<footer style="padding:1rem 1.5rem;border-top:1px solid var(--border);text-align:center;font-size:.85rem;opacity:.7">
-  WSC Fund Radar &middot; Standalone Build &middot; Run #95 &middot; Generated 2026-06-19
-</footer>
+<div class="footer" style="margin-top:3rem;padding-top:1.5rem;border-top:1px solid var(--border);text-align:center;color:var(--text-secondary);font-size:.85rem;">
+WSC Fund Radar -- Standalone view -- Updated daily at 7:00 AM EDT
+</div>
+</div>
 <script>
 var isDark=false;
 function toggleTheme(){
   isDark=!isDark;
-  document.body.style.background = isDark ? '#0d0d0d' : '';
-  document.body.style.color = isDark ? '#e8e8e8' : '';
+  document.documentElement.className=isDark?"dark":"";
+  document.body.className=isDark?"dark":"";
 }
 </script>
 </body>
