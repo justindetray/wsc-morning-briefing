@@ -3,22 +3,140 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>WSC Morning Briefing — Under Reconstruction</title>
+<title>WSC Morning Briefing — Wed Jun 24 2026</title>
 <style>
-  html,body{margin:0;padding:0;background:#0a0a0a;color:#e8e8e8;font:16px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;height:100%}
-  body{display:flex;align-items:center;justify-content:center;text-align:center;padding:24px}
-  .box{max-width:560px}
-  h1{font-size:22px;font-weight:600;margin:0 0 16px;color:#fafafa;letter-spacing:.02em}
-  p{margin:0 0 12px;color:#bababa}
-  .stamp{margin-top:20px;font-size:12px;color:#666;font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+.wrap{max-width:1100px;margin:0 auto;padding:18px 22px 60px}
+.masthead{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid #222;padding-bottom:10px;margin-bottom:14px}
+.masthead h1{margin:0;font-size:18px;font-weight:600;letter-spacing:.02em}
+.masthead .stamp{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11px;color:#888}
+.degraded{background:#3a1e1e;border:1px solid #6e2828;color:#ffb4b4;padding:8px 12px;border-radius:4px;margin:8px 0;font-size:12px;font-family:ui-monospace,Menlo,monospace}
+.section{margin:18px 0 8px}
+.section h2{font-size:13px;text-transform:uppercase;letter-spacing:.12em;color:#999;margin:0 0 10px;font-weight:600}
+.tape{display:grid;grid-template-columns:repeat(8,1fr);gap:6px;margin-bottom:14px}
+.tile{background:#161718;border:1px solid #242425;border-radius:4px;padding:8px 10px;min-height:80px}
+.tile.dead{background:#1f1414;border-color:#3a2020}
+.tile .sym{font-size:11px;color:#888;letter-spacing:.08em;font-weight:600}
+.tile .val{font-size:18px;font-weight:600;margin-top:3px;font-variant-numeric:tabular-nums}
+.tile .delta{font-size:12px;margin-top:2px;font-variant-numeric:tabular-nums}
+.tile .delta.up{color:#4ade80}
+.tile .delta.down{color:#f87171}
+.tile .delta.neutral{color:#888}
+.tile .meta{font-size:10px;color:#666;margin-top:3px;font-family:ui-monospace,Menlo,monospace}
+.ondeck{list-style:none;padding:0;margin:0}
+.ondeck .ev{padding:4px 0;border-bottom:1px solid #1c1d1e;font-size:13px}
+.ondeck .ev:last-child{border-bottom:none}
+.ondeck .ev.imp-high{color:#fafafa}
+.ondeck .ev.imp-medium{color:#cccccc}
+.ondeck .ev .note{color:#888;font-size:12px}
+.overnight{background:#131415;border-left:3px solid #444;padding:10px 14px;border-radius:0 4px 4px 0;color:#cccccc;font-size:13px;margin:8px 0 16px}
+.fw{width:100%;border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums}
+.fw th,.fw td{padding:5px 8px;text-align:right;border-bottom:1px solid #1c1d1e}
+.fw th:first-child,.fw td:first-child{text-align:left;font-weight:600}
+.fw thead th{color:#888;font-weight:500;text-transform:uppercase;letter-spacing:.06em;font-size:10px}
+.fw-meta{font-size:10px;color:#666;margin-top:6px;font-family:ui-monospace,Menlo,monospace}
+.fw-dead{padding:8px;color:#f87171;font-size:12px;background:#1f1414;border-radius:4px}
+.cal{width:100%;border-collapse:collapse;font-size:12px}
+.cal th,.cal td{padding:6px 8px;border-bottom:1px solid #1c1d1e;text-align:left}
+.cal th{color:#888;font-weight:500;text-transform:uppercase;letter-spacing:.06em;font-size:10px}
+.cal tr.imp-high td{background:#181818}
+.cal .muted{color:#888}
+.research{list-style:none;padding:0;margin:0}
+.research li{padding:5px 0;font-size:12px}
+.research li a{color:#9cb8ff;text-decoration:none}
+.research li a:hover{text-decoration:underline}
+.research .rdate{color:#888;font-family:ui-monospace,Menlo,monospace;margin-right:8px}
+.research .rtoken{color:#666;font-size:10px;margin-left:8px;font-family:ui-monospace,Menlo,monospace}
+.muted{color:#888;font-size:12px;padding:6px 0}
+@media (max-width:760px){
+  .tape{grid-template-columns:repeat(4,1fr)}
+}
+@media (max-width:480px){
+  .tape{grid-template-columns:repeat(2,1fr)}
+}
 </style>
 </head>
 <body>
-<div class="box">
-  <h1>WSC Morning Briefing — under reconstruction</h1>
-  <p>The previous version mixed fresh and stale data. It is being rebuilt from a clean spec.</p>
-  <p>Back online when v2 ships.</p>
-  <div class="stamp">Taken offline 2026-06-23</div>
+<div class="wrap">
+
+<div class="masthead">
+  <h1>WSC Morning Briefing — Wednesday, June 24, 2026</h1>
+  <span class="stamp">Built 07:23 ET · v2</span>
+</div>
+
+
+
+<div class="section">
+  <h2>Tape</h2>
+  <div class="tape"><div class="tile">
+  <div class="sym">ES</div>
+  <div class="val">7,450.75</div>
+  <div class="delta up">+0.18%</div>
+  <div class="meta">prev 7,437.50</div>
+</div><div class="tile">
+  <div class="sym">NQ</div>
+  <div class="val">29,785.75</div>
+  <div class="delta up">+0.40%</div>
+  <div class="meta">prev 29,666.00</div>
+</div><div class="tile">
+  <div class="sym">VIX</div>
+  <div class="val">19.15</div>
+  <div class="delta down">-1.74%</div>
+  <div class="meta">prev 19.49</div>
+</div><div class="tile">
+  <div class="sym">US10Y</div>
+  <div class="val">4.493%</div>
+  <div class="delta down">-0.35%</div>
+  <div class="meta">prev 4.509%</div>
+</div><div class="tile">
+  <div class="sym">US2Y</div>
+  <div class="val">4.207%</div>
+  <div class="delta up">+0.17%</div>
+  <div class="meta">prev 4.200%</div>
+</div><div class="tile">
+  <div class="sym">WTI</div>
+  <div class="val">71.80</div>
+  <div class="delta down">-1.93%</div>
+  <div class="meta">prev 73.21</div>
+</div><div class="tile">
+  <div class="sym">GOLD</div>
+  <div class="val">4,069.90</div>
+  <div class="delta down">-1.45%</div>
+  <div class="meta">prev 4,129.90</div>
+</div><div class="tile">
+  <div class="sym">BTC</div>
+  <div class="val">62,658</div>
+  <div class="delta up">+0.27%</div>
+  <div class="meta">prev 62,492</div>
+</div></div>
+</div>
+
+<div class="section">
+  <h2>On Deck Today</h2>
+  <ul class="ondeck"><li class="ev"><b>08:30</b> — Current Account Balance Q1 — cons -$210.6B <span class="note">(Prior -$190.7B)</span></li><li class="ev imp-medium"><b>10:00</b> — New Home Sales (May) — cons 632K SAAR (+1.6% m/m) <span class="note">(Prior 622K; MBA BAS estimate ran 642K)</span></li><li class="ev imp-high"><b>13:00</b> — Treasury 5Y Note Auction ($70B) <span class="note">(Watch tail vs Tue 2Y; 4.250-4.374% range = reopen of 7Y M-2031)</span></li></ul>
+</div>
+
+<div class="section">
+  <h2>Overnight</h2>
+  <p class="overnight">Asia: Nikkei -1.10% to 68,992, Kospi +0.50% to 8,241, Hang Seng +0.40%, Taiex -2.50%, Shanghai Comp -0.10%. Europe open: FTSE 100 +0.10%. Single names: SK Hynix -3.60% (Asia Wed); Samsung +3.70% (Asia Wed). US-Iran technical talks Day 2 in Burgenstock; Iran&#x27;s Araghchi calls deal &#x27;declaration of US defeat&#x27; per Al Jazeera. Iran top negotiator says US should be &#x27;careful&#x27; after Trump threats per The National.</p>
+</div>
+
+<div class="section">
+  <h2>FedWatch</h2>
+  <table class="fw"><thead><tr><th>Meeting</th><th>Hold</th><th>+25</th><th>+50</th><th>+75</th><th>+100</th><th>Cum hike</th></tr></thead><tbody><tr><td>2026-07-29</td><td>63.7</td><td>36.3</td><td>0.0</td><td>0.0</td><td>0.0</td><td><b>36.0</b></td></tr><tr><td>2026-09-16</td><td>29.5</td><td>51.0</td><td>19.5</td><td>0.0</td><td>0.0</td><td><b>70.0</b></td></tr><tr><td>2026-10-28</td><td>22.3</td><td>45.8</td><td>27.2</td><td>4.7</td><td>0.0</td><td><b>78.0</b></td></tr><tr><td>2026-12-09</td><td>14.3</td><td>37.3</td><td>33.8</td><td>12.8</td><td>1.7</td><td><b>86.0</b></td></tr></tbody></table><div class="fw-meta">CME cohort as of 2026-06-23</div>
+</div>
+
+<div class="section">
+  <h2>5-Day Calendar</h2>
+  <table class="cal"><thead><tr><th>Date</th><th>Time ET</th><th>Event</th><th>Consensus / Note</th></tr></thead><tbody><tr class=""><td>2026-06-24</td><td>08:30</td><td>Current Account Balance Q1</td><td class="muted">-$210.6B</td></tr><tr class="imp-medium"><td>2026-06-24</td><td>10:00</td><td>New Home Sales (May)</td><td class="muted">632K SAAR (+1.6% m/m)</td></tr><tr class="imp-high"><td>2026-06-24</td><td>13:00</td><td>Treasury 5Y Note Auction ($70B)</td><td class="muted">Watch tail vs Tue 2Y; 4.250-4.374% range = reopen of 7Y M-2031</td></tr><tr class="imp-high"><td>2026-06-24</td><td>after-close</td><td>MU (Micron Technology) earnings</td><td class="muted"></td></tr><tr class="imp-medium"><td>2026-06-25</td><td>08:30</td><td>Q1 GDP (final revision)</td><td class="muted">-0.2% SAAR</td></tr><tr class=""><td>2026-06-25</td><td>08:30</td><td>Initial Jobless Claims</td><td class="muted"></td></tr><tr class="imp-medium"><td>2026-06-25</td><td>13:00</td><td>Treasury 7Y Note Auction ($44B)</td><td class="muted"></td></tr><tr class="imp-high"><td>2026-06-26</td><td>08:30</td><td>PCE Price Index (May)</td><td class="muted">Headline +4.1 YoY</td></tr></tbody></table>
+</div>
+
+<div class="section">
+  <h2>Research</h2>
+  <ul class="research"><li><span class="rdate">2026-06-23</span> <a href="https://drive.google.com/file/d/1dmeFc9aAPq3S5iJFJigA1KncEEzr3oa7/view?usp=drivesdk">Morning Macro Brief — June 23 2026</a> <span class="rtoken">GLOBAL_TECH_SELLOFF + BURGENSTOCK_WASHINGTON_DAY1</span></li><li><span class="rdate">2026-06-22</span> <a href="https://drive.google.com/file/d/1EwomvbBJZffzildoe-9wugFcgPKuehJa/view?usp=drivesdk">Morning Macro Brief — June 22 2026</a> <span class="rtoken">BURGENSTOCK_ROADMAP_60DAY + RATE_HIKE_REPRICING + MRVL_FLEX_INCLUSION</span></li></ul>
+</div>
+
 </div>
 </body>
 </html>
