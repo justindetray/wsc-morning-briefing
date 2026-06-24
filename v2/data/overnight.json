@@ -1,0 +1,36 @@
+{
+  "as_of": "2026-06-24T07:25:00-04:00",
+  "source": "cron_run100_curator",
+  "note": "Overnight = Tue post-close (4pm ET) to Wed 7:25am ET build time. Structured facts only.",
+  "tuesday_close_recap": [
+    "SPX 7,365.46 (-1.44%) on tech-led rout; NDX -3.29%; DJIA -0.09%; Russell -1.0%",
+    "VIX 19.49 (+12.79%), largest single-day jump in months",
+    "PHLX semis SOX -7.9%; Micron -13.18% pre-earnings; SanDisk -13.64%; Lam -9.33%; NVDA -4.1%",
+    "PMIs BEAT cons: Mfg 55.7 vs 54.8 (49-mo high); Services 51.3 vs 51.0; Composite 52.2 vs 51.2 (5-mo high)",
+    "2Y auction: slightly above-average demand at cycle-high yield",
+    "Six of 11 SPX sectors green; Staples +1.78 / Health +1.37 led; Tech -3.66 / Industrials -2.03 lagged"
+  ],
+  "asia_close": [
+    {"market": "Nikkei", "level": 68991.77, "delta_pct": -1.1, "note": "extends Tue -3.6% on continued semi pressure"},
+    {"market": "Kospi", "level": 8241.23, "delta_pct": 0.5, "note": "bounce from Tue -10% crash, faded mid-session"},
+    {"market": "Hang Seng", "level": null, "delta_pct": 0.4},
+    {"market": "Taiex", "level": null, "delta_pct": -2.5, "note": "tech-heavy follow-through"},
+    {"market": "Shanghai Comp", "level": null, "delta_pct": -0.1}
+  ],
+  "europe_open": [
+    {"market": "DAX", "level": 24904.87, "delta_pct": null, "note": "stays under pressure after Tue tech selloff"},
+    {"market": "FTSE 100", "level": 10434.95, "delta_pct": 0.1, "note": "Segro +17% on rejected takeover"}
+  ],
+  "geo_headlines": [
+    "US-Iran technical talks Day 2 in Burgenstock; Iran's Araghchi calls deal 'declaration of US defeat' per Al Jazeera",
+    "Iran top negotiator says US should be 'careful' after Trump threats per The National",
+    "Pakistan FM Dar: US-Iran technical talks resume next week",
+    "Trump criticizes Congress for passing War Powers bill per RFE/RL"
+  ],
+  "single_name_moves": [
+    {"ticker": "SK Hynix", "delta_pct": -3.6, "venue": "Asia Wed", "driver": "memory chip selloff continues"},
+    {"ticker": "Samsung", "delta_pct": 3.7, "venue": "Asia Wed", "driver": "rebound from Tue plunge"},
+    {"ticker": "MU", "delta_pct": null, "venue": "earnings after-close Wed", "driver": "Q3 FY26 cons rev $34.8B / EPS $19.72; -13.18% Tue pre-print"}
+  ],
+  "headline_token": "TUESDAY_TECH_ROUT + WED_KOSPI_BOUNCE + MICRON_EARNINGS_TONIGHT + IRAN_TALKS_DAY2"
+}

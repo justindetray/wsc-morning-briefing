@@ -1,0 +1,18 @@
+{
+  "last_updated": "2026-06-24T07:25:00-04:00",
+  "note": "Lists actually-produced research docs only. Today's doc is added by the cron after the Drive export step succeeds. If no doc for today, this section just shows the prior days.",
+  "docs": [
+    {
+      "date": "2026-06-23",
+      "title": "Morning Macro Brief — June 23 2026",
+      "headline_token": "GLOBAL_TECH_SELLOFF + BURGENSTOCK_WASHINGTON_DAY1",
+      "drive_url": "https://drive.google.com/file/d/1dmeFc9aAPq3S5iJFJigA1KncEEzr3oa7/view?usp=drivesdk"
+    },
+    {
+      "date": "2026-06-22",
+      "title": "Morning Macro Brief — June 22 2026",
+      "headline_token": "BURGENSTOCK_ROADMAP_60DAY + RATE_HIKE_REPRICING + MRVL_FLEX_INCLUSION",
+      "drive_url": "https://drive.google.com/file/d/1EwomvbBJZffzildoe-9wugFcgPKuehJa/view?usp=drivesdk"
+    }
+  ]
+}
