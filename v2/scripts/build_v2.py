@@ -124,20 +124,22 @@ def render_on_deck(calendar, today_et):
     if not macro_today and not earn_today:
         return '<div class="muted">No scheduled releases.</div>'
     lines = []
-    for e in sorted(macro_today, key=lambda x: x.get("time_et", "")):
+    for e in sorted(macro_today, key=lambda x: x.get("time_et") or ""):
         cons = f" — cons {html_mod.escape(e['consensus'])}" if e.get("consensus") else ""
-        imp = e.get("importance", "low")
+        imp = e.get("importance") or "low"
         imp_cls = f" imp-{imp}" if imp in ("high", "medium") else ""
         note = f' <span class="note">({html_mod.escape(e["note"])})</span>' if e.get("note") else ""
-        lines.append(f'<li class="ev{imp_cls}"><b>{e.get("time_et","??")}</b> — {html_mod.escape(e["event"])}{cons}{note}</li>')
+        tstr = e.get("time_et") or "??"
+        ev = e.get("event") or ""
+        lines.append(f'<li class="ev{imp_cls}"><b>{tstr}</b> — {html_mod.escape(ev)}{cons}{note}</li>')
     if earn_today:
         pre = [e for e in earn_today if e.get("session") == "pre-market"]
-        post = [e for e in earn_today if e.get("session") == "after-hours"]
+        post = [e for e in earn_today if e.get("session") in ("after-hours", "after-close")]
         if pre:
             lines.append('<li class="ev"><b>Pre-mkt earnings:</b> ' +
                 ", ".join(f'{html_mod.escape(e["ticker"])} ({html_mod.escape(e["name"])})' for e in pre) + '</li>')
         if post:
-            lines.append('<li class="ev"><b>After-hours earnings:</b> ' +
+            lines.append('<li class="ev"><b>After-close earnings:</b> ' +
                 ", ".join(f'{html_mod.escape(e["ticker"])} ({html_mod.escape(e["name"])})' for e in post) + '</li>')
     return "<ul class=\"ondeck\">" + "".join(lines) + "</ul>"
 
@@ -240,19 +242,19 @@ def render_calendar(calendar, today_et):
     combined = []
     for e in macro:
         combined.append({
-            "date": e.get("date"),
-            "time": e.get("time_et", ""),
-            "event": e.get("event", ""),
+            "date": e.get("date") or "",
+            "time": e.get("time_et") or "",
+            "event": e.get("event") or "",
             "cons": e.get("consensus") or e.get("note") or "",
-            "imp": e.get("importance", "low"),
+            "imp": e.get("importance") or "low",
         })
     for e in earn:
         combined.append({
-            "date": e.get("date"),
-            "time": e.get("session", ""),
+            "date": e.get("date") or "",
+            "time": e.get("session") or "",
             "event": f"{e.get('ticker','?')} ({e.get('name','?')}) earnings",
-            "cons": "",
-            "imp": e.get("importance", "low"),
+            "cons": e.get("note") or "",
+            "imp": e.get("importance") or "low",
         })
     combined.sort(key=lambda x: (x["date"] or "", x["time"] or ""))
     for c in combined:
