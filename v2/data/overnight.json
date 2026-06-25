@@ -1,36 +1,40 @@
 {
-  "as_of": "2026-06-24T07:25:00-04:00",
-  "source": "cron_run100_curator",
-  "note": "Overnight = Tue post-close (4pm ET) to Wed 7:25am ET build time. Structured facts only.",
-  "tuesday_close_recap": [
-    "SPX 7,365.46 (-1.44%) on tech-led rout; NDX -3.29%; DJIA -0.09%; Russell -1.0%",
-    "VIX 19.49 (+12.79%), largest single-day jump in months",
-    "PHLX semis SOX -7.9%; Micron -13.18% pre-earnings; SanDisk -13.64%; Lam -9.33%; NVDA -4.1%",
-    "PMIs BEAT cons: Mfg 55.7 vs 54.8 (49-mo high); Services 51.3 vs 51.0; Composite 52.2 vs 51.2 (5-mo high)",
-    "2Y auction: slightly above-average demand at cycle-high yield",
-    "Six of 11 SPX sectors green; Staples +1.78 / Health +1.37 led; Tech -3.66 / Industrials -2.03 lagged"
+  "as_of": "2026-06-25T07:10:00-04:00",
+  "source": "cron_run101_curator",
+  "note": "Overnight = Wed cash close (4pm ET) to Thu 7:10am ET build time. Structured facts only.",
+  "wednesday_close_recap": [
+    "Mixed Wed: Dow +0.35% to 51,848.90 (+182.06); SPX -0.10% to 7,358.22; Nasdaq Comp -0.43% to 25,476.64; third straight day down for SPX/NDX",
+    "Rotation: blue chips up, semis still under pressure intraday. MRVL -9.4%, INTC -6.1%; MU finished -0.44% at $1,047.20 regular session",
+    "MU Q3 FY26 BLOWOUT after-close: rev $41.46B vs cons $35.69B (+16% beat); EPS $25.11 vs $20.49 (+22% beat); gross margin 84.9% (record); FY26 Q4 guide $50B rev / $31 EPS, both ~15-22% above consensus; MU +14.55% after-hours to ~$1,199.52",
+    "Tue 2Y auction tailed slightly; cycle-high yield demand was 'slightly above-average'",
+    "Wed 5Y $70B auction completed: prior 7Y reference yield 4.290%"
   ],
   "asia_close": [
-    {"market": "Nikkei", "level": 68991.77, "delta_pct": -1.1, "note": "extends Tue -3.6% on continued semi pressure"},
-    {"market": "Kospi", "level": 8241.23, "delta_pct": 0.5, "note": "bounce from Tue -10% crash, faded mid-session"},
-    {"market": "Hang Seng", "level": null, "delta_pct": 0.4},
-    {"market": "Taiex", "level": null, "delta_pct": -2.5, "note": "tech-heavy follow-through"},
-    {"market": "Shanghai Comp", "level": null, "delta_pct": -0.1}
+    {"market": "Nikkei", "level": 72366.34, "delta_pct": 4.60, "note": "RECORD CLOSE; Advantest +14.9%, Tokyo Electron +7.1%, snapped 2-day losing streak"},
+    {"market": "Kospi", "level": 8968.22, "delta_pct": 5.90, "note": "NEW RECORD; SK Hynix +11.6%, Samsung +5.4%; sidecar market-stabilization mechanism triggered"},
+    {"market": "Hang Seng", "level": 23090.27, "delta_pct": -1.40, "note": "regional laggard, profit-taking"},
+    {"market": "Taiex", "level": null, "delta_pct": 0.80},
+    {"market": "Shanghai Comp", "level": 4125.76, "delta_pct": 0.40},
+    {"market": "ASX 200", "level": 8768.20, "delta_pct": -0.50}
   ],
   "europe_open": [
-    {"market": "DAX", "level": 24904.87, "delta_pct": null, "note": "stays under pressure after Tue tech selloff"},
-    {"market": "FTSE 100", "level": 10434.95, "delta_pct": 0.1, "note": "Segro +17% on rejected takeover"}
+    {"market": "DAX", "level": 25068.00, "delta_pct": 0.74, "note": "futures opened firm tracking US"},
+    {"market": "FTSE 100", "level": 10493.15, "delta_pct": 0.30},
+    {"market": "Stoxx 600", "level": null, "delta_pct": 0.40, "note": "rebound from 2-day losing streak"}
   ],
   "geo_headlines": [
-    "US-Iran technical talks Day 2 in Burgenstock; Iran's Araghchi calls deal 'declaration of US defeat' per Al Jazeera",
-    "Iran top negotiator says US should be 'careful' after Trump threats per The National",
-    "Pakistan FM Dar: US-Iran technical talks resume next week",
-    "Trump criticizes Congress for passing War Powers bill per RFE/RL"
+    "US-Iran peace deal reported as concluded; Strait of Hormuz expected to reopen — driving overnight oil down >2.5%",
+    "Brent -2.5% to $81.08 / WTI -2.8% near 6-week lows; risk premium unwinding",
+    "Korean authorities activated Sidecar market-stabilization on Kospi 5%+ open surge"
   ],
   "single_name_moves": [
-    {"ticker": "SK Hynix", "delta_pct": -3.6, "venue": "Asia Wed", "driver": "memory chip selloff continues"},
-    {"ticker": "Samsung", "delta_pct": 3.7, "venue": "Asia Wed", "driver": "rebound from Tue plunge"},
-    {"ticker": "MU", "delta_pct": null, "venue": "earnings after-close Wed", "driver": "Q3 FY26 cons rev $34.8B / EPS $19.72; -13.18% Tue pre-print"}
+    {"ticker": "MU", "delta_pct": 14.55, "venue": "Wed after-hours", "driver": "Q3 blowout + $50B Q4 guide"},
+    {"ticker": "SK Hynix", "delta_pct": 11.6, "venue": "Thu Asia", "driver": "Micron-led memory rally; also launching $29.4B US ADR listing"},
+    {"ticker": "Samsung", "delta_pct": 5.4, "venue": "Thu Asia"},
+    {"ticker": "Advantest", "delta_pct": 14.9, "venue": "Thu Asia"},
+    {"ticker": "Tokyo Electron", "delta_pct": 7.1, "venue": "Thu Asia"},
+    {"ticker": "MRVL", "delta_pct": -9.4, "venue": "Wed regular"},
+    {"ticker": "INTC", "delta_pct": -6.1, "venue": "Wed regular"}
   ],
-  "headline_token": "TUESDAY_TECH_ROUT + WED_KOSPI_BOUNCE + MICRON_EARNINGS_TONIGHT + IRAN_TALKS_DAY2"
+  "headline_token": "MU_BLOWOUT + NIKKEI_KOSPI_RECORDS + IRAN_DEAL_OIL_DOWN + PCE_DAY"
 }

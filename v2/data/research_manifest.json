@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-06-24T07:25:00-04:00",
-  "note": "Lists actually-produced research docs only. Today's doc is added by the cron after the Drive export step succeeds. If no doc for today, this section just shows the prior days.",
+  "last_updated": "2026-06-25T07:10:00-04:00",
+  "note": "Lists actually-produced research docs only. Drive Doc skipped this run per Justin's directive.",
   "docs": [
     {
       "date": "2026-06-23",
