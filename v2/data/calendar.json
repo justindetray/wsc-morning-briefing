@@ -1,108 +1,76 @@
 {
-  "last_curated": "2026-06-25T07:10:00-04:00",
-  "curator": "cron_run101",
-  "note": "Macro releases + curated S&P 500 earnings. 5-day rolling window. Sources: Newsquawk daily, FRED release calendar, ActionForex, Continuum Economics, X/marketsday calendar, TreasuryDirect, MarketBeat.",
+  "last_curated": "2026-06-26T07:10:00-04:00",
+  "curator": "cron_run102",
+  "note": "Macro releases + curated S&P 500 earnings. Today + forward 5 trading days. Sources: GS Friday preview, ActionForex, MarketBeat, TreasuryDirect, Fed calendar.",
   "macro": [
     {
-      "date": "2026-06-25",
+      "date": "2026-06-26",
       "time_et": "08:30",
-      "event": "PCE Price Index (May) — headline + Core",
-      "consensus": "Headline +0.4 m/m / +4.1% YoY; Core +0.2 m/m / +3.4% YoY",
-      "importance": "high",
-      "note": "The week's main inflation read; first hard test of post-Warsh FOMC tone"
-    },
-    {
-      "date": "2026-06-25",
-      "time_et": "08:30",
-      "event": "Q1 GDP (final, third estimate)",
-      "consensus": "+1.6% SAAR (unrevised)",
+      "event": "Advance Goods Trade Balance (May)",
+      "consensus": "-$85.0B (prior -$83.0B; GS -$84.0B)",
       "importance": "medium",
-      "note": "Continuum sees marginal USD-terms upward revision but headline unchanged"
-    },
-    {
-      "date": "2026-06-25",
-      "time_et": "08:30",
-      "event": "Initial Jobless Claims (wk ending 6/20)",
-      "consensus": "225K",
-      "importance": "medium",
-      "note": "Prior 226K"
-    },
-    {
-      "date": "2026-06-25",
-      "time_et": "08:30",
-      "event": "Durable Goods Orders (May, adv)",
-      "consensus": "-4.7% headline (prior +8.0%) / +0.5% ex-transport (prior +1.1%)",
-      "importance": "medium"
-    },
-    {
-      "date": "2026-06-25",
-      "time_et": "08:30",
-      "event": "Personal Income / Spending (May)",
-      "consensus": "Income +0.4 m/m (prior 0.0); Spending +0.5 m/m (prior +0.6)",
-      "importance": "medium"
-    },
-    {
-      "date": "2026-06-25",
-      "time_et": "10:00",
-      "event": "Pending Home Sales (May)",
-      "consensus": null,
-      "importance": "low"
-    },
-    {
-      "date": "2026-06-25",
-      "time_et": "13:00",
-      "event": "Treasury 7Y Note Auction ($44B)",
-      "consensus": null,
-      "importance": "high",
-      "note": "Prior 7Y high yield 4.290%; watch tail vs Tue 2Y and Wed 5Y"
+      "note": "GS sees goods deficit widening slightly; $16B drop in gold exports offset by energy exports"
     },
     {
       "date": "2026-06-26",
       "time_et": "08:30",
-      "event": "U Michigan Sentiment (June final)",
+      "event": "Retail / Wholesale Inventories (May, adv)",
+      "consensus": null,
+      "importance": "low"
+    },
+    {
+      "date": "2026-06-26",
+      "time_et": "10:00",
+      "event": "U Michigan Consumer Sentiment (June final)",
+      "consensus": "50.0 (prior 48.9; GS 49.5). 5-10yr inflation expectations: 3.4% (GS 3.3%)",
+      "importance": "medium",
+      "note": "Post-PCE-shock read; inflation expectations the key tell"
+    },
+    {
+      "date": "2026-06-26",
+      "time_et": "11:30",
+      "event": "Fed's Kashkari (FOMC voter) speaks",
+      "consensus": null,
+      "importance": "high",
+      "note": "Aspen Ideas Festival panel; first Fed voice post-hot PCE and Apple price-shock"
+    },
+    {
+      "date": "2026-06-26",
+      "time_et": "13:00",
+      "event": "Baker Hughes Rig Count",
       "consensus": null,
       "importance": "low"
     },
     {
       "date": "2026-06-29",
       "time_et": null,
-      "event": "Quiet pre-FOMC window begins; no major US macro",
+      "event": "Quiet pre-FOMC window begins; no major US macro releases",
+      "consensus": null,
+      "importance": "low"
+    },
+    {
+      "date": "2026-06-30",
+      "time_et": "09:45",
+      "event": "Chicago PMI (June)",
+      "consensus": null,
+      "importance": "low"
+    },
+    {
+      "date": "2026-06-30",
+      "time_et": "10:30",
+      "event": "Dallas Fed Mfg Activity (June)",
       "consensus": null,
       "importance": "low"
     }
   ],
   "earnings": [
     {
-      "date": "2026-06-25",
-      "session": "pre-market",
-      "ticker": "MKC",
-      "name": "McCormick",
-      "importance": "low",
-      "note": "Q2 reported pre-mkt: GAAP EPS $0.56 (prior $0.65) / adj $0.80 (prior $0.69); reaffirmed FY26"
-    },
-    {
-      "date": "2026-06-25",
-      "session": "after-close",
-      "ticker": "DRI",
-      "name": "Darden Restaurants",
-      "importance": "medium",
-      "note": "Q4 FY26"
-    },
-    {
-      "date": "2026-06-25",
-      "session": "after-close",
-      "ticker": "AYI",
-      "name": "Acuity Brands",
-      "importance": "low",
-      "note": "Q3"
-    },
-    {
       "date": "2026-06-30",
       "session": "after-close",
       "ticker": "NKE",
       "name": "Nike",
       "importance": "high",
-      "note": "Q4 FY26 (will include tariff refund benefit not in prior guide)"
+      "note": "Q4 FY26; first under new strategy; will include tariff refund benefit not in prior guide"
     }
   ]
 }

@@ -1,40 +1,44 @@
 {
-  "as_of": "2026-06-25T07:10:00-04:00",
-  "source": "cron_run101_curator",
-  "note": "Overnight = Wed cash close (4pm ET) to Thu 7:10am ET build time. Structured facts only.",
-  "wednesday_close_recap": [
-    "Mixed Wed: Dow +0.35% to 51,848.90 (+182.06); SPX -0.10% to 7,358.22; Nasdaq Comp -0.43% to 25,476.64; third straight day down for SPX/NDX",
-    "Rotation: blue chips up, semis still under pressure intraday. MRVL -9.4%, INTC -6.1%; MU finished -0.44% at $1,047.20 regular session",
-    "MU Q3 FY26 BLOWOUT after-close: rev $41.46B vs cons $35.69B (+16% beat); EPS $25.11 vs $20.49 (+22% beat); gross margin 84.9% (record); FY26 Q4 guide $50B rev / $31 EPS, both ~15-22% above consensus; MU +14.55% after-hours to ~$1,199.52",
-    "Tue 2Y auction tailed slightly; cycle-high yield demand was 'slightly above-average'",
-    "Wed 5Y $70B auction completed: prior 7Y reference yield 4.290%"
+  "as_of": "2026-06-26T07:10:00-04:00",
+  "source": "cron_run102_curator",
+  "note": "Overnight = Thu cash close (4pm ET) to Fri 7:10am ET build time. Structured facts only.",
+  "thursday_close_recap": [
+    "Flat-to-down US Thu: SPX 7,357.49 -0.10% (4th straight loss); Nasdaq Comp -0.5%; Dow +0.1%. Apple -6.1% (~$265B mkt cap erased) on price-hike announcement offset Micron +15.7% rally",
+    "AAPL raised prices Wed evening on all Macs, iPads, home devices, Vision Pro (iPhone/Watch/AirPods unchanged) — citing 'unprecedented' memory/storage cost surge; clearest signal yet that chip cost inflation pressuring device makers",
+    "MU +15.7% closed near $1,200 on Q3 blowout follow-through",
+    "PCE May (released 8:30 Thu): Headline +4.1% YoY (up from 3.8%, multi-month high; highest since June 2023), Core +3.4% YoY (highest since Oct 2023). MoM headline +0.4%, core +0.3% in line. Consumer spending +0.5% (revised down sharply from +1.4%)",
+    "Q1 GDP final +1.6% (no major revision); Initial Claims, Durables, Personal Income/Spending all in range",
+    "7Y auction $44B: high yield 4.26% (prior 4.290%), 0.0 bp tail (vs avg 0.2 bp), bid-to-cover 2.50x — clean print",
+    "DRI Q4: Adj EPS $3.66 (beat by $0.03), Q4 SSS slowed (Olive Garden weak), raised dividend, $1.5B buyback. FY27 guide EPS $11.10-$11.35"
   ],
   "asia_close": [
-    {"market": "Nikkei", "level": 72366.34, "delta_pct": 4.60, "note": "RECORD CLOSE; Advantest +14.9%, Tokyo Electron +7.1%, snapped 2-day losing streak"},
-    {"market": "Kospi", "level": 8968.22, "delta_pct": 5.90, "note": "NEW RECORD; SK Hynix +11.6%, Samsung +5.4%; sidecar market-stabilization mechanism triggered"},
-    {"market": "Hang Seng", "level": 23090.27, "delta_pct": -1.40, "note": "regional laggard, profit-taking"},
-    {"market": "Taiex", "level": null, "delta_pct": 0.80},
-    {"market": "Shanghai Comp", "level": 4125.76, "delta_pct": 0.40},
-    {"market": "ASX 200", "level": 8768.20, "delta_pct": -0.50}
+    {"market": "Nikkei", "level": 68783.50, "delta_pct": -5.00, "note": "Down 3,583 pts from Thu record 72,366; SoftBank -12% on OpenAI IPO delay-to-2027 report; Kioxia -11.2%, Advantest -9.6%"},
+    {"market": "Kospi", "level": 8411.21, "delta_pct": -5.80, "note": "Down 519 pts; SECOND SIDECAR THIS WEEK after intraday -9%; SK Hynix -8.4%, Samsung -5.3%"},
+    {"market": "Hang Seng", "level": null, "delta_pct": -1.90},
+    {"market": "Shanghai Comp", "level": null, "delta_pct": -2.30, "note": "AI-linked equities sold off"},
+    {"market": "Taiex", "level": null, "delta_pct": -3.60, "note": "MediaTek -10%, Hon Hai -3.5%"},
+    {"market": "MSCI Asia ex-Japan", "level": null, "delta_pct": -1.70, "note": "weekly -3.4%, hit record Mon"}
   ],
   "europe_open": [
-    {"market": "DAX", "level": 25068.00, "delta_pct": 0.74, "note": "futures opened firm tracking US"},
-    {"market": "FTSE 100", "level": 10493.15, "delta_pct": 0.30},
-    {"market": "Stoxx 600", "level": null, "delta_pct": 0.40, "note": "rebound from 2-day losing streak"}
+    {"market": "DAX", "level": 24782.00, "delta_pct": -0.85, "note": "giving back Thu +1.03% to 24,995 record close"},
+    {"market": "FTSE 100", "level": null, "delta_pct": null, "note": "futures lower; Thu closed +0.65% at 10,529"},
+    {"market": "Stoxx 600", "level": null, "delta_pct": null, "note": "futures lower; Thu set fresh record close 640.21 +0.8%"}
   ],
   "geo_headlines": [
-    "US-Iran peace deal reported as concluded; Strait of Hormuz expected to reopen — driving overnight oil down >2.5%",
-    "Brent -2.5% to $81.08 / WTI -2.8% near 6-week lows; risk premium unwinding",
-    "Korean authorities activated Sidecar market-stabilization on Kospi 5%+ open surge"
+    "Apple price-hike signal: $100-$500 increases across Mac/iPad lineup; AAPL -6.1% Thu = biggest single-day drop since April 2025",
+    "OpenAI IPO reportedly delayed to 2027 — SoftBank -12% in Tokyo (largest OpenAI stakeholder); complicates AI-trade narrative",
+    "Kospi triggered 2nd sidecar market-stabilization mechanism of the week (intraday -9%)",
+    "Oil continues retreat on US-Iran detente — WTI 69.59 down further this morning"
   ],
   "single_name_moves": [
-    {"ticker": "MU", "delta_pct": 14.55, "venue": "Wed after-hours", "driver": "Q3 blowout + $50B Q4 guide"},
-    {"ticker": "SK Hynix", "delta_pct": 11.6, "venue": "Thu Asia", "driver": "Micron-led memory rally; also launching $29.4B US ADR listing"},
-    {"ticker": "Samsung", "delta_pct": 5.4, "venue": "Thu Asia"},
-    {"ticker": "Advantest", "delta_pct": 14.9, "venue": "Thu Asia"},
-    {"ticker": "Tokyo Electron", "delta_pct": 7.1, "venue": "Thu Asia"},
-    {"ticker": "MRVL", "delta_pct": -9.4, "venue": "Wed regular"},
-    {"ticker": "INTC", "delta_pct": -6.1, "venue": "Wed regular"}
+    {"ticker": "AAPL", "delta_pct": -6.10, "venue": "Thu regular", "driver": "Mac/iPad price-hike announcement; memory cost inflation signal"},
+    {"ticker": "MU", "delta_pct": 15.70, "venue": "Thu regular", "driver": "Q3 blowout follow-through"},
+    {"ticker": "SoftBank", "delta_pct": -12.0, "venue": "Fri Tokyo", "driver": "OpenAI IPO delay-to-2027 report"},
+    {"ticker": "SK Hynix", "delta_pct": -8.4, "venue": "Fri Seoul"},
+    {"ticker": "Samsung", "delta_pct": -5.3, "venue": "Fri Seoul"},
+    {"ticker": "Kioxia", "delta_pct": -11.2, "venue": "Fri Tokyo"},
+    {"ticker": "Advantest", "delta_pct": -9.6, "venue": "Fri Tokyo"},
+    {"ticker": "MediaTek", "delta_pct": -10.0, "venue": "Fri Taipei"}
   ],
-  "headline_token": "MU_BLOWOUT + NIKKEI_KOSPI_RECORDS + IRAN_DEAL_OIL_DOWN + PCE_DAY"
+  "headline_token": "APPLE_PRICE_SHOCK + AI_TRADE_UNWIND + OPENAI_IPO_DELAY + PCE_4_1_HOT"
 }
