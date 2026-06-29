@@ -1,50 +1,35 @@
 {
-  "last_curated": "2026-06-26T07:10:00-04:00",
-  "curator": "cron_run102",
-  "note": "Macro releases + curated S&P 500 earnings. Today + forward 5 trading days. Sources: GS Friday preview, ActionForex, MarketBeat, TreasuryDirect, Fed calendar.",
+  "last_curated": "2026-06-29T07:05:00-04:00",
+  "curator": "cron_run105",
+  "note": "Holiday-shortened week. NFP pulled forward to Thu 7/2 (markets closed Fri 7/3 for Independence Day observed). Quiet pre-FOMC (FOMC Jul 28-29). Sources: Schwab/Investing/Newsquawk/DallasFed/marketsday.",
   "macro": [
     {
-      "date": "2026-06-26",
-      "time_et": "08:30",
-      "event": "Advance Goods Trade Balance (May)",
-      "consensus": "-$85.0B (prior -$83.0B; GS -$84.0B)",
-      "importance": "medium",
-      "note": "GS sees goods deficit widening slightly; $16B drop in gold exports offset by energy exports"
-    },
-    {
-      "date": "2026-06-26",
-      "time_et": "08:30",
-      "event": "Retail / Wholesale Inventories (May, adv)",
+      "date": "2026-06-29",
+      "time_et": "10:30",
+      "event": "Dallas Fed Manufacturing Index (June)",
       "consensus": null,
-      "importance": "low"
+      "importance": "low",
+      "note": "Prior +0.4. Regional read on Texas factory activity"
     },
     {
-      "date": "2026-06-26",
-      "time_et": "10:00",
-      "event": "U Michigan Consumer Sentiment (June final)",
-      "consensus": "50.0 (prior 48.9; GS 49.5). 5-10yr inflation expectations: 3.4% (GS 3.3%)",
-      "importance": "medium",
-      "note": "Post-PCE-shock read; inflation expectations the key tell"
-    },
-    {
-      "date": "2026-06-26",
+      "date": "2026-06-29",
       "time_et": "11:30",
-      "event": "Fed's Kashkari (FOMC voter) speaks",
+      "event": "3M + 6M Treasury Bill Auctions",
       "consensus": null,
-      "importance": "high",
-      "note": "Aspen Ideas Festival panel; first Fed voice post-hot PCE and Apple price-shock"
-    },
-    {
-      "date": "2026-06-26",
-      "time_et": "13:00",
-      "event": "Baker Hughes Rig Count",
-      "consensus": null,
-      "importance": "low"
+      "importance": "low",
+      "note": "Prior 3.695% / 3.840%"
     },
     {
       "date": "2026-06-29",
       "time_et": null,
-      "event": "Quiet pre-FOMC window begins; no major US macro releases",
+      "event": "ECB Sintra Forum begins (through Jul 1); Richmond Fed Barkin (2027 voter) speaks; ECB Lagarde inaugural speech evening",
+      "consensus": null,
+      "importance": "medium"
+    },
+    {
+      "date": "2026-06-30",
+      "time_et": "09:00",
+      "event": "S&P/Case-Shiller Home Price Index (Apr)",
       "consensus": null,
       "importance": "low"
     },
@@ -52,15 +37,76 @@
       "date": "2026-06-30",
       "time_et": "09:45",
       "event": "Chicago PMI (June)",
+      "consensus": "60.0 (prior 62.7)",
+      "importance": "medium"
+    },
+    {
+      "date": "2026-06-30",
+      "time_et": "10:00",
+      "event": "JOLTS Job Openings (May)",
+      "consensus": "7.28M (prior 7.618M)",
+      "importance": "high",
+      "note": "If in line, would be lowest since pandemic recovery"
+    },
+    {
+      "date": "2026-06-30",
+      "time_et": "10:00",
+      "event": "Conference Board Consumer Confidence (June)",
+      "consensus": "94.2 (prior 93.1)",
+      "importance": "medium"
+    },
+    {
+      "date": "2026-07-01",
+      "time_et": "08:15",
+      "event": "ADP National Employment Report (June)",
+      "consensus": "118K (prior 122K)",
+      "importance": "high",
+      "note": "Warm-up for Thu NFP"
+    },
+    {
+      "date": "2026-07-01",
+      "time_et": "09:30",
+      "event": "Fed Chair Warsh speaks (ECB Sintra panel w/ Lagarde, Bailey, Macklem)",
+      "consensus": null,
+      "importance": "high",
+      "note": "Historic four-governor panel; first Warsh appearance post-PCE shock"
+    },
+    {
+      "date": "2026-07-01",
+      "time_et": "10:00",
+      "event": "ISM Manufacturing PMI (June)",
+      "consensus": "53.7 (prior 54.0)",
+      "importance": "high",
+      "note": "ISM new orders sub-index <52 would be warning"
+    },
+    {
+      "date": "2026-07-02",
+      "time_et": "08:30",
+      "event": "Nonfarm Payrolls (June) — pulled forward one day",
+      "consensus": "114K (prior 172K); UR 4.3% unch; AHE +0.3% m/m",
+      "importance": "high",
+      "note": "Defining release of the week. 3M avg would fall to ~145K. Miss <100K with UR 4.4% reopens Sep cut conversation; hot >200K reopens hike conversation"
+    },
+    {
+      "date": "2026-07-02",
+      "time_et": "08:30",
+      "event": "Initial Jobless Claims (week ending 6/27)",
+      "consensus": "(prior 215K)",
+      "importance": "medium"
+    },
+    {
+      "date": "2026-07-02",
+      "time_et": "10:00",
+      "event": "Factory Orders (May)",
       "consensus": null,
       "importance": "low"
     },
     {
-      "date": "2026-06-30",
-      "time_et": "10:30",
-      "event": "Dallas Fed Mfg Activity (June)",
+      "date": "2026-07-03",
+      "time_et": null,
+      "event": "US equity + bond markets CLOSED — Independence Day observed",
       "consensus": null,
-      "importance": "low"
+      "importance": "high"
     }
   ],
   "earnings": [
@@ -70,7 +116,7 @@
       "ticker": "NKE",
       "name": "Nike",
       "importance": "high",
-      "note": "Q4 FY26; first under new strategy; will include tariff refund benefit not in prior guide"
+      "note": "Q4 FY26; first under new strategy; DTC channel + Greater China recovery in focus; will include tariff refund benefit not in prior guide"
     }
   ]
 }

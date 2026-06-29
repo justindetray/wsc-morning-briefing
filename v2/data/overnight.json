@@ -1,44 +1,19 @@
 {
-  "as_of": "2026-06-26T07:10:00-04:00",
-  "source": "cron_run102_curator",
-  "note": "Overnight = Thu cash close (4pm ET) to Fri 7:10am ET build time. Structured facts only.",
-  "thursday_close_recap": [
-    "Flat-to-down US Thu: SPX 7,357.49 -0.10% (4th straight loss); Nasdaq Comp -0.5%; Dow +0.1%. Apple -6.1% (~$265B mkt cap erased) on price-hike announcement offset Micron +15.7% rally",
-    "AAPL raised prices Wed evening on all Macs, iPads, home devices, Vision Pro (iPhone/Watch/AirPods unchanged) — citing 'unprecedented' memory/storage cost surge; clearest signal yet that chip cost inflation pressuring device makers",
-    "MU +15.7% closed near $1,200 on Q3 blowout follow-through",
-    "PCE May (released 8:30 Thu): Headline +4.1% YoY (up from 3.8%, multi-month high; highest since June 2023), Core +3.4% YoY (highest since Oct 2023). MoM headline +0.4%, core +0.3% in line. Consumer spending +0.5% (revised down sharply from +1.4%)",
-    "Q1 GDP final +1.6% (no major revision); Initial Claims, Durables, Personal Income/Spending all in range",
-    "7Y auction $44B: high yield 4.26% (prior 4.290%), 0.0 bp tail (vs avg 0.2 bp), bid-to-cover 2.50x — clean print",
-    "DRI Q4: Adj EPS $3.66 (beat by $0.03), Q4 SSS slowed (Olive Garden weak), raised dividend, $1.5B buyback. FY27 guide EPS $11.10-$11.35"
-  ],
-  "asia_close": [
-    {"market": "Nikkei", "level": 68783.50, "delta_pct": -5.00, "note": "Down 3,583 pts from Thu record 72,366; SoftBank -12% on OpenAI IPO delay-to-2027 report; Kioxia -11.2%, Advantest -9.6%"},
-    {"market": "Kospi", "level": 8411.21, "delta_pct": -5.80, "note": "Down 519 pts; SECOND SIDECAR THIS WEEK after intraday -9%; SK Hynix -8.4%, Samsung -5.3%"},
-    {"market": "Hang Seng", "level": null, "delta_pct": -1.90},
-    {"market": "Shanghai Comp", "level": null, "delta_pct": -2.30, "note": "AI-linked equities sold off"},
-    {"market": "Taiex", "level": null, "delta_pct": -3.60, "note": "MediaTek -10%, Hon Hai -3.5%"},
-    {"market": "MSCI Asia ex-Japan", "level": null, "delta_pct": -1.70, "note": "weekly -3.4%, hit record Mon"}
-  ],
-  "europe_open": [
-    {"market": "DAX", "level": 24782.00, "delta_pct": -0.85, "note": "giving back Thu +1.03% to 24,995 record close"},
-    {"market": "FTSE 100", "level": null, "delta_pct": null, "note": "futures lower; Thu closed +0.65% at 10,529"},
-    {"market": "Stoxx 600", "level": null, "delta_pct": null, "note": "futures lower; Thu set fresh record close 640.21 +0.8%"}
+  "as_of": "2026-06-29T07:05:00-04:00",
+  "source": "cron_run105_curator",
+  "note": "Overnight = Fri 4pm ET cash close through Mon 7:05am ET. Weekend headlines included.",
+  "asia_close": [],
+  "europe_open": [],
+  "single_name_moves": [
+    {"ticker": "MDNA", "delta_pct": 13.0, "venue": "Fri regular", "driver": "Piper Sandler PT raise + pipeline showcase; highest since 2024"},
+    {"ticker": "JNJ", "delta_pct": 11.0, "venue": "Fri week", "driver": "Best week since Oct 2008; crossed $600B mkt cap"},
+    {"ticker": "AAPL", "delta_pct": 3.1, "venue": "Fri regular", "driver": "Partial rebound from Thu -6.1%"},
+    {"ticker": "QCOM", "delta_pct": -16.24, "venue": "weekly", "driver": "AI capex / chip selloff narrative"}
   ],
   "geo_headlines": [
-    "Apple price-hike signal: $100-$500 increases across Mac/iPad lineup; AAPL -6.1% Thu = biggest single-day drop since April 2025",
-    "OpenAI IPO reportedly delayed to 2027 — SoftBank -12% in Tokyo (largest OpenAI stakeholder); complicates AI-trade narrative",
-    "Kospi triggered 2nd sidecar market-stabilization mechanism of the week (intraday -9%)",
-    "Oil continues retreat on US-Iran detente — WTI 69.59 down further this morning"
+    "Friday cash close: SPX 7,354.02 -0.05% (5th straight loss, longest streak in ~10 months); Nasdaq Comp -0.24%; Dow +0.6% week vs Nasdaq -4.6% week (chip index -7.9% worst week since early April). Healthcare sector +7.9% week to record close (JNJ +11% best week since Oct 2008, past $600B mkt cap). VIX 18.41",
+    "Asia Mon: Kospi opened -0.91% at 8,334; erased a 3% intraday drop to close higher (recovery from Fri's -5.8% sidecar). Nikkei tech weak. Mixed/choppy on AI doubts plus Iran tensions",
+    "Weekend: US-Iran ceasefire fragile, renewed clashes reported -- WTI rebounding (+0.9% to 69.87). JPMorgan raised 2026 SPX target to 7,800 from 7,200. AAPL reportedly lobbying for clearance to buy memory from CXMT (blacklisted Chinese co). Quarter-end pension rebalancing flow into bonds expected this week. Holiday-shortened: NFP pulled forward to Thu 7/2, markets closed Fri 7/3"
   ],
-  "single_name_moves": [
-    {"ticker": "AAPL", "delta_pct": -6.10, "venue": "Thu regular", "driver": "Mac/iPad price-hike announcement; memory cost inflation signal"},
-    {"ticker": "MU", "delta_pct": 15.70, "venue": "Thu regular", "driver": "Q3 blowout follow-through"},
-    {"ticker": "SoftBank", "delta_pct": -12.0, "venue": "Fri Tokyo", "driver": "OpenAI IPO delay-to-2027 report"},
-    {"ticker": "SK Hynix", "delta_pct": -8.4, "venue": "Fri Seoul"},
-    {"ticker": "Samsung", "delta_pct": -5.3, "venue": "Fri Seoul"},
-    {"ticker": "Kioxia", "delta_pct": -11.2, "venue": "Fri Tokyo"},
-    {"ticker": "Advantest", "delta_pct": -9.6, "venue": "Fri Tokyo"},
-    {"ticker": "MediaTek", "delta_pct": -10.0, "venue": "Fri Taipei"}
-  ],
-  "headline_token": "APPLE_PRICE_SHOCK + AI_TRADE_UNWIND + OPENAI_IPO_DELAY + PCE_4_1_HOT"
+  "headline_token": "FRI_FLAT_5TH_LOSS + HEALTHCARE_ROTATION_RECORD + IRAN_FRAGILE_OIL_UP + JPM_RAISES_TARGET_7800 + WEEK_AHEAD_NFP_THU"
 }

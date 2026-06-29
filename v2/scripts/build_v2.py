@@ -129,9 +129,12 @@ def render_on_deck(calendar, today_et):
         imp = e.get("importance") or "low"
         imp_cls = f" imp-{imp}" if imp in ("high", "medium") else ""
         note = f' <span class="note">({html_mod.escape(e["note"])})</span>' if e.get("note") else ""
-        tstr = e.get("time_et") or "??"
+        tstr = e.get("time_et")
         ev = e.get("event") or ""
-        lines.append(f'<li class="ev{imp_cls}"><b>{tstr}</b> — {html_mod.escape(ev)}{cons}{note}</li>')
+        if tstr:
+            lines.append(f'<li class="ev{imp_cls}"><b>{tstr}</b> — {html_mod.escape(ev)}{cons}{note}</li>')
+        else:
+            lines.append(f'<li class="ev{imp_cls}">{html_mod.escape(ev)}{cons}{note}</li>')
     if earn_today:
         pre = [e for e in earn_today if e.get("session") == "pre-market"]
         post = [e for e in earn_today if e.get("session") in ("after-hours", "after-close")]
@@ -186,7 +189,7 @@ def render_overnight(overnight):
             parts.append("Single names: " + "; ".join(bits) + ".")
     geo = overnight.get("geo_headlines", [])
     if geo:
-        parts.append(" ".join(html_mod.escape(g).rstrip(".") + "." for g in geo[:2]))
+        parts.append(" ".join(html_mod.escape(g).rstrip(".") + "." for g in geo[:4]))
     if not parts:
         return ""
     return '<p class="overnight">' + " ".join(parts) + '</p>'
