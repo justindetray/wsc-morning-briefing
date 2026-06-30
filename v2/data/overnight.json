@@ -1,19 +1,27 @@
 {
-  "as_of": "2026-06-29T07:05:00-04:00",
-  "source": "cron_run105_curator",
-  "note": "Overnight = Fri 4pm ET cash close through Mon 7:05am ET. Weekend headlines included.",
-  "asia_close": [],
+  "as_of": "2026-06-30T07:08:00-04:00",
+  "source": "cron_run106_curator",
+  "note": "Overnight = Mon 4pm ET cash close through Tue 7:08am ET. Last day of Q2.",
+  "asia_close": [
+    {"market": "Nikkei", "level": 70062.32, "delta_pct": 0.86, "note": "Q2 +37%, sharpest quarterly advance in data going back to 1965. Tech leaders: Taiyo Yuden +8.28%, Furukawa Electric +7.04%, Screen Holdings +6.20% record"},
+    {"market": "Topix", "level": 4010.88, "delta_pct": 0.73}
+  ],
   "europe_open": [],
   "single_name_moves": [
-    {"ticker": "MDNA", "delta_pct": 13.0, "venue": "Fri regular", "driver": "Piper Sandler PT raise + pipeline showcase; highest since 2024"},
-    {"ticker": "JNJ", "delta_pct": 11.0, "venue": "Fri week", "driver": "Best week since Oct 2008; crossed $600B mkt cap"},
-    {"ticker": "AAPL", "delta_pct": 3.1, "venue": "Fri regular", "driver": "Partial rebound from Thu -6.1%"},
-    {"ticker": "QCOM", "delta_pct": -16.24, "venue": "weekly", "driver": "AI capex / chip selloff narrative"}
+    {"ticker": "GOOGL", "delta_pct": 4.96, "venue": "Mon regular", "driver": "First day in Dow Jones (replaced VZ); led DJIA gainers"},
+    {"ticker": "TSLA", "delta_pct": 8.45, "venue": "Mon regular", "driver": "Megacap tech relief rally"},
+    {"ticker": "SpaceX", "delta_pct": 7.20, "venue": "Mon regular", "driver": "Will be added to Nasdaq 100 on Jul 7"},
+    {"ticker": "Rocket Lab", "delta_pct": 15.9, "venue": "Mon regular", "driver": "Announced $8B acquisition of Iridium"},
+    {"ticker": "IRDM", "delta_pct": 25.4, "venue": "Mon regular", "driver": "Rocket Lab acquisition target"},
+    {"ticker": "CMCSA", "delta_pct": 4.4, "venue": "Mon regular", "driver": "Plan to split media business from broadband unit"},
+    {"ticker": "VZ", "delta_pct": -5.24, "venue": "Mon regular", "driver": "Removed from Dow Jones"},
+    {"ticker": "AMZN", "delta_pct": 3.18, "venue": "Mon regular", "driver": "Prime Day spending strength + cloud demand"}
   ],
   "geo_headlines": [
-    "Friday cash close: SPX 7,354.02 -0.05% (5th straight loss, longest streak in ~10 months); Nasdaq Comp -0.24%; Dow +0.6% week vs Nasdaq -4.6% week (chip index -7.9% worst week since early April). Healthcare sector +7.9% week to record close (JNJ +11% best week since Oct 2008, past $600B mkt cap). VIX 18.41",
-    "Asia Mon: Kospi opened -0.91% at 8,334; erased a 3% intraday drop to close higher (recovery from Fri's -5.8% sidecar). Nikkei tech weak. Mixed/choppy on AI doubts plus Iran tensions",
-    "Weekend: US-Iran ceasefire fragile, renewed clashes reported -- WTI rebounding (+0.9% to 69.87). JPMorgan raised 2026 SPX target to 7,800 from 7,200. AAPL reportedly lobbying for clearance to buy memory from CXMT (blacklisted Chinese co). Quarter-end pension rebalancing flow into bonds expected this week. Holiday-shortened: NFP pulled forward to Thu 7/2, markets closed Fri 7/3"
+    "Mon US cash close: massive relief rally snapped 5-day losing streak. SPX 7,440.43 +1.18% (+86), Nasdaq Comp 25,820.14 +2.07% (+523), Dow 52,182.74 +0.59% RECORD CLOSE (first time above 52,000), NDX +2.45%, Russell 2000 3,010.42 flat. Comm Svcs led (Alphabet Dow debut); IT +1.7%. VIX 17.65",
+    "Q2 wrap (today is last session): SPX on track +14% Q2, Nasdaq +20% Q2 — biggest quarterly gains since Q2 2020. SPX YTD +8.7%. Q2 character: nearly entered correction in March on Iran war, then record highs through April-May, June consolidation",
+    "Asia Tue: Nikkei +0.86% to 70,062.32 close, Q2 +37% sharpest quarterly advance since 1965. Topix +0.73%. China factory activity expanded in June on high-tech exports. USD strength pushed JPY to 4-decade low",
+    "US-Iran truce held overnight (\"stand down for now\"); WTI 70.75 lingering near 4-month lows. Bank of America technical strategist warned correction risks rising into Q3; some megacap profit-trimming expected ahead of midterms"
   ],
-  "headline_token": "FRI_FLAT_5TH_LOSS + HEALTHCARE_ROTATION_RECORD + IRAN_FRAGILE_OIL_UP + JPM_RAISES_TARGET_7800 + WEEK_AHEAD_NFP_THU"
+  "headline_token": "MON_RELIEF_RALLY + DOW_RECORD_CLOSE + Q2_WRAP_NASDAQ_20PCT + NIKKEI_RECORD_QTR_37 + NKE_TONIGHT + WEEK_AHEAD_NFP_THU"
 }
