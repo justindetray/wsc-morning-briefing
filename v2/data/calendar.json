@@ -1,75 +1,59 @@
 {
-  "last_curated": "2026-06-30T07:08:00-04:00",
-  "curator": "cron_run106",
-  "note": "Last day of Q2. Holiday-shortened week: NFP pulled to Thu 7/2; markets CLOSED Fri 7/3. Sources: ALM First/Trading Economics calendar tables, GS preview, Newsquawk.",
+  "last_curated": "2026-07-01T07:05:00-04:00",
+  "curator": "cron_run107",
+  "note": "First day of Q3/H2 2026. Holiday-shortened week: NFP pulled to Thu 7/2; US markets CLOSED Fri 7/3 (Independence Day observed). Sources: Investing.com Wed lineup, XTB Sintra note, ALM First calendar.",
   "macro": [
-    {
-      "date": "2026-06-30",
-      "time_et": "09:00",
-      "event": "FHFA Home Price Index (Apr) + S&P Case-Shiller 20-City (Apr)",
-      "consensus": "Case-Shiller 20-City YoY 0.83% prior; FHFA MoM +0.10% prior",
-      "importance": "low"
-    },
-    {
-      "date": "2026-06-30",
-      "time_et": "09:45",
-      "event": "MNI Chicago PMI (June)",
-      "consensus": "prior 62.7",
-      "importance": "medium",
-      "note": "Regional manufacturing read; key tell on whether national ISM Mfg holds Wed"
-    },
-    {
-      "date": "2026-06-30",
-      "time_et": "10:00",
-      "event": "JOLTS Job Openings (May)",
-      "consensus": "7,275K (prior 7,618K)",
-      "importance": "high",
-      "note": "If in line, would be lowest since pandemic recovery. Pre-NFP labor tell"
-    },
-    {
-      "date": "2026-06-30",
-      "time_et": "10:00",
-      "event": "Conference Board Consumer Confidence (June)",
-      "consensus": "94.6 (prior 93.1)",
-      "importance": "medium",
-      "note": "Expectations sub-index <80 historically signals recession risk; prior 74.4"
-    },
-    {
-      "date": "2026-06-30",
-      "time_et": "10:30",
-      "event": "Dallas Fed Services Activity (June)",
-      "consensus": "prior -7.7",
-      "importance": "low"
-    },
     {
       "date": "2026-07-01",
       "time_et": "08:15",
       "event": "ADP National Employment Report (June)",
       "consensus": "118K (prior 122K)",
       "importance": "high",
-      "note": "Warm-up for Thu NFP"
+      "note": "Warm-up for Thu NFP after JOLTS beat yesterday"
     },
     {
       "date": "2026-07-01",
-      "time_et": "09:30",
+      "time_et": "09:00",
       "event": "Fed Chair Warsh + Lagarde + Bailey + Macklem at ECB Sintra panel",
       "consensus": null,
       "importance": "high",
-      "note": "Historic four-governor panel; first Warsh appearance post-PCE shock"
+      "note": "Historic four-governor panel; first Warsh appearance since Q2 wrap"
+    },
+    {
+      "date": "2026-07-01",
+      "time_et": "09:45",
+      "event": "S&P Global Manufacturing PMI Final (June)",
+      "consensus": "55.7 (prior 55.1)",
+      "importance": "medium"
     },
     {
       "date": "2026-07-01",
       "time_et": "10:00",
       "event": "ISM Manufacturing PMI (June)",
-      "consensus": "53.7 (prior 54.0)",
+      "consensus": "53.7 (prior 54.0); Prices 79 (prior 82.1); New Orders (prior 56.8); Employment (prior 48.6)",
       "importance": "high",
-      "note": "ISM new orders sub-index <52 would be warning"
+      "note": "Watch prices sub-index for tariff pass-through; new orders <52 would be warning"
     },
     {
-      "date": "2026-07-02",
-      "time_et": "08:15",
-      "event": "ADP Employment (delayed report)",
-      "consensus": null,
+      "date": "2026-07-01",
+      "time_et": "10:00",
+      "event": "Construction Spending (May)",
+      "consensus": "+0.3% MoM (prior +0.4%)",
+      "importance": "low"
+    },
+    {
+      "date": "2026-07-01",
+      "time_et": "10:30",
+      "event": "EIA Crude Oil Inventories",
+      "consensus": "-4.0M bbl (prior -6.09M)",
+      "importance": "medium",
+      "note": "WTI near 4-month lows around $69; second consecutive large draw would tighten"
+    },
+    {
+      "date": "2026-07-01",
+      "time_et": null,
+      "event": "Light Vehicle Sales (June)",
+      "consensus": "16.5M SAAR (prior 16.1M)",
       "importance": "low"
     },
     {
@@ -84,7 +68,7 @@
       "date": "2026-07-02",
       "time_et": "08:30",
       "event": "Initial Jobless Claims (week ending 6/27)",
-      "consensus": "prior 215K",
+      "consensus": "220K (prior 215K)",
       "importance": "medium"
     },
     {
@@ -102,14 +86,5 @@
       "importance": "high"
     }
   ],
-  "earnings": [
-    {
-      "date": "2026-06-30",
-      "session": "after-close",
-      "ticker": "NKE",
-      "name": "Nike",
-      "importance": "high",
-      "note": "Q4 FY26; cons rev ~$10.85B (-3% YoY), EPS ~$0.12. First print under Hill's 'Sport Offence' strategy. DTC channel + Greater China + tariff refund benefit in focus. Stock down 30% YTD"
-    }
-  ]
+  "earnings": []
 }

@@ -1,27 +1,23 @@
 {
-  "as_of": "2026-06-30T07:08:00-04:00",
-  "source": "cron_run106_curator",
-  "note": "Overnight = Mon 4pm ET cash close through Tue 7:08am ET. Last day of Q2.",
+  "as_of": "2026-07-01T07:05:00-04:00",
+  "source": "cron_run107_curator",
+  "note": "Overnight = Tue 4pm ET cash close (Q2 finale) through Wed 7:05am ET. First session of Q3 and H2 2026.",
   "asia_close": [
-    {"market": "Nikkei", "level": 70062.32, "delta_pct": 0.86, "note": "Q2 +37%, sharpest quarterly advance in data going back to 1965. Tech leaders: Taiyo Yuden +8.28%, Furukawa Electric +7.04%, Screen Holdings +6.20% record"},
-    {"market": "Topix", "level": 4010.88, "delta_pct": 0.73}
+    {"market": "Nikkei", "level": 70762.94, "delta_pct": 1.00, "note": "Semi stocks +4% for record quarterly gain; profit-taking mixed in"},
+    {"market": "Kospi", "level": 3255.62, "delta_pct": -0.34, "note": "Slipped on profit-taking after Q2 rally"},
+    {"market": "Hang Seng", "level": null, "delta_pct": null, "note": "HK markets closed for HKSAR Establishment Day"}
   ],
   "europe_open": [],
   "single_name_moves": [
-    {"ticker": "GOOGL", "delta_pct": 4.96, "venue": "Mon regular", "driver": "First day in Dow Jones (replaced VZ); led DJIA gainers"},
-    {"ticker": "TSLA", "delta_pct": 8.45, "venue": "Mon regular", "driver": "Megacap tech relief rally"},
-    {"ticker": "SpaceX", "delta_pct": 7.20, "venue": "Mon regular", "driver": "Will be added to Nasdaq 100 on Jul 7"},
-    {"ticker": "Rocket Lab", "delta_pct": 15.9, "venue": "Mon regular", "driver": "Announced $8B acquisition of Iridium"},
-    {"ticker": "IRDM", "delta_pct": 25.4, "venue": "Mon regular", "driver": "Rocket Lab acquisition target"},
-    {"ticker": "CMCSA", "delta_pct": 4.4, "venue": "Mon regular", "driver": "Plan to split media business from broadband unit"},
-    {"ticker": "VZ", "delta_pct": -5.24, "venue": "Mon regular", "driver": "Removed from Dow Jones"},
-    {"ticker": "AMZN", "delta_pct": 3.18, "venue": "Mon regular", "driver": "Prime Day spending strength + cloud demand"}
+    {"ticker": "NKE", "delta_pct": -4.0, "venue": "Tue after-close", "driver": "Q4 FY26 rev $10.97B beat cons $10.86B, but forecast H1 FY27 revenue decline. Greater China -12% to $1.30B; NIKE Direct -7%"},
+    {"ticker": "SMH", "delta_pct": 70.0, "venue": "Q2 total", "driver": "Best quarterly gain on record for VanEck semi ETF"},
+    {"ticker": "SOXX", "delta_pct": 94.0, "venue": "Q2 total", "driver": "Best quarterly gain on record for iShares semi ETF"}
   ],
   "geo_headlines": [
-    "Mon US cash close: massive relief rally snapped 5-day losing streak. SPX 7,440.43 +1.18% (+86), Nasdaq Comp 25,820.14 +2.07% (+523), Dow 52,182.74 +0.59% RECORD CLOSE (first time above 52,000), NDX +2.45%, Russell 2000 3,010.42 flat. Comm Svcs led (Alphabet Dow debut); IT +1.7%. VIX 17.65",
-    "Q2 wrap (today is last session): SPX on track +14% Q2, Nasdaq +20% Q2 — biggest quarterly gains since Q2 2020. SPX YTD +8.7%. Q2 character: nearly entered correction in March on Iran war, then record highs through April-May, June consolidation",
-    "Asia Tue: Nikkei +0.86% to 70,062.32 close, Q2 +37% sharpest quarterly advance since 1965. Topix +0.73%. China factory activity expanded in June on high-tech exports. USD strength pushed JPY to 4-decade low",
-    "US-Iran truce held overnight (\"stand down for now\"); WTI 70.75 lingering near 4-month lows. Bank of America technical strategist warned correction risks rising into Q3; some megacap profit-trimming expected ahead of midterms"
+    "Tue Q2 close: Dow 52,319.20 +0.26% RECORD (2nd straight >52k), SPX 7,499.36 +0.79%, Nasdaq 26,213.72 +1.52%. Q2 tally: Dow +13%, SPX +14.9%, Nasdaq +21.4% — biggest quarters since Q2 2020. H1: Dow +8.9% best since 2021, SPX +9.6%, Nasdaq +12%",
+    "NKE reported Tue AC: Q4 rev $10.97B beat (cons $10.86B), EPS $0.72 (huge lift from IEEPA tariff refund), gross margin +890bps to 49.2%. But guided H1 FY27 revenue decline — shares -4% AH. Full year rev $46.4B flat/-2% cn",
+    "JOLTS May smashed: 7.594M actual vs 7.296M cons; openings/unemployed ratio highest since Jan 2025. Chicago PMI June 56.7 beat. Consumer Confidence June ticked up on lower gas prices",
+    "Asia Wed: Nikkei +1% to 70,762.94, semiconductor stocks +4% for record quarterly gain. Kospi slipped on profit-taking. China NBS factory PMI expanded on high-tech exports. HK closed (Establishment Day). Wed is start of Q3 and H2 2026"
   ],
-  "headline_token": "MON_RELIEF_RALLY + DOW_RECORD_CLOSE + Q2_WRAP_NASDAQ_20PCT + NIKKEI_RECORD_QTR_37 + NKE_TONIGHT + WEEK_AHEAD_NFP_THU"
+  "headline_token": "Q2_RECORD_WRAP_DOW_2ND_STRAIGHT_RECORD + NKE_BEAT_GUIDE_LOWER + SEMIS_RECORD_QTR + JOLTS_BEAT + Q3_KICKOFF + WED_ISM_ADP_SINTRA + THU_NFP_FRI_CLOSED"
 }
