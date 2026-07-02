@@ -1,74 +1,21 @@
 {
-  "last_curated": "2026-07-01T07:05:00-04:00",
-  "curator": "cron_run107",
-  "note": "First day of Q3/H2 2026. Holiday-shortened week: NFP pulled to Thu 7/2; US markets CLOSED Fri 7/3 (Independence Day observed). Sources: Investing.com Wed lineup, XTB Sintra note, ALM First calendar.",
+  "last_curated": "2026-07-02T13:55:00-04:00",
+  "curator": "cron_run108",
+  "note": "Cron ran at 13:52 ET Thu (late). Thu NFP already released this morning (57K miss). Fri 7/3 US markets CLOSED. Next major week starts with Mon 7/6 opens.",
   "macro": [
     {
-      "date": "2026-07-01",
-      "time_et": "08:15",
-      "event": "ADP National Employment Report (June)",
-      "consensus": "118K (prior 122K)",
+      "date": "2026-07-02",
+      "time_et": "08:30",
+      "event": "Nonfarm Payrolls (June) — RELEASED",
+      "consensus": "57K actual vs 110K cons; UR 4.2% (down from 4.3%); AHE +0.3% m/m",
       "importance": "high",
-      "note": "Warm-up for Thu NFP after JOLTS beat yesterday"
-    },
-    {
-      "date": "2026-07-01",
-      "time_et": "09:00",
-      "event": "Fed Chair Warsh + Lagarde + Bailey + Macklem at ECB Sintra panel",
-      "consensus": null,
-      "importance": "high",
-      "note": "Historic four-governor panel; first Warsh appearance since Q2 wrap"
-    },
-    {
-      "date": "2026-07-01",
-      "time_et": "09:45",
-      "event": "S&P Global Manufacturing PMI Final (June)",
-      "consensus": "55.7 (prior 55.1)",
-      "importance": "medium"
-    },
-    {
-      "date": "2026-07-01",
-      "time_et": "10:00",
-      "event": "ISM Manufacturing PMI (June)",
-      "consensus": "53.7 (prior 54.0); Prices 79 (prior 82.1); New Orders (prior 56.8); Employment (prior 48.6)",
-      "importance": "high",
-      "note": "Watch prices sub-index for tariff pass-through; new orders <52 would be warning"
-    },
-    {
-      "date": "2026-07-01",
-      "time_et": "10:00",
-      "event": "Construction Spending (May)",
-      "consensus": "+0.3% MoM (prior +0.4%)",
-      "importance": "low"
-    },
-    {
-      "date": "2026-07-01",
-      "time_et": "10:30",
-      "event": "EIA Crude Oil Inventories",
-      "consensus": "-4.0M bbl (prior -6.09M)",
-      "importance": "medium",
-      "note": "WTI near 4-month lows around $69; second consecutive large draw would tighten"
-    },
-    {
-      "date": "2026-07-01",
-      "time_et": null,
-      "event": "Light Vehicle Sales (June)",
-      "consensus": "16.5M SAAR (prior 16.1M)",
-      "importance": "low"
+      "note": "April revised -31K to 148K, May revised -43K to 129K; July hike odds now <20%"
     },
     {
       "date": "2026-07-02",
       "time_et": "08:30",
-      "event": "Nonfarm Payrolls (June) — pulled forward one day",
-      "consensus": "114K (prior 172K); UR 4.3% unch; AHE +0.3% m/m",
-      "importance": "high",
-      "note": "Defining release of the week. Miss <100K with UR 4.4% reopens Sep cut conversation; hot >200K reopens hike conversation"
-    },
-    {
-      "date": "2026-07-02",
-      "time_et": "08:30",
-      "event": "Initial Jobless Claims (week ending 6/27)",
-      "consensus": "220K (prior 215K)",
+      "event": "Initial Jobless Claims — RELEASED",
+      "consensus": "prior 215K; consensus 220K",
       "importance": "medium"
     },
     {
@@ -84,6 +31,28 @@
       "event": "US equity + bond markets CLOSED — Independence Day observed",
       "consensus": null,
       "importance": "high"
+    },
+    {
+      "date": "2026-07-07",
+      "time_et": "15:00",
+      "event": "Consumer Credit (May)",
+      "consensus": null,
+      "importance": "low"
+    },
+    {
+      "date": "2026-07-08",
+      "time_et": "06:00",
+      "event": "NFIB Small Business Optimism (June)",
+      "consensus": null,
+      "importance": "low"
+    },
+    {
+      "date": "2026-07-09",
+      "time_et": "14:00",
+      "event": "FOMC Minutes (June meeting)",
+      "consensus": null,
+      "importance": "high",
+      "note": "First minutes since Warsh chairmanship; markets will parse for dissent detail"
     }
   ],
   "earnings": []

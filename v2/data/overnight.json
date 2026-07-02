@@ -1,23 +1,26 @@
 {
-  "as_of": "2026-07-01T07:05:00-04:00",
-  "source": "cron_run107_curator",
-  "note": "Overnight = Tue 4pm ET cash close (Q2 finale) through Wed 7:05am ET. First session of Q3 and H2 2026.",
+  "as_of": "2026-07-02T13:55:00-04:00",
+  "source": "cron_run108_curator",
+  "note": "This run fired at 13:52 ET (not 07:00). Session window = Wed 4pm close through Thu 1:55pm ET, so it captures the June NFP release (08:30) and morning tape reaction plus overnight Asia.",
   "asia_close": [
-    {"market": "Nikkei", "level": 70762.94, "delta_pct": 1.00, "note": "Semi stocks +4% for record quarterly gain; profit-taking mixed in"},
-    {"market": "Kospi", "level": 3255.62, "delta_pct": -0.34, "note": "Slipped on profit-taking after Q2 rally"},
-    {"market": "Hang Seng", "level": null, "delta_pct": null, "note": "HK markets closed for HKSAR Establishment Day"}
+    {"market": "Kospi", "level": 7648.09, "delta_pct": -7.89, "note": "Circuit breaker triggered; first close below 8,000 since June 11. SK Hynix -14.6%, Samsung -9.1%. Kosdaq -6.74% to 866.72"},
+    {"market": "Nikkei", "level": null, "delta_pct": -2.0, "note": "Chip names dragged index lower after Wed SOX -6.3%"},
+    {"market": "Hang Seng", "level": null, "delta_pct": null, "note": "Post-Establishment Day reopen; mixed session"}
   ],
   "europe_open": [],
   "single_name_moves": [
-    {"ticker": "NKE", "delta_pct": -4.0, "venue": "Tue after-close", "driver": "Q4 FY26 rev $10.97B beat cons $10.86B, but forecast H1 FY27 revenue decline. Greater China -12% to $1.30B; NIKE Direct -7%"},
-    {"ticker": "SMH", "delta_pct": 70.0, "venue": "Q2 total", "driver": "Best quarterly gain on record for VanEck semi ETF"},
-    {"ticker": "SOXX", "delta_pct": 94.0, "venue": "Q2 total", "driver": "Best quarterly gain on record for iShares semi ETF"}
+    {"ticker": "SOX (PHLX Semi)", "delta_pct": -6.27, "venue": "Wed close", "driver": "Meta announced plan to sell AI computing capacity as cloud business; sparked excess-capacity fears across chip complex. 28 of 30 SOX components declined"},
+    {"ticker": "META", "delta_pct": 6.0, "venue": "Wed session", "driver": "AI cloud business rollout news; Cramer called it 'instantly profitable'. Meta the biggest support for S&P/Nasdaq on Wed"},
+    {"ticker": "005930.KS (Samsung)", "delta_pct": -9.1, "venue": "Thu Seoul close", "driver": "Excess AI capacity fears cascading from US chip selloff"},
+    {"ticker": "000660.KS (SK Hynix)", "delta_pct": -14.6, "venue": "Thu Seoul close", "driver": "HBM leader hit hardest on capacity glut concern"}
   ],
   "geo_headlines": [
-    "Tue Q2 close: Dow 52,319.20 +0.26% RECORD (2nd straight >52k), SPX 7,499.36 +0.79%, Nasdaq 26,213.72 +1.52%. Q2 tally: Dow +13%, SPX +14.9%, Nasdaq +21.4% — biggest quarters since Q2 2020. H1: Dow +8.9% best since 2021, SPX +9.6%, Nasdaq +12%",
-    "NKE reported Tue AC: Q4 rev $10.97B beat (cons $10.86B), EPS $0.72 (huge lift from IEEPA tariff refund), gross margin +890bps to 49.2%. But guided H1 FY27 revenue decline — shares -4% AH. Full year rev $46.4B flat/-2% cn",
-    "JOLTS May smashed: 7.594M actual vs 7.296M cons; openings/unemployed ratio highest since Jan 2025. Chicago PMI June 56.7 beat. Consumer Confidence June ticked up on lower gas prices",
-    "Asia Wed: Nikkei +1% to 70,762.94, semiconductor stocks +4% for record quarterly gain. Kospi slipped on profit-taking. China NBS factory PMI expanded on high-tech exports. HK closed (Establishment Day). Wed is start of Q3 and H2 2026"
+    "NFP June: 57K actual vs 110K cons — big miss. UR fell to 4.2% from 4.3%. AHE +0.3% m/m. April revised down 31K to 148K, May revised down 43K to 129K — combined 74K lower than prior report. Traders saw <20% chance of July hike after print",
+    "Wed close (Q3 open): SPX 7,483.23 -0.22%, Nasdaq 26,040.03 -0.66%, Dow 52,305.24 -0.03% (gave up 423-point intraday rally). SOX -6.27% to 13,353.28 — 28 of 30 components down. Q3 opened lower after best Q2 since 2020",
+    "Meta cloud-business bombshell: reported plan to sell AI computing power triggered repricing of the entire chip complex; excess AI capacity fears now front-and-center. META rallied on the news even as chips cratered",
+    "Kospi -7.89% to 7,648.09 (worst day in months): SK Hynix -14.6%, Samsung -9.1%; circuit breaker triggered at open. First Kospi close below 8,000 since June 11. Kosdaq -6.74%. Kospi -8.9% intraday low before some recovery",
+    "Sintra panel Wed: Warsh + Lagarde + Bailey + Macklem — Warsh dodged specific rate-path commitment. US stocks slid on the ambiguity. ADP disappointed at 98K vs 110K cons; ISM Mfg 53.3 vs 53.9 est but prices sub-index cooled",
+    "Post-NFP tape reaction: ES -0.7%, NQ -2.28% (Kospi bleed continuing), VIX 16.92 +1.99%, US 10Y 4.485% +0.22bp, US 2Y 4.139% -0.6bp (curve steepening on soft jobs), gold +1.3% to 4,121. BTC 60,081 +0.22%"
   ],
-  "headline_token": "Q2_RECORD_WRAP_DOW_2ND_STRAIGHT_RECORD + NKE_BEAT_GUIDE_LOWER + SEMIS_RECORD_QTR + JOLTS_BEAT + Q3_KICKOFF + WED_ISM_ADP_SINTRA + THU_NFP_FRI_CLOSED"
+  "headline_token": "NFP_57K_MISS + UR_4.2 + META_CLOUD_TRIGGERS_CHIP_ROUT + SOX_MINUS_6.3 + KOSPI_MINUS_7.9 + WARSH_DODGES + JULY_HIKE_LT_20 + FRI_CLOSED"
 }
