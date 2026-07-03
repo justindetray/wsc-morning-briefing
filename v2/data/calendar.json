@@ -1,36 +1,15 @@
 {
-  "last_curated": "2026-07-02T13:55:00-04:00",
-  "curator": "cron_run108",
-  "note": "Cron ran at 13:52 ET Thu (late). Thu NFP already released this morning (57K miss). Fri 7/3 US markets CLOSED. Next major week starts with Mon 7/6 opens.",
+  "last_curated": "2026-07-03T14:35:00-04:00",
+  "curator": "cron_run109",
+  "note": "US markets CLOSED today for Independence Day observed. No ON DECK for today. Next full session Mon 7/6.",
   "macro": [
-    {
-      "date": "2026-07-02",
-      "time_et": "08:30",
-      "event": "Nonfarm Payrolls (June) — RELEASED",
-      "consensus": "57K actual vs 110K cons; UR 4.2% (down from 4.3%); AHE +0.3% m/m",
-      "importance": "high",
-      "note": "April revised -31K to 148K, May revised -43K to 129K; July hike odds now <20%"
-    },
-    {
-      "date": "2026-07-02",
-      "time_et": "08:30",
-      "event": "Initial Jobless Claims — RELEASED",
-      "consensus": "prior 215K; consensus 220K",
-      "importance": "medium"
-    },
-    {
-      "date": "2026-07-02",
-      "time_et": "10:00",
-      "event": "Factory Orders (May)",
-      "consensus": null,
-      "importance": "low"
-    },
     {
       "date": "2026-07-03",
       "time_et": null,
       "event": "US equity + bond markets CLOSED — Independence Day observed",
       "consensus": null,
-      "importance": "high"
+      "importance": "high",
+      "note": "Bond market shut at 2pm ET Thu 7/2 ahead of holiday. Full US reopen Mon 7/6"
     },
     {
       "date": "2026-07-07",
@@ -52,7 +31,22 @@
       "event": "FOMC Minutes (June meeting)",
       "consensus": null,
       "importance": "high",
-      "note": "First minutes since Warsh chairmanship; markets will parse for dissent detail"
+      "note": "First minutes since Warsh chairmanship. Markets will parse for dissent detail and forward guidance shift post-NFP"
+    },
+    {
+      "date": "2026-07-10",
+      "time_et": "08:30",
+      "event": "Initial Jobless Claims (week ending 7/4)",
+      "consensus": null,
+      "importance": "medium"
+    },
+    {
+      "date": "2026-07-11",
+      "time_et": "08:30",
+      "event": "CPI (June)",
+      "consensus": null,
+      "importance": "high",
+      "note": "First CPI post-NFP miss; market focus on core services and shelter deceleration"
     }
   ],
   "earnings": []

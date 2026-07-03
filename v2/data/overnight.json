@@ -1,26 +1,28 @@
 {
-  "as_of": "2026-07-02T13:55:00-04:00",
-  "source": "cron_run108_curator",
-  "note": "This run fired at 13:52 ET (not 07:00). Session window = Wed 4pm close through Thu 1:55pm ET, so it captures the June NFP release (08:30) and morning tape reaction plus overnight Asia.",
+  "as_of": "2026-07-03T14:35:00-04:00",
+  "source": "cron_run109_curator",
+  "note": "US equity + bond markets CLOSED for Independence Day observed. Run captures Thu 7/2 US close + Fri Asia + Europe. Bond market shut at 2pm ET Thu ahead of holiday.",
   "asia_close": [
-    {"market": "Kospi", "level": 7648.09, "delta_pct": -7.89, "note": "Circuit breaker triggered; first close below 8,000 since June 11. SK Hynix -14.6%, Samsung -9.1%. Kosdaq -6.74% to 866.72"},
-    {"market": "Nikkei", "level": null, "delta_pct": -2.0, "note": "Chip names dragged index lower after Wed SOX -6.3%"},
-    {"market": "Hang Seng", "level": null, "delta_pct": null, "note": "Post-Establishment Day reopen; mixed session"}
+    {"market": "Nikkei", "level": 69243.68, "delta_pct": 0.74, "note": "Erased opening losses; Topix +0.91% to 4,051.48"},
+    {"market": "Kospi", "level": null, "delta_pct": 3.0, "note": "Sharp bounce from Thu -7.89% panic on Fed hike delay repricing"},
+    {"market": "Hang Seng", "level": null, "delta_pct": 1.7, "note": "AI names steadied; broad relief rally"}
   ],
-  "europe_open": [],
+  "europe_open": [
+    {"market": "DAX", "level": 25581.0, "delta_pct": 2.2, "note": "Yesterday's session; today quieter with US closed"}
+  ],
   "single_name_moves": [
-    {"ticker": "SOX (PHLX Semi)", "delta_pct": -6.27, "venue": "Wed close", "driver": "Meta announced plan to sell AI computing capacity as cloud business; sparked excess-capacity fears across chip complex. 28 of 30 SOX components declined"},
-    {"ticker": "META", "delta_pct": 6.0, "venue": "Wed session", "driver": "AI cloud business rollout news; Cramer called it 'instantly profitable'. Meta the biggest support for S&P/Nasdaq on Wed"},
-    {"ticker": "005930.KS (Samsung)", "delta_pct": -9.1, "venue": "Thu Seoul close", "driver": "Excess AI capacity fears cascading from US chip selloff"},
-    {"ticker": "000660.KS (SK Hynix)", "delta_pct": -14.6, "venue": "Thu Seoul close", "driver": "HBM leader hit hardest on capacity glut concern"}
+    {"ticker": "DJIA", "delta_pct": 1.14, "venue": "Thu close", "driver": "RECORD 52,900.07; 4th straight weekly gain (longest since Oct 2024). Rotation OUT of tech INTO everything else post-NFP miss"},
+    {"ticker": "TSLA", "delta_pct": -8.0, "venue": "Thu session", "driver": "Worst day in a year despite Q2 deliveries beating even the most bullish estimates — classic buy-the-rumor-sell-the-news"},
+    {"ticker": "SMH", "delta_pct": -4.6, "venue": "Thu close", "driver": "Chip sell-off extended day 2; Meta AI cloud narrative still weighing"},
+    {"ticker": "GOLD", "delta_pct": 2.93, "venue": "Since Thu close ref", "driver": "Comex $4,187.30; first weekly rise in 5 weeks. Spot near $4,135. NFP miss + Fed hike delay + dollar weakness"}
   ],
   "geo_headlines": [
-    "NFP June: 57K actual vs 110K cons — big miss. UR fell to 4.2% from 4.3%. AHE +0.3% m/m. April revised down 31K to 148K, May revised down 43K to 129K — combined 74K lower than prior report. Traders saw <20% chance of July hike after print",
-    "Wed close (Q3 open): SPX 7,483.23 -0.22%, Nasdaq 26,040.03 -0.66%, Dow 52,305.24 -0.03% (gave up 423-point intraday rally). SOX -6.27% to 13,353.28 — 28 of 30 components down. Q3 opened lower after best Q2 since 2020",
-    "Meta cloud-business bombshell: reported plan to sell AI computing power triggered repricing of the entire chip complex; excess AI capacity fears now front-and-center. META rallied on the news even as chips cratered",
-    "Kospi -7.89% to 7,648.09 (worst day in months): SK Hynix -14.6%, Samsung -9.1%; circuit breaker triggered at open. First Kospi close below 8,000 since June 11. Kosdaq -6.74%. Kospi -8.9% intraday low before some recovery",
-    "Sintra panel Wed: Warsh + Lagarde + Bailey + Macklem — Warsh dodged specific rate-path commitment. US stocks slid on the ambiguity. ADP disappointed at 98K vs 110K cons; ISM Mfg 53.3 vs 53.9 est but prices sub-index cooled",
-    "Post-NFP tape reaction: ES -0.7%, NQ -2.28% (Kospi bleed continuing), VIX 16.92 +1.99%, US 10Y 4.485% +0.22bp, US 2Y 4.139% -0.6bp (curve steepening on soft jobs), gold +1.3% to 4,121. BTC 60,081 +0.22%"
+    "Thu 7/2 close (holiday-shortened wrap): Dow +1.14% to 52,900.07 RECORD, SPX flat at 7,483.24 (+0.01), Nasdaq -0.80% to 25,832.67 on chip drag. Week: Dow +2%, SPX +1.8%, Nasdaq +2.1%. Dow's 4th straight weekly gain — longest since Oct 2024. Rotation OUT of tech dominant theme",
+    "Fri Asia relief rally: Kospi +3% (from Thu -7.89% circuit-breaker day), Nikkei +0.74% to 69,243.68, HK +1.7%, Shanghai +0.7%, ASX +1.3%. MSCI Asia-Pacific ex-Japan +1.3%. Fed hike delay = green shoot for AI names outside the immediate chip epicenter",
+    "Gold breakout on soft NFP: Comex $4,187.30 (+2.93% since ref close), spot near $4,135. First weekly rise in 5 weeks. Dollar dropped, silver Comex $60.643 (+0.93%). Metals extend post-data rebound",
+    "OpenAI proposal: 5% government equity stake worth ~$42.6B at $852B valuation; Altman framed as 'Public Wealth Fund' to share AI upside with taxpayers. Reported by FT/CNBC Thu",
+    "TSLA -8% Thu despite Q2 deliveries blowout — worst session in a year. Classic buy-the-rumor-sell-the-news reaction; sets up interesting risk/reward into Q3",
+    "Oil retreat: WTI 68.78 broadly stable; Saudi Ras Tanura back to 90% capacity, Strait of Hormuz flows >10M bpd. US-Iran Doha talks 'constructive progress' on maritime + frozen funds — geopolitical risk premium unwinding"
   ],
-  "headline_token": "NFP_57K_MISS + UR_4.2 + META_CLOUD_TRIGGERS_CHIP_ROUT + SOX_MINUS_6.3 + KOSPI_MINUS_7.9 + WARSH_DODGES + JULY_HIKE_LT_20 + FRI_CLOSED"
+  "headline_token": "US_CLOSED_JULY_4 + DOW_RECORD_52900 + NASDAQ_MINUS_0.8 + KOSPI_PLUS_3_REBOUND + GOLD_4187_5WK_HIGH + TSLA_MINUS_8_DELIVERY_SELL + OPENAI_GOV_STAKE"
 }
