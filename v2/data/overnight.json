@@ -1,28 +1,26 @@
 {
-  "as_of": "2026-07-03T14:35:00-04:00",
-  "source": "cron_run109_curator",
-  "note": "US equity + bond markets CLOSED for Independence Day observed. Run captures Thu 7/2 US close + Fri Asia + Europe. Bond market shut at 2pm ET Thu ahead of holiday.",
+  "as_of": "2026-07-06T07:05:00-04:00",
+  "source": "cron_run112_curator",
+  "note": "Overnight = Thu 4pm ET close (Fri closed for holiday) through Mon 7:05am ET. Long weekend included.",
   "asia_close": [
-    {"market": "Nikkei", "level": 69243.68, "delta_pct": 0.74, "note": "Erased opening losses; Topix +0.91% to 4,051.48"},
-    {"market": "Kospi", "level": null, "delta_pct": 3.0, "note": "Sharp bounce from Thu -7.89% panic on Fed hike delay repricing"},
-    {"market": "Hang Seng", "level": null, "delta_pct": 1.7, "note": "AI names steadied; broad relief rally"}
+    {"market": "Kospi", "level": 8150.89, "delta_pct": 1.94, "note": "Rebound continues; Samsung earnings tomorrow (Tue AC). SK Hynix +1%. Foreigners net-sold 12th straight day"},
+    {"market": "Nikkei", "level": 69744.07, "delta_pct": -0.14, "note": "Little changed; Topix +0.6%"},
+    {"market": "Hang Seng", "level": 23253.0, "delta_pct": -0.42, "note": "Futures ~23,253, below Fri close 23,350"}
   ],
-  "europe_open": [
-    {"market": "DAX", "level": 25581.0, "delta_pct": 2.2, "note": "Yesterday's session; today quieter with US closed"}
-  ],
+  "europe_open": [],
   "single_name_moves": [
-    {"ticker": "DJIA", "delta_pct": 1.14, "venue": "Thu close", "driver": "RECORD 52,900.07; 4th straight weekly gain (longest since Oct 2024). Rotation OUT of tech INTO everything else post-NFP miss"},
-    {"ticker": "TSLA", "delta_pct": -8.0, "venue": "Thu session", "driver": "Worst day in a year despite Q2 deliveries beating even the most bullish estimates — classic buy-the-rumor-sell-the-news"},
-    {"ticker": "SMH", "delta_pct": -4.6, "venue": "Thu close", "driver": "Chip sell-off extended day 2; Meta AI cloud narrative still weighing"},
-    {"ticker": "GOLD", "delta_pct": 2.93, "venue": "Since Thu close ref", "driver": "Comex $4,187.30; first weekly rise in 5 weeks. Spot near $4,135. NFP miss + Fed hike delay + dollar weakness"}
+    {"ticker": "META", "delta_pct": null, "venue": "Thu session prior", "driver": "Reuters reported Sun neocloud analyst takes; Meta's AI cloud rollout gaining strategic-narrative weight. Neocloud comps (CoreWeave, Nebius) still under pressure"},
+    {"ticker": "MSFT", "delta_pct": null, "venue": "Thu session", "driver": "Committed $2.5B to new unit Microsoft Frontier (missed on Fri briefing)"},
+    {"ticker": "AAPL", "delta_pct": 5.0, "venue": "Thu close", "driver": "Rallied ~5% Thu, dragged Dow to record"},
+    {"ticker": "005930.KS (Samsung)", "delta_pct": 3.0, "venue": "Mon Seoul", "driver": "Q2 earnings due Tue AC; SK Hynix ADR Nasdaq listing this week. Weekly range wide (KOSPI 7,378-8,687 last week)"}
   ],
   "geo_headlines": [
-    "Thu 7/2 close (holiday-shortened wrap): Dow +1.14% to 52,900.07 RECORD, SPX flat at 7,483.24 (+0.01), Nasdaq -0.80% to 25,832.67 on chip drag. Week: Dow +2%, SPX +1.8%, Nasdaq +2.1%. Dow's 4th straight weekly gain — longest since Oct 2024. Rotation OUT of tech dominant theme",
-    "Fri Asia relief rally: Kospi +3% (from Thu -7.89% circuit-breaker day), Nikkei +0.74% to 69,243.68, HK +1.7%, Shanghai +0.7%, ASX +1.3%. MSCI Asia-Pacific ex-Japan +1.3%. Fed hike delay = green shoot for AI names outside the immediate chip epicenter",
-    "Gold breakout on soft NFP: Comex $4,187.30 (+2.93% since ref close), spot near $4,135. First weekly rise in 5 weeks. Dollar dropped, silver Comex $60.643 (+0.93%). Metals extend post-data rebound",
-    "OpenAI proposal: 5% government equity stake worth ~$42.6B at $852B valuation; Altman framed as 'Public Wealth Fund' to share AI upside with taxpayers. Reported by FT/CNBC Thu",
-    "TSLA -8% Thu despite Q2 deliveries blowout — worst session in a year. Classic buy-the-rumor-sell-the-news reaction; sets up interesting risk/reward into Q3",
-    "Oil retreat: WTI 68.78 broadly stable; Saudi Ras Tanura back to 90% capacity, Strait of Hormuz flows >10M bpd. US-Iran Doha talks 'constructive progress' on maritime + frozen funds — geopolitical risk premium unwinding"
+    "Long weekend hold: Thu 7/2 close was Dow 52,900.07 record +1.14%, SPX 7,483.24 flat, Nasdaq 25,832.67 -0.80%. Fri US closed for Independence Day. Dow's 4-week win streak longest since Oct 2024",
+    "Asia Mon relief: Kospi +1.94% to 8,150.89 (still off last week's 7,378 low), Nikkei -0.14% to 69,744.07, HK weaker (Hang Seng futures 23,253 vs Fri close 23,350). Samsung earnings Tue AC the pivot for chip complex",
+    "OpenAI 2025 financials leaked (Forbes/NYT/Ed Zitron): $20.9B operating loss on $13.07B revenue; $38.5B net loss after for-profit conversion charge. Company confidentially filed IPO paperwork. Oracle 10-K flagged the $300B compute deal with OpenAI as customer-default risk. AI valuation bubble math becoming mainstream discourse (Panmure Liberum, Ed Zitron, Ka. Martin FT)",
+    "Trump Accounts (Big Beautiful Bill) went live Sat 7/4 — $1,000 government seed for children born 2025+, index-fund savings vehicle. 87 companies pledged to fund. Client-relevant for HNW families thinking about GST vehicles",
+    "IRA clean energy subsidies expired 7/4 — LevelTen Energy survey: solar/wind PPAs rising 40-120%. Texas PPAs $55/MWh headed toward $121. Transformer costs +60-80% since 2020. AI-electricity thesis moved from narrative to price",
+    "Fed-cut repricing settling in: Bitcoin recovered $63k on soft-jobs bid, dollar softer (DXY 100.88 from 101.8 late June). Fed funds futures showing ~even odds September hike after Thu NFP miss"
   ],
-  "headline_token": "US_CLOSED_JULY_4 + DOW_RECORD_52900 + NASDAQ_MINUS_0.8 + KOSPI_PLUS_3_REBOUND + GOLD_4187_5WK_HIGH + TSLA_MINUS_8_DELIVERY_SELL + OPENAI_GOV_STAKE"
+  "headline_token": "LONG_WEEKEND_HOLD + KOSPI_PLUS_1.94_SAMSUNG_TUE + OPENAI_LEAKED_LOSS_38B + TRUMP_ACCOUNTS_LIVE + IRA_SUBSIDY_EXPIRY + FOMC_MINUTES_WED + CPI_FRI"
 }

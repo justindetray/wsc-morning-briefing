@@ -1,15 +1,15 @@
 {
-  "last_curated": "2026-07-03T14:35:00-04:00",
-  "curator": "cron_run109",
-  "note": "US markets CLOSED today for Independence Day observed. No ON DECK for today. Next full session Mon 7/6.",
+  "last_curated": "2026-07-06T07:05:00-04:00",
+  "curator": "cron_run112",
+  "note": "Post-holiday week. Big events: FOMC Minutes Wed 14:00 (first Warsh minutes), CPI Fri 08:30. Earnings begin: DAL Thu, PEP Thu. Samsung earnings Tue AC (Seoul).",
   "macro": [
     {
-      "date": "2026-07-03",
-      "time_et": null,
-      "event": "US equity + bond markets CLOSED — Independence Day observed",
+      "date": "2026-07-06",
+      "time_et": "09:45",
+      "event": "S&P Global Services PMI Final (June)",
       "consensus": null,
-      "importance": "high",
-      "note": "Bond market shut at 2pm ET Thu 7/2 ahead of holiday. Full US reopen Mon 7/6"
+      "importance": "medium",
+      "note": "First data of the week"
     },
     {
       "date": "2026-07-07",
@@ -20,33 +20,70 @@
     },
     {
       "date": "2026-07-08",
-      "time_et": "06:00",
-      "event": "NFIB Small Business Optimism (June)",
+      "time_et": "07:00",
+      "event": "MBA Mortgage Applications",
       "consensus": null,
       "importance": "low"
     },
     {
-      "date": "2026-07-09",
-      "time_et": "14:00",
-      "event": "FOMC Minutes (June meeting)",
+      "date": "2026-07-08",
+      "time_et": "09:00",
+      "event": "IMF World Economic Outlook Update",
       "consensus": null,
-      "importance": "high",
-      "note": "First minutes since Warsh chairmanship. Markets will parse for dissent detail and forward guidance shift post-NFP"
+      "importance": "medium",
+      "note": "Live press with Petya Koeva Brooks and Deniz Igan"
     },
     {
-      "date": "2026-07-10",
+      "date": "2026-07-08",
+      "time_et": "10:00",
+      "event": "Wholesale Inventories (May)",
+      "consensus": null,
+      "importance": "low"
+    },
+    {
+      "date": "2026-07-08",
+      "time_et": "14:00",
+      "event": "FOMC Minutes (June 16-17 meeting)",
+      "consensus": null,
+      "importance": "high",
+      "note": "First minutes since Warsh chairmanship. Market will parse dissent detail and dot-plot 2026-hike reasoning. Softer since meeting: NFP miss, ADP/ISM cooling"
+    },
+    {
+      "date": "2026-07-09",
       "time_et": "08:30",
       "event": "Initial Jobless Claims (week ending 7/4)",
+      "consensus": "219K (prior 215K)",
+      "importance": "medium"
+    },
+    {
+      "date": "2026-07-09",
+      "time_et": "09:00",
+      "event": "Fed's Williams speech",
       "consensus": null,
       "importance": "medium"
     },
     {
-      "date": "2026-07-11",
-      "time_et": "08:30",
-      "event": "CPI (June)",
+      "date": "2026-07-10",
+      "time_et": "12:00",
+      "event": "WASDE Report",
+      "consensus": null,
+      "importance": "low"
+    },
+    {
+      "date": "2026-07-10",
+      "time_et": null,
+      "event": "Delta Air Lines (DAL) earnings — BMO",
       "consensus": null,
       "importance": "high",
-      "note": "First CPI post-NFP miss; market focus on core services and shelter deceleration"
+      "note": "First S&P 500 earnings of Q2 season; consumer travel spend read"
+    },
+    {
+      "date": "2026-07-10",
+      "time_et": null,
+      "event": "PepsiCo (PEP) earnings — BMO",
+      "consensus": null,
+      "importance": "medium",
+      "note": "Consumer staples read"
     }
   ],
   "earnings": []

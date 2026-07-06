@@ -1,76 +1,76 @@
 {
   "ES": {
-    "value": 7557.0,
-    "as_of": "2026-07-03T16:59:59+00:00",
+    "value": 7561.0,
+    "as_of": "2026-07-06T10:53:41+00:00",
     "status": "LIVE",
-    "prev_close": 7543.5,
-    "delta_pct": 0.18,
+    "prev_close": 7528.25,
+    "delta_pct": 0.44,
     "label": "ES front-month",
     "source": "yahoo:ES=F"
   },
   "NQ": {
-    "value": 29901.75,
-    "as_of": "2026-07-03T16:59:59+00:00",
+    "value": 29862.5,
+    "as_of": "2026-07-06T10:53:41+00:00",
     "status": "LIVE",
-    "prev_close": 30094.25,
-    "delta_pct": -0.64,
+    "prev_close": 29556.0,
+    "delta_pct": 1.04,
     "label": "NQ front-month",
     "source": "yahoo:NQ=F"
   },
   "VIX": {
-    "value": 15.81,
-    "as_of": "2026-07-03T15:30:01+00:00",
+    "value": 16.35,
+    "as_of": "2026-07-06T10:48:31+00:00",
     "status": "LIVE",
-    "prev_close": 16.15,
-    "delta_pct": -2.11,
+    "prev_close": 15.81,
+    "delta_pct": 3.42,
     "label": "VIX",
     "source": "yahoo:^VIX"
   },
   "US10Y": {
-    "value": 4.4849997,
+    "value": 4.485,
     "as_of": "2026-07-02T18:59:56+00:00",
     "status": "LIVE",
-    "prev_close": 4.4849997,
-    "delta_pct": 0.0,
+    "prev_close": 4.475,
+    "delta_pct": 0.22,
     "label": "US 10Y yield",
     "source": "yahoo:^TNX"
   },
   "WTI": {
-    "value": 68.78,
-    "as_of": "2026-07-03T16:59:59+00:00",
+    "value": 68.58,
+    "as_of": "2026-07-06T10:53:41+00:00",
     "status": "LIVE",
-    "prev_close": 68.58,
-    "delta_pct": 0.29,
+    "prev_close": 68.69,
+    "delta_pct": -0.16,
     "label": "WTI front-month",
     "source": "yahoo:CL=F"
   },
   "GOLD": {
-    "value": 4187.3,
-    "as_of": "2026-07-03T16:59:58+00:00",
+    "value": 4166.9,
+    "as_of": "2026-07-06T10:53:38+00:00",
     "status": "LIVE",
-    "prev_close": 4068.3,
-    "delta_pct": 2.93,
+    "prev_close": 4125.7,
+    "delta_pct": 1.0,
     "label": "Gold front-month",
     "source": "yahoo:GC=F"
   },
   "US2Y": {
-    "value": 4.137,
-    "as_of": "2026-07-02T18:30:00+00:00",
+    "value": 4.112,
+    "as_of": "2026-07-06T11:01:20+00:00",
     "status": "LIVE",
-    "prev_close": 4.164,
-    "delta_pct": -0.65,
+    "prev_close": 4.131,
+    "delta_pct": -0.46,
     "label": "US 2Y yield",
     "source": "cnbc:US2Y",
     "unit": "%"
   },
   "BTC": {
-    "value": 61487.82,
-    "as_of": "2026-07-02T23:59:59.999000+00:00",
+    "value": 63546.56,
+    "as_of": "2026-07-05T23:59:59.999000+00:00",
     "status": "LIVE",
     "label": "BTC/USD",
     "source": "polygon:X:BTCUSD",
-    "prev_close": 61368.45,
-    "ref_close_ts": "2026-07-02T20:00:00+00:00",
-    "delta_pct": 0.19
+    "prev_close": 62156.77,
+    "ref_close_ts": "2026-07-03T20:00:00+00:00",
+    "delta_pct": 2.24
   }
 }
