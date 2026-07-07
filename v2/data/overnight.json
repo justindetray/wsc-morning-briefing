@@ -1,26 +1,80 @@
 {
-  "as_of": "2026-07-06T07:05:00-04:00",
-  "source": "cron_run112_curator",
-  "note": "Overnight = Thu 4pm ET close (Fri closed for holiday) through Mon 7:05am ET. Long weekend included.",
-  "asia_close": [
-    {"market": "Kospi", "level": 8150.89, "delta_pct": 1.94, "note": "Rebound continues; Samsung earnings tomorrow (Tue AC). SK Hynix +1%. Foreigners net-sold 12th straight day"},
-    {"market": "Nikkei", "level": 69744.07, "delta_pct": -0.14, "note": "Little changed; Topix +0.6%"},
-    {"market": "Hang Seng", "level": 23253.0, "delta_pct": -0.42, "note": "Futures ~23,253, below Fri close 23,350"}
-  ],
-  "europe_open": [],
-  "single_name_moves": [
-    {"ticker": "META", "delta_pct": null, "venue": "Thu session prior", "driver": "Reuters reported Sun neocloud analyst takes; Meta's AI cloud rollout gaining strategic-narrative weight. Neocloud comps (CoreWeave, Nebius) still under pressure"},
-    {"ticker": "MSFT", "delta_pct": null, "venue": "Thu session", "driver": "Committed $2.5B to new unit Microsoft Frontier (missed on Fri briefing)"},
-    {"ticker": "AAPL", "delta_pct": 5.0, "venue": "Thu close", "driver": "Rallied ~5% Thu, dragged Dow to record"},
-    {"ticker": "005930.KS (Samsung)", "delta_pct": 3.0, "venue": "Mon Seoul", "driver": "Q2 earnings due Tue AC; SK Hynix ADR Nasdaq listing this week. Weekly range wide (KOSPI 7,378-8,687 last week)"}
-  ],
-  "geo_headlines": [
-    "Long weekend hold: Thu 7/2 close was Dow 52,900.07 record +1.14%, SPX 7,483.24 flat, Nasdaq 25,832.67 -0.80%. Fri US closed for Independence Day. Dow's 4-week win streak longest since Oct 2024",
-    "Asia Mon relief: Kospi +1.94% to 8,150.89 (still off last week's 7,378 low), Nikkei -0.14% to 69,744.07, HK weaker (Hang Seng futures 23,253 vs Fri close 23,350). Samsung earnings Tue AC the pivot for chip complex",
-    "OpenAI 2025 financials leaked (Forbes/NYT/Ed Zitron): $20.9B operating loss on $13.07B revenue; $38.5B net loss after for-profit conversion charge. Company confidentially filed IPO paperwork. Oracle 10-K flagged the $300B compute deal with OpenAI as customer-default risk. AI valuation bubble math becoming mainstream discourse (Panmure Liberum, Ed Zitron, Ka. Martin FT)",
-    "Trump Accounts (Big Beautiful Bill) went live Sat 7/4 — $1,000 government seed for children born 2025+, index-fund savings vehicle. 87 companies pledged to fund. Client-relevant for HNW families thinking about GST vehicles",
-    "IRA clean energy subsidies expired 7/4 — LevelTen Energy survey: solar/wind PPAs rising 40-120%. Texas PPAs $55/MWh headed toward $121. Transformer costs +60-80% since 2020. AI-electricity thesis moved from narrative to price",
-    "Fed-cut repricing settling in: Bitcoin recovered $63k on soft-jobs bid, dollar softer (DXY 100.88 from 101.8 late June). Fed funds futures showing ~even odds September hike after Thu NFP miss"
-  ],
-  "headline_token": "LONG_WEEKEND_HOLD + KOSPI_PLUS_1.94_SAMSUNG_TUE + OPENAI_LEAKED_LOSS_38B + TRUMP_ACCOUNTS_LIVE + IRA_SUBSIDY_EXPIRY + FOMC_MINUTES_WED + CPI_FRI"
+    "as_of": "2026-07-07T07:07:00-04:00",
+    "source": "cron_run113_curator",
+    "note": "Overnight = Mon 7/6 4pm ET close through Tue 7/7 7:07am ET. Story: Samsung earnings dropped a 19x YoY profit surge but stock -7% on 'priced-for-perfection', dragging Kospi -5%; Hormuz tanker attack overnight bidding oil. Fed pricing shifted hawkish over long weekend on Warsh Sintra tone.",
+    "asia_close": [
+        {
+            "market": "Kospi",
+            "level": 7742.14,
+            "delta_pct": -5.02,
+            "note": "Samsung -7% (as much as -10% intraday) on 'priced-for-perfection' Q2 preview; SK Hynix -6%. AI-chip proxy risk-off despite record Samsung print (89.4T won op profit, 19x YoY)"
+        },
+        {
+            "market": "Nikkei",
+            "level": 66876.4,
+            "delta_pct": -4.11,
+            "note": "Tech-heavy sell in sympathy with chip complex; SoftBank, Tokyo Electron, Advantest all lower"
+        },
+        {
+            "market": "Hang Seng",
+            "level": 23400.0,
+            "delta_pct": 0.63,
+            "note": "Bucking regional trend; mainland stimulus talk supportive"
+        }
+    ],
+    "europe_open": [
+        {
+            "market": "Stoxx 600 chip complex",
+            "level": null,
+            "delta_pct": null,
+            "note": "ASML, ASM International, BE Semiconductor all -2% to -3% at open on Samsung read-through"
+        }
+    ],
+    "single_name_moves": [
+        {
+            "ticker": "005930.KS (Samsung)",
+            "delta_pct": -7.0,
+            "venue": "Tue Seoul close",
+            "driver": "Preliminary Q2 op profit 89.4T won (~$58B), 19x YoY, all-time record — but stock -7% (touched -10%) as 'priced for perfection'. Detailed breakdown 7/30"
+        },
+        {
+            "ticker": "MU",
+            "delta_pct": -4.6,
+            "venue": "US premarket",
+            "driver": "Chip-complex sympathy; DRAM/HBM read-through from Samsung"
+        },
+        {
+            "ticker": "INTC",
+            "delta_pct": -3.4,
+            "venue": "US premarket",
+            "driver": "Same read-through; foundry competitive pressure"
+        },
+        {
+            "ticker": "LRCX",
+            "delta_pct": -3.7,
+            "venue": "US premarket",
+            "driver": "Semi-cap equipment; Samsung capex commentary awaited"
+        },
+        {
+            "ticker": "AMAT",
+            "delta_pct": -3.7,
+            "venue": "US premarket",
+            "driver": "Semi-cap equipment sympathy"
+        },
+        {
+            "ticker": "SpaceX",
+            "delta_pct": null,
+            "venue": "US premarket",
+            "driver": "Added to Nasdaq-100 today after private-side index rules change; watch NDX rebalance flow"
+        }
+    ],
+    "geo_headlines": [
+        "Samsung Q2 preliminary: 89.4 trillion won op profit (~$58B), 19-fold YoY, all-time record — but stock fell 7% in Seoul (touched -10%) on 'priced-for-perfection'. Kospi -5%, SK Hynix -6%. Detailed earnings breakdown due 7/30 (Reuters, Chosun, NYT)",
+        "Strait of Hormuz tanker attacked by 'unknown projectile' overnight, set ablaze — first strike since Iran mourning period began. Brent +1.4% to $72.99, WTI +1.4% to $69.48. Trump heading to NATO summit in Turkey. Oil market watching escalation window (CNN, Euronews, Reuters)",
+        "US Mon 7/6 close: Dow +0.29% to 53,055.91 (RECORD, first close above 53K), SPX +0.72% to 7,537.43 (within 1% of ATH), Nasdaq +1.12% to 26,121.16. AI-chip rebound WDC +7%, AMD +6.6%, SNDK bounced off Thu -14% low. Six of 11 S&P sectors closed red — advance narrow",
+        "FedWatch repricing over long weekend: July hike prob rose to 27% (from 19% post-NFP Thu). Sep cum-hike 55%, Dec 76%. Reason: Warsh Sintra remarks 'inflation risks have come down' but declined forward guidance; Waller Mon defended forward guidance as 'valuable' — implicit Fed communication debate visible",
+        "SpaceX added to Nasdaq-100 today — first private company included via new index methodology. Watch NDX rebalance flows and passive-fund tracking error commentary",
+        "NATO summit Ankara Mon-Wed with Trump attending. Defense-spending discussions ongoing; US pledged $1.5T next defense budget with heavy tilt to emerging tech (per BN Daybreak coverage)"
+    ],
+    "headline_token": "SAMSUNG_RECORD_BUT_MINUS_7 + KOSPI_MINUS_5 + HORMUZ_TANKER_HIT_OIL_BID + DOW_RECORD_53K + FEDWATCH_HAWKISH_REPRICE_JUL_27PCT + FOMC_MINUTES_WED"
 }
