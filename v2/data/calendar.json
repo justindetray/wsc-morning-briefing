@@ -1,46 +1,8 @@
 {
-    "last_curated": "2026-07-07T07:07:00-04:00",
-    "curator": "cron_run113",
-    "note": "Post-holiday week 2 of Q3. Big events: FOMC Minutes Wed 14:00 (first Warsh minutes, June meeting), NATO summit Mon-Wed, Fed's Williams Thu, DAL + PEP earnings Fri BMO (S&P 500 Q2 season opener). CPI June is next Tue 7/14, NOT this week (correcting Run #112 header).",
+    "last_curated": "2026-07-08T07:07:00-04:00",
+    "curator": "cron_run114",
+    "note": "FOMC Minutes day (14:00 ET) — first Warsh minutes. Overnight geopolitics dominant: US strikes on Iran retaliating for Hormuz ship attacks. Fri: DAL + PEP Q2 earnings kickoff. CPI June is next Tue 7/14.",
     "macro": [
-        {
-            "date": "2026-07-07",
-            "time_et": "08:30",
-            "event": "US International Trade in Goods and Services (May)",
-            "consensus": "-$78.8B (GS -$78.5B, prior -$55.9B)",
-            "importance": "medium",
-            "note": "Widening from prior expected on tariff pull-forward reversal"
-        },
-        {
-            "date": "2026-07-07",
-            "time_et": "11:00",
-            "event": "Fed's Waller speech (Bank of Italy conference, Rome)",
-            "consensus": null,
-            "importance": "medium",
-            "note": "Mon: Waller defended forward guidance as 'valuable' — implicit contrast with Warsh's no-guidance stance"
-        },
-        {
-            "date": "2026-07-07",
-            "time_et": "13:30",
-            "event": "Dallas Fed's Logan (voter) — market liquidity panel",
-            "consensus": null,
-            "importance": "medium",
-            "note": "NY Fed / Chicago Booth conference"
-        },
-        {
-            "date": "2026-07-07",
-            "time_et": "13:00",
-            "event": "US 3-year Note Auction ($58B)",
-            "consensus": null,
-            "importance": "low"
-        },
-        {
-            "date": "2026-07-07",
-            "time_et": "15:00",
-            "event": "Consumer Credit (May)",
-            "consensus": null,
-            "importance": "low"
-        },
         {
             "date": "2026-07-08",
             "time_et": "07:00",
@@ -68,7 +30,8 @@
             "time_et": "13:00",
             "event": "US 10-year Note Auction",
             "consensus": null,
-            "importance": "medium"
+            "importance": "medium",
+            "note": "Watch demand ahead of Minutes with 10Y already +5bp overnight"
         },
         {
             "date": "2026-07-08",
@@ -76,7 +39,7 @@
             "event": "FOMC Minutes (June 16-17 meeting)",
             "consensus": null,
             "importance": "high",
-            "note": "First minutes since Warsh chairmanship. Market will parse dissent detail and rationale for June hold. Since meeting: NFP miss (57K vs 110K), Warsh Sintra remarks, Fed dot-plot debate"
+            "note": "First Warsh minutes. Market parses: dissent detail, balance-sheet language, rationale for hold. Since meeting: NFP miss (57K), Warsh Sintra remarks, oil now spiking on Iran strikes"
         },
         {
             "date": "2026-07-09",
@@ -98,7 +61,7 @@
             "event": "US 30-year Bond Auction",
             "consensus": null,
             "importance": "medium",
-            "note": "Watch long-end demand into FOMC Minutes tail"
+            "note": "Long-end demand tell into oil/geopolitics"
         },
         {
             "date": "2026-07-10",
@@ -113,7 +76,7 @@
             "event": "Delta Air Lines (DAL) earnings — BMO",
             "consensus": null,
             "importance": "high",
-            "note": "First S&P 500 earnings of Q2 season; consumer travel spend read"
+            "note": "First S&P 500 earnings of Q2 season; consumer travel spend + jet fuel cost read"
         },
         {
             "date": "2026-07-10",

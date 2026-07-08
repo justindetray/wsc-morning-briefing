@@ -1,80 +1,74 @@
 {
-    "as_of": "2026-07-07T07:07:00-04:00",
-    "source": "cron_run113_curator",
-    "note": "Overnight = Mon 7/6 4pm ET close through Tue 7/7 7:07am ET. Story: Samsung earnings dropped a 19x YoY profit surge but stock -7% on 'priced-for-perfection', dragging Kospi -5%; Hormuz tanker attack overnight bidding oil. Fed pricing shifted hawkish over long weekend on Warsh Sintra tone.",
+    "as_of": "2026-07-08T07:07:00-04:00",
+    "source": "cron_run114_curator",
+    "note": "Overnight = Tue 7/7 4pm ET close through Wed 7/8 7:07am ET. Story of the tape: US launched 'series of powerful strikes' against Iran Tue evening in retaliation for Iran attacking 3 commercial vessels in Strait of Hormuz. Treasury revoked Iran oil sanctions waiver. Trump declared prior MOU 'over'. Oil +5-6% intraday, Kospi entered bear market, VIX +12% to 18.13. FedWatch went more hawkish as rate market prices oil-driven inflation risk plus Warsh's stated inflation-vigilance.",
     "asia_close": [
         {
             "market": "Kospi",
-            "level": 7742.14,
-            "delta_pct": -5.02,
-            "note": "Samsung -7% (as much as -10% intraday) on 'priced-for-perfection' Q2 preview; SK Hynix -6%. AI-chip proxy risk-off despite record Samsung print (89.4T won op profit, 19x YoY)"
+            "level": 7538.0,
+            "delta_pct": -2.63,
+            "note": "Entered bear market territory (-20% from peak) — opened 7,452.48 vs prev 7,742.14. Samsung -6.25% (compounding Tue -7%), SK Hynix continued lower. Now down 9% in 3 sessions"
         },
         {
             "market": "Nikkei",
-            "level": 66876.4,
-            "delta_pct": -4.11,
-            "note": "Tech-heavy sell in sympathy with chip complex; SoftBank, Tokyo Electron, Advantest all lower"
+            "level": 66210.0,
+            "delta_pct": -0.99,
+            "note": "Tech-heavy weakness on chip complex + oil spike inflation concern"
         },
         {
             "market": "Hang Seng",
-            "level": 23400.0,
-            "delta_pct": 0.63,
-            "note": "Bucking regional trend; mainland stimulus talk supportive"
+            "level": 23180.0,
+            "delta_pct": -0.94,
+            "note": "Regional risk-off; energy names bid but overall down"
         }
     ],
     "europe_open": [
         {
-            "market": "Stoxx 600 chip complex",
+            "market": "Stoxx 600",
             "level": null,
-            "delta_pct": null,
-            "note": "ASML, ASM International, BE Semiconductor all -2% to -3% at open on Samsung read-through"
+            "delta_pct": -0.5,
+            "note": "Broad weakness; European chip names ASML, ASMI, BE Semi extending declines; oil majors BP, Shell, TotalEnergies bid"
         }
     ],
     "single_name_moves": [
         {
+            "ticker": "Brent Crude",
+            "delta_pct": 6.2,
+            "venue": "Singapore trade",
+            "driver": "Peaked at $78.74 after Trump said Iran MOU 'over'. Currently around $75-76. Treasury revoked Iran oil sanctions waiver"
+        },
+        {
+            "ticker": "WTI",
+            "delta_pct": 4.97,
+            "venue": "US electronic",
+            "driver": "$73.94 up from $70.44. API showed second consecutive weekly crude draw (bullish)"
+        },
+        {
             "ticker": "005930.KS (Samsung)",
-            "delta_pct": -7.0,
-            "venue": "Tue Seoul close",
-            "driver": "Preliminary Q2 op profit 89.4T won (~$58B), 19x YoY, all-time record — but stock -7% (touched -10%) as 'priced for perfection'. Detailed breakdown 7/30"
+            "delta_pct": -6.25,
+            "venue": "Wed Seoul close",
+            "driver": "Compounding Tue's -7% on 'priced for perfection' Q2 preview. Kospi now in bear market"
         },
         {
-            "ticker": "MU",
-            "delta_pct": -4.6,
-            "venue": "US premarket",
-            "driver": "Chip-complex sympathy; DRAM/HBM read-through from Samsung"
+            "ticker": "SPCX (SpaceX)",
+            "delta_pct": -8.0,
+            "venue": "US Tue close",
+            "driver": "Fell below IPO price — Nasdaq-100 inclusion Tue allowed early investors to distribute to passive funds"
         },
         {
-            "ticker": "INTC",
-            "delta_pct": -3.4,
-            "venue": "US premarket",
-            "driver": "Same read-through; foundry competitive pressure"
-        },
-        {
-            "ticker": "LRCX",
-            "delta_pct": -3.7,
-            "venue": "US premarket",
-            "driver": "Semi-cap equipment; Samsung capex commentary awaited"
-        },
-        {
-            "ticker": "AMAT",
-            "delta_pct": -3.7,
-            "venue": "US premarket",
-            "driver": "Semi-cap equipment sympathy"
-        },
-        {
-            "ticker": "SpaceX",
-            "delta_pct": null,
-            "venue": "US premarket",
-            "driver": "Added to Nasdaq-100 today after private-side index rules change; watch NDX rebalance flow"
+            "ticker": "Gold",
+            "delta_pct": -1.89,
+            "venue": "Wed early trade",
+            "driver": "Odd sell despite risk-off — dollar strength on flight to USD + potential margin liquidation as VIX spiked. Also, Treasury dollar-liquidity tightness"
         }
     ],
     "geo_headlines": [
-        "Samsung Q2 preliminary: 89.4 trillion won op profit (~$58B), 19-fold YoY, all-time record — but stock fell 7% in Seoul (touched -10%) on 'priced-for-perfection'. Kospi -5%, SK Hynix -6%. Detailed earnings breakdown due 7/30 (Reuters, Chosun, NYT)",
-        "Strait of Hormuz tanker attacked by 'unknown projectile' overnight, set ablaze — first strike since Iran mourning period began. Brent +1.4% to $72.99, WTI +1.4% to $69.48. Trump heading to NATO summit in Turkey. Oil market watching escalation window (CNN, Euronews, Reuters)",
-        "US Mon 7/6 close: Dow +0.29% to 53,055.91 (RECORD, first close above 53K), SPX +0.72% to 7,537.43 (within 1% of ATH), Nasdaq +1.12% to 26,121.16. AI-chip rebound WDC +7%, AMD +6.6%, SNDK bounced off Thu -14% low. Six of 11 S&P sectors closed red — advance narrow",
-        "FedWatch repricing over long weekend: July hike prob rose to 27% (from 19% post-NFP Thu). Sep cum-hike 55%, Dec 76%. Reason: Warsh Sintra remarks 'inflation risks have come down' but declined forward guidance; Waller Mon defended forward guidance as 'valuable' — implicit Fed communication debate visible",
-        "SpaceX added to Nasdaq-100 today — first private company included via new index methodology. Watch NDX rebalance flows and passive-fund tracking error commentary",
-        "NATO summit Ankara Mon-Wed with Trump attending. Defense-spending discussions ongoing; US pledged $1.5T next defense budget with heavy tilt to emerging tech (per BN Daybreak coverage)"
+        "US launched 'series of powerful strikes' against Iran Tue evening — Central Command retaliation for Iranian attacks on three commercial vessels in Strait of Hormuz. Explosions reported near Bandar Abbas, Qeshm Island, Sirik targeting IRGC-linked sites. Trump declared Feb 28 MOU with Iran 'over'; Treasury simultaneously revoked license permitting Iranian oil global sales (CNBC, Al Jazeera, Reuters, Bloomberg)",
+        "Oil surged 5-6% overnight: Brent peaked at $78.74 intraday (highest since 6/23), WTI touched $74.85. Currently Brent ~$75-76, WTI $73.94. Traders were caught short — large short positions accumulated on prior slide back toward pre-war levels. This is the return of a genuine geopolitical risk premium (Straits Times, Gulf News, Reuters)",
+        "Kospi entered bear market — down 20% from peak, opened 7,452.48 Wed. Samsung -6.25% (three-session drop ~13%), SK Hynix continued lower. AI-chip trade unwind + oil-inflation spillover (Chosun Biz, Economic Times, Livedoor)",
+        "US Tue 7/7 close: Dow -0.25% to 52,925.15 (off record after touching new intraday high), SPX -0.45% to 7,503.85, Nasdaq -1.2%. Semis led decline; SpaceX fell below IPO price on NDX-inclusion distribution. Advance narrow — majority of S&P names green despite index red (Seattle Times, Star, Xinhua)",
+        "FedWatch cohort 7/7 got MORE hawkish overnight: Jul cum-hike 29% (from 27%), Sep 63% (from 55%), Dec 83% (from 76%). Oil spike + Warsh's stated inflation vigilance = market prices near-certain year-end hike scenario. Bear flattener: 10Y +5bp to 4.529%, 2Y +5bp to 4.212%",
+        "FOMC Minutes today 14:00 ET arrives into a very different market than 3 weeks ago. First Warsh minutes; market will parse for dissent, balance sheet, and rationale for June hold. Oil spike materially changes the inflation outlook the Committee was discussing"
     ],
-    "headline_token": "SAMSUNG_RECORD_BUT_MINUS_7 + KOSPI_MINUS_5 + HORMUZ_TANKER_HIT_OIL_BID + DOW_RECORD_53K + FEDWATCH_HAWKISH_REPRICE_JUL_27PCT + FOMC_MINUTES_WED"
+    "headline_token": "US_STRIKES_IRAN + OIL_SURGE_6PCT + KOSPI_BEAR_MARKET + VIX_18_PLUS_12PCT + FEDWATCH_HAWKISH_ESCALATION + FOMC_MINUTES_TODAY_14ET"
 }
