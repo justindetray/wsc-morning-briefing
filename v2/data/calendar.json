@@ -1,59 +1,30 @@
 {
-    "last_curated": "2026-07-08T07:07:00-04:00",
-    "curator": "cron_run114",
-    "note": "FOMC Minutes day (14:00 ET) — first Warsh minutes. Overnight geopolitics dominant: US strikes on Iran retaliating for Hormuz ship attacks. Fri: DAL + PEP Q2 earnings kickoff. CPI June is next Tue 7/14.",
+    "last_curated": "2026-07-09T07:07:00-04:00",
+    "curator": "cron_run115",
+    "note": "Post-FOMC Minutes (hawkish read: 9-of-18 want a hike, easing bias dropped). US-Iran second round of strikes overnight, Brent above $80. Fri: DAL + PEP earnings kickoff. Next Tue CPI June (7/14).",
     "macro": [
-        {
-            "date": "2026-07-08",
-            "time_et": "07:00",
-            "event": "MBA Mortgage Applications",
-            "consensus": null,
-            "importance": "low"
-        },
-        {
-            "date": "2026-07-08",
-            "time_et": "09:00",
-            "event": "IMF World Economic Outlook Update",
-            "consensus": null,
-            "importance": "medium",
-            "note": "Live press with Petya Koeva Brooks and Deniz Igan"
-        },
-        {
-            "date": "2026-07-08",
-            "time_et": "10:00",
-            "event": "Wholesale Inventories (May)",
-            "consensus": null,
-            "importance": "low"
-        },
-        {
-            "date": "2026-07-08",
-            "time_et": "13:00",
-            "event": "US 10-year Note Auction",
-            "consensus": null,
-            "importance": "medium",
-            "note": "Watch demand ahead of Minutes with 10Y already +5bp overnight"
-        },
-        {
-            "date": "2026-07-08",
-            "time_et": "14:00",
-            "event": "FOMC Minutes (June 16-17 meeting)",
-            "consensus": null,
-            "importance": "high",
-            "note": "First Warsh minutes. Market parses: dissent detail, balance-sheet language, rationale for hold. Since meeting: NFP miss (57K), Warsh Sintra remarks, oil now spiking on Iran strikes"
-        },
         {
             "date": "2026-07-09",
             "time_et": "08:30",
             "event": "Initial Jobless Claims (week ending 7/4)",
             "consensus": "219K (prior 215K)",
-            "importance": "medium"
+            "importance": "medium",
+            "note": "Post-NFP-miss data point; labor cooling read"
         },
         {
             "date": "2026-07-09",
             "time_et": "09:00",
             "event": "Fed's Williams speech",
             "consensus": null,
-            "importance": "medium"
+            "importance": "high",
+            "note": "First NY Fed voice post-Minutes; Williams said inflation 'too high' but less anxious on future risks per Minutes text"
+        },
+        {
+            "date": "2026-07-09",
+            "time_et": "10:00",
+            "event": "Wholesale Sales (May)",
+            "consensus": null,
+            "importance": "low"
         },
         {
             "date": "2026-07-09",
@@ -61,7 +32,7 @@
             "event": "US 30-year Bond Auction",
             "consensus": null,
             "importance": "medium",
-            "note": "Long-end demand tell into oil/geopolitics"
+            "note": "Key tell: 10Y already +4bp overnight to 4.569%. Weak stop-through would extend bear-flattener"
         },
         {
             "date": "2026-07-10",
@@ -76,7 +47,7 @@
             "event": "Delta Air Lines (DAL) earnings — BMO",
             "consensus": null,
             "importance": "high",
-            "note": "First S&P 500 earnings of Q2 season; consumer travel spend + jet fuel cost read"
+            "note": "First S&P 500 Q2 print. Consumer travel + jet fuel cost read into oil spike"
         },
         {
             "date": "2026-07-10",
@@ -84,7 +55,15 @@
             "event": "PepsiCo (PEP) earnings — BMO",
             "consensus": null,
             "importance": "medium",
-            "note": "Consumer staples read"
+            "note": "Consumer staples read; input cost commentary"
+        },
+        {
+            "date": "2026-07-14",
+            "time_et": "08:30",
+            "event": "CPI (June)",
+            "consensus": "May was 4.2% YoY; anything at/above 4% keeps Sep hike odds elevated",
+            "importance": "high",
+            "note": "Set marker per GoldSilver analysis: <3.8% flips the mechanism, >4.0% cements Sep hike"
         }
     ],
     "earnings": []
