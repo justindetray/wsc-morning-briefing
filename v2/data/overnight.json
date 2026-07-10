@@ -1,74 +1,76 @@
 {
-    "as_of": "2026-07-09T07:07:00-04:00",
-    "source": "cron_run115_curator",
-    "note": "Overnight = Wed 7/8 4pm ET close through Thu 7/9 7:07am ET. Story: (1) FOMC Minutes yesterday confirmed hawkish tilt — 9-of-18 want at least one hike, dropped easing bias; (2) Second round of US-Iran strikes overnight, Brent above $80 (up 9% on week); (3) Semis rallied on NVDA H200 China rumor — Kospi +3.8% off bear-market bottom, SK Hynix +7.5%. US futures flattish, VIX cooled to 17.",
+    "as_of": "2026-07-10T07:10:00-04:00",
+    "source": "cron_run116_curator",
+    "note": "Overnight = Thu 7/9 4pm ET close through Fri 7/10 7:10am ET. Story: Thu was a full risk-on relief session (SPX +0.81% to 7,543.64, Nasdaq +1.30%, chips +3.1%). Williams walked back the hawkishness ('inflation too high' but oil should retreat 6-12mo, well-positioned). Asia extended Fri: Kospi +3.57%, Nikkei +2.02%. Oil premium fading further (WTI 72.23 vs 74.85 Wed peak). DAL Q2 earnings BMO today; PEP reported Thu with mixed print (-3%). OFAC License X1 wind-down deadline 7/17 12:00 ET is now the geopolitical hard timer.",
     "asia_close": [
         {
             "market": "Kospi",
-            "level": 7291.91,
-            "delta_pct": 0.6,
-            "note": "Whippy — up 3% at open, closed +0.6%. Off bear-market bottom on chip rebound. Some sources cite +3.8% peak. SK Hynix +5.3% to +7.5% on NVDA H200 China-sale rumor; Samsung +0.2% to +3.6% (bouncing off 3-session -13%)"
+            "level": 7552.49,
+            "delta_pct": 3.57,
+            "note": "Opened +3.57% (up 260.58 pts); Kosdaq +1.64%. Kospi now recovered most of the bear-market drop from Wed; SK Hynix +3%, Samsung +3%. AI-chip narrative fully back on"
         },
         {
             "market": "Nikkei",
-            "level": 67849.98,
-            "delta_pct": 1.6,
-            "note": "Rallied 1,600 pts briefly to 68,181; Tokyo Electron +5%, SoftBank +0.4%. Chip-led rebound offset by oil/rates weighing on transport, air, real estate"
+            "level": 69218.0,
+            "delta_pct": 2.02,
+            "note": "Topix +0.77%. Chip-led (Tokyo Electron, Advantest, SoftBank all higher). Third up session"
         },
         {
             "market": "Hang Seng",
-            "level": 23090.0,
-            "delta_pct": -0.37,
-            "note": "Modest weakness bucking Japan/Korea; China H200 headline positive but broad tape softer"
+            "level": 23200.0,
+            "delta_pct": 0.45,
+            "note": "Modest gain; CSI 300 +0.33%. Taiwan closed for holiday"
         }
     ],
     "europe_open": [
         {
             "market": "Stoxx 600",
             "level": null,
-            "delta_pct": 0.2,
-            "note": "Mixed; European chip names ASML, ASMI extending Wed gains; oil majors continue bid on Brent $80+"
+            "delta_pct": 0.4,
+            "note": "Continuing Thu's rebound (first up session in four). Chip names extending; oil majors giving back some Wed gains"
         }
     ],
     "single_name_moves": [
         {
             "ticker": "NVDA",
-            "delta_pct": 3.6,
-            "venue": "Wed close (extending premarket)",
-            "driver": "Reports China may allow H200 chip sales. Key catalyst for the Asia chip rebound"
-        },
-        {
-            "ticker": "SK Hynix",
-            "delta_pct": 7.5,
-            "venue": "Thu Seoul",
-            "driver": "HBM read-through from NVDA H200 China rumor + reversal off Wed bear-market bottom"
-        },
-        {
-            "ticker": "Samsung",
-            "delta_pct": 3.6,
-            "venue": "Thu Seoul",
-            "driver": "Bouncing off 3-session -13% drawdown; still elevated from Q2 preview -7% two days ago"
-        },
-        {
-            "ticker": "Brent Crude",
             "delta_pct": null,
-            "venue": "London",
-            "driver": "Broke $80 (crossed above intraday), up 9% on week. Second round US-Iran strikes; Iran negotiator says Hormuz opens only under 'Iranian arrangements'"
+            "venue": "Thu close",
+            "driver": "Extended H200 China rally; Nasdaq +1.30%. Chips +3.1% Thu, semis leading tech and consumer discretionary as top S&P sectors"
         },
         {
-            "ticker": "Dow",
-            "delta_pct": -1.1,
-            "venue": "Wed 7/8 close",
-            "driver": "-576.76 points to 52,479.15 (approximate close). Weighed by oil/inflation sensitives — Industrials -3.41%, Materials -2.45%. Not a chip story — semis actually rallied"
+            "ticker": "MU",
+            "delta_pct": null,
+            "venue": "Thu close (context)",
+            "driver": "Micron announced $250B AI-focused investment plan Thu; drove semi rally alongside NVDA H200 narrative"
+        },
+        {
+            "ticker": "SK Hynix + Samsung",
+            "delta_pct": 3.0,
+            "venue": "Fri Seoul early",
+            "driver": "Both +3% on continued H200 read-through + broader AI-memory demand"
+        },
+        {
+            "ticker": "PEP",
+            "delta_pct": -3.0,
+            "venue": "Thu 7/9 report",
+            "driver": "Q2 EPS $2.20 vs cons $2.21 (penny miss); rev $24.18B beat $23.97B cons. Stock -3% premarket on soft North American snack demand + margin compression despite international strength"
+        },
+        {
+            "ticker": "LEVI",
+            "delta_pct": -5.0,
+            "venue": "Thu 7/9 report",
+            "driver": "Beat Q2 EPS and raised FY26 outlook, stock down 5% on tariff-cost commentary"
         }
     ],
     "geo_headlines": [
-        "Second round of US-Iran strikes overnight. Iran state media reports three killed in western Iran. US likely to re-impose Iran naval blockade per reports. Iran chief negotiator states Strait of Hormuz opens only under 'Iranian arrangements' — direct commercial-shipping threat (NYT, AP News, Hindu, Fox)",
-        "Brent crude broke $80 overnight — up 9% for the week. WTI $74.49 (+1.32% overnight, +5% on week). Third consecutive session higher. Ground News flags this as Wells Fargo's confirmed 'geopolitical risk premium is back' regime (Reuters, Ground News)",
-        "FOMC Minutes released Wed 14:00 confirmed hawkish tilt: 9 of 18 officials see at least one hike by year-end (6 see two), 8 see no change, only 1 sees a cut. Chair Warsh submitted NO dot-plot projection — first Fed chair to withhold since 2012. 'Family fight' language. Dropped 'easing bias'. Staff revised core PCE up 0.6pp in single quarter (2.7% -> 3.3%) while trimming GDP. Bank of America now sees THREE hikes before year-end (GoldSilver, CNBC, NYT, Fortune, WSJ)",
-        "Asia chip complex rebounded on NVDA H200 China-sale rumor: Kospi opened +3%, SK Hynix +7.5%, Samsung +3.6%. Nikkei briefly +1,600 pts. First up session in three for the region",
-        "US Wed 7/8 close: Dow -1.1% (-576.76 pts) on Industrials/Materials weakness, SPX -0.28% to 7,482.71, Nasdaq +0.2% (semis SOX +2.2% rebound). Broadcom led chip rally. Split-market day: geopolitics + Fed hawkishness beat cyclicals while chip narrative held (Reuters, PMR, CNBC)",
-        "FedWatch cohort 7/8 extended hawkish repricing: Sep cum-hike 69% (from 63% Tue), Oct 77%, Dec 86%. Bear-flattener continues. BofA raised forecast to 3 hikes before year-end but sees hiking cycle brief"
+        "Thu US close: SPX +0.81% to 7,543.64 (recovered Wed decline in one session, within 1% of ATH), Dow +0.27% to 52,487.41, Nasdaq +1.30% to 26,206.89, Russell 2000 +1.2% to 2,992.54. Seven of 11 sectors green; tech +1.65%, consumer disc +1.46% led; staples -1.75% and energy -1.58% laggards (Seattle Times, Star/Xinhua, Straits Times)",
+        "NY Fed's Williams Thu: inflation 'far too high' but expects oil to retreat 6-12 months, monetary policy 'well positioned', declined to signal July FOMC action. Market read as mild dovish walk-back from Wed Minutes hawkishness (Morningstar/WSJ, Economic Times)",
+        "Micron announced $250B AI-focused investment plan Thu — drove semi rally alongside NVDA H200 China-sale rumor. Chips sector +3.1% Thu (Economic Times, Straits Times)",
+        "US-Iran ceasefire (June 18 60-day MOU) formally collapsed after 3 weeks. OFAC issued General License X1 permitting wind-down transactions on Iranian-origin oil until 7/17 12:00 ET — creates hard 7-day timer for existing exposure. No new purchases permitted (Chosun, Forbes)",
+        "Oil premium fading: WTI -1.6% Thu to $72.32 (from $74.85 Wed peak), holding $72.23 overnight. Brent -1.4% Thu to $76.90. Traders reading Williams and softer Iran headlines as risk-off unwind opportunity (Fox, Straits Times)",
+        "Asia continued the rebound Fri: Kospi +3.57% opening to 7,552.49, Nikkei +2.02%, Hang Seng +0.45%, CSI 300 +0.33%. Bloomberg framing: 'investors brushed off Hormuz concerns' as chip/AI narrative dominates (Mint, Chosun)",
+        "PepsiCo Q2 (Thu report): EPS $2.20 vs cons $2.21 (penny miss); revenue $24.18B beat $23.97B. Stock -3% premarket on soft NA snack demand + margin compression. First S&P 500 Q2 read-out (Investing.com, Substack)",
+        "DAL reports today BMO — cons EPS $1.51, rev $17.53B (+13% YoY). Company prior guide EPS $1.00-$1.50 and pretax ~$1B despite $2B+ fuel cost increase in Q2. Key read: premium travel demand + fuel commentary into $80 Brent (Yahoo Finance, Globe and Mail)"
     ],
-    "headline_token": "SECOND_US_IRAN_STRIKES + BRENT_OVER_80 + FOMC_MINUTES_HAWKISH_9_OF_18_HIKE + NVDA_H200_CHINA_RUMOR + KOSPI_REBOUND_3PCT + FEDWATCH_DEC_86PCT"
+    "headline_token": "THU_RELIEF_RALLY_SPX_7543 + WILLIAMS_WALKS_BACK + OIL_PREMIUM_FADING + KOSPI_PLUS_3PCT_AI_RALLY + PEP_MINUS_3_PENNY_MISS + DAL_BMO_TODAY + LICENSE_X1_DEADLINE_717"
 }

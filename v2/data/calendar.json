@@ -1,39 +1,8 @@
 {
-    "last_curated": "2026-07-09T07:07:00-04:00",
-    "curator": "cron_run115",
-    "note": "Post-FOMC Minutes (hawkish read: 9-of-18 want a hike, easing bias dropped). US-Iran second round of strikes overnight, Brent above $80. Fri: DAL + PEP earnings kickoff. Next Tue CPI June (7/14).",
+    "last_curated": "2026-07-10T07:10:00-04:00",
+    "curator": "cron_run116",
+    "note": "Q2 earnings kickoff — DAL BMO today (cons EPS $1.51, rev $17.53B). PEP already reported Thu 7/9 (EPS $2.20 vs $2.21 miss; rev $24.18B beat; stock -3% on soft NA snacks). OFAC License X1 wind-down deadline 7/17 12:00 ET creates hard geopolitical timer. Next Tue CPI June.",
     "macro": [
-        {
-            "date": "2026-07-09",
-            "time_et": "08:30",
-            "event": "Initial Jobless Claims (week ending 7/4)",
-            "consensus": "219K (prior 215K)",
-            "importance": "medium",
-            "note": "Post-NFP-miss data point; labor cooling read"
-        },
-        {
-            "date": "2026-07-09",
-            "time_et": "09:00",
-            "event": "Fed's Williams speech",
-            "consensus": null,
-            "importance": "high",
-            "note": "First NY Fed voice post-Minutes; Williams said inflation 'too high' but less anxious on future risks per Minutes text"
-        },
-        {
-            "date": "2026-07-09",
-            "time_et": "10:00",
-            "event": "Wholesale Sales (May)",
-            "consensus": null,
-            "importance": "low"
-        },
-        {
-            "date": "2026-07-09",
-            "time_et": "13:00",
-            "event": "US 30-year Bond Auction",
-            "consensus": null,
-            "importance": "medium",
-            "note": "Key tell: 10Y already +4bp overnight to 4.569%. Weak stop-through would extend bear-flattener"
-        },
         {
             "date": "2026-07-10",
             "time_et": "12:00",
@@ -43,27 +12,32 @@
         },
         {
             "date": "2026-07-10",
-            "time_et": null,
-            "event": "Delta Air Lines (DAL) earnings — BMO",
+            "time_et": "13:00",
+            "event": "Baker Hughes Rig Count",
             "consensus": null,
-            "importance": "high",
-            "note": "First S&P 500 Q2 print. Consumer travel + jet fuel cost read into oil spike"
+            "importance": "low"
         },
         {
             "date": "2026-07-10",
             "time_et": null,
-            "event": "PepsiCo (PEP) earnings — BMO",
-            "consensus": null,
-            "importance": "medium",
-            "note": "Consumer staples read; input cost commentary"
+            "event": "Delta Air Lines (DAL) earnings — BMO",
+            "consensus": "EPS $1.51 (Bloomberg), rev $17.53B (+13% YoY); prior guide $1.00-$1.50",
+            "importance": "high",
+            "note": "First S&P 500 Q2 print. Watch: (1) premium travel demand, (2) fuel-cost commentary into $80 Brent, (3) capacity guidance for H2"
         },
         {
             "date": "2026-07-14",
             "time_et": "08:30",
             "event": "CPI (June)",
-            "consensus": "May was 4.2% YoY; anything at/above 4% keeps Sep hike odds elevated",
-            "importance": "high",
-            "note": "Set marker per GoldSilver analysis: <3.8% flips the mechanism, >4.0% cements Sep hike"
+            "consensus": "May was 4.2% YoY; marker: <3.8% flips mechanism, >4.0% cements Sep hike",
+            "importance": "high"
+        },
+        {
+            "date": "2026-07-15",
+            "time_et": null,
+            "event": "Big banks kick off Q2 earnings — JPM, WFC, C, BLK expected",
+            "consensus": null,
+            "importance": "high"
         }
     ],
     "earnings": []
