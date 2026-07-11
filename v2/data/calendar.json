@@ -1,43 +1,49 @@
 {
-    "last_curated": "2026-07-10T07:10:00-04:00",
-    "curator": "cron_run116",
-    "note": "Q2 earnings kickoff — DAL BMO today (cons EPS $1.51, rev $17.53B). PEP already reported Thu 7/9 (EPS $2.20 vs $2.21 miss; rev $24.18B beat; stock -3% on soft NA snacks). OFAC License X1 wind-down deadline 7/17 12:00 ET creates hard geopolitical timer. Next Tue CPI June.",
+    "last_curated": "2026-07-11T07:10:00-04:00",
+    "curator": "cron_run117_weekend",
+    "note": "Weekend build (markets closed). Sat 7/11: no US session, no futures session (CME reopens Sun 6pm ET). Big week ahead: CPI Tue, bank earnings kick off Tue BMO. Iran 24-hr ultimatum expires end of Sat 7/11.",
     "macro": [
         {
-            "date": "2026-07-10",
-            "time_et": "12:00",
-            "event": "WASDE Report",
-            "consensus": null,
-            "importance": "low"
-        },
-        {
-            "date": "2026-07-10",
-            "time_et": "13:00",
-            "event": "Baker Hughes Rig Count",
-            "consensus": null,
-            "importance": "low"
-        },
-        {
-            "date": "2026-07-10",
+            "date": "2026-07-11",
             "time_et": null,
-            "event": "Delta Air Lines (DAL) earnings — BMO",
-            "consensus": "EPS $1.51 (Bloomberg), rev $17.53B (+13% YoY); prior guide $1.00-$1.50",
-            "importance": "high",
-            "note": "First S&P 500 Q2 print. Watch: (1) premium travel demand, (2) fuel-cost commentary into $80 Brent, (3) capacity guidance for H2"
+            "event": "US-Iran talks in Muscat (Oman) — Iran FM Araghchi meets Omani FM al-Busaidi. US demanding public statement by end of Sat that Hormuz is fully open and attacks will stop. Deadline effectively end-of-Saturday",
+            "consensus": null,
+            "importance": "high"
+        },
+        {
+            "date": "2026-07-13",
+            "time_et": null,
+            "event": "SK Hynix (SKHYV) first full trading week on Nasdaq — closed +13% at $168 on Fri debut vs $149 IPO",
+            "consensus": null,
+            "importance": "medium"
         },
         {
             "date": "2026-07-14",
             "time_et": "08:30",
             "event": "CPI (June)",
-            "consensus": "May was 4.2% YoY; marker: <3.8% flips mechanism, >4.0% cements Sep hike",
+            "consensus": "Headline 3.9% YoY (Cleveland Fed nowcast 3.96%); core 2.9% YoY. May was 4.2%. Marker: <3.8% flips mechanism, >4.0% cements Sep hike",
+            "importance": "high"
+        },
+        {
+            "date": "2026-07-14",
+            "time_et": "BMO",
+            "event": "JPM / WFC / C / BLK Q2 earnings — bank kickoff",
+            "consensus": "JPM $5.14-5.70 EPS, WFC $1.42-1.71, C $1.68-2.68, BLK $11.20. FICC/trading revenue expected +15% YoY per Coalition Greenwich",
             "importance": "high"
         },
         {
             "date": "2026-07-15",
-            "time_et": null,
-            "event": "Big banks kick off Q2 earnings — JPM, WFC, C, BLK expected",
-            "consensus": null,
+            "time_et": "BMO",
+            "event": "BAC / MS / GS Q2 earnings",
+            "consensus": "BAC $0.88-1.11, MS $2.08-2.84, GS $10.45-13.91",
             "importance": "high"
+        },
+        {
+            "date": "2026-07-15",
+            "time_et": "08:30",
+            "event": "Empire Manufacturing (July)",
+            "consensus": null,
+            "importance": "low"
         }
     ],
     "earnings": []

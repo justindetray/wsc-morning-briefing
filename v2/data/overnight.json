@@ -1,76 +1,58 @@
 {
-    "as_of": "2026-07-10T07:10:00-04:00",
-    "source": "cron_run116_curator",
-    "note": "Overnight = Thu 7/9 4pm ET close through Fri 7/10 7:10am ET. Story: Thu was a full risk-on relief session (SPX +0.81% to 7,543.64, Nasdaq +1.30%, chips +3.1%). Williams walked back the hawkishness ('inflation too high' but oil should retreat 6-12mo, well-positioned). Asia extended Fri: Kospi +3.57%, Nikkei +2.02%. Oil premium fading further (WTI 72.23 vs 74.85 Wed peak). DAL Q2 earnings BMO today; PEP reported Thu with mixed print (-3%). OFAC License X1 wind-down deadline 7/17 12:00 ET is now the geopolitical hard timer.",
+    "as_of": "2026-07-11T07:10:00-04:00",
+    "source": "cron_run117_weekend_curator",
+    "note": "WEEKEND BUILD — Saturday 7/11. Markets closed since Fri 4pm ET, CME futures don't reopen until Sun 6pm ET. This is post-close review through Sat morning, not an overnight session. BTC (24/7 tape) is the only live instrument. Story: Fri finished the week strong (SPX +0.4% to 7,575.39, fourth winning week in five), DAL beat kicked off Q2 earnings season with FY26 reaffirm + dividend +15%, SK Hynix debuted +13% on Nasdaq as SKHYV ADR. Iran situation is the wild card — US issued effectively a Saturday deadline for Iran to publicly commit to Hormuz being open and attacks stopped. Muscat talks today. Sun-night futures reopen will trade off whatever comes out of that.",
     "asia_close": [
         {
             "market": "Kospi",
-            "level": 7552.49,
-            "delta_pct": 3.57,
-            "note": "Opened +3.57% (up 260.58 pts); Kosdaq +1.64%. Kospi now recovered most of the bear-market drop from Wed; SK Hynix +3%, Samsung +3%. AI-chip narrative fully back on"
+            "level": 7475.94,
+            "delta_pct": 2.52,
+            "note": "Fri close +184.03 pts. Kosdaq +5.47% to 837.43 on chip celebration. SK Hynix ADR debut on Nasdaq +13% at $168 (opened +14% at $170 vs $149 IPO) drove the sector"
         },
         {
             "market": "Nikkei",
-            "level": 69218.0,
-            "delta_pct": 2.02,
-            "note": "Topix +0.77%. Chip-led (Tokyo Electron, Advantest, SoftBank all higher). Third up session"
-        },
-        {
-            "market": "Hang Seng",
-            "level": 23200.0,
-            "delta_pct": 0.45,
-            "note": "Modest gain; CSI 300 +0.33%. Taiwan closed for holiday"
+            "level": null,
+            "delta_pct": null,
+            "note": "Closed for weekend; extended Thu-Fri chip rally. Reopens Sun evening JST"
         }
     ],
     "europe_open": [
         {
             "market": "Stoxx 600",
             "level": null,
-            "delta_pct": 0.4,
-            "note": "Continuing Thu's rebound (first up session in four). Chip names extending; oil majors giving back some Wed gains"
+            "delta_pct": null,
+            "note": "Weekend — closed. Fri finished up on chip-led rally"
         }
     ],
     "single_name_moves": [
         {
-            "ticker": "NVDA",
+            "ticker": "DAL",
             "delta_pct": null,
-            "venue": "Thu close",
-            "driver": "Extended H200 China rally; Nasdaq +1.30%. Chips +3.1% Thu, semis leading tech and consumer discretionary as top S&P sectors"
+            "venue": "Fri 7/10 BMO print",
+            "driver": "Q2 EPS $1.56 beat $1.49 cons; revenue $17.67B beat $17.55B; reaffirmed FY26 EPS $6.50-$7.50; raised dividend 15%; strong Q3 outlook. Record revenue, profit beat even with fuel-cost surge. Full-year guide holding is the key tell — premium travel demand absorbing higher fuel"
         },
         {
-            "ticker": "MU",
-            "delta_pct": null,
-            "venue": "Thu close (context)",
-            "driver": "Micron announced $250B AI-focused investment plan Thu; drove semi rally alongside NVDA H200 narrative"
-        },
-        {
-            "ticker": "SK Hynix + Samsung",
-            "delta_pct": 3.0,
-            "venue": "Fri Seoul early",
-            "driver": "Both +3% on continued H200 read-through + broader AI-memory demand"
+            "ticker": "SKHYV (SK Hynix ADR)",
+            "delta_pct": 13.0,
+            "venue": "Fri 7/10 Nasdaq debut",
+            "driver": "Opened $170 (+14% vs $149 IPO), traded as high as $175, closed $168 (+13%). US investor demand for AI/HBM exposure. Kospi +2.52% on the day, Kosdaq +5.47%"
         },
         {
             "ticker": "PEP",
             "delta_pct": -3.0,
-            "venue": "Thu 7/9 report",
-            "driver": "Q2 EPS $2.20 vs cons $2.21 (penny miss); rev $24.18B beat $23.97B cons. Stock -3% premarket on soft North American snack demand + margin compression despite international strength"
-        },
-        {
-            "ticker": "LEVI",
-            "delta_pct": -5.0,
-            "venue": "Thu 7/9 report",
-            "driver": "Beat Q2 EPS and raised FY26 outlook, stock down 5% on tariff-cost commentary"
+            "venue": "Thu 7/9 report (context)",
+            "driver": "Penny miss $2.20 vs $2.21; rev beat $24.18B. Soft NA snacks. First S&P Q2 print"
         }
     ],
     "geo_headlines": [
-        "Thu US close: SPX +0.81% to 7,543.64 (recovered Wed decline in one session, within 1% of ATH), Dow +0.27% to 52,487.41, Nasdaq +1.30% to 26,206.89, Russell 2000 +1.2% to 2,992.54. Seven of 11 sectors green; tech +1.65%, consumer disc +1.46% led; staples -1.75% and energy -1.58% laggards (Seattle Times, Star/Xinhua, Straits Times)",
-        "NY Fed's Williams Thu: inflation 'far too high' but expects oil to retreat 6-12 months, monetary policy 'well positioned', declined to signal July FOMC action. Market read as mild dovish walk-back from Wed Minutes hawkishness (Morningstar/WSJ, Economic Times)",
-        "Micron announced $250B AI-focused investment plan Thu — drove semi rally alongside NVDA H200 China-sale rumor. Chips sector +3.1% Thu (Economic Times, Straits Times)",
-        "US-Iran ceasefire (June 18 60-day MOU) formally collapsed after 3 weeks. OFAC issued General License X1 permitting wind-down transactions on Iranian-origin oil until 7/17 12:00 ET — creates hard 7-day timer for existing exposure. No new purchases permitted (Chosun, Forbes)",
-        "Oil premium fading: WTI -1.6% Thu to $72.32 (from $74.85 Wed peak), holding $72.23 overnight. Brent -1.4% Thu to $76.90. Traders reading Williams and softer Iran headlines as risk-off unwind opportunity (Fox, Straits Times)",
-        "Asia continued the rebound Fri: Kospi +3.57% opening to 7,552.49, Nikkei +2.02%, Hang Seng +0.45%, CSI 300 +0.33%. Bloomberg framing: 'investors brushed off Hormuz concerns' as chip/AI narrative dominates (Mint, Chosun)",
-        "PepsiCo Q2 (Thu report): EPS $2.20 vs cons $2.21 (penny miss); revenue $24.18B beat $23.97B. Stock -3% premarket on soft NA snack demand + margin compression. First S&P 500 Q2 read-out (Investing.com, Substack)",
-        "DAL reports today BMO — cons EPS $1.51, rev $17.53B (+13% YoY). Company prior guide EPS $1.00-$1.50 and pretax ~$1B despite $2B+ fuel cost increase in Q2. Key read: premium travel demand + fuel commentary into $80 Brent (Yahoo Finance, Globe and Mail)"
+        "Fri 7/10 US close: SPX +0.4% to 7,575.39 (fourth winning week in last five). DAL beat kicked off Q2 earnings season — record revenue, EPS $1.56 vs $1.49, reaffirmed FY26 $6.50-$7.50, raised dividend 15%, strong Q3 outlook (Barchart, MarketWatch)",
+        "SK Hynix (SKHYV) debuted on Nasdaq Fri as ADR — opened +14% at $170, closed +13% at $168 vs $149 IPO. Massive US investor demand for AI/HBM exposure. Kospi +2.52%, Kosdaq +5.47% (Hankyung, SETN, Sina)",
+        "US issued effectively a Saturday deadline (7/11) for Iran to publicly commit that Hormuz is open, no more attacks, no tolls. If not: 'serious consequences' — including additional military action per US officials. Iran FM Araghchi meeting Omani FM in Muscat Sat to discuss (Axios/CBS, Hankyoreh, Anadolu)",
+        "Treasury sanctioned Dubai-based Iranian financier Ali Ansari + exchange houses moving billions for sanctioned Iranian banks. Announced Fri after Iran resumed attacks (Straits Times, Reuters)",
+        "Trump on Fri: 'The Islamic Republic of Iran has asked us to continue talks. We have agreed to do so, but the United States has stated to them, in no uncertain terms, that the Cease Fire is OVER!' Vance/Rubio/Witkoff/Kushner leading talks (Straits Times, CBS)",
+        "Hormuz traffic Thu 7/9 fell to 34 ships — lowest since June 28 per S&P Global Commodities at Sea. No new attacks reported Fri. Iran-linked and sanctioned traffic still ~1/3 of crossings (CBS)",
+        "Bipartisan Senate group (Blumenthal, Graham, Shaheen, Wicker) reached agreement with Trump admin on updated Russia sanctions legislation Fri — 'expect to roll out very soon' (Straits Times)",
+        "CPI June released Tue 7/14 08:30 — consensus 3.9% YoY (Cleveland Fed nowcast 3.96%), core 2.9%. May was 4.2%. Bank Q2 kickoff same day: JPM, WFC, C, BLK BMO. BAC/MS/GS Wed"
     ],
-    "headline_token": "THU_RELIEF_RALLY_SPX_7543 + WILLIAMS_WALKS_BACK + OIL_PREMIUM_FADING + KOSPI_PLUS_3PCT_AI_RALLY + PEP_MINUS_3_PENNY_MISS + DAL_BMO_TODAY + LICENSE_X1_DEADLINE_717"
+    "headline_token": "WEEKEND_BUILD + FRI_SPX_7575_STRONG_CLOSE + DAL_BEAT_FY_REAFFIRM + SK_HYNIX_NASDAQ_DEBUT_PLUS_13 + IRAN_SATURDAY_ULTIMATUM_MUSCAT_TALKS + CPI_TUE + BANK_EARNINGS_TUE"
 }
