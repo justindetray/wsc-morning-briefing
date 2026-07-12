@@ -1,19 +1,19 @@
 {
   "ES": {
-    "value": 7626.0,
+    "value": 7620.25,
     "as_of": "2026-07-10T20:59:59+00:00",
     "status": "LIVE",
-    "prev_close": 7588.75,
-    "delta_pct": 0.49,
+    "prev_close": 7620.25,
+    "delta_pct": 0.0,
     "label": "ES front-month",
     "source": "yahoo:ES=F"
   },
   "NQ": {
-    "value": 30068.5,
+    "value": 30032.25,
     "as_of": "2026-07-10T20:59:59+00:00",
     "status": "LIVE",
-    "prev_close": 29937.0,
-    "delta_pct": 0.44,
+    "prev_close": 30032.25,
+    "delta_pct": 0.0,
     "label": "NQ front-month",
     "source": "yahoo:NQ=F"
   },
@@ -36,20 +36,20 @@
     "source": "yahoo:^TNX"
   },
   "WTI": {
-    "value": 71.51,
+    "value": 71.41,
     "as_of": "2026-07-10T20:59:55+00:00",
     "status": "LIVE",
-    "prev_close": 72.08,
-    "delta_pct": -0.79,
+    "prev_close": 71.41,
+    "delta_pct": 0.0,
     "label": "WTI front-month",
     "source": "yahoo:CL=F"
   },
   "GOLD": {
-    "value": 4128.9,
+    "value": 4113.7,
     "as_of": "2026-07-10T20:59:57+00:00",
     "status": "LIVE",
-    "prev_close": 4130.6,
-    "delta_pct": -0.04,
+    "prev_close": 4104.1,
+    "delta_pct": 0.23,
     "label": "Gold front-month",
     "source": "yahoo:GC=F"
   },
@@ -64,13 +64,13 @@
     "unit": "%"
   },
   "BTC": {
-    "value": 64121.99,
-    "as_of": "2026-07-10T23:59:59.999000+00:00",
+    "value": 63812,
+    "as_of": "2026-07-11T23:59:59.999000+00:00",
     "status": "LIVE",
     "label": "BTC/USD",
     "source": "polygon:X:BTCUSD",
     "prev_close": 63845.56,
     "ref_close_ts": "2026-07-10T20:00:00+00:00",
-    "delta_pct": 0.43
+    "delta_pct": -0.05
   }
 }

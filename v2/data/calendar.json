@@ -1,19 +1,19 @@
 {
-    "last_curated": "2026-07-11T07:10:00-04:00",
-    "curator": "cron_run117_weekend",
-    "note": "Weekend build (markets closed). Sat 7/11: no US session, no futures session (CME reopens Sun 6pm ET). Big week ahead: CPI Tue, bank earnings kick off Tue BMO. Iran 24-hr ultimatum expires end of Sat 7/11.",
+    "last_curated": "2026-07-12T07:10:00-04:00",
+    "curator": "cron_run118_weekend_day2",
+    "note": "Sunday weekend build. Escalation weekend: Iran attacked container ship + declared Hormuz closed; US CENTCOM launched third round of strikes 7:15pm ET Sat. Sun 6pm ET CME futures reopen will trade off this. CPI Tue + bank kickoff Tue BMO are now the second-order story.",
     "macro": [
         {
-            "date": "2026-07-11",
+            "date": "2026-07-12",
             "time_et": null,
-            "event": "US-Iran talks in Muscat (Oman) — Iran FM Araghchi meets Omani FM al-Busaidi. US demanding public statement by end of Sat that Hormuz is fully open and attacks will stop. Deadline effectively end-of-Saturday",
+            "event": "No US data. Post-escalation weekend. Sunday 18:00 ET CME futures reopen — will gap on Hormuz closure + US third-round strikes",
             "consensus": null,
             "importance": "high"
         },
         {
             "date": "2026-07-13",
             "time_et": null,
-            "event": "SK Hynix (SKHYV) first full trading week on Nasdaq — closed +13% at $168 on Fri debut vs $149 IPO",
+            "event": "SK Hynix (SKHY) first full trading week on Nasdaq — closed +13% at $168 on Fri debut vs $149 IPO",
             "consensus": null,
             "importance": "medium"
         },
@@ -21,7 +21,7 @@
             "date": "2026-07-14",
             "time_et": "08:30",
             "event": "CPI (June)",
-            "consensus": "Headline 3.9% YoY (Cleveland Fed nowcast 3.96%); core 2.9% YoY. May was 4.2%. Marker: <3.8% flips mechanism, >4.0% cements Sep hike",
+            "consensus": "Headline 3.9% YoY (Cleveland Fed nowcast 3.96%); core 2.9% YoY. May was 4.2%. Marker: <3.8% flips mechanism, >4.0% cements Sep hike. Note: oil re-escalation adds upside energy risk to July/August prints, not June",
             "importance": "high"
         },
         {
@@ -33,17 +33,17 @@
         },
         {
             "date": "2026-07-15",
-            "time_et": "BMO",
-            "event": "BAC / MS / GS Q2 earnings",
-            "consensus": "BAC $0.88-1.11, MS $2.08-2.84, GS $10.45-13.91",
-            "importance": "high"
-        },
-        {
-            "date": "2026-07-15",
             "time_et": "08:30",
             "event": "Empire Manufacturing (July)",
             "consensus": null,
             "importance": "low"
+        },
+        {
+            "date": "2026-07-15",
+            "time_et": "BMO",
+            "event": "BAC / MS / GS Q2 earnings",
+            "consensus": "BAC $0.88-1.11, MS $2.08-2.84, GS $10.45-13.91",
+            "importance": "high"
         }
     ],
     "earnings": []
