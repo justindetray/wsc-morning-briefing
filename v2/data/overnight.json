@@ -1,58 +1,70 @@
 {
-    "as_of": "2026-07-12T07:10:00-04:00",
-    "source": "cron_run118_weekend_day2_curator",
-    "note": "SUNDAY WEEKEND BUILD — escalation weekend. Between Sat brief and now: Iran did NOT publicly comply with US ultimatum; IRGC attacked Cyprus-flagged M/V GFS Galaxy on the US-cleared southern (Omani-waters) corridor; Iran declared Strait of Hormuz CLOSED 'until further notice, until US intervention ends'; US CENTCOM launched third round of strikes 7:15pm ET Sat, hitting radars/launchers/missile-drone depots. Explosions Bandar Abbas, Sirik, Chabahar. Iranian oil sales waivers revoked. Ship insurance premiums expected to spike. Only live tape is BTC (63,812, -0.05% overnight) — CME closed. Sun 6pm ET reopen will show the real reaction. In parallel, OpenAI reportedly filing confidential S-1 with GS/MS for Sep 2026 IPO at ~$730B (major AI capital-markets story that would normally lead but is buried under Iran).",
+    "as_of": "2026-07-13T07:12:00-04:00",
+    "source": "cron_run119_curator_mon_post_escalation",
+    "note": "Sun 18:00 ET CME reopen came in more measured than feared. ES -0.26%, NQ -0.86% — both well under the 2% escalation threshold. Story arc: (1) Sun 5pm ET CENTCOM launched FOURTH strike wave — 140 targets, heavier than Sat's third round; (2) Iran retaliated across Qatar/UAE/Bahrain/Kuwait/Oman/Jordan overnight — most extensive regional strikes yet; (3) Trump publicly denied Iran controls Hormuz — CENTCOM escorted ~20 vessels through southern route in 24hrs, southern lane operational; (4) SK Hynix plunged in Seoul (-4.4% intraday, hit -10%) on Nasdaq/Kospi decoupling — profit-taking after Fri +13% ADR debut; (5) Kospi actually opened +0.2% to 7,490. Brent touched $80 briefly, held $78.68 +3.51%; WTI $73.89 +3.47%. Gold -1% — the market read this as bounded regional conflict, NOT existential. This is a garden-variety geopolitical event playing out (Sun brief base rate call: Aramco 2019, Israel-Hamas 2023, Iran-Israel 2024 all faded). Real event is CPI + Warsh + banks Tue.",
     "asia_close": [
         {
-            "market": "Asia",
+            "market": "Kospi",
+            "level": 7490.18,
+            "delta_pct": 0.2,
+            "note": "Opened +0.2% (+14.24 pts) despite SK Hynix plunge — index held up on Samsung + SoftBank + broader semi rotation. SK Hynix separately fell as much as 4.4% intraday (some reports -10%) on profit-taking after Fri +13% ADR debut and Nasdaq/Kospi decoupling. Kioxia also plunged"
+        },
+        {
+            "market": "Nikkei",
             "level": null,
             "delta_pct": null,
-            "note": "Closed weekend. Fri close: Kospi 7,475.94 +2.52%, Kosdaq 837.43 +5.47%. Sunday evening JST reopen will trade off Hormuz closure and US third strikes"
+            "note": "Mixed open — Samsung/SoftBank ADR-linked names higher, SK Hynix and Kioxia lower. Broader tape absorbing Iran risk"
+        },
+        {
+            "market": "Hang Seng",
+            "level": null,
+            "delta_pct": null,
+            "note": "Modest lower open on oil surge / regional risk-off. China CPI (Sun) came in soft — 1.0% YoY vs 1.2% cons"
         }
     ],
     "europe_open": [
         {
-            "market": "Europe",
+            "market": "Stoxx 600",
             "level": null,
             "delta_pct": null,
-            "note": "Closed weekend"
+            "note": "Weekend closed. Fri finished up. Mon open expected lower on oil / Iran"
         }
     ],
     "single_name_moves": [
         {
-            "ticker": "OpenAI (private)",
+            "ticker": "SKHY (SK Hynix ADR)",
             "delta_pct": null,
-            "venue": "Sun 7/12 reports",
-            "driver": "Preparing confidential IPO filing with Goldman Sachs and Morgan Stanley, targeting Sept 2026 debut at ~$730B private-market valuation. Would be one of the largest tech IPOs in history. Signal: AI capital-markets window remains wide open despite geopolitical noise"
-        },
-        {
-            "ticker": "SKHY (SK Hynix ADR — ticker correction)",
-            "delta_pct": null,
-            "venue": "Fri 7/10 Nasdaq debut (correction)",
-            "driver": "Correct ticker is SKHY (not SKHYV as flagged Sat). ADR pricing range $149-$166, priced $149 IPO. Opened +14% $170, closed +13% $168 Fri. Trades full week Mon; will be pulled into the risk-off gap Sun night on Iran escalation despite strong fundamentals"
+            "venue": "Mon Seoul early",
+            "driver": "Plunged as much as 4.4% intraday in Seoul (some reports -10% at open) on profit-taking after Fri +13% Nasdaq debut. Nasdaq/Kospi decoupling — ADR opened +14%, closed +13%, Seoul mother-stock now catching down. Tokenized xStock price $162.73 Mon reflects continued softness"
         },
         {
             "ticker": "WTI / Brent",
-            "delta_pct": null,
-            "venue": "Fri close 71.51; Sun 6pm reopen pending",
-            "driver": "Fri closed at 71.51 (down from 74.85 Wed peak — traders faded Iran risk). Sat evening escalation (Hormuz closed + US third strikes) will reprice. Bloomberg: prolonged closure could drive oil prices and marine war-risk premiums sharply higher"
+            "delta_pct": 3.5,
+            "venue": "Sun 18:00 ET reopen through Mon Asia",
+            "driver": "WTI $73.97 +3.59%; Brent touched $80 briefly, held $78.68 +3.51%. Gap on Hormuz closure + fourth US strike wave. Southern shipping lane still operational per CENTCOM (20 vessels escorted in 24hrs). Analysts split on whether $75-80 becomes new base or fades within 5-15 sessions (base rate favors fade)"
         },
         {
-            "ticker": "DAL",
+            "ticker": "Gold",
+            "delta_pct": -1.0,
+            "venue": "Mon Asia",
+            "driver": "Gold DOWN despite Iran escalation. Market reading this as bounded conflict, not existential. Odd tell against safe-haven playbook — mirrors Wed 7/8 behavior (gold sold -1.89% on US strikes). Dollar strength + hawkish repricing dominant force"
+        },
+        {
+            "ticker": "DAL / Airlines",
             "delta_pct": null,
-            "venue": "Fri BMO print (context)",
-            "driver": "Q2 EPS $1.56 beat $1.49; rev $17.67B beat; reaffirmed FY26 $6.50-$7.50; raised div 15%. Strong Q3 outlook. First Q2 print of the season — bullish tape until Sat evening changed everything"
+            "venue": "Mon premarket context",
+            "driver": "DAL Fri beat + FY reaffirm + dividend +15% still holds fundamentally, but airlines will trade heavy Mon on fuel gap. Sector will be a re-entry level if oil fades over 5-10 sessions"
         }
     ],
     "geo_headlines": [
-        "Sat 7/11 evening ET: US CENTCOM launched THIRD round of strikes at 7:15pm ET against Iran after IRGC attacked M/V GFS Galaxy (Cyprus-flagged container ship, civilian crew member missing, engine room damaged, on fire). Strikes hit Iranian radars, launchers, missile and drone storage depots. Explosions Bandar Abbas, Sirik, Chabahar (CENTCOM/WSJ/Mint/Anadolu)",
-        "Iran declared Strait of Hormuz CLOSED 'until further notice, until US intervention ends' after firing warning shots at the GFS Galaxy. Ship was on the US-cleared southern (Omani-waters) route. IRGC: 'we warned to alter course, they ignored it.' This is the first formal declared closure of the current conflict (Mint/India Today/ChosunBiz/Reuters)",
-        "US-Iran Muscat FM talks Sat produced NO public Iranian statement of Hormuz compliance. Araghchi-Albusaidi met, agreed to 'continue talks at technical and political levels.' Oman draft proposal (per CNN): free navigation via southern corridor in Omani waters; northern corridor (Iranian waters) requires prior Iranian approval, no tolls. Iran said US owed reciprocal compliance under Islamabad MOU Article 9 (Straits Times, Gulf News)",
-        "Iran's new supreme leader Ayatollah Mojtaba Khamenei pledged 'vengeance' for his predecessor (killed Feb 28) 'whatever happens to Iran' — statement released 7/11 to mark funeral ceremonies (Straits Times)",
-        "OpenAI preparing confidential IPO filing with Goldman Sachs and Morgan Stanley, targeting September 2026 public debut at ~$730B private-market valuation. Would be one of the largest tech IPOs in history — major AI capital-markets story that would lead any other weekend (BuildFast, multiple)",
-        "Ticker correction: SK Hynix Nasdaq ADR is SKHY (not SKHYV as flagged Sat). Fri debut confirmed: priced $149 IPO within $149-$166 range, opened +14% at $170, closed +13% at $168. Trades full week starting Mon",
-        "Iran previously threatened it 'will not consider itself bound by' the Islamabad MOU if US violations continue (revocation of Iran oil-sales waivers cited as the violation). Position now formally re-litigated as of Sunday (Gulf News)",
-        "Bloomberg quoting experts: prolonged Hormuz closure could drive oil prices and marine war-risk insurance premiums sharply higher, even if not fully sealed — shipping delays and premium hikes translate to actual transport-cost increases"
+        "Sun 17:00 ET: US CENTCOM launched FOURTH round of strikes on Iran (140 targets — much heavier than Sat's third round). Hit missile/drone launch sites, ammunition dumps, communication equipment, radar sites, coastal defenses. Explicitly designed to degrade Iran's anti-shipping capability. First use of one-way attack sea drones (CENTCOM, AP, WSJ, NDTV, CBS)",
+        "Iran retaliated Sun evening/Mon early with drone and missile strikes across Qatar, UAE, Bahrain, Kuwait, Oman and Jordan targeting US installations — most extensive regional attacks yet. Qatar: 3 injured incl. child by falling shrapnel. Kuwait: border posts + offshore oil platform hit. UAE air defenses engaged (Reuters/Internazionale, ICIS)",
+        "Iran declared Strait of Hormuz CLOSED again Sun 'until further notice, until end of American intervention.' CENTCOM response: 'Iran does not control the strait. Traffic is flowing.' US escorted ~20 vessels through southern route in 24hrs; JMIC confirms southern lane operational (CENTCOM, Reuters, CBS)",
+        "Oil futures reopen: WTI $73.97 +3.59%, Brent $78.68 +3.51% (briefly touched $80). Market pricing bounded regional conflict, NOT full closure. Under-5% gap consistent with prior Middle East shocks fading over 5-15 sessions (ICIS, Business Times, Mint, Tribune India, Reuters)",
+        "Iran's chief negotiator Qalibaf: 'The era of one-sided deals is OVER. We told you: keep your word or pay the price. Reality is knocking.' Insisted US must first honor Islamabad MOU commitments on Hormuz transit and Iranian oil-export normalization before talks resume (Mint, Reuters, CBS)",
+        "OIC condemned Iranian strikes against Qatar/Oman/Kuwait/UAE/Bahrain/Jordan as 'flagrant violation of national sovereignty.' Oman summoned Iranian ambassador for formal protest. Pakistan/Qatar/Egypt continuing indirect mediation. Trump maintained 'ceasefire OVER' but says US open to further talks (Tribune India, AP)",
+        "SK Hynix decoupling: Nasdaq ADR (SKHY) closed +13% at $168 Fri; Seoul mother-stock fell as much as 4.4% Mon (some reports -10%). Kospi still up +0.2% on Samsung/SoftBank support. Kioxia plunged alongside. Profit-taking + regional risk-off (Investing.com, Chosun Biz, Straits Times, Tradingkey)",
+        "Fed Chair Warsh testifies Tue 10am (House) and Wed 10am (Senate) — first public testimony as chair. Combined with Tue 08:30 CPI + bank kickoff Tue BMO, Tuesday is the entire week. Cons June CPI 3.7-3.8% YoY (from 4.2%), MoM -0.1% (deflation on retreating energy — but weekend oil gap NOT in this print). Cleveland Fed nowcast 3.92% (CMC, IG, Chosun)"
     ],
-    "headline_token": "SUNDAY_ESCALATION_WEEKEND + IRAN_ATTACKED_GFS_GALAXY + HORMUZ_DECLARED_CLOSED + US_THIRD_STRIKES_715PM_ET_SAT + OPENAI_730B_IPO_FILING + SKHY_TICKER_CORRECTION + CPI_TUE + BANK_KICKOFF_TUE"
+    "headline_token": "SUN_REOPEN_MEASURED_GAP + FOURTH_US_STRIKE_140_TARGETS + IRAN_GULF_WIDE_RETAL + HORMUZ_CONTESTED_SOUTHERN_OPEN + WTI_PLUS_3PCT_BRENT_80 + SKHY_DECOUPLE_KOSPI_HOLDS + CPI_TUE_37PCT + WARSH_TESTIMONY_TUE + BANK_KICKOFF_TUE"
 }

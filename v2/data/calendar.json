@@ -1,27 +1,27 @@
 {
-    "last_curated": "2026-07-12T07:10:00-04:00",
-    "curator": "cron_run118_weekend_day2",
-    "note": "Sunday weekend build. Escalation weekend: Iran attacked container ship + declared Hormuz closed; US CENTCOM launched third round of strikes 7:15pm ET Sat. Sun 6pm ET CME futures reopen will trade off this. CPI Tue + bank kickoff Tue BMO are now the second-order story.",
+    "last_curated": "2026-07-13T07:12:00-04:00",
+    "curator": "cron_run119_mon_post_escalation",
+    "note": "Tue is the tentpole: CPI + PPI (with July+ implications from oil), Warsh testifies House, bank kickoff BMO. Fed Chair Warsh is currently the market's central macro figure. Iran situation ongoing but market is fading the initial gap.",
     "macro": [
         {
-            "date": "2026-07-12",
-            "time_et": null,
-            "event": "No US data. Post-escalation weekend. Sunday 18:00 ET CME futures reopen — will gap on Hormuz closure + US third-round strikes",
-            "consensus": null,
-            "importance": "high"
-        },
-        {
             "date": "2026-07-13",
-            "time_et": null,
-            "event": "SK Hynix (SKHY) first full trading week on Nasdaq — closed +13% at $168 on Fri debut vs $149 IPO",
-            "consensus": null,
-            "importance": "medium"
+            "time_et": "14:00",
+            "event": "Monthly Budget Statement (June)",
+            "consensus": "May was -$292.6B",
+            "importance": "low"
         },
         {
             "date": "2026-07-14",
             "time_et": "08:30",
-            "event": "CPI (June)",
-            "consensus": "Headline 3.9% YoY (Cleveland Fed nowcast 3.96%); core 2.9% YoY. May was 4.2%. Marker: <3.8% flips mechanism, >4.0% cements Sep hike. Note: oil re-escalation adds upside energy risk to July/August prints, not June",
+            "event": "CPI (June) + Core CPI",
+            "consensus": "Headline cons 3.7-3.8% YoY (from May 4.2%), MoM -0.1% (deflation) as energy retreated in June; core 2.9% YoY, 0.2% MoM. Cleveland Fed nowcast 3.92% YoY. Marker: <3.7% flips mechanism, >4.0% cements Sep hike. IMPORTANT: This June print does NOT include the weekend's oil re-escalation — July print will",
+            "importance": "high"
+        },
+        {
+            "date": "2026-07-14",
+            "time_et": "10:00",
+            "event": "Fed Chair Warsh testifies before House Financial Services Committee (semiannual monetary policy)",
+            "consensus": "First public testimony as chair. Watch: (1) framing of dot-plot withhold, (2) oil-inflation pass-through commentary, (3) hawkish tone continuity from Wed Minutes",
             "importance": "high"
         },
         {
@@ -34,9 +34,16 @@
         {
             "date": "2026-07-15",
             "time_et": "08:30",
-            "event": "Empire Manufacturing (July)",
+            "event": "PPI (June) + Empire Manufacturing (July)",
+            "consensus": "PPI cons 6.5%+ (may exceed May's 6.5% due to intermediate-price lag); Empire prev 5.7",
+            "importance": "medium"
+        },
+        {
+            "date": "2026-07-15",
+            "time_et": "10:00",
+            "event": "Warsh testifies before Senate Banking Committee",
             "consensus": null,
-            "importance": "low"
+            "importance": "high"
         },
         {
             "date": "2026-07-15",
@@ -44,6 +51,13 @@
             "event": "BAC / MS / GS Q2 earnings",
             "consensus": "BAC $0.88-1.11, MS $2.08-2.84, GS $10.45-13.91",
             "importance": "high"
+        },
+        {
+            "date": "2026-07-16",
+            "time_et": "08:30",
+            "event": "Retail Sales (June)",
+            "consensus": "Cons 0.3% MoM; May was 0.9% MoM. Tell on premium-consumer strength after DAL beat",
+            "importance": "medium"
         }
     ],
     "earnings": []
