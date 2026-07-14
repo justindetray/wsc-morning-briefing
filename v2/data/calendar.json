@@ -1,10 +1,38 @@
 {
-    "last_curated": "2026-07-13T07:12:00-04:00",
-    "curator": "cron_run119_mon_post_escalation",
-    "note": "Tue is the tentpole: CPI + PPI (with July+ implications from oil), Warsh testifies House, bank kickoff BMO. Fed Chair Warsh is currently the market's central macro figure. Iran situation ongoing but market is fading the initial gap.",
+    "last_curated": "2026-07-14T07:08:00-04:00",
+    "curator": "cron_run120_tue_cpi_warsh_banks",
+    "note": "Today is the single most consequential morning of Q3 for banking + macro. CPI + Warsh + five bank kickoffs in one session. Also: US Iranian blockade enforcement begins 16:00 ET — the afternoon tape event. All within hours of each other.",
     "macro": [
         {
-            "date": "2026-07-13",
+            "date": "2026-07-14",
+            "time_et": "06:00",
+            "event": "NFIB Small Business Optimism Index (June)",
+            "consensus": "Prior 95.3, cons 95.6",
+            "importance": "low"
+        },
+        {
+            "date": "2026-07-14",
+            "time_et": "08:30",
+            "event": "CPI (June) + Core CPI — THE PIVOT",
+            "consensus": "Headline cons 3.8% YoY (from May 4.2%), MoM -0.1% (first monthly deflation since 2020 COVID). Core 2.8% YoY (from 2.9%), MoM 0.2%. Cleveland Fed nowcast 3.92%. Markers: <3.7% flips mechanism dovish, >4.0% cements Sep+Dec hike path. NOTE: June print does NOT include Mon oil gap — July CPI (mid-Aug) will",
+            "importance": "critical"
+        },
+        {
+            "date": "2026-07-14",
+            "time_et": "BMO",
+            "event": "JPM / WFC / C / BLK / BAC / GS — Q2 bank kickoff (5-6 major banks)",
+            "consensus": "Coalition Greenwich expects FICC/trading +15% YoY. JPM ~$5.14-5.70 EPS, WFC $1.42-1.71, C $1.68-2.68, BLK $11.20, BAC $0.88-1.11, GS $10.45-13.91. MS Wed",
+            "importance": "critical"
+        },
+        {
+            "date": "2026-07-14",
+            "time_et": "10:00",
+            "event": "Fed Chair Warsh testifies before House Financial Services Committee (semiannual)",
+            "consensus": "First public testimony as Chair. Presided over hawkish June FOMC (2026 inflation forecast 2.7%→3.6%, dot median 3.4%→3.8%). Watch: (1) framing of withheld dot plot, (2) oil-inflation pass-through commentary, (3) reaction function to today's CPI print",
+            "importance": "critical"
+        },
+        {
+            "date": "2026-07-14",
             "time_et": "14:00",
             "event": "Monthly Budget Statement (June)",
             "consensus": "May was -$292.6B",
@@ -12,51 +40,51 @@
         },
         {
             "date": "2026-07-14",
-            "time_et": "08:30",
-            "event": "CPI (June) + Core CPI",
-            "consensus": "Headline cons 3.7-3.8% YoY (from May 4.2%), MoM -0.1% (deflation) as energy retreated in June; core 2.9% YoY, 0.2% MoM. Cleveland Fed nowcast 3.92% YoY. Marker: <3.7% flips mechanism, >4.0% cements Sep hike. IMPORTANT: This June print does NOT include the weekend's oil re-escalation — July print will",
-            "importance": "high"
-        },
-        {
-            "date": "2026-07-14",
-            "time_et": "10:00",
-            "event": "Fed Chair Warsh testifies before House Financial Services Committee (semiannual monetary policy)",
-            "consensus": "First public testimony as chair. Watch: (1) framing of dot-plot withhold, (2) oil-inflation pass-through commentary, (3) hawkish tone continuity from Wed Minutes",
-            "importance": "high"
-        },
-        {
-            "date": "2026-07-14",
-            "time_et": "BMO",
-            "event": "JPM / WFC / C / BLK Q2 earnings — bank kickoff",
-            "consensus": "JPM $5.14-5.70 EPS, WFC $1.42-1.71, C $1.68-2.68, BLK $11.20. FICC/trading revenue expected +15% YoY per Coalition Greenwich",
+            "time_et": "16:00",
+            "event": "US Iranian Blockade enforcement BEGINS (CENTCOM)",
+            "consensus": "All Iranian port/coastal traffic subject to interception, diversion, capture. Third-country vessels face 20% cargo levy. First real-world compliance event — Iran response TBD",
             "importance": "high"
         },
         {
             "date": "2026-07-15",
             "time_et": "08:30",
             "event": "PPI (June) + Empire Manufacturing (July)",
-            "consensus": "PPI cons 6.5%+ (may exceed May's 6.5% due to intermediate-price lag); Empire prev 5.7",
-            "importance": "medium"
+            "consensus": "PPI cons 6.5%+ (may exceed May's 6.5% due to intermediate-price lag); core PPI MoM cons 0.3%; Empire prev 5.7",
+            "importance": "high"
         },
         {
             "date": "2026-07-15",
             "time_et": "10:00",
             "event": "Warsh testifies before Senate Banking Committee",
-            "consensus": null,
+            "consensus": "Second day of testimony",
             "importance": "high"
         },
         {
             "date": "2026-07-15",
             "time_et": "BMO",
-            "event": "BAC / MS / GS Q2 earnings",
-            "consensus": "BAC $0.88-1.11, MS $2.08-2.84, GS $10.45-13.91",
+            "event": "MS Q2 earnings + China Q2 GDP",
+            "consensus": "MS EPS $2.08-2.84. China Q2 GDP cons 4.4% (from 5.0%)",
             "importance": "high"
         },
         {
             "date": "2026-07-16",
             "time_et": "08:30",
             "event": "Retail Sales (June)",
-            "consensus": "Cons 0.3% MoM; May was 0.9% MoM. Tell on premium-consumer strength after DAL beat",
+            "consensus": "Cons 0.3% MoM; May was 0.9%. Consumer strength read after DAL beat",
+            "importance": "medium"
+        },
+        {
+            "date": "2026-07-17",
+            "time_et": "12:00",
+            "event": "OFAC License X1 wind-down deadline (Iran oil transactions)",
+            "consensus": "Compliance cutoff for existing Iran oil transaction winddowns",
+            "importance": "high"
+        },
+        {
+            "date": "2026-07-17",
+            "time_et": "22:00",
+            "event": "Michigan Sentiment (July prelim)",
+            "consensus": "Prev 49.5 — very depressed",
             "importance": "medium"
         }
     ],
