@@ -1,31 +1,31 @@
 {
-    "as_of": "2026-07-14T07:07:00-04:00",
-    "source": "cron_run120_curator_tue_post_hormuz_blockade",
-    "note": "Yesterday's session repriced meaningfully. Trump reinstated the IRANIAN BLOCKADE with a 20% toll on ALL cargo through Hormuz — a full policy reversal vs Rubio's June stance. Enforcement begins today at 16:00 ET. WTI settled +9.42% at $78.14, Brent +9.6% at $83.30 (largest single-day USD move since Apr 2). Kospi crashed -8.95% intraday (\"Black Monday\") with SK Hynix Seoul -15.4% triggering a circuit breaker; Samsung -10%. SPX -0.79% to 7,515.34; NDX 100 -1.88% to 29,264. Overnight: oil EXTENDED (WTI $81.07 +3.75%, Brent ~$85); Asia continued lower (Nikkei -1.17%, Kospi -2.01%); ES bounced modestly -0.11%, NQ +0.40% on chip stabilization. FedWatch repriced hawkish overnight: Sep 70%→76%, Dec 86%→90%. Today is CPI + banks BMO + Warsh in one morning — the pivot.",
+    "as_of": "2026-07-15T07:03:00-04:00",
+    "source": "cron_run121_curator_wed_post_cpi_ppi_day",
+    "note": "The tape flipped: June CPI printed materially soft (3.5% YoY vs 3.8% cons, MoM -0.4% biggest drop since April 2020, core 2.6% vs 2.8% cons). Fed-hike odds collapsed \u2014 FedWatch cohort Tue 7/14: Jul 42%\u219215%, Sep 76%\u219259%, Dec 90%\u219280%. JPM demolished the bar (adj EPS $6.14 vs $5.59 cons, all business lines beat, $16.9B net); Citi profit +45%. Warsh testimony was HAWKISH despite the print (\u2018no tolerance for inflation,\u2019 refused to signal cuts, PCE still ~4.1%). Trump scrapped the 20% Hormuz toll via Truth Social within 24 hours of announcing it \u2014 but the full naval blockade remains and was reinstated after Iran attacked ships in Hormuz Tue afternoon. Brent traded $78\u2192$87\u2192$84.73 close intraday; oil holding elevated. Overnight: Kospi ripped +7% (SK Hynix +9% short squeeze after Mon\u2019s -15%), Nikkei up, China Q2 GDP MISSED at 4.3% (slowest since Q4 2022, cons 4.4%). Wed morning tape: ES +0.13%, NQ +0.42%, VIX 16.36 -0.85% \u2014 continued risk-on. Today: PPI 08:30 (cons -0.1% MoM headline, core +0.3%), Empire Mfg, Warsh Senate 10am, MS BMO.",
     "asia_close": [
         {
             "market": "Kospi",
-            "level": 6806.93,
-            "delta_pct": -9.0,
-            "note": "Mon: circuit breaker triggered. SK Hynix -15.4% record intraday drop (down ~40% from June record). Samsung -10%. Kioxia crushed. Individual investors dumped 2.3 trillion won. Bear market territory. Tue extending: Kospi -2.01% early, Kosdaq -1.8%"
+            "level": 7291.14,
+            "delta_pct": 7.09,
+            "note": "MASSIVE RIP after Mon\u2019s -8.95% circuit-breaker crash. SK Hynix surged +9%+, Samsung +6%, Kioxia +8%. Broad short squeeze on soft-CPI + AI rebound thesis. Individual investors that dumped 2.3T won Mon are chasing back in. Still -12% from June record"
         },
         {
             "market": "Nikkei",
-            "level": 67242.73,
-            "delta_pct": -1.92,
-            "note": "Mon -1.92% close on chip contagion (Advantest, Tokyo Electron tumbled). Tue extending -1.17% early, Topix -0.51%. Yen weaker at 162.13 (dollar strength)"
+            "level": 68109.05,
+            "delta_pct": 1.29,
+            "note": "Continued rally on soft-CPI relief + chip rebound. Advantest, Tokyo Electron bid. Yen 161.4 (dollar weakened modestly on lower US10Y)"
         },
         {
             "market": "Hang Seng",
-            "level": 24213.72,
-            "delta_pct": 0.16,
-            "note": "Mon flat +0.16% on refining/shipping strength (regional oil beneficiary). Shanghai +2.06% Mon on the same story. Tue futures indicating lower open ~24,158"
+            "level": null,
+            "delta_pct": null,
+            "note": "Trading lower on China Q2 GDP miss (4.3% vs 4.4% cons, slowest since 2022 Q4). Shanghai muted. Property drag persists"
         },
         {
             "market": "Sensex/Nifty",
-            "level": null,
-            "delta_pct": -0.4,
-            "note": "Down 344 pts / -0.7% early Tue on oil price shock. India June CPI printed 4.38% overnight — 18-month high, above RBI 4% target for first time in 17 months"
+            "level": 77608.12,
+            "delta_pct": 0.71,
+            "note": "Recovering after Tue -0.72% loss on oil. Broad breadth strong (BSE MidCap +0.69%, SmallCap +0.66%). Trump toll U-turn helped rupee"
         }
     ],
     "europe_open": [
@@ -33,52 +33,59 @@
             "market": "Stoxx 600",
             "level": null,
             "delta_pct": null,
-            "note": "Mon mixed close. Tue open expected soft on oil, Kospi contagion, US futures. Energy stocks bid, tech soft"
+            "note": "Expected higher on US soft-CPI momentum + Kospi tape. Bank sector focus (Q2 US bank blowouts, MS today)"
         }
     ],
     "single_name_moves": [
         {
-            "ticker": "SK Hynix (KRX + SKHY ADR)",
-            "delta_pct": -15.4,
-            "venue": "Mon Seoul close",
-            "driver": "Full chip rout Mon. Record intraday drop of 15.4% in Seoul triggered Kospi circuit breaker. Photon Capital cited three supply-side factors: (1) profit-taking after 12.8% ADR debut Fri, (2) dilution from the $26.5B US IPO share supply, (3) Korea/US ADR repricing. Now ~40% below June record"
+            "ticker": "JPM",
+            "delta_pct": -2.09,
+            "venue": "Tue premarket / close",
+            "driver": "Q2 crushed: adj EPS $6.14 vs $5.59 cons (+9.84% surprise). Reported EPS $7.70. Net income $16.9B ($21.2B reported). Record revenue every business line \u2014 trading capitalized on Iran-war vol, IB benefited from big-ticket deals. 29% ROTCE reported, 23% adjusted. Stock still fell 2.09% premarket (buy-the-rumor / Warsh hawkish overhang), moderated during session"
         },
         {
-            "ticker": "Samsung Electronics",
-            "delta_pct": -10.0,
-            "venue": "Mon Seoul close",
-            "driver": "Down 10% Mon on chip contagion + Kospi tape. Anchor position of KRX index. Kosdaq/Kospi small caps also lower"
-        },
-        {
-            "ticker": "Micron / Marvell",
-            "delta_pct": -6.0,
-            "venue": "Mon NY close",
-            "driver": "US chip contagion from SKHY collapse. Both down more than 6% Mon on AI valuation concerns compounding the Iran risk-off"
-        },
-        {
-            "ticker": "WTI / Brent",
-            "delta_pct": 9.42,
-            "venue": "Mon settle → Tue extension",
-            "driver": "WTI +9.42% Mon settle $78.14; Brent +9.6% to $83.30 (biggest single-day USD gain since Apr 2). Tue extension: WTI $81.07 +3.75%, Brent ~$85 +2%. Trigger: Trump announcement of Iranian blockade reinstatement + 20% cargo toll enforcement starting Tue 16:00 ET"
-        },
-        {
-            "ticker": "US energy sector",
+            "ticker": "C",
             "delta_pct": null,
-            "venue": "Mon session",
-            "driver": "Energy stocks were the sole bright spot Mon — cushioned the Dow (-0.26% vs SPX -0.79%). Refiners, shipping, exploration all bid. Rotation continues Tue premarket"
+            "venue": "Tue close",
+            "driver": "Profit +45% on Q2 trading beat. Estimates smashed. Confirms Coalition Greenwich +15% FICC/trading call was too conservative"
+        },
+        {
+            "ticker": "SK Hynix (KRX + SKHY ADR)",
+            "delta_pct": 9.0,
+            "venue": "Wed Seoul close",
+            "driver": "Short squeeze recovery after Mon\u2019s record -15.4% drop. Individual investors + shorts chasing back in. Still down ~30% from June record. Whole KRX AI-semi complex ripped: Samsung +6%, Kioxia +8%"
+        },
+        {
+            "ticker": "NVDA / Micron / AMD",
+            "delta_pct": null,
+            "venue": "Tue NY close",
+            "driver": "Chip rally led Nasdaq +0.9% Tue. Soft-CPI + FedWatch dovish repricing lifted AI valuations. Snapback from Mon\u2019s Kospi contagion"
+        },
+        {
+            "ticker": "Brent / WTI",
+            "delta_pct": null,
+            "venue": "Tue intraday to Wed overnight",
+            "driver": "Wild session: Brent briefly touched $87 early Tue on blockade escalation, dropped to $78 on Trump toll U-turn, closed $84.73 (+2%) on Iran ship attacks + blockade reinstatement. WTI $79.91 close +2.3%. Wed extending: Brent $85.11, WTI $80.04. Iran launched missiles at tankers in Hormuz Tue afternoon"
+        },
+        {
+            "ticker": "Lucid (LCID)",
+            "delta_pct": null,
+            "venue": "Tue close",
+            "driver": "Wild swing: closed $5.51 Mon, fell to $2.37 intraday, closed $4.56. AlixPartners retained \u2014 board meeting looms. Restructuring specter"
         }
     ],
     "geo_headlines": [
-        "Trump reinstates IRANIAN BLOCKADE, imposes 20% toll on ALL third-country cargo through Hormuz. Enforcement begins Tue 16:00 ET. Direct reversal of Rubio's June statement that 'zero support among Gulf countries for any sort of toll on international waters.' IMO opposed publicly; EU's Kaja Kallas objected. Iran FM Araghchi mocked: '20% is of course too much. We will be fair' (Fortune, WPXI/AP, ChosunBiz, Straits Times, PBS)",
-        "US carried out THIRD consecutive night of strikes on Iran targeting Hormuz-related facilities (drone sites, coast guard operations). Trump: 'We're knocking out all their offensive capability and we're controlling the straits' (WPXI, YouTube US-Iran coverage)",
-        "OIL SHOCK: WTI settled +9.42% at $78.14 Mon (biggest single-day $ gain since Apr 2), Brent +9.6% at $83.30. Overnight extension: WTI $81.07 +3.75%, Brent ~$85. Analysts (FX Empire) now targeting $90 if blockade holds. Trump toll would add ~$30M cost to a fully laden supertanker, roughly doubling transit cost (Rigzone, Straits Times, Fortune, Mint, Moomoo)",
-        "KOSPI CIRCUIT BREAKER: -8.95% Mon close 6,806.93 (bear market, -19% from June record). SK Hynix -15.4% record intraday drop after 12.8% ADR debut Fri. Samsung -10%. Photon Capital: three drivers — profit-taking, IPO dilution from $26.5B US listing, KRX/ADR repricing. Individual investors dumped 2.3 trillion won. Tue extending -2.01% early (IBTimes, ChosunBiz, SBS, AJP)",
-        "TODAY at 08:30 ET: US CPI (June). Consensus headline 3.8% YoY (from May 4.2%), MoM -0.1% (first monthly deflation since 2020 COVID). Core 2.8% YoY (from 2.9%), MoM 0.2%. Cleveland Fed nowcast still 3.92%. IMPORTANT: June print does NOT include the Mon oil gap — July print (mid-Aug) will (Sina Finance, Reuters/GBFR, Chosun, Kalshi)",
-        "TODAY BMO: JPM, WFC, C, BLK, BAC, GS all report Q2. Coalition Greenwich expects FICC/trading +15% YoY. LinkedIn cites 'most consequential single morning in banking this quarter.' JPM consensus ~$5.14-5.70 EPS (LinkedIn, FX Leaders, Marketbeat)",
-        "TODAY 09:00-10:00 ET: Kevin Warsh, first public testimony as Fed Chair, House Financial Services Committee semiannual. Presided over hawkish June FOMC — 2026 inflation forecast raised 2.7%→3.6%, dot plot median raised 3.4%→3.8%. WSJ's Timiraos said CPI likely drives next Fed step. Wed 10am he does Senate Banking (House Docs, Epoch Times, Global Banking & Finance)",
-        "FED HAWKISH REPRICING: FedWatch cohort 7/13 shifted overnight from Fri levels. Jul 42% (from 35%), Sep 76% (from 70%), Oct 83% (from 77%), Dec 90% (from 86%). Cumulative hikes locked in on the oil-passthrough thesis. Waller (Fed Governor) said 'AI demand as new inflation driver' — did not rule out short-term hikes (CME FedWatch, Blocktempo)",
-        "US BLOCKADE ENFORCEMENT BEGINS TODAY 16:00 ET — this is the tape event of the afternoon. All Iranian port/coastal traffic subject to interception, diversion, capture. Third-country vessels face 20% cargo levy. Iran response TBD; already hitting US installations across Qatar/UAE/Bahrain/Kuwait/Oman/Jordan (WPXI, ChosunBiz, PBS)",
-        "India CPI June printed 4.38% YoY — 18-month high, above RBI 4% target for first time in 17 months. Food inflation 5.32%. Signals oil-inflation passthrough already starting emerging-markets first (Financial Express, Times Now, Polymer Update)"
+        "JUNE CPI STUNS DOVISH: Headline +3.5% YoY vs 3.8% cons (from 4.2% May), MoM -0.4% (biggest monthly drop since April 2020, first negative print since COVID). Core 2.6% YoY vs 2.8% cons (matches March low), core MoM 0.0% vs 0.2% cons. Energy -5.7% MoM (gasoline -9.7%) was the driver; base-effect story (energy still +15.7% YoY). Food +0.2% MoM (BLS, Reuters, Axios, WSJ)",
+        "FEDWATCH REPRICES DOVISH OVERNIGHT: Jul cum-hike 42%\u219215%, Sep 76%\u219259%, Oct 83%\u219268%, Dec 90%\u219280%. Prediction markets now see 76% probability of NO cuts for full-year 2026. Yields dropped: US10Y 4.585% from 4.609%, US2Y 4.217% (CME FedWatch, Reuters, Phemex)",
+        "TRUMP U-TURNS ON HORMUZ TOLL: 24 hours after announcing 20% cargo fee, Trump scrapped it via Truth Social (\u2018not needed at this time\u2019). But full US naval blockade on Iranian ports REMAINS and was reinstated Tue afternoon after Iran attacked ships in Hormuz. Trump then threatened to bomb bridges and power plants in Iran. Oil round trip: Brent $87\u2192$78\u2192$84.73 (BBC, Boston Globe, Newswav, Internazionale/Reuters)",
+        "WARSH TESTIMONY HAWKISH: First testimony as Fed Chair \u2014 refused to signal cuts, said \u2018no tolerance for high inflation.\u2019 Emphasized PCE still ~4.1% (far above 2% target). Presiding over June FOMC where 2026 inflation forecast raised 2.7%\u21923.6%. Confirmed no decision made for July 29 FOMC. Testifies Senate today 10am (Newsmax, NYPost, Chosun, Fed.gov, CNN)",
+        "JPM CRUSHED Q2: adj EPS $6.14 vs $5.59 cons (+9.84% surprise). Reported EPS $7.70. Net income $16.9B ($21.2B GAAP). Every business line record revenue. Trading capitalized on Iran-war vol; IB on big-ticket deals. Citigroup profit +45%. Coalition Greenwich +15% FICC/trading call was too conservative. Reuters: \u2018Wall Street bank earnings surge, lifted by trading and investment banking\u2019 (Reuters, Yahoo Finance, WaPo)",
+        "CHINA Q2 GDP MISSED: 4.3% YoY vs 4.4% cons \u2014 slowest since Q4 2022, down from 5.0% Q1. Q/Q +0.9%. Structural deceleration confirmed. Westpac and others flagging urgent stimulus need. Yuan pressure resumes (SCMP, Investing.com, Straits Times, Westpac)",
+        "KOSPI +7% \u2018REVENGE RALLY\u2019: After Mon\u2019s -8.95% circuit breaker crash, Wed rally: SK Hynix +9%, Samsung +6%, Kioxia +8%. Individual investors chasing back in on soft-CPI + AI rebound thesis. Full round-trip candle. Nikkei +1.29% on chip strength. AJP, Trading Key, Business Times",
+        "TODAY 08:30 ET: PPI (June) + Empire Manufacturing. PPI cons headline -0.1% MoM (mirrors CPI energy story); CORE PPI cons +0.3% MoM (firmer read). PPI will drive June PCE nowcast (Fed\u2019s preferred gauge, released 7/30 after FOMC). Empire prev 5.7 (Business Times, Phemex, CME)",
+        "TODAY 10:00 ET: Warsh testifies Senate Banking. Second day. Watch: (1) reaction to CPI print, (2) service-inflation framing, (3) whether hawkish tone from House testimony sustains under Senate scrutiny",
+        "TODAY BMO: Morgan Stanley Q2. Consensus EPS $2.08-2.84. Wealth Mgmt AUM and IB backlog the tells after JPM blew doors off. MS traditionally more IB/wealth-weighted \u2014 different mix than JPM/BAC",
+        "IRAN ATTACK ESCALATION: Al Jazeera reports Iran continued strikes on Gulf shipping Tue afternoon. Trump said US \u2018knocking out all their offensive capability.\u2019 CNN reports Iran preparing major test of US blockade. Third night of US strikes on Iran per WPXI"
     ],
-    "headline_token": "TRUMP_HORMUZ_BLOCKADE_20PCT_TOLL + OIL_PLUS_9PCT_MON_PLUS_4PCT_TUE + KOSPI_BLACK_MONDAY_CIRCUIT_BREAKER + SKHY_MINUS_15 + SPX_MINUS_079 + NDX_MINUS_188 + FEDWATCH_HAWKISH_REPRICE + CPI_TODAY_38PCT_CONS + BANK_KICKOFF_JPM_BAC_C_WFC_GS + WARSH_TESTIMONY_HOUSE + BLOCKADE_ENFORCEMENT_1600ET"
+    "headline_token": "CPI_STUNS_35_DOVISH + FEDWATCH_JUL_15_SEP_59_DEC_80 + TRUMP_TOLL_UTURN_BLOCKADE_STAYS + WARSH_HAWKISH_NO_TOLERANCE + JPM_CRUSHED_614_EPS + C_PROFIT_45PCT + CHINA_GDP_MISS_43 + KOSPI_PLUS_7_REVENGE + PPI_TODAY + WARSH_SENATE_TODAY + MS_TODAY_BMO"
 }
