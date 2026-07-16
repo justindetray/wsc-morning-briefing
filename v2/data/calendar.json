@@ -1,48 +1,34 @@
 {
-    "last_curated": "2026-07-15T07:04:00-04:00",
-    "curator": "cron_run121_wed_ppi_ms_warsh_senate",
-    "note": "Yesterday resolved the near-term CPI question (softer than any Bloomberg economist expected). Today is the PPI cross-check plus Warsh Senate + MS. Later this week: retail sales Thu and Michigan Fri.",
+    "last_curated": "2026-07-16T07:05:00-04:00",
+    "curator": "cron_run122_thu_retail_sales_tsmc_netflix",
+    "note": "Retail sales the consumer tell; Netflix AMC the streaming read; TSMC printed pre-open with massive beat +77%. Fri: Housing Starts, Michigan sentiment, OFAC Iran wind-down deadline noon.",
     "macro": [
         {
-            "date": "2026-07-15",
+            "date": "2026-07-16",
             "time_et": "08:30",
-            "event": "PPI (June) + Empire Manufacturing (July)",
-            "consensus": "Headline PPI cons -0.1% MoM (mirrors CPI energy story). CORE PPI cons +0.3% MoM (firmer than CPI core, watch for services). Will drive June PCE nowcast \u2014 the Fed\u2019s preferred inflation gauge. Empire prev 5.7",
-            "importance": "high"
-        },
-        {
-            "date": "2026-07-15",
-            "time_et": "10:00",
-            "event": "Fed Chair Warsh testifies before Senate Banking Committee",
-            "consensus": "Second day of testimony. Watch: (1) reaction to CPI print, (2) service-inflation framing, (3) whether hawkish tone from House testimony sustains under Senate scrutiny",
-            "importance": "high"
-        },
-        {
-            "date": "2026-07-15",
-            "time_et": "BMO",
-            "event": "Morgan Stanley Q2 earnings",
-            "consensus": "EPS cons $2.08-2.84. Wealth Mgmt AUM and IB backlog the tells after JPM blew doors off. MS traditionally more IB/wealth-weighted \u2014 different mix",
-            "importance": "high"
-        },
-        {
-            "date": "2026-07-15",
-            "time_et": "08:00",
-            "event": "China Q2 GDP (already released)",
-            "consensus": "Printed 4.3% YoY vs 4.4% cons \u2014 slowest since Q4 2022. Q/Q +0.9%. Structural deceleration. Stimulus need urgent",
+            "event": "Retail Sales (June)",
+            "consensus": "Headline +0.5% MoM cons (May -0.9%). Ex-Autos +0.5% cons (May -0.1%). Retail Sales Control +0.3% cons (May -0.5%). First consumer read post-CPI/PPI dovish surprise. Watch JPM cards vs official print",
             "importance": "high"
         },
         {
             "date": "2026-07-16",
             "time_et": "08:30",
-            "event": "Retail Sales (June)",
-            "consensus": "Cons 0.3% MoM; May was 0.9% MoM. Consumer strength read after DAL beat + JPM cards data",
-            "importance": "high"
+            "event": "Initial Jobless Claims + Continuing Claims",
+            "consensus": "Initial cons 216K (prev 217K). Continuing cons 1,811K (prev 1,820K). Labor holding up",
+            "importance": "medium"
+        },
+        {
+            "date": "2026-07-16",
+            "time_et": "08:30",
+            "event": "Philadelphia Fed Manufacturing (July)",
+            "consensus": "Cons 11 (prev 13). Watch orders + prices paid components after Empire prev 5.7",
+            "importance": "medium"
         },
         {
             "date": "2026-07-16",
             "time_et": "08:30",
             "event": "Import Prices (June)",
-            "consensus": "Prior 0.2% MoM; watch for oil pass-through",
+            "consensus": "Prior +0.2% MoM; watch oil pass-through",
             "importance": "medium"
         },
         {
@@ -53,6 +39,48 @@
             "importance": "low"
         },
         {
+            "date": "2026-07-16",
+            "time_et": "BMO",
+            "event": "TSMC Q2 (already reported \u2014 profit +77% to T$706.6B, cons T$632.6B; +$100B US invest announced)",
+            "consensus": "Sets up chip complex rebound after overnight Asia rout. TSMC guidance and capex on the call",
+            "importance": "high"
+        },
+        {
+            "date": "2026-07-16",
+            "time_et": "BMO",
+            "event": "Goldman Sachs Q2 earnings",
+            "consensus": "After JPM/MS blowouts, GS is the final major-bank Q2 print. Trading + IB dominance expected. Cons EPS ~$8.50",
+            "importance": "high"
+        },
+        {
+            "date": "2026-07-16",
+            "time_et": "BMO",
+            "event": "UnitedHealth Q2 earnings",
+            "consensus": "Health-insurance sector focus amid political scrutiny of Medicare Advantage. Cons EPS ~$4.85",
+            "importance": "high"
+        },
+        {
+            "date": "2026-07-16",
+            "time_et": "BMO",
+            "event": "PepsiCo Q2 earnings",
+            "consensus": "Staples read on US + international consumer. Cons EPS ~$2.15",
+            "importance": "medium"
+        },
+        {
+            "date": "2026-07-16",
+            "time_et": "BMO",
+            "event": "Abbott Labs, Blackstone, USB, MTB, KEY, ISRG Q2",
+            "consensus": "Health-tech, alts flows, regional banks",
+            "importance": "medium"
+        },
+        {
+            "date": "2026-07-16",
+            "time_et": "AMC",
+            "event": "Netflix Q2 earnings",
+            "consensus": "Streaming subs read; ad tier progression. Post-close mover. Cons EPS ~$5.10",
+            "importance": "high"
+        },
+        {
             "date": "2026-07-17",
             "time_et": "08:30",
             "event": "Housing Starts + Building Permits (June)",
@@ -61,24 +89,17 @@
         },
         {
             "date": "2026-07-17",
-            "time_et": "08:30",
-            "event": "Initial Jobless Claims",
-            "consensus": "Prev 233K",
-            "importance": "medium"
-        },
-        {
-            "date": "2026-07-17",
             "time_et": "12:00",
             "event": "OFAC License X1 wind-down deadline (Iran oil transactions)",
-            "consensus": "Compliance cutoff for existing Iran oil transaction winddowns",
+            "consensus": "Compliance cutoff for existing Iran oil transaction winddowns \u2014 material given Hormuz still closed and blockade active",
             "importance": "high"
         },
         {
             "date": "2026-07-17",
             "time_et": "22:00",
             "event": "Michigan Sentiment (July prelim)",
-            "consensus": "Prev 49.5 \u2014 very depressed. 1-yr inflation exp 5.0%",
-            "importance": "medium"
+            "consensus": "Prev 49.5 (very depressed). 1-yr inflation exp 5.0%. Any softening in inflation exp = big deal",
+            "importance": "high"
         }
     ],
     "earnings": []
