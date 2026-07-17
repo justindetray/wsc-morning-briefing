@@ -1,104 +1,83 @@
 {
-    "last_curated": "2026-07-16T07:05:00-04:00",
-    "curator": "cron_run122_thu_retail_sales_tsmc_netflix",
-    "note": "Retail sales the consumer tell; Netflix AMC the streaming read; TSMC printed pre-open with massive beat +77%. Fri: Housing Starts, Michigan sentiment, OFAC Iran wind-down deadline noon.",
+    "last_curated": "2026-07-17T07:08:00-04:00",
+    "curator": "cron_run123_fri_michigan_starts_regionals_ofac_deadline",
+    "note": "Fri prints (Housing Starts + Michigan + jobless claims) less market-moving than the tech/geopolitical setup. Real events today: OFAC X1 deadline noon, regional bank earnings BMO. Next week the Fed pre-blackout kicks in (July 29 FOMC).",
     "macro": [
-        {
-            "date": "2026-07-16",
-            "time_et": "08:30",
-            "event": "Retail Sales (June)",
-            "consensus": "Headline +0.5% MoM cons (May -0.9%). Ex-Autos +0.5% cons (May -0.1%). Retail Sales Control +0.3% cons (May -0.5%). First consumer read post-CPI/PPI dovish surprise. Watch JPM cards vs official print",
-            "importance": "high"
-        },
-        {
-            "date": "2026-07-16",
-            "time_et": "08:30",
-            "event": "Initial Jobless Claims + Continuing Claims",
-            "consensus": "Initial cons 216K (prev 217K). Continuing cons 1,811K (prev 1,820K). Labor holding up",
-            "importance": "medium"
-        },
-        {
-            "date": "2026-07-16",
-            "time_et": "08:30",
-            "event": "Philadelphia Fed Manufacturing (July)",
-            "consensus": "Cons 11 (prev 13). Watch orders + prices paid components after Empire prev 5.7",
-            "importance": "medium"
-        },
-        {
-            "date": "2026-07-16",
-            "time_et": "08:30",
-            "event": "Import Prices (June)",
-            "consensus": "Prior +0.2% MoM; watch oil pass-through",
-            "importance": "medium"
-        },
-        {
-            "date": "2026-07-16",
-            "time_et": "10:00",
-            "event": "NAHB Housing Market Index (July)",
-            "consensus": "Prev 32",
-            "importance": "low"
-        },
-        {
-            "date": "2026-07-16",
-            "time_et": "BMO",
-            "event": "TSMC Q2 (already reported \u2014 profit +77% to T$706.6B, cons T$632.6B; +$100B US invest announced)",
-            "consensus": "Sets up chip complex rebound after overnight Asia rout. TSMC guidance and capex on the call",
-            "importance": "high"
-        },
-        {
-            "date": "2026-07-16",
-            "time_et": "BMO",
-            "event": "Goldman Sachs Q2 earnings",
-            "consensus": "After JPM/MS blowouts, GS is the final major-bank Q2 print. Trading + IB dominance expected. Cons EPS ~$8.50",
-            "importance": "high"
-        },
-        {
-            "date": "2026-07-16",
-            "time_et": "BMO",
-            "event": "UnitedHealth Q2 earnings",
-            "consensus": "Health-insurance sector focus amid political scrutiny of Medicare Advantage. Cons EPS ~$4.85",
-            "importance": "high"
-        },
-        {
-            "date": "2026-07-16",
-            "time_et": "BMO",
-            "event": "PepsiCo Q2 earnings",
-            "consensus": "Staples read on US + international consumer. Cons EPS ~$2.15",
-            "importance": "medium"
-        },
-        {
-            "date": "2026-07-16",
-            "time_et": "BMO",
-            "event": "Abbott Labs, Blackstone, USB, MTB, KEY, ISRG Q2",
-            "consensus": "Health-tech, alts flows, regional banks",
-            "importance": "medium"
-        },
-        {
-            "date": "2026-07-16",
-            "time_et": "AMC",
-            "event": "Netflix Q2 earnings",
-            "consensus": "Streaming subs read; ad tier progression. Post-close mover. Cons EPS ~$5.10",
-            "importance": "high"
-        },
         {
             "date": "2026-07-17",
             "time_et": "08:30",
             "event": "Housing Starts + Building Permits (June)",
-            "consensus": "Starts cons 1.35M annualized",
+            "consensus": "Starts cons 1.35M annualized (prev 1.32M). Permits cons 1.40M. Weakness continues in single-family",
             "importance": "medium"
+        },
+        {
+            "date": "2026-07-17",
+            "time_et": "08:30",
+            "event": "Initial Jobless Claims",
+            "consensus": "Cons 216K (prev 217K). Labor holding up, not softening",
+            "importance": "medium"
+        },
+        {
+            "date": "2026-07-17",
+            "time_et": "10:00",
+            "event": "Michigan Sentiment (July prelim)",
+            "consensus": "Prev 49.5 (very depressed). 1-yr inflation exp 5.0%. Watch for inflation exp response to CPI cool + oil re-spike \u2014 the tug-of-war",
+            "importance": "high"
         },
         {
             "date": "2026-07-17",
             "time_et": "12:00",
             "event": "OFAC License X1 wind-down deadline (Iran oil transactions)",
-            "consensus": "Compliance cutoff for existing Iran oil transaction winddowns \u2014 material given Hormuz still closed and blockade active",
+            "consensus": "ALREADY EFFECTIVELY EXPIRED overnight per reporting. Every Iranian oil barrel now a sanctions breach from today. No new purchases, shipments, or sales permitted",
             "importance": "high"
         },
         {
             "date": "2026-07-17",
-            "time_et": "22:00",
-            "event": "Michigan Sentiment (July prelim)",
-            "consensus": "Prev 49.5 (very depressed). 1-yr inflation exp 5.0%. Any softening in inflation exp = big deal",
+            "time_et": "BMO",
+            "event": "Regions Financial (RF), Truist (TFC), Fifth Third (FITB), Travelers (TRV) Q2 earnings",
+            "consensus": "Regional bank NIM + CRE + consumer credit read after JPM/MS/GS blowout. Travelers = P&C insurance",
+            "importance": "medium"
+        },
+        {
+            "date": "2026-07-20",
+            "time_et": null,
+            "event": "Mon: Leading Indicators (June)",
+            "consensus": "Prev -0.1%",
+            "importance": "low"
+        },
+        {
+            "date": "2026-07-21",
+            "time_et": null,
+            "event": "Tue: Existing Home Sales (June)",
+            "consensus": "Cons 4.02M annualized",
+            "importance": "medium"
+        },
+        {
+            "date": "2026-07-22",
+            "time_et": null,
+            "event": "Wed: PMI Flash (July)",
+            "consensus": "Mfg + Services flash reads. First real July activity data",
+            "importance": "high"
+        },
+        {
+            "date": "2026-07-23",
+            "time_et": null,
+            "event": "Thu: New Home Sales (June) + Jobless Claims",
+            "consensus": "Cons 640K",
+            "importance": "medium"
+        },
+        {
+            "date": "2026-07-24",
+            "time_et": null,
+            "event": "Fri: Durable Goods (June) + FOMC BLACKOUT begins",
+            "consensus": "Cons +1.5% MoM headline",
+            "importance": "high"
+        },
+        {
+            "date": "2026-07-29",
+            "time_et": "14:00",
+            "event": "FOMC Meeting + Warsh press conference",
+            "consensus": "First Warsh Fed meeting. Cum-hike 12% per FedWatch. Almost certain hold. Presser the entire show",
             "importance": "high"
         }
     ],
