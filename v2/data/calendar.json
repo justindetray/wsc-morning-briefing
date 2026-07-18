@@ -1,85 +1,21 @@
 {
-    "last_curated": "2026-07-17T07:08:00-04:00",
-    "curator": "cron_run123_fri_michigan_starts_regionals_ofac_deadline",
-    "note": "Fri prints (Housing Starts + Michigan + jobless claims) less market-moving than the tech/geopolitical setup. Real events today: OFAC X1 deadline noon, regional bank earnings BMO. Next week the Fed pre-blackout kicks in (July 29 FOMC).",
-    "macro": [
-        {
-            "date": "2026-07-17",
-            "time_et": "08:30",
-            "event": "Housing Starts + Building Permits (June)",
-            "consensus": "Starts cons 1.35M annualized (prev 1.32M). Permits cons 1.40M. Weakness continues in single-family",
-            "importance": "medium"
-        },
-        {
-            "date": "2026-07-17",
-            "time_et": "08:30",
-            "event": "Initial Jobless Claims",
-            "consensus": "Cons 216K (prev 217K). Labor holding up, not softening",
-            "importance": "medium"
-        },
-        {
-            "date": "2026-07-17",
-            "time_et": "10:00",
-            "event": "Michigan Sentiment (July prelim)",
-            "consensus": "Prev 49.5 (very depressed). 1-yr inflation exp 5.0%. Watch for inflation exp response to CPI cool + oil re-spike \u2014 the tug-of-war",
-            "importance": "high"
-        },
-        {
-            "date": "2026-07-17",
-            "time_et": "12:00",
-            "event": "OFAC License X1 wind-down deadline (Iran oil transactions)",
-            "consensus": "ALREADY EFFECTIVELY EXPIRED overnight per reporting. Every Iranian oil barrel now a sanctions breach from today. No new purchases, shipments, or sales permitted",
-            "importance": "high"
-        },
-        {
-            "date": "2026-07-17",
-            "time_et": "BMO",
-            "event": "Regions Financial (RF), Truist (TFC), Fifth Third (FITB), Travelers (TRV) Q2 earnings",
-            "consensus": "Regional bank NIM + CRE + consumer credit read after JPM/MS/GS blowout. Travelers = P&C insurance",
-            "importance": "medium"
-        },
-        {
-            "date": "2026-07-20",
-            "time_et": null,
-            "event": "Mon: Leading Indicators (June)",
-            "consensus": "Prev -0.1%",
-            "importance": "low"
-        },
-        {
-            "date": "2026-07-21",
-            "time_et": null,
-            "event": "Tue: Existing Home Sales (June)",
-            "consensus": "Cons 4.02M annualized",
-            "importance": "medium"
-        },
-        {
-            "date": "2026-07-22",
-            "time_et": null,
-            "event": "Wed: PMI Flash (July)",
-            "consensus": "Mfg + Services flash reads. First real July activity data",
-            "importance": "high"
-        },
-        {
-            "date": "2026-07-23",
-            "time_et": null,
-            "event": "Thu: New Home Sales (June) + Jobless Claims",
-            "consensus": "Cons 640K",
-            "importance": "medium"
-        },
-        {
-            "date": "2026-07-24",
-            "time_et": null,
-            "event": "Fri: Durable Goods (June) + FOMC BLACKOUT begins",
-            "consensus": "Cons +1.5% MoM headline",
-            "importance": "high"
-        },
-        {
-            "date": "2026-07-29",
-            "time_et": "14:00",
-            "event": "FOMC Meeting + Warsh press conference",
-            "consensus": "First Warsh Fed meeting. Cum-hike 12% per FedWatch. Almost certain hold. Presser the entire show",
-            "importance": "high"
-        }
-    ],
-    "earnings": []
+  "last_curated": "2026-07-18T11:00:00+00:00",
+  "macro": [
+    {"date": "2026-07-20", "time_et": "10:00", "event": "Conference Board Leading Economic Index (Jun)", "consensus": "-0.2% m/m", "importance": "medium", "note": "Continued signal of slowing momentum expected"},
+    {"date": "2026-07-21", "time_et": "10:00", "event": "Existing Home Sales (Jun)", "consensus": "4.02M SAAR", "importance": "medium"},
+    {"date": "2026-07-22", "time_et": "09:45", "event": "S&P Global US Manufacturing PMI Flash (Jul)", "consensus": "51.5", "importance": "high", "note": "First July activity read"},
+    {"date": "2026-07-22", "time_et": "09:45", "event": "S&P Global US Services PMI Flash (Jul)", "consensus": "52.8", "importance": "high"},
+    {"date": "2026-07-22", "time_et": "10:00", "event": "New Home Sales (Jun)", "consensus": "660K SAAR", "importance": "medium"},
+    {"date": "2026-07-23", "time_et": "08:30", "event": "Initial Jobless Claims", "consensus": "230K", "importance": "medium"},
+    {"date": "2026-07-24", "time_et": "08:30", "event": "Durable Goods Orders (Jun advance)", "consensus": "+0.5% m/m", "importance": "high"},
+    {"date": "2026-07-24", "time_et": "10:00", "event": "Michigan Consumer Sentiment Final (Jul)", "consensus": "65.2", "importance": "medium"},
+    {"date": "2026-07-29", "time_et": "14:00", "event": "FOMC decision + Powell presser", "consensus": "hold 3.50-3.75%", "importance": "high", "note": "Blackout period 7/18-7/30 — no Fed speak until decision"}
+  ],
+  "earnings": [
+    {"date": "2026-07-20", "ticker": "STLD", "name": "Steel Dynamics", "session": "pre-market", "importance": "medium"},
+    {"date": "2026-07-20", "ticker": "DPZ", "name": "Domino's", "session": "pre-market", "importance": "medium"},
+    {"date": "2026-07-20", "ticker": "RYAAY", "name": "Ryanair", "session": "pre-market", "importance": "low"},
+    {"date": "2026-07-20", "ticker": "WRB", "name": "WR Berkley", "session": "after-close", "importance": "low"},
+    {"date": "2026-07-20", "ticker": "AMC", "name": "AMC Entertainment", "session": "pre-market", "importance": "low"}
+  ]
 }

@@ -81,10 +81,13 @@ def safe_iso_to_et_full(iso_str):
 
 # ---------- tape tile ----------
 
-TAPE_ORDER = ["ES", "NQ", "VIX", "US10Y", "US2Y", "WTI", "GOLD", "BTC"]
+TAPE_ORDER = ["ES", "NQ", "SPX", "NDX", "DJI", "VIX", "US10Y", "US2Y", "WTI", "GOLD", "BTC"]
 TILE_FORMAT = {
     "ES":    {"places": 2, "suffix": ""},
     "NQ":    {"places": 2, "suffix": ""},
+    "SPX":   {"places": 2, "suffix": ""},
+    "NDX":   {"places": 2, "suffix": ""},
+    "DJI":   {"places": 2, "suffix": ""},
     "VIX":   {"places": 2, "suffix": ""},
     "US10Y": {"places": 3, "suffix": "%"},
     "US2Y":  {"places": 3, "suffix": "%"},
@@ -95,7 +98,7 @@ TILE_FORMAT = {
 
 def render_tile(key, field):
     fmt = TILE_FORMAT.get(key, {"places": 2, "suffix": ""})
-    if field.get("status") != "LIVE":
+    if field.get("status") not in ("LIVE", "CLOSED"):
         return f"""<div class="tile dead">
   <div class="sym">{key}</div>
   <div class="val">— NO DATA</div>
@@ -292,7 +295,7 @@ def render_research(manifest):
 def render_degraded_banner(tape, fedwatch, economic, calendar):
     fails = []
     for k, v in tape.items():
-        if v.get("status") != "LIVE":
+        if v.get("status") not in ("LIVE", "CLOSED"):
             fails.append(f"{k} ({v.get('reason','?')})")
     if fedwatch and fedwatch.get("status") != "LIVE":
         fails.append(f"FedWatch ({fedwatch.get('reason','?')})")
@@ -377,7 +380,8 @@ def main():
     now_et = now_utc.astimezone(ET)
     today_et = now_et.date()
 
-    tiles_html = "".join(render_tile(k, tape.get(k, {"status": "DEGRADED", "reason": "missing"})) for k in TAPE_ORDER)
+    # Render tiles for keys present in tape.json (in TAPE_ORDER); on weekends ES/NQ absent, on weekdays SPX/NDX absent
+    tiles_html = "".join(render_tile(k, tape[k]) for k in TAPE_ORDER if k in tape)
     on_deck_html = render_on_deck(calendar, today_et)
     overnight_html = render_overnight(overnight)
     fedwatch_html = render_fedwatch(fedwatch)

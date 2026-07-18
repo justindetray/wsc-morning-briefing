@@ -1,115 +1,14 @@
 {
-    "as_of": "2026-07-17T07:08:00-04:00",
-    "source": "cron_run123_curator_fri_tech_rout_hormuz_escalation",
-    "note": "TAPE FLIPPED HARD to risk-off. Two overnight drivers converged. (1) TSMC crushed Q2 but on the earnings call HIKED FY26 capex from $52-56B to $60-64B and raised revenue growth guide from \u2018above 30%\u2019 to \u2018slightly above 40%.\u2019 The market rewarded the guide with a SELLOFF over free-cash-flow concerns \u2014 TSMC -2.13% Thu, dragging entire semi complex. Overnight the rout accelerated in Asia: Nikkei -4.3-5.3% (correction territory, -10% from June 25 record). Advantest -10.5%, SoftBank -11.4%, Kioxia -15%. Taiwan Taiex -5-6%. Kospi CLOSED for Constitution Day (Korean regulators temporarily banned new leveraged ETF listings on top techs after Mon-Wed-Thu whipsaw + Bank of Korea unexpectedly HIKED rates 3.5 years first time). (2) US-Iran ESCALATED further: US struck bridges and collapsed a tower at a key Iranian port (6th night of strikes). Iran asked Houthis to prepare to shut Red Sea route \u2014 escalation to a second seaway. Hormuz transits COLLAPSED to 21/day from normal ~50; 7-day crude flows fell to 3.9M b/d from 4.6M. Brent up 11-12% this week to $85, WTI $80. OFAC License X1 EXPIRED overnight \u2014 every Iranian oil barrel now a sanctions breach. IEA chief: \u2018global energy security at risk if Hormuz doesn\u2019t reopen in weeks\u2019; Asia most exposed (80-90% of Hormuz oil goes to Asia). Netflix EPS beat but revenue MISS + soft Q3 guide \u2014 shares -8.58% AH to $67.97, below 52wk low. Retail sales June +0.2% missed +0.5% cons but ex-gas resilient. FedWatch cohort 7/16 mostly held dovish (Sep 52%, Dec 74%). Fri tape (07:07 ET): ES -0.78% (below 2% threshold, no pause), NQ -1.53%, VIX +8.13% to 18.09, US10Y up to 4.569%, US2Y down to 4.126% (curve inverting again on flight-to-quality bid at front + duration selling). WTI +1.38% to $80.04.",
-    "asia_close": [
-        {
-            "market": "Nikkei",
-            "level": 63357.19,
-            "delta_pct": -5.3,
-            "note": "CORRECTION TERRITORY (-10% from 6/25 record). Chip rout: Advantest -10.5%, SoftBank -11.4%, Kioxia -15%, Tokyo Electron -9.3%. Briefly dove -2,700+ points intraday. Yen at 40-year low ~162.38/USD prompting Japan MoF jawboning. Nikkei -4.3% at time of writing per futures"
-        },
-        {
-            "market": "Taiwan Taiex",
-            "level": null,
-            "delta_pct": -5.9,
-            "note": "TSMC -5.1% intraday post-capex hike ($60-64B guide) and $100B additional US investment (total US committed now $265B). Broad chip complex down"
-        },
-        {
-            "market": "Kospi",
-            "level": null,
-            "delta_pct": null,
-            "note": "CLOSED for Constitution Day. Yesterday -6.4% (SK Hynix -11.5%, Samsung -8.8%). Kospi -20% for July, still +62% YTD. Bank of Korea HIKED policy rate Thu (first hike in 3.5 years). Regulator temp banned new leveraged ETFs on major techs; raised retail deposit requirements"
-        },
-        {
-            "market": "Hang Seng",
-            "level": 24450.88,
-            "delta_pct": -2.2,
-            "note": "Tech drag, chip-adjacent names hit"
-        },
-        {
-            "market": "Shanghai",
-            "level": 3818.59,
-            "delta_pct": -1.6,
-            "note": "Broad selling; commodity plays only relative winners"
-        },
-        {
-            "market": "Sensex/Nifty",
-            "level": 78002.52,
-            "delta_pct": 1.06,
-            "note": "SIDESTEPPED THE SELLOFF: Sensex +815 pts, Nifty +205 pts at noon. India-specific earnings season strong; low semiconductor weight; oil-price watch continues but banks + midcaps green"
-        },
-        {
-            "market": "ASX 200",
-            "level": 8775.7,
-            "delta_pct": -0.7,
-            "note": "Relative outperformer given commodity exposure; iron ore/energy support"
-        }
-    ],
-    "europe_open": [
-        {
-            "market": "Stoxx 600 / DAX / EuroStoxx 50",
-            "level": null,
-            "delta_pct": null,
-            "note": "EuroStoxx 50 futures -0.5%; DAX futures lower. Expected to open lower on Asia rout + Hormuz oil"
-        }
-    ],
-    "single_name_moves": [
-        {
-            "ticker": "TSMC (TSM / 2330 TW)",
-            "delta_pct": -5.1,
-            "venue": "Fri Taipei intraday",
-            "driver": "Q2 was a demolition (revenue T$1,270.4B / $40.2B record, gross margin 67.7% clearing top of guide, net profit +77.4% YoY) but CALL was more consequential: FY26 capex hiked $52-56B \u2192 $60-64B (10% above prior top), revenue growth guide \u2018slightly above 40%\u2019 vs prior \u2018above 30%\u2019 (implicit raise), additional $100B Arizona commitment. Market read: capex spike compresses near-term FCF. Wall Street analysts stayed BULLISH \u2014 read as AI visibility through 2030. Sector implication: NVDA/AMD/ASML/ARM read-through positive on demand, negative on equipment CapEx allocations near-term"
-        },
-        {
-            "ticker": "NFLX",
-            "delta_pct": -8.58,
-            "venue": "Thu after-hours to $67.97",
-            "driver": "EPS beat but revenue MISS. Q3 revenue guide light. Stock BELOW 52-week low $70.86 (previously). Second consecutive quarter market punished despite in-line results. Now down >40% from 2026 highs then another -8.6%. Split-adjusted (10-for-1 Nov 2025). Ad-tier + subs growth deceleration the tell"
-        },
-        {
-            "ticker": "Advantest / Tokyo Electron / Kioxia / SoftBank",
-            "delta_pct": -11.0,
-            "venue": "Fri Tokyo",
-            "driver": "AI equipment rout: Advantest -10.5%, TEL -9.3%, Kioxia -15% (has lost >50% since 6/25 record), SoftBank -11.4%. Yen strength on flight to quality compounds exporter pain. \u2018Boom in generative AI-related stock is about to end,\u2019 per bank-affiliated securities firm"
-        },
-        {
-            "ticker": "SK Hynix / Samsung",
-            "delta_pct": null,
-            "venue": "Thu Kospi close (Fri closed)",
-            "driver": "Thu: SK Hynix -11.5%, Samsung -8.8% during Kospi -6.4%. Constitution Day today spared them from rolling further"
-        },
-        {
-            "ticker": "Brent / WTI",
-            "delta_pct": 1.03,
-            "venue": "Fri 07:00 ET",
-            "driver": "Brent $85.10 +0.83%, WTI $79.93 +1.03% (touched $80.04 per our Polygon feed). Both up ~12% this week (Brent 3rd consec weekly gain, WTI 2nd). Hormuz transits COLLAPSED to 21/day, 7-day crude flows 3.9M b/d from 4.6M (Kpler/RBC via Bloomberg). Iran asked Houthis to prepare to shut Red Sea"
-        },
-        {
-            "ticker": "Regional bank earnings BMO",
-            "delta_pct": null,
-            "venue": "Fri BMO",
-            "driver": "RF, TFC, FITB, TRV report. Post JPM/MS blowout \u2014 read on regional NIM + CRE + consumer credit"
-        }
-    ],
-    "geo_headlines": [
-        "TSMC RAISED CAPEX $52-56B \u2192 $60-64B, revenue growth guide \u2018above 30%\u2019 \u2192 \u2018slightly above 40%\u2019, additional $100B Arizona (US total now $265B). Q2 revenue $40.2B record, gross margin 67.7%, net profit +77.4% YoY. But market sold the capex hike over near-term FCF concerns \u2014 stock -2.13% Thu, -5.1% Fri Taipei. Wall Street analysts stayed BULLISH: AI visibility through 2030 (Moomoo, Reuters, Long Yield, Yahoo)",
-        "NETFLIX -8.58% AH TO $67.97 (below 52wk low): EPS beat but revenue MISS + Q3 revenue guide light. Second consecutive quarter market punished despite in-line results. Was already down >40% from 2026 highs. Split-adj (10-for-1 Nov 2025) (CNBC, Variety, EBC, Investing.com, Quartr)",
-        "US STRUCK BRIDGES + COLLAPSED TOWER AT KEY IRANIAN PORT overnight \u2014 6th consecutive night. Iran ASKED HOUTHIS to prepare to shut Red Sea route (second-seaway escalation). Hormuz transits COLLAPSED to just 21/day from normal ~50; 7-day crude flows dropped to 3.9M b/d from 4.6M (Kpler/RBC via Bloomberg) (Newsmax, Reuters, ABC AU)",
-        "OFAC License X1 EXPIRED OVERNIGHT: Every Iranian oil barrel now a sanctions breach. No new purchases, shipments, or sales permitted from today. Treasury revoked 7/7 after Iran ship attacks, replaced with 10-day wind-down that lapsed. Trump: Hormuz \u2018open to everyone but Iran\u2019 (One News AU, Ahram)",
-        "IEA CHIEF WARNING: \u2018Global energy security at risk if Strait of Hormuz doesn\u2019t reopen in weeks.\u2019 Asia most exposed \u2014 80-90% of Hormuz oil goes to Asia. Japan, South Korea suffered; Pakistan, Bangladesh, India hit hardest (Al Jazeera, Reuters)",
-        "OIL: Brent $85.10 (+0.83%), WTI $79.93 (+1.03%) Fri 07:00 ET. Both +11-12% this week. Brent 3rd consecutive weekly gain, WTI 2nd. Yen at 40-year low 162.38/USD prompting Japan MoF jawboning (Reuters, The National, Facebook/Star)",
-        "NIKKEI CORRECTION: -5.3% to 63,357 Fri (-4.3% at time of writing per futures). CONFIRMED correction territory: -10% from June 25 all-time high close. Advantest -10.5%, SoftBank -11.4%, Kioxia -15% (has lost >50% since June record), Tokyo Electron -9.3%. \u2018Boom in generative AI-related stock is about to end,\u2019 bank-affiliated securities firm quoted (SFGATE/AP, Reuters, Nampa/AFP, MarketScreener, TradingKey)",
-        "TAIWAN TAIEX -5-6% Fri: TSMC -5.1% intraday on capex hike concerns. Broader chip complex down. Hang Seng -2.2%. Shanghai -1.6% (Straits Times, SFGATE)",
-        "KOSPI CLOSED (Constitution Day) \u2014 escapes the rout. Thu: -6.4%, SK Hynix -11.5%, Samsung -8.8%. Sidecar mechanism activated. Kospi -20% for July, still +62% YTD. Bank of Korea HIKED policy rate Thu \u2014 first hike in 3.5 years. Regulator temp banned new leveraged ETF listings on major techs + raised retail deposit requirements (Reuters \u2018Bloodbath\u2019, Note, Kiwoom, Reuters/Korean)",
-        "INDIA SIDESTEPS: Sensex +815 pts (+1.06% to 78,002), Nifty +205 pts (+0.86%) at noon. India-specific earnings strong; low semi weight. Oil-import cost watch continues (HDFCSky, Babushahi)",
-        "US THU CLOSE: SPX -0.51% to 7,533.77 (from 7,572.42), Dow -0.20% to 52,552.97, Nasdaq -1.47% to 25,881.95, Russell -0.06% to 2,974.57. Every sector green EXCEPT tech (-1.77%) and comm services (-2.85%). Healthcare +2.21%, Staples +2.9% \u2014 defensive rotation not broad retreat. Gold below $4,000 (-1.98% Thu) (Seattle Times, Reuters, TradingKey, Global and Mail)",
-        "RETAIL SALES JUNE MISSED: +0.2% MoM vs +0.5% cons. But ex-gas resilient. WaPo: \u2018shoppers are resilient\u2019 excluding gas pump drag. Retail Sales Control lagged (WaPo, CNN, TMGM, chinanews)",
-        "FEDWATCH COHORT 7/16 held dovish: Jul cum-hike 12% (from 10%), Sep 52% (from 51%), Oct 62% (from 60%), Dec 74% (from 73%). Modest bounce back but reprice largely stuck. Cook dovish break Wed the standout",
-        "TODAY 08:30 ET: Housing Starts + Building Permits (cons 1.35M). Initial Jobless Claims. Import Prices already this week",
-        "TODAY 10:00 ET: Michigan Sentiment (prelim July). Prev 49.5 (very depressed). 1-yr inflation exp 5.0%. Watch for inflation exp response to CPI cool",
-        "TODAY 12:00 ET: OFAC License X1 wind-down deadline (already expired overnight but formal noon marker)",
-        "TODAY BMO: Regional bank earnings \u2014 Regions Financial (RF), Truist (TFC), Fifth Third (FITB), Travelers (TRV). Regional NIM + CRE + consumer credit read after JPM/MS blowout"
-    ],
-    "headline_token": "TSMC_CAPEX_HIKE_60_64B_SELLOFF + NFLX_MINUS_86_AH + NIKKEI_MINUS_53_CORRECTION + TAIEX_MINUS_6 + KOSPI_CLOSED_ETF_BAN + HORMUZ_TRANSITS_COLLAPSE_21 + IRAN_HOUTHIS_RED_SEA + OFAC_X1_EXPIRED + IEA_WEEKS_WARNING + WTI_80_BRENT_85_UP_12_WEEKLY + VIX_18_PLUS_8 + FEDWATCH_HELD_DOVISH + MICHIGAN_TODAY"
+  "asia_close": [],
+  "europe_open": [],
+  "single_name_moves": [],
+  "geo_headlines": [
+    "Weekend Iran/Hormuz escalation: IRGC claims two oil tankers exploded from mines in Strait of Hormuz Saturday; CENTCOM publicly rejects the claim on X",
+    "US-Iran strikes continue across Mideast overnight per NPR; Iran FM traveling to Oman for Hormuz talks; Iran renewed attacks on Gulf states",
+    "Iraq-Syria signed oil pipeline agreement Friday as Hormuz workaround; WTI $81.78 (+4.85% Fri, +14.4% weekly — biggest supply-driven week since 2022)",
+    "FOMC blackout begins today (7/18) and runs through July 30 — no Fed speakers until 7/29 decision"
+  ],
+  "headline": "Weekend risk-off deepens: Iran claims Hormuz tanker mines (CENTCOM denies), US strikes continue, oil +14% on the week. Futures reopen Sunday 6pm ET into worst tape since March.",
+  "client_frame": "Friday closed the worst week since March: SPX -1.6%, Nasdaq -2.9%, Philadelphia Semi Index in a technical bear market (>20% off June peak), Netflix -7.4% on cut viewer-metric transparency. Weekend Iran/Hormuz escalation is real (tanker mines contested, US strikes ongoing) but not yet market-decisive; the setup is oil supply shock plus AI/semi de-rating. Energy and defense working, growth-tech and semis under pressure, safe havens (gold above $4,000, front-end Treasuries) doing their job. Sunday 6pm ET futures open into elevated gap risk. FOMC blackout starts today. Stay disciplined, resist headline chasing, remember base rate: SPX drawdowns of 5-10% happen ~3x a year on average.",
+  "as_of": "2026-07-18T11:00:00+00:00"
 }
