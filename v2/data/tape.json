@@ -13,7 +13,7 @@
     "as_of": "2026-07-17T20:00:00+00:00",
     "status": "CLOSED",
     "prev_close": 28998.28,
-    "delta_pct": -1.40,
+    "delta_pct": -1.4,
     "label": "Nasdaq 100 (Fri close)",
     "source": "polygon:I:NDX"
   },
@@ -48,7 +48,7 @@
     "value": 81.78,
     "as_of": "2026-07-18T00:00:00+00:00",
     "status": "CLOSED",
-    "prev_close": 78.00,
+    "prev_close": 78.0,
     "delta_pct": 4.85,
     "label": "WTI crude (Fri close, week +14.4%)",
     "source": "convextrade:WTI"
@@ -73,13 +73,13 @@
     "unit": "%"
   },
   "BTC": {
-    "value": 63888.80,
-    "as_of": "2026-07-17T23:59:59.999000+00:00",
+    "value": 64799.09,
+    "as_of": "2026-07-18T23:59:59.999000+00:00",
     "status": "LIVE",
     "label": "BTC/USD (weekend live)",
     "source": "polygon:X:BTCUSD",
-    "prev_close": 63789.60,
+    "prev_close": 63888.8,
     "ref_close_ts": "2026-07-17T20:00:00+00:00",
-    "delta_pct": 0.16
+    "delta_pct": 1.42
   }
 }
