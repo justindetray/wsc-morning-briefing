@@ -1,17 +1,28 @@
 {
-  "asia_close": [],
-  "europe_open": [],
+  "asia_close": [
+    {"market": "Nikkei", "delta_pct": null, "level": null, "note": "Closed for Marine Day"},
+    {"market": "Hang Seng", "delta_pct": 2.0, "level": null},
+    {"market": "CSI 300", "delta_pct": 0.7, "level": null},
+    {"market": "KOSPI", "delta_pct": -4.6, "level": null},
+    {"market": "S&P/ASX 200", "delta_pct": 0.0, "level": null}
+  ],
+  "europe_open": [
+    {"market": "EUROSTOXX 50", "delta_pct": 0.2, "level": null},
+    {"market": "DAX", "delta_pct": 0.2, "level": null},
+    {"market": "FTSE 100", "delta_pct": 0.0, "level": null}
+  ],
   "single_name_moves": [],
   "geo_headlines": [
-    "TWO US TROOPS KILLED IN JORDAN by Iranian ballistic missile + drone attack — first US military fatalities since renewed hostilities. One missing, four wounded and hospitalized (CENTCOM)",
-    "US launches 8th consecutive night of strikes on Iran (Sun 7/19 completed 11:30pm ET Sat), targeting IRGC directly for first time. Strikes on Sirik, Hajiabad, Qeshm Island near Strait of Hormuz",
-    "Iran retaliates: kamikaze drones strike TWO US bases in Kuwait — Camp Udairi ammo depot + Ali Al Salem AB Patriot radar. Kuwait Petroleum Corp site + power/desalination plants also hit",
-    "US-Iran preliminary deal COLLAPSED; Iran suspends Islamabad MoU (Deputy FM Gharibabadi); 50,000 US troops on alert regionally (Ynetnews)",
-    "IRGC claims second wave of Hormuz mine explosions Sunday morning; Strait of Hormuz operating at 11% of pre-crisis volume (10 vessels vs 88/day baseline per PortWatch)",
-    "Oil settled Fri: WTI $82.49 (+16% wk), Brent $88.10; US gasoline set to top $4/gallon nationwide (up 11c in past week per CBS)",
-    "FOMC blackout period active (7/18-7/30). No Fed speakers until 7/29 decision"
+    "9TH CONSECUTIVE NIGHT of US strikes on Iran — CENTCOM hit Sirik, Jask, Tabriz, Chabahar; Iran struck Kuwait + Bahrain again overnight",
+    "THIRD US SERVICE MEMBER reported killed (CNN); total US fatalities since Feb 28 war start: 17 (Audacy/AP)",
+    "Brent crude tops $90/bbl first time since June 11 — settled $90.82 (+3.08%), touched $91; WTI $83.96 (+1.79%); wk +16%",
+    "Iran vows 'not a single drop' of oil or gas will pass Strait of Hormuz; only 4 vessels crossed Sun vs 8 Sat vs 88/day baseline",
+    "US retail gasoline hits $4/gal nationwide (Audacy/AP) — politically live threshold into midterms",
+    "SecState Rubio: 'US open to diplomacy' but continuing strikes; Iran warns US against ground operations",
+    "30Y Treasury yield back above 5.00%; Reuters cites Sep FOMC HIKE odds now ~60-65% (up from CME 7/17 close 51%)",
+    "Japan closed for Marine Day; Farnborough Air Show begins (Boeing, Airbus, Embraer, Archer, Vertical Aero, Northrop)"
   ],
-  "headline": "Iran conflict enters kinetic escalation phase: US troops killed in Jordan, 8th night of US strikes on Iran, Iran hits US bases in Kuwait, preliminary deal collapsed. Sunday 6pm ET futures reopen into war-premium gap.",
-  "client_frame": "The weekend materially changed the risk picture. Two US troops killed in Jordan Friday overnight made this a shooting conflict with confirmed US casualties, not a proxy exchange. Trump has ordered 8 consecutive nights of strikes on Iran, now directly targeting the IRGC. Iran has retaliated against US bases in Kuwait with drones, hit Kuwaiti civilian energy infrastructure, and suspended the Islamabad MoU. The preliminary US-Iran deal is collapsed. Fifty thousand US troops are on regional alert. Hormuz shipping is at 11% of pre-crisis volume. WTI closed Fri at $82.49, up 16% on the week; Brent $88.10. US gasoline is on its way through $4/gallon. Sunday 6pm ET futures reopen carries meaningful gap-down risk on equities and gap-up on oil, gold, and defense. VIX at 18.77 remains below panic but the tape is priced for realized vol, not tail risk. Client framing: this is now an oil-supply-shock plus geopolitical-risk-premium regime laid on top of an AI/semi de-rating. Growth-tech and semis remain under pressure. Energy, defense, gold, front-end Treasuries doing their job. Stay disciplined, avoid headline chasing, remember base rates. The next Fed touchpoint is 7/29 Powell; blackout is on. If clients call worried, reframe: SPX drawdowns of 5-10% happen roughly three times a year. What matters more than direction is leadership rotation — and rotation is happening in real time.",
-  "as_of": "2026-07-19T11:00:00+00:00"
+  "headline": "Oil supply shock priced in: Brent tops $90, US strikes Iran 9th night, third US service member killed, gasoline at $4. Equity futures flat to +0.2% — resilient tape; rate market shifting hawkish, 30Y back above 5%.",
+  "client_frame": "The overnight tape has settled into a distinctive regime: oil supply shock plus geopolitical risk premium overlaid on an AI/semi de-rating that was already in motion. Brent above $90 for the first time in six weeks. WTI $83.96 with weekly gains of 16%. Retail gasoline at $4. Third US service member killed since Friday. Nine consecutive nights of US strikes on Iran. Yet ES futures are flat and NQ is up 0.13%. That is not complacency — it is a market pricing sector rotation rather than broad de-risking. The tell is in rates: 30Y Treasury back above 5%, September FOMC hike odds pushed from ~51% Friday to ~60-65% per Reuters overnight. The market is now debating whether Powell hikes into a supply shock. That is a different narrative than three weeks ago when the debate was about cuts. Client framing: energy is the trade, defense is the trade, gold has stalled here but shorter-duration Treasuries are still doing their job, and the semi/AI de-rating continues. A major tech earnings week landing on top of this backdrop increases both directions of variance. Position for volatility, not direction. If a client is anxious, the frame is: this is what portfolio diversification is designed for. If a client is opportunistic, the question is not whether to add risk but where the rotation is going. Farnborough Air Show announcements today from Boeing/Airbus/Northrop are the industrial sub-story to watch.",
+  "as_of": "2026-07-20T11:00:00+00:00"
 }

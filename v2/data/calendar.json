@@ -1,22 +1,22 @@
 {
-  "last_curated": "2026-07-19T11:00:00+00:00",
+  "last_curated": "2026-07-20T11:00:00+00:00",
   "macro": [
-    {"date": "2026-07-20", "time_et": "10:00", "event": "Conference Board Leading Economic Index (Jun)", "consensus": "-0.2% m/m", "importance": "medium", "note": "Continued signal of slowing momentum expected"},
+    {"date": "2026-07-20", "time_et": "10:00", "event": "Conference Board Leading Economic Index (Jun)", "consensus": "-0.2% m/m", "importance": "medium", "note": "Only US release today"},
     {"date": "2026-07-21", "time_et": "10:00", "event": "Existing Home Sales (Jun)", "consensus": "4.02M SAAR", "importance": "medium"},
     {"date": "2026-07-22", "time_et": "09:45", "event": "S&P Global US Manufacturing PMI Flash (Jul)", "consensus": "51.5", "importance": "high", "note": "First July activity read"},
     {"date": "2026-07-22", "time_et": "09:45", "event": "S&P Global US Services PMI Flash (Jul)", "consensus": "52.8", "importance": "high"},
     {"date": "2026-07-22", "time_et": "10:00", "event": "New Home Sales (Jun)", "consensus": "660K SAAR", "importance": "medium"},
     {"date": "2026-07-23", "time_et": "08:30", "event": "Initial Jobless Claims", "consensus": "230K", "importance": "medium"},
-    {"date": "2026-07-23", "time_et": "11:00", "event": "EIA Weekly Petroleum Status", "consensus": "n/a", "importance": "high", "note": "Watch for crude draw amid Hormuz disruption"},
+    {"date": "2026-07-23", "time_et": "10:30", "event": "EIA Weekly Petroleum Status", "consensus": "n/a", "importance": "high", "note": "Watch for crude draw amid Hormuz disruption"},
     {"date": "2026-07-24", "time_et": "08:30", "event": "Durable Goods Orders (Jun advance)", "consensus": "+0.5% m/m", "importance": "high"},
     {"date": "2026-07-24", "time_et": "10:00", "event": "Michigan Consumer Sentiment Final (Jul)", "consensus": "65.2", "importance": "medium"},
-    {"date": "2026-07-29", "time_et": "14:00", "event": "FOMC decision + Powell presser", "consensus": "hold 3.50-3.75%", "importance": "high", "note": "Blackout 7/18-7/30; no Fed speak until decision"}
+    {"date": "2026-07-29", "time_et": "14:00", "event": "FOMC decision + Powell presser", "consensus": "hold 3.50-3.75% (but oil shock adding hike premium)", "importance": "high", "note": "Blackout 7/18-7/30. 30Y >5%; Sep hike odds ~60-65%"}
   ],
   "earnings": [
-    {"date": "2026-07-20", "ticker": "STLD", "name": "Steel Dynamics", "session": "pre-market", "importance": "medium"},
-    {"date": "2026-07-20", "ticker": "DPZ", "name": "Domino's", "session": "pre-market", "importance": "medium"},
-    {"date": "2026-07-20", "ticker": "RYAAY", "name": "Ryanair", "session": "pre-market", "importance": "low"},
+    {"date": "2026-07-20", "ticker": "STLD", "name": "Steel Dynamics", "session": "after-close", "importance": "medium", "note": "Industrial-cycle bellwether"},
+    {"date": "2026-07-20", "ticker": "ZION", "name": "Zions Bancorporation", "session": "after-close", "importance": "medium"},
     {"date": "2026-07-20", "ticker": "WRB", "name": "WR Berkley", "session": "after-close", "importance": "low"},
-    {"date": "2026-07-20", "ticker": "AMC", "name": "AMC Entertainment", "session": "pre-market", "importance": "low"}
+    {"date": "2026-07-20", "ticker": "DPZ", "name": "Domino's", "session": "pre-market", "importance": "medium"},
+    {"date": "2026-07-20", "ticker": "RYAAY", "name": "Ryanair", "session": "pre-market", "importance": "low"}
   ]
 }

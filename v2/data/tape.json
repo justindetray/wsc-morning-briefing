@@ -1,4 +1,22 @@
 {
+  "ES": {
+    "value": 7496.50,
+    "as_of": "2026-07-20T06:03:45+00:00",
+    "status": "LIVE",
+    "prev_close": 7494.75,
+    "delta_pct": 0.02,
+    "label": "ES front-month (premarket)",
+    "source": "businessinsider:premarket"
+  },
+  "NQ": {
+    "value": 28805.50,
+    "as_of": "2026-07-20T06:03:45+00:00",
+    "status": "LIVE",
+    "prev_close": 28768.25,
+    "delta_pct": 0.13,
+    "label": "NQ front-month (premarket)",
+    "source": "businessinsider:premarket"
+  },
   "SPX": {
     "value": 7457.69,
     "as_of": "2026-07-17T20:00:00+00:00",
@@ -44,42 +62,41 @@
     "label": "US 10Y yield (Fri close)",
     "source": "polygon:I:TNX"
   },
-  "WTI": {
-    "value": 81.78,
-    "as_of": "2026-07-18T00:00:00+00:00",
-    "status": "CLOSED",
-    "prev_close": 78.0,
-    "delta_pct": 4.85,
-    "label": "WTI crude (Fri close, week +14.4%)",
-    "source": "convextrade:WTI"
-  },
-  "GOLD": {
-    "value": 4015.83,
-    "as_of": "2026-07-17T20:00:00+00:00",
-    "status": "CLOSED",
-    "prev_close": 3985.96,
-    "delta_pct": 0.75,
-    "label": "Gold (Fri close, back above 4k)",
-    "source": "polygon:C:XAUUSD"
-  },
   "US2Y": {
     "value": 4.172,
     "as_of": "2026-07-17T20:00:00+00:00",
     "status": "CLOSED",
     "prev_close": 4.208,
     "delta_pct": -0.86,
-    "label": "US 2Y yield (Fri close, wk -3.6bp)",
+    "label": "US 2Y yield (Fri close)",
     "source": "morningstar:US2Y",
     "unit": "%"
   },
-  "BTC": {
-    "value": 64799.09,
-    "as_of": "2026-07-18T23:59:59.999000+00:00",
+  "WTI": {
+    "value": 83.96,
+    "as_of": "2026-07-20T06:13:50+00:00",
     "status": "LIVE",
-    "label": "BTC/USD (weekend live)",
-    "source": "polygon:X:BTCUSD",
-    "prev_close": 63888.8,
-    "ref_close_ts": "2026-07-17T20:00:00+00:00",
-    "delta_pct": 1.42
+    "prev_close": 82.49,
+    "delta_pct": 1.78,
+    "label": "WTI crude (premarket, wk +16%)",
+    "source": "businessinsider:premarket"
+  },
+  "GOLD": {
+    "value": 4008.38,
+    "as_of": "2026-07-20T06:13:34+00:00",
+    "status": "LIVE",
+    "prev_close": 4015.83,
+    "delta_pct": -0.19,
+    "label": "Gold (premarket)",
+    "source": "businessinsider:premarket"
+  },
+  "BTC": {
+    "value": 64681.31,
+    "as_of": "2026-07-19T23:59:59.999000+00:00",
+    "status": "LIVE",
+    "prev_close": 63888.80,
+    "delta_pct": 1.24,
+    "label": "BTC/USD (Polygon, vs Fri close)",
+    "source": "polygon:X:BTCUSD"
   }
 }
