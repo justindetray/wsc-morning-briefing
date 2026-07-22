@@ -1,29 +1,31 @@
 {
   "asia_close": [
-    {"market": "Nikkei", "delta_pct": 1.5, "level": null, "note": "Back from Marine Day"},
-    {"market": "Hang Seng", "delta_pct": 0.7, "level": null},
-    {"market": "CSI 300", "delta_pct": 0.4, "level": null},
-    {"market": "KOSPI", "delta_pct": 2.1, "level": null, "note": "Chip rebound"},
-    {"market": "S&P/ASX 200", "delta_pct": 0.3, "level": null}
+    {"market": "Nikkei", "delta_pct": 0.3, "level": null, "note": "Tech steady"},
+    {"market": "Hang Seng", "delta_pct": -0.2, "level": null},
+    {"market": "CSI 300", "delta_pct": 0.1, "level": null},
+    {"market": "KOSPI", "delta_pct": 0.6, "level": null, "note": "Chip follow-through"},
+    {"market": "S&P/ASX 200", "delta_pct": 0.2, "level": null}
   ],
   "europe_open": [
-    {"market": "EUROSTOXX 50", "delta_pct": 0.6, "level": null},
-    {"market": "DAX", "delta_pct": 0.5, "level": null},
-    {"market": "FTSE 100", "delta_pct": 0.3, "level": null},
-    {"market": "CAC 40", "delta_pct": 0.7, "level": null}
+    {"market": "EUROSTOXX 50", "delta_pct": -0.4, "level": null},
+    {"market": "DAX", "delta_pct": -0.3, "level": null},
+    {"market": "FTSE 100", "delta_pct": -0.1, "level": null, "note": "Energy lifting"},
+    {"market": "CAC 40", "delta_pct": -0.5, "level": null}
   ],
   "single_name_moves": [],
   "geo_headlines": [
-    "TRUMP IMPOSES 50% TARIFFS ON CERTAIN CANADIAN GOODS — Section 338 of 1930 Tariff Act (first-ever use). Wine, hockey sticks, cement, motor vehicles, dairy, alcohol. Effective Aug 19. Energy, potash, fish, critical minerals EXEMPT. USMCA-covered items HIT.",
-    "10-DAY CEASEFIRE PROPOSAL — Qatar, Pakistan, Egypt mediators floated a 10-day US-Iran truce to revive interim deal; during pause, would negotiate longer-term Hormuz passage arrangement (Reuters/Axios)",
-    "10TH CONSECUTIVE NIGHT of US strikes on Iran — operation expanded beyond southern targets (Reuters/AP/Al Jazeera); no US KIA reported overnight",
-    "IRAN STRUCK TANKER in Strait of Hormuz Sunday — Iranian footage shows 'burning tanker'; two tankers now reported damaged (AP, The National)",
-    "OIL EASED overnight on ceasefire optimism — Brent $88.79 (-0.4%), WTI $82.61 (steady), both off Monday's five-week highs",
-    "CHIP REBOUND — Big Tech earnings this week: Alphabet + Tesla + Intel + IBM report Wed; SOX rallied Mon (+0.6% at close, was +4% intraday)",
-    "MON 10Y yield +5.7bp to 4.598%; 30Y still above 5%; DXY ~101 on 3-day win streak",
-    "CANADA response: PM Carney statement — 'more than 20 new economic and security partnerships' — 30-day window before tariffs bite leaves room for negotiation"
+    "IRAN STRUCK AMAZON'S CENTRAL DATA CENTER IN BAHRAIN — IRGC claims cruise-missile destruction of AWS ME-South-1 infrastructure as 24th wave of 'Operation Nasr 2', retaliation for US strike on under-construction Darkhovin nuclear plant. Amazon, Bahrain, Pentagon have not commented. If verified, second major hit on that facility in 5 months (Mar 1 hit first-ever confirmed physical strike on hyperscale cloud).",
+    "IRAN also hit Camp Doha western Kuwait — ammo depots + logistics for US Army — with 'large number of attack drones'; separately claimed strikes on radars at Jaber Air Base Kuwait",
+    "11TH CONSECUTIVE NIGHT OF US STRIKES on Iran completed overnight — CENTCOM targeted military ops centers, maritime capabilities, aircraft hangars, drone storage, logistics 'to further degrade Iran's ability to threaten Hormuz shipping'",
+    "RUBIO: US STILL WILLING TO NEGOTIATE but Iran 'not serious' — ceasefire talks stalling as Hormuz remains the sticking point; Trump said war 'not finished' Mon evening",
+    "3RD US SOLDIER identified from Jordan attack — brings total US KIA to 3 in this conflict phase",
+    "IRAN INTERCEPTED 2 'NON-COMPLIANT' OIL TANKERS in Strait of Hormuz overnight; another tanker off Oman hit by 'unknown projectile'",
+    "OIL SURGED — WTI +3.44% to $87.24, Brent +3.70% to $94.38 in premarket (Brent hit six-week high above $92 Tuesday, extended in Asia session)",
+    "TSLA and GOOGL Q2 report tonight after close — first Big Tech earnings of Q2 season. Also INTC, IBM, ServiceNow, AT&T, T. TSLA closed $378.93 (+2.53%) Tue at 177x forward EPS. Options priced for biggest post-earnings move in a year.",
+    "3-DAY LOSING STREAK SNAPPED TUESDAY — SPX +0.89%, NDX +1.93%, Nasdaq Comp +1.29%, Dow +0.74%, R2K +1.53%. Micron +12%, Sandisk +14%, semis rally +5.2%. VIX -8.6% to 17.05.",
+    "10Y at 4.628% Tue close = highest of the entire US-Iran conflict period. 30Y remains above 5%. Rate market has NOT gotten the equity risk-on memo."
   ],
-  "headline": "Risk-on premarket on ceasefire hopes: 10-day truce proposal, chip rebound. But: Trump 50% Canada tariff hits USMCA goods Aug 19, 10th night of US strikes on Iran, tanker attacks in Hormuz. Big Tech earnings Wed is the setup.",
-  "client_frame": "The overnight tape has flipped from Monday's cautious tone to constructive: ES +0.56%, NQ +1.30% on chip rebound + ceasefire hope. Qatar, Pakistan and Egypt have floated a 10-day US-Iran truce; during the pause the parties would negotiate longer-term Hormuz passage. Whether it holds is the question — the 10th consecutive night of US strikes on Iran also completed overnight, and Iran struck a tanker in Hormuz Sunday. Oil eased modestly on the ceasefire headline: Brent $88.79, WTI $82.61, both off Monday's five-week highs. The rate market didn't get the memo yet — 30Y still above 5%, DXY 101, CME September hike odds ticked to 55% (from 51% Fri). Client framing: the base case remains an oil-supply-shock plus geopolitical-risk regime layered on the AI/semi de-rating, now with two fresh wildcards. First, the 10-day ceasefire — if it holds, energy trades unwind fast and equity beta rotates back toward AI/semis. If it fails, we go higher on oil and lower on the tape. Second, the 50 percent tariffs Trump imposed on select Canadian goods yesterday — Section 338 of the 1930 Tariff Act, first-ever use — take effect August 19. USMCA-covered goods including autos, wine, dairy and hockey sticks are hit. Energy and critical minerals are exempt. Practical impact is smaller than the number suggests because 30 days leaves negotiating room and PM Carney's statement was measured, but Canada exposure names (autos, forest products, rail) are worth watching. Real setup this week is Big Tech earnings Wed: Alphabet, Tesla, Intel, IBM. Given SOX is still in a technical bear market off June, that print is the tape's real referendum. Position for variance, not direction.",
-  "as_of": "2026-07-21T11:00:00+00:00"
+  "headline": "Risk-off premarket reverses Tue rally: oil +3.5% on Amazon data-center strike + Rubio pessimism on ceasefire. NQ -0.57% giving back chip gains ahead of Big Tech quadruple: GOOGL/TSLA/INTC/IBM tonight.",
+  "client_frame": "Tuesday's roaring session (SPX +0.89%, NDX +1.93%, RUT +1.53%, VIX crushed to 17.05, semis +5.2%, Micron +12%, Sandisk +14%) has partially reversed overnight. Three developments compound: first, Iran's Revolutionary Guard claimed it destroyed the central data infrastructure of AWS ME-South-1 in Bahrain with cruise missiles — the 24th wave of 'Operation Nasr 2', retaliation for the US strike on Iran's Darkhovin nuclear plant Sunday. Amazon, Bahrain and the Pentagon have not confirmed. If verified, this is the second major hit on that facility in five months and the first successful strike on hyperscale cloud infrastructure since the March 1 attack. Second, the US completed its 11th consecutive night of strikes on Iran and Secretary Rubio said Tehran 'is not serious' about ceasefire — the 10-day truce proposal is now visibly stalled. Third, oil is off to the races again: WTI +3.44% to $87.24, Brent +3.70% to $94.38 in premarket, taking Brent above $92 to a six-week high. The rate market continues to lean hawkish — the 10Y closed 4.628% Tuesday, the highest of the entire conflict period, and 30Y remains above 5%. September FOMC hike odds are now 54.7% (single most likely outcome). Client framing for Wednesday: this is the biggest single earnings day of the quarter setting up into a live oil shock and expanding geopolitical target set. GOOGL, TSLA, INTC and IBM all report after close, with ServiceNow, AT&T and T also on the tape. TSLA at 177x forward earnings has the tightest coil — options-implied move is the biggest for a Tesla print in a year. Alphabet cloud growth and capex commentary is the single most important data point for the AI de-rating question. The reason we are looking at index futures softer this morning is not a change in the earnings thesis — it is that Tuesday's rally left the tape overbought into event risk, and the Amazon-data-center headline is a fresh reminder that Iran's target set has expanded from military to corporate US infrastructure. Sequencing over the next 24 hours matters more than direction: PMI Flash Thu, TSLA/GOOGL tonight, and the FOMC decision one week out. Positioning: hedges paid Tuesday's gap-up; keep them on. Do not chase this bounce into event risk. If Big Tech prints deliver, chip rebound extends and rates likely settle; if they miss, the risk-off tape gets a second leg down and volatility gets bought back aggressively.",
+  "as_of": "2026-07-22T11:10:00+00:00"
 }
