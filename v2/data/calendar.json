@@ -1,30 +1,27 @@
 {
-  "last_curated": "2026-07-22T11:10:00+00:00",
+  "last_curated": "2026-07-23T11:12:00+00:00",
   "macro": [
-    {"date": "2026-07-22", "time_et": "07:00", "event": "MBA Mortgage Applications (wk)", "consensus": "n/a", "importance": "low", "note": "Prior -2.7%"},
-    {"date": "2026-07-22", "time_et": "10:30", "event": "EIA Weekly Petroleum Status", "consensus": "n/a", "importance": "high", "note": "Crude draw watch given Hormuz — prior stocks 409.7M"},
-    {"date": "2026-07-23", "time_et": "08:30", "event": "Initial Jobless Claims", "consensus": "212.5K", "importance": "medium", "note": "Prior 208K"},
+    {"date": "2026-07-23", "time_et": "08:30", "event": "Initial Jobless Claims (wk Jul 18)", "consensus": "212K", "importance": "medium", "note": "Prior 208K"},
     {"date": "2026-07-23", "time_et": "08:30", "event": "Continuing Claims", "consensus": "1,820K", "importance": "medium"},
-    {"date": "2026-07-24", "time_et": "09:45", "event": "S&P Global US Manufacturing PMI Flash (Jul)", "consensus": "54.5", "importance": "high", "note": "First July activity read; prior 53.9"},
+    {"date": "2026-07-23", "time_et": "10:30", "event": "EIA Natural Gas Storage", "consensus": "n/a", "importance": "low"},
+    {"date": "2026-07-23", "time_et": "11:00", "event": "Kansas City Fed Manufacturing Survey (Jul)", "consensus": "12.5", "importance": "low", "note": "Prior 11"},
+    {"date": "2026-07-23", "time_et": "13:00", "event": "10-Year TIPS Auction $19B", "consensus": "n/a", "importance": "medium", "note": "Real-yield read into Fed"},
+    {"date": "2026-07-24", "time_et": "09:45", "event": "S&P Global US Manufacturing PMI Flash (Jul)", "consensus": "54.4", "importance": "high", "note": "First July activity read; prior 53.9"},
     {"date": "2026-07-24", "time_et": "09:45", "event": "S&P Global US Services PMI Flash (Jul)", "consensus": "51.5", "importance": "high", "note": "Prior 51.2"},
-    {"date": "2026-07-24", "time_et": "10:00", "event": "New Home Sales (Jun)", "consensus": "610K SAAR", "importance": "medium", "note": "Prior 580K"},
+    {"date": "2026-07-24", "time_et": "10:00", "event": "New Home Sales (Jun)", "consensus": "606K SAAR", "importance": "medium", "note": "Prior 580K"},
     {"date": "2026-07-24", "time_et": "13:00", "event": "Baker Hughes Rig Count", "consensus": "n/a", "importance": "low"},
-    {"date": "2026-07-29", "time_et": "14:00", "event": "FOMC decision + Powell presser", "consensus": "hold 3.50-3.75%", "importance": "high", "note": "Blackout continues; Sep hike odds 55%"}
+    {"date": "2026-07-29", "time_et": "14:00", "event": "FOMC decision + Powell presser", "consensus": "hold 3.50-3.75%", "importance": "high", "note": "Sep hike odds 78% cumulative"}
   ],
   "earnings": [
-    {"date": "2026-07-22", "ticker": "T", "name": "AT&T", "session": "pre-market", "importance": "medium"},
-    {"date": "2026-07-22", "ticker": "MO", "name": "Altria", "session": "pre-market", "importance": "low"},
-    {"date": "2026-07-22", "ticker": "TMO", "name": "Thermo Fisher", "session": "pre-market", "importance": "medium"},
-    {"date": "2026-07-22", "ticker": "BA", "name": "Boeing", "session": "pre-market", "importance": "high", "note": "Farnborough backdrop"},
-    {"date": "2026-07-22", "ticker": "GEV", "name": "GE Vernova", "session": "pre-market", "importance": "medium"},
-    {"date": "2026-07-22", "ticker": "GOOGL", "name": "Alphabet", "session": "after-close", "importance": "high", "note": "Cloud + capex read for AI trade"},
-    {"date": "2026-07-22", "ticker": "TSLA", "name": "Tesla", "session": "after-close", "importance": "high", "note": "177x fwd EPS; biggest implied move in a year"},
-    {"date": "2026-07-22", "ticker": "INTC", "name": "Intel", "session": "after-close", "importance": "high", "note": "AI trade referendum"},
-    {"date": "2026-07-22", "ticker": "IBM", "name": "IBM", "session": "after-close", "importance": "high"},
-    {"date": "2026-07-22", "ticker": "NOW", "name": "ServiceNow", "session": "after-close", "importance": "high"},
-    {"date": "2026-07-22", "ticker": "CMG", "name": "Chipotle", "session": "after-close", "importance": "medium"},
     {"date": "2026-07-23", "ticker": "HON", "name": "Honeywell", "session": "pre-market", "importance": "medium"},
-    {"date": "2026-07-23", "ticker": "UNP", "name": "Union Pacific", "session": "pre-market", "importance": "medium"},
-    {"date": "2026-07-23", "ticker": "AAL", "name": "American Airlines", "session": "pre-market", "importance": "medium"}
+    {"date": "2026-07-23", "ticker": "UNP", "name": "Union Pacific", "session": "pre-market", "importance": "medium", "note": "Freight-volume read"},
+    {"date": "2026-07-23", "ticker": "AAL", "name": "American Airlines", "session": "pre-market", "importance": "medium"},
+    {"date": "2026-07-23", "ticker": "RTX", "name": "RTX Corp", "session": "pre-market", "importance": "medium"},
+    {"date": "2026-07-23", "ticker": "TMUS", "name": "T-Mobile US", "session": "pre-market", "importance": "medium"},
+    {"date": "2026-07-23", "ticker": "DOW", "name": "Dow", "session": "pre-market", "importance": "medium"},
+    {"date": "2026-07-23", "ticker": "BX", "name": "Blackstone", "session": "pre-market", "importance": "medium"},
+    {"date": "2026-07-23", "ticker": "NDAQ", "name": "Nasdaq Inc", "session": "pre-market", "importance": "medium"},
+    {"date": "2026-07-23", "ticker": "VRSN", "name": "Verisign", "session": "pre-market", "importance": "low"},
+    {"date": "2026-07-23", "ticker": "INTC", "name": "Intel", "session": "after-close", "importance": "high", "note": "AI referendum for legacy semis; call 5pm ET"}
   ]
 }
