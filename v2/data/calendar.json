@@ -1,27 +1,28 @@
 {
-  "last_curated": "2026-07-23T11:12:00+00:00",
+  "last_curated": "2026-07-24T11:14:00+00:00",
   "macro": [
-    {"date": "2026-07-23", "time_et": "08:30", "event": "Initial Jobless Claims (wk Jul 18)", "consensus": "212K", "importance": "medium", "note": "Prior 208K"},
-    {"date": "2026-07-23", "time_et": "08:30", "event": "Continuing Claims", "consensus": "1,820K", "importance": "medium"},
-    {"date": "2026-07-23", "time_et": "10:30", "event": "EIA Natural Gas Storage", "consensus": "n/a", "importance": "low"},
-    {"date": "2026-07-23", "time_et": "11:00", "event": "Kansas City Fed Manufacturing Survey (Jul)", "consensus": "12.5", "importance": "low", "note": "Prior 11"},
-    {"date": "2026-07-23", "time_et": "13:00", "event": "10-Year TIPS Auction $19B", "consensus": "n/a", "importance": "medium", "note": "Real-yield read into Fed"},
     {"date": "2026-07-24", "time_et": "09:45", "event": "S&P Global US Manufacturing PMI Flash (Jul)", "consensus": "54.4", "importance": "high", "note": "First July activity read; prior 53.9"},
     {"date": "2026-07-24", "time_et": "09:45", "event": "S&P Global US Services PMI Flash (Jul)", "consensus": "51.5", "importance": "high", "note": "Prior 51.2"},
     {"date": "2026-07-24", "time_et": "10:00", "event": "New Home Sales (Jun)", "consensus": "606K SAAR", "importance": "medium", "note": "Prior 580K"},
     {"date": "2026-07-24", "time_et": "13:00", "event": "Baker Hughes Rig Count", "consensus": "n/a", "importance": "low"},
-    {"date": "2026-07-29", "time_et": "14:00", "event": "FOMC decision + Powell presser", "consensus": "hold 3.50-3.75%", "importance": "high", "note": "Sep hike odds 78% cumulative"}
+    {"date": "2026-07-28", "time_et": "10:00", "event": "Dallas Fed Manufacturing (Jul)", "consensus": "n/a", "importance": "low"},
+    {"date": "2026-07-29", "time_et": "08:30", "event": "Durable Goods Orders (Jun) — Advance", "consensus": "3.0% m/m", "importance": "high", "note": "Prior 16.4% (Boeing base)"},
+    {"date": "2026-07-29", "time_et": "10:00", "event": "Consumer Confidence (Jul)", "consensus": "n/a", "importance": "medium"},
+    {"date": "2026-07-29", "time_et": "14:00", "event": "FOMC decision + Powell presser", "consensus": "hold 3.50-3.75%", "importance": "high", "note": "Cumulative +25bp Sep now 82% priced"},
+    {"date": "2026-07-30", "time_et": "08:30", "event": "GDP Q2 Advance", "consensus": "2.4% q/q", "importance": "high"},
+    {"date": "2026-07-31", "time_et": "08:30", "event": "PCE Deflator (Jun) + Employment Cost Index Q2", "consensus": "0.2% m/m core", "importance": "high", "note": "Fed's preferred inflation gauge, post-FOMC"}
   ],
   "earnings": [
-    {"date": "2026-07-23", "ticker": "HON", "name": "Honeywell", "session": "pre-market", "importance": "medium"},
-    {"date": "2026-07-23", "ticker": "UNP", "name": "Union Pacific", "session": "pre-market", "importance": "medium", "note": "Freight-volume read"},
-    {"date": "2026-07-23", "ticker": "AAL", "name": "American Airlines", "session": "pre-market", "importance": "medium"},
-    {"date": "2026-07-23", "ticker": "RTX", "name": "RTX Corp", "session": "pre-market", "importance": "medium"},
-    {"date": "2026-07-23", "ticker": "TMUS", "name": "T-Mobile US", "session": "pre-market", "importance": "medium"},
-    {"date": "2026-07-23", "ticker": "DOW", "name": "Dow", "session": "pre-market", "importance": "medium"},
-    {"date": "2026-07-23", "ticker": "BX", "name": "Blackstone", "session": "pre-market", "importance": "medium"},
-    {"date": "2026-07-23", "ticker": "NDAQ", "name": "Nasdaq Inc", "session": "pre-market", "importance": "medium"},
-    {"date": "2026-07-23", "ticker": "VRSN", "name": "Verisign", "session": "pre-market", "importance": "low"},
-    {"date": "2026-07-23", "ticker": "INTC", "name": "Intel", "session": "after-close", "importance": "high", "note": "AI referendum for legacy semis; call 5pm ET"}
+    {"date": "2026-07-24", "ticker": "PSX", "name": "Phillips 66", "session": "pre-market", "importance": "medium", "note": "Refiner read on oil spike"},
+    {"date": "2026-07-24", "ticker": "CL", "name": "Colgate-Palmolive", "session": "pre-market", "importance": "medium"},
+    {"date": "2026-07-24", "ticker": "AON", "name": "Aon", "session": "pre-market", "importance": "low"},
+    {"date": "2026-07-24", "ticker": "CNC", "name": "Centene", "session": "pre-market", "importance": "medium"},
+    {"date": "2026-07-24", "ticker": "HCA", "name": "HCA Healthcare", "session": "pre-market", "importance": "medium"},
+    {"date": "2026-07-24", "ticker": "LYB", "name": "LyondellBasell", "session": "pre-market", "importance": "low"},
+    {"date": "2026-07-28", "ticker": "WHR", "name": "Whirlpool (Mon after-close)", "session": "after-close", "importance": "low"},
+    {"date": "2026-07-29", "ticker": "MSFT", "name": "Microsoft (Tue AC)", "session": "after-close", "importance": "high", "note": "Post-FOMC + Big Tech capex read"},
+    {"date": "2026-07-29", "ticker": "META", "name": "Meta Platforms (Tue AC)", "session": "after-close", "importance": "high"},
+    {"date": "2026-07-30", "ticker": "AAPL", "name": "Apple (Wed AC)", "session": "after-close", "importance": "high"},
+    {"date": "2026-07-30", "ticker": "AMZN", "name": "Amazon (Wed AC)", "session": "after-close", "importance": "high"}
   ]
 }
