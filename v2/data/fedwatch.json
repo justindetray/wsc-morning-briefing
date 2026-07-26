@@ -2,9 +2,9 @@
   "status": "LIVE",
   "reportingDt": "2026-07-24",
   "meetings": [
-    {"meetingDt": "2026-07-29", "reportingDt": "2026-07-24", "hold": 0.658, "hike_25": 0.342, "hike_50": 0.0, "hike_75": 0.0, "hike_100": 0.0, "cumulative_hike": 0.086},
-    {"meetingDt": "2026-09-16", "reportingDt": "2026-07-24", "hold": 0.178, "hike_25": 0.573, "hike_50": 0.250, "hike_75": 0.0, "hike_100": 0.0, "cumulative_hike": 0.268},
-    {"meetingDt": "2026-10-28", "reportingDt": "2026-07-24", "hold": 0.123, "hike_25": 0.450, "hike_50": 0.350, "hike_75": 0.077, "hike_100": 0.0, "cumulative_hike": 0.345},
-    {"meetingDt": "2026-12-09", "reportingDt": "2026-07-24", "hold": 0.074, "hike_25": 0.321, "hike_50": 0.389, "hike_75": 0.185, "hike_100": 0.030, "cumulative_hike": 0.448}
+    {"meetingDt": "2026-07-29", "reportingDt": "2026-07-24", "hold": 0.615, "hike_25": 0.385, "hike_50": 0.0, "hike_75": 0.0, "hike_100": 0.0, "cumulative_hike": 0.096},
+    {"meetingDt": "2026-09-16", "reportingDt": "2026-07-24", "hold": 0.191, "hike_25": 0.544, "hike_50": 0.266, "hike_75": 0.0, "hike_100": 0.0, "cumulative_hike": 0.269},
+    {"meetingDt": "2026-10-28", "reportingDt": "2026-07-24", "hold": 0.132, "hike_25": 0.434, "hike_50": 0.352, "hike_75": 0.082, "hike_100": 0.0, "cumulative_hike": 0.346},
+    {"meetingDt": "2026-12-09", "reportingDt": "2026-07-24", "hold": 0.082, "hike_25": 0.320, "hike_50": 0.383, "hike_75": 0.184, "hike_100": 0.031, "cumulative_hike": 0.440}
   ]
 }

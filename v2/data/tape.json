@@ -5,7 +5,7 @@
     "status": "CLOSED",
     "prev_close": 7408.30,
     "delta_pct": 0.05,
-    "label": "S&P 500 (Fri close, +3.68; wk -0.6%)",
+    "label": "S&P 500 (Fri 7/24 close; wk -0.6%)",
     "source": "polygon:I:SPX"
   },
   "NDX": {
@@ -14,7 +14,7 @@
     "status": "CLOSED",
     "prev_close": 28454.81,
     "delta_pct": -1.15,
-    "label": "Nasdaq 100 (Fri close, -326; wk -3.0%)",
+    "label": "Nasdaq 100 (Fri 7/24 close; wk -3.0%)",
     "source": "polygon:I:NDX"
   },
   "DJI": {
@@ -23,7 +23,7 @@
     "status": "CLOSED",
     "prev_close": 51711.65,
     "delta_pct": 0.46,
-    "label": "Dow (Fri close, +235.60 on AAPL +3.5%)",
+    "label": "Dow (Fri close, +235.60 AAPL +3.5%)",
     "source": "polygon:I:DJI"
   },
   "VIX": {
@@ -32,7 +32,7 @@
     "status": "CLOSED",
     "prev_close": 18.70,
     "delta_pct": -0.64,
-    "label": "VIX (Fri close, -0.12; still 6-wk high)",
+    "label": "VIX (Fri close, still 6-wk high)",
     "source": "polygon:I:VIX"
   },
   "US10Y": {
@@ -60,7 +60,7 @@
     "status": "CLOSED",
     "prev_close": 92.19,
     "delta_pct": -3.12,
-    "label": "WTI (Fri close on China peace-talk reports; wk +8.3%)",
+    "label": "WTI (Fri close; wk +8.3%)",
     "source": "reuters:oil-close"
   },
   "BRENT": {
@@ -69,7 +69,7 @@
     "status": "CLOSED",
     "prev_close": 100.69,
     "delta_pct": -3.88,
-    "label": "Brent (Fri close, off $100+ from Thu; wk +9.7%)",
+    "label": "Brent (Fri close, off Thu $100.69; wk +9.7%)",
     "source": "reuters:oil-close"
   },
   "GOLD": {
@@ -78,16 +78,16 @@
     "status": "CLOSED",
     "prev_close": 4049.90,
     "delta_pct": 0.15,
-    "label": "Gold (Fri close, marginally higher)",
+    "label": "Gold (Fri close)",
     "source": "cme:GC=F"
   },
   "BTC": {
-    "value": 64083.32,
-    "as_of": "2026-07-24T23:59:59.999000+00:00",
+    "value": 64295.61,
+    "as_of": "2026-07-25T23:59:59.999000+00:00",
     "status": "LIVE",
-    "prev_close": 65051.24,
-    "delta_pct": -1.49,
-    "label": "BTC/USD (Polygon, extending risk-off)",
+    "prev_close": 64083.31,
+    "delta_pct": 0.33,
+    "label": "BTC/USD (Sat close, flat weekend)",
     "source": "polygon:X:BTCUSD"
   }
 }
