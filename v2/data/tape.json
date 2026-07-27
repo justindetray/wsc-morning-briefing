@@ -5,7 +5,7 @@
     "status": "CLOSED",
     "prev_close": 7408.30,
     "delta_pct": 0.05,
-    "label": "S&P 500 (Fri 7/24 close; wk -0.6%)",
+    "label": "S&P 500 (Fri 7/24 close; ES +1.00% premkt)",
     "source": "polygon:I:SPX"
   },
   "NDX": {
@@ -14,7 +14,7 @@
     "status": "CLOSED",
     "prev_close": 28454.81,
     "delta_pct": -1.15,
-    "label": "Nasdaq 100 (Fri 7/24 close; wk -3.0%)",
+    "label": "Nasdaq 100 (Fri close; NQ +1.64% premkt)",
     "source": "polygon:I:NDX"
   },
   "DJI": {
@@ -23,17 +23,17 @@
     "status": "CLOSED",
     "prev_close": 51711.65,
     "delta_pct": 0.46,
-    "label": "Dow (Fri close, +235.60 AAPL +3.5%)",
+    "label": "Dow (Fri close; YM +1.08% premkt)",
     "source": "polygon:I:DJI"
   },
   "VIX": {
-    "value": 18.58,
-    "as_of": "2026-07-24T20:00:00+00:00",
-    "status": "CLOSED",
-    "prev_close": 18.70,
-    "delta_pct": -0.64,
-    "label": "VIX (Fri close, still 6-wk high)",
-    "source": "polygon:I:VIX"
+    "value": 17.70,
+    "as_of": "2026-07-27T10:55:00+00:00",
+    "status": "LIVE",
+    "prev_close": 18.58,
+    "delta_pct": -4.74,
+    "label": "VIX (premkt ~17.7, -0.87 on ceasefire)",
+    "source": "reuters:VIX"
   },
   "US10Y": {
     "value": 4.679,
@@ -50,44 +50,44 @@
     "status": "CLOSED",
     "prev_close": 4.235,
     "delta_pct": 0.12,
-    "label": "US 2Y yield (Fri close, ~+0.5bp est)",
+    "label": "US 2Y yield (Fri close)",
     "source": "estimate",
     "unit": "%"
   },
   "WTI": {
-    "value": 89.31,
-    "as_of": "2026-07-24T20:00:00+00:00",
-    "status": "CLOSED",
-    "prev_close": 92.19,
-    "delta_pct": -3.12,
-    "label": "WTI (Fri close; wk +8.3%)",
-    "source": "reuters:oil-close"
+    "value": 84.45,
+    "as_of": "2026-07-27T10:55:00+00:00",
+    "status": "LIVE",
+    "prev_close": 89.31,
+    "delta_pct": -5.44,
+    "label": "WTI (Sun open -5.4% on US-Iran pause)",
+    "source": "reuters:oil"
   },
   "BRENT": {
-    "value": 96.78,
-    "as_of": "2026-07-24T20:00:00+00:00",
-    "status": "CLOSED",
-    "prev_close": 100.69,
-    "delta_pct": -3.88,
-    "label": "Brent (Fri close, off Thu $100.69; wk +9.7%)",
-    "source": "reuters:oil-close"
+    "value": 91.70,
+    "as_of": "2026-07-27T10:55:00+00:00",
+    "status": "LIVE",
+    "prev_close": 96.78,
+    "delta_pct": -5.25,
+    "label": "Brent (dipped below $90 intraday; back below $100)",
+    "source": "reuters:oil"
   },
   "GOLD": {
-    "value": 4056.10,
-    "as_of": "2026-07-24T20:00:00+00:00",
-    "status": "CLOSED",
-    "prev_close": 4049.90,
-    "delta_pct": 0.15,
-    "label": "Gold (Fri close)",
-    "source": "cme:GC=F"
+    "value": 4100.77,
+    "as_of": "2026-07-27T10:55:00+00:00",
+    "status": "LIVE",
+    "prev_close": 4056.10,
+    "delta_pct": 1.10,
+    "label": "Gold (premkt +1.1%, safe-haven bid despite pause)",
+    "source": "bi:premarket"
   },
   "BTC": {
-    "value": 64295.61,
-    "as_of": "2026-07-25T23:59:59.999000+00:00",
+    "value": 65341.07,
+    "as_of": "2026-07-26T23:59:59+00:00",
     "status": "LIVE",
-    "prev_close": 64083.31,
-    "delta_pct": 0.33,
-    "label": "BTC/USD (Sat close, flat weekend)",
+    "prev_close": 64295.61,
+    "delta_pct": 1.63,
+    "label": "BTC (Sat->Sun +1.63%; risk-on with ceasefire)",
     "source": "polygon:X:BTCUSD"
   }
 }

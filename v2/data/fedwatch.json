@@ -1,10 +1,11 @@
 {
   "status": "LIVE",
   "reportingDt": "2026-07-24",
+  "note": "CME did not report over weekend; Sunday's futures relief on ceasefire may skew Mon reporting dovish",
   "meetings": [
-    {"meetingDt": "2026-07-29", "reportingDt": "2026-07-24", "hold": 0.615, "hike_25": 0.385, "hike_50": 0.0, "hike_75": 0.0, "hike_100": 0.0, "cumulative_hike": 0.096},
-    {"meetingDt": "2026-09-16", "reportingDt": "2026-07-24", "hold": 0.191, "hike_25": 0.544, "hike_50": 0.266, "hike_75": 0.0, "hike_100": 0.0, "cumulative_hike": 0.269},
-    {"meetingDt": "2026-10-28", "reportingDt": "2026-07-24", "hold": 0.132, "hike_25": 0.434, "hike_50": 0.352, "hike_75": 0.082, "hike_100": 0.0, "cumulative_hike": 0.346},
+    {"meetingDt": "2026-07-29", "reportingDt": "2026-07-24", "hold": 0.615, "hike_25": 0.385, "hike_50": 0, "hike_75": 0, "hike_100": 0, "cumulative_hike": 0.096},
+    {"meetingDt": "2026-09-16", "reportingDt": "2026-07-24", "hold": 0.191, "hike_25": 0.544, "hike_50": 0.266, "hike_75": 0, "hike_100": 0, "cumulative_hike": 0.269},
+    {"meetingDt": "2026-10-28", "reportingDt": "2026-07-24", "hold": 0.132, "hike_25": 0.434, "hike_50": 0.352, "hike_75": 0.082, "hike_100": 0, "cumulative_hike": 0.346},
     {"meetingDt": "2026-12-09", "reportingDt": "2026-07-24", "hold": 0.082, "hike_25": 0.320, "hike_50": 0.383, "hike_75": 0.184, "hike_100": 0.031, "cumulative_hike": 0.440}
   ]
 }
