@@ -1,12 +1,11 @@
 {
-  "last_curated": "2026-07-27",
+  "last_curated": "2026-07-28",
   "macro": [
-    {"date": "2026-07-27", "time_et": "10:30 AM", "event": "Dallas Fed Manufacturing", "consensus": "-3.0", "importance": "LOW", "note": "regional; last -1.3"},
     {"date": "2026-07-28", "time_et": "9:00 AM", "event": "Case-Shiller Home Price Index (May)", "consensus": null, "importance": "MEDIUM"},
     {"date": "2026-07-28", "time_et": "10:00 AM", "event": "Consumer Confidence (Jul)", "consensus": null, "importance": "MEDIUM"},
     {"date": "2026-07-28", "time_et": "10:00 AM", "event": "JOLTS Job Openings (Jun)", "consensus": null, "importance": "MEDIUM"},
     {"date": "2026-07-29", "time_et": "8:30 AM", "event": "Durable Goods Orders (Jun)", "consensus": null, "importance": "MEDIUM"},
-    {"date": "2026-07-29", "time_et": "2:00 PM", "event": "FOMC Rate Decision + SEP", "consensus": "hold 3.50-3.75%", "importance": "HIGH", "note": "FedWatch: 61.5% hold, 38.5% +25bp"},
+    {"date": "2026-07-29", "time_et": "2:00 PM", "event": "FOMC Rate Decision + SEP", "consensus": "hold 3.50-3.75%", "importance": "HIGH", "note": "FedWatch: 60.5% hold, 39.6% +25bp"},
     {"date": "2026-07-29", "time_et": "2:30 PM", "event": "Powell Press Conference", "consensus": null, "importance": "HIGH"},
     {"date": "2026-07-30", "time_et": "8:30 AM", "event": "GDP Q2 Advance", "consensus": null, "importance": "HIGH"},
     {"date": "2026-07-30", "time_et": "8:30 AM", "event": "Initial Jobless Claims", "consensus": null, "importance": "MEDIUM"},
@@ -14,12 +13,11 @@
     {"date": "2026-07-31", "time_et": "8:30 AM", "event": "Employment Cost Index (Q2)", "consensus": null, "importance": "HIGH"}
   ],
   "earnings": [
-    {"date": "2026-07-27", "ticker": "WHR", "name": "Whirlpool", "session": "AC", "importance": "LOW"},
     {"date": "2026-07-28", "ticker": "V", "name": "Visa", "session": "AC", "importance": "HIGH"},
     {"date": "2026-07-28", "ticker": "PYPL", "name": "PayPal", "session": "AC", "importance": "MEDIUM"},
     {"date": "2026-07-28", "ticker": "SBUX", "name": "Starbucks", "session": "AC", "importance": "MEDIUM"},
-    {"date": "2026-07-29", "ticker": "MSFT", "name": "Microsoft", "session": "AC", "importance": "HIGH", "note": "post-FOMC; capex + Copilot metrics"},
-    {"date": "2026-07-29", "ticker": "META", "name": "Meta Platforms", "session": "AC", "importance": "HIGH", "note": "post-FOMC; Reality Labs, AI capex"},
+    {"date": "2026-07-29", "ticker": "MSFT", "name": "Microsoft", "session": "AC", "importance": "HIGH", "note": "post-FOMC; capex + Copilot; watch AI capex guide"},
+    {"date": "2026-07-29", "ticker": "META", "name": "Meta Platforms", "session": "AC", "importance": "HIGH", "note": "post-FOMC; Reality Labs, AI capex referendum"},
     {"date": "2026-07-30", "ticker": "AAPL", "name": "Apple", "session": "AC", "importance": "HIGH", "note": "iPhone 17 units, services margin"},
     {"date": "2026-07-30", "ticker": "AMZN", "name": "Amazon", "session": "AC", "importance": "HIGH", "note": "AWS growth, retail margins"}
   ]

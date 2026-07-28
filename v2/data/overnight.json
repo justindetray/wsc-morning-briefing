@@ -1,31 +1,34 @@
 {
   "asia_close": [
-    {"market": "Nikkei 225", "delta_pct": 0.2, "level": 64771, "note": "modest gain on oil relief; whipsaw open"},
-    {"market": "KOSPI", "delta_pct": 0.7, "level": 6735, "note": "opened +1.7% on Nvidia/SK Hynix AI deals, faded; up 0.7%"},
-    {"market": "Hang Seng", "delta_pct": 0.8, "level": 25156, "note": "risk-on on Iran pause"},
-    {"market": "Shanghai", "delta_pct": 0.4, "level": 3844, "note": "modest gain"},
-    {"market": "ASX 200", "delta_pct": 0.9, "level": 8843, "note": "resource-heavy rally on oil relief"}
+    {"market": "KOSPI", "delta_pct": -10.2, "level": 6012, "note": "**circuit-breaker triggered TWICE**; 3-mo low; -30% from Jun highs"},
+    {"market": "Nikkei 225", "delta_pct": -4.3, "level": 62127, "note": "chip rout; Kioxia -18%, Advantest/Tokyo Electron -11%"},
+    {"market": "TAIEX", "delta_pct": -4.7, "level": null, "note": "TSMC -3%"},
+    {"market": "Hang Seng", "delta_pct": 0.0, "level": 25196, "note": "held roughly flat, only regional index green"},
+    {"market": "Shanghai", "delta_pct": -1.4, "level": 3805, "note": "modest drop"},
+    {"market": "ASX 200", "delta_pct": 0.4, "level": 8933, "note": "resource-heavy rally continued"}
   ],
   "europe_open": [
-    {"market": "STOXX 600 futures", "delta_pct": 0.7, "level": null, "note": "up in early trade"},
-    {"market": "DAX futures", "delta_pct": 0.9, "level": null, "note": "led higher"}
+    {"market": "STOXX 600 futures", "delta_pct": -0.5, "level": null, "note": "tech drag"},
+    {"market": "DAX futures", "delta_pct": -0.4, "level": null, "note": "off overnight highs"}
   ],
   "single_name_moves": [
-    {"ticker": "SK Hynix", "delta_pct": 0.3, "venue": "KRX", "note": "new Nvidia AI partnership announced Fri SF"},
-    {"ticker": "Samsung Elec", "delta_pct": 1.3, "venue": "KRX", "note": "Broadcom AI deal"},
-    {"ticker": "Naver", "delta_pct": 7.9, "venue": "KRX", "note": "Nvidia investment surge"}
+    {"ticker": "SK Hynix", "delta_pct": -13, "venue": "KRX", "note": "China chip breakthrough report; -50% from Jun ATH"},
+    {"ticker": "Samsung Elec", "delta_pct": -13, "venue": "KRX", "note": "same catalyst; -50% from Jun ATH"},
+    {"ticker": "Kioxia", "delta_pct": -18, "venue": "TSE", "note": "Japan memory chip contagion"},
+    {"ticker": "TSMC", "delta_pct": -3, "venue": "TAIEX", "note": "chip rout spreads"}
   ],
   "geo_headlines": [
-    "**US-Iran BOTH paused strikes for 2nd straight day Sun** — Trump UN Amb Waltz on Fox: 'giving talks some space' (first 48h lull since 13-day escalation)",
-    "Iran army spokesman confirmed halt: 'our strategy is retaliatory; since US stopped, we've halted too'",
-    "**Trump Truth Social Sun: claimed 'Deal with Iran now complete' + 'toll-free Hormuz opening' + naval blockade lift** — Iran Deputy FM Gharibabadi confirmed; framing disputed (NPR/BBC/USA Today report as PAUSE, not signed deal)",
-    "Iran-Oman talks on Hormuz shipping continued Sun; both sides say progress made",
-    "**Houthis struck Saudi oil facilities Sat/Sun** — Bab el-Mandeb transit hit lowest in months (11 vessels Sun); Iran-backed Houthi threat continues even amid US-Iran pause",
-    "Netanyahu to Fox Sun: 'fully backs Trump efforts' on Iran; White House meeting Tue",
-    "CBS/YouGov poll: 57% Americans frustrated by Iran war, 19% optimistic",
-    "NYT: US pause partly due to Patriot interceptor stockpile pressure (denied by Waltz)"
+    "**Asian chip rout: KOSPI -10.2% to 3-mo low, triggered circuit-breakers TWICE** — China chip breakthrough report + AI capex fears; SK Hynix/Samsung -12-13%",
+    "Nikkei -4.3% to 62,127; Kioxia -18%, Advantest -11%; Philadelphia SEMI index closed -2.2% Mon, -21% from Jun ATH (bear market)",
+    "**Iran-US pause held for 3rd straight day Mon** — Trump on AF1: 'good chance something could happen' but 'if not, we go back to what we were doing 2 days ago'",
+    "**Iran denies direct talks** — FM spokesman Baqaei: 'we are not engaged in any negotiations with US' (contradicts Trump's Sun 'deal complete' claim)",
+    "Saudi Arabia intercepted Iran-linked drones from Iraq Mon; Houthis claim strikes on Saudi oil infrastructure",
+    "Strait of Hormuz traffic still crippled: <10 cargo ships vs >100/day normally (CNN shipping data)",
+    "Trump denies Patriot ammo shortage claims: 'stockpiles vast and exceed what is needed'",
+    "JPY at 163.78 vs USD — barely above 4-decade low; BoJ meeting this week + Fed decision could trigger intervention",
+    "Netanyahu at WH Tue — Iran + Gaza on agenda"
   ],
-  "headline": "OIL COLLAPSE ON US-IRAN PAUSE: Brent -5.2% below $90 briefly; ES +1.0%, NQ +1.6% into FOMC/MSFT/META week",
-  "client_frame": "Weekend pause on US-Iran strikes triggered classic risk-on unwind: oil -5%+, VIX -5%, futures +1%. Trump claimed 'deal complete' with Hormuz reopening; more measured US sources call it a diplomatic pause. Either way, this is the biggest single-session geopolitical de-risking since the June ceasefire. Watch: does the market sustain relief into FOMC Wed + $14T of mega-cap earnings (MSFT/META Wed AC, AAPL/AMZN Thu AC), or does Fed hawkish drift + capex fatigue reassert the three-legged risk stool.",
-  "as_of": "2026-07-27T11:00:00+00:00"
+  "headline": "ASIAN CHIP ROUT INTO FOMC EVE: KOSPI -10% circuit-broken, Nikkei -4%; NDX -0.87% premkt; Iran pause holds but no US-Iran talks",
+  "client_frame": "Overnight brought the sharpest single-session Asian tech selloff of the cycle — KOSPI down 10% (circuit-broken twice) on China chip breakthrough report + AI capex fears. Contagion to Nikkei (-4.3%), TAIEX (-4.7%). Chip stocks now in confirmed bear market: PHLX SEMI -21% from Jun ATH; SK Hynix/Samsung down 50%. NQ -0.87% premkt; ES -0.05%; YM +0.44% (rotation continues to defensives). Iran pause holds 3rd day but Iran FM denies negotiations exist — Trump claims disputed. Setup into FOMC Wed: chip capex fears at their worst moment, MSFT/META Wed AC will be the referendum on 2026 AI spend. Hedges essential through Wed 2pm; if MSFT/META guide capex flat/down, cascade risk is real.",
+  "as_of": "2026-07-28T11:12:00+00:00"
 }
