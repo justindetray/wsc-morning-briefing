@@ -1,34 +1,38 @@
 {
   "asia_close": [
-    {"market": "KOSPI", "delta_pct": -10.2, "level": 6012, "note": "**circuit-breaker triggered TWICE**; 3-mo low; -30% from Jun highs"},
-    {"market": "Nikkei 225", "delta_pct": -4.3, "level": 62127, "note": "chip rout; Kioxia -18%, Advantest/Tokyo Electron -11%"},
-    {"market": "TAIEX", "delta_pct": -4.7, "level": null, "note": "TSMC -3%"},
-    {"market": "Hang Seng", "delta_pct": 0.0, "level": 25196, "note": "held roughly flat, only regional index green"},
-    {"market": "Shanghai", "delta_pct": -1.4, "level": 3805, "note": "modest drop"},
-    {"market": "ASX 200", "delta_pct": 0.4, "level": 8933, "note": "resource-heavy rally continued"}
+    {"market": "KOSPI", "delta_pct": -5.1, "level": 5714, "note": "**SK Hynix earnings MISS despite record revenue** — profit +557% but below Street; -5% after opening +2%"},
+    {"market": "Nikkei 225", "delta_pct": -1.5, "level": 61459, "note": "chip contagion continues; opened +1% faded"},
+    {"market": "TOPIX", "delta_pct": -0.3, "level": 3954, "note": "modest drop"},
+    {"market": "Hang Seng", "delta_pct": 1.4, "level": 25671, "note": "outperformer 2nd day; China chip strength narrative"},
+    {"market": "Shanghai/CSI 300", "delta_pct": -0.5, "level": 4545, "note": "modest drop"},
+    {"market": "ASX 200", "delta_pct": 1.3, "level": 9059, "note": "resource-led rally continues"},
+    {"market": "SENSEX (India)", "delta_pct": 0.9, "level": 77415, "note": "L&T Q1 beat + tech resilience; NIFTY 24,181"}
   ],
   "europe_open": [
-    {"market": "STOXX 600 futures", "delta_pct": -0.5, "level": null, "note": "tech drag"},
-    {"market": "DAX futures", "delta_pct": -0.4, "level": null, "note": "off overnight highs"}
+    {"market": "STOXX 600 futures", "delta_pct": -0.3, "level": null, "note": "cautious ahead of Fed"},
+    {"market": "DAX futures", "delta_pct": -0.1, "level": null, "note": "roughly flat"}
   ],
   "single_name_moves": [
-    {"ticker": "SK Hynix", "delta_pct": -13, "venue": "KRX", "note": "China chip breakthrough report; -50% from Jun ATH"},
-    {"ticker": "Samsung Elec", "delta_pct": -13, "venue": "KRX", "note": "same catalyst; -50% from Jun ATH"},
-    {"ticker": "Kioxia", "delta_pct": -18, "venue": "TSE", "note": "Japan memory chip contagion"},
-    {"ticker": "TSMC", "delta_pct": -3, "venue": "TAIEX", "note": "chip rout spreads"}
+    {"ticker": "V", "delta_pct": -1.0, "venue": "AH", "note": "Q3 beat: rev $11.63B (+14%), EPS $3.32 vs $3.22 est; payments vol >$4T first time; -1% AH on $563M severance + opex +17%"},
+    {"ticker": "PYPL", "delta_pct": 0, "venue": "AH", "note": "reported after close; guidance mixed"},
+    {"ticker": "SBUX", "delta_pct": 0, "venue": "AH", "note": "reported after close"},
+    {"ticker": "SK Hynix", "delta_pct": -9, "venue": "KRX", "note": "record revenue but missed estimates; profit +557% still not enough"},
+    {"ticker": "Samsung Elec", "delta_pct": -6, "venue": "KRX", "note": "chip contagion; -50% from Jun ATH"},
+    {"ticker": "AAPL", "delta_pct": null, "venue": "NASDAQ", "note": "hit **$5T market cap** first time in history Tue"}
   ],
   "geo_headlines": [
-    "**Asian chip rout: KOSPI -10.2% to 3-mo low, triggered circuit-breakers TWICE** — China chip breakthrough report + AI capex fears; SK Hynix/Samsung -12-13%",
-    "Nikkei -4.3% to 62,127; Kioxia -18%, Advantest -11%; Philadelphia SEMI index closed -2.2% Mon, -21% from Jun ATH (bear market)",
-    "**Iran-US pause held for 3rd straight day Mon** — Trump on AF1: 'good chance something could happen' but 'if not, we go back to what we were doing 2 days ago'",
-    "**Iran denies direct talks** — FM spokesman Baqaei: 'we are not engaged in any negotiations with US' (contradicts Trump's Sun 'deal complete' claim)",
-    "Saudi Arabia intercepted Iran-linked drones from Iraq Mon; Houthis claim strikes on Saudi oil infrastructure",
-    "Strait of Hormuz traffic still crippled: <10 cargo ships vs >100/day normally (CNN shipping data)",
-    "Trump denies Patriot ammo shortage claims: 'stockpiles vast and exceed what is needed'",
-    "JPY at 163.78 vs USD — barely above 4-decade low; BoJ meeting this week + Fed decision could trigger intervention",
-    "Netanyahu at WH Tue — Iran + Gaza on agenda"
+    "**IRAN LAUNCHED SURPRISE BALLISTIC MISSILE ATTACK ON US BASE IN JORDAN Tue 5:45pm ET** — 4+ missiles; ALL intercepted per CENTCOM; no casualties. Pause broken.",
+    "**US + Saudi launched joint precision strikes against Iran-backed Iraqi militias Wed AM** — hit forces directing missile attacks on US bases and Saudi energy infrastructure",
+    "Iran-backed Iraqi militias launched drone attacks on Saudi Eastern Region oil facilities 2 days straight; Saudi intercepted, no infrastructure damage disclosed",
+    "**Saudi Aramco shut 400kbpd Jizan refinery Mon** following Sat Houthi attack (per IIR consultancy note)",
+    "Iran denied Iraqi militia involvement per Iran state media",
+    "**SK Hynix Q2**: record revenue, profit +557% YoY, but MISSED Street estimates on margins; -9% pre-mkt",
+    "Netanyahu completed WH visit Tue — Trump called meeting 'successful'; Iran + Gaza discussed",
+    "**Visa Q3**: rev $11.63B +14%, EPS $3.32 (+11%), payments vol crossed $4T first time; announced workforce reductions ($563M severance); stock -1% AH",
+    "**AAPL hit $5T market cap** first time in history Tue intraday",
+    "**FedWatch Tue dovish shift**: 7/29 hold 67.9% (was 60.5% Mon), +25 32.1% (was 39.6%) — softer JOLTS + oil relief"
   ],
-  "headline": "ASIAN CHIP ROUT INTO FOMC EVE: KOSPI -10% circuit-broken, Nikkei -4%; NDX -0.87% premkt; Iran pause holds but no US-Iran talks",
-  "client_frame": "Overnight brought the sharpest single-session Asian tech selloff of the cycle — KOSPI down 10% (circuit-broken twice) on China chip breakthrough report + AI capex fears. Contagion to Nikkei (-4.3%), TAIEX (-4.7%). Chip stocks now in confirmed bear market: PHLX SEMI -21% from Jun ATH; SK Hynix/Samsung down 50%. NQ -0.87% premkt; ES -0.05%; YM +0.44% (rotation continues to defensives). Iran pause holds 3rd day but Iran FM denies negotiations exist — Trump claims disputed. Setup into FOMC Wed: chip capex fears at their worst moment, MSFT/META Wed AC will be the referendum on 2026 AI spend. Hedges essential through Wed 2pm; if MSFT/META guide capex flat/down, cascade risk is real.",
-  "as_of": "2026-07-28T11:12:00+00:00"
+  "headline": "IRAN LAUNCHED MISSILE ATTACK ON US BASE IN JORDAN (INTERCEPTED); Oil +3-5%; Chip rout continues on SK Hynix miss; FOMC 2PM + MSFT/META AC",
+  "client_frame": "Iran resumed strikes overnight after 4-day pause — launched ballistic missiles at US base in Jordan Tue evening. All intercepted per CENTCOM. US + Saudi retaliated with joint strikes on Iran-backed Iraqi militias. Oil recovered ~3-5% but still well below pre-pause levels. Asian chip rout continues: SK Hynix beat revenue on record chips but missed margins, dropped 9%; KOSPI -5% again. Visa printed clean beat but announced $563M layoffs, stock -1% AH. AAPL hit $5T market cap Tue. FedWatch shifted meaningfully dovish Tue (7/29 hold 67.9% from 60.5% Mon). Setup for today: FOMC 2pm + Powell 2:30 + Durables 8:30 + MSFT/META AC. This is the highest-density decision day of the year — MSFT/META guidance on 2026 AI capex is the referendum on the entire chip complex trajectory. Hedges essential through 4pm.",
+  "as_of": "2026-07-29T11:10:00+00:00"
 }
