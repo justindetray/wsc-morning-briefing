@@ -1,18 +1,19 @@
 {
-  "last_curated": "2026-07-29",
+  "last_curated": "2026-07-30",
   "macro": [
-    {"date": "2026-07-29", "time_et": "8:30 AM", "event": "Durable Goods Orders (Jun)", "consensus": null, "importance": "MEDIUM"},
-    {"date": "2026-07-29", "time_et": "2:00 PM", "event": "FOMC Rate Decision + SEP", "consensus": "hold 3.50-3.75%", "importance": "HIGH", "note": "FedWatch: 67.9% hold, 32.1% +25bp (dovish shift Tue)"},
-    {"date": "2026-07-29", "time_et": "2:30 PM", "event": "Powell Press Conference", "consensus": null, "importance": "HIGH"},
-    {"date": "2026-07-30", "time_et": "8:30 AM", "event": "GDP Q2 Advance", "consensus": null, "importance": "HIGH"},
+    {"date": "2026-07-30", "time_et": "8:30 AM", "event": "GDP Q2 Advance", "consensus": null, "importance": "HIGH", "note": "First look at Q2 growth post-Fed hold"},
     {"date": "2026-07-30", "time_et": "8:30 AM", "event": "Initial Jobless Claims", "consensus": null, "importance": "MEDIUM"},
-    {"date": "2026-07-31", "time_et": "8:30 AM", "event": "PCE Deflator (Jun) + Personal Income/Spending", "consensus": null, "importance": "HIGH", "note": "Fed's preferred inflation gauge"},
-    {"date": "2026-07-31", "time_et": "8:30 AM", "event": "Employment Cost Index (Q2)", "consensus": null, "importance": "HIGH"}
+    {"date": "2026-07-30", "time_et": "10:00 AM", "event": "Pending Home Sales (Jun)", "consensus": null, "importance": "LOW"},
+    {"date": "2026-07-31", "time_et": "8:30 AM", "event": "PCE Deflator (Jun) + Personal Income/Spending", "consensus": null, "importance": "HIGH", "note": "Fed's preferred inflation gauge — first post-Warsh-presser inflation print"},
+    {"date": "2026-07-31", "time_et": "8:30 AM", "event": "Employment Cost Index (Q2)", "consensus": null, "importance": "HIGH"},
+    {"date": "2026-07-31", "time_et": "9:45 AM", "event": "Chicago PMI (Jul)", "consensus": null, "importance": "MEDIUM"},
+    {"date": "2026-07-31", "time_et": "10:00 AM", "event": "Michigan Sentiment Final (Jul)", "consensus": null, "importance": "MEDIUM"}
   ],
   "earnings": [
-    {"date": "2026-07-29", "ticker": "MSFT", "name": "Microsoft", "session": "AC", "importance": "HIGH", "note": "post-FOMC; watch capex guide + Copilot metrics — AI referendum"},
-    {"date": "2026-07-29", "ticker": "META", "name": "Meta Platforms", "session": "AC", "importance": "HIGH", "note": "post-FOMC; Reality Labs + AI capex guide"},
-    {"date": "2026-07-30", "ticker": "AAPL", "name": "Apple", "session": "AC", "importance": "HIGH", "note": "at $5T market cap; iPhone 17 units, services margin"},
-    {"date": "2026-07-30", "ticker": "AMZN", "name": "Amazon", "session": "AC", "importance": "HIGH", "note": "AWS growth, retail margins"}
+    {"date": "2026-07-30", "ticker": "AAPL", "name": "Apple", "session": "AC", "importance": "HIGH", "note": "cons rev ~$109B, EPS ~$1.89; iPhone 17 units + Services key; call 5pm ET"},
+    {"date": "2026-07-30", "ticker": "AMZN", "name": "Amazon", "session": "AC", "importance": "HIGH", "note": "cons rev ~$196.7B, AWS growth ~28-33% (BofA raised to 33%) — the MSFT read-through test"},
+    {"date": "2026-07-30", "ticker": "MA", "name": "Mastercard", "session": "BC", "importance": "MEDIUM", "note": "post-Visa readthrough on cross-border"},
+    {"date": "2026-07-31", "ticker": "XOM", "name": "Exxon Mobil", "session": "BC", "importance": "MEDIUM", "note": "post-Iran oil spike"},
+    {"date": "2026-07-31", "ticker": "CVX", "name": "Chevron", "session": "BC", "importance": "MEDIUM"}
   ]
 }
