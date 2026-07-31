@@ -1,19 +1,18 @@
 {
-  "last_curated": "2026-07-30",
+  "last_curated": "2026-07-31",
   "macro": [
-    {"date": "2026-07-30", "time_et": "8:30 AM", "event": "GDP Q2 Advance", "consensus": null, "importance": "HIGH", "note": "First look at Q2 growth post-Fed hold"},
-    {"date": "2026-07-30", "time_et": "8:30 AM", "event": "Initial Jobless Claims", "consensus": null, "importance": "MEDIUM"},
-    {"date": "2026-07-30", "time_et": "10:00 AM", "event": "Pending Home Sales (Jun)", "consensus": null, "importance": "LOW"},
-    {"date": "2026-07-31", "time_et": "8:30 AM", "event": "PCE Deflator (Jun) + Personal Income/Spending", "consensus": null, "importance": "HIGH", "note": "Fed's preferred inflation gauge — first post-Warsh-presser inflation print"},
-    {"date": "2026-07-31", "time_et": "8:30 AM", "event": "Employment Cost Index (Q2)", "consensus": null, "importance": "HIGH"},
+    {"date": "2026-07-31", "time_et": "8:30 AM", "event": "PCE Deflator (Jun) + Personal Income/Spending", "consensus": "Core PCE 3.3% YoY", "importance": "HIGH", "note": "Fed's preferred inflation gauge — only Fed input for 6 weeks (next FOMC 9/16)"},
+    {"date": "2026-07-31", "time_et": "8:30 AM", "event": "Employment Cost Index (Q2)", "consensus": "0.7% QoQ", "importance": "HIGH"},
     {"date": "2026-07-31", "time_et": "9:45 AM", "event": "Chicago PMI (Jul)", "consensus": null, "importance": "MEDIUM"},
-    {"date": "2026-07-31", "time_et": "10:00 AM", "event": "Michigan Sentiment Final (Jul)", "consensus": null, "importance": "MEDIUM"}
+    {"date": "2026-07-31", "time_et": "10:00 AM", "event": "Michigan Sentiment Final (Jul)", "consensus": null, "importance": "MEDIUM"},
+    {"date": "2026-08-01", "time_et": "8:30 AM", "event": "Employment Report (Jul) NFP", "consensus": null, "importance": "HIGH", "note": "Saturday-adjacent release; typically Fri but Aug1 Fri here — check calendar"},
+    {"date": "2026-08-03", "time_et": "10:00 AM", "event": "ISM Manufacturing (Jul)", "consensus": null, "importance": "MEDIUM"}
   ],
   "earnings": [
-    {"date": "2026-07-30", "ticker": "AAPL", "name": "Apple", "session": "AC", "importance": "HIGH", "note": "cons rev ~$109B, EPS ~$1.89; iPhone 17 units + Services key; call 5pm ET"},
-    {"date": "2026-07-30", "ticker": "AMZN", "name": "Amazon", "session": "AC", "importance": "HIGH", "note": "cons rev ~$196.7B, AWS growth ~28-33% (BofA raised to 33%) — the MSFT read-through test"},
-    {"date": "2026-07-30", "ticker": "MA", "name": "Mastercard", "session": "BC", "importance": "MEDIUM", "note": "post-Visa readthrough on cross-border"},
-    {"date": "2026-07-31", "ticker": "XOM", "name": "Exxon Mobil", "session": "BC", "importance": "MEDIUM", "note": "post-Iran oil spike"},
-    {"date": "2026-07-31", "ticker": "CVX", "name": "Chevron", "session": "BC", "importance": "MEDIUM"}
+    {"date": "2026-07-31", "ticker": "XOM", "name": "Exxon Mobil", "session": "BC", "importance": "MEDIUM", "note": "cons EPS $3.68-3.79; post-Iran spike but consumed with capex questions"},
+    {"date": "2026-07-31", "ticker": "CVX", "name": "Chevron", "session": "BC", "importance": "MEDIUM", "note": "cons EPS $5.79; Permian production update key"},
+    {"date": "2026-07-31", "ticker": "CL", "name": "Colgate-Palmolive", "session": "BC", "importance": "LOW", "note": "consumer staples read"},
+    {"date": "2026-08-04", "ticker": "PLTR", "name": "Palantir", "session": "AC", "importance": "HIGH", "note": "AI-defense narrative"},
+    {"date": "2026-08-05", "ticker": "AMD", "name": "AMD", "session": "AC", "importance": "HIGH", "note": "MI350 ramp + Azure/AWS/GCP order book"}
   ]
 }

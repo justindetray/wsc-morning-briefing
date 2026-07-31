@@ -1,11 +1,11 @@
 {
   "status": "LIVE",
-  "reportingDt": "2026-07-29",
-  "note": "Post-FOMC hold at 3.50-3.75% (9-3, three dissents FOR hike); Sept +25bp odds now 60.5% (was Tue 56.2% for +25/+50 split); market pricing hawkish Warsh Fed path with dovish-adjusted total hikes (Dec cumulative ~34bp vs 41bp Tue)",
+  "reportingDt": "2026-07-30",
+  "note": "Post-FOMC + GDP Q2 miss reprint: Sept +25bp now 65.4% (was 60.5% Wed); slight hawkish shift as market digests Warsh presser + hot data expectations; PCE Fri 8:30 will re-set",
   "meetings": [
-    {"meetingDt": "2026-09-16", "reportingDt": "2026-07-29", "hold": 0.3750, "hike_25": 0.6050, "hike_50": 0.0200, "hike_75": 0, "hike_100": 0, "cumulative_hike": 0.1613},
-    {"meetingDt": "2026-10-28", "reportingDt": "2026-07-29", "hold": 0.2670, "hike_25": 0.5390, "hike_50": 0.1880, "hike_75": 0.0060, "hike_100": 0, "cumulative_hike": 0.2333},
-    {"meetingDt": "2026-12-09", "reportingDt": "2026-07-29", "hold": 0.1570, "hike_25": 0.4270, "hike_50": 0.3330, "hike_75": 0.0810, "hike_100": 0.0020, "cumulative_hike": 0.3403},
-    {"meetingDt": "2027-01-27", "reportingDt": "2026-07-29", "hold": 0.1240, "hike_25": 0.3710, "hike_50": 0.3520, "hike_75": 0.1330, "hike_100": 0.0190, "cumulative_hike": 0.4133}
+    {"meetingDt": "2026-09-16", "reportingDt": "2026-07-30", "hold": 0.3457, "hike_25": 0.6543, "hike_50": 0, "hike_75": 0, "hike_100": 0, "cumulative_hike": 0.1636},
+    {"meetingDt": "2026-10-28", "reportingDt": "2026-07-30", "hold": 0.2539, "hike_25": 0.5723, "hike_50": 0.1739, "hike_75": 0, "hike_100": 0, "cumulative_hike": 0.2300},
+    {"meetingDt": "2026-12-09", "reportingDt": "2026-07-30", "hold": 0.1489, "hike_25": 0.4407, "hike_50": 0.3385, "hike_75": 0.0719, "hike_100": 0, "cumulative_hike": 0.3334},
+    {"meetingDt": "2027-01-27", "reportingDt": "2026-07-30", "hold": 0.1181, "hike_25": 0.3804, "hike_50": 0.3596, "hike_75": 0.1270, "hike_100": 0.0149, "cumulative_hike": 0.4098}
   ]
 }
