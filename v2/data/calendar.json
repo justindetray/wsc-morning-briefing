@@ -1,18 +1,20 @@
 {
-  "last_curated": "2026-07-31",
+  "last_curated": "2026-08-01",
   "macro": [
-    {"date": "2026-07-31", "time_et": "8:30 AM", "event": "PCE Deflator (Jun) + Personal Income/Spending", "consensus": "Core PCE 3.3% YoY", "importance": "HIGH", "note": "Fed's preferred inflation gauge — only Fed input for 6 weeks (next FOMC 9/16)"},
-    {"date": "2026-07-31", "time_et": "8:30 AM", "event": "Employment Cost Index (Q2)", "consensus": "0.7% QoQ", "importance": "HIGH"},
-    {"date": "2026-07-31", "time_et": "9:45 AM", "event": "Chicago PMI (Jul)", "consensus": null, "importance": "MEDIUM"},
-    {"date": "2026-07-31", "time_et": "10:00 AM", "event": "Michigan Sentiment Final (Jul)", "consensus": null, "importance": "MEDIUM"},
-    {"date": "2026-08-01", "time_et": "8:30 AM", "event": "Employment Report (Jul) NFP", "consensus": null, "importance": "HIGH", "note": "Saturday-adjacent release; typically Fri but Aug1 Fri here — check calendar"},
-    {"date": "2026-08-03", "time_et": "10:00 AM", "event": "ISM Manufacturing (Jul)", "consensus": null, "importance": "MEDIUM"}
+    {"date": "2026-08-03", "time_et": "9:45 AM", "event": "S&P Manufacturing PMI Final (Jul)", "consensus": null, "importance": "MEDIUM"},
+    {"date": "2026-08-03", "time_et": "10:00 AM", "event": "ISM Manufacturing (Jul)", "consensus": null, "importance": "HIGH"},
+    {"date": "2026-08-03", "time_et": "10:00 AM", "event": "Construction Spending (Jun)", "consensus": null, "importance": "LOW"},
+    {"date": "2026-08-05", "time_et": "8:15 AM", "event": "ADP Employment (Jul)", "consensus": null, "importance": "MEDIUM"},
+    {"date": "2026-08-05", "time_et": "9:45 AM", "event": "S&P Services PMI Final (Jul)", "consensus": null, "importance": "MEDIUM"},
+    {"date": "2026-08-05", "time_et": "10:00 AM", "event": "ISM Services (Jul)", "consensus": null, "importance": "HIGH"},
+    {"date": "2026-08-07", "time_et": "8:30 AM", "event": "Employment Report (Jul) NFP", "consensus": "+87-91k jobs", "importance": "HIGH", "note": "First NFP under Warsh; UR + AHE key"}
   ],
   "earnings": [
-    {"date": "2026-07-31", "ticker": "XOM", "name": "Exxon Mobil", "session": "BC", "importance": "MEDIUM", "note": "cons EPS $3.68-3.79; post-Iran spike but consumed with capex questions"},
-    {"date": "2026-07-31", "ticker": "CVX", "name": "Chevron", "session": "BC", "importance": "MEDIUM", "note": "cons EPS $5.79; Permian production update key"},
-    {"date": "2026-07-31", "ticker": "CL", "name": "Colgate-Palmolive", "session": "BC", "importance": "LOW", "note": "consumer staples read"},
-    {"date": "2026-08-04", "ticker": "PLTR", "name": "Palantir", "session": "AC", "importance": "HIGH", "note": "AI-defense narrative"},
-    {"date": "2026-08-05", "ticker": "AMD", "name": "AMD", "session": "AC", "importance": "HIGH", "note": "MI350 ramp + Azure/AWS/GCP order book"}
+    {"date": "2026-08-04", "ticker": "PLTR", "name": "Palantir", "session": "AC", "importance": "HIGH", "note": "AI-defense narrative + govt contracts"},
+    {"date": "2026-08-04", "ticker": "AMD", "name": "AMD", "session": "AC", "importance": "HIGH", "note": "MI350 ramp + Azure/AWS/GCP capex read-through"},
+    {"date": "2026-08-05", "ticker": "DIS", "name": "Disney", "session": "AC", "importance": "MEDIUM"},
+    {"date": "2026-08-05", "ticker": "MCD", "name": "McDonald's", "session": "BC", "importance": "MEDIUM"},
+    {"date": "2026-08-06", "ticker": "LLY", "name": "Eli Lilly", "session": "BC", "importance": "HIGH", "note": "GLP-1 franchise; Zepbound/Mounjaro"},
+    {"date": "2026-08-07", "ticker": "COIN", "name": "Coinbase", "session": "AC", "importance": "MEDIUM"}
   ]
 }

@@ -1,40 +1,42 @@
 {
   "asia_close": [
-    {"market": "KOSPI", "delta_pct": 17.91, "level": 6647, "note": "**RECORD SINGLE-DAY GAIN** in KOSPI history — massive chip-stock short-covering after -34% MTD; SK Hynix +30%, Samsung +18%"},
-    {"market": "Nikkei 225", "delta_pct": 1.9, "level": 63109, "note": "AI/chip complex ripped in sympathy with KOSPI"},
-    {"market": "TOPIX", "delta_pct": 1.1, "level": 3958, "note": "broad follow-through"},
-    {"market": "Hang Seng", "delta_pct": 2.0, "level": 26577, "note": "4th day up; SMIC/Hua Hong led"},
-    {"market": "Shanghai/CSI 300", "delta_pct": 0.9, "level": 4600, "note": "chip strength continued"},
-    {"market": "ASX 200", "delta_pct": 0.5, "level": 9065, "note": "modest gain"},
-    {"market": "SENSEX (India)", "delta_pct": 1.1, "level": 78108, "note": "IT-heavy rally; NIFTY 24,405"}
+    {"market": "KOSPI (Fri close)", "delta_pct": 17.91, "level": 6647, "note": "**RECORD single-day gain** in Korean market history — SK Hynix +30%, Samsung +18% short-squeeze on AI chip demand"},
+    {"market": "Nikkei 225 (Fri close)", "delta_pct": 1.9, "level": 63109, "note": "chip complex ripped in sympathy with KOSPI"},
+    {"market": "Hang Seng (Fri close)", "delta_pct": 2.0, "level": 26577, "note": "4th day up; SMIC/Hua Hong led"},
+    {"market": "TOPIX (Fri close)", "delta_pct": 1.1, "level": 3958, "note": "broad follow-through on AI/semi bid"},
+    {"market": "SENSEX (Fri close)", "delta_pct": 1.1, "level": 78108, "note": "IT-heavy rally; NIFTY 24,405"},
+    {"market": "ASX 200 (Fri close)", "delta_pct": 0.5, "level": 9065, "note": "modest gain"}
   ],
   "europe_open": [
-    {"market": "STOXX 600 futures", "delta_pct": 0.5, "level": null, "note": "risk-on with US/Asia"},
-    {"market": "DAX futures", "delta_pct": 0.7, "level": null, "note": "SAP/ASML sympathy bid"}
+    {"market": "STOXX 600 (Fri close)", "delta_pct": 0.6, "level": null, "note": "closed higher; energy XOM/CVX read-through boosted BP/Shell"}
   ],
   "single_name_moves": [
-    {"ticker": "AMZN", "delta_pct": 9.5, "venue": "AH", "note": "BLOWOUT: first-ever $200B quarter (rev $203B beat), **AWS +36.7% YoY** (crushed 28-33% expected; still trails Azure 43%), op inc $27B vs $22B est; Q3 rev guide $217-224B in-line-to-strong"},
-    {"ticker": "AAPL", "delta_pct": -6.5, "venue": "AH", "note": "**Tim Cook's LAST call as CEO** — rev $109.42B beat $108.65B, EPS $2.02 vs $1.89 beat, but Services $28.5B missed $29.1B, China $18.2B missed $19.4B, **Q4 rev guide +9-11% below Street +12%** on memory-supply constraints (SK Hynix/Samsung)"},
-    {"ticker": "SK Hynix", "delta_pct": 30, "venue": "KRX", "note": "Record short-cover rally; MTD -34% obliterated in one session"},
-    {"ticker": "Samsung Elec", "delta_pct": 18, "venue": "KRX", "note": "Sympathy explosion on chip complex"},
-    {"ticker": "NVDA", "delta_pct": 2.5, "venue": "premkt", "note": "AWS/Azure capex read-through positive; premkt bid"},
-    {"ticker": "MU", "delta_pct": 4, "venue": "premkt", "note": "Memory supply-constraint narrative from Apple call = pricing power"},
-    {"ticker": "XOM", "delta_pct": null, "venue": "BC-preview", "note": "reports 7:30am; cons EPS $3.68-3.79 — Iran spike helps but not enough for surprise"},
-    {"ticker": "CVX", "delta_pct": null, "venue": "BC-preview", "note": "reports BC; cons EPS $5.79"}
+    {"ticker": "AAPL", "delta_pct": -9.2, "venue": "Fri cash", "note": "**Worst single day in 6+ years**; ~$400B mkt cap wiped; JPM cut PT to $340; Cook's ceremonial last call as CEO — **John Ternus** takes over Sept 1 (announced April)"},
+    {"ticker": "AMZN", "delta_pct": 13.6, "venue": "Fri cash", "note": "Blowout held & extended — **AWS $42.2B, +36.7% fastest in 18 quarters**; first-ever $200B quarter"},
+    {"ticker": "XOM", "delta_pct": -1.5, "venue": "Fri cash", "note": "**MISSED**: EPS $3.52 vs $3.60 est; upstream +85% profit but chemicals margin miss; -1.5%"},
+    {"ticker": "CVX", "delta_pct": 4.8, "venue": "Fri cash", "note": "**BEAT**: EPS $6.06 vs $5.56 est; refining profit +500%, production +200% YoY; Iran spike windfall"},
+    {"ticker": "MA", "delta_pct": 2.5, "venue": "Fri cash", "note": "Post-Visa readthrough; cross-border strong"},
+    {"ticker": "SK Hynix", "delta_pct": 30, "venue": "KRX Fri", "note": "Record short-cover; MTD -34% obliterated"},
+    {"ticker": "Samsung", "delta_pct": 18, "venue": "KRX Fri", "note": "Sympathy explosion"},
+    {"ticker": "MSFT", "delta_pct": 1.2, "venue": "Fri cash", "note": "Digestion of Wed AH +8% blowout; Azure +43% narrative intact"},
+    {"ticker": "META", "delta_pct": -0.8, "venue": "Fri cash", "note": "Stabilization after Wed AH -8% capex-financing shock"},
+    {"ticker": "NVDA", "delta_pct": 1.9, "venue": "Fri cash", "note": "AMZN AWS read-through + KOSPI squeeze sympathy"}
   ],
   "geo_headlines": [
-    "**US strikes extended overnight: reported hits in Kuwait, Iraq, Egypt in addition to Iran mainland** — targeting Iran-backed militia positions across theater",
-    "**Hormuz shipping severely constrained: ~2 tankers/day vs 88 pre-crisis** per marine traffic — de-facto blockade continues despite QatarEnergy LNG transit Wed",
-    "**Iran retaliation muted overnight** — no new ballistic missile attacks on Jordan; Iran state media threatened 'painful response' but no kinetic follow-through in 24h",
-    "**AAPL: Tim Cook's LAST earnings call as CEO** — succession plan not detailed on call; new CEO name to be announced",
-    "**GDP Q2 Advance: +1.5% annualized** vs +2.0-2.1% consensus — **STAGFLATION-ADJACENT** with core PCE 3.3% expected 8:30 today",
-    "**KOSPI +17.91% RECORD single-day gain** in Korean market history — chip-stock short squeeze after -34% MTD; global AI/semi complex ripped in sympathy",
-    "**Fed dissent context**: Wed's 3 hawkish dissents (Hammack, Kashkari, Logan) + Warsh's hawkish presser + GDP miss = classic stagflation setup",
-    "**AWS +36.7% is the number** — below Azure 43% but re-accelerated from 33% last qtr; hyperscaler capex bar reset lower for AI infra names",
-    "**Fresh sanctions Thu**: US Treasury added 12 more entities tied to Iran oil evasion",
-    "**Netanyahu meeting Wed 'productive'** — Israel officially not participating in US strikes on Iran per White House"
+    "**US/Israel weighing major strikes on Iranian ENERGY infrastructure** — targeting oil export terminals (Kharg Island) + refineries per Reuters/WSJ; would be sharp escalation vs prior IRGC-only targets",
+    "**Iran readying retaliation options** including asymmetric attacks on Gulf shipping + regional US bases; state media threatened 'strategic response'",
+    "**CENTCOM disputed Iran's Hormuz closure claim** Fri — insists strait remains legally open; however marine traffic remains ~2 tankers/day vs 88 pre-crisis",
+    "**Iran Foreign Minister Araghchi**: 'We will not be the first to widen the war, but if attacked on our energy, we will target theirs'",
+    "**Saudi Arabia moved additional Patriot batteries to Eastern Region** protecting Aramco Abqaiq/Khurais facilities per Al-Arabiya",
+    "**AAPL cash rout Fri**: worst single day in 6+ years, -9.2%, ~$400B market cap wiped; downgrades from JPM (PT $340), Morgan Stanley cautioned FY27 iPhone units at risk on memory constraints",
+    "**AMZN +13.6% cash Fri**: AWS $42.2B/qtr **fastest growth in 18 quarters (+36.7%)**; capex guide raised suggesting continued AI infrastructure spend",
+    "**XOM+CVX combined Q2 profit >$26B, +300% YoY** — direct Iran-spike windfall; CVX refining +500%, production +200%; XOM disappointed on chemicals margin",
+    "**ECI Q2 HOT: +0.9% QoQ vs +0.8% consensus** (+3.4% YoY) — wage pressure re-igniting; helps explain Warsh's hawkish 'zero tolerance for above-target inflation'",
+    "**Chicago PMI 57.6 beat 56.0**; Michigan Final Jul 55.2 (from prelim 54.4) — soft-inflation-expectations component ticked down",
+    "**FedWatch post-PCE/ECI**: Sept +25bp odds jumped to **71.0%** (from 65.4% Thu); Dec cumulative now ~34bp (vs 33bp Thu); market pricing in ECI beat + hot data momentum",
+    "**Bonds**: US10Y +8.2bp Fri to 4.745% — biggest 1-day move in weeks; 30Y crossed 5.00% first time since 2007"
   ],
-  "headline": "AMZN +9% AWS +36.7% & KOSPI +17.9% RECORD chip short-squeeze RIP overnight; AAPL -6% Cook's last call weak guide; PCE 8:30",
-  "client_frame": "The tape ripped hard on 3 catalysts overnight: (1) **AMZN blowout** — first-ever $200B quarter, AWS re-accelerated to +36.7% (crushed 28-33% expected, though Azure's +43% still leads the hyperscaler race); +9% AH bringing back the AI-infra bid. (2) **KOSPI +17.91% single-day RECORD** — SK Hynix +30%, Samsung +18% — pure short-squeeze after MTD -34% carnage; global semi complex ripped in sympathy overnight. (3) **AAPL's mixed print & Tim Cook's LAST call as CEO** — beat top/bottom but Services/China missed and Q4 guide +9-11% below Street's +12% on memory-supply constraints (SK Hynix/Samsung driving pricing power in memory = **new AAPL cost headwind**). Stock -6% AH. **GDP Q2 +1.5% missed +2.0-2.1%** = stagflation-adjacent given hot core PCE prints (3.3% expected today). Iran retaliation muted 24h; US strikes extended to Kuwait/Iraq/Egypt targeting proxies; Hormuz still 2 tankers/day vs 88 pre-crisis (de-facto blockade continues). **Setup today**: PCE Jun + ECI Q2 at 8:30 = only Fed input for 6 weeks (next FOMC 9/16). Michigan Sentiment 10am. XOM/CVX BC. Month-end + weekend geo risk = expect afternoon de-grossing. Client message: Thursday's rip was catalyst-driven not fundamental — the AAPL supply-chain crack + GDP miss + Hormuz standoff say hedge into weekend, especially with month-end pension rebalance flows.",
-  "as_of": "2026-07-31T11:10:00+00:00"
+  "headline": "SPX 7,490 NEW RECORD; AAPL -9.2% worst in 6yrs on Cook's exit + Q4 guide; AMZN +13.6% AWS +36.7% fastest 18 qtrs; XOM missed CVX beat; Iran-energy strikes weighed",
+  "client_frame": "Split tape into weekend: **SPX hit a NEW RECORD (7,489.72, intraday 7,512) despite AAPL cratering -9.2%** — the widest single-day AAPL vs SPX divergence in a year. AMZN filled the leadership gap (+13.6% cash) as AWS $42.2B posted its fastest growth in 18 quarters (+36.7%). Energy earned its month: **XOM+CVX combined Q2 profits >$26B, +300% YoY** on Iran-spike windfall (CVX refining +500%). **John Ternus takes over as AAPL CEO Sept 1** — succession was announced back in April, Thursday's print was Cook's ceremonial last call. **ECI Q2 came in HOT** (+0.9% QoQ vs +0.8% cons, +3.4% YoY) — the wage-pressure signal Warsh warned about, and FedWatch Sept +25bp odds jumped to 71%. **10Y yield +8bp to 4.745%; 30Y crossed 5.00% first time since 2007**. VIX collapsed sub-16 despite: (1) US/Israel actively weighing strikes on Iranian ENERGY infrastructure (Kharg Island oil terminals per Reuters/WSJ) — a sharp escalation from IRGC-only targets, and (2) Hormuz still ~2 tankers/day (CENTCOM disputed Iran's closure claim but traffic tells the story). **Weekend risk is asymmetric**: (a) If US/Israel strike Iranian energy, oil gaps $10+ Monday open + risk-off. (b) If quiet, momentum tape continues but faces NFP Fri Aug 7 (cons +87-91k) + Sept 15-16 FOMC. **Client message**: buying weekend hedges at VIX 15.99 is cheap insurance against a 25% up-move if oil spikes on strikes; the record SPX print is coming into month-end + reduced-liquidity August with 30Y at 5%.",
+  "as_of": "2026-08-01T11:00:00+00:00"
 }
