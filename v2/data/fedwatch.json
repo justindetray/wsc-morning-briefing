@@ -1,7 +1,7 @@
 {
   "status": "LIVE",
   "reportingDt": "2026-07-31",
-  "note": "Post-PCE/ECI reprint: hot ECI Q2 (+0.9% QoQ, +3.4% YoY) drove Sept +25bp odds to 71.0% (from 65.4% Thu); market fully pricing hawkish Warsh + wage-pressure narrative",
+  "note": "Fri post-PCE/ECI reprint carries into Monday: Sept +25bp odds 71.0%; hot ECI wage pressure keeps hawkish Warsh path intact. Strike-cancellation Sat could nudge cuts back into curve at Mon reopen if oil unwinds meaningfully.",
   "meetings": [
     {"meetingDt": "2026-09-16", "reportingDt": "2026-07-31", "hold": 0.2900, "hike_25": 0.7100, "hike_50": 0, "hike_75": 0, "hike_100": 0, "cumulative_hike": 0.1775},
     {"meetingDt": "2026-10-28", "reportingDt": "2026-07-31", "hold": 0.2001, "hike_25": 0.5798, "hike_50": 0.2201, "hike_75": 0, "hike_100": 0, "cumulative_hike": 0.2550},

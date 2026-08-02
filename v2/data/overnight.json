@@ -1,42 +1,36 @@
 {
   "asia_close": [
-    {"market": "KOSPI (Fri close)", "delta_pct": 17.91, "level": 6647, "note": "**RECORD single-day gain** in Korean market history — SK Hynix +30%, Samsung +18% short-squeeze on AI chip demand"},
-    {"market": "Nikkei 225 (Fri close)", "delta_pct": 1.9, "level": 63109, "note": "chip complex ripped in sympathy with KOSPI"},
-    {"market": "Hang Seng (Fri close)", "delta_pct": 2.0, "level": 26577, "note": "4th day up; SMIC/Hua Hong led"},
-    {"market": "TOPIX (Fri close)", "delta_pct": 1.1, "level": 3958, "note": "broad follow-through on AI/semi bid"},
-    {"market": "SENSEX (Fri close)", "delta_pct": 1.1, "level": 78108, "note": "IT-heavy rally; NIFTY 24,405"},
-    {"market": "ASX 200 (Fri close)", "delta_pct": 0.5, "level": 9065, "note": "modest gain"}
+    {"market": "Nikkei futures (Sun eve preview)", "delta_pct": null, "level": null, "note": "Point lower per IG pre-open Sun morning; strike-cancel news should reverse this at 8pm ET reopen"},
+    {"market": "KOSPI (Fri close)", "delta_pct": 17.91, "level": 6647, "note": "**Fri RECORD +17.91%** single-day gain (SK Hynix +30%, Samsung +18%) on AI chip short-squeeze"},
+    {"market": "Hang Seng (Fri close)", "delta_pct": 2.0, "level": 26577, "note": "4th day up Fri; strike-cancel bullish for Mon reopen"},
+    {"market": "Nikkei (Fri close)", "delta_pct": 1.9, "level": 63109, "note": "chip complex ripped Fri in sympathy with KOSPI"}
   ],
   "europe_open": [
-    {"market": "STOXX 600 (Fri close)", "delta_pct": 0.6, "level": null, "note": "closed higher; energy XOM/CVX read-through boosted BP/Shell"}
+    {"market": "STOXX 600 (Fri close)", "delta_pct": 0.6, "level": null, "note": "closed higher Fri; opens Mon 3am ET on strike-cancel tailwind"}
   ],
   "single_name_moves": [
-    {"ticker": "AAPL", "delta_pct": -9.2, "venue": "Fri cash", "note": "**Worst single day in 6+ years**; ~$400B mkt cap wiped; JPM cut PT to $340; Cook's ceremonial last call as CEO — **John Ternus** takes over Sept 1 (announced April)"},
-    {"ticker": "AMZN", "delta_pct": 13.6, "venue": "Fri cash", "note": "Blowout held & extended — **AWS $42.2B, +36.7% fastest in 18 quarters**; first-ever $200B quarter"},
-    {"ticker": "XOM", "delta_pct": -1.5, "venue": "Fri cash", "note": "**MISSED**: EPS $3.52 vs $3.60 est; upstream +85% profit but chemicals margin miss; -1.5%"},
-    {"ticker": "CVX", "delta_pct": 4.8, "venue": "Fri cash", "note": "**BEAT**: EPS $6.06 vs $5.56 est; refining profit +500%, production +200% YoY; Iran spike windfall"},
-    {"ticker": "MA", "delta_pct": 2.5, "venue": "Fri cash", "note": "Post-Visa readthrough; cross-border strong"},
-    {"ticker": "SK Hynix", "delta_pct": 30, "venue": "KRX Fri", "note": "Record short-cover; MTD -34% obliterated"},
-    {"ticker": "Samsung", "delta_pct": 18, "venue": "KRX Fri", "note": "Sympathy explosion"},
-    {"ticker": "MSFT", "delta_pct": 1.2, "venue": "Fri cash", "note": "Digestion of Wed AH +8% blowout; Azure +43% narrative intact"},
-    {"ticker": "META", "delta_pct": -0.8, "venue": "Fri cash", "note": "Stabilization after Wed AH -8% capex-financing shock"},
-    {"ticker": "NVDA", "delta_pct": 1.9, "venue": "Fri cash", "note": "AMZN AWS read-through + KOSPI squeeze sympathy"}
+    {"ticker": "AAPL", "delta_pct": -9.2, "venue": "Fri cash", "note": "Worst day 6+yrs; $400B mkt cap wiped; John Ternus CEO Sept 1 (announced April); memory-supply constraint = permanent margin headwind"},
+    {"ticker": "AMZN", "delta_pct": 13.6, "venue": "Fri cash", "note": "AWS $42.2B, +36.7% fastest 18qtrs; first $200B quarter; capex raised"},
+    {"ticker": "CVX", "delta_pct": 4.8, "venue": "Fri cash", "note": "EPS $6.06 vs $5.56; refining +500%, production +200%; Iran windfall"},
+    {"ticker": "XOM", "delta_pct": -1.5, "venue": "Fri cash", "note": "EPS $3.52 vs $3.60 miss on chemicals; upstream +85% wasn't enough"},
+    {"ticker": "NVDA", "delta_pct": 1.9, "venue": "Fri cash", "note": "AMZN/Azure capex read-through + KOSPI squeeze sympathy"}
   ],
   "geo_headlines": [
-    "**US/Israel weighing major strikes on Iranian ENERGY infrastructure** — targeting oil export terminals (Kharg Island) + refineries per Reuters/WSJ; would be sharp escalation vs prior IRGC-only targets",
-    "**Iran readying retaliation options** including asymmetric attacks on Gulf shipping + regional US bases; state media threatened 'strategic response'",
-    "**CENTCOM disputed Iran's Hormuz closure claim** Fri — insists strait remains legally open; however marine traffic remains ~2 tankers/day vs 88 pre-crisis",
-    "**Iran Foreign Minister Araghchi**: 'We will not be the first to widen the war, but if attacked on our energy, we will target theirs'",
-    "**Saudi Arabia moved additional Patriot batteries to Eastern Region** protecting Aramco Abqaiq/Khurais facilities per Al-Arabiya",
-    "**AAPL cash rout Fri**: worst single day in 6+ years, -9.2%, ~$400B market cap wiped; downgrades from JPM (PT $340), Morgan Stanley cautioned FY27 iPhone units at risk on memory constraints",
-    "**AMZN +13.6% cash Fri**: AWS $42.2B/qtr **fastest growth in 18 quarters (+36.7%)**; capex guide raised suggesting continued AI infrastructure spend",
-    "**XOM+CVX combined Q2 profit >$26B, +300% YoY** — direct Iran-spike windfall; CVX refining +500%, production +200%; XOM disappointed on chemicals margin",
-    "**ECI Q2 HOT: +0.9% QoQ vs +0.8% consensus** (+3.4% YoY) — wage pressure re-igniting; helps explain Warsh's hawkish 'zero tolerance for above-target inflation'",
-    "**Chicago PMI 57.6 beat 56.0**; Michigan Final Jul 55.2 (from prelim 54.4) — soft-inflation-expectations component ticked down",
-    "**FedWatch post-PCE/ECI**: Sept +25bp odds jumped to **71.0%** (from 65.4% Thu); Dec cumulative now ~34bp (vs 33bp Thu); market pricing in ECI beat + hot data momentum",
-    "**Bonds**: US10Y +8.2bp Fri to 4.745% — biggest 1-day move in weeks; 30Y crossed 5.00% first time since 2007"
+    "**TRUMP CANCELED PLANNED STRIKE ON IRAN ENERGY INFRASTRUCTURE Sat night 8/1** — cited 'perimeters of a deal' agreed; claimed outcome would produce 'Immediate, Complete, and Total OPENING OF THE HORMUZ STRAIT' + end 'Iran's nuclear threat'",
+    "**MBS (Saudi Crown Prince) called Trump Sat urging strike cancellation** per Axios — the 5th such 2026 cancellation (prior: Mar/Apr/May/Jun/Jul patterns preceded 5-14% oil declines + equity rallies)",
+    "**Sun 8/2 Trump-MBS call confirmed** per Saudi Press Agency — MBS 'emphasised necessity of prioritising dialogue'",
+    "**Iran FM Araghchi held mediator calls Sunday with Turkey, Saudi Arabia, Pakistan** — Al Jazeera's Tehran correspondent describes Iran posture as 'two-sided' (ready to escalate OR de-escalate)",
+    "**No new US or Iranian kinetic strikes confirmed in Sat-Sun window** — the situation is fluid; live blogs update continuously",
+    "**Hormuz shipping**: last dated figure July 23 (10 transits/day PortWatch, 1 tanker Reuters) — Trump claim of 'total opening' remains to be verified at Mon 6pm CME reopen",
+    "**Iran acting Defense Min Majid Ibn al-Reza**: threats taken seriously 'even if made as psychological warfare'; 'we will neither be caught off guard nor remain passive'",
+    "**Fri 7/31 Iran pre-cancel context**: Iran retaliated Fri with drone strike on US Kuwait Ahmad Al-Jaber airbase (1 worker killed); drone attacks caused fires on 2 tankers at Egypt's Damietta (Iran denied); Ukraine drone struck Iranian ship in Caspian",
+    "**Saudi Aramco Jizan refinery (400kbpd) still shut** from late-July Houthi strike; repairs into mid-August; Abqaiq stabilization + East-West pumping station damaged",
+    "**Weekend Sunday shows quiet**: no Fed (Warsh/Powell) or Treasury (Bessent) or NEC Sunday appearances found; Fox News Sunday + Face the Nation guest lists don't include Iran/Fed/economy officials",
+    "**China Jul official PMI 49.2 (contraction)** — released pre-weekend Fri; RatingDog PMI Mon 8/3",
+    "**Russia/Ukraine**: Saturday Kyiv strike (9+ killed) — Iran-Ukraine cross-link on Caspian ship incident",
+    "**Weekend crypto**: BTC $62,764 Sat close basically flat (range 62,200-63,163); no strike-cancel-driven risk-on rally has materialized in weekend crypto yet"
   ],
-  "headline": "SPX 7,490 NEW RECORD; AAPL -9.2% worst in 6yrs on Cook's exit + Q4 guide; AMZN +13.6% AWS +36.7% fastest 18 qtrs; XOM missed CVX beat; Iran-energy strikes weighed",
-  "client_frame": "Split tape into weekend: **SPX hit a NEW RECORD (7,489.72, intraday 7,512) despite AAPL cratering -9.2%** — the widest single-day AAPL vs SPX divergence in a year. AMZN filled the leadership gap (+13.6% cash) as AWS $42.2B posted its fastest growth in 18 quarters (+36.7%). Energy earned its month: **XOM+CVX combined Q2 profits >$26B, +300% YoY** on Iran-spike windfall (CVX refining +500%). **John Ternus takes over as AAPL CEO Sept 1** — succession was announced back in April, Thursday's print was Cook's ceremonial last call. **ECI Q2 came in HOT** (+0.9% QoQ vs +0.8% cons, +3.4% YoY) — the wage-pressure signal Warsh warned about, and FedWatch Sept +25bp odds jumped to 71%. **10Y yield +8bp to 4.745%; 30Y crossed 5.00% first time since 2007**. VIX collapsed sub-16 despite: (1) US/Israel actively weighing strikes on Iranian ENERGY infrastructure (Kharg Island oil terminals per Reuters/WSJ) — a sharp escalation from IRGC-only targets, and (2) Hormuz still ~2 tankers/day (CENTCOM disputed Iran's closure claim but traffic tells the story). **Weekend risk is asymmetric**: (a) If US/Israel strike Iranian energy, oil gaps $10+ Monday open + risk-off. (b) If quiet, momentum tape continues but faces NFP Fri Aug 7 (cons +87-91k) + Sept 15-16 FOMC. **Client message**: buying weekend hedges at VIX 15.99 is cheap insurance against a 25% up-move if oil spikes on strikes; the record SPX print is coming into month-end + reduced-liquidity August with 30Y at 5%.",
-  "as_of": "2026-08-01T11:00:00+00:00"
+  "headline": "Trump CANCELED planned Iran energy strike Sat night citing 'deal perimeters'; Hormuz opening claimed; oil/vol likely gap DOWN, equities gap UP at Sun 6pm CME reopen",
+  "client_frame": "**Weekend headline is Trump's Saturday-night cancellation of the planned strike on Iran energy infrastructure** — announced via Truth Social citing 'perimeters of a deal' reached, following requests from Iran + Middle East countries + a MBS-Trump call. Trump claimed the deal would produce 'Immediate, Complete, and Total OPENING OF THE HORMUZ STRAIT' + end 'Iran's nuclear threat.' No independent confirmation of the terms yet. Iran FM Araghchi held mediator calls Sunday with Turkey/Saudi/Pakistan; Iran's posture is 'two-sided' — ready to escalate OR de-escalate. **Historical pattern for the 5 prior 2026 Iran-strike cancellations**: oil -5 to -14% + equities/BTC/gold rallied at reopen. **Expected Monday setup**: (a) Oil gaps DOWN $5-10 at Sun 6pm ET CME reopen — WTI $84.67/Brent $90.12 Fri close could open ~$75-79/$82-85; (b) ES/NQ gap UP 0.5-1.5%; (c) VIX opens below 15; (d) Energy stocks (XOM/CVX/COP) gap DOWN 3-5% giving back Fri's outperformance; (e) Gold retraces modestly. **But the setup has hidden fragility**: (1) Trump 'deal perimeters' announcements have twice been reversed within 72 hours in 2026 — deal hasn't closed; (2) Iran hasn't publicly confirmed any deal terms; (3) 30Y at 5.00%, Sept +25bp odds 71%, ECI hot (+0.9%/+3.4%) means rate-cut hopes remain deferred regardless of oil; (4) AAPL supply-chain crack still overhangs semis; (5) NFP Fri Aug 7 (cons +87-91k) is next major catalyst. **Client message**: Do not chase Monday's likely gap-up. If the deal actually closes, buy the pullback midweek; if it fails within 72hrs, oil re-gaps $10+ higher and hedges you didn't take Fri become expensive. Rotate Fri's XOM/CVX energy longs into defensive rate-sensitive names (utilities, REITs) that benefit from lower oil AND lower policy uncertainty.",
+  "as_of": "2026-08-02T11:00:00+00:00"
 }
