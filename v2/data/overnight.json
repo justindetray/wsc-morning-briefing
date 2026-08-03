@@ -1,36 +1,34 @@
 {
   "asia_close": [
-    {"market": "Nikkei futures (Sun eve preview)", "delta_pct": null, "level": null, "note": "Point lower per IG pre-open Sun morning; strike-cancel news should reverse this at 8pm ET reopen"},
-    {"market": "KOSPI (Fri close)", "delta_pct": 17.91, "level": 6647, "note": "**Fri RECORD +17.91%** single-day gain (SK Hynix +30%, Samsung +18%) on AI chip short-squeeze"},
-    {"market": "Hang Seng (Fri close)", "delta_pct": 2.0, "level": 26577, "note": "4th day up Fri; strike-cancel bullish for Mon reopen"},
-    {"market": "Nikkei (Fri close)", "delta_pct": 1.9, "level": 63109, "note": "chip complex ripped Fri in sympathy with KOSPI"}
+    {"market": "KOSPI Mon close", "delta_pct": -5.12, "level": 6257.45, "note": "**Profit-taking after Fri's RECORD +17.91%** — not Iran-related; SK Hynix/Samsung gave back parts of Fri's squeeze"},
+    {"market": "Nikkei Mon close", "delta_pct": -1.5, "level": 62163, "note": "-1% to -2% range; profit-taking off Fri +1.9%; JGB 30Y still elevated"},
+    {"market": "Hang Seng Mon close", "delta_pct": 0.3, "level": 26657, "note": "+0.13-0.5%; property + tech muted gains despite RatingDog PMI 50.9 miss (4-month low)"},
+    {"market": "Shanghai Comp Mon close", "delta_pct": -0.68, "level": null, "note": "-0.59 to -0.76%; NBS Jul PMI 49.2 contraction + RatingDog 50.9 disappointment"}
   ],
   "europe_open": [
-    {"market": "STOXX 600 (Fri close)", "delta_pct": 0.6, "level": null, "note": "closed higher Fri; opens Mon 3am ET on strike-cancel tailwind"}
+    {"market": "STOXX 600", "delta_pct": 0.4, "level": 651.88, "note": "Modestly higher on Iran de-escalation; energy stocks under pressure with oil down"}
   ],
   "single_name_moves": [
-    {"ticker": "AAPL", "delta_pct": -9.2, "venue": "Fri cash", "note": "Worst day 6+yrs; $400B mkt cap wiped; John Ternus CEO Sept 1 (announced April); memory-supply constraint = permanent margin headwind"},
-    {"ticker": "AMZN", "delta_pct": 13.6, "venue": "Fri cash", "note": "AWS $42.2B, +36.7% fastest 18qtrs; first $200B quarter; capex raised"},
-    {"ticker": "CVX", "delta_pct": 4.8, "venue": "Fri cash", "note": "EPS $6.06 vs $5.56; refining +500%, production +200%; Iran windfall"},
-    {"ticker": "XOM", "delta_pct": -1.5, "venue": "Fri cash", "note": "EPS $3.52 vs $3.60 miss on chemicals; upstream +85% wasn't enough"},
-    {"ticker": "NVDA", "delta_pct": 1.9, "venue": "Fri cash", "note": "AMZN/Azure capex read-through + KOSPI squeeze sympathy"}
+    {"ticker": "AAPL", "delta_pct": null, "venue": "Mon premkt", "note": "No confirmed Sun-Mon analyst rerating found; Ternus CEO transition Sept 1 remains as-announced (April)"},
+    {"ticker": "XOM/CVX", "delta_pct": null, "venue": "Mon premkt", "note": "Energy majors expected DOWN 3-5% giving back Fri outperformance ahead of open (WTI -4.9%)"},
+    {"ticker": "BTC-related", "delta_pct": -0.95, "venue": "Mon premkt", "note": "COIN, MSTR, MARA — BTC pattern break (should have rallied on strike-cancel like prior 5 cycles)"}
   ],
   "geo_headlines": [
-    "**TRUMP CANCELED PLANNED STRIKE ON IRAN ENERGY INFRASTRUCTURE Sat night 8/1** — cited 'perimeters of a deal' agreed; claimed outcome would produce 'Immediate, Complete, and Total OPENING OF THE HORMUZ STRAIT' + end 'Iran's nuclear threat'",
-    "**MBS (Saudi Crown Prince) called Trump Sat urging strike cancellation** per Axios — the 5th such 2026 cancellation (prior: Mar/Apr/May/Jun/Jul patterns preceded 5-14% oil declines + equity rallies)",
-    "**Sun 8/2 Trump-MBS call confirmed** per Saudi Press Agency — MBS 'emphasised necessity of prioritising dialogue'",
-    "**Iran FM Araghchi held mediator calls Sunday with Turkey, Saudi Arabia, Pakistan** — Al Jazeera's Tehran correspondent describes Iran posture as 'two-sided' (ready to escalate OR de-escalate)",
-    "**No new US or Iranian kinetic strikes confirmed in Sat-Sun window** — the situation is fluid; live blogs update continuously",
-    "**Hormuz shipping**: last dated figure July 23 (10 transits/day PortWatch, 1 tanker Reuters) — Trump claim of 'total opening' remains to be verified at Mon 6pm CME reopen",
-    "**Iran acting Defense Min Majid Ibn al-Reza**: threats taken seriously 'even if made as psychological warfare'; 'we will neither be caught off guard nor remain passive'",
-    "**Fri 7/31 Iran pre-cancel context**: Iran retaliated Fri with drone strike on US Kuwait Ahmad Al-Jaber airbase (1 worker killed); drone attacks caused fires on 2 tankers at Egypt's Damietta (Iran denied); Ukraine drone struck Iranian ship in Caspian",
-    "**Saudi Aramco Jizan refinery (400kbpd) still shut** from late-July Houthi strike; repairs into mid-August; Abqaiq stabilization + East-West pumping station damaged",
-    "**Weekend Sunday shows quiet**: no Fed (Warsh/Powell) or Treasury (Bessent) or NEC Sunday appearances found; Fox News Sunday + Face the Nation guest lists don't include Iran/Fed/economy officials",
-    "**China Jul official PMI 49.2 (contraction)** — released pre-weekend Fri; RatingDog PMI Mon 8/3",
-    "**Russia/Ukraine**: Saturday Kyiv strike (9+ killed) — Iran-Ukraine cross-link on Caspian ship incident",
-    "**Weekend crypto**: BTC $62,764 Sat close basically flat (range 62,200-63,163); no strike-cancel-driven risk-on rally has materialized in weekend crypto yet"
+    "**Trump Iran deal still 'perimeters' only — NO signed text as of Mon 7am ET**; Monday-afternoon talks reportedly pending",
+    "**Iranian FM spokesperson hedged on Hormuz reopening** — Sunday statements did not confirm Trump's 'Immediate, Complete, and Total OPENING' claim",
+    "No new US or Iranian kinetic strikes confirmed in Sat-Mon window",
+    "**Oil gap down was AT LOW END** of historical 5-14% cancel-pattern range: WTI -4.9%, Brent -6.7% — market pricing 'perimeters ≠ deal' uncertainty",
+    "**Bitcoin BROKE the historical pattern** — should have rallied on strike cancel; overnight -0.95% instead (Sun daily was +1.17% but faded overnight); this is a trading-relevant anomaly",
+    "**China Jul RatingDog Manufacturing PMI 50.9** — 4-month low, missed consensus; **NBS official Jul PMI 49.2 contraction** confirmed weekend release",
+    "**KOSPI -5.12% Mon** = profit-taking after Fri's RECORD +17.91% chip squeeze, NOT Iran-related",
+    "**CME FedWatch hawkish surprise**: showing **64% odds of a rate HIKE** (not cut) in September per subagent verification — consistent with Fri hot ECI + Warsh path; deferred rate-cut narrative intact",
+    "**Warsh (confirmed Fed Chair)** reportedly proposing fewer FOMC meetings — structural hawkish tilt",
+    "**No Fed speakers scheduled today**",
+    "**ISM Manufacturing Jul consensus 53.7** at 10am ET; release-time discrepancy flagged (10am per WSC brief vs 2pm per Trading Economics)",
+    "**Berkshire Q2 earnings release timing inconsistent** across sources — flagged as pending/unconfirmed",
+    "Gold +0.7% overnight — mild residual haven bid consistent with 'deal not signed' hedge"
   ],
-  "headline": "Trump CANCELED planned Iran energy strike Sat night citing 'deal perimeters'; Hormuz opening claimed; oil/vol likely gap DOWN, equities gap UP at Sun 6pm CME reopen",
-  "client_frame": "**Weekend headline is Trump's Saturday-night cancellation of the planned strike on Iran energy infrastructure** — announced via Truth Social citing 'perimeters of a deal' reached, following requests from Iran + Middle East countries + a MBS-Trump call. Trump claimed the deal would produce 'Immediate, Complete, and Total OPENING OF THE HORMUZ STRAIT' + end 'Iran's nuclear threat.' No independent confirmation of the terms yet. Iran FM Araghchi held mediator calls Sunday with Turkey/Saudi/Pakistan; Iran's posture is 'two-sided' — ready to escalate OR de-escalate. **Historical pattern for the 5 prior 2026 Iran-strike cancellations**: oil -5 to -14% + equities/BTC/gold rallied at reopen. **Expected Monday setup**: (a) Oil gaps DOWN $5-10 at Sun 6pm ET CME reopen — WTI $84.67/Brent $90.12 Fri close could open ~$75-79/$82-85; (b) ES/NQ gap UP 0.5-1.5%; (c) VIX opens below 15; (d) Energy stocks (XOM/CVX/COP) gap DOWN 3-5% giving back Fri's outperformance; (e) Gold retraces modestly. **But the setup has hidden fragility**: (1) Trump 'deal perimeters' announcements have twice been reversed within 72 hours in 2026 — deal hasn't closed; (2) Iran hasn't publicly confirmed any deal terms; (3) 30Y at 5.00%, Sept +25bp odds 71%, ECI hot (+0.9%/+3.4%) means rate-cut hopes remain deferred regardless of oil; (4) AAPL supply-chain crack still overhangs semis; (5) NFP Fri Aug 7 (cons +87-91k) is next major catalyst. **Client message**: Do not chase Monday's likely gap-up. If the deal actually closes, buy the pullback midweek; if it fails within 72hrs, oil re-gaps $10+ higher and hedges you didn't take Fri become expensive. Rotate Fri's XOM/CVX energy longs into defensive rate-sensitive names (utilities, REITs) that benefit from lower oil AND lower policy uncertainty.",
-  "as_of": "2026-08-02T11:00:00+00:00"
+  "headline": "Muted risk-on Mon open: ES +0.49%/NQ +0.53%/YM +0.63%; WTI -4.9%/Brent -6.7% AT LOW END of historical pattern; BTC BROKE pattern (-0.95%); KOSPI -5.12% profit-take; ISM Mfg 10am cons 53.7",
+  "client_frame": "**The Sat-night Iran strike-cancel produced a MUTED, disciplined risk-on open — not the euphoric squeeze of prior cycles**. Equity futures +0.49-0.63% (vs 1-2%+ in prior cancels), oil down at LOW end of historical 5-14% range (WTI -4.9%, Brent -6.7%), and **Bitcoin actually broke the pattern with -0.95% overnight** despite Sun daily close of $63,499. The market is pricing 'perimeters ≠ deal' — Trump's Sat announcement lacked signed text, Iranian FM spokesperson hedged Sun on Hormuz reopening status, and Monday-afternoon talks are still pending. **KOSPI -5.12% is Fri chip-squeeze profit-taking, NOT Iran-driven** — do not confuse those two signals. **China data confirms weakness**: NBS Jul 49.2 contraction + RatingDog 50.9 4-month low miss. **Rate path unchanged**: hot ECI + hawkish Warsh path keep Sept +25bp odds high (CME FedWatch showed 64% hike-odds per verification); 30Y still ~5.00%. **Today's key data: ISM Manufacturing Jul cons 53.7** — after China's dual-PMI weakness, a US ISM miss would create the reflexive 'US-decoupling breaking' narrative that has repeatedly bought bonds and hurt cyclicals. **Client positioning**: (1) DO NOT chase the modest gap-up — it's already discounted; (2) Fri's XOM/CVX energy longs should be trimmed into the -3-5% oil-driven premarket weakness; (3) Rotate into rate-sensitive defensives (XLU utilities, XLRE REITs) that benefit from lower oil AND haven't priced in policy easing; (4) BTC pattern break warrants watching — if crypto keeps fading through Wed even on de-escalation, that's a broader risk-off leak worth respecting; (5) NFP Fri Aug 7 (cons +87-91k) is the real catalyst — this week's tape is preamble.",
+  "as_of": "2026-08-03T11:00:00+00:00"
 }

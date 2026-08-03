@@ -1,20 +1,20 @@
 {
-  "last_curated": "2026-08-02",
+  "last_curated": "2026-08-03",
   "macro": [
     {"date": "2026-08-03", "time_et": "9:45 AM", "event": "S&P Manufacturing PMI Final (Jul)", "consensus": null, "importance": "MEDIUM"},
-    {"date": "2026-08-03", "time_et": "10:00 AM", "event": "ISM Manufacturing (Jul)", "consensus": null, "importance": "HIGH", "note": "Post-China Jul PMI 49.2 contraction; watch new orders sub-index"},
+    {"date": "2026-08-03", "time_et": "10:00 AM", "event": "ISM Manufacturing (Jul)", "consensus": "53.7", "importance": "HIGH", "note": "Post China NBS 49.2 + RatingDog 50.9 miss; release-time flagged (10am WSC vs 2pm TE calendar)"},
     {"date": "2026-08-03", "time_et": "10:00 AM", "event": "Construction Spending (Jun)", "consensus": null, "importance": "LOW"},
     {"date": "2026-08-05", "time_et": "8:15 AM", "event": "ADP Employment (Jul)", "consensus": null, "importance": "MEDIUM"},
     {"date": "2026-08-05", "time_et": "9:45 AM", "event": "S&P Services PMI Final (Jul)", "consensus": null, "importance": "MEDIUM"},
     {"date": "2026-08-05", "time_et": "10:00 AM", "event": "ISM Services (Jul)", "consensus": null, "importance": "HIGH"},
-    {"date": "2026-08-07", "time_et": "8:30 AM", "event": "Employment Report (Jul) NFP", "consensus": "+87-91k jobs", "importance": "HIGH", "note": "First NFP under Warsh; UR + AHE key; post strike-cancel positioning"}
+    {"date": "2026-08-07", "time_et": "8:30 AM", "event": "Employment Report (Jul) NFP", "consensus": "+87-91k jobs", "importance": "HIGH", "note": "First NFP under Warsh; UR + AHE key"}
   ],
   "earnings": [
-    {"date": "2026-08-04", "ticker": "PLTR", "name": "Palantir", "session": "AC", "importance": "HIGH", "note": "AI-defense narrative + govt contracts + Iran conflict spend"},
-    {"date": "2026-08-04", "ticker": "AMD", "name": "AMD", "session": "AC", "importance": "HIGH", "note": "MI350 ramp + Azure/AWS/GCP capex read-through post AMZN"},
-    {"date": "2026-08-05", "ticker": "DIS", "name": "Disney", "session": "AC", "importance": "MEDIUM", "note": "Parks + streaming + ESPN direct-to-consumer"},
-    {"date": "2026-08-05", "ticker": "MCD", "name": "McDonald's", "session": "BC", "importance": "MEDIUM", "note": "US comp sales key indicator of consumer"},
-    {"date": "2026-08-06", "ticker": "LLY", "name": "Eli Lilly", "session": "BC", "importance": "HIGH", "note": "GLP-1 franchise Zepbound/Mounjaro post-NVO merger noise"},
-    {"date": "2026-08-07", "ticker": "COIN", "name": "Coinbase", "session": "AC", "importance": "MEDIUM", "note": "Crypto exchange volume + custody + stablecoin"}
+    {"date": "2026-08-04", "ticker": "PLTR", "name": "Palantir", "session": "AC", "importance": "HIGH", "note": "AI-defense narrative + govt contracts + Iran conflict spend read-through"},
+    {"date": "2026-08-04", "ticker": "AMD", "name": "AMD", "session": "AC", "importance": "HIGH", "note": "MI350 ramp + Azure/AWS/GCP capex read-through post AMZN blowout"},
+    {"date": "2026-08-05", "ticker": "DIS", "name": "Disney", "session": "AC", "importance": "MEDIUM", "note": "Parks + streaming + ESPN DTC"},
+    {"date": "2026-08-05", "ticker": "MCD", "name": "McDonald's", "session": "BC", "importance": "MEDIUM", "note": "US comp sales key consumer indicator"},
+    {"date": "2026-08-06", "ticker": "LLY", "name": "Eli Lilly", "session": "BC", "importance": "HIGH", "note": "GLP-1 franchise Zepbound/Mounjaro"},
+    {"date": "2026-08-07", "ticker": "COIN", "name": "Coinbase", "session": "AC", "importance": "MEDIUM", "note": "Crypto exchange volume + custody + stablecoin; BTC pattern-break context relevant"}
   ]
 }

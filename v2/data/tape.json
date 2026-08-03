@@ -5,7 +5,7 @@
     "status": "CLOSED",
     "prev_close": 7437.63,
     "delta_pct": 0.70,
-    "label": "S&P 500 (Fri +0.70% NEW record; futures reopen Sun 6pm ET on strike-cancel news)",
+    "label": "S&P 500 Fri close (+0.70% NEW record); ES futures +0.49% overnight — muted vs prior cancel patterns",
     "source": "polygon:I:SPX"
   },
   "NDX": {
@@ -14,7 +14,7 @@
     "status": "CLOSED",
     "prev_close": 28106.35,
     "delta_pct": 0.60,
-    "label": "Nasdaq 100 (Fri +0.60% held despite AAPL -9.2% cash)",
+    "label": "Nasdaq 100 Fri close; NQ futures +0.53% overnight",
     "source": "polygon:I:NDX"
   },
   "DJI": {
@@ -23,7 +23,7 @@
     "status": "CLOSED",
     "prev_close": 52208.06,
     "delta_pct": 0.53,
-    "label": "Dow (Fri +277pts; energy CVX +4.8% led on Q2 profits blowout)",
+    "label": "Dow Fri close; YM futures +0.63% overnight leading",
     "source": "polygon:I:DJI"
   },
   "VIX": {
@@ -32,7 +32,7 @@
     "status": "CLOSED",
     "prev_close": 17.09,
     "delta_pct": -6.44,
-    "label": "VIX (Fri -6.4% sub-16 into weekend; may open even lower Mon on strike cancel)",
+    "label": "VIX Fri close; expected to open below 15 on strike cancel + oil drop",
     "source": "polygon:I:VIX"
   },
   "US10Y": {
@@ -41,7 +41,7 @@
     "status": "CLOSED",
     "prev_close": 4.663,
     "delta_pct": 1.76,
-    "label": "US 10Y (Fri +8.2bp; highest intraday since Jan 2025 at 4.747%)",
+    "label": "US 10Y Fri close highest since Jan 2025; watch 4.80% level today post-oil-drop",
     "source": "polygon:I:TNX"
   },
   "US2Y": {
@@ -50,44 +50,44 @@
     "status": "CLOSED",
     "prev_close": 4.290,
     "delta_pct": 1.63,
-    "label": "US 2Y (Fri +7bp on ECI beat; Sept +25bp odds 71%)",
+    "label": "US 2Y Fri close on ECI beat; Sept +25bp odds 71% carrying to Mon",
     "source": "estimate",
     "unit": "%"
   },
   "WTI": {
-    "value": 84.67,
-    "as_of": "2026-07-31T20:00:00+00:00",
-    "status": "CLOSED",
-    "prev_close": 83.60,
-    "delta_pct": 1.28,
-    "label": "WTI (Fri close $84.67 +1.3%; +21% July; futures reopen Sun 6pm — likely gap DOWN on strike cancel)",
+    "value": 80.50,
+    "as_of": "2026-08-03T11:00:00+00:00",
+    "status": "LIVE",
+    "prev_close": 84.67,
+    "delta_pct": -4.92,
+    "label": "WTI overnight ~$80.50 (-4.9%) on Trump Iran strike-cancel Sat night; low end of 5-14% historical pattern",
     "source": "market"
   },
   "BRENT": {
-    "value": 90.12,
-    "as_of": "2026-07-31T20:00:00+00:00",
-    "status": "CLOSED",
-    "prev_close": 89.05,
-    "delta_pct": 1.20,
-    "label": "Brent (Fri close $90.12 +1.2%; +24% July; likely gap DOWN Sun 6pm reopen)",
+    "value": 84.10,
+    "as_of": "2026-08-03T11:00:00+00:00",
+    "status": "LIVE",
+    "prev_close": 90.12,
+    "delta_pct": -6.68,
+    "label": "Brent overnight ~$84.10 (-6.7%); Iran risk premium partially unwound",
     "source": "market"
   },
   "GOLD": {
-    "value": 4038.20,
-    "as_of": "2026-07-31T20:00:00+00:00",
-    "status": "CLOSED",
-    "prev_close": 4056.47,
-    "delta_pct": -0.45,
-    "label": "Gold (Fri modest drop; may fade further Mon as strike-cancel drains haven bid)",
+    "value": 4068.25,
+    "as_of": "2026-08-03T11:00:00+00:00",
+    "status": "LIVE",
+    "prev_close": 4038.20,
+    "delta_pct": 0.74,
+    "label": "Gold +0.7% overnight — mild residual safe-haven bid, deal not signed",
     "source": "market"
   },
   "BTC": {
-    "value": 62764.20,
-    "as_of": "2026-08-01T23:59:59+00:00",
+    "value": 62900.00,
+    "as_of": "2026-08-03T11:00:00+00:00",
     "status": "LIVE",
-    "prev_close": 62825.90,
-    "delta_pct": -0.10,
-    "label": "BTC (Sat close $62,764 basically flat; range 62,200-63,163; consolidating post Fri -2.93%)",
+    "prev_close": 63499.49,
+    "delta_pct": -0.95,
+    "label": "BTC overnight -0.95% — PATTERN BREAK (didn't rally like 5 prior cancels); Sun close was $63,499",
     "source": "polygon:X:BTCUSD"
   }
 }
