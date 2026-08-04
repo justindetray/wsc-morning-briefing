@@ -1,7 +1,7 @@
 {
   "status": "LIVE",
-  "reportingDt": "2026-07-31",
-  "note": "Fri post-hot-ECI reprint: Sept +25bp odds 71.0%; hot ECI + hawkish Warsh path keeps deferred rate-cut narrative intact. Strike-cancel weekend didn't shift rate curve materially — 30Y still 5.00%, this is a growth-not-policy trade at Mon open.",
+  "reportingDt": "2026-08-03",
+  "note": "Mon US10Y -5.7bp / US2Y -10.8bp bull steepener contradicts pure hot-ECI/hawkish-Warsh narrative. Watch Tue JOLTS + Thu ISM Services + Fri NFP for real curve regime read. Prior Fri reprint below unchanged pending fresh CME data.",
   "meetings": [
     {"meetingDt": "2026-09-16", "reportingDt": "2026-07-31", "hold": 0.2900, "hike_25": 0.7100, "hike_50": 0, "hike_75": 0, "hike_100": 0, "cumulative_hike": 0.1775},
     {"meetingDt": "2026-10-28", "reportingDt": "2026-07-31", "hold": 0.2001, "hike_25": 0.5798, "hike_50": 0.2201, "hike_75": 0, "hike_100": 0, "cumulative_hike": 0.2550},

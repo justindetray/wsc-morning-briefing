@@ -1,34 +1,33 @@
 {
   "asia_close": [
-    {"market": "KOSPI Mon close", "delta_pct": -5.12, "level": 6257.45, "note": "**Profit-taking after Fri's RECORD +17.91%** — not Iran-related; SK Hynix/Samsung gave back parts of Fri's squeeze"},
-    {"market": "Nikkei Mon close", "delta_pct": -1.5, "level": 62163, "note": "-1% to -2% range; profit-taking off Fri +1.9%; JGB 30Y still elevated"},
-    {"market": "Hang Seng Mon close", "delta_pct": 0.3, "level": 26657, "note": "+0.13-0.5%; property + tech muted gains despite RatingDog PMI 50.9 miss (4-month low)"},
-    {"market": "Shanghai Comp Mon close", "delta_pct": -0.68, "level": null, "note": "-0.59 to -0.76%; NBS Jul PMI 49.2 contraction + RatingDog 50.9 disappointment"}
+    {"market": "Nikkei Tue close", "delta_pct": null, "level": null, "note": "Tuesday final level unverified; expected rebound from Mon -1.5% on US Mon record close"},
+    {"market": "KOSPI Tue close", "delta_pct": null, "level": null, "note": "Tuesday final unverified; watch for bounce after Mon -5.12% profit-take"},
+    {"market": "Hang Seng Tue close", "delta_pct": null, "level": null, "note": "Tuesday final level unverified"},
+    {"market": "Shanghai Comp Tue close", "delta_pct": null, "level": null, "note": "Tuesday final unverified; China dual-PMI weakness overhang persists"}
   ],
   "europe_open": [
-    {"market": "STOXX 600", "delta_pct": 0.4, "level": 651.88, "note": "Modestly higher on Iran de-escalation; energy stocks under pressure with oil down"}
+    {"market": "STOXX 600", "delta_pct": null, "level": null, "note": "Tuesday open levels unverified; Mon +0.4% on Iran de-escalation carried through"}
   ],
   "single_name_moves": [
-    {"ticker": "AAPL", "delta_pct": null, "venue": "Mon premkt", "note": "No confirmed Sun-Mon analyst rerating found; Ternus CEO transition Sept 1 remains as-announced (April)"},
-    {"ticker": "XOM/CVX", "delta_pct": null, "venue": "Mon premkt", "note": "Energy majors expected DOWN 3-5% giving back Fri outperformance ahead of open (WTI -4.9%)"},
-    {"ticker": "BTC-related", "delta_pct": -0.95, "venue": "Mon premkt", "note": "COIN, MSTR, MARA — BTC pattern break (should have rallied on strike-cancel like prior 5 cycles)"}
+    {"ticker": "PLTR", "delta_pct": null, "venue": "reported Mon AC (early)", "note": "**BEAT rev + EPS Mon**, raised guidance — reported Monday AC not Tuesday as prior schedule showed; AI-defense + Iran conflict spend read-through"},
+    {"ticker": "AMD", "delta_pct": null, "venue": "Tue AC 5pm ET", "note": "Reports tonight after close; cons rev ~$11.3-11.4B, EPS $1.60-1.63; MI350 ramp + hyperscaler capex read post AMZN AWS +36.7%"},
+    {"ticker": "AAPL", "delta_pct": null, "venue": "Mon session", "note": "Ternus CEO transition Sept 1 remains; no material rerating in Mon session found"}
   ],
   "geo_headlines": [
-    "**Trump Iran deal still 'perimeters' only — NO signed text as of Mon 7am ET**; Monday-afternoon talks reportedly pending",
-    "**Iranian FM spokesperson hedged on Hormuz reopening** — Sunday statements did not confirm Trump's 'Immediate, Complete, and Total OPENING' claim",
-    "No new US or Iranian kinetic strikes confirmed in Sat-Mon window",
-    "**Oil gap down was AT LOW END** of historical 5-14% cancel-pattern range: WTI -4.9%, Brent -6.7% — market pricing 'perimeters ≠ deal' uncertainty",
-    "**Bitcoin BROKE the historical pattern** — should have rallied on strike cancel; overnight -0.95% instead (Sun daily was +1.17% but faded overnight); this is a trading-relevant anomaly",
-    "**China Jul RatingDog Manufacturing PMI 50.9** — 4-month low, missed consensus; **NBS official Jul PMI 49.2 contraction** confirmed weekend release",
-    "**KOSPI -5.12% Mon** = profit-taking after Fri's RECORD +17.91% chip squeeze, NOT Iran-related",
-    "**CME FedWatch hawkish surprise**: showing **64% odds of a rate HIKE** (not cut) in September per subagent verification — consistent with Fri hot ECI + Warsh path; deferred rate-cut narrative intact",
-    "**Warsh (confirmed Fed Chair)** reportedly proposing fewer FOMC meetings — structural hawkish tilt",
-    "**No Fed speakers scheduled today**",
-    "**ISM Manufacturing Jul consensus 53.7** at 10am ET; release-time discrepancy flagged (10am per WSC brief vs 2pm per Trading Economics)",
-    "**Berkshire Q2 earnings release timing inconsistent** across sources — flagged as pending/unconfirmed",
-    "Gold +0.7% overnight — mild residual haven bid consistent with 'deal not signed' hedge"
+    "**Mon 8/3 was a BLOWOUT session**: SPX +1.48% NEW RECORD 7,600.50, DJI +1.32% NEW RECORD 53,178.41, NDX +1.78% NEW RECORD 28,776.80 — strike-cancel rally + ISM 55.6 combined",
+    "**ISM Manufacturing Jul 55.6 vs cons 53.7** — HUGE BEAT; Employment flipped to expansion after 33 months (first time since 2023); Production highest since 2021; New Orders strong",
+    "**Construction Spending Jun -0.1% MoM MISS** vs +0.1% cons — residential weakness continues",
+    "**PLTR reported MONDAY AC (not Tue as earlier)** — beat rev and EPS, raised full-year guidance; AI-defense narrative + Iran conflict spend tailwind",
+    "**Yields FELL despite ISM blowout**: US10Y 4.688% -5.7bp, US2Y 4.252% -10.8bp — bull steepener; cut hopes reviving? Or 30Y-5% duration demand?",
+    "**Iran deal — conflicting signals**: Iran president claimed MOU signed; Iranian FM spokesperson DENIED any talks are happening; **Hormuz shipping traffic still near multi-month lows (6 vessels Mon)** despite diplomatic rhetoric — real data lags rhetoric",
+    "**No new US or Iranian kinetic strikes confirmed Mon-Tue window**",
+    "**AMD reports TONIGHT 5pm ET** — cons rev $11.3-11.4B, EPS $1.60-1.63; key read for MI350 ramp + hyperscaler capex + China export controls impact",
+    "**Berkshire Q2 CONFIRMED Saturday Aug 8** per CNBC — resolves prior date conflict definitively",
+    "**Today Tue 8/4 US data**: JOLTS Job Openings Jul 10am, Trade Balance Jun 8:30am, Factory Orders Jun 10am, Auto Sales monthly, KC Fed's Schmid speaks 8:15pm ET",
+    "**Overnight Tue AM ES/NQ/YM futures** — Tuesday-morning levels unverified; typical follow-through after Mon record close pattern",
+    "**Oil overnight essentially flat vs Mon settle** — no follow-through selling, no reversal; market awaiting deal-signing catalyst"
   ],
-  "headline": "Muted risk-on Mon open: ES +0.49%/NQ +0.53%/YM +0.63%; WTI -4.9%/Brent -6.7% AT LOW END of historical pattern; BTC BROKE pattern (-0.95%); KOSPI -5.12% profit-take; ISM Mfg 10am cons 53.7",
-  "client_frame": "**The Sat-night Iran strike-cancel produced a MUTED, disciplined risk-on open — not the euphoric squeeze of prior cycles**. Equity futures +0.49-0.63% (vs 1-2%+ in prior cancels), oil down at LOW end of historical 5-14% range (WTI -4.9%, Brent -6.7%), and **Bitcoin actually broke the pattern with -0.95% overnight** despite Sun daily close of $63,499. The market is pricing 'perimeters ≠ deal' — Trump's Sat announcement lacked signed text, Iranian FM spokesperson hedged Sun on Hormuz reopening status, and Monday-afternoon talks are still pending. **KOSPI -5.12% is Fri chip-squeeze profit-taking, NOT Iran-driven** — do not confuse those two signals. **China data confirms weakness**: NBS Jul 49.2 contraction + RatingDog 50.9 4-month low miss. **Rate path unchanged**: hot ECI + hawkish Warsh path keep Sept +25bp odds high (CME FedWatch showed 64% hike-odds per verification); 30Y still ~5.00%. **Today's key data: ISM Manufacturing Jul cons 53.7** — after China's dual-PMI weakness, a US ISM miss would create the reflexive 'US-decoupling breaking' narrative that has repeatedly bought bonds and hurt cyclicals. **Client positioning**: (1) DO NOT chase the modest gap-up — it's already discounted; (2) Fri's XOM/CVX energy longs should be trimmed into the -3-5% oil-driven premarket weakness; (3) Rotate into rate-sensitive defensives (XLU utilities, XLRE REITs) that benefit from lower oil AND haven't priced in policy easing; (4) BTC pattern break warrants watching — if crypto keeps fading through Wed even on de-escalation, that's a broader risk-off leak worth respecting; (5) NFP Fri Aug 7 (cons +87-91k) is the real catalyst — this week's tape is preamble.",
-  "as_of": "2026-08-03T11:00:00+00:00"
+  "headline": "Mon BLOWOUT: SPX +1.48% NEW RECORD on ISM 55.6 mega-beat; PLTR beat Mon AC; AMD tonight; Iran deal signals conflict (MOU vs FM denial, Hormuz traffic still low); yields FELL despite ISM (bull steepener)",
+  "client_frame": "**Monday delivered a rare setup: strike-cancel-induced risk-on PLUS a genuine ISM Manufacturing blowout (55.6 vs 53.7 cons) with Employment flipping to expansion after 33 months and Production at highest since 2021**. Result: THREE indices closed at new records simultaneously — SPX 7,600.50, DJI 53,178.41, NDX 28,776.80. The most interesting cross-current: **yields actually FELL** — US10Y -5.7bp to 4.688%, US2Y -10.8bp to 4.252% — a bull steepener DESPITE the manufacturing surge. That's inconsistent with the ECI-hot / hawkish-Warsh narrative that dominated Fri, and suggests either (a) rate-cut hopes reviving, (b) 30Y-at-5% demand pulling front end, or (c) safe-haven flows persisting despite the rally. VIX further compressed to 15.86. **The critical fragility**: **Iran signals are diverging** — Iran's president claims MOU signed, but Iran's FM spokesperson DENIED talks are even happening, and Hormuz shipping traffic remains at multi-month lows (only 6 vessels Mon per Reuters). Trump's Sat 'perimeters' announcement has not translated into observable behavior. Oil is essentially flat vs Mon's -4.6% settle — market is not confident this holds. **Today's tape**: (1) JOLTS 10am is the actual signal, not the noise — a low print reinforces bull steepener; (2) AMD tonight 5pm is the tech read — hyperscaler capex ($11.3-11.4B rev, $1.60-1.63 EPS cons) and MI350 ramp commentary matter; (3) PLTR's Mon beat + raised guide sets AI-defense narrative bar for AMD. **Client positioning**: (a) DO NOT sell the strength — this is a real breadth expansion with ISM Employment expansion + record indices + yields falling; (b) But keep some cheap VIX call protection (still 15.86) — the Iran deal is not signed and 'perimeters' has been reversed twice in 2026; (c) Tech longs into AMD tonight carry earnings risk — trim ahead if size is aggressive; (d) NFP Fri 8/7 (cons +87-91k) is still THE catalyst — bull steepener continues if number cools; hawkish reversal if hot. (e) 30Y watch: if long end stays 5.00% while front end rallies, that curve steepening is a real regime signal.",
+  "as_of": "2026-08-04T11:00:00+00:00"
 }

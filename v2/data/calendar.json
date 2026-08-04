@@ -1,20 +1,22 @@
 {
-  "last_curated": "2026-08-03",
+  "last_curated": "2026-08-04",
   "macro": [
-    {"date": "2026-08-03", "time_et": "9:45 AM", "event": "S&P Manufacturing PMI Final (Jul)", "consensus": null, "importance": "MEDIUM"},
-    {"date": "2026-08-03", "time_et": "10:00 AM", "event": "ISM Manufacturing (Jul)", "consensus": "53.7", "importance": "HIGH", "note": "Post China NBS 49.2 + RatingDog 50.9 miss; release-time flagged (10am WSC vs 2pm TE calendar)"},
-    {"date": "2026-08-03", "time_et": "10:00 AM", "event": "Construction Spending (Jun)", "consensus": null, "importance": "LOW"},
+    {"date": "2026-08-04", "time_et": "8:30 AM", "event": "Trade Balance (Jun)", "consensus": null, "importance": "MEDIUM"},
+    {"date": "2026-08-04", "time_et": "10:00 AM", "event": "JOLTS Job Openings (Jun)", "consensus": null, "importance": "HIGH", "note": "First labor read of NFP week; bull-steepener test"},
+    {"date": "2026-08-04", "time_et": "10:00 AM", "event": "Factory Orders (Jun)", "consensus": null, "importance": "LOW"},
+    {"date": "2026-08-04", "time_et": "TBD", "event": "US Auto Sales Jul", "consensus": null, "importance": "LOW"},
+    {"date": "2026-08-04", "time_et": "8:15 PM", "event": "KC Fed's Schmid speaks", "consensus": null, "importance": "MEDIUM", "note": "First Fed speaker of the week"},
     {"date": "2026-08-05", "time_et": "8:15 AM", "event": "ADP Employment (Jul)", "consensus": null, "importance": "MEDIUM"},
     {"date": "2026-08-05", "time_et": "9:45 AM", "event": "S&P Services PMI Final (Jul)", "consensus": null, "importance": "MEDIUM"},
-    {"date": "2026-08-05", "time_et": "10:00 AM", "event": "ISM Services (Jul)", "consensus": null, "importance": "HIGH"},
-    {"date": "2026-08-07", "time_et": "8:30 AM", "event": "Employment Report (Jul) NFP", "consensus": "+87-91k jobs", "importance": "HIGH", "note": "First NFP under Warsh; UR + AHE key"}
+    {"date": "2026-08-05", "time_et": "10:00 AM", "event": "ISM Services (Jul)", "consensus": null, "importance": "HIGH", "note": "After Mon Mfg 55.6 blowout"},
+    {"date": "2026-08-07", "time_et": "8:30 AM", "event": "Employment Report (Jul) NFP", "consensus": "+87-91k jobs", "importance": "HIGH", "note": "First NFP under Warsh; the week's real catalyst"}
   ],
   "earnings": [
-    {"date": "2026-08-04", "ticker": "PLTR", "name": "Palantir", "session": "AC", "importance": "HIGH", "note": "AI-defense narrative + govt contracts + Iran conflict spend read-through"},
-    {"date": "2026-08-04", "ticker": "AMD", "name": "AMD", "session": "AC", "importance": "HIGH", "note": "MI350 ramp + Azure/AWS/GCP capex read-through post AMZN blowout"},
+    {"date": "2026-08-04", "ticker": "AMD", "name": "AMD", "session": "AC", "importance": "HIGH", "note": "Cons rev $11.3-11.4B, EPS $1.60-1.63; MI350 ramp + hyperscaler capex read + China export controls"},
     {"date": "2026-08-05", "ticker": "DIS", "name": "Disney", "session": "AC", "importance": "MEDIUM", "note": "Parks + streaming + ESPN DTC"},
     {"date": "2026-08-05", "ticker": "MCD", "name": "McDonald's", "session": "BC", "importance": "MEDIUM", "note": "US comp sales key consumer indicator"},
     {"date": "2026-08-06", "ticker": "LLY", "name": "Eli Lilly", "session": "BC", "importance": "HIGH", "note": "GLP-1 franchise Zepbound/Mounjaro"},
-    {"date": "2026-08-07", "ticker": "COIN", "name": "Coinbase", "session": "AC", "importance": "MEDIUM", "note": "Crypto exchange volume + custody + stablecoin; BTC pattern-break context relevant"}
+    {"date": "2026-08-07", "ticker": "COIN", "name": "Coinbase", "session": "AC", "importance": "MEDIUM", "note": "Crypto exchange volume + custody + stablecoin; BTC pattern-break context relevant"},
+    {"date": "2026-08-08", "ticker": "BRK.B", "name": "Berkshire Hathaway", "session": "BC", "importance": "HIGH", "note": "Q2 confirmed Sat 8/8 per CNBC — resolves prior date conflict"}
   ]
 }
