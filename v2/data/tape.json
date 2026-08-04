@@ -5,7 +5,7 @@
     "status": "CLOSED",
     "prev_close": 7489.72,
     "delta_pct": 1.48,
-    "label": "S&P 500 Mon close +1.48% — NEW RECORD; strike-cancel rally + ISM 55.6 blowout",
+    "label": "S&P 500 Mon close +1.48% (7,600.50) — NOT ATH (June 2 close 7,609.78); ISM 55.6 + strike-cancel",
     "source": "polygon:I:SPX"
   },
   "NDX": {
@@ -14,7 +14,7 @@
     "status": "CLOSED",
     "prev_close": 28274.20,
     "delta_pct": 1.78,
-    "label": "Nasdaq 100 Mon +1.78% NEW RECORD; PLTR beat AC (early); AMD tonight AC",
+    "label": "Nasdaq 100 Mon +1.78% (28,776.80) — NOT ATH (June high 30,762 / June 2 close 30,660); PLTR Mon beat; AMD tonight",
     "source": "polygon:I:NDX"
   },
   "DJI": {
@@ -23,7 +23,7 @@
     "status": "CLOSED",
     "prev_close": 52485.03,
     "delta_pct": 1.32,
-    "label": "Dow Mon +693pts +1.32% NEW RECORD; energy/cyclicals despite oil drop",
+    "label": "Dow Mon +693pts +1.32% NEW RECORD CLOSE (53,178 vs Jul 6 53,056); high still below Jul 7 53,289",
     "source": "polygon:I:DJI"
   },
   "VIX": {
