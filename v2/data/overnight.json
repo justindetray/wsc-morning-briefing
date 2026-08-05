@@ -1,33 +1,34 @@
 {
   "asia_close": [
-    {"market": "Nikkei Tue close", "delta_pct": null, "level": null, "note": "Tuesday final level unverified; expected rebound from Mon -1.5% on US Mon +1.3-1.8% session"},
-    {"market": "KOSPI Tue close", "delta_pct": null, "level": null, "note": "Tuesday final unverified; watch for bounce after Mon -5.12% profit-take"},
-    {"market": "Hang Seng Tue close", "delta_pct": null, "level": null, "note": "Tuesday final level unverified"},
-    {"market": "Shanghai Comp Tue close", "delta_pct": null, "level": null, "note": "Tuesday final unverified; China dual-PMI weakness overhang persists"}
+    {"market": "Nikkei Wed close", "delta_pct": 3.33, "level": null, "note": "+3.33% on US record close + Hormuz-deal hopes; Topix +1.65%"},
+    {"market": "KOSPI Wed close", "delta_pct": 4.47, "level": null, "note": "+4.47% bounce after Mon −5.12% profit-take; chip complex rebounded"},
+    {"market": "Hang Seng Wed close", "delta_pct": 0.24, "level": 25915.82, "note": "+0.24% to 25,915.82 — muted vs Nikkei/KOSPI"},
+    {"market": "Shanghai Comp Wed", "delta_pct": null, "level": null, "note": "Official close unverified; early session ~+0.5% snapshot only"}
   ],
   "europe_open": [
-    {"market": "STOXX 600", "delta_pct": null, "level": null, "note": "Tuesday open levels unverified; Mon +0.4% on Iran de-escalation carried through"}
+    {"market": "STOXX 600 / Europe", "delta_pct": null, "level": null, "note": "European stocks higher on oil drop + US ATH follow-through (exact levels vary by timestamp)"}
   ],
   "single_name_moves": [
-    {"ticker": "PLTR", "delta_pct": null, "venue": "reported Mon AC (early)", "note": "**BEAT rev + EPS Mon**, raised guidance — reported Monday AC not Tuesday as prior schedule showed; AI-defense + Iran conflict spend read-through"},
-    {"ticker": "AMD", "delta_pct": null, "venue": "Tue AC 5pm ET", "note": "Reports tonight after close; cons rev ~$11.3-11.4B, EPS $1.60-1.63; MI350 ramp + hyperscaler capex read post AMZN AWS +36.7%"},
-    {"ticker": "AAPL", "delta_pct": null, "venue": "Mon session", "note": "Ternus CEO transition Sept 1 remains; no material rerating in Mon session found"}
+    {"ticker": "AMD", "delta_pct": -9.0, "venue": "Tue AH", "note": "**BEAT** rev $11.54B vs ~$11.3B, adj EPS $1.66 vs ~$1.61, Q3 guide ~$13B vs ~$12.5B — but stock −8–9% AH on flat 56% GM guide + elevated valuation (+142% YTD into print); cash session had closed ~$518 +7%"},
+    {"ticker": "MCD", "delta_pct": null, "venue": "Tue BC (already reported)", "note": "**Already reported Tue BC** — adj EPS $3.38 beat $3.32–3.34 cons; rev $7.10B slight miss. NOT on Wed calendar."},
+    {"ticker": "DIS", "delta_pct": null, "venue": "Wed BC today", "note": "Reports before open; cons EPS ~$1.85–1.89; parks + streaming + ESPN DTC"},
+    {"ticker": "PLTR", "delta_pct": null, "venue": "Mon AC beat carried", "note": "Mon beat + raised guide still in tape; AI-defense narrative"}
   ],
   "geo_headlines": [
-    "**Mon 8/3 was a BLOWOUT session**: SPX +1.48% to 7,600.50 (NOT ATH — June 2 close 7,609.78), DJI +1.32% to 53,178.41 NEW RECORD CLOSE (vs Jul 6 53,056), NDX +1.78% to 28,776.80 (NOT ATH — June high 30,762 / June 2 close 30,660) — CORRECTION: only DJI hit a new record close; SPX/NDX still below June peaks",
-    "**ISM Manufacturing Jul 55.6 vs cons 53.7** — HUGE BEAT; Employment flipped to expansion after 33 months (first time since 2023); Production highest since 2021; New Orders strong",
-    "**Construction Spending Jun -0.1% MoM MISS** vs +0.1% cons — residential weakness continues",
-    "**PLTR reported MONDAY AC (not Tue as earlier)** — beat rev and EPS, raised full-year guidance; AI-defense narrative + Iran conflict spend tailwind",
-    "**Yields FELL despite ISM blowout**: US10Y 4.688% -5.7bp, US2Y 4.252% -10.8bp — bull steepener; cut hopes reviving? Or 30Y-5% duration demand?",
-    "**Iran deal — conflicting signals**: Iran president claimed MOU signed; Iranian FM spokesperson DENIED any talks are happening; **Hormuz shipping traffic still near multi-month lows (6 vessels Mon)** despite diplomatic rhetoric — real data lags rhetoric",
-    "**No new US or Iranian kinetic strikes confirmed Mon-Tue window**",
-    "**AMD reports TONIGHT 5pm ET** — cons rev $11.3-11.4B, EPS $1.60-1.63; key read for MI350 ramp + hyperscaler capex + China export controls impact",
-    "**Berkshire Q2 CONFIRMED Saturday Aug 8** per CNBC — resolves prior date conflict definitively",
-    "**Today Tue 8/4 US data**: JOLTS Job Openings Jul 10am, Trade Balance Jun 8:30am, Factory Orders Jun 10am, Auto Sales monthly, KC Fed's Schmid speaks 8:15pm ET",
-    "**Overnight Tue AM ES/NQ/YM futures** — Tuesday-morning levels unverified; typical follow-through after Mon strong close",
-    "**Oil overnight essentially flat vs Mon settle** — no follow-through selling, no reversal; market awaiting deal-signing catalyst"
+    "**ATH CHECK (Polygon-verified, post Run #141 correction discipline)**: SPX 7,736.52 YES new ATH close+high (prior June 2 close 7,609.78). DJI 54,085.88 YES new ATH close+high (first close above 54k). NDX 29,733.16 NO — still −3.0% under June 2 close 30,660 / June 3 high 30,762.",
+    "**AMD Tue AC beat-and-fade**: rev $11.54B (+50% YoY), adj EPS $1.66, Data Center $6.72B (+107% YoY), Q3 rev guide ~$13.0B ±$300M (above ~$12.5B cons) — stock −8–9% AH on flat ~56% GM guide and profit-taking after +142% YTD run",
+    "**JOLTS Jun 7.36M** (down from revised 7.54M May) — slight cool vs ~7.4M cons; openings-to-unemployed ~1:1",
+    "**Trade deficit Jun $73.3B** narrowed from revised $77.6B May — in line",
+    "**Factory Orders Jun −0.3% MoM MISS** vs +0.2–0.3% cons — first back-to-back monthly decline in nearly a year; core capex ex-aircraft revised up to +1.2%",
+    "**KC Fed Schmid HAWKISH Tue**: said 'some sort of monetary policy tightening is needed'; current stance 'not restrictive'; also flagged AI buildout financing as potential systemic risk",
+    "**Iran / Hormuz**: progress but NO finalized deal. Trump: deal 'could happen tomorrow or the next day'; emerging Iran-in/Oman-out shipping route framework reported; strikes still threatened if talks fail; Iran still denies direct US talks. Oil continuing lower on hopes.",
+    "**Oil 3rd day lower**: WTI sub-$75 / Brent ~$78 Wed AM (approx) after Mon −5% and Tue partial bounce — risk-premium unwind incomplete until signed deal + actual Hormuz traffic recovery",
+    "**Asia Wed**: Nikkei +3.33%, KOSPI +4.47%, HSI +0.24% to 25,915.82 — oil drop + US ATH follow-through",
+    "**US futures Wed AM**: ES ~+0.2–0.4%, YM ~+0.2%, NQ little changed (AMD overhang)",
+    "**MCD already reported Tue BC** — not on Wed calendar (prior brief had it Wed; corrected)",
+    "**Today Wed 8/5**: ADP 8:15 (cons conflicted ~70k vs ~120k across sources), ISM Services 10am, S&P Services PMI Final 9:45, DIS BC, no Fed speaker found for Wed"
   ],
-  "headline": "CORRECTION: Mon blowout was NOT a triple record — only DJI closed ATH (53,178); SPX 7,600 still under June 7,610; NDX 28,777 still under June 30,762. ISM 55.6 mega-beat + strike-cancel drove +1.3-1.8%; AMD tonight",
-  "client_frame": "**CORRECTION on ATH claims**: Mon was a strong session (+1.3-1.8%) on strike-cancel + ISM 55.6 blowout, but it was NOT a triple record. **Only DJI closed at a new record close** (53,178.41 vs Jul 6 prior close ATH 53,055.91; Mon high 53,230 still under Jul 7 high 53,289). **SPX 7,600.50 is still under the June 2 close ATH of 7,609.78** (−0.12%). **NDX 28,776.80 is still ~6.1% under the June 2 close ATH of 30,660.60** (June 3 high 30,762.20). Prior brief wrongly labeled all three as records. The substantive setup still holds: ISM Employment flipped to expansion after 33 months, Production highest since 2021, and **yields FELL** (10Y −5.7bp to 4.688%, 2Y −10.8bp to 4.252%) — a bull steepener despite the manufacturing surge. **Iran signals still diverge** (president MOU claim vs FM denial; Hormuz traffic still ~6 vessels Mon). **Client positioning**: (a) strength is real but NDX is a recovery rally off July lows, not price discovery at highs; (b) keep cheap VIX protection — deal not signed; (c) AMD tonight carries earnings risk; (d) NFP Fri is still THE catalyst.",
-  "as_of": "2026-08-04T11:00:00+00:00"
+  "headline": "SPX 7,737 + DJI 54,086 VERIFIED new ATHs Tue; NDX 29,733 still −3% under June ATH. AMD beat-and-fade −9% AH. Oil 3rd day lower on Hormuz-deal hopes. ADP + ISM Services today; DIS BC.",
+  "client_frame": "**Tue delivered verified dual ATHs — SPX 7,736.52 and DJI 54,085.88 — confirmed against June peaks via Polygon (prior SPX close ATH 7,609.78 on June 2). NDX 29,733.16 is a strong +3.32% day but still −3.0% under June 2 close ATH 30,660 / June 3 high 30,762 — do not call NDX a record.** AMD beat hard (rev $11.54B, adj EPS $1.66, DC +107% YoY, Q3 guide ~$13B) and still sold off 8–9% AH on flat GM guide + stretched valuation — classic beat-and-fade into elevated expectations. Macro mixed: JOLTS cooled to 7.36M, factory orders missed (−0.3%), trade deficit narrowed in line; KC Fed Schmid was hawkish ('tightening needed'). **Iran is still 'could happen tomorrow' not signed** — oil's third down day (WTI sub-$75 / Brent ~$78 approx) prices deal hopes, not deal certainty. **Today**: ADP 8:15 + ISM Services 10am are the labor/services read before Fri NFP; DIS BC. **Client**: (1) SPX/DJI ATH strength is real — NDX is still a recovery rally, not price discovery; (2) AMD AH fade is a reminder that good-but-not-perfect prints get sold after parabolic runs — trim into strength, don't chase semis into NFP; (3) oil unwind helps multiples and real incomes but reverses hard if talks fail (strikes still on the table); (4) VIX 16.50 is still cheap insurance into Fri NFP (cons +87–91k) under Warsh; (5) bull steepener (10Y 4.627%) needs NFP confirmation — cool NFP extends it, hot NFP + Schmid hawkishness re-steepens the hike path.",
+  "as_of": "2026-08-05T11:00:00+00:00"
 }
