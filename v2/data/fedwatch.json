@@ -1,7 +1,7 @@
 {
   "status": "LIVE",
-  "reportingDt": "2026-08-04",
-  "note": "Tue 10Y 4.627% (−5.9bp Polygon) after JOLTS cool; Schmid hawkish speech Tue. Fri NFP is the real curve catalyst. Prior Fri post-ECI reprint below until fresh CME pull.",
+  "reportingDt": "2026-08-05",
+  "note": "Wed ADP +44k miss + ISM Svcs Employment 47.4 contraction bid front end modestly (10Y 4.617%). Fri NFP is the real curve catalyst under Warsh. Prior post-ECI reprint below until fresh CME pull.",
   "meetings": [
     {"meetingDt": "2026-09-16", "reportingDt": "2026-07-31", "hold": 0.2900, "hike_25": 0.7100, "hike_50": 0, "hike_75": 0, "hike_100": 0, "cumulative_hike": 0.1775},
     {"meetingDt": "2026-10-28", "reportingDt": "2026-07-31", "hold": 0.2001, "hike_25": 0.5798, "hike_50": 0.2201, "hike_75": 0, "hike_100": 0, "cumulative_hike": 0.2550},

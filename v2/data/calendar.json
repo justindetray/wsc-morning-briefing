@@ -1,14 +1,11 @@
 {
-  "last_curated": "2026-08-05",
+  "last_curated": "2026-08-06",
   "macro": [
-    {"date": "2026-08-05", "time_et": "8:15 AM", "event": "ADP Employment (Jul)", "consensus": "conflicted ~70k–120k", "importance": "HIGH", "note": "Sources disagree on consensus; first private payrolls read of NFP week"},
-    {"date": "2026-08-05", "time_et": "9:45 AM", "event": "S&P Services PMI Final (Jul)", "consensus": null, "importance": "MEDIUM"},
-    {"date": "2026-08-05", "time_et": "10:00 AM", "event": "ISM Services (Jul)", "consensus": null, "importance": "HIGH", "note": "After Mon Mfg 55.6 blowout; employment sub-index key"},
-    {"date": "2026-08-07", "time_et": "8:30 AM", "event": "Employment Report (Jul) NFP", "consensus": "+87-91k jobs", "importance": "HIGH", "note": "First NFP under Warsh; UR + AHE key"}
+    {"date": "2026-08-06", "time_et": "8:30 AM", "event": "Initial Jobless Claims", "consensus": null, "importance": "HIGH", "note": "Post soft ADP +44k; NFP-week labor path"},
+    {"date": "2026-08-06", "time_et": "8:30 AM", "event": "Productivity & Unit Labor Costs (prelim)", "consensus": null, "importance": "MEDIUM", "note": "If scheduled; ULC feeds Warsh wage narrative"},
+    {"date": "2026-08-07", "time_et": "8:30 AM", "event": "Employment Report (Jul) NFP", "consensus": "+83-91k jobs", "importance": "HIGH", "note": "First NFP under Warsh; UR + AHE key after ADP miss + ISM Svcs Emp 47.4"}
   ],
   "earnings": [
-    {"date": "2026-08-05", "ticker": "DIS", "name": "Disney", "session": "BC", "importance": "MEDIUM", "note": "Cons EPS ~$1.85–1.89; parks + streaming + ESPN DTC"},
-    {"date": "2026-08-06", "ticker": "LLY", "name": "Eli Lilly", "session": "BC", "importance": "HIGH", "note": "GLP-1 franchise Zepbound/Mounjaro"},
     {"date": "2026-08-07", "ticker": "COIN", "name": "Coinbase", "session": "AC", "importance": "MEDIUM", "note": "Crypto exchange volume + custody + stablecoin"},
     {"date": "2026-08-08", "ticker": "BRK.B", "name": "Berkshire Hathaway", "session": "BC", "importance": "HIGH", "note": "Q2 confirmed Sat 8/8 per CNBC"}
   ]
