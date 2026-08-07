@@ -1,34 +1,32 @@
 {
   "asia_close": [
-    {"market": "Nikkei Thu close", "delta_pct": null, "level": null, "note": "Thu final unverified at build; Wed was +3.33% on US ATH + oil drop"},
-    {"market": "KOSPI Thu close", "delta_pct": null, "level": null, "note": "Thu final unverified; chip complex watched post AMD multi-day fade"},
-    {"market": "Hang Seng Thu close", "delta_pct": null, "level": null, "note": "Thu final unverified"},
-    {"market": "Europe STOXX 600", "delta_pct": null, "level": null, "note": "**STOXX 600 hit verified closing ATHs** for a third straight session Thu AM per Reuters — cleanest European record in this window"}
+    {"market": "Nikkei Fri", "delta_pct": null, "level": null, "note": "Down into NFP (exact close unverified at build)"},
+    {"market": "KOSPI Fri", "delta_pct": null, "level": null, "note": "Down; 7th straight weekly decline context flagged"},
+    {"market": "Hang Seng / Shanghai Fri", "delta_pct": null, "level": null, "note": "China complex mixed/up per overnight brief; exact levels vary"},
+    {"market": "Euro STOXX 50", "delta_pct": null, "level": null, "note": "**Euro STOXX 50 at genuine record** into NFP per overnight sources; Europe modestly higher"}
   ],
   "europe_open": [
-    {"market": "STOXX 600", "delta_pct": null, "level": null, "note": "Fresh all-time closing highs third straight session (Reuters); oil drop + US equity strength"}
+    {"market": "Europe", "delta_pct": null, "level": null, "note": "Modestly higher Fri AM; Euro STOXX 50 record noted — NFP is the global catalyst at 8:30 ET"}
   ],
   "single_name_moves": [
-    {"ticker": "AMD", "delta_pct": -7.0, "venue": "Wed cash", "note": "Continued slide ~−7% Wed after Tue AH beat-and-fade (−8–9%); two-day drawdown from cash peak ~$518 into mid-$430s area"},
-    {"ticker": "LLY", "delta_pct": null, "venue": "reported Wed BC (NOT Thu)", "note": "**Already reported Wed 8/5 BC** — blowout: adj EPS $8.38 vs $6.01–6.06 cons; rev $22.97B vs $20.73B; Mounjaro/Zepbound drove. NOT on Thu calendar."},
-    {"ticker": "DIS", "delta_pct": null, "venue": "Wed BC", "note": "Beat EPS, slight rev miss; guided FY26 EPS below Street — parks/streaming mixed, ESPN DTC watch"},
-    {"ticker": "MCD", "delta_pct": null, "venue": "Tue BC", "note": "Already reported Tue; adj EPS $3.38 beat"}
+    {"ticker": "AMD", "delta_pct": null, "venue": "multi-day post-print", "note": "Continued multi-day fade after Tue beat-and-raise (−5.6% to −8.8% range cited midweek); semis still overhang NDX"},
+    {"ticker": "LLY", "delta_pct": 4.82, "venue": "Wed cash (follow-through)", "note": "Wed blowout + guidance raise still the GLP-1 tape; +4.82% Wed session cited"},
+    {"ticker": "COIN", "delta_pct": null, "venue": "NOT reporting today", "note": "**Already reported July 30 (miss)** — no COIN earnings event today; prior calendar was wrong"}
   ],
   "geo_headlines": [
-    "**ATH CHECK (Polygon)**: DJI Wed close 54,349.12 YES new ATH close+high (high 54,744). SPX Wed close 7,723.55 NOT ATH close (Tue 7,736.52 still close ATH) but intraday high 7,793.68 WAS new high then faded. NDX 29,487.79 NOT ATH — still −3.8% under June 2 close 30,660 / June 3 high 30,762.",
-    "**ADP Jul +44k BIG MISS** vs ~65–75k cons — softest private payrolls print of NFP week; VIX spiked to 18.43 then collapsed to 15.81 close",
-    "**ISM Services Jul 54.1 vs ~54.5 cons MISS** — still expansion but Employment sub-index fell back to **47.4 contraction** (after Mfg Employment flipped expansion Mon)",
-    "**S&P Services PMI Final Jul** — released Wed; details secondary to ISM",
-    "**LLY reported WED 8/5 (not Thu as prior calendar had)** — blowout beat EPS $8.38 vs $6.01–6.06, rev $22.97B vs $20.73B on Mounjaro/Zepbound; confirmed via Lilly IR + 10am ET call",
-    "**DIS Wed BC**: EPS beat, rev slight miss, FY26 EPS guide below Street",
-    "**AMD Wed cash ~−7%** — continued post-earnings fade after Tue AH −8–9%; semis drag on NDX",
-    "**Gold Wed +5.1% to ~$4,278** (Polygon) / press ~$4,330 — 7-week high, NOT ATH (Jan ~$5,513); deal-uncertainty + rates bid",
-    "**Iran/Hormuz narrative vs reality**: deal optimism still dominates pricing (oil lower, equities firm) but Kpler/Lloyd's List tanker transit still ~75% below pre-crisis — no signed deal; gap is the risk",
-    "**Europe**: STOXX 600 verified closing ATHs third straight session Thu AM (Reuters)",
-    "**Today Thu 8/6**: Initial Jobless Claims 8:30, Productivity/Unit Labor Costs if scheduled; NO LLY (already reported); no confirmed Fed speaker found",
-    "**Fri NFP**: consensus still **+83–91k** range across surveys (aligned with prior +87–91k); first NFP under Warsh; UR + AHE key after soft ADP"
+    "**ATH CHECK (Polygon Thu 8/6)**: NO new ATHs. SPX 7,709.96 NOT ATH (close ATH still Tue 7,736.52; high ATH still Wed 7,793.68). DJI 53,885.10 NOT ATH (gave back Wed 54,349 / 54,744). NDX 29,373.33 NOT ATH (−4.2% under June 30,660 / 30,762).",
+    "**NFP DAY 8:30 ET — first print under Fed Chair Warsh**. Consensus dispersed 70–130k across desks; core cluster ~80–90k (aligned with prior +83–91k). AHE cons ~+0.3% MoM / +3.5% YoY. UR split 4.2% hold vs 4.3% tick-up. Soft ADP +44k raises sub-100k odds; AHE is the Warsh variable.",
+    "**Thu claims mixed**: Initial Jobless Claims **199k BEAT** vs ~203k cons; Continuing claims **1.801M MISS** vs ~1.790M — soft underbelly persists",
+    "**Q2 Productivity +1.4% BEAT** vs +0.6–0.7% cons; **Unit Labor Costs +1.3% SOFT** vs ~2.1–2.2% — disinflationary internals mix into NFP",
+    "**VIX 15.15** into first Warsh NFP — very cheap event vol after Wed ADP spike to 18.43",
+    "**US10Y backed up +5.3bp to 4.670%** Thu — soft-ADP bid faded; FedWatch characterized closer to even hold/hike vs 63% hike a week prior",
+    "**Iran/Hormuz**: traffic ~33 vessels this week (~75–80% below pre-crisis); Iran-Oman deal framework reportedly close but unconfirmed / denied by Iran — oil still pricing hopes more than traffic",
+    "**US futures Fri AM essentially flat** into NFP — no strong directional lean pre-print",
+    "**St. Louis Fed Musalem speaks Fri** — hawkish lean expected",
+    "**COIN does NOT report today** — already reported July 30 (miss). Berkshire Q2 confirmed Sat 8/8.",
+    "**Europe**: Euro STOXX 50 at genuine record into NFP; Asia mixed (Nikkei/KOSPI soft, China firmer)"
   ],
-  "headline": "DJI 54,349 VERIFIED new ATH; SPX faded from intraday ATH high 7,794; NDX −0.8% still −3.8% under June. ADP +44k miss + ISM Svcs Employment 47.4 contraction. LLY already blew out Wed. Oil lower / tanker traffic still −75%. NFP Fri.",
-  "client_frame": "**Wed was a classic risk-on-with-cracks session.** DJI made another verified ATH close (54,349 / high 54,744). SPX printed a new intraday high (7,793.68) then closed −0.17% below Tue's close ATH — not a close record. NDX −0.83% remains a recovery trade (−3.8% under June ATH), dragged by AMD's second day of post-print fade (~−7% Wed after −8–9% AH Tue). **Labor is cooling into NFP**: ADP +44k missed hard vs 65–75k, and ISM Services Employment fell back to 47.4 contraction even as headline services stayed in expansion (54.1). That combination — soft private payrolls + services hiring back in contraction — raises the odds of a sub-100k NFP Friday and extends the bull-steepener path, unless AHE stays hot. **LLY already reported Wed** (not today): blowout $8.38 EPS / $22.97B rev on GLP-1 — calendar corrected. **Iran remains the oil trap**: prices keep sliding on deal hopes while actual Hormuz tanker traffic is still ~75% below pre-crisis (Kpler/Lloyd's). **Client**: (1) DJI strength is real price discovery; NDX is not — size tech accordingly; (2) soft ADP is a gift for duration and a warning for cyclicals if NFP confirms; (3) do not treat oil weakness as permanent until tanker counts recover; (4) VIX 15.81 after spiking to 18.43 on ADP is still cheap NFP insurance; (5) Fri NFP (cons ~+83–91k) + AHE is the week's real catalyst under Warsh.",
-  "as_of": "2026-08-06T11:00:00+00:00"
+  "headline": "NFP DAY 8:30 ET (first under Warsh): cons cluster ~80–90k, AHE +0.3%/+3.5% YoY key. Thu pullback — no ATHs; DJI −0.85% gave back Wed record. Claims 199k beat / continuing miss. VIX 15.15 cheap. COIN already reported Jul 30.",
+  "client_frame": "**Today is the week's real catalyst: first NFP under Fed Chair Warsh at 8:30 ET.** Setup into the print is a consolidation after Mon–Wed risk-on: no ATHs Thursday — SPX −0.18% to 7,710 (still under Tue close ATH 7,736.52), DJI −0.85% to 53,885 (gave back Wed 54,349 ATH), NDX −0.39% to 29,373 (still −4.2% under June ATH). VIX crushed to 15.15 — too cheap for a Warsh-regime payrolls print. **Labor path into NFP is soft-leaning but not collapse**: ADP +44k miss, ISM Services Employment 47.4 contraction, claims 199k beat but continuing claims missed high, productivity strong / ULC soft (disinflationary). Consensus is messy (70–130k desks; core ~80–90k). **What matters for Warsh**: (1) payrolls vs ~85k cluster; (2) AHE MoM — hot AHE re-opens hike path even on soft jobs; (3) UR tick to 4.3% would reinforce cooling narrative. **Hot jobs + hot AHE** = yields up, Sept hike odds reprice higher, equity multiple compression. **Cool jobs + cool AHE** = bull steepener extends, cyclicals/duration work, VIX crush continues. **Cool jobs + hot AHE** = the ugly stagflation-lite mix Warsh has flagged. **Iran remains a separate oil trap** — deal hopes in the price, tanker traffic still ~75–80% below pre-crisis. **Client**: (1) size risk into 8:30 — do not hold oversized directional into first Warsh NFP with VIX 15; (2) AHE > payrolls headline for rate path; (3) NDX is still a recovery trade not ATH — AMD fade not fully washed; (4) ignore COIN today (already reported Jul 30); (5) Berkshire Sat is weekend color not a trading catalyst.",
+  "as_of": "2026-08-07T11:00:00+00:00"
 }

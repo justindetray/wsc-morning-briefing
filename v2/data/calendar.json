@@ -1,12 +1,10 @@
 {
-  "last_curated": "2026-08-06",
+  "last_curated": "2026-08-07",
   "macro": [
-    {"date": "2026-08-06", "time_et": "8:30 AM", "event": "Initial Jobless Claims", "consensus": null, "importance": "HIGH", "note": "Post soft ADP +44k; NFP-week labor path"},
-    {"date": "2026-08-06", "time_et": "8:30 AM", "event": "Productivity & Unit Labor Costs (prelim)", "consensus": null, "importance": "MEDIUM", "note": "If scheduled; ULC feeds Warsh wage narrative"},
-    {"date": "2026-08-07", "time_et": "8:30 AM", "event": "Employment Report (Jul) NFP", "consensus": "+83-91k jobs", "importance": "HIGH", "note": "First NFP under Warsh; UR + AHE key after ADP miss + ISM Svcs Emp 47.4"}
+    {"date": "2026-08-07", "time_et": "8:30 AM", "event": "Employment Report (Jul) NFP", "consensus": "+80-90k cluster (range 70-130k)", "importance": "HIGH", "note": "FIRST NFP under Fed Chair Warsh; AHE MoM/YoY + UR key; soft ADP +44k + ISM Svcs Emp 47.4 context"},
+    {"date": "2026-08-07", "time_et": "TBD", "event": "St. Louis Fed Musalem speaks", "consensus": null, "importance": "MEDIUM", "note": "Hawkish lean expected; post-NFP reaction function"}
   ],
   "earnings": [
-    {"date": "2026-08-07", "ticker": "COIN", "name": "Coinbase", "session": "AC", "importance": "MEDIUM", "note": "Crypto exchange volume + custody + stablecoin"},
-    {"date": "2026-08-08", "ticker": "BRK.B", "name": "Berkshire Hathaway", "session": "BC", "importance": "HIGH", "note": "Q2 confirmed Sat 8/8 per CNBC"}
+    {"date": "2026-08-08", "ticker": "BRK.B", "name": "Berkshire Hathaway", "session": "BC", "importance": "HIGH", "note": "Q2 confirmed Sat 8/8 — weekend color, not a Fri session catalyst"}
   ]
 }
