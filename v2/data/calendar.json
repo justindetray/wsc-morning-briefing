@@ -1,10 +1,10 @@
 {
-  "last_curated": "2026-08-07",
+  "last_curated": "2026-08-08",
   "macro": [
-    {"date": "2026-08-07", "time_et": "8:30 AM", "event": "Employment Report (Jul) NFP", "consensus": "+80-90k cluster (range 70-130k)", "importance": "HIGH", "note": "FIRST NFP under Fed Chair Warsh; AHE MoM/YoY + UR key; soft ADP +44k + ISM Svcs Emp 47.4 context"},
-    {"date": "2026-08-07", "time_et": "TBD", "event": "St. Louis Fed Musalem speaks", "consensus": null, "importance": "MEDIUM", "note": "Hawkish lean expected; post-NFP reaction function"}
+    {"date": "2026-08-12", "time_et": "8:30 AM", "event": "CPI (Jul)", "consensus": "TBD into Mon", "importance": "HIGH", "note": "BLS-confirmed Wed 8/12 — next real test after soft NFP; core CPI key for Warsh path"},
+    {"date": "2026-08-13", "time_et": "8:30 AM", "event": "PPI (Jul)", "consensus": "TBD into Mon", "importance": "HIGH", "note": "BLS-confirmed Thu 8/13 — pipeline inflation after NFP miss"}
   ],
   "earnings": [
-    {"date": "2026-08-08", "ticker": "BRK.B", "name": "Berkshire Hathaway", "session": "BC", "importance": "HIGH", "note": "Q2 confirmed Sat 8/8 — weekend color, not a Fri session catalyst"}
+    {"date": "2026-08-08", "ticker": "BRK.B", "name": "Berkshire Hathaway", "session": "BC", "importance": "HIGH", "note": "Q2 targeted ~8am ET Sat 8/8 — NOT YET RELEASED at ~7am weekend build; operating earnings + cash + buybacks when out"}
   ]
 }
