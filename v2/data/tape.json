@@ -5,7 +5,7 @@
     "status": "CLOSED",
     "prev_close": 7709.96,
     "delta_pct": 0.62,
-    "label": "S&P 500 Fri +0.62% — VERIFIED NEW ATH CLOSE 7,757.64 (prior close ATH Tue 7,736.52); high 7,763 still under Wed 7,793.68",
+    "label": "S&P 500 Fri close — VERIFIED NEW ATH CLOSE 7,757.64 (prior Tue 7,736.52); high still under Wed 7,793.68; futures reopen Sun 6pm ET",
     "source": "polygon:I:SPX"
   },
   "NDX": {
@@ -14,7 +14,7 @@
     "status": "CLOSED",
     "prev_close": 29373.33,
     "delta_pct": 1.19,
-    "label": "Nasdaq 100 Fri +1.19% — NOT ATH (still −3.1% under June 2 close 30,660 / June 3 high 30,762); soft NFP = duration/tech bid",
+    "label": "Nasdaq 100 Fri +1.19% — NOT ATH (still −3.1% under June 2 close 30,660 / June 3 high 30,762)",
     "source": "polygon:I:NDX"
   },
   "DJI": {
@@ -23,7 +23,7 @@
     "status": "CLOSED",
     "prev_close": 53885.10,
     "delta_pct": 0.28,
-    "label": "Dow Fri +152pts +0.28% — NOT ATH (still under Wed close ATH 54,349 / high 54,744)",
+    "label": "Dow Fri +0.28% — NOT ATH (under Wed close ATH 54,349 / high 54,744)",
     "source": "polygon:I:DJI"
   },
   "VIX": {
@@ -32,7 +32,7 @@
     "status": "CLOSED",
     "prev_close": 15.15,
     "delta_pct": -1.65,
-    "label": "VIX Fri −1.7% to 14.90 — crushed post soft NFP; sub-15 into weekend",
+    "label": "VIX Fri 14.90 — sub-15 into CPI week is complacent; weekend Iran ADNOC strike is a vol risk",
     "source": "polygon:I:VIX"
   },
   "US10Y": {
@@ -41,7 +41,7 @@
     "status": "CLOSED",
     "prev_close": 4.670,
     "delta_pct": -0.21,
-    "label": "US 10Y Fri 4.660% −1bp (Polygon TNX); NFP miss flipped Sept toward hold",
+    "label": "US 10Y Fri 4.660% (Polygon TNX); Sept hold-favored post −23k NFP",
     "source": "polygon:I:TNX"
   },
   "US2Y": {
@@ -50,26 +50,26 @@
     "status": "CLOSED",
     "prev_close": 4.280,
     "delta_pct": -1.40,
-    "label": "US 2Y Fri ~4.22% — front end rallied on −23k NFP + soft AHE",
+    "label": "US 2Y Fri ~4.22% — front end bid on soft NFP + soft AHE; CPI Wed is the test",
     "source": "market",
     "unit": "%"
   },
   "WTI": {
-    "value": 72.50,
-    "as_of": "2026-08-08T11:00:00+00:00",
+    "value": 73.50,
+    "as_of": "2026-08-09T11:00:00+00:00",
     "status": "CLOSED",
-    "prev_close": 73.00,
-    "delta_pct": -0.68,
-    "label": "WTI Fri settle area low-$70s (approx) — weekend closed; Hormuz deal still unfinalized",
+    "prev_close": 72.50,
+    "delta_pct": 1.38,
+    "label": "WTI weekend closed — Sat ADNOC vessel missile strike reopens oil upside risk into Sun 6pm reopen",
     "source": "market"
   },
   "BRENT": {
-    "value": 77.00,
-    "as_of": "2026-08-08T11:00:00+00:00",
+    "value": 78.00,
+    "as_of": "2026-08-09T11:00:00+00:00",
     "status": "CLOSED",
-    "prev_close": 77.50,
-    "delta_pct": -0.65,
-    "label": "Brent Fri settle ~$77 area (approx) — traffic still deeply impaired vs pre-crisis",
+    "prev_close": 77.00,
+    "delta_pct": 1.30,
+    "label": "Brent weekend closed — Hormuz still impaired; Iran says full reopen needs US 'behavior' change",
     "source": "market"
   },
   "GOLD": {
@@ -78,16 +78,16 @@
     "status": "CLOSED",
     "prev_close": 4252.10,
     "delta_pct": 2.07,
-    "label": "Gold Fri $4,340 +2.1% (Polygon) — NOT ATH (Jan peak ~$5,500+); rates + geo bid",
+    "label": "Gold Fri $4,340 +2.1% (Polygon) — NOT ATH (Jan ~$5,500+); geo + rates bid held into weekend",
     "source": "polygon:C:XAUUSD"
   },
   "BTC": {
-    "value": 64891.61,
-    "as_of": "2026-08-07T23:59:59+00:00",
+    "value": 64908.72,
+    "as_of": "2026-08-08T23:59:59+00:00",
     "status": "LIVE",
-    "prev_close": 64259.20,
-    "delta_pct": 0.98,
-    "label": "BTC Fri close $64,891.61 +0.98% (range 64,099–65,423); weekend risk-on on soft NFP",
+    "prev_close": 64891.61,
+    "delta_pct": 0.03,
+    "label": "BTC Sat close $64,908.72 basically flat (range 64,790–65,214); consolidating Fri NFP bid",
     "source": "polygon:X:BTCUSD"
   }
 }

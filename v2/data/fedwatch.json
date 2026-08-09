@@ -1,7 +1,7 @@
 {
   "status": "LIVE",
   "reportingDt": "2026-08-07",
-  "note": "POST-NFP: Sept flipped hold-favored ~56-60% hold / ~44% hike (overnight sources). Only Sept row updated from that range (using 58/42 midpoint). Oct/Dec/Jan rows are PRIOR pre-NFP structure and STALE — not a fresh CME scrape. Directional signal = Sept hold flip after -23k NFP.",
+  "note": "POST-NFP carry into Sun: Sept hold-favored ~56-60% / hike ~44% (Fri sources; 58/42 midpoint). Oct/Dec/Jan rows STALE pre-NFP. CPI Wed 8/12 is next reprice catalyst. Sat ADNOC strike is geo risk not yet in Fri close odds.",
   "meetings": [
     {"meetingDt": "2026-09-16", "reportingDt": "2026-08-07", "hold": 0.5800, "hike_25": 0.4200, "hike_50": 0, "hike_75": 0, "hike_100": 0, "cumulative_hike": 0.1050},
     {"meetingDt": "2026-10-28", "reportingDt": "2026-07-31", "hold": 0.2001, "hike_25": 0.5798, "hike_50": 0.2201, "hike_75": 0, "hike_100": 0, "cumulative_hike": 0.2550},

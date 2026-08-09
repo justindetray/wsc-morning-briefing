@@ -1,26 +1,26 @@
 {
   "asia_close": [
-    {"market": "Weekend — Asia closed", "delta_pct": null, "level": null, "note": "Next session Mon 8/10; NFP miss + Sept hold flip is the handoff into Asia open Sun night ET"}
+    {"market": "Weekend — Asia closed", "delta_pct": null, "level": null, "note": "Mon 8/10 open prices soft NFP + Berkshire Q2 + Sat ADNOC vessel strike; CME futures reopen Sun 6pm ET"}
   ],
   "europe_open": [
-    {"market": "Weekend — Europe closed", "delta_pct": null, "level": null, "note": "Mon open will price soft NFP + any weekend Berkshire/Iran headlines"}
+    {"market": "Weekend — Europe closed", "delta_pct": null, "level": null, "note": "Mon open: NFP hold-flip vs Iran escalation risk is the cross-current"}
   ],
   "single_name_moves": [
-    {"ticker": "BRK.B", "delta_pct": null, "venue": "Sat Q2 pending", "note": "**Berkshire Q2 NOT yet released as of ~7am ET Sat** — official target ~8am ET Sat; only pre-release estimates exist until then"},
-    {"ticker": "AMD", "delta_pct": null, "venue": "week follow-through", "note": "Multi-day post-print fade earlier in week; Fri NDX +1.19% recovery bid on soft NFP duration relief"},
-    {"ticker": "LLY", "delta_pct": null, "venue": "Wed blowout carried", "note": "Wed EPS $8.38 / rev $22.97B Mounjaro-Zepbound still the GLP-1 tape"}
+    {"ticker": "BRK.B", "delta_pct": null, "venue": "Sat Q2 RELEASED", "note": "**Q2 OUT**: op. earnings $12.983B (+16.3% YoY); net $25.667B (+107.5%); cash/T-bills $365.5B (down from Q1 record $397.4B); buybacks ~$4.5–4.6B (~20× Q1); net equity BUYER first time in 14 quarters (~$20B net); post-qtr Taylor Morrison $8.5B deal"},
+    {"ticker": "AAPL", "delta_pct": null, "venue": "Berkshire stake context", "note": "Still core BRK holding; Berkshire flipped to net equity buyer overall — watch 13F for Apple trim/add detail later"},
+    {"ticker": "AMD", "delta_pct": null, "venue": "week fade context", "note": "Prior multi-day post-print fade; Fri NDX recovery on soft NFP duration bid"}
   ],
   "geo_headlines": [
-    "**NFP Jul ACTUAL (BLS-verified): −23,000 vs ~+80–90k cons — MASSIVE MISS**. First print under Fed Chair Warsh. Unemployment rate fell to **4.1%**. AHE soft **+3.2% YoY** (below ~+3.5% cons). May/June revised down a net **−103,000**. Characterized as clear cooling — soft jobs + soft wages.",
-    "**Fri reaction**: SPX **7,757.64 +0.62% VERIFIED NEW ATH CLOSE** (prior close ATH Tue 7,736.52); high 7,763 still under Wed intraday ATH 7,793.68. NDX **29,722 +1.19% NOT ATH** (−3.1% under June). DJI **54,037 +0.28% NOT ATH**. VIX crushed to **14.90**. Gold +2.1% to $4,340. BTC +0.98% to $64,892.",
-    "**FedWatch post-NFP**: flipped from hike-favored to **hold-favored for Sept (~56–60% hold vs ~44% hike)** — major regime shift from Fri-morning even/hike lean and from prior week's ~63–71% hike odds",
-    "**Musalem comments were Thu 8/6 not Fri** — corrected; no material Fri Fed speaker color post-print beyond market pricing",
-    "**Berkshire Q2**: targeted ~8am ET Sat 8/8 — **not yet released at weekend brief build (~7am ET)**; do not invent numbers",
-    "**Iran/Hormuz**: framework agreed but not finalized; no new strikes Fri–Sat reported; tanker traffic still deeply impaired",
-    "**Week ahead (BLS-confirmed)**: **CPI Wed 8/12**, **PPI Thu 8/13** — the next macro catalysts after soft NFP; exact CPI/PPI consensus TBD into Mon",
-    "**Client handoff into Mon**: soft NFP + soft AHE + negative revisions = duration and quality-growth bid until CPI; watch whether Warsh pushes back on market's hold pricing Mon–Tue"
+    "**NFP carry (Fri BLS)**: −23,000 vs ~+80–90k MASSIVE MISS; UR 4.1%; AHE soft +3.2% YoY; May/Jun −103k revisions. First Warsh print = clear cooling. Sept flipped hold-favored ~56–60%.",
+    "**ATH carry (Polygon Fri)**: SPX 7,757.64 YES new ATH CLOSE (prior Tue 7,736.52); high still under Wed 7,793.68. NDX 29,722 NOT ATH (−3.1% under June). DJI 54,037 NOT ATH. VIX 14.90.",
+    "**Berkshire Q2 RELEASED Sat** (official PDF): Operating earnings **$12.983B +16.3% YoY**; net earnings **$25.667B +107.5%**; cash/T-bill pile **$365.5B** (down from Q1 record $397.4B); buybacks reaccelerated to **~$4.5–4.6B** (~20× Q1's pace); **net equity BUYER first time in 14 quarters (~$20B net)**; post-quarter **Taylor Morrison $8.5B** homebuilder acquisition. Insurance/GEICO + BNSF + BHE segment strength underlying op. beat.",
+    "**Iran weekend ESCALATION**: confirmed **NEW missile attack on an ADNOC vessel Sat 8/8**. Framework described as 'finalized' per Iran but not fully signed. Iranian officials: Hormuz will not fully reopen until US 'corrects its behavior.' Netanyahu unilateral-action hints noted. Tanker traffic still well below baseline — deal hopes vs kinetic reality gap widened Sat.",
+    "**BTC Sat $64,908.72 basically flat** (Polygon) — held Fri NFP bid, no further squeeze",
+    "**Sunday shows**: Face the Nation guests Cassidy/Sanders/Bhattacharya — no Fed Chair or Iran-principal appearance confirmed; other shows unconfirmed",
+    "**CME futures reopen Sun 6pm ET** — cross-current: soft NFP/hold-flip (risk-on) vs Sat ADNOC strike (oil/vol bid)",
+    "**Week ahead**: Fed's Bowman speaks Mon 8/10 (flag conflict on exact calendar source). **CPI Wed 8/12** cons headline ~**3.4% YoY** (core TBD into Mon). **PPI Thu 8/13**. Retail Sales + Michigan also on deck this week. CPI is the real test of whether soft labor = soft inflation for Warsh path."
   ],
-  "headline": "NFP −23k MASSIVE miss (first under Warsh); UR 4.1%; AHE soft +3.2% YoY; May/Jun −103k revised. SPX 7,758 NEW ATH CLOSE; VIX 14.90; Sept flipped to hold ~56–60%. Berkshire Q2 ~8am Sat pending. CPI Wed / PPI Thu next.",
-  "client_frame": "**The first Warsh NFP was a decisive miss: −23,000 payrolls vs ~+80–90k consensus, AHE soft at +3.2% YoY, and May/June revised down a net −103,000.** Unemployment falling to 4.1% is the one tight-looking print, but the level of jobs destruction + revisions dominates. Markets did the textbook soft-landing/recession-insurance trade: SPX to a **verified new closing ATH 7,757.64**, NDX +1.19% (still not June ATH), VIX to 14.90, gold +2%, BTC +1%, and **Sept odds flipped to hold-favored (~56–60%)** from hike-leaning. That is a large two-week swing in the policy path. **Weekend caveats**: (1) Berkshire Q2 due ~8am Sat — treat as color when it drops, not yet in this build; (2) Iran framework still unfinalized — oil trap remains if talks fail; (3) VIX 14.90 into a CPI week is complacent — Wed CPI is the next real test of whether soft labor = soft inflation. **Client message**: The labor side of the Warsh hawk case just took a body blow; do not assume the hold pricing sticks until CPI/PPI confirm disinflation. Prefer quality duration and balanced growth over pure cyclical chase on one NFP print. NDX is a recovery rally still −3% under June — not price discovery at highs. Keep some event vol into Wed CPI.",
-  "as_of": "2026-08-08T11:00:00+00:00"
+  "headline": "Berkshire Q2: op. $13.0B +16%, cash $365B, buybacks $4.5B, net equity buyer first time 14 qtrs + Taylor Morrison $8.5B. Sat ADNOC vessel missile strike reopens Iran oil risk. NFP −23k / SPX ATH close / Sept hold ~58% carry. CPI Wed 3.4% YoY cons.",
+  "client_frame": "**Weekend added two material inputs to the Fri NFP regime shift.** First, **Berkshire Q2 is constructive-and-active**: operating earnings $12.98B (+16% YoY), net $25.7B, cash still enormous at $365.5B (down from $397B as they put money to work), buybacks reaccelerated ~20× Q1, and — most important signal — **net equity buyer for the first time in 14 quarters (~$20B)** plus post-quarter Taylor Morrison $8.5B. That is Buffett re-engaging risk after a long drought, not retreating. Second, **Iran risk reopened Saturday**: a confirmed missile strike on an ADNOC vessel undercuts the 'deal perimeters / Hormuz opening' narrative; Iran says full reopen requires US behavior change; framework still not fully signed. **Mon open cross-current**: soft NFP + Sept hold flip + Berkshire buy-signal (risk-on) versus ADNOC strike + impaired Hormuz traffic (oil/vol). VIX 14.90 into that is too calm. **Client**: (1) do not fade Berkshire's net-buy signal lightly — it's rare; (2) do not treat oil weakness as permanent after Sat's strike; (3) CPI Wed (~3.4% YoY cons) decides whether the NFP-driven hold pricing sticks; (4) NDX still −3% under June ATH — recovery not price discovery; (5) keep event vol into Wed CPI and treat Sun 6pm oil reopen as live risk.",
+  "as_of": "2026-08-09T11:00:00+00:00"
 }

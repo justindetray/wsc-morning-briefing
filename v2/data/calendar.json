@@ -1,10 +1,13 @@
 {
-  "last_curated": "2026-08-08",
+  "last_curated": "2026-08-09",
   "macro": [
-    {"date": "2026-08-12", "time_et": "8:30 AM", "event": "CPI (Jul)", "consensus": "TBD into Mon", "importance": "HIGH", "note": "BLS-confirmed Wed 8/12 — next real test after soft NFP; core CPI key for Warsh path"},
-    {"date": "2026-08-13", "time_et": "8:30 AM", "event": "PPI (Jul)", "consensus": "TBD into Mon", "importance": "HIGH", "note": "BLS-confirmed Thu 8/13 — pipeline inflation after NFP miss"}
+    {"date": "2026-08-10", "time_et": "TBD", "event": "Fed's Bowman speaks", "consensus": null, "importance": "MEDIUM", "note": "First post-NFP Fed speaker of the week; calendar source conflict flagged"},
+    {"date": "2026-08-12", "time_et": "8:30 AM", "event": "CPI (Jul)", "consensus": "headline ~3.4% YoY; core TBD", "importance": "HIGH", "note": "BLS Wed 8/12 — real test of NFP-driven hold pricing under Warsh"},
+    {"date": "2026-08-13", "time_et": "8:30 AM", "event": "PPI (Jul)", "consensus": "TBD (dispersion across sources)", "importance": "HIGH", "note": "BLS Thu 8/13 — pipeline inflation"},
+    {"date": "2026-08-13", "time_et": "8:30 AM", "event": "Retail Sales (Jul)", "consensus": null, "importance": "MEDIUM", "note": "If on standard mid-month schedule — confirm Mon"},
+    {"date": "2026-08-14", "time_et": "10:00 AM", "event": "Michigan Consumer Sentiment (prelim)", "consensus": null, "importance": "MEDIUM"}
   ],
   "earnings": [
-    {"date": "2026-08-08", "ticker": "BRK.B", "name": "Berkshire Hathaway", "session": "BC", "importance": "HIGH", "note": "Q2 targeted ~8am ET Sat 8/8 — NOT YET RELEASED at ~7am weekend build; operating earnings + cash + buybacks when out"}
+    {"date": "2026-08-08", "ticker": "BRK.B", "name": "Berkshire Hathaway", "session": "BC", "importance": "HIGH", "note": "Q2 RELEASED Sat: op $12.98B +16%, cash $365.5B, buybacks ~$4.5B, net equity buyer 1st time 14 qtrs, Taylor Morrison $8.5B"}
   ]
 }
