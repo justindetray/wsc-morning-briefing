@@ -5,7 +5,7 @@
     "status": "CLOSED",
     "prev_close": 7709.96,
     "delta_pct": 0.62,
-    "label": "S&P 500 Fri close — VERIFIED NEW ATH CLOSE 7,757.64 (prior Tue 7,736.52); high still under Wed 7,793.68; futures reopen Sun 6pm ET",
+    "label": "S&P 500 Fri close 7,757.64 — VERIFIED ATH CLOSE (prior Tue 7,736.52); intraday ATH still Wed 7,793.68. ES futures Mon AM modestly lower",
     "source": "polygon:I:SPX"
   },
   "NDX": {
@@ -14,7 +14,7 @@
     "status": "CLOSED",
     "prev_close": 29373.33,
     "delta_pct": 1.19,
-    "label": "Nasdaq 100 Fri +1.19% — NOT ATH (still −3.1% under June 2 close 30,660 / June 3 high 30,762)",
+    "label": "Nasdaq 100 Fri 29,722.30 — NOT ATH (−3.1% under June 2 close 30,660.60 / June 3 high 30,762.20); NQ futures best-relative Mon AM",
     "source": "polygon:I:NDX"
   },
   "DJI": {
@@ -23,7 +23,7 @@
     "status": "CLOSED",
     "prev_close": 53885.10,
     "delta_pct": 0.28,
-    "label": "Dow Fri +0.28% — NOT ATH (under Wed close ATH 54,349 / high 54,744)",
+    "label": "Dow Fri 54,036.93 — NOT ATH (under Wed close 54,349.12 / high 54,744.33); YM futures UNDERPERFORMING Mon AM on oil sensitivity",
     "source": "polygon:I:DJI"
   },
   "VIX": {
@@ -32,7 +32,7 @@
     "status": "CLOSED",
     "prev_close": 15.15,
     "delta_pct": -1.65,
-    "label": "VIX Fri 14.90 — sub-15 into CPI week is complacent; weekend Iran ADNOC strike is a vol risk",
+    "label": "VIX Fri 14.90 — sub-15 into CPI Wed + unresolved Hormuz; cheapest hedge window of the week",
     "source": "polygon:I:VIX"
   },
   "US10Y": {
@@ -41,7 +41,7 @@
     "status": "CLOSED",
     "prev_close": 4.670,
     "delta_pct": -0.21,
-    "label": "US 10Y Fri 4.660% (Polygon TNX); Sept hold-favored post −23k NFP",
+    "label": "US 10Y Fri 4.660% (Polygon TNX); Sept hold-favored post −23k NFP — CPI Wed is the reprice risk",
     "source": "polygon:I:TNX"
   },
   "US2Y": {
@@ -50,44 +50,44 @@
     "status": "CLOSED",
     "prev_close": 4.280,
     "delta_pct": -1.40,
-    "label": "US 2Y Fri ~4.22% — front end bid on soft NFP + soft AHE; CPI Wed is the test",
+    "label": "US 2Y Fri ~4.22% — front end holding NFP rally into CPI",
     "source": "market",
     "unit": "%"
   },
   "WTI": {
-    "value": 73.50,
-    "as_of": "2026-08-09T11:00:00+00:00",
-    "status": "CLOSED",
-    "prev_close": 72.50,
-    "delta_pct": 1.38,
-    "label": "WTI weekend closed — Sat ADNOC vessel missile strike reopens oil upside risk into Sun 6pm reopen",
-    "source": "market"
+    "value": 78.80,
+    "as_of": "2026-08-10T10:00:00+00:00",
+    "status": "LIVE",
+    "prev_close": 78.18,
+    "delta_pct": 0.79,
+    "label": "WTI $78.80 +0.8% vs Fri settle $78.18 (Reuters Asia wrap). CORRECTION: prior briefs carried ~$72–73 approximations — those were WRONG; $78.18 is the verified Fri settle",
+    "source": "reuters"
   },
   "BRENT": {
-    "value": 78.00,
-    "as_of": "2026-08-09T11:00:00+00:00",
-    "status": "CLOSED",
-    "prev_close": 77.00,
-    "delta_pct": 1.30,
-    "label": "Brent weekend closed — Hormuz still impaired; Iran says full reopen needs US 'behavior' change",
-    "source": "market"
+    "value": 84.40,
+    "as_of": "2026-08-10T10:00:00+00:00",
+    "status": "LIVE",
+    "prev_close": 83.55,
+    "delta_pct": 1.02,
+    "label": "Brent $84.40 +1.0% vs Fri settle $83.55 (Reuters Asia wrap; later Europe read $83.98 +0.6%). CORRECTION: prior ~$77 marks were WRONG",
+    "source": "reuters"
   },
   "GOLD": {
-    "value": 4340.11,
-    "as_of": "2026-08-07T20:00:00+00:00",
-    "status": "CLOSED",
-    "prev_close": 4252.10,
-    "delta_pct": 2.07,
-    "label": "Gold Fri $4,340 +2.1% (Polygon) — NOT ATH (Jan ~$5,500+); geo + rates bid held into weekend",
+    "value": 4332.65,
+    "as_of": "2026-08-09T23:59:59+00:00",
+    "status": "LIVE",
+    "prev_close": 4340.11,
+    "delta_pct": -0.17,
+    "label": "Gold $4,332.65 −0.2% (Polygon) — NOT ATH (Jan peak ~$5,500+); holding post-NFP bid",
     "source": "polygon:C:XAUUSD"
   },
   "BTC": {
-    "value": 64908.72,
-    "as_of": "2026-08-08T23:59:59+00:00",
+    "value": 64848.69,
+    "as_of": "2026-08-09T23:59:59+00:00",
     "status": "LIVE",
-    "prev_close": 64891.61,
-    "delta_pct": 0.03,
-    "label": "BTC Sat close $64,908.72 basically flat (range 64,790–65,214); consolidating Fri NFP bid",
+    "prev_close": 64908.72,
+    "delta_pct": -0.09,
+    "label": "BTC Sun close $64,848.69 −0.09% (range 64,674–65,510); ETH $1,909.09. Weekend consolidation of Fri NFP bid",
     "source": "polygon:X:BTCUSD"
   }
 }

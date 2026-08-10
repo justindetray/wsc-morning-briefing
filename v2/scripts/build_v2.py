@@ -81,7 +81,22 @@ def safe_iso_to_et_full(iso_str):
 
 # ---------- tape tile ----------
 
-TAPE_ORDER = ["ES", "NQ", "SPX", "NDX", "DJI", "VIX", "US10Y", "US2Y", "WTI", "GOLD", "BTC"]
+TAPE_ORDER = ["ES", "NQ", "SPX", "NDX", "DJI", "VIX", "US10Y", "US2Y", "WTI", "BRENT", "GOLD", "BTC"]
+
+
+def md_inline(s):
+    """Escape HTML, then convert **bold** markdown to <strong>. Display-only."""
+    out = html_mod.escape(s or "")
+    parts = out.split("**")
+    if len(parts) < 3:
+        return out
+    rebuilt = []
+    for i, seg in enumerate(parts):
+        if i % 2 == 1:
+            rebuilt.append(f"<strong>{seg}</strong>")
+        else:
+            rebuilt.append(seg)
+    return "".join(rebuilt)
 TILE_FORMAT = {
     "ES":    {"places": 2, "suffix": ""},
     "NQ":    {"places": 2, "suffix": ""},
@@ -183,19 +198,25 @@ def render_overnight(overnight):
         bits = []
         for m in moves:
             d = m.get("delta_pct")
-            if d is None:
-                continue
-            sign = "+" if d >= 0 else ""
+            sign = "+" if (d or 0) >= 0 else ""
             venue = f" ({html_mod.escape(m['venue'])})" if m.get("venue") else ""
-            bits.append(f"{html_mod.escape(m['ticker'])} {sign}{d:.2f}%{venue}")
+            if d is None:
+                bits.append(f"{html_mod.escape(m['ticker'])}{venue}")
+            else:
+                bits.append(f"{html_mod.escape(m['ticker'])} {sign}{d:.2f}%{venue}")
         if bits:
             parts.append("Single names: " + "; ".join(bits) + ".")
+    blocks = ""
+    if parts:
+        blocks += '<p class="overnight">' + " ".join(parts) + "</p>"
     geo = overnight.get("geo_headlines", [])
     if geo:
-        parts.append(" ".join(html_mod.escape(g).rstrip(".") + "." for g in geo[:4]))
-    if not parts:
-        return ""
-    return '<p class="overnight">' + " ".join(parts) + '</p>'
+        items = "".join(f"<li>{md_inline(g)}</li>" for g in geo)
+        blocks += f'<ul class="geo">{items}</ul>'
+    cf = overnight.get("client_frame")
+    if cf:
+        blocks += f'<div class="clientframe"><div class="cf-h">CLIENT FRAME</div>{md_inline(cf)}</div>'
+    return blocks
 
 # ---------- FedWatch table ----------
 
@@ -331,7 +352,13 @@ html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -ap
 .ondeck .ev.imp-high{color:#fafafa}
 .ondeck .ev.imp-medium{color:#cccccc}
 .ondeck .ev .note{color:#888;font-size:12px}
-.overnight{background:#131415;border-left:3px solid #444;padding:10px 14px;border-radius:0 4px 4px 0;color:#cccccc;font-size:13px;margin:8px 0 16px}
+.overnight{background:#131415;border-left:3px solid #444;padding:10px 14px;border-radius:0 4px 4px 0;color:#cccccc;font-size:13px;margin:8px 0 10px}
+.geo{margin:0 0 14px;padding:0 0 0 18px;list-style:disc}
+.geo li{color:#cfcfcf;font-size:13px;line-height:1.55;margin:0 0 8px}
+.geo strong{color:#ffffff;font-weight:600}
+.clientframe{background:#101418;border-left:3px solid #3d6ea5;padding:12px 16px;border-radius:0 4px 4px 0;color:#cccccc;font-size:13px;line-height:1.6;margin:0 0 16px}
+.clientframe strong{color:#ffffff;font-weight:600}
+.cf-h{color:#7fb0e0;font-size:10px;letter-spacing:.12em;margin-bottom:6px}
 .fw{width:100%;border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums}
 .fw th,.fw td{padding:5px 8px;text-align:right;border-bottom:1px solid #1c1d1e}
 .fw th:first-child,.fw td:first-child{text-align:left;font-weight:600}

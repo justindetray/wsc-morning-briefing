@@ -1,13 +1,21 @@
 {
-  "last_curated": "2026-08-09",
+  "last_curated": "2026-08-10",
   "macro": [
-    {"date": "2026-08-10", "time_et": "TBD", "event": "Fed's Bowman speaks", "consensus": null, "importance": "MEDIUM", "note": "First post-NFP Fed speaker of the week; calendar source conflict flagged"},
-    {"date": "2026-08-12", "time_et": "8:30 AM", "event": "CPI (Jul)", "consensus": "headline ~3.4% YoY; core TBD", "importance": "HIGH", "note": "BLS Wed 8/12 — real test of NFP-driven hold pricing under Warsh"},
-    {"date": "2026-08-13", "time_et": "8:30 AM", "event": "PPI (Jul)", "consensus": "TBD (dispersion across sources)", "importance": "HIGH", "note": "BLS Thu 8/13 — pipeline inflation"},
-    {"date": "2026-08-13", "time_et": "8:30 AM", "event": "Retail Sales (Jul)", "consensus": null, "importance": "MEDIUM", "note": "If on standard mid-month schedule — confirm Mon"},
-    {"date": "2026-08-14", "time_et": "10:00 AM", "event": "Michigan Consumer Sentiment (prelim)", "consensus": null, "importance": "MEDIUM"}
+    {"date": "2026-08-10", "time_et": "—", "event": "No US macro releases; NO Fed speakers Mon-Wed", "consensus": null, "importance": "LOW", "note": "Bowman spoke SAT 8/8 12:45 ET (Fed calendar), not today — prior brief was wrong"},
+    {"date": "2026-08-12", "time_et": "8:30 AM", "event": "CPI (Jul)", "consensus": "Headline +0.1% MoM / +3.4% YoY; Core +2.5% YoY; Core MoM SPLIT +0.2% (Reuters/JPM) vs +0.3% (MarketWatch)", "importance": "HIGH", "note": "THE week's event. Feroli: +0.2% likely insufficient for Sept move; ~+0.3% changes calculus"},
+    {"date": "2026-08-13", "time_et": "8:15 AM", "event": "Fed's Hammack speaks (Cleveland)", "consensus": null, "importance": "MEDIUM", "note": "Dayton Chamber breakfast — first Fed voice AFTER CPI"},
+    {"date": "2026-08-13", "time_et": "8:30 AM", "event": "PPI (Jul)", "consensus": "Headline +0.2% MoM (prior −0.3%); Core +0.2% MoM", "importance": "HIGH", "note": "BLS-confirmed"},
+    {"date": "2026-08-13", "time_et": "8:40 AM", "event": "Fed's Barkin speaks (Richmond)", "consensus": null, "importance": "MEDIUM", "note": "Greenville Chamber"},
+    {"date": "2026-08-14", "time_et": "10:00 AM", "event": "Michigan Sentiment (prelim)", "consensus": null, "importance": "MEDIUM", "note": "Inflation expectations sub-index is the part that matters post-CPI"}
   ],
   "earnings": [
-    {"date": "2026-08-08", "ticker": "BRK.B", "name": "Berkshire Hathaway", "session": "BC", "importance": "HIGH", "note": "Q2 RELEASED Sat: op $12.98B +16%, cash $365.5B, buybacks ~$4.5B, net equity buyer 1st time 14 qtrs, Taylor Morrison $8.5B"}
+    {"date": "2026-08-10", "ticker": "MNDY", "name": "monday.com", "session": "BC", "importance": "MEDIUM", "note": "IR-CONFIRMED — 8:30 AM ET call"},
+    {"date": "2026-08-10", "ticker": "SMCI", "name": "Super Micro Computer", "session": "AC", "importance": "MEDIUM", "note": "Aggregator-sourced, not IR-verified"},
+    {"date": "2026-08-10", "ticker": "SPG / ONON / HIMS / RKLB / ASTS", "name": "Simon Property, On, Hims, Rocket Lab, AST", "session": "mixed", "importance": "LOW", "note": "Aggregator-sourced; SE and CAH dates DISPUTED Mon vs Tue"},
+    {"date": "2026-08-11", "ticker": "CRWV / CAVA / LITE", "name": "CoreWeave, Cava, Lumentum", "session": "mixed", "importance": "MEDIUM", "note": "Aggregator-sourced"},
+    {"date": "2026-08-12", "ticker": "CSCO", "name": "Cisco Systems", "session": "AC", "importance": "HIGH", "note": "Aggregator-sourced; lands CPI day"},
+    {"date": "2026-08-12", "ticker": "CYBR / DOCS / NBIS / CRBS", "name": "CyberArk, Doximity, Nebius, Cerebras", "session": "mixed", "importance": "MEDIUM", "note": "JD.com date DISPUTED Wed vs Thu"},
+    {"date": "2026-08-13", "ticker": "AMAT", "name": "Applied Materials", "session": "AC", "importance": "HIGH", "note": "IR-CONFIRMED — 4:30 PM ET / 1:30 PM PT. Semis read-through"},
+    {"date": "2026-08-13", "ticker": "TPR / NU / SMICY", "name": "Tapestry, Nu Holdings, SMIC", "session": "mixed", "importance": "MEDIUM", "note": "Aggregator-sourced"}
   ]
 }
