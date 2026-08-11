@@ -1,11 +1,52 @@
 {
   "status": "LIVE",
-  "reportingDt": "2026-08-07",
-  "note": "STALE — no fresh CME scrape this run. Sept row = post-NFP hold-favored ~56-60%/44% (Fri sources, 58/42 midpoint). Oct/Dec/Jan rows are PRE-NFP structure from 7/31 and are known stale. No Fed speakers Mon-Wed to move odds; CPI Wed 8/12 is the next real reprice. Treat curve shape as directional only.",
+  "as_of": "2026-08-11T11:15:36.239645+00:00",
+  "reason": null,
   "meetings": [
-    {"meetingDt": "2026-09-16", "reportingDt": "2026-08-07", "hold": 0.5800, "hike_25": 0.4200, "hike_50": 0, "hike_75": 0, "hike_100": 0, "cumulative_hike": 0.1050},
-    {"meetingDt": "2026-10-28", "reportingDt": "2026-07-31", "hold": 0.2001, "hike_25": 0.5798, "hike_50": 0.2201, "hike_75": 0, "hike_100": 0, "cumulative_hike": 0.2550},
-    {"meetingDt": "2026-12-09", "reportingDt": "2026-07-31", "hold": 0.1094, "hike_25": 0.4077, "hike_50": 0.3832, "hike_75": 0.0998, "hike_100": 0, "cumulative_hike": 0.3683},
-    {"meetingDt": "2027-01-27", "reportingDt": "2026-07-31", "hold": 0.0868, "hike_25": 0.3460, "hike_50": 0.3882, "hike_75": 0.1583, "hike_100": 0.0206, "cumulative_hike": 0.4470}
-  ]
+    {
+      "meetingDt": "2026-09-16",
+      "reportingDt": "2026-08-10",
+      "hold": 0.465714,
+      "hike_25": 0.534286,
+      "hike_50": 0.0,
+      "hike_75": 0.0,
+      "hike_100": 0.0,
+      "current_band": "3.50-3.75",
+      "cumulative_hike": 0.53
+    },
+    {
+      "meetingDt": "2026-10-28",
+      "reportingDt": "2026-08-10",
+      "hold": 0.341967,
+      "hike_25": 0.516065,
+      "hike_50": 0.141967,
+      "hike_75": 0.0,
+      "hike_100": 0.0,
+      "current_band": "3.50-3.75",
+      "cumulative_hike": 0.66
+    },
+    {
+      "meetingDt": "2026-12-09",
+      "reportingDt": "2026-08-10",
+      "hold": 0.17909,
+      "hike_25": 0.433143,
+      "hike_50": 0.320149,
+      "hike_75": 0.067619,
+      "hike_100": 0.0,
+      "current_band": "3.50-3.75",
+      "cumulative_hike": 0.82
+    },
+    {
+      "meetingDt": "2027-01-27",
+      "reportingDt": "2026-08-10",
+      "hold": 0.14619,
+      "hike_25": 0.386473,
+      "hike_50": 0.340906,
+      "hike_75": 0.114009,
+      "hike_100": 0.012422,
+      "current_band": "3.50-3.75",
+      "cumulative_hike": 0.85
+    }
+  ],
+  "note": "Live CME pull, cohort 2026-08-10. Sept 16 is HIKE-favored 53.4% vs hold 46.6%. This CORRECTS the hold-favored ~56-60% figure carried in briefs since Sat 8/8, which came from news characterization rather than a CME pull."
 }
