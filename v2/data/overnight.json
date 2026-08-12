@@ -1,39 +1,38 @@
 {
-  "headline": "Oil +5% blows a hole in the CPI-eve calm; CME flips to hike-favored for September",
-  "as_of": "2026-08-11T07:00:00-04:00",
-  "client_frame": "Two things changed yesterday and both point the same direction. WTI settled **$82.13, up 5.1%**, as Strait of Hormuz reopening hopes faded — crude is up roughly 10% in a week. And a live CME FedWatch pull now shows the September FOMC **hike-favored at 53.4% vs 46.6% hold**. That is a correction to this brief: since Saturday we had been carrying a hold-favored ~56-60% read sourced from news characterization rather than a direct CME pull. The direct pull disagrees, and Reuters independently reported ~52% hike odds Monday. We were wrong; the live data governs.\n\nThe read-through is straightforward. An oil shock is the one inflation impulse the Fed cannot dismiss as tariff noise, and it lands the day before CPI. Equities barely moved — SPX -0.06%, four and a half points off Friday's record close — but VIX rose 3.8% to 15.46 and the 10-year added 4bp to 4.699%. That is the tape hedging, not selling.\n\nTomorrow's number is narrow and consequential. Core CPI estimates cluster at **+0.20% to +0.22% MoM**, and the +0.2%/+0.3% split we flagged earlier resolves as a rounding artifact rather than a real two-camp disagreement — but Wells Fargo at +0.24% and Deutsche Bank at +0.26% form a fat right tail. Prediction markets sit cooler than the sell side. With September now priced as a coin flip that leans hike, an upside core surprise has more room to move rates than a downside one has to soothe them.",
+  "headline": "CPI at 8:30 with September a literal coin flip; US Navy fires on a blockade runner and Brent nears $90",
+  "as_of": "2026-08-12T07:00:00-04:00",
+  "client_frame": "July CPI lands at 8:30 this morning into the tightest possible setup. A live CME pull (cohort 8/11) now has the September FOMC at **hold 50.4% vs hike 49.6%** — a genuine coin flip, eased back from the 53.4% hike lean we reported yesterday. CNN independently described the market as roughly 50/50. So this print does not merely inform the September decision; it plausibly decides it.\n\nConsensus is headline **+0.1% MoM / +3.4% YoY** and core **+0.2% / +2.5%**, with core point estimates clustering +0.20-0.22% and a right tail from Wells Fargo (+0.24%) and Deutsche Bank (+0.26%). Worth remembering that June headline actually *fell* 0.4% MoM, so the bar for a benign-looking rebound is low. The asymmetry is what matters: with September balanced on a knife edge and Cleveland's Hammack saying Monday that 'some number' of additional hikes may be needed and that a single 25bp move 'probably doesn't do a whole lot,' a hot core has far more room to reprice the front end than a soft one has to soothe it. Then $42B of 10-year notes prices at 1:00 pm, hours after the number.\n\nAgainst that, the AI complex just delivered. SMCI, CoreWeave, and Lumentum all beat and guided higher, and futures are firmer because of it — NQ +0.65%. But oil keeps grinding: Brent settled $88.91 and trades near $89.70 after a US Navy helicopter disabled a containership trying to run the blockade of Iranian ports. Equities fell about a third of a percent Tuesday while VIX also fell, which is not fear — it is a market that has hedged and is waiting.",
   "asia_close": [
-    {"market": "Nikkei 225", "delta_pct": null, "level": null, "note": "CLOSED — Mountain Day holiday. A widely circulating +2.08% / 66,970 figure is Monday's close, not Tuesday's."},
-    {"market": "Hang Seng", "delta_pct": -0.6, "level": null, "note": "HK tech -1.3% as Hormuz reopening hopes faded"},
-    {"market": "Shanghai Composite", "delta_pct": -0.1, "level": null, "note": "Midday-break read; final close not reconciled"},
-    {"market": "CSI 300", "delta_pct": 0.2, "level": null, "note": "Midday-break read; ChiNext +1.4%, Shenzhen +0.4%"},
-    {"market": "KOSPI", "delta_pct": null, "level": null, "note": "UNRESOLVED — NDTV -0.76% full day vs Korea Times +0.53% intraday. Not reported as fact."},
-    {"market": "ASX 200", "delta_pct": null, "level": null, "note": "UNRESOLVED — conflicting +0.15% vs -0.14% reads"}
+    {"market": "Nikkei 225", "delta_pct": null, "level": null, "note": "Reopened after Tuesday's Mountain Day holiday and closed higher, but magnitude is UNRESOLVED: +0.6% to +0.85% across AP (67,334.94), MarketScreener (67,487.78) and TradingEconomics (67,515). Not reported as a single figure."},
+    {"market": "KOSPI", "delta_pct": 4.0, "level": 6597.90, "note": "Chip melt-up — Samsung +7.7%, SK Hynix +7.1%. Single-source (AP wire); large move, treat as indicative"},
+    {"market": "Shanghai Composite", "delta_pct": 0.32, "level": 3946.68, "note": "MarketWatch and AP agree"},
+    {"market": "Hang Seng", "delta_pct": -0.91, "level": 25420.58, "note": "Direction confirmed across three sources (-0.9% to -1.2%); exact level varies"},
+    {"market": "ASX 200", "delta_pct": -0.45, "level": 9209.4, "note": ""}
   ],
   "europe_open": [
-    {"market": "DAX", "delta_pct": -0.22, "level": 26265.43, "note": ""},
-    {"market": "FTSE 100", "delta_pct": -0.28, "level": 10850.0, "note": "Source variance -0.21% to -0.35%"},
-    {"market": "CAC 40", "delta_pct": -0.26, "level": 8703.43, "note": ""},
-    {"market": "STOXX 600", "delta_pct": -0.12, "level": 659.64, "note": "Set a record high Monday (~661); Tuesday flat-to-lower off it"}
+    {"market": "DAX", "delta_pct": 0.15, "level": 26435.09, "note": "Range +0.15% to +0.37% by snapshot"},
+    {"market": "FTSE 100", "delta_pct": 0.03, "level": 10844.68, "note": "Essentially flat"},
+    {"market": "CAC 40", "delta_pct": 0.08, "level": 8721.69, "note": "Mixed, -0.1% to +0.08%"},
+    {"market": "STOXX 600", "delta_pct": 0.19, "level": 661.77, "note": "Vestas +15.3%, Balfour Beatty +10.9% led"}
   ],
   "single_name_moves": [
-    {"ticker": "BRK.B", "delta_pct": 1.46, "venue": "Mon close $529.42", "note": "Positive read on Sat Q2: op earnings +16.3%, ~$4.5B buyback, first net equity buyer in ~14 quarters"},
-    {"ticker": "MNDY", "delta_pct": -4.84, "venue": "Mon close $88.62", "note": "Beat EPS $1.48 vs $1.11 but reversed from +6% at the open on soft Q3 guide and a ~20% workforce restructuring"},
-    {"ticker": "ASTS", "delta_pct": -4.42, "venue": "Mon close $68.76", "note": "Revenue beat, deeper EPS miss"},
-    {"ticker": "RKLB", "delta_pct": -3.37, "venue": "Mon close $80.04", "note": "Record $234M revenue +62%, record $2.36B backlog — sold off because losses did not narrow"},
-    {"ticker": "HIMS", "delta_pct": 0.57, "venue": "Mon close $31.77", "note": "Revenue $753M beat, adj EPS -$0.37 vs -$0.05 big miss; fell ~6.3% after hours to ~$29.77"}
+    {"ticker": "SMCI", "delta_pct": 7.6, "venue": "after hours, from $31.60 close", "note": "Revenue $11.12B MISSED (~$11.6B est) on customer power/cooling delays, but adj EPS $1.70 crushed ~$0.85 est and FY27 revenue guided $65-72B vs ~$53.1B consensus. Gross margin +800bp YoY to 17.5%. Sources span +7% to +9%."},
+    {"ticker": "CRWV", "delta_pct": null, "venue": "after hours, from $90.32 close", "note": "UP SHARPLY, magnitude UNRESOLVED (+7% to +18% across sources). Revenue $2.575B +112%, beat; net loss -$1.14 vs -$1.41 est; backlog $104B +46% plus $25B new Q3 commitments; FY26 guide raised to $12.4-13.2B. Capex guide $35-39B and interest expense $640M vs $267M are the offsets."},
+    {"ticker": "LITE", "delta_pct": null, "venue": "after hours, from $820.59 close", "note": "CONTRADICTORY after-hours reads (flat to +6.5%), consistent with spike-then-fade. Revenue $1.006B +109%, non-GAAP EPS $3.23 beat ~$2.98, Q1 guide $1.225-1.275B (+130% YoY) — but a $7.8B non-cash charge produced a $7.2B GAAP net loss."},
+    {"ticker": "CAVA", "delta_pct": 11.58, "venue": "after hours, from $60.81 close", "note": "Revenue $365.4M beat, same-restaurant sales +9.0% (traffic +5.3%), EPS $0.19 beat. Note guidance was REAFFIRMED, not raised, and restaurant margin fell 60bp to 25.7%."},
+    {"ticker": "ONON", "delta_pct": -20.3, "venue": "Tue close $30.91", "note": "Tuesday's worst notable single-name move (Polygon-verified from $38.78)"}
   ],
   "geo_headlines": [
-    "**Oil is the story.** WTI settled **$82.13 (+5.1%)**, Brent ~**$87.72 (+5.0%)** as Hormuz reopening prospects deteriorated. Tuesday 7am: WTI ~$82.08, Brent ~$87.62 — holding the gain. Crude is up ~10% on the week.",
-    "**No Hormuz deal.** Trump told Axios Sunday the administration is 'low-keying it,' signaling economic pressure over fresh strikes. Monday he demanded Iran compensate people killed 'in wars, attacks, and protests.'",
-    "**Iran's preconditions** (per NYT, Sat): lift the naval blockade and sanctions, withdraw US forces from around Iran, pay war reparations, release frozen assets, end attacks on regional allies. No direct talks.",
-    "**The Aug 5 Iran-Oman route understanding is not a reopening.** Coordinates were agreed for a temporary two-lane transit, still pending Supreme Leader sign-off; Iran says it does not end the crisis, and Washington rejects any Iranian authority over transits.",
-    "**Traffic remains crippled.** JMIC counts only 40 US-facilitated transits Aug 6-8 against a ~138/day pre-war baseline, and 84 incidents since March 1. It assesses a further attack as 'highly likely.'",
-    "**SPR at 298.7M barrels** — down 6.1M and the lowest since January 1983, which thins the policy buffer against exactly this kind of shock.",
-    "**Treasury supply lands on top of the data:** $58B 3Y today 1pm, $42B 10Y Wednesday 1pm (CPI day), $25B 30Y Thursday 1pm (PPI day).",
-    "**Canada tariff deadline Aug 19** — a threatened 50% rate that, unlike the 2025 emergency tariffs, would also hit USMCA-covered goods.",
-    "**Senate passed the Russia sanctions bill 86-11** Friday, allowing tariffs up to 100% on the top five importers of Russian energy, with waiver discretion. House vote expected next month.",
-    "**Credit is not confirming any stress** — ICE BofA HY OAS 2.71% as of Aug 6, HYG/LQD +2.5 sigma vs its 1-year average. Risk-on, tight, no widening around the oil move.",
-    "**UNCONFIRMED:** Gulf News reported an alleged Iranian cruise-missile strike on a tanker off Oman early Monday. Not corroborated by UKMTO, CENTCOM, Iranian state media, or major wires. Not treated as fact here."
+    "**CPI today 8:30 ET.** Headline +0.1% MoM / +3.4% YoY, core +0.2% / +2.5% consensus. Core estimates cluster +0.20-0.22%; Wells Fargo +0.24% and Deutsche Bank +0.26% form the right tail. June headline fell 0.4% MoM, per Reuters.",
+    "**September is a coin flip.** Live CME (cohort 8/11): hold **50.4%** vs hike **49.6%**, eased from 53.4% hike-favored the prior day. Fed funds band 3.50-3.75%.",
+    "**Hammack, Monday: hawkish.** Cleveland's president said 'some number' of additional rate hikes may be needed and that a single 25bp move 'probably doesn't do a whole lot.' She speaks again tomorrow 8:15 ET, with Barkin at 8:40.",
+    "**ESCALATION: a US Navy MH-60 fired two Hellfire missiles** at the Panama-flagged containership *Vela Nova* in the Gulf of Oman, ~71nm off Pakistan, disabling its steering and engine room after it tried to breach the blockade of Iranian ports. CENTCOM cumulative through 8/11: 55 vessels redirected, 3 disabled, 2 boarded.",
+    "**Oil keeps climbing.** Tuesday settles WTI **$83.20 (+1.3%)**, Brent **$88.91 (+1.4%)**. Wednesday ~7am: WTI ~$83.96, Brent ~$89.69 — Brent within a dollar of $90 and up roughly 15% in a week.",
+    "**Bab el-Mandeb attack:** a Houthi strike on a cargo ship Tuesday killed four crew plus two rescuers, per the body of the Reuters report (its headline says three — inconsistency flagged, not resolved).",
+    "**Still no Hormuz reopening.** No sign the Aug 5 Iran-Oman route understanding has cleared Supreme Leader sign-off. JMIC's transit-volume series and CENTCOM's enforcement counts measure different things and should not be conflated.",
+    "**$42B 10-year auction today at 1:00 pm ET** — pricing hours after CPI. $25B 30-year follows Thursday alongside PPI.",
+    "**Canada tariff deadline Aug 19** (threatened 50%, would cover USMCA goods). Russia sanctions bill passed the Senate 86-11; House vote expected next month.",
+    "**Credit still shows no stress** — spreads tight and risk-on, no widening through the oil move.",
+    "**UNVERIFIED:** an API crude build of +9.07M barrels vs an expected ~500k draw is circulating from an aggregator only. No top-tier confirmation found; EIA's official number is at 10:30 ET."
   ]
 }

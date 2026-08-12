@@ -19,6 +19,7 @@ Rules:
 """
 
 import json
+import re
 import sys
 import html as html_mod
 from datetime import datetime, timezone, timedelta
@@ -85,18 +86,16 @@ TAPE_ORDER = ["ES", "NQ", "SPX", "NDX", "DJI", "VIX", "US10Y", "US2Y", "WTI", "B
 
 
 def md_inline(s):
-    """Escape HTML, then convert **bold** markdown to <strong>. Display-only."""
+    """Escape HTML, then convert **bold** and *italic* markdown. Display-only.
+
+    Regex-based so that unmatched delimiters stay literal rather than
+    producing half-formatted output. Bold runs first so that ** is never
+    misread as two single asterisks.
+    """
     out = html_mod.escape(s or "")
-    parts = out.split("**")
-    if len(parts) < 3:
-        return out
-    rebuilt = []
-    for i, seg in enumerate(parts):
-        if i % 2 == 1:
-            rebuilt.append(f"<strong>{seg}</strong>")
-        else:
-            rebuilt.append(seg)
-    return "".join(rebuilt)
+    out = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", out, flags=re.S)
+    out = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", out, flags=re.S)
+    return out
 TILE_FORMAT = {
     "ES":    {"places": 2, "suffix": ""},
     "NQ":    {"places": 2, "suffix": ""},
@@ -107,6 +106,7 @@ TILE_FORMAT = {
     "US10Y": {"places": 3, "suffix": "%"},
     "US2Y":  {"places": 3, "suffix": "%"},
     "WTI":   {"places": 2, "suffix": ""},
+    "BRENT": {"places": 2, "suffix": ""},
     "GOLD":  {"places": 2, "suffix": ""},
     "BTC":   {"places": 0, "suffix": ""},
 }
