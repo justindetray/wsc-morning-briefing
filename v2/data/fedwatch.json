@@ -1,52 +1,53 @@
 {
   "status": "LIVE",
-  "as_of": "2026-08-12T11:12:15.457422+00:00",
+  "as_of": "2026-08-13T11:16:13.556502+00:00",
   "reason": null,
   "meetings": [
     {
       "meetingDt": "2026-09-16",
-      "reportingDt": "2026-08-11",
-      "hold": 0.503571,
-      "hike_25": 0.496429,
+      "reportingDt": "2026-08-12",
+      "hold": 0.593571,
+      "hike_25": 0.406429,
       "hike_50": 0.0,
       "hike_75": 0.0,
       "hike_100": 0.0,
       "current_band": "3.50-3.75",
-      "cumulative_hike": 0.5
+      "cumulative_hike": 0.41
     },
     {
       "meetingDt": "2026-10-28",
-      "reportingDt": "2026-08-11",
-      "hold": 0.380916,
-      "hike_25": 0.498168,
-      "hike_50": 0.120916,
+      "reportingDt": "2026-08-12",
+      "hold": 0.448994,
+      "hike_25": 0.452011,
+      "hike_50": 0.098994,
       "hike_75": 0.0,
       "hike_100": 0.0,
       "current_band": "3.50-3.75",
-      "cumulative_hike": 0.62
+      "cumulative_hike": 0.55
     },
     {
       "meetingDt": "2026-12-09",
-      "reportingDt": "2026-08-11",
-      "hold": 0.213595,
-      "hike_25": 0.446664,
-      "hike_50": 0.286627,
-      "hike_75": 0.053113,
+      "reportingDt": "2026-08-12",
+      "hold": 0.2531,
+      "hike_25": 0.450695,
+      "hike_50": 0.253014,
+      "hike_75": 0.043191,
       "hike_100": 0.0,
       "current_band": "3.50-3.75",
-      "cumulative_hike": 0.79
+      "cumulative_hike": 0.75
     },
     {
       "meetingDt": "2027-01-27",
-      "reportingDt": "2026-08-11",
-      "hold": 0.179262,
-      "hike_25": 0.4092,
-      "hike_50": 0.312352,
-      "hike_75": 0.090649,
-      "hike_100": 0.008537,
+      "reportingDt": "2026-08-12",
+      "hold": 0.206604,
+      "hike_25": 0.414396,
+      "hike_50": 0.289329,
+      "hike_75": 0.081736,
+      "hike_100": 0.007934,
       "current_band": "3.50-3.75",
-      "cumulative_hike": 0.82
+      "cumulative_hike": 0.79
     }
   ],
-  "note": "Live CME pull, cohort 2026-08-11. Sept 16 is now a coin flip: hold 50.4% vs hike 49.6%, easing from 53.4% hike-favored on the 8/10 cohort. CNN independently described the market as roughly 50/50 on Aug 11. CUM HIKE column is P(at least one hike) by that meeting, not basis points."
+  "note": "Live CME pull, cohort 2026-08-12 (post-CPI). September repriced to hold 59.4% / hike 40.6% from 50.4/49.6 the prior day.",
+  "reportingDt": "2026-08-12"
 }

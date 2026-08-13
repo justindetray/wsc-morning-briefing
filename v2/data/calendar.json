@@ -1,20 +1,103 @@
 {
-  "last_curated": "2026-08-12",
+  "last_curated": "2026-08-13",
   "macro": [
-    {"date": "2026-08-12", "time_et": "08:30", "event": "CPI (July)", "consensus": "+0.1% MoM / +3.4% YoY hdln; core +0.2% MoM / +2.5% YoY", "importance": "high", "note": "THE event. Core clusters +0.20-0.22%; right tail Wells Fargo +0.24%, Deutsche Bank +0.26%. June headline was -0.4% MoM."},
-    {"date": "2026-08-12", "time_et": "10:30", "event": "EIA crude inventories", "consensus": "", "importance": "high", "note": "An aggregator-only API build of +9.07M bbl is circulating unverified; this is the official read"},
-    {"date": "2026-08-12", "time_et": "13:00", "event": "$42B 10-Year Note auction", "consensus": "", "importance": "high", "note": "Prices hours after CPI — a weak tail on a hot print would compound"},
-    {"date": "2026-08-13", "time_et": "08:15", "event": "Fed's Hammack speaks", "consensus": "", "importance": "high", "note": "Said Monday that 'some number' of additional hikes may be needed; first Fed voice after CPI"},
-    {"date": "2026-08-13", "time_et": "08:30", "event": "PPI (July)", "consensus": "+0.2% MoM hdln, +0.2% core", "importance": "high", "note": "Prior headline -0.3%"},
-    {"date": "2026-08-13", "time_et": "08:40", "event": "Fed's Barkin speaks", "consensus": "", "importance": "medium", "note": ""},
-    {"date": "2026-08-13", "time_et": "13:00", "event": "$25B 30-Year Bond auction", "consensus": "", "importance": "medium", "note": "Lands with PPI"},
-    {"date": "2026-08-14", "time_et": "08:30", "event": "Retail sales (July)", "consensus": "", "importance": "medium", "note": "Date per standard BLS/Census cadence; consensus not yet pinned"},
-    {"date": "2026-08-14", "time_et": "10:00", "event": "Michigan Sentiment (prelim)", "consensus": "", "importance": "medium", "note": "Inflation expectations matter more than the headline"}
+    {
+      "date": "2026-08-13",
+      "time_et": "08:15",
+      "event": "Fed's Hammack speaks",
+      "consensus": "",
+      "importance": "high",
+      "note": "Most hawkish voice; said Monday 'some number' of hikes may be needed. Speaks 15 min before PPI."
+    },
+    {
+      "date": "2026-08-13",
+      "time_et": "08:30",
+      "event": "PPI (July)",
+      "consensus": "+0.2% MoM hdln, +0.2% core; prior -0.3%",
+      "importance": "high",
+      "note": "THE event. Feeds core PCE; last major inflation read before September."
+    },
+    {
+      "date": "2026-08-13",
+      "time_et": "08:30",
+      "event": "Weekly jobless claims",
+      "consensus": "",
+      "importance": "medium",
+      "note": "Labor side matters more after the -23k July payroll miss."
+    },
+    {
+      "date": "2026-08-13",
+      "time_et": "08:40",
+      "event": "Fed's Barkin speaks",
+      "consensus": "",
+      "importance": "medium",
+      "note": "Second Fed voice inside 30 minutes."
+    },
+    {
+      "date": "2026-08-13",
+      "time_et": "13:00",
+      "event": "$25B 30-Year Bond auction",
+      "consensus": "",
+      "importance": "high",
+      "note": "Follows Wednesday's 10Y that cleared at 4.683%, highest since 2007, cover 2.53x."
+    },
+    {
+      "date": "2026-08-14",
+      "time_et": "08:30",
+      "event": "Retail sales (July)",
+      "consensus": "",
+      "importance": "high",
+      "note": "Consumer read into the weekend."
+    },
+    {
+      "date": "2026-08-14",
+      "time_et": "10:00",
+      "event": "Michigan Sentiment (prelim)",
+      "consensus": "",
+      "importance": "medium",
+      "note": "Inflation expectations matter more than the headline."
+    },
+    {
+      "date": "2026-08-17",
+      "time_et": "",
+      "event": "Iran interim MOU 60-day window reportedly expires",
+      "consensus": "",
+      "importance": "medium",
+      "note": "Iranian source tells Reuters no discussions on extending."
+    },
+    {
+      "date": "2026-08-19",
+      "time_et": "00:01",
+      "event": "Canada 50% Section 338 tariffs take effect",
+      "consensus": "",
+      "importance": "high",
+      "note": "~$20B of goods; no deal confirmed."
+    }
   ],
   "earnings": [
-    {"date": "2026-08-12", "ticker": "CSCO", "name": "Cisco", "session": "after close", "importance": "high", "note": "Lands on CPI day"},
-    {"date": "2026-08-13", "ticker": "AMAT", "name": "Applied Materials", "session": "after close", "importance": "high", "note": "Call 4:30pm ET, IR-confirmed. Read-through to the semi rally that lifted KOSPI overnight."},
-    {"date": "2026-08-13", "ticker": "TPR", "name": "Tapestry", "session": "before open", "importance": "medium", "note": ""},
-    {"date": "2026-08-13", "ticker": "NU", "name": "Nu Holdings", "session": "after close", "importance": "medium", "note": ""}
+    {
+      "date": "2026-08-13",
+      "ticker": "AMAT",
+      "name": "Applied Materials",
+      "session": "after close",
+      "importance": "high",
+      "note": "Call 4:30pm ET, IR-confirmed. Closed $548.15 (+4.29%) into the print on the semi rally."
+    },
+    {
+      "date": "2026-08-13",
+      "ticker": "TPR",
+      "name": "Tapestry",
+      "session": "before open",
+      "importance": "medium",
+      "note": "Consumer read alongside retail sales tomorrow."
+    },
+    {
+      "date": "2026-08-13",
+      "ticker": "NU",
+      "name": "Nu Holdings",
+      "session": "after close",
+      "importance": "medium",
+      "note": "LatAm fintech."
+    }
   ]
 }
