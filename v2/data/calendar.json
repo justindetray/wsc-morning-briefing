@@ -1,69 +1,37 @@
 {
-  "last_curated": "2026-08-13",
+  "last_curated": "2026-08-14",
   "macro": [
-    {
-      "date": "2026-08-13",
-      "time_et": "08:15",
-      "event": "Fed's Hammack speaks",
-      "consensus": "",
-      "importance": "high",
-      "note": "Most hawkish voice; said Monday 'some number' of hikes may be needed. Speaks 15 min before PPI."
-    },
-    {
-      "date": "2026-08-13",
-      "time_et": "08:30",
-      "event": "PPI (July)",
-      "consensus": "+0.2% MoM hdln, +0.2% core; prior -0.3%",
-      "importance": "high",
-      "note": "THE event. Feeds core PCE; last major inflation read before September."
-    },
-    {
-      "date": "2026-08-13",
-      "time_et": "08:30",
-      "event": "Weekly jobless claims",
-      "consensus": "",
-      "importance": "medium",
-      "note": "Labor side matters more after the -23k July payroll miss."
-    },
-    {
-      "date": "2026-08-13",
-      "time_et": "08:40",
-      "event": "Fed's Barkin speaks",
-      "consensus": "",
-      "importance": "medium",
-      "note": "Second Fed voice inside 30 minutes."
-    },
-    {
-      "date": "2026-08-13",
-      "time_et": "13:00",
-      "event": "$25B 30-Year Bond auction",
-      "consensus": "",
-      "importance": "high",
-      "note": "Follows Wednesday's 10Y that cleared at 4.683%, highest since 2007, cover 2.53x."
-    },
     {
       "date": "2026-08-14",
       "time_et": "08:30",
       "event": "Retail sales (July)",
-      "consensus": "",
+      "consensus": "+0.1% headline (WSJ/Morningstar survey)",
       "importance": "high",
-      "note": "Consumer read into the weekend."
+      "note": "THE event. Consumer read after the -23k payroll miss."
     },
     {
       "date": "2026-08-14",
       "time_et": "10:00",
       "event": "Michigan Sentiment (prelim)",
-      "consensus": "",
-      "importance": "medium",
-      "note": "Inflation expectations matter more than the headline."
+      "consensus": "~54.5 vs 55.2 prior",
+      "importance": "high",
+      "note": "1-yr inflation expectations (4.2% prior) matter more than the headline given PPI's mixed core."
     },
     {
       "date": "2026-08-17",
       "time_et": "",
       "event": "Iran interim MOU 60-day window reportedly expires",
       "consensus": "",
+      "importance": "high",
+      "note": "Extension claim is uncorroborated; Iran says no talks with Washington."
+    },
+    {
+      "date": "2026-08-18",
+      "time_et": "08:30",
+      "event": "Import/Export Price Indexes (July)",
+      "consensus": "",
       "importance": "medium",
-      "note": "Iranian source tells Reuters no discussions on extending."
+      "note": "Per official BLS schedule -- NOT today, contrary to some calendars."
     },
     {
       "date": "2026-08-19",
@@ -71,33 +39,32 @@
       "event": "Canada 50% Section 338 tariffs take effect",
       "consensus": "",
       "importance": "high",
-      "note": "~$20B of goods; no deal confirmed."
+      "note": "~$20B of goods; no deal confirmed after three LeBlanc meetings."
+    },
+    {
+      "date": "2026-08-21",
+      "time_et": "",
+      "event": "Monthly options expiration",
+      "consensus": "",
+      "importance": "medium",
+      "note": "Third Friday. Today is the second Friday, not OpEx."
+    },
+    {
+      "date": "2026-09-16",
+      "time_et": "",
+      "event": "FOMC decision",
+      "consensus": "hold 65.9% / hike 34.1%",
+      "importance": "high",
+      "note": "Band 3.50-3.75%. Market debating a hike, not a cut."
+    },
+    {
+      "date": "2026-09-30",
+      "time_et": "",
+      "event": "BEA PCE methodology revision",
+      "consensus": "",
+      "importance": "medium",
+      "note": "Portfolio management, software, legal services. Pantheon expects at least -0.2pp off core PCE YoY."
     }
   ],
-  "earnings": [
-    {
-      "date": "2026-08-13",
-      "ticker": "AMAT",
-      "name": "Applied Materials",
-      "session": "after close",
-      "importance": "high",
-      "note": "Call 4:30pm ET, IR-confirmed. Closed $548.15 (+4.29%) into the print on the semi rally."
-    },
-    {
-      "date": "2026-08-13",
-      "ticker": "TPR",
-      "name": "Tapestry",
-      "session": "before open",
-      "importance": "medium",
-      "note": "Consumer read alongside retail sales tomorrow."
-    },
-    {
-      "date": "2026-08-13",
-      "ticker": "NU",
-      "name": "Nu Holdings",
-      "session": "after close",
-      "importance": "medium",
-      "note": "LatAm fintech."
-    }
-  ]
+  "earnings": []
 }
