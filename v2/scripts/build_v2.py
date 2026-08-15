@@ -396,11 +396,17 @@ def main():
     overnight = jload("overnight.json") or {}
     research = jload("research_manifest.json") or {}
 
-    # Sanity: if all tape DEGRADED, refuse to write
+    # Sanity: if all tape DEGRADED, refuse to write.
+    # CLOSED is a healthy state, not a degraded one: on weekends and market
+    # holidays every field is legitimately CLOSED (prior-session settle), so
+    # counting only LIVE made this guard misfire on any non-trading day.
+    # Abort only when no field carries a trustworthy status at all.
     if tape:
-        live_count = sum(1 for v in tape.values() if v.get("status") == "LIVE")
-        if live_count == 0:
-            print("[build_v2] ABORT: zero LIVE tape fields", file=sys.stderr)
+        healthy = sum(1 for v in tape.values()
+                      if v.get("status") in ("LIVE", "CLOSED"))
+        if healthy == 0:
+            print("[build_v2] ABORT: no LIVE or CLOSED tape fields "
+                  "(all DEGRADED/unknown)", file=sys.stderr)
             sys.exit(2)
 
     now_utc = datetime.now(timezone.utc)

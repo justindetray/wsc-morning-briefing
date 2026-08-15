@@ -1,53 +1,53 @@
 {
   "status": "LIVE",
-  "as_of": "2026-08-14T11:06:58.991093+00:00",
+  "as_of": "2026-08-15T11:09:44.824351+00:00",
   "reason": null,
   "meetings": [
     {
       "meetingDt": "2026-09-16",
-      "reportingDt": "2026-08-13",
-      "hold": 0.659286,
-      "hike_25": 0.340714,
+      "reportingDt": "2026-08-14",
+      "hold": 0.669286,
+      "hike_25": 0.330714,
       "hike_50": 0.0,
       "hike_75": 0.0,
       "hike_100": 0.0,
       "current_band": "3.50-3.75",
-      "cumulative_hike": 0.34
+      "cumulative_hike": 0.33
     },
     {
       "meetingDt": "2026-10-28",
-      "reportingDt": "2026-08-13",
-      "hold": 0.527899,
-      "hike_25": 0.404201,
-      "hike_50": 0.067899,
+      "reportingDt": "2026-08-14",
+      "hold": 0.535907,
+      "hike_25": 0.398187,
+      "hike_50": 0.065907,
       "hike_75": 0.0,
       "hike_100": 0.0,
       "current_band": "3.50-3.75",
-      "cumulative_hike": 0.47
+      "cumulative_hike": 0.46
     },
     {
       "meetingDt": "2026-12-09",
-      "reportingDt": "2026-08-13",
-      "hold": 0.338247,
-      "hike_25": 0.448641,
-      "hike_50": 0.188719,
-      "hike_75": 0.024394,
+      "reportingDt": "2026-08-14",
+      "hold": 0.323529,
+      "hike_25": 0.452765,
+      "hike_50": 0.197588,
+      "hike_75": 0.026119,
       "hike_100": 0.0,
       "current_band": "3.50-3.75",
-      "cumulative_hike": 0.66
+      "cumulative_hike": 0.68
     },
     {
       "meetingDt": "2027-01-27",
-      "reportingDt": "2026-08-13",
-      "hold": 0.283877,
-      "hike_25": 0.430896,
-      "hike_50": 0.230499,
-      "hike_75": 0.050807,
-      "hike_100": 0.003921,
+      "reportingDt": "2026-08-14",
+      "hold": 0.264095,
+      "hike_25": 0.429024,
+      "hike_50": 0.244465,
+      "hike_75": 0.057618,
+      "hike_100": 0.004798,
       "current_band": "3.50-3.75",
-      "cumulative_hike": 0.72
+      "cumulative_hike": 0.74
     }
   ],
-  "note": "Live CME pull, cohort 2026-08-13 (post-PPI). September eased to hold 65.9% / hike 34.1% -- third straight decline from 49.6% hike on the 8/10 cohort.",
-  "reportingDt": "2026-08-13"
+  "reportingDt": "2026-08-14",
+  "note": "Live CME pull, cohort 2026-08-14 (Friday close, post-retail-sales). September hold 66.9% / hike 33.1% -- only ~1pt of easing from Thursday. NOTE: several wires reported hike odds fell to ~30.6% on Friday's weak data; the direct CME tape does not support that magnitude. Four-day path: 49.6% hike (8/10) -> 40.6% -> 34.1% -> 33.1%."
 }

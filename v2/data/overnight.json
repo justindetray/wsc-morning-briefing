@@ -1,106 +1,105 @@
 {
-  "headline": "S&P sets a new record on cooler headline PPI \u2014 but the core-core ran hot, and two more ADNOC tankers were hit overnight",
-  "as_of": "2026-08-14T07:05:00-04:00",
-  "client_frame": "Two stories worth separating. **The S&P 500 set a genuine new all-time high Thursday**, closing **7,798.99** \u2014 above the prior record close of 7,757.64 from August 7 \u2014 with an intraday high of 7,816.70 that also cleared the August 5 peak of 7,793.68. Both verified against daily history. To be precise about scope: **this is an S&P record only.** The Nasdaq 100 reclaimed 30,000 at 30,084.50 but sits **1.88% below** its June 2 peak, and the Dow is **0.94% below** its August 5 high. September hike odds fell to **hold 65.9% / hike 34.1%**, the third straight decline from 49.6% hike on Monday.\n\nThe reason for the rally was headline PPI at **0.0% MoM** against +0.2% expected, with the YoY rate dropping to 4.7% from 5.5%. But the print was two-sided, and the part that matters for policy went the other way: **core ex-food, energy and trade services rose +0.4% MoM, up from +0.1% in June.** Driving it was a **5.6\u20136.5% monthly surge in portfolio management services prices** \u2014 which is worth sitting with, because those prices largely track asset values. The market rally is mechanically feeding measured inflation. Pantheon lifted its July core PCE estimate to **+0.24% from +0.16%**, attributing roughly **11bp to that single component**, and expects the BEA's **September 30 methodology revision** to subtract at least 0.2pp from core PCE year-over-year. So the near-term data looks firmer than the headline while a scheduled statistical change points the other way. Neither is really about underlying inflation.\n\nMeanwhile the long end kept telling a different story than stocks. Thursday's **$25B 30-year auction cleared at 5.216%, the highest in over 15 years**, with bid-to-cover slipping to 2.39x from 2.44x and primary dealers absorbing 11.5% versus a 10.6% average. Coupled with Wednesday's 10-year at a post-2007 high yield, that is two consecutive auctions of softening demand \u2014 real deterioration, though neither produced a large tail. And overnight the **UAE accused Iran of attacking two ADNOC tankers** in Hormuz, ADNOC's 15th and 16th vessels struck since February, sending Brent back up 1.7%. Monday is the reported expiry of the 60-day negotiating window.",
+  "headline": "The consumer cracked: retail sales -0.6% and sentiment to 51.0 with inflation expectations still rising \u2014 and a third tanker was hit ahead of Monday's Iran deadline",
+  "as_of": "2026-08-15T07:00:00-04:00",
+  "client_frame": "Friday delivered the week's most important data, and it was not good. **July retail sales fell 0.6% month-over-month against +0.1% expected** \u2014 the largest monthly decline in 14 months and the first outright drop in nine. The control group that feeds GDP fell **0.4%** versus +0.3% expected, its worst reading since January 2025, and June was revised down. The weakness was broad rather than a gasoline artifact: online retail \u22122.2%, autos \u22121.8%, electronics \u22120.5%. Set against July payrolls of **\u221223,000**, the read is a consumer genuinely weakening, not merely normalizing.\n\nAn hour and a half later, **Michigan sentiment came in at 51.0 against 55.2 in July** and roughly 54.5 expected \u2014 and the internals were worse than the headline. Current conditions fell to 51.8, expectations to 50.6, and **one-year inflation expectations rose to 4.3% from 4.2%**, well above the 3.4% reading in February before the Iran conflict. Only 8% of consumers now expect their income to outpace inflation. That combination \u2014 falling activity with rising inflation expectations \u2014 is the uncomfortable one, and it is why this is not a straightforward case for the Fed to cut into weakness.\n\nMarkets took it calmly. The S&P slipped **0.17% to 7,785.76**, giving back a fraction of Thursday's record close of 7,798.99, so **Thursday's high remains the record and Friday did not set a new one**. The Nasdaq 100 eased 0.13% and the Dow 0.20%, while the Russell 2000 actually rose 0.51% \u2014 an odd small-cap divergence on a weak-consumer day. VIX fell to 14.25. **The bond market disagreed with the growth read**: the 10-year rose about 5.5bp to 4.696%, extending the message from the week's two poorly-received auctions rather than rallying on soft data. On the week the S&P added 0.36% and the Nasdaq 100 1.09%, while the Dow lost 0.56%.\n\nOne correction worth making explicitly. Several wires reported that September hike odds fell to about 30.6% after the data. **Our direct CME pull for the 8/14 cohort shows hold 66.9% / hike 33.1%** \u2014 barely changed from Thursday's 34.1%. The direction is right but the magnitude in the press coverage is overstated; the market did not meaningfully reprice on Friday's misses. The four-day path is 49.6% hike (8/10) \u2192 40.6% \u2192 34.1% \u2192 **33.1%**.\n\nThe week ahead is unusually loaded. **Monday is the reported expiry of the 60-day window** in June's interim US-Iran memorandum, and there is still no confirmed extension \u2014 a third ADNOC-operated tanker was struck Friday evening. **Wednesday brings Canada's 50% tariffs** at 12:01am and **July FOMC minutes** at 2pm. And five major retailers report between Tuesday and Thursday \u2014 Home Depot, Target, Lowe's, TJX and Walmart \u2014 which is the best possible follow-up to a bad retail sales print. Jackson Hole is the week after, August 27\u201329, with Warsh's first keynote as Chair expected on the 28th.",
   "asia_close": [
     {
-      "market": "KOSPI",
-      "delta_pct": 2.42,
-      "level": "6,977.94",
-      "note": "5-day streak, +11.5% on the week; briefly topped 7,000"
+      "market": "Weekly: S&P 500",
+      "delta_pct": 0.36,
+      "level": "7,785.76",
+      "note": "record close of 7,798.99 set Thursday, not Friday"
     },
     {
-      "market": "Nikkei 225",
-      "delta_pct": 0.59,
-      "level": "68,713.80",
-      "note": "AP has 68,533.85/+0.3%"
+      "market": "Weekly: Nasdaq 100",
+      "delta_pct": 1.09,
+      "level": "30,046.14",
+      "note": "still 2.00% under the June 2 record"
     },
     {
-      "market": "Shanghai",
-      "delta_pct": -0.5,
-      "level": "3,908.05",
-      "note": ""
+      "market": "Weekly: Dow",
+      "delta_pct": -0.56,
+      "level": "53,732.41",
+      "note": "1.13% under the Aug 5 record"
     },
     {
-      "market": "Hang Seng",
-      "delta_pct": -1.0,
-      "level": "25,137.87",
-      "note": "fourth straight loss"
+      "market": "Weekly: US 10Y",
+      "delta_pct": null,
+      "level": "4.696%",
+      "note": "up ~3.6bp on the week; rose ~5.5bp Friday alone despite weak data"
     }
   ],
   "europe_open": [
     {
-      "market": "STOXX 600",
-      "delta_pct": null,
-      "level": "",
-      "note": "mixed; oil majors bid on the Hormuz news"
+      "market": "Russell 2000",
+      "delta_pct": 0.51,
+      "level": "3,068.42",
+      "note": "Friday's outlier \u2014 small caps rallied while large caps fell"
     },
     {
-      "market": "DAX",
-      "delta_pct": null,
-      "level": "",
+      "market": "Nasdaq Composite",
+      "delta_pct": -0.28,
+      "level": "26,729.16",
       "note": ""
     },
     {
-      "market": "FTSE 100",
+      "market": "WTI / Brent (week)",
       "delta_pct": null,
-      "level": "",
-      "note": ""
+      "level": "$82.40 / $88.52",
+      "note": "+5.4% and +6.0% on the week on Hormuz escalation"
     }
   ],
   "single_name_moves": [
     {
-      "ticker": "TPR",
-      "delta_pct": -16.49,
-      "venue": "Thu close",
-      "note": "$153.74 to $128.39 despite an EPS and revenue beat \u2014 guidance missed a high bar"
-    },
-    {
-      "ticker": "CSCO",
-      "delta_pct": -8.4,
-      "venue": "Thu close",
-      "note": "$113.47; the beat-and-raise selloff was worse than the -2% to -6% after-hours range suggested"
-    },
-    {
       "ticker": "AMAT",
-      "delta_pct": -2.48,
-      "venue": "Thu close",
-      "note": "$534.54 BEFORE reporting \u2014 the regular-session drop was unrelated to earnings"
-    },
-    {
-      "ticker": "AMAT",
-      "delta_pct": null,
-      "venue": "after hours",
-      "note": "fell a further 3% to 5.2% (~$506-516) despite a beat-and-raise: rev $9.115B and EPS $3.50 both records, Q4 guide ~$10.25B vs ~$9.5B consensus. China fell to 28% of revenue from 35%; disclosed a $253M BIS export-controls settlement"
-    },
-    {
-      "ticker": "SMCI",
-      "delta_pct": 4.12,
-      "venue": "Thu close",
-      "note": "$39.16, extending the run"
+      "delta_pct": -5.12,
+      "venue": "Fri close",
+      "note": "$534.54 to $507.18 \u2014 sold off through the entire session after Thursday night's beat-and-raise (record $9.115B revenue, EPS $3.50, Q4 guide ~$10.25B vs ~$9.5B consensus). A clean sell-the-news, not just an after-hours dip"
     },
     {
       "ticker": "NU",
-      "delta_pct": 2.73,
-      "venue": "Thu close",
-      "note": "$13.93, then +7.7% to +9.3% after hours on first-ever $1.1B net income, record 12.4% NIM, Mexico license approved"
+      "delta_pct": 9.33,
+      "venue": "Fri close",
+      "note": "$13.93 to $15.23 on first-ever $1.1B quarterly net income (+49%), record 12.4% NIM, Mexico banking license; Needham lifted its target to $19"
+    },
+    {
+      "ticker": "SMCI",
+      "delta_pct": 1.74,
+      "venue": "Fri close",
+      "note": "$39.84, a third straight gain"
+    },
+    {
+      "ticker": "CSCO",
+      "delta_pct": -1.57,
+      "venue": "Fri close",
+      "note": "$111.68, extending Thursday's 8.40% drop"
     },
     {
       "ticker": "CRWV",
-      "delta_pct": -1.34,
-      "venue": "Thu close",
-      "note": "$106.29 after touching $117.49 intraday"
+      "delta_pct": -0.97,
+      "venue": "Fri close",
+      "note": "$105.26, cooling after Wednesday's 19.3% AI-earnings surge"
+    },
+    {
+      "ticker": "TPR",
+      "delta_pct": 0.46,
+      "venue": "Fri close",
+      "note": "$128.98, stabilizing after Thursday's 16.49% collapse"
+    },
+    {
+      "ticker": "AVGO",
+      "delta_pct": -6.0,
+      "venue": "Fri close",
+      "note": "the session's notable large-cap decliner"
     }
   ],
   "geo_headlines": [
-    "**Two more ADNOC tankers attacked overnight** in Hormuz, per UAE accusations against Iran \u2014 no injuries, situation 'brought under control', but ADNOC now counts 15 vessels struck since February and the UAE Foreign Ministry called it 'piracy' by the IRGC.",
-    "**Oil reversed hard on the news:** Brent +1.7% to **$88.51** and WTI +1.9% to **$82.79** in early Friday trade, after Thursday settles of $86.92 and $81.25 that were down roughly 2.3% on demand-forecast cuts.",
-    "**Monday August 17 is the reported expiry** of the June interim MOU's 60-day negotiating window. An Anadolu report claims the US and Iran agreed in principle to extend it, but that is **uncorroborated** \u2014 Al Jazeera and CNN describe the MOU as fraying, and Iran's foreign ministry says there are no negotiations with Washington.",
-    "**30-year auction confirmed the long-end problem:** 5.216% high yield, highest in 15+ years, bid-to-cover 2.39x vs 2.44x prior, indirects ~66.8%, dealers took 11.5% vs a 10.6% average. Tail only 0.4bp on the when-issued basis.",
-    "**Jobless claims 209,000**, above consensus \u2014 the labor side keeps softening after July payrolls came in at -23,000.",
-    "**Fed speakers split Thursday:** Hammack stayed hawkish while Barkin was more balanced. The dollar slipped back below 100 on DXY but Hammack's remarks limited the decline.",
-    "**Gold gave back its CPI gains** \u2014 $4,356.43, down 1.31%, after touching $4,449.37 intraday. A clear outside-day reversal.",
-    "**Canada's 50% Section 338 tariffs** on ~$20B of goods still take effect 12:01am ET **Wednesday August 19**, with no deal confirmed.",
-    "**The IEA raised its Q3 Brent forecast** to roughly $85 average, $11 above its July projection, while still expecting ~$78 by Q4 and ~$69 by Q1 2027 as traffic normalizes."
+    "**MONDAY IS THE DEADLINE.** The 60-day window in June's interim US-Iran memorandum reportedly expires August 17 with **no confirmed extension**. A **third ADNOC-operated tanker was attacked Friday evening**, the third in a week; UKMTO confirmed a bulk carrier struck by an unknown projectile. Iran's foreign ministry spokesman Baqaei: 'We are not currently negotiating with the United States.' The Anadolu report of an agreement in principle to extend remains **uncorroborated and directly contradicted** by Iranian officials via Reuters.",
+    "**Quiet diplomacy is running through Europe:** Secretary Rubio met Austria's foreign minister and called Greece's, and both then spoke with Iran's FM Araghchi on Thursday. Austria has offered to host talks. Iran frames the contacts as being about 'future management of the Strait of Hormuz', not a bilateral deal.",
+    "**Oil finished the week up 5\u20136%** \u2014 WTI $82.40 and Brent $88.52 \u2014 after Defense Secretary Hegseth threatened an 'indefinite' naval blockade of Iranian ports. Both benchmarks had dipped roughly 2% Thursday before reversing.",
+    "**Canada's 50% Section 338 tariffs** on ~$20B of goods hit at 12:01am ET **Wednesday**, with **no USMCA exemption** unlike prior rounds. Canada's chief negotiator Janice Charette said Friday there is 'a significant amount of work to do'; talks run through the weekend. The sticking point is US insistence on keeping some auto tariffs even inside a deal.",
+    "**Five major retailers report Tue\u2013Thu:** Home Depot (Tue BO), Target, Lowe's and TJX (Wed BO), Walmart (Thu BO), plus Deere Thursday. The most direct consumer read available after Friday's miss. Home Depot reports with CEO Ted Decker on medical leave.",
+    "**July FOMC minutes land Wednesday 2pm** \u2014 the only scheduled Fed communication of the week. **No Board speeches are on the calendar August 17\u201321**, which likely means officials are holding fire until Jackson Hole.",
+    "**Jackson Hole is August 27\u201329**, not this week \u2014 theme 'Financial Innovation: Implications for Payments and Policy'. Chair Warsh's first keynote as Chair is expected Friday the 28th, 19 days before the September decision.",
+    "**Also on deck:** Empire State manufacturing and NAHB Monday; import/export prices, housing starts and industrial production Tuesday; jobless claims, Philly Fed and leading indicators Thursday; flash PMIs and monthly options expiration Friday."
   ]
 }

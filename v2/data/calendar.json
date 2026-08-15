@@ -1,29 +1,21 @@
 {
-  "last_curated": "2026-08-14",
+  "last_curated": "2026-08-15",
   "macro": [
-    {
-      "date": "2026-08-14",
-      "time_et": "08:30",
-      "event": "Retail sales (July)",
-      "consensus": "+0.1% headline (WSJ/Morningstar survey)",
-      "importance": "high",
-      "note": "THE event. Consumer read after the -23k payroll miss."
-    },
-    {
-      "date": "2026-08-14",
-      "time_et": "10:00",
-      "event": "Michigan Sentiment (prelim)",
-      "consensus": "~54.5 vs 55.2 prior",
-      "importance": "high",
-      "note": "1-yr inflation expectations (4.2% prior) matter more than the headline given PPI's mixed core."
-    },
     {
       "date": "2026-08-17",
       "time_et": "",
       "event": "Iran interim MOU 60-day window reportedly expires",
       "consensus": "",
       "importance": "high",
-      "note": "Extension claim is uncorroborated; Iran says no talks with Washington."
+      "note": "No confirmed extension. Third ADNOC tanker struck Friday evening. Iran says it is not negotiating with Washington."
+    },
+    {
+      "date": "2026-08-17",
+      "time_et": "08:30",
+      "event": "Empire State Manufacturing (Aug)",
+      "consensus": "",
+      "importance": "medium",
+      "note": "NY Fed. NAHB housing index at 10:00."
     },
     {
       "date": "2026-08-18",
@@ -31,7 +23,23 @@
       "event": "Import/Export Price Indexes (July)",
       "consensus": "",
       "importance": "medium",
-      "note": "Per official BLS schedule -- NOT today, contrary to some calendars."
+      "note": "Confirmed on the official BLS release schedule."
+    },
+    {
+      "date": "2026-08-18",
+      "time_et": "08:30",
+      "event": "Housing starts & building permits (July)",
+      "consensus": "",
+      "importance": "medium",
+      "note": "Census. Industrial production 9:15."
+    },
+    {
+      "date": "2026-08-18",
+      "time_et": "BO",
+      "event": "Home Depot (HD) Q2",
+      "consensus": "call 9:00am ET",
+      "importance": "high",
+      "note": "First of five major retailers. CEO Ted Decker on medical leave."
     },
     {
       "date": "2026-08-19",
@@ -39,21 +47,61 @@
       "event": "Canada 50% Section 338 tariffs take effect",
       "consensus": "",
       "importance": "high",
-      "note": "~$20B of goods; no deal confirmed after three LeBlanc meetings."
+      "note": "~$20B of goods, no USMCA exemption. No deal as of Saturday; talks continuing."
+    },
+    {
+      "date": "2026-08-19",
+      "time_et": "BO",
+      "event": "Target, Lowe's, TJX Q2",
+      "consensus": "TGT ~$2.22, LOW ~$4.25",
+      "importance": "high",
+      "note": "Three retailers in one session, the day after Home Depot."
+    },
+    {
+      "date": "2026-08-19",
+      "time_et": "14:00",
+      "event": "FOMC minutes (July 28-29)",
+      "consensus": "",
+      "importance": "high",
+      "note": "The only scheduled Fed communication of the week. No Board speeches Aug 17-21."
+    },
+    {
+      "date": "2026-08-20",
+      "time_et": "08:30",
+      "event": "Jobless claims + Philly Fed",
+      "consensus": "prior claims 209K",
+      "importance": "medium",
+      "note": "Leading Economic Index 10:00 (Conference Board confirmed)."
+    },
+    {
+      "date": "2026-08-20",
+      "time_et": "BO",
+      "event": "Walmart (WMT) Q2",
+      "consensus": "call 8:00am ET",
+      "importance": "high",
+      "note": "The single best consumer read after Friday's -0.6% retail sales. Deere also reports."
     },
     {
       "date": "2026-08-21",
-      "time_et": "",
-      "event": "Monthly options expiration",
+      "time_et": "09:45",
+      "event": "S&P Global flash PMIs (Aug)",
       "consensus": "",
       "importance": "medium",
-      "note": "Third Friday. Today is the second Friday, not OpEx."
+      "note": "Same day as monthly options expiration (third Friday)."
+    },
+    {
+      "date": "2026-08-27",
+      "time_et": "",
+      "event": "Jackson Hole symposium begins (Aug 27-29)",
+      "consensus": "",
+      "importance": "high",
+      "note": "'Financial Innovation: Implications for Payments and Policy'. Warsh keynote expected Fri 8/28 -- NOT this week."
     },
     {
       "date": "2026-09-16",
       "time_et": "",
       "event": "FOMC decision",
-      "consensus": "hold 65.9% / hike 34.1%",
+      "consensus": "hold 66.9% / hike 33.1%",
       "importance": "high",
       "note": "Band 3.50-3.75%. Market debating a hike, not a cut."
     },
