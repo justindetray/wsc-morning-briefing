@@ -1,105 +1,48 @@
 {
-  "headline": "The consumer cracked: retail sales -0.6% and sentiment to 51.0 with inflation expectations still rising \u2014 and a third tanker was hit ahead of Monday's Iran deadline",
-  "as_of": "2026-08-15T07:00:00-04:00",
-  "client_frame": "Friday delivered the week's most important data, and it was not good. **July retail sales fell 0.6% month-over-month against +0.1% expected** \u2014 the largest monthly decline in 14 months and the first outright drop in nine. The control group that feeds GDP fell **0.4%** versus +0.3% expected, its worst reading since January 2025, and June was revised down. The weakness was broad rather than a gasoline artifact: online retail \u22122.2%, autos \u22121.8%, electronics \u22120.5%. Set against July payrolls of **\u221223,000**, the read is a consumer genuinely weakening, not merely normalizing.\n\nAn hour and a half later, **Michigan sentiment came in at 51.0 against 55.2 in July** and roughly 54.5 expected \u2014 and the internals were worse than the headline. Current conditions fell to 51.8, expectations to 50.6, and **one-year inflation expectations rose to 4.3% from 4.2%**, well above the 3.4% reading in February before the Iran conflict. Only 8% of consumers now expect their income to outpace inflation. That combination \u2014 falling activity with rising inflation expectations \u2014 is the uncomfortable one, and it is why this is not a straightforward case for the Fed to cut into weakness.\n\nMarkets took it calmly. The S&P slipped **0.17% to 7,785.76**, giving back a fraction of Thursday's record close of 7,798.99, so **Thursday's high remains the record and Friday did not set a new one**. The Nasdaq 100 eased 0.13% and the Dow 0.20%, while the Russell 2000 actually rose 0.51% \u2014 an odd small-cap divergence on a weak-consumer day. VIX fell to 14.25. **The bond market disagreed with the growth read**: the 10-year rose about 5.5bp to 4.696%, extending the message from the week's two poorly-received auctions rather than rallying on soft data. On the week the S&P added 0.36% and the Nasdaq 100 1.09%, while the Dow lost 0.56%.\n\nOne correction worth making explicitly. Several wires reported that September hike odds fell to about 30.6% after the data. **Our direct CME pull for the 8/14 cohort shows hold 66.9% / hike 33.1%** \u2014 barely changed from Thursday's 34.1%. The direction is right but the magnitude in the press coverage is overstated; the market did not meaningfully reprice on Friday's misses. The four-day path is 49.6% hike (8/10) \u2192 40.6% \u2192 34.1% \u2192 **33.1%**.\n\nThe week ahead is unusually loaded. **Monday is the reported expiry of the 60-day window** in June's interim US-Iran memorandum, and there is still no confirmed extension \u2014 a third ADNOC-operated tanker was struck Friday evening. **Wednesday brings Canada's 50% tariffs** at 12:01am and **July FOMC minutes** at 2pm. And five major retailers report between Tuesday and Thursday \u2014 Home Depot, Target, Lowe's, TJX and Walmart \u2014 which is the best possible follow-up to a bad retail sales print. Jackson Hole is the week after, August 27\u201329, with Warsh's first keynote as Chair expected on the 28th.",
-  "asia_close": [
-    {
-      "market": "Weekly: S&P 500",
-      "delta_pct": 0.36,
-      "level": "7,785.76",
-      "note": "record close of 7,798.99 set Thursday, not Friday"
-    },
-    {
-      "market": "Weekly: Nasdaq 100",
-      "delta_pct": 1.09,
-      "level": "30,046.14",
-      "note": "still 2.00% under the June 2 record"
-    },
-    {
-      "market": "Weekly: Dow",
-      "delta_pct": -0.56,
-      "level": "53,732.41",
-      "note": "1.13% under the Aug 5 record"
-    },
-    {
-      "market": "Weekly: US 10Y",
-      "delta_pct": null,
-      "level": "4.696%",
-      "note": "up ~3.6bp on the week; rose ~5.5bp Friday alone despite weak data"
-    }
-  ],
-  "europe_open": [
-    {
-      "market": "Russell 2000",
-      "delta_pct": 0.51,
-      "level": "3,068.42",
-      "note": "Friday's outlier \u2014 small caps rallied while large caps fell"
-    },
-    {
-      "market": "Nasdaq Composite",
-      "delta_pct": -0.28,
-      "level": "26,729.16",
-      "note": ""
-    },
-    {
-      "market": "WTI / Brent (week)",
-      "delta_pct": null,
-      "level": "$82.40 / $88.52",
-      "note": "+5.4% and +6.0% on the week on Hormuz escalation"
-    }
-  ],
+  "headline": "The August 21 sanctions cliff does not exist \u2014 Treasury killed General License X five weeks ago; what is real is a third tanker hit and Wednesday's Canada tariff deadline with no deal",
+  "as_of": "2026-08-16T07:00:00-04:00",
+  "client_frame": "Two things to know before Monday. First, **the Iran \"Monday deadline\" that has been circulating in the press does not survive contact with the primary documents.** The MOU's 60-day point does land around today, but the text says the window is extendable by mutual consent and specifies no automatic trigger (CNN MOU text). More importantly, the sanctions cliff people keep pointing at \u2014 the August 21 expiry of OFAC General License X \u2014 **no longer exists.** Treasury revoked GL X on July 7 and replaced it with GL X1, whose wind-down ended July 17 (OFAC). The snapback already happened five weeks ago. Anyone trading a August 21 sanctions event is trading a headline that expired.\n\nWhat is actually live is physical, not legal. **A third ADNOC vessel was attacked in Hormuz Friday evening** (gCaptain), and transits have collapsed to roughly two vessels on Friday against 130-plus a day pre-war. Overnight Trump said he intends to **declare the Strait of Hormuz US territory** once the conflict ends; Iran's deputy foreign minister called that \"delusional\" (Al Jazeera). Crude did not trade this weekend \u2014 Globex reopens 6:00 PM ET tonight \u2014 so Friday's $82.40 WTI is the last real print, and Sunday evening is the first place this gets marked.\n\nSecond, **the Canada tariff deadline is Wednesday and there is still no deal.** Dominic LeBlanc said Friday that Ottawa remains \"quite far away from an agreement the Prime Minister can sign off on\" (Reuters). Weekend talks continued and their outcome is genuinely unknown as of this writing \u2014 I am flagging that as a gap, not filling it. The scope on the table is 50% on roughly $20 billion of goods with no USMCA exemption.\n\n**For clients:** the setup into this week is a market priced for calm \u2014 VIX 14.25, S&P within 0.2% of Thursday's record \u2014 sitting on top of a weakening consumer (retail sales \u22120.6%, Michigan 51.0), a Fed that futures now put at a **33% chance of hiking** in September, and two unresolved geopolitical clocks. That is not a reason to do anything. It is a reason to expect the week to be noisier than last week was, and to have already decided what you would do if it is.",
+  "asia_close": [],
+  "europe_open": [],
   "single_name_moves": [
     {
       "ticker": "AMAT",
       "delta_pct": -5.12,
-      "venue": "Fri close",
-      "note": "$534.54 to $507.18 \u2014 sold off through the entire session after Thursday night's beat-and-raise (record $9.115B revenue, EPS $3.50, Q4 guide ~$10.25B vs ~$9.5B consensus). A clean sell-the-news, not just an after-hours dip"
+      "venue": "Fri close $507.18",
+      "note": "Beat and raised, then sold off all session \u2014 the tell on how much is already priced into semicap."
     },
     {
       "ticker": "NU",
       "delta_pct": 9.33,
-      "venue": "Fri close",
-      "note": "$13.93 to $15.23 on first-ever $1.1B quarterly net income (+49%), record 12.4% NIM, Mexico banking license; Needham lifted its target to $19"
-    },
-    {
-      "ticker": "SMCI",
-      "delta_pct": 1.74,
-      "venue": "Fri close",
-      "note": "$39.84, a third straight gain"
-    },
-    {
-      "ticker": "CSCO",
-      "delta_pct": -1.57,
-      "venue": "Fri close",
-      "note": "$111.68, extending Thursday's 8.40% drop"
-    },
-    {
-      "ticker": "CRWV",
-      "delta_pct": -0.97,
-      "venue": "Fri close",
-      "note": "$105.26, cooling after Wednesday's 19.3% AI-earnings surge"
-    },
-    {
-      "ticker": "TPR",
-      "delta_pct": 0.46,
-      "venue": "Fri close",
-      "note": "$128.98, stabilizing after Thursday's 16.49% collapse"
+      "venue": "Fri close $15.23",
+      "note": "Strongest large-cap move of the day."
     },
     {
       "ticker": "AVGO",
       "delta_pct": -6.0,
       "venue": "Fri close",
-      "note": "the session's notable large-cap decliner"
+      "note": "Weighed on NDX alongside AMAT."
+    },
+    {
+      "ticker": "CSCO",
+      "delta_pct": -1.57,
+      "venue": "Fri close $111.68",
+      "note": ""
+    },
+    {
+      "ticker": "SMCI",
+      "delta_pct": 1.74,
+      "venue": "Fri close $39.84",
+      "note": ""
     }
   ],
   "geo_headlines": [
-    "**MONDAY IS THE DEADLINE.** The 60-day window in June's interim US-Iran memorandum reportedly expires August 17 with **no confirmed extension**. A **third ADNOC-operated tanker was attacked Friday evening**, the third in a week; UKMTO confirmed a bulk carrier struck by an unknown projectile. Iran's foreign ministry spokesman Baqaei: 'We are not currently negotiating with the United States.' The Anadolu report of an agreement in principle to extend remains **uncorroborated and directly contradicted** by Iranian officials via Reuters.",
-    "**Quiet diplomacy is running through Europe:** Secretary Rubio met Austria's foreign minister and called Greece's, and both then spoke with Iran's FM Araghchi on Thursday. Austria has offered to host talks. Iran frames the contacts as being about 'future management of the Strait of Hormuz', not a bilateral deal.",
-    "**Oil finished the week up 5\u20136%** \u2014 WTI $82.40 and Brent $88.52 \u2014 after Defense Secretary Hegseth threatened an 'indefinite' naval blockade of Iranian ports. Both benchmarks had dipped roughly 2% Thursday before reversing.",
-    "**Canada's 50% Section 338 tariffs** on ~$20B of goods hit at 12:01am ET **Wednesday**, with **no USMCA exemption** unlike prior rounds. Canada's chief negotiator Janice Charette said Friday there is 'a significant amount of work to do'; talks run through the weekend. The sticking point is US insistence on keeping some auto tariffs even inside a deal.",
-    "**Five major retailers report Tue\u2013Thu:** Home Depot (Tue BO), Target, Lowe's and TJX (Wed BO), Walmart (Thu BO), plus Deere Thursday. The most direct consumer read available after Friday's miss. Home Depot reports with CEO Ted Decker on medical leave.",
-    "**July FOMC minutes land Wednesday 2pm** \u2014 the only scheduled Fed communication of the week. **No Board speeches are on the calendar August 17\u201321**, which likely means officials are holding fire until Jackson Hole.",
-    "**Jackson Hole is August 27\u201329**, not this week \u2014 theme 'Financial Innovation: Implications for Payments and Policy'. Chair Warsh's first keynote as Chair is expected Friday the 28th, 19 days before the September decision.",
-    "**Also on deck:** Empire State manufacturing and NAHB Monday; import/export prices, housing starts and industrial production Tuesday; jobless claims, Philly Fed and leading indicators Thursday; flash PMIs and monthly options expiration Friday."
+    "**Trump: Strait of Hormuz could become US territory.** Overnight Sunday he said he will declare the waterway American once the conflict ends. Iran Deputy FM Gharibabadi: \"delusional \u2014 the Strait of Hormuz has been Iranian, is Iranian, and will remain Iranian.\"",
+    "**Third ADNOC vessel attacked Friday evening**, reported Saturday. Only two vessels transited Hormuz Friday versus 130-plus a day before the war; Kpler logged no crude at all.",
+    "**Correction to the widely-reported August 21 date:** OFAC General License X was revoked July 7 and superseded by GL X1, wind-down completed July 17. There is no pending August 21 sanctions expiry. The MOU's 60-day point (~today) is extendable by mutual consent with no automatic trigger.",
+    "**Israeli strikes killed 11 in southern Lebanon Saturday**, including three children \u2014 the deadliest day there since the June truce.",
+    "**Canada: no deal ahead of Wednesday's 12:01am tariff deadline.** LeBlanc Friday: \"quite far away from an agreement the Prime Minister can sign off on.\" Reports suggest an outline could reach Trump as early as Monday. Weekend outcome unknown \u2014 flagged as a gap.",
+    "**Bessent's promised \"unprecedented\" economic measures against Iran remain unspecified** \u2014 a live headline risk on any day, including tonight's crude reopen.",
+    "Gasoline is **$4.07\u2013$4.08/gal, up 29% year over year** (AAA). Trump has told Americans to accept \"a tiny little bit more for your gasoline\" \u2014 the cleanest read-through from Hormuz to consumer sentiment."
   ]
 }

@@ -1,13 +1,13 @@
 {
-  "last_curated": "2026-08-15",
+  "last_curated": "2026-08-16",
   "macro": [
     {
-      "date": "2026-08-17",
-      "time_et": "",
-      "event": "Iran interim MOU 60-day window reportedly expires",
+      "date": "2026-08-16",
+      "time_et": "14:00",
+      "event": "China July activity data (retail sales, IP, FAI)",
       "consensus": "",
-      "importance": "high",
-      "note": "No confirmed extension. Third ADNOC tanker struck Friday evening. Iran says it is not negotiating with Washington."
+      "importance": "medium",
+      "note": "Released Sunday afternoon ET \u2014 first input into Monday's Asia open."
     },
     {
       "date": "2026-08-17",
@@ -15,7 +15,7 @@
       "event": "Empire State Manufacturing (Aug)",
       "consensus": "",
       "importance": "medium",
-      "note": "NY Fed. NAHB housing index at 10:00."
+      "note": "NY Fed. NAHB housing index ~10:00."
     },
     {
       "date": "2026-08-18",
@@ -37,49 +37,49 @@
       "date": "2026-08-18",
       "time_et": "BO",
       "event": "Home Depot (HD) Q2",
-      "consensus": "call 9:00am ET",
+      "consensus": "EPS ~$4.71\u2013$4.73, rev ~$47.2\u2013$47.5B",
       "importance": "high",
-      "note": "First of five major retailers. CEO Ted Decker on medical leave."
+      "note": "Call 9:00am ET. CEO Ted Decker on medical leave since Aug 12; unclear who leads the call."
     },
     {
       "date": "2026-08-19",
       "time_et": "00:01",
-      "event": "Canada 50% Section 338 tariffs take effect",
+      "event": "Canada tariffs scheduled to take effect",
       "consensus": "",
       "importance": "high",
-      "note": "~$20B of goods, no USMCA exemption. No deal as of Saturday; talks continuing."
+      "note": "50% on ~$20B of goods, no USMCA exemption \u2014 autos, alcohol, dairy, cement, furniture, clothing. No deal as of Friday."
+    },
+    {
+      "date": "2026-08-19",
+      "time_et": "14:00",
+      "event": "FOMC minutes (July 28\u201329 meeting)",
+      "consensus": "",
+      "importance": "high",
+      "note": "Read for how close the committee is to a hike with futures at 33% for September."
     },
     {
       "date": "2026-08-19",
       "time_et": "BO",
       "event": "Target, Lowe's, TJX Q2",
-      "consensus": "TGT ~$2.22, LOW ~$4.25",
+      "consensus": "TGT ~$2.31 / ~$26.1B; LOW ~$4.19 / ~$26.2B; TJX ~$1.18 / ~$15.2B",
       "importance": "high",
-      "note": "Three retailers in one session, the day after Home Depot."
-    },
-    {
-      "date": "2026-08-19",
-      "time_et": "14:00",
-      "event": "FOMC minutes (July 28-29)",
-      "consensus": "",
-      "importance": "high",
-      "note": "The only scheduled Fed communication of the week. No Board speeches Aug 17-21."
+      "note": "TGT options imply \u00b17.1%. TJX call 11:00."
     },
     {
       "date": "2026-08-20",
       "time_et": "08:30",
-      "event": "Jobless claims + Philly Fed",
-      "consensus": "prior claims 209K",
+      "event": "Initial claims + Philadelphia Fed (Aug)",
+      "consensus": "",
       "importance": "medium",
-      "note": "Leading Economic Index 10:00 (Conference Board confirmed)."
+      "note": "LEI 10:00."
     },
     {
       "date": "2026-08-20",
       "time_et": "BO",
       "event": "Walmart (WMT) Q2",
-      "consensus": "call 8:00am ET",
+      "consensus": "",
       "importance": "high",
-      "note": "The single best consumer read after Friday's -0.6% retail sales. Deere also reports."
+      "note": "~8:00am ET. The cleanest single read on the consumer after \u22120.6% retail sales. Deere call 10:00."
     },
     {
       "date": "2026-08-21",
@@ -87,31 +87,23 @@
       "event": "S&P Global flash PMIs (Aug)",
       "consensus": "",
       "importance": "medium",
-      "note": "Same day as monthly options expiration (third Friday)."
+      "note": "Manufacturing and services."
+    },
+    {
+      "date": "2026-08-21",
+      "time_et": "",
+      "event": "August monthly options expiration",
+      "consensus": "",
+      "importance": "high",
+      "note": "Third Friday. Large index and single-name open interest rolls off; pins and post-OpEx gamma release both in play."
     },
     {
       "date": "2026-08-27",
       "time_et": "",
-      "event": "Jackson Hole symposium begins (Aug 27-29)",
-      "consensus": "",
-      "importance": "high",
-      "note": "'Financial Innovation: Implications for Payments and Policy'. Warsh keynote expected Fri 8/28 -- NOT this week."
-    },
-    {
-      "date": "2026-09-16",
-      "time_et": "",
-      "event": "FOMC decision",
-      "consensus": "hold 66.9% / hike 33.1%",
-      "importance": "high",
-      "note": "Band 3.50-3.75%. Market debating a hike, not a cut."
-    },
-    {
-      "date": "2026-09-30",
-      "time_et": "",
-      "event": "BEA PCE methodology revision",
+      "event": "Jackson Hole symposium begins (Aug 27\u201329)",
       "consensus": "",
       "importance": "medium",
-      "note": "Portfolio management, software, legal services. Pantheon expects at least -0.2pp off core PCE YoY."
+      "note": "NOT this week. Theme: \"Financial Innovation: Implications for Payments and Policy.\" Warsh keynote expected Fri Aug 28."
     }
   ],
   "earnings": []

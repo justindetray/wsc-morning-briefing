@@ -1,6 +1,6 @@
 {
   "status": "LIVE",
-  "as_of": "2026-08-15T11:09:44.824351+00:00",
+  "as_of": "2026-08-16T11:03:04.255668+00:00",
   "reason": null,
   "meetings": [
     {
@@ -47,7 +47,5 @@
       "current_band": "3.50-3.75",
       "cumulative_hike": 0.74
     }
-  ],
-  "reportingDt": "2026-08-14",
-  "note": "Live CME pull, cohort 2026-08-14 (Friday close, post-retail-sales). September hold 66.9% / hike 33.1% -- only ~1pt of easing from Thursday. NOTE: several wires reported hike odds fell to ~30.6% on Friday's weak data; the direct CME tape does not support that magnitude. Four-day path: 49.6% hike (8/10) -> 40.6% -> 34.1% -> 33.1%."
+  ]
 }

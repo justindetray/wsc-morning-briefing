@@ -59,35 +59,35 @@
     "value": 82.4,
     "as_of": "Fri 8/14 settle",
     "status": "CLOSED",
-    "prev_close": 81.25,
-    "delta_pct": 1.42,
-    "label": "WTI",
-    "source": "Reuters/CNBC"
+    "prev_close": 81.55,
+    "delta_pct": 1.04,
+    "label": "WTI crude",
+    "source": "Exchange settle (Globex reopens 6pm ET Sun)"
   },
   "BRENT": {
     "value": 88.52,
     "as_of": "Fri 8/14 settle",
     "status": "CLOSED",
-    "prev_close": 86.92,
-    "delta_pct": 1.84,
-    "label": "Brent",
-    "source": "Reuters/CNBC"
+    "prev_close": 87.64,
+    "delta_pct": 1.0,
+    "label": "Brent crude",
+    "source": "Exchange settle (Globex reopens 6pm ET Sun)"
   },
   "GOLD": {
     "value": 4375.61,
     "as_of": "Fri 8/14 close",
     "status": "CLOSED",
-    "prev_close": 4356.43,
+    "prev_close": 4356.51,
     "delta_pct": 0.44,
     "label": "Gold",
-    "source": "Polygon"
+    "source": "Polygon C:XAUUSD"
   },
   "BTC": {
-    "value": 62975.19,
-    "as_of": "Fri 8/14 close",
+    "value": 63018.75,
+    "as_of": "Sat 8/15 daily bar",
     "status": "CLOSED",
-    "prev_close": 63418.04,
-    "delta_pct": -0.7,
+    "prev_close": 62975.19,
+    "delta_pct": 0.07,
     "label": "Bitcoin",
     "source": "Polygon X:BTCUSD"
   }
