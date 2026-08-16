@@ -96,6 +96,18 @@ def md_inline(s):
     out = re.sub(r"\*\*(.+?)\*\*", r"<strong>\1</strong>", out, flags=re.S)
     out = re.sub(r"(?<!\*)\*(?!\*)(.+?)(?<!\*)\*(?!\*)", r"<em>\1</em>", out, flags=re.S)
     return out
+
+def md_para(s):
+    """Render a multi-paragraph string as <p> blocks with inline markdown.
+
+    Blank-line-separated paragraphs in the source JSON were previously
+    collapsed into a single run-on block because md_inline is inline-only.
+    Splits on one-or-more blank lines; drops empty segments so trailing
+    newlines do not emit an empty <p>.
+    """
+    segs = [seg.strip() for seg in re.split(r"\n\s*\n", s or "")]
+    segs = [seg for seg in segs if seg]
+    return "".join(f"<p>{md_inline(seg)}</p>" for seg in segs)
 TILE_FORMAT = {
     "ES":    {"places": 2, "suffix": ""},
     "NQ":    {"places": 2, "suffix": ""},
@@ -213,9 +225,27 @@ def render_overnight(overnight):
     if geo:
         items = "".join(f"<li>{md_inline(g)}</li>" for g in geo)
         blocks += f'<ul class="geo">{items}</ul>'
+    # Two-version client frame (added run #154 at Justin's request):
+    #   client_frame_short -> the 2-3 sentence version for a client who calls
+    #   client_frame       -> the fuller version for one who wants the mechanics
+    # Backward compatible: with no short version present, render the single
+    # legacy CLIENT FRAME block exactly as before.
+    cf_short = overnight.get("client_frame_short")
     cf = overnight.get("client_frame")
-    if cf:
-        blocks += f'<div class="clientframe"><div class="cf-h">CLIENT FRAME</div>{md_inline(cf)}</div>'
+    if cf_short:
+        blocks += (
+            '<div class="clientframe cf-short">'
+            '<div class="cf-h">THE SHORT ANSWER &middot; IF A CLIENT CALLS</div>'
+            f'{md_para(cf_short)}</div>'
+        )
+        if cf:
+            blocks += (
+                '<div class="clientframe">'
+                '<div class="cf-h">THE FULLER PICTURE &middot; IF THEY WANT THE MECHANICS</div>'
+                f'{md_para(cf)}</div>'
+            )
+    elif cf:
+        blocks += f'<div class="clientframe"><div class="cf-h">CLIENT FRAME</div>{md_para(cf)}</div>'
     return blocks
 
 # ---------- FedWatch table ----------
@@ -358,7 +388,11 @@ html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -ap
 .geo strong{color:#ffffff;font-weight:600}
 .clientframe{background:#101418;border-left:3px solid #3d6ea5;padding:12px 16px;border-radius:0 4px 4px 0;color:#cccccc;font-size:13px;line-height:1.6;margin:0 0 16px}
 .clientframe strong{color:#ffffff;font-weight:600}
+.clientframe p{margin:0 0 10px}
+.clientframe p:last-child{margin-bottom:0}
 .cf-h{color:#7fb0e0;font-size:10px;letter-spacing:.12em;margin-bottom:6px}
+.cf-short{background:#111a22;border-left-color:#6fa8dc;color:#e8e8e8;font-size:15px;line-height:1.65;margin-bottom:10px}
+.cf-short .cf-h{color:#9ccbf0}
 .fw{width:100%;border-collapse:collapse;font-size:12px;font-variant-numeric:tabular-nums}
 .fw th,.fw td{padding:5px 8px;text-align:right;border-bottom:1px solid #1c1d1e}
 .fw th:first-child,.fw td:first-child{text-align:left;font-weight:600}
