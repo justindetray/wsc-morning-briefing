@@ -143,6 +143,24 @@ def render_tile(key, field):
   <div class="meta">{prev_str}</div>
 </div>"""
 
+# ---------- time sorting ----------
+
+def time_key(t):
+    """Sort key for display times like '8:30 AM', '~3:30 PM', '12:01 AM', 'all day'.
+    Returns minutes past midnight ET. Unparseable values sort last."""
+    if not t:
+        return 10 ** 6
+    m = re.search(r"(\d{1,2}):(\d{2})\s*([AaPp])\.?[Mm]", str(t))
+    if not m:
+        return 10 ** 6
+    hh, mm, ap = int(m.group(1)), int(m.group(2)), m.group(3).lower()
+    if hh == 12:
+        hh = 0
+    if ap == "p":
+        hh += 12
+    return hh * 60 + mm
+
+
 # ---------- on-deck (today's calendar events) ----------
 
 def render_on_deck(calendar, today_et):
@@ -154,7 +172,7 @@ def render_on_deck(calendar, today_et):
     if not macro_today and not earn_today:
         return '<div class="muted">No scheduled releases.</div>'
     lines = []
-    for e in sorted(macro_today, key=lambda x: x.get("time_et") or ""):
+    for e in sorted(macro_today, key=lambda x: time_key(x.get("time_et"))):
         cons = f" — cons {html_mod.escape(e['consensus'])}" if e.get("consensus") else ""
         imp = e.get("importance") or "low"
         imp_cls = f" imp-{imp}" if imp in ("high", "medium") else ""
@@ -313,7 +331,7 @@ def render_calendar(calendar, today_et):
             "cons": e.get("note") or "",
             "imp": e.get("importance") or "low",
         })
-    combined.sort(key=lambda x: (x["date"] or "", x["time"] or ""))
+    combined.sort(key=lambda x: (x["date"] or "", time_key(x["time"]), x["time"] or ""))
     for c in combined:
         imp_cls = f" imp-{c['imp']}" if c['imp'] in ("high", "medium") else ""
         out.append(
