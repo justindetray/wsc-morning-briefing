@@ -1,94 +1,94 @@
 {
-  "SPX": {
-    "value": 7785.76,
-    "as_of": "Fri 8/14 close",
-    "status": "CLOSED",
-    "prev_close": 7798.99,
-    "delta_pct": -0.17,
-    "label": "S&P 500",
-    "source": "Polygon"
-  },
-  "NDX": {
-    "value": 30046.14,
-    "as_of": "Fri 8/14 close",
-    "status": "CLOSED",
-    "prev_close": 30084.5,
-    "delta_pct": -0.13,
-    "label": "Nasdaq 100",
-    "source": "Polygon"
-  },
-  "DJI": {
-    "value": 53732.41,
-    "as_of": "Fri 8/14 close",
-    "status": "CLOSED",
-    "prev_close": 53839.99,
-    "delta_pct": -0.2,
-    "label": "Dow",
-    "source": "Polygon"
-  },
-  "VIX": {
-    "value": 14.25,
-    "as_of": "Fri 8/14 close",
-    "status": "CLOSED",
-    "prev_close": 14.63,
-    "delta_pct": -2.6,
-    "label": "VIX",
-    "source": "Polygon"
-  },
-  "US10Y": {
-    "value": 4.696,
-    "as_of": "Fri 8/14 close",
-    "status": "CLOSED",
-    "prev_close": 4.641,
-    "delta_pct": 1.18,
-    "label": "US 10Y",
-    "source": "Polygon I:TNX",
-    "unit": "%"
-  },
-  "US2Y": {
-    "value": 4.152,
-    "as_of": "Fri 8/14 close",
-    "status": "CLOSED",
-    "prev_close": 4.15,
-    "delta_pct": 0.05,
-    "label": "US 2Y",
-    "source": "CNBC",
-    "unit": "%"
-  },
-  "WTI": {
-    "value": 82.4,
-    "as_of": "Fri 8/14 settle",
-    "status": "CLOSED",
-    "prev_close": 81.55,
-    "delta_pct": 1.04,
-    "label": "WTI crude",
-    "source": "Exchange settle (Globex reopens 6pm ET Sun)"
-  },
-  "BRENT": {
-    "value": 88.52,
-    "as_of": "Fri 8/14 settle",
-    "status": "CLOSED",
-    "prev_close": 87.64,
-    "delta_pct": 1.0,
-    "label": "Brent crude",
-    "source": "Exchange settle (Globex reopens 6pm ET Sun)"
-  },
-  "GOLD": {
-    "value": 4375.61,
-    "as_of": "Fri 8/14 close",
-    "status": "CLOSED",
-    "prev_close": 4356.51,
-    "delta_pct": 0.44,
-    "label": "Gold",
-    "source": "Polygon C:XAUUSD"
-  },
-  "BTC": {
-    "value": 63018.75,
-    "as_of": "Sat 8/15 daily bar",
-    "status": "CLOSED",
-    "prev_close": 62975.19,
-    "delta_pct": 0.07,
-    "label": "Bitcoin",
-    "source": "Polygon X:BTCUSD"
-  }
+ "SPX": {
+  "value": 7785.76,
+  "as_of": "Fri 8/14 close",
+  "status": "CLOSED",
+  "prev_close": 7798.99,
+  "delta_pct": -0.17,
+  "label": "S&P 500",
+  "source": "Polygon"
+ },
+ "NDX": {
+  "value": 30046.14,
+  "as_of": "Fri 8/14 close",
+  "status": "CLOSED",
+  "prev_close": 30084.5,
+  "delta_pct": -0.13,
+  "label": "Nasdaq 100",
+  "source": "Polygon"
+ },
+ "DJI": {
+  "value": 53732.41,
+  "as_of": "Fri 8/14 close",
+  "status": "CLOSED",
+  "prev_close": 53839.99,
+  "delta_pct": -0.2,
+  "label": "Dow",
+  "source": "Polygon"
+ },
+ "VIX": {
+  "value": 14.9,
+  "as_of": "Mon 8/17 7:10am ET",
+  "status": "LIVE",
+  "prev_close": 14.25,
+  "delta_pct": 4.56,
+  "label": "VIX",
+  "source": "Polygon I:VIX (Cboe extended hrs)"
+ },
+ "US10Y": {
+  "value": 4.688,
+  "as_of": "Mon 8/17 ~4am ET",
+  "status": "LIVE",
+  "prev_close": 4.696,
+  "delta_pct": -0.17,
+  "label": "US 10Y",
+  "source": "CNBC",
+  "unit": "%"
+ },
+ "US2Y": {
+  "value": 4.158,
+  "as_of": "Mon 8/17 ~4am ET",
+  "status": "LIVE",
+  "prev_close": 4.152,
+  "delta_pct": 0.14,
+  "label": "US 2Y",
+  "source": "CNBC",
+  "unit": "%"
+ },
+ "WTI": {
+  "value": 82.12,
+  "as_of": "Mon 8/17 1:48am ET",
+  "status": "LIVE",
+  "prev_close": 82.4,
+  "delta_pct": -0.34,
+  "label": "WTI crude",
+  "source": "MarketWatch CL.1 front-month"
+ },
+ "BRENT": {
+  "value": 88.42,
+  "as_of": "Mon 8/17 ~1am ET",
+  "status": "LIVE",
+  "prev_close": 88.52,
+  "delta_pct": -0.11,
+  "label": "Brent crude",
+  "source": "Asia session quote"
+ },
+ "GOLD": {
+  "value": 4369.94,
+  "as_of": "Sun 8/16 session",
+  "status": "CLOSED",
+  "prev_close": 4375.61,
+  "delta_pct": -0.13,
+  "label": "Gold",
+  "source": "Polygon C:XAUUSD"
+ },
+ "BTC": {
+  "value": 62836.66,
+  "as_of": "Sun 8/16 daily bar",
+  "status": "CLOSED",
+  "prev_close": 63018.75,
+  "delta_pct": -0.29,
+  "label": "Bitcoin",
+  "source": "Polygon X:BTCUSD"
+ }
 }

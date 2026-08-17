@@ -1,110 +1,191 @@
 {
-  "last_curated": "2026-08-16",
-  "macro": [
-    {
-      "date": "2026-08-16",
-      "time_et": "14:00",
-      "event": "China July activity data (retail sales, IP, FAI)",
-      "consensus": "",
-      "importance": "medium",
-      "note": "Released Sunday afternoon ET \u2014 first input into Monday's Asia open."
-    },
-    {
-      "date": "2026-08-17",
-      "time_et": "08:30",
-      "event": "Empire State Manufacturing (Aug)",
-      "consensus": "",
-      "importance": "medium",
-      "note": "NY Fed. NAHB housing index ~10:00."
-    },
-    {
-      "date": "2026-08-18",
-      "time_et": "08:30",
-      "event": "Import/Export Price Indexes (July)",
-      "consensus": "",
-      "importance": "medium",
-      "note": "Confirmed on the official BLS release schedule."
-    },
-    {
-      "date": "2026-08-18",
-      "time_et": "08:30",
-      "event": "Housing starts & building permits (July)",
-      "consensus": "",
-      "importance": "medium",
-      "note": "Census. Industrial production 9:15."
-    },
-    {
-      "date": "2026-08-18",
-      "time_et": "BO",
-      "event": "Home Depot (HD) Q2",
-      "consensus": "EPS ~$4.71\u2013$4.73, rev ~$47.2\u2013$47.5B",
-      "importance": "high",
-      "note": "Call 9:00am ET. CEO Ted Decker on medical leave since Aug 12; unclear who leads the call."
-    },
-    {
-      "date": "2026-08-19",
-      "time_et": "00:01",
-      "event": "Canada tariffs scheduled to take effect",
-      "consensus": "",
-      "importance": "high",
-      "note": "50% on ~$20B of goods, no USMCA exemption \u2014 autos, alcohol, dairy, cement, furniture, clothing. No deal as of Friday."
-    },
-    {
-      "date": "2026-08-19",
-      "time_et": "14:00",
-      "event": "FOMC minutes (July 28\u201329 meeting)",
-      "consensus": "",
-      "importance": "high",
-      "note": "Read for how close the committee is to a hike with futures at 33% for September."
-    },
-    {
-      "date": "2026-08-19",
-      "time_et": "BO",
-      "event": "Target, Lowe's, TJX Q2",
-      "consensus": "TGT ~$2.31 / ~$26.1B; LOW ~$4.19 / ~$26.2B; TJX ~$1.18 / ~$15.2B",
-      "importance": "high",
-      "note": "TGT options imply \u00b17.1%. TJX call 11:00."
-    },
-    {
-      "date": "2026-08-20",
-      "time_et": "08:30",
-      "event": "Initial claims + Philadelphia Fed (Aug)",
-      "consensus": "",
-      "importance": "medium",
-      "note": "LEI 10:00."
-    },
-    {
-      "date": "2026-08-20",
-      "time_et": "BO",
-      "event": "Walmart (WMT) Q2",
-      "consensus": "",
-      "importance": "high",
-      "note": "~8:00am ET. The cleanest single read on the consumer after \u22120.6% retail sales. Deere call 10:00."
-    },
-    {
-      "date": "2026-08-21",
-      "time_et": "09:45",
-      "event": "S&P Global flash PMIs (Aug)",
-      "consensus": "",
-      "importance": "medium",
-      "note": "Manufacturing and services."
-    },
-    {
-      "date": "2026-08-21",
-      "time_et": "",
-      "event": "August monthly options expiration",
-      "consensus": "",
-      "importance": "high",
-      "note": "Third Friday. Large index and single-name open interest rolls off; pins and post-OpEx gamma release both in play."
-    },
-    {
-      "date": "2026-08-27",
-      "time_et": "",
-      "event": "Jackson Hole symposium begins (Aug 27\u201329)",
-      "consensus": "",
-      "importance": "medium",
-      "note": "NOT this week. Theme: \"Financial Innovation: Implications for Payments and Policy.\" Warsh keynote expected Fri Aug 28."
-    }
-  ],
-  "earnings": []
+ "last_curated": "2026-08-17",
+ "macro": [
+  {
+   "date": "2026-08-17",
+   "time_et": "8:30 AM",
+   "event": "Empire State Manufacturing (Aug)",
+   "consensus": "~10.2 (prior 15.6)",
+   "importance": "medium",
+   "note": "Consensus varies 10.2-10.8 across services; no primary NY Fed consensus available"
+  },
+  {
+   "date": "2026-08-17",
+   "time_et": "10:00 AM",
+   "event": "NAHB Housing Market Index (Aug)",
+   "consensus": "34-35 (prior 33-34)",
+   "importance": "medium",
+   "note": "Release time confirmed on NAHB's own release-date page"
+  },
+  {
+   "date": "2026-08-17",
+   "time_et": "~3:30 PM",
+   "event": "3-month & 6-month bill auction results",
+   "consensus": "n/a",
+   "importance": "low",
+   "note": "Aug 11-13 3s/10s/30s settle today; these are not new coupon auctions"
+  },
+  {
+   "date": "2026-08-18",
+   "time_et": "8:30 AM",
+   "event": "Import & export prices (Jul)",
+   "consensus": "n/a",
+   "importance": "low",
+   "note": "BLS schedule confirmed"
+  },
+  {
+   "date": "2026-08-18",
+   "time_et": "8:30 AM",
+   "event": "Housing starts & building permits (Jul)",
+   "consensus": "n/a",
+   "importance": "medium",
+   "note": ""
+  },
+  {
+   "date": "2026-08-18",
+   "time_et": "9:15 AM",
+   "event": "Industrial production & capacity utilization (Jul)",
+   "consensus": "n/a",
+   "importance": "medium",
+   "note": ""
+  },
+  {
+   "date": "2026-08-19",
+   "time_et": "12:01 AM",
+   "event": "US 50% tariffs on ~$20B of Canadian goods take effect",
+   "consensus": "n/a",
+   "importance": "high",
+   "note": "No USMCA exemption. No deal tabled as of Sunday night"
+  },
+  {
+   "date": "2026-08-19",
+   "time_et": "2:00 PM",
+   "event": "FOMC minutes (July 28-29 meeting)",
+   "consensus": "n/a",
+   "importance": "high",
+   "note": "Read for how close the hike debate actually was"
+  },
+  {
+   "date": "2026-08-20",
+   "time_et": "8:30 AM",
+   "event": "Initial jobless claims & Philadelphia Fed (Aug)",
+   "consensus": "n/a",
+   "importance": "medium",
+   "note": ""
+  },
+  {
+   "date": "2026-08-20",
+   "time_et": "10:00 AM",
+   "event": "Leading Economic Index (Jul)",
+   "consensus": "n/a",
+   "importance": "low",
+   "note": ""
+  },
+  {
+   "date": "2026-08-21",
+   "time_et": "9:45 AM",
+   "event": "S&P Global flash PMIs (Aug)",
+   "consensus": "n/a",
+   "importance": "medium",
+   "note": ""
+  },
+  {
+   "date": "2026-08-21",
+   "time_et": "all day",
+   "event": "August monthly options expiration",
+   "consensus": "n/a",
+   "importance": "medium",
+   "note": "Large August OpEx; dealer gamma rolls off into the following week"
+  },
+  {
+   "date": "2026-08-27",
+   "time_et": "—",
+   "event": "Jackson Hole symposium begins (Aug 27-29)",
+   "consensus": "n/a",
+   "importance": "high",
+   "note": "NOT this week. Theme: Financial Innovation: Implications for Payments and Policy. Confirmed on the KC Fed's own page"
+  }
+ ],
+ "earnings": [
+  {
+   "date": "2026-08-17",
+   "ticker": "PANW",
+   "name": "Palo Alto Networks",
+   "session": "after-close",
+   "importance": "medium",
+   "note": "Q4 FY26. Call time not confirmed in a primary IR release"
+  },
+  {
+   "date": "2026-08-17",
+   "ticker": "BHP",
+   "name": "BHP Group",
+   "session": "after-close",
+   "importance": "low",
+   "note": "Full-year results"
+  },
+  {
+   "date": "2026-08-18",
+   "ticker": "HD",
+   "name": "Home Depot",
+   "session": "pre-market",
+   "importance": "high",
+   "note": "EPS ~$4.71-4.73, rev ~$47.2-47.5B. Call 9:00 AM ET. CEO Ted Decker on medical leave since Aug 12; Ann-Marie Campbell runs day-to-day, CFO McPhail is interim principal executive officer. Decker will not lead the call"
+  },
+  {
+   "date": "2026-08-18",
+   "ticker": "MDT",
+   "name": "Medtronic",
+   "session": "pre-market",
+   "importance": "medium",
+   "note": ""
+  },
+  {
+   "date": "2026-08-18",
+   "ticker": "ADI",
+   "name": "Analog Devices",
+   "session": "pre-market",
+   "importance": "medium",
+   "note": ""
+  },
+  {
+   "date": "2026-08-19",
+   "ticker": "TGT",
+   "name": "Target",
+   "session": "pre-market",
+   "importance": "high",
+   "note": "~$2.31 EPS / $26.1B rev. Options imply about a 7% move"
+  },
+  {
+   "date": "2026-08-19",
+   "ticker": "LOW",
+   "name": "Lowe's",
+   "session": "pre-market",
+   "importance": "high",
+   "note": "~$4.19 EPS / $26.2B rev"
+  },
+  {
+   "date": "2026-08-19",
+   "ticker": "TJX",
+   "name": "TJX Companies",
+   "session": "pre-market",
+   "importance": "medium",
+   "note": "~$1.18 EPS / $15.2B rev. Call 11:00 AM ET"
+  },
+  {
+   "date": "2026-08-20",
+   "ticker": "WMT",
+   "name": "Walmart",
+   "session": "pre-market",
+   "importance": "high",
+   "note": "~8:00 AM ET. The week's cleanest read on the low-end consumer"
+  },
+  {
+   "date": "2026-08-20",
+   "ticker": "DE",
+   "name": "Deere & Co.",
+   "session": "pre-market",
+   "importance": "medium",
+   "note": "Earnings call 10:00 AM ET"
+  }
+ ]
 }
