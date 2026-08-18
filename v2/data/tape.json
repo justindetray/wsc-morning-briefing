@@ -1,94 +1,94 @@
 {
  "SPX": {
-  "value": 7785.76,
-  "as_of": "Fri 8/14 close",
+  "value": 7745.06,
+  "as_of": "2026-08-17 4:00 PM ET close",
   "status": "CLOSED",
-  "prev_close": 7798.99,
-  "delta_pct": -0.17,
+  "prev_close": 7785.76,
+  "delta_pct": -0.52,
   "label": "S&P 500",
-  "source": "Polygon"
+  "source": "Polygon I:SPX daily bar; cross-verified FRED SP500"
  },
  "NDX": {
-  "value": 30046.14,
-  "as_of": "Fri 8/14 close",
+  "value": 29995.38,
+  "as_of": "2026-08-17 4:00 PM ET close",
   "status": "CLOSED",
-  "prev_close": 30084.5,
-  "delta_pct": -0.13,
+  "prev_close": 30046.14,
+  "delta_pct": -0.17,
   "label": "Nasdaq 100",
-  "source": "Polygon"
+  "source": "Polygon I:NDX daily bar; cross-verified Nasdaq official NDX history"
  },
  "DJI": {
-  "value": 53732.41,
-  "as_of": "Fri 8/14 close",
+  "value": 53459.78,
+  "as_of": "2026-08-17 4:00 PM ET close",
   "status": "CLOSED",
-  "prev_close": 53839.99,
-  "delta_pct": -0.2,
+  "prev_close": 53732.41,
+  "delta_pct": -0.51,
   "label": "Dow",
-  "source": "Polygon"
+  "source": "Polygon I:DJI daily bar"
  },
  "VIX": {
-  "value": 14.9,
-  "as_of": "Mon 8/17 7:10am ET",
+  "value": 15.73,
+  "as_of": "2026-08-18 7:16 AM ET",
   "status": "LIVE",
-  "prev_close": 14.25,
-  "delta_pct": 4.56,
+  "prev_close": 15.19,
+  "delta_pct": 3.55,
   "label": "VIX",
-  "source": "Polygon I:VIX (Cboe extended hrs)"
+  "source": "Polygon I:VIX - 165 minute bars 07:15-11:16 UTC verified live"
  },
  "US10Y": {
-  "value": 4.688,
-  "as_of": "Mon 8/17 ~4am ET",
+  "value": 4.736,
+  "as_of": "2026-08-18 6:43 AM ET",
   "status": "LIVE",
-  "prev_close": 4.696,
-  "delta_pct": -0.17,
+  "prev_close": 4.724,
+  "delta_pct": 0.25,
   "label": "US 10Y",
-  "source": "CNBC",
-  "unit": "%"
+  "unit": "%",
+  "source": "CNBC / Investing.com real-time; Mon close from Polygon I:TNX 47.24"
  },
  "US2Y": {
-  "value": 4.158,
-  "as_of": "Mon 8/17 ~4am ET",
+  "value": 4.192,
+  "as_of": "2026-08-18 6:20 AM ET",
   "status": "LIVE",
-  "prev_close": 4.152,
-  "delta_pct": 0.14,
+  "prev_close": 4.18,
+  "delta_pct": 0.29,
   "label": "US 2Y",
-  "source": "CNBC",
-  "unit": "%"
+  "unit": "%",
+  "source": "TradingEconomics US 2Y interbank quote"
  },
  "WTI": {
-  "value": 82.12,
-  "as_of": "Mon 8/17 1:48am ET",
+  "value": 85.0,
+  "as_of": "2026-08-18 ~7:20 AM ET",
   "status": "LIVE",
-  "prev_close": 82.4,
-  "delta_pct": -0.34,
-  "label": "WTI crude",
-  "source": "MarketWatch CL.1 front-month"
+  "prev_close": 84.5,
+  "delta_pct": 0.59,
+  "label": "WTI",
+  "source": "TradingEconomics WTI; Mon settle $84.50 confirmed MarketWatch CL.1"
  },
  "BRENT": {
-  "value": 88.42,
-  "as_of": "Mon 8/17 ~1am ET",
+  "value": 90.82,
+  "as_of": "2026-08-18 7:21 AM ET",
   "status": "LIVE",
-  "prev_close": 88.52,
-  "delta_pct": -0.11,
-  "label": "Brent crude",
-  "source": "Asia session quote"
+  "prev_close": 90.87,
+  "delta_pct": -0.05,
+  "label": "Brent",
+  "source": "TradingEconomics Brent; Mon settle $90.87"
  },
  "GOLD": {
-  "value": 4369.94,
-  "as_of": "Sun 8/16 session",
+  "value": 4425.52,
+  "as_of": "2026-08-17 session",
   "status": "CLOSED",
-  "prev_close": 4375.61,
-  "delta_pct": -0.13,
+  "prev_close": 4369.94,
+  "delta_pct": 1.27,
   "label": "Gold",
-  "source": "Polygon C:XAUUSD"
+  "source": "Polygon C:XAUUSD daily bar"
  },
  "BTC": {
-  "value": 62836.66,
-  "as_of": "Sun 8/16 daily bar",
+  "value": 64484.18,
+  "as_of": "2026-08-17 daily bar",
   "status": "CLOSED",
-  "prev_close": 63018.75,
-  "delta_pct": -0.29,
+  "prev_close": 62836.66,
+  "delta_pct": 2.62,
   "label": "Bitcoin",
-  "source": "Polygon X:BTCUSD"
+  "source": "Polygon X:BTCUSD daily bar"
  }
 }

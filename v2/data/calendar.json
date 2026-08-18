@@ -1,74 +1,50 @@
 {
- "last_curated": "2026-08-17",
+ "last_curated": "2026-08-18",
  "macro": [
   {
-   "date": "2026-08-17",
+   "date": "2026-08-18",
    "time_et": "8:30 AM",
-   "event": "Empire State Manufacturing (Aug)",
-   "consensus": "~10.2 (prior 15.6)",
-   "importance": "medium",
-   "note": "Consensus varies 10.2-10.8 across services; no primary NY Fed consensus available"
-  },
-  {
-   "date": "2026-08-17",
-   "time_et": "10:00 AM",
-   "event": "NAHB Housing Market Index (Aug)",
-   "consensus": "34-35 (prior 33-34)",
-   "importance": "medium",
-   "note": "Release time confirmed on NAHB's own release-date page"
-  },
-  {
-   "date": "2026-08-17",
-   "time_et": "~3:30 PM",
-   "event": "3-month & 6-month bill auction results",
+   "event": "Import & Export Price Indexes (Jul)",
    "consensus": "n/a",
-   "importance": "low",
-   "note": "Aug 11-13 3s/10s/30s settle today; these are not new coupon auctions"
+   "importance": "medium",
+   "note": "BLS. No discrete consensus figure located this pass"
   },
   {
    "date": "2026-08-18",
    "time_et": "8:30 AM",
-   "event": "Import & export prices (Jul)",
-   "consensus": "n/a",
-   "importance": "low",
-   "note": "BLS schedule confirmed"
-  },
-  {
-   "date": "2026-08-18",
-   "time_et": "8:30 AM",
-   "event": "Housing starts & building permits (Jul)",
-   "consensus": "n/a",
-   "importance": "medium",
-   "note": ""
+   "event": "Housing Starts & Building Permits (Jul)",
+   "consensus": "starts ~1.35M SAAR",
+   "importance": "high",
+   "note": "Census/HUD; date confirmed on Census' own release schedule"
   },
   {
    "date": "2026-08-18",
    "time_et": "9:15 AM",
-   "event": "Industrial production & capacity utilization (Jul)",
+   "event": "Industrial Production & Capacity Utilization (Jul)",
    "consensus": "n/a",
    "importance": "medium",
-   "note": ""
+   "note": "G.17. Time per the Fed Board's own August calendar (a FRED aggregator wrongly lists 11:15 AM)"
   },
   {
    "date": "2026-08-19",
    "time_et": "12:01 AM",
-   "event": "US 50% tariffs on ~$20B of Canadian goods take effect",
-   "consensus": "n/a",
+   "event": "Canada tariffs take effect (50%, ~$20.2B, no USMCA exemption)",
+   "consensus": "unresolved",
    "importance": "high",
-   "note": "No USMCA exemption. No deal tabled as of Sunday night"
+   "note": "Section 338. No deal, extension or retaliation confirmed as of 7 AM Tuesday"
   },
   {
    "date": "2026-08-19",
    "time_et": "2:00 PM",
-   "event": "FOMC minutes (July 28-29 meeting)",
+   "event": "FOMC Minutes (Jul 28-29 meeting)",
    "consensus": "n/a",
    "importance": "high",
-   "note": "Read for how close the hike debate actually was"
+   "note": "Confirmed on the Fed Board's own August calendar"
   },
   {
    "date": "2026-08-20",
    "time_et": "8:30 AM",
-   "event": "Initial jobless claims & Philadelphia Fed (Aug)",
+   "event": "Initial jobless claims + Philadelphia Fed Mfg (Aug)",
    "consensus": "n/a",
    "importance": "medium",
    "note": ""
@@ -76,7 +52,7 @@
   {
    "date": "2026-08-20",
    "time_et": "10:00 AM",
-   "event": "Leading Economic Index (Jul)",
+   "event": "Leading Economic Indicators (Jul)",
    "consensus": "n/a",
    "importance": "low",
    "note": ""
@@ -84,52 +60,28 @@
   {
    "date": "2026-08-21",
    "time_et": "9:45 AM",
-   "event": "S&P Global flash PMIs (Aug)",
+   "event": "Flash PMIs, manufacturing & services (Aug)",
    "consensus": "n/a",
    "importance": "medium",
-   "note": ""
+   "note": "Standard slot; not re-confirmed against S&P Global's own calendar this pass"
   },
   {
    "date": "2026-08-21",
-   "time_et": "all day",
+   "time_et": "4:00 PM",
    "event": "August monthly options expiration",
    "consensus": "n/a",
-   "importance": "medium",
-   "note": "Large August OpEx; dealer gamma rolls off into the following week"
-  },
-  {
-   "date": "2026-08-27",
-   "time_et": "—",
-   "event": "Jackson Hole symposium begins (Aug 27-29)",
-   "consensus": "n/a",
    "importance": "high",
-   "note": "NOT this week. Theme: Financial Innovation: Implications for Payments and Policy. Confirmed on the KC Fed's own page"
+   "note": "Monthly OpEx"
   }
  ],
  "earnings": [
-  {
-   "date": "2026-08-17",
-   "ticker": "PANW",
-   "name": "Palo Alto Networks",
-   "session": "after-close",
-   "importance": "medium",
-   "note": "Q4 FY26. Call time not confirmed in a primary IR release"
-  },
-  {
-   "date": "2026-08-17",
-   "ticker": "BHP",
-   "name": "BHP Group",
-   "session": "after-close",
-   "importance": "low",
-   "note": "Full-year results"
-  },
   {
    "date": "2026-08-18",
    "ticker": "HD",
    "name": "Home Depot",
    "session": "pre-market",
    "importance": "high",
-   "note": "EPS ~$4.71-4.73, rev ~$47.2-47.5B. Call 9:00 AM ET. CEO Ted Decker on medical leave since Aug 12; Ann-Marie Campbell runs day-to-day, CFO McPhail is interim principal executive officer. Decker will not lead the call"
+   "note": "REPORTED: adj EPS $4.92 vs ~$4.72, rev $47.9B vs ~$47.2B, comps +1.7%. Guidance reaffirmed, not raised. Call 9:00 AM; CEO Decker on medical leave, not on the call"
   },
   {
    "date": "2026-08-18",
@@ -137,15 +89,7 @@
    "name": "Medtronic",
    "session": "pre-market",
    "importance": "medium",
-   "note": ""
-  },
-  {
-   "date": "2026-08-18",
-   "ticker": "ADI",
-   "name": "Analog Devices",
-   "session": "pre-market",
-   "importance": "medium",
-   "note": ""
+   "note": "Expected today per reporting pattern; not confirmed by company release"
   },
   {
    "date": "2026-08-19",
@@ -153,7 +97,7 @@
    "name": "Target",
    "session": "pre-market",
    "importance": "high",
-   "note": "~$2.31 EPS / $26.1B rev. Options imply about a 7% move"
+   "note": "Consensus ~$2.26-2.35 EPS (previews differ)"
   },
   {
    "date": "2026-08-19",
@@ -161,7 +105,7 @@
    "name": "Lowe's",
    "session": "pre-market",
    "importance": "high",
-   "note": "~$4.19 EPS / $26.2B rev"
+   "note": "Consensus ~$4.23-4.25 EPS"
   },
   {
    "date": "2026-08-19",
@@ -169,7 +113,15 @@
    "name": "TJX Companies",
    "session": "pre-market",
    "importance": "medium",
-   "note": "~$1.18 EPS / $15.2B rev. Call 11:00 AM ET"
+   "note": "Consensus ~$1.19 EPS on ~$15.1-15.2B"
+  },
+  {
+   "date": "2026-08-19",
+   "ticker": "ADI",
+   "name": "Analog Devices",
+   "session": "pre-market",
+   "importance": "medium",
+   "note": "CORRECTION: reports Wednesday, not Tuesday - confirmed on ADI's own IR page"
   },
   {
    "date": "2026-08-20",
@@ -177,15 +129,15 @@
    "name": "Walmart",
    "session": "pre-market",
    "importance": "high",
-   "note": "~8:00 AM ET. The week's cleanest read on the low-end consumer"
+   "note": "Release and call ~8:00 AM ET, CEO Furner and CFO Rainey (company release)"
   },
   {
    "date": "2026-08-20",
    "ticker": "DE",
-   "name": "Deere & Co.",
+   "name": "Deere & Co",
    "session": "pre-market",
    "importance": "medium",
-   "note": "Earnings call 10:00 AM ET"
+   "note": "Fiscal Q3; call 10:00 AM ET per Deere IR"
   }
  ]
 }
