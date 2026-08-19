@@ -1,66 +1,109 @@
 {
- "headline": "US-Iran truce lapses, Trump threatens Oman, another ship hit exiting Hormuz - crude finally responds",
- "as_of": "2026-08-18 7:20 AM ET",
- "client_frame_short": "You will hear that we threatened to bomb Oman overnight and that another ship was hit leaving the Persian Gulf, and your first thought will be the four dollars a gallon you paid this weekend. That cost is real \u2014 about a dollar a gallon more than last summer. But a higher gas bill and a threat to your retirement are two different conversations, and you only have the first one.\n\nHere is what the coverage will miss. Oil is up about three percent in two days and stocks barely moved \u2014 the S&P closed half a percent lower and sits less than one percent below last week's record. **That gap is the market pricing a shipping problem, not a shutdown.** There is nothing for you to do today. What I am watching is tomorrow afternoon's Fed minutes, because what could actually hurt a balanced portfolio here is rates staying high, not the tankers.",
- "client_frame": "The setup flipped overnight, and the flip is the story. Yesterday the striking fact was that Hormuz traffic had gone to zero over the weekend and crude fell anyway. Since then the escalation changed character: the 60-day US-Iran understanding lapsed Monday with no deal (Al Jazeera), President Trump threatened to bomb Oman \u2014 the country mediating the transit talks \u2014 in a Fox News interview (Wall Street Journal), and at 11:32 PM ET a vessel outbound through the strait was struck by a projectile, damaging its engine room and killing a crew member (UKMTO via Al Jazeera). Crude stopped shrugging. Brent settled at $90.87 and WTI at $84.50, both up roughly 2.6% on the day.\n\nThe equity reaction stayed orderly, and that matters. The S&P fell half a percent Monday, the VIX is still under 16, and Nasdaq futures are down about 1% this morning. That is a market pricing a persistent shipping tax on oil, not a closed strait. Hormuz transits did recover slightly, to 6 vessels Monday against a 10-day average of 11 (Reuters, citing Kpler) \u2014 constrained, but flowing.\n\nThe real transmission channel is not equities, it is rates. The 30-year Treasury yield is hovering near its highest level since 2002 (CNBC), Japan's 10-year hit 2.94%, a level unseen since 1996 (Reuters), and odds of a Fed hike in September rose to 36% from 33% on Friday (CME). Gold is the confirming tell: it gained 1.27% Monday to $4,425 while yields rose, which is a geopolitical and inflation hedge bid, not a bet on falling rates. Higher oil feeds inflation, inflation keeps the Fed tight, and a tight Fed repricing the long end is what actually pressures a 60/40 portfolio.\n\nHome Depot gave the cleanest read on the domestic economy. It beat on both lines and comps rose 1.7%, but management only reaffirmed guidance rather than raising it, and the CFO described operating in \"frozen housing market conditions\" (CNBC). Housing is where high rates bite first.\n\nFor clients: separate the household cost of gasoline from the portfolio question, because they are not the same conversation. The portfolio risk in this story runs through interest rates and inflation, not through the Strait of Hormuz itself. Tomorrow's FOMC minutes at 2:00 PM and the Canada tariff deadline at 12:01 AM are the two dated catalysts this week; the war headlines are not, on their own, a reason to change an allocation.",
- "asia_close": [],
+ "headline": "Canada tariff paused three days on a deal not yet papered; Asia craters as Japan's long end hits a 30-year high",
+ "as_of": "2026-08-19 7:25 AM ET",
+ "client_frame_short": "You may see that Asian markets fell hard overnight, with Korea down more than five percent, and wonder what broke. Nothing did. Japan's long-term borrowing costs hit a thirty-year high, and that repriced long-dated bonds everywhere, including ours.\n\nHere is what the coverage will miss. The Canada tariff that was supposed to hit at midnight got pushed three days while a deal gets papered, so the headline risk eased and long rates rose anyway. **That tells you this is about the price of long-term borrowing, not the news cycle.** Short-term rates actually fell overnight and gold dropped two percent, which is not what fear looks like. There is nothing for you to do today. I am watching the Fed minutes at two o'clock, because that speaks to the rate that actually prices your bonds.",
+ "client_frame": "The overnight tape looks contradictory until you separate the two stories. Story one is relief: at roughly 10:15 PM ET Trump paused the 50% tariff on about $20.2 billion of Canadian goods for three days, citing a deal subject to finalization of documents. The White House proclamation moves the trigger to 12:01 AM on August 22 (White House). It is a postponement, not a cancellation, and Prime Minister Carney used exactly that word, saying substantial progress had been made but important work remained (CBC).\n\nStory two is the bond market, and it is the one that moved portfolios. Japan's 10-year government bond yield touched 2.945%, its highest since September 1996, rising for a seventh straight session (Reuters). Germany's 30-year hit its highest since 2011 and France's 30-year a post-2008 high (CNBC). Our own 30-year sits at 5.29%, the highest since 2007. Asia took the brunt: Korea's KOSPI fell more than five percent and the Nikkei about three percent.\n\nHere is the tell that this is not a Federal Reserve story. The front of our curve fell overnight even as the long end held at generational highs, with the 2-year down to 4.169% and the 10-year to 4.699%. September rate-hike odds actually eased to 34.1% from 36.1% yesterday (CME FedWatch). And gold fell 2.1% in Tuesday's session after its recent run. A pure fear trade does not sell gold and buy short-term Treasuries at the same time. What is repricing is the term premium, the extra yield investors demand to lend for thirty years to governments that keep issuing debt.\n\nTuesday's own session was a tech-led decline on Iran risk premium, with the Nasdaq 100 down 1.68% against the S&P 500's 0.69% and a Dow that lost only 0.22% (Polygon). Nvidia fell 2.34%. The data underneath was soft where it touches housing: July housing starts dropped 12.4% to 1.239 million annualized, well under the roughly 1.35 million expected, though permits rose 5.0% (Census Bureau). Industrial production rose 0.2% with capacity utilization at 76.3% (Federal Reserve G.17).\n\nFor clients: the honest framing is that a tariff deadline was deferred and a global long-duration repricing continued, and the second one matters more to a balanced portfolio than the first. Long bonds are where the pain is; short bonds and equities are absorbing it comparatively well. This is an argument for owning bonds you intend to hold to maturity rather than trading duration on headlines, and for remembering that a higher long rate is also a higher forward return on new bond money.",
+ "asia_close": [
+  {
+   "market": "Nikkei 225",
+   "delta_pct": -3.16,
+   "level": "65,326.42",
+   "note": "WSJ 4:00 AM EDT snapshot; AP -3.2% to 65,332.04 agrees closely"
+  },
+  {
+   "market": "KOSPI",
+   "delta_pct": -5.8,
+   "level": "6,471.17",
+   "note": "WSJ 4:00 AM EDT; AP -5.7%, Washington Post -5.2% - cluster -5.2% to -5.8%"
+  },
+  {
+   "market": "Shanghai Composite",
+   "delta_pct": -2.4,
+   "level": "3,894.42",
+   "note": "WSJ; AP -2.2%, India Infoline -2.52%"
+  },
+  {
+   "market": "Hang Seng",
+   "delta_pct": 0.03,
+   "level": "25,478.41",
+   "note": "WSJ; essentially flat, unlike the rest of the region"
+  },
+  {
+   "market": "ASX 200",
+   "delta_pct": -0.18,
+   "level": "9,053.8",
+   "note": "WSJ"
+  }
+ ],
  "europe_open": [
   {
    "market": "DAX",
-   "delta_pct": -0.38
+   "delta_pct": -0.02
   },
   {
    "market": "FTSE 100",
-   "delta_pct": -0.28
+   "delta_pct": -0.03
   },
   {
    "market": "CAC 40",
-   "delta_pct": -0.66
-  },
-  {
-   "market": "Stoxx 600",
-   "delta_pct": -0.58
+   "delta_pct": 0.18
   }
  ],
  "single_name_moves": [
   {
    "ticker": "ES (S&P fut)",
-   "delta_pct": -0.5,
-   "venue": "CME overnight"
+   "delta_pct": -0.2,
+   "venue": "CME overnight",
+   "note": ""
   },
   {
    "ticker": "NQ (Nasdaq fut)",
-   "delta_pct": -0.9,
-   "venue": "CME overnight"
+   "delta_pct": -0.12,
+   "venue": "CME overnight",
+   "note": ""
   },
   {
    "ticker": "YM (Dow fut)",
-   "delta_pct": -0.2,
-   "venue": "CME overnight"
+   "delta_pct": 0.07,
+   "venue": "CME 4:00 AM ET",
+   "note": "WSJ"
   },
   {
-   "ticker": "HD",
-   "delta_pct": 0.7,
-   "venue": "pre-mkt",
-   "note": "Q2 beat, guidance reaffirmed"
+   "ticker": "ADI",
+   "delta_pct": -3.5,
+   "venue": "Tue close",
+   "note": "before this morning's record Q3"
+  },
+  {
+   "ticker": "NVDA",
+   "delta_pct": -2.34,
+   "venue": "Tue close",
+   "note": ""
+  },
+  {
+   "ticker": "DE",
+   "delta_pct": -1.87,
+   "venue": "Tue close",
+   "note": "reports Thursday"
   }
  ],
  "geo_headlines": [
-  "THE FLIP: yesterday Hormuz transits hit zero and crude fell anyway. Overnight the escalation changed character and crude responded - Brent settled $90.87, WTI $84.50, both about +2.6% Monday. Brent is flat this morning at $90.82; WTI is up to ~$85.00.",
-  "The 60-day US-Iran understanding signed in Islamabad lapsed Monday with no deal. Iran's foreign ministry called the deadline provision \"moot,\" saying the US had already violated the memorandum (Al Jazeera).",
-  "Trump told Fox News \"if Oman gets in the way, we'll bomb the s--- out of them,\" referring to Oman's role mediating Hormuz transit talks, and called on Iran to raise \"the white flag of surrender\" (Wall Street Journal, New York Times). Iran said separately that talks with Oman on a transit-route map are \"continuing in earnest.\"",
-  "UKMTO warning 115-26: a vessel outbound through the Strait of Hormuz was struck by an unknown projectile at 03:32 UTC (11:32 PM ET Monday), damaging the engine room and causing one crew fatality. Omani Coast Guard assisting (Al Jazeera, UKMTO).",
-  "Hormuz transits recovered only slightly - 6 vessels Monday (3 in, 3 out) against a 10-day average of 11, after 0 on Sunday and 5 on Saturday (Reuters, citing Kpler). Constrained but flowing, not closed.",
-  "Bessent's promised \"unprecedented\" Iran measures STILL not announced. A direct check of OFAC's own recent-actions page shows nothing after Aug 12, and the most recent Iran-specific action remains Aug 7. This is a live, undated catalyst - not a calendar event.",
-  "CORRECTION CARRIED FORWARD: there is no August 21 Iran sanctions cliff. OFAC revoked General License X on July 7 and the successor license's wind-down ended July 17. Stale June-dated law-firm alerts still circulate the Aug 21 date.",
-  "RATES ARE THE REAL STORY: US 30Y near its highest since 2002 (CNBC), Japan's 10Y JGB at 2.94%, a 30-year high, on September BoJ hike bets and weak Q2 GDP (Reuters). Gold +1.27% Monday to $4,425 WHILE yields rose - a hedge bid, not a duration trade.",
-  "Canada: still no deal with roughly 17 hours to go. LeBlanc and Charette met Greer and Lutnick in Washington Monday; officials said the sides were \"not close\" (iPolitics). Carney called talks \"delicate\" and \"intense\" and said he expects to speak with Trump within 48 hours (CBC). 50% on ~$20.2B of goods, no USMCA exemption, 12:01 AM Wednesday.",
-  "Home Depot beat: adj EPS $4.92 vs ~$4.72 consensus, revenue $47.9B vs ~$47.2B, comps +1.7% vs +0.9% expected - but guidance only REAFFIRMED, and CFO McPhail described \"frozen housing market conditions\" (CNBC, Reuters). CEO Ted Decker remains on medical leave and did not join the call.",
-  "Monday's data ran hot: Empire State manufacturing jumped to 20.6, its highest in more than four years, versus ~10-11 expected and 15.6 prior (New York Fed). NAHB builder confidence 35 vs 33 expected (NAHB).",
-  "Fed hike odds rose on the fresh Monday cohort: September now 36.07% for +25bp versus 33.07% on Friday's cohort; December carries a 20.1% chance of +50 or more (CME direct).",
-  "AAA national gasoline average $4.065, up about a dollar a year over year (AAA). Guardian, citing AAA, reports this is the highest ever recorded for August - a superlative we could not re-verify against AAA's own historical series.",
-  "Houthi forces claimed a missile strike on a Saudi military landing ship near Mokha in the Red Sea; RFE/RL reports six killed on a related cargo vessel south of Mokha. Saudi officials had not confirmed as of publication.",
-  "Deals: Nvidia guaranteeing up to $105B of OpenAI's Ohio data-center lease (WSJ; note WSJ separately headlines a downsizing from an original $250B plan - unreconciled). Raytheon won a $22.9B, seven-year Navy Tomahawk contract. AvalonBay/Equity Residential closed as Vivmark Residential (VMRK), ~$70B EV, trading today.",
-  "DISCLOSED GAP: Asian index closes showed unusually wide dispersion across sources this morning (KOSPI prints ranged from -1.55% to +0.66%), so no Asia levels are shown above. The region was broadly lower on oil and geopolitical risk; KOSPI did reopen after Monday's holiday. Confirm on a terminal before trading off Asia numbers."
+  "CANADA TARIFF PAUSED, NOT CANCELLED: at ~10:15 PM ET Trump paused the 50% Section 338 tariff on ~$20.2B of Canadian goods for three days, citing a \"DEAL\" subject to \"finalization of documents.\" The White House proclamation deletes the August 19 effective date and inserts 12:01 AM ET August 22, 2026 (White House proclamation text).",
+  "Carney called it a \"postponement\": \"Substantial progress has been made, although there is important work still to be done.\" No Canadian confirmation of specific concessions. USTR's Greer cited \"comprehensive market access for all American goods, economic security commitments, digital trade alignment\" without specifics (CBC, USTR). Reported terms - autos to a 15% headline rate, Keystone XL revival, dairy quotas - are UNVERIFIED, not in the proclamation text.",
+  "THE REAL OVERNIGHT MOVE IS THE GLOBAL LONG END, NOT THE TARIFF. Japan's 10-year JGB touched 2.945%, highest since September 1996, up a seventh straight session with debt above 200% of GDP (Reuters). Germany's 30-year hit its highest since 2011, France's 30-year a post-2008 high (CNBC). US 30-year 5.286%, highest since 2007.",
+  "CORRECTION TO OUR OWN PRIOR FRAMING: we have described the US 30-year as \"highest since 2002.\" The sourced comparison is June 2007 - CNBC's own headline reads \"19-year high.\" Using 2007 going forward.",
+  "NOT A FED STORY: the front end FELL overnight while the long end held. 2-year 4.169% (-0.017), 10-year 4.699% (-0.011) (TradingEconomics 07:21). September hike odds eased to 34.07% from 36.07% on yesterday's cohort (CME FedWatch, fresh 8/18 cohort). Gold fell 2.10% Tuesday. Term premium, not policy rate.",
+  "Tuesday was tech-led: NDX -1.68% vs SPX -0.69% and DJI -0.22%; Nasdaq Composite -1.33%, Russell 2000 -1.30% (Polygon, all six cross-checked). Reuters attributed it to \"fading Iran peace hopes\" lifting oil and yields. No index near a record: SPX -1.37% vs its 8/13 record close 7,798.99, NDX -3.81% vs 6/2, DJI -1.85% vs 8/5.",
+  "HOUSING IS WHERE THE DATA CRACKED: July housing starts 1,239,000 SAAR, -12.4% m/m and -13.5% YoY, versus ~1.35M consensus; permits 1,443,000, +5.0% m/m (Census Bureau). Industrial production +0.2%, capacity utilization 76.3%, 3.1 points below its long-run average (Federal Reserve G.17). Import prices -0.4% m/m, +5.9% YoY (BLS).",
+  "RETAIL THIS MORNING - MIND THE TARIFF REFUNDS. Target: sales $26.5B +5.3%, comps +3.8%, EPS $4.11 - but that includes a $1.65 per-share benefit from a $994M pretax tariff refund; ex-refund EPS grew ~20% (Target release). Lowe's: adjusted EPS $4.40 including $0.11 of tariff refunds, sales $26.0B just under consensus, comps +0.2%, FY guidance $12.25 below the ~$12.43 consensus (Lowe's release).",
+  "Analog Devices posted a record fiscal Q3: revenue $4,022M +40% YoY, adjusted EPS $3.45 +68%, adjusted gross margin 72.5%, Q4 guide ~$4.3B (ADI release). The stock fell 3.50% Tuesday into the print. TJX had not reported as of 7:00 AM.",
+  "Home Depot closed Tuesday at $337.49, -0.12%, essentially unchanged after Monday's beat-and-reaffirm - the market treated reaffirmed guidance and \"frozen housing market conditions\" as a non-event.",
+  "Bessent's \"unprecedented\" Iran measures STILL not announced. Direct check of OFAC's recent-actions page: the August 18 entry is ICC- and Venezuela-related, NOT Iran. Last Iran action remains August 7. A live, undated catalyst.",
+  "A vessel was struck by an unknown projectile outbound through Hormuz on August 18, engine-room damage, a crew casualty, Omani Coast Guard assisting (UKMTO warning 115-26 via Reuters). A named-vessel fatality report from one outlet is UNVERIFIED against the UKMTO framing. CENTCOM said it had redirected 64 commercial vessels, disabled 3 and boarded 2 (CBS).",
+  "CORRECTION CARRIED: there is no August 21 Iran sanctions cliff. OFAC revoked General License X on July 7, superseded by X1, wind-down ended July 17. Stale June-dated law-firm alerts still circulate the August 21 date.",
+  "Crude reconciles cleanly today: WTI 8/18 settle $84.94, now $85.62 (+0.80%); Brent 8/18 settle $91.02, now $91.68 (+0.73%). AAA national gasoline average $4.086, roughly a dollar a gallon above last summer.",
+  "SOURCING NOTE ON ASIA: unlike yesterday, the Asian prints are usable but not perfectly tight. KOSPI reads -5.2% (Washington Post) to -5.8% (WSJ 4:00 AM EDT) across three sources, with AP at -5.7%; one aggregator still shows -1.55% on what appears to be a stale timestamp and is excluded. Levels shown are the WSJ 4:00 AM EDT snapshot. Treat Korea as down roughly five to six percent, not a precise figure.",
+  "CAUTION ON ONE AGGREGATOR FIGURE: two calendar aggregators list a 5.163% result for today's $16B 20-year bond auction, but competitive bidding does not close until 1:00 PM ET. That figure cannot be today's result and is being treated as a stale or mislabelled prior-auction print - NOT reported as today's outcome.",
+  "MBA mortgage applications for the week ended August 14 fell 0.4%; refis +2% but -18% YoY, purchases -2%; 30-year fixed unchanged at 6.77% (MBA via CNBC). Stripe reportedly agreed to buy OpenRouter for more than $7B; TTM Technologies to buy Epiq Solutions for $1.1B (aggregated M&A trackers, deal terms not primary-verified)."
  ]
 }
