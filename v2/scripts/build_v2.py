@@ -82,7 +82,20 @@ def safe_iso_to_et_full(iso_str):
 
 # ---------- tape tile ----------
 
-TAPE_ORDER = ["ES", "NQ", "SPX", "NDX", "DJI", "VIX", "US10Y", "US2Y", "WTI", "BRENT", "GOLD", "BTC"]
+TAPE_ORDER = ["ES", "NQ", "SPX", "NDX", "SOX", "DJI", "VIX", "US10Y", "US2Y",
+              "WTI", "BRENT", "GOLD", "BTC", "EURJPY", "AUDJPY"]
+
+# Keys that must be present in tape.json on every run. The tape renderer only
+# emits keys it finds, so an omitted key vanishes with no visible trace - the
+# same silent-fallback trap that hid the missing client_frame_short. Warn loudly
+# instead of failing: a missing diagnostic tile must not kill a build that is
+# otherwise sound. ES/NQ/SPX/NDX are deliberately excluded because which of them
+# is present legitimately varies with the session (futures pre-open vs cash).
+#   SOX    - added 2026-08-19 (lesson #156-F): a -4.98% semiconductor print was
+#            the actual cause of an Asian session we mis-attributed to JGB yields.
+#   EURJPY - added 2026-08-19 (lesson #156-G): dollar-free yen crosses. USD/JPY
+#   AUDJPY   alone cannot distinguish a yen funding squeeze from dollar weakness.
+REQUIRED_TAPE_KEYS = ["SOX", "VIX", "US10Y", "US2Y", "EURJPY", "AUDJPY"]
 
 
 def md_inline(s):
@@ -113,6 +126,7 @@ TILE_FORMAT = {
     "NQ":    {"places": 2, "suffix": ""},
     "SPX":   {"places": 2, "suffix": ""},
     "NDX":   {"places": 2, "suffix": ""},
+    "SOX":   {"places": 2, "suffix": ""},
     "DJI":   {"places": 2, "suffix": ""},
     "VIX":   {"places": 2, "suffix": ""},
     "US10Y": {"places": 3, "suffix": "%"},
@@ -120,7 +134,9 @@ TILE_FORMAT = {
     "WTI":   {"places": 2, "suffix": ""},
     "BRENT": {"places": 2, "suffix": ""},
     "GOLD":  {"places": 2, "suffix": ""},
-    "BTC":   {"places": 0, "suffix": ""},
+    "BTC":    {"places": 0, "suffix": ""},
+    "EURJPY": {"places": 2, "suffix": ""},
+    "AUDJPY": {"places": 2, "suffix": ""},
 }
 
 def render_tile(key, field):
@@ -460,6 +476,15 @@ def main():
             print("[build_v2] ABORT: no LIVE or CLOSED tape fields "
                   "(all DEGRADED/unknown)", file=sys.stderr)
             sys.exit(2)
+
+    # Loud warning for required tape keys that were never fetched. Not fatal:
+    # the renderer would otherwise omit them silently and the omission would be
+    # invisible in the shipped page.
+    missing_required = [k for k in REQUIRED_TAPE_KEYS if k not in tape]
+    if missing_required:
+        print(f"[build_v2] WARNING: required tape keys absent from tape.json: "
+              f"{', '.join(missing_required)} - these tiles will NOT render",
+              file=sys.stderr)
 
     now_utc = datetime.now(timezone.utc)
     now_et = now_utc.astimezone(ET)
