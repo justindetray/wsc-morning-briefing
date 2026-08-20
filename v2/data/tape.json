@@ -1,121 +1,121 @@
 {
-  "SPX": {
-    "value": 7691.76,
-    "as_of": "2026-08-18 4:00 PM ET close",
-    "status": "CLOSED",
-    "prev_close": 7745.06,
-    "delta_pct": -0.69,
-    "label": "S&P 500",
-    "source": "Polygon I:SPX daily bar"
-  },
-  "NDX": {
-    "value": 29490.96,
-    "as_of": "2026-08-18 4:00 PM ET close",
-    "status": "CLOSED",
-    "prev_close": 29995.38,
-    "delta_pct": -1.68,
-    "label": "Nasdaq 100",
-    "source": "Polygon I:NDX daily bar"
-  },
-  "DJI": {
-    "value": 53343.4,
-    "as_of": "2026-08-18 4:00 PM ET close",
-    "status": "CLOSED",
-    "prev_close": 53459.78,
-    "delta_pct": -0.22,
-    "label": "Dow",
-    "source": "Polygon I:DJI daily bar"
-  },
-  "VIX": {
-    "value": 15.75,
-    "as_of": "2026-08-19 7:19 AM ET",
-    "status": "LIVE",
-    "prev_close": 15.84,
-    "delta_pct": -0.57,
-    "label": "VIX",
-    "source": "Polygon I:VIX - 121 minute bars 07:15-11:19 UTC verified live"
-  },
-  "US10Y": {
-    "value": 4.699,
-    "as_of": "2026-08-19 7:21 AM ET",
-    "status": "LIVE",
-    "prev_close": 4.706,
-    "delta_pct": -0.15,
-    "label": "US 10Y",
-    "unit": "%",
-    "source": "TradingEconomics live 07:21; prev close Polygon I:TNX 47.06"
-  },
-  "US2Y": {
-    "value": 4.169,
-    "as_of": "2026-08-19 7:21 AM ET",
-    "status": "LIVE",
-    "prev_close": 4.186,
-    "delta_pct": -0.41,
-    "label": "US 2Y",
-    "unit": "%",
-    "source": "TradingEconomics live 07:21 (-0.017 vs prior session)"
-  },
-  "WTI": {
-    "value": 85.62,
-    "as_of": "2026-08-19 7:24 AM ET",
-    "status": "LIVE",
-    "prev_close": 84.94,
-    "delta_pct": 0.8,
-    "label": "WTI",
-    "source": "TradingEconomics live; prev = official 8/18 settle $84.94 (WSJ CLU26)"
-  },
-  "BRENT": {
-    "value": 91.68,
-    "as_of": "2026-08-19 7:24 AM ET",
-    "status": "LIVE",
-    "prev_close": 91.02,
-    "delta_pct": 0.73,
-    "label": "Brent",
-    "source": "TradingEconomics live; prev = 8/18 settle $91.02 (MarketWatch BRN00)"
-  },
-  "GOLD": {
-    "value": 4332.68,
-    "as_of": "2026-08-18 session",
-    "status": "CLOSED",
-    "prev_close": 4425.52,
-    "delta_pct": -2.1,
-    "label": "Gold",
-    "source": "Polygon C:XAUUSD daily bar"
-  },
-  "BTC": {
-    "value": 64681.33,
-    "as_of": "2026-08-18 session",
-    "status": "CLOSED",
-    "prev_close": 64484.18,
-    "delta_pct": 0.31,
-    "label": "Bitcoin",
-    "source": "Polygon X:BTCUSD daily bar"
-  },
-  "SOX": {
-    "value": 11992.46,
-    "prev_close": 12621.0,
-    "delta_pct": -4.9801,
-    "status": "CLOSED",
-    "as_of": "2026-08-18 4:00 PM ET close",
-    "label": "Philadelphia Semiconductor Index",
-    "source": "Polygon I:SOX daily bar (8/18 close 11992.46 vs 8/17 close 12621.00)"
-  },
-  "EURJPY": {
-    "value": 184.629,
-    "prev_close": 184.695,
-    "delta_pct": -0.0357,
-    "status": "LIVE",
-    "as_of": "2026-08-19 10:19 AM ET",
-    "label": "Euro / Japanese Yen",
-    "source": "TradingEconomics live 10:19; prev close Polygon C:EURJPY 8/18 UTC-day 184.6950. TE's own session basis shows -0.08%; basis differs, sign and magnitude agree."
-  },
-  "AUDJPY": {
-    "value": 112.742,
-    "prev_close": 112.98,
-    "delta_pct": -0.2107,
-    "status": "LIVE",
-    "as_of": "2026-08-19 10:20 AM ET",
-    "label": "Australian Dollar / Japanese Yen",
-    "source": "TradingEconomics live 10:20; prev close Polygon C:AUDJPY 8/18 UTC-day 112.9800. TE's own session basis shows -0.35%; basis differs, sign agrees."
-  }
+ "SPX": {
+  "value": 7707.98,
+  "as_of": "2026-08-19 close",
+  "status": "CLOSED",
+  "prev_close": 7691.76,
+  "delta_pct": 0.2109,
+  "label": "S&P 500",
+  "source": "Polygon I:SPX daily bar (8/19 close; NOT ATH - 1.17% below 8/13 record close 7798.99)"
+ },
+ "NDX": {
+  "value": 29426.02,
+  "as_of": "2026-08-19 close",
+  "status": "CLOSED",
+  "prev_close": 29490.96,
+  "delta_pct": -0.2202,
+  "label": "Nasdaq 100",
+  "source": "Polygon I:NDX daily bar (8/19 close; NOT ATH - 4.03% below 6/2 record close 30660.60)"
+ },
+ "SOX": {
+  "value": 11738.23,
+  "as_of": "2026-08-19 close",
+  "status": "CLOSED",
+  "prev_close": 11992.46,
+  "delta_pct": -2.1199,
+  "label": "Philly Semis",
+  "source": "Polygon I:SOX daily bar (8/19 close; -6.99% over two sessions from 8/17 close 12621.00)"
+ },
+ "DJI": {
+  "value": 53463.05,
+  "as_of": "2026-08-19 close",
+  "status": "CLOSED",
+  "prev_close": 53343.4,
+  "delta_pct": 0.2243,
+  "label": "Dow 30",
+  "source": "Polygon I:DJI daily bar (8/19 close; NOT ATH - 1.63% below 8/5 record close 54349.12)"
+ },
+ "VIX": {
+  "value": 15.17,
+  "as_of": "2026-08-20 07:06 UTC",
+  "status": "LIVE",
+  "prev_close": 14.89,
+  "delta_pct": 1.8805,
+  "label": "VIX",
+  "source": "Polygon I:VIX - 165 minute bars 07:15-11:06 UTC; prev = 8/19 close 14.89"
+ },
+ "US10Y": {
+  "value": 4.683,
+  "as_of": "2026-08-20 07:15",
+  "status": "LIVE",
+  "prev_close": 4.653,
+  "delta_pct": 0.6447,
+  "label": "US 10Y",
+  "unit": "pct",
+  "source": "TradingEconomics live 07:15 (+3.3bp); prev close Polygon I:TNX 46.53 = 4.653%"
+ },
+ "US2Y": {
+  "value": 4.2,
+  "as_of": "2026-08-20 07:15",
+  "status": "LIVE",
+  "prev_close": 4.171,
+  "delta_pct": 0.6953,
+  "label": "US 2Y",
+  "unit": "pct",
+  "source": "TradingEconomics live 07:15 (+2.9bp vs prior session)"
+ },
+ "WTI": {
+  "value": 86.95,
+  "as_of": "2026-08-20 07:15",
+  "status": "LIVE",
+  "prev_close": 84.39,
+  "delta_pct": 3.0335,
+  "label": "WTI Crude",
+  "source": "TradingEconomics live 07:15; prev = 8/19 settle 84.39. Iran economic operation + Hormuz risk"
+ },
+ "BRENT": {
+  "value": 94.07,
+  "as_of": "2026-08-20 07:16",
+  "status": "LIVE",
+  "prev_close": 91.62,
+  "delta_pct": 2.6741,
+  "label": "Brent Crude",
+  "source": "TradingEconomics live 07:16; prev = 8/19 settle 91.62"
+ },
+ "GOLD": {
+  "value": 4486.95,
+  "as_of": "2026-08-20 07:12",
+  "status": "LIVE",
+  "prev_close": 4511.43,
+  "delta_pct": -0.5426,
+  "label": "Gold",
+  "source": "TradingEconomics live 07:12; prev close Polygon C:XAUUSD 4511.43 (8/19 +4.13%). NOT a record - 18.1% below 1/28/26 record close 5510.73"
+ },
+ "BTC": {
+  "value": 71882.47,
+  "as_of": "2026-08-20 04:17",
+  "status": "LIVE",
+  "prev_close": 69297.78,
+  "delta_pct": 3.7298,
+  "label": "Bitcoin",
+  "source": "TradingEconomics live 04:17; prev close Polygon X:BTCUSD 69297.78 (8/19 +7.14%). Highest since early June"
+ },
+ "EURJPY": {
+  "value": 185.445,
+  "as_of": "2026-08-20 07:16",
+  "status": "LIVE",
+  "prev_close": 184.752,
+  "delta_pct": 0.3751,
+  "label": "EUR/JPY",
+  "source": "TradingEconomics live 07:16; prev close Polygon C:EURJPY 184.752"
+ },
+ "AUDJPY": {
+  "value": 112.892,
+  "as_of": "2026-08-20 04:17",
+  "status": "LIVE",
+  "prev_close": 112.723,
+  "delta_pct": 0.1499,
+  "label": "AUD/JPY",
+  "source": "TradingEconomics live 04:17; prev close Polygon C:AUDJPY 112.723"
+ }
 }

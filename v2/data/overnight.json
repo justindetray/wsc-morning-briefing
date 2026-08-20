@@ -1,109 +1,85 @@
 {
- "headline": "Canada tariff paused three days on a deal not yet papered; Asia craters as Japan's long end hits a 30-year high",
- "as_of": "2026-08-19 7:25 AM ET",
- "client_frame_short": "You may see that Asian markets fell hard overnight, with Korea down more than five percent, and wonder what broke. Nothing did. Japan's long-term borrowing costs hit a thirty-year high, and that repriced long-dated bonds everywhere, including ours.\n\nHere is what the coverage will miss. The Canada tariff that was supposed to hit at midnight got pushed three days while a deal gets papered, so the headline risk eased and long rates rose anyway. **That tells you this is about the price of long-term borrowing, not the news cycle.** Short-term rates actually fell overnight and gold dropped two percent, which is not what fear looks like. There is nothing for you to do today. I am watching the Fed minutes at two o'clock, because that speaks to the rate that actually prices your bonds.",
- "client_frame": "The overnight tape looks contradictory until you separate the two stories. Story one is relief: at roughly 10:15 PM ET Trump paused the 50% tariff on about $20.2 billion of Canadian goods for three days, citing a deal subject to finalization of documents. The White House proclamation moves the trigger to 12:01 AM on August 22 (White House). It is a postponement, not a cancellation, and Prime Minister Carney used exactly that word, saying substantial progress had been made but important work remained (CBC).\n\nStory two is the bond market, and it is the one that moved portfolios. Japan's 10-year government bond yield touched 2.945%, its highest since September 1996, rising for a seventh straight session (Reuters). Germany's 30-year hit its highest since 2011 and France's 30-year a post-2008 high (CNBC). Our own 30-year sits at 5.29%, the highest since 2007. Asia took the brunt: Korea's KOSPI fell more than five percent and the Nikkei about three percent.\n\nHere is the tell that this is not a Federal Reserve story. The front of our curve fell overnight even as the long end held at generational highs, with the 2-year down to 4.169% and the 10-year to 4.699%. September rate-hike odds actually eased to 34.1% from 36.1% yesterday (CME FedWatch). And gold fell 2.1% in Tuesday's session after its recent run. A pure fear trade does not sell gold and buy short-term Treasuries at the same time. What is repricing is the term premium, the extra yield investors demand to lend for thirty years to governments that keep issuing debt.\n\nTuesday's own session was a tech-led decline on Iran risk premium, with the Nasdaq 100 down 1.68% against the S&P 500's 0.69% and a Dow that lost only 0.22% (Polygon). Nvidia fell 2.34%. The data underneath was soft where it touches housing: July housing starts dropped 12.4% to 1.239 million annualized, well under the roughly 1.35 million expected, though permits rose 5.0% (Census Bureau). Industrial production rose 0.2% with capacity utilization at 76.3% (Federal Reserve G.17).\n\nFor clients: the honest framing is that a tariff deadline was deferred and a global long-duration repricing continued, and the second one matters more to a balanced portfolio than the first. Long bonds are where the pain is; short bonds and equities are absorbing it comparatively well. This is an argument for owning bonds you intend to hold to maturity rather than trading duration on headlines, and for remembering that a higher long rate is also a higher forward return on new bond money.",
+ "headline": "Treasury doubles its long-bond buyback and the 30-year steadies; oil +3% on the new Iran measures, Korea's chips +6% on a record SK Hynix payout",
+ "as_of": "2026-08-20 7:20 AM ET",
+ "client_frame_short": "The call this morning is some version of \"the 30-year Treasury just hit its highest level since 2007 and now the government is buying back its own bonds \u2014 is Washington losing control of interest rates?\" The honest answer is that this is a real cost story and not a portfolio emergency. Long rates near 5.2% do make mortgages and business loans more expensive, which is a genuine household squeeze, but **the long end rallied the moment Treasury stepped in, which is the opposite of a market losing confidence.**\n\nTwo facts worth keeping: the S&P finished Wednesday slightly higher through all of it, and Japan's 30-year yield eased overnight instead of spiraling. There is nothing to do in your account today. What I am watching is September 9, when the larger buyback operations begin, and whether oil \u2014 up 3% overnight on the new Iran measures \u2014 holds these levels into month-end.",
+ "client_frame": "The mechanism here is narrower than the headlines suggest. Treasury raised the per-operation cap on its debt buyback program from $2 billion to at least $4 billion, covering the 10-to-20-year and 20-to-30-year sectors, for operations running September 9 through November 4 (Treasury press release, August 19). The buyback program itself is routine and has run since May 2024. What is unusual is the timing: the August 5 quarterly refunding had already set this quarter's liquidity-support budget, and Wednesday's move adds at least $14 billion more off-cycle. Against roughly $10 trillion of long-end debt outstanding that is small. It is a signal about intent, not a rescue.\n\nIt mattered because the long end had gotten disorderly. The 30-year yield touched roughly 5.3% earlier this week, its highest since June 2007, then fell about nine to ten basis points Wednesday after the announcement while the 10-year came in five to six. Japan's 30-year, which set a record earlier in the week, eased seven to eight basis points overnight to around 4.00%. This was a global long-end problem getting a US-shaped answer, and for one session the answer worked. Both gold and bitcoin ripped on it \u2014 gold up 4.1% Wednesday, bitcoin up 7.1% and another 3.7% overnight to its highest since early June, helped by a record $2.7 billion of crypto short liquidations.\n\nSeparately, the July FOMC minutes released Wednesday showed a 9-3 hold with three regional presidents dissenting in favor of a hike \u2014 Hammack, Kashkari and Logan \u2014 the first unified three-way same-direction dissent since 2016, with the minutes citing the Iran war as clouding the inflation outlook (Federal Reserve, August 19). Futures now price no cuts at all, and about a 31% chance of a hike in September, easing from 34% a day earlier (CME FedWatch, reporting date August 19). Overnight, oil added roughly 3% after the administration announced sweeping new economic measures against Iran, with the UAE suspending economic ties and reports of three China-linked supertankers turning back in the Strait of Hormuz.\n\nAsia's chip complex staged a violent reversal that is worth reading correctly. KOSPI rose 5.89% and SK Hynix 12.73% after SK Hynix's board approved a 40 trillion won buyback and cancellation, roughly $28.6 billion, the largest ever by a listed Korean company, alongside a pledge to return more than half of free cash flow over three years (Aju Press, August 20). Samsung is reported to be readying a larger $71.75 billion return plan (Bloomberg, August 20). That is a capital-returns story, not a demand story, and the rebound was uneven \u2014 US-listed chip names had not caught the bounce as of the pre-open. For clients: the week's real question is not whether Washington can control long rates, but whether it needs to \u2014 and every move here is a market working loudly, not a market breaking.",
  "asia_close": [
   {
-   "market": "Nikkei 225",
-   "delta_pct": -3.16,
-   "level": "65,326.42",
-   "note": "WSJ 4:00 AM EDT snapshot; AP -3.2% to 65,332.04 agrees closely"
-  },
-  {
    "market": "KOSPI",
-   "delta_pct": -5.8,
-   "level": "6,471.17",
-   "note": "WSJ 4:00 AM EDT; AP -5.7%, Washington Post -5.2% - cluster -5.2% to -5.8%"
+   "delta_pct": 5.89,
+   "level": "6,852.58",
+   "note": "Buy-side circuit breaker triggered; reversed Wednesday's ~5.8% plunge"
   },
   {
-   "market": "Shanghai Composite",
-   "delta_pct": -2.4,
-   "level": "3,894.42",
-   "note": "WSJ; AP -2.2%, India Infoline -2.52%"
+   "market": "Nikkei 225",
+   "delta_pct": 1.36,
+   "level": "66,216.79",
+   "note": "Investing.com shows 66,278.00; both cited. TOPIX +1.18% to 4,060"
   },
   {
    "market": "Hang Seng",
-   "delta_pct": 0.03,
-   "level": "25,478.41",
-   "note": "WSJ; essentially flat, unlike the rest of the region"
+   "delta_pct": 0.91,
+   "level": "25,726.23",
+   "note": "Tracked the regional chip bounce"
   },
   {
-   "market": "ASX 200",
-   "delta_pct": -0.18,
-   "level": "9,053.8",
-   "note": "WSJ"
+   "market": "Shanghai Composite",
+   "delta_pct": 0.24,
+   "level": "3,903.72",
+   "note": "Modest rebound after Wednesday's -2.40%"
   }
  ],
  "europe_open": [
   {
    "market": "DAX",
-   "delta_pct": -0.02
+   "delta_pct": -0.04
   },
   {
    "market": "FTSE 100",
-   "delta_pct": -0.03
+   "delta_pct": -0.02
   },
   {
    "market": "CAC 40",
-   "delta_pct": 0.18
+   "delta_pct": 0.17
   }
  ],
  "single_name_moves": [
   {
-   "ticker": "ES (S&P fut)",
-   "delta_pct": -0.2,
-   "venue": "CME overnight",
-   "note": ""
+   "ticker": "SK Hynix",
+   "delta_pct": 12.73,
+   "venue": "Seoul",
+   "note": "Closed 1,691,000 won on the record 40T won ($28.6B) buyback-and-cancellation"
   },
   {
-   "ticker": "NQ (Nasdaq fut)",
-   "delta_pct": -0.12,
-   "venue": "CME overnight",
-   "note": ""
+   "ticker": "Kioxia",
+   "delta_pct": 6.01,
+   "venue": "Tokyo",
+   "note": "To Y52,950, partial recovery from Wednesday's -12.60%"
   },
   {
-   "ticker": "YM (Dow fut)",
-   "delta_pct": 0.07,
-   "venue": "CME 4:00 AM ET",
-   "note": "WSJ"
+   "ticker": "Samsung Elec",
+   "delta_pct": 8.0,
+   "venue": "Seoul",
+   "note": "Rallied sharply (sources 8-10%) on a reported $71.75B shareholder-return plan"
+  },
+  {
+   "ticker": "ASML",
+   "delta_pct": 0.39,
+   "venue": "Amsterdam (Wed)",
+   "note": "Bucked the Wednesday chip selloff on a 38-49% H2 sales surge outlook"
   },
   {
    "ticker": "ADI",
-   "delta_pct": -3.5,
-   "venue": "Tue close",
-   "note": "before this morning's record Q3"
-  },
-  {
-   "ticker": "NVDA",
-   "delta_pct": -2.34,
-   "venue": "Tue close",
-   "note": ""
-  },
-  {
-   "ticker": "DE",
-   "delta_pct": -1.87,
-   "venue": "Tue close",
-   "note": "reports Thursday"
+   "delta_pct": -0.89,
+   "venue": "US (Wed)",
+   "note": "Record FQ3, revenue +40% to $4.02B, EPS $3.45 beat - sold the news"
   }
  ],
  "geo_headlines": [
-  "CANADA TARIFF PAUSED, NOT CANCELLED: at ~10:15 PM ET Trump paused the 50% Section 338 tariff on ~$20.2B of Canadian goods for three days, citing a \"DEAL\" subject to \"finalization of documents.\" The White House proclamation deletes the August 19 effective date and inserts 12:01 AM ET August 22, 2026 (White House proclamation text).",
-  "Carney called it a \"postponement\": \"Substantial progress has been made, although there is important work still to be done.\" No Canadian confirmation of specific concessions. USTR's Greer cited \"comprehensive market access for all American goods, economic security commitments, digital trade alignment\" without specifics (CBC, USTR). Reported terms - autos to a 15% headline rate, Keystone XL revival, dairy quotas - are UNVERIFIED, not in the proclamation text.",
-  "THE REAL OVERNIGHT MOVE IS THE GLOBAL LONG END, NOT THE TARIFF. Japan's 10-year JGB touched 2.945%, highest since September 1996, up a seventh straight session with debt above 200% of GDP (Reuters). Germany's 30-year hit its highest since 2011, France's 30-year a post-2008 high (CNBC). US 30-year 5.286%, highest since 2007.",
-  "CORRECTION TO OUR OWN PRIOR FRAMING: we have described the US 30-year as \"highest since 2002.\" The sourced comparison is June 2007 - CNBC's own headline reads \"19-year high.\" Using 2007 going forward.",
-  "NOT A FED STORY: the front end FELL overnight while the long end held. 2-year 4.169% (-0.017), 10-year 4.699% (-0.011) (TradingEconomics 07:21). September hike odds eased to 34.07% from 36.07% on yesterday's cohort (CME FedWatch, fresh 8/18 cohort). Gold fell 2.10% Tuesday. Term premium, not policy rate.",
-  "Tuesday was tech-led: NDX -1.68% vs SPX -0.69% and DJI -0.22%; Nasdaq Composite -1.33%, Russell 2000 -1.30% (Polygon, all six cross-checked). Reuters attributed it to \"fading Iran peace hopes\" lifting oil and yields. No index near a record: SPX -1.37% vs its 8/13 record close 7,798.99, NDX -3.81% vs 6/2, DJI -1.85% vs 8/5.",
-  "HOUSING IS WHERE THE DATA CRACKED: July housing starts 1,239,000 SAAR, -12.4% m/m and -13.5% YoY, versus ~1.35M consensus; permits 1,443,000, +5.0% m/m (Census Bureau). Industrial production +0.2%, capacity utilization 76.3%, 3.1 points below its long-run average (Federal Reserve G.17). Import prices -0.4% m/m, +5.9% YoY (BLS).",
-  "RETAIL THIS MORNING - MIND THE TARIFF REFUNDS. Target: sales $26.5B +5.3%, comps +3.8%, EPS $4.11 - but that includes a $1.65 per-share benefit from a $994M pretax tariff refund; ex-refund EPS grew ~20% (Target release). Lowe's: adjusted EPS $4.40 including $0.11 of tariff refunds, sales $26.0B just under consensus, comps +0.2%, FY guidance $12.25 below the ~$12.43 consensus (Lowe's release).",
-  "Analog Devices posted a record fiscal Q3: revenue $4,022M +40% YoY, adjusted EPS $3.45 +68%, adjusted gross margin 72.5%, Q4 guide ~$4.3B (ADI release). The stock fell 3.50% Tuesday into the print. TJX had not reported as of 7:00 AM.",
-  "Home Depot closed Tuesday at $337.49, -0.12%, essentially unchanged after Monday's beat-and-reaffirm - the market treated reaffirmed guidance and \"frozen housing market conditions\" as a non-event.",
-  "Bessent's \"unprecedented\" Iran measures STILL not announced. Direct check of OFAC's recent-actions page: the August 18 entry is ICC- and Venezuela-related, NOT Iran. Last Iran action remains August 7. A live, undated catalyst.",
-  "A vessel was struck by an unknown projectile outbound through Hormuz on August 18, engine-room damage, a crew casualty, Omani Coast Guard assisting (UKMTO warning 115-26 via Reuters). A named-vessel fatality report from one outlet is UNVERIFIED against the UKMTO framing. CENTCOM said it had redirected 64 commercial vessels, disabled 3 and boarded 2 (CBS).",
-  "CORRECTION CARRIED: there is no August 21 Iran sanctions cliff. OFAC revoked General License X on July 7, superseded by X1, wind-down ended July 17. Stale June-dated law-firm alerts still circulate the August 21 date.",
-  "Crude reconciles cleanly today: WTI 8/18 settle $84.94, now $85.62 (+0.80%); Brent 8/18 settle $91.02, now $91.68 (+0.73%). AAA national gasoline average $4.086, roughly a dollar a gallon above last summer.",
-  "SOURCING NOTE ON ASIA: unlike yesterday, the Asian prints are usable but not perfectly tight. KOSPI reads -5.2% (Washington Post) to -5.8% (WSJ 4:00 AM EDT) across three sources, with AP at -5.7%; one aggregator still shows -1.55% on what appears to be a stale timestamp and is excluded. Levels shown are the WSJ 4:00 AM EDT snapshot. Treat Korea as down roughly five to six percent, not a precise figure.",
-  "CAUTION ON ONE AGGREGATOR FIGURE: two calendar aggregators list a 5.163% result for today's $16B 20-year bond auction, but competitive bidding does not close until 1:00 PM ET. That figure cannot be today's result and is being treated as a stale or mislabelled prior-auction print - NOT reported as today's outcome.",
-  "MBA mortgage applications for the week ended August 14 fell 0.4%; refis +2% but -18% YoY, purchases -2%; 30-year fixed unchanged at 6.77% (MBA via CNBC). Stripe reportedly agreed to buy OpenRouter for more than $7B; TTM Technologies to buy Epiq Solutions for $1.1B (aggregated M&A trackers, deal terms not primary-verified)."
+  "OIL +3% ON THE IRAN ESCALATION: Trump announced an \"unprecedented crushing economic operation\" against Iran after talks failed, warning any country offering Tehran a lifeline faces financial retaliation. WTI 86.95 (+3.0%), Brent 94.07 (+2.7%). The UAE suspended economic and financial ties with Iran after accusing Tehran of launching missiles at its territory; three China-linked supertankers turned back in the Strait of Hormuz and a vessel was reportedly struck by a projectile (Al Jazeera, TradingEconomics, Aug 20).",
+  "TREASURY DOUBLES THE LONG-END BUYBACK: Treasury raised its per-operation buyback cap from $2B to at least $4B in the 10-20Y and 20-30Y sectors for operations Sept 9 - Nov 4, an off-cycle addition of at least $14B beyond the Aug 5 refunding plan. The 30-year had touched ~5.3% earlier in the week, its highest since June 2007; it fell ~9-10bp Wednesday on the news (Treasury press release sb0607, Aug 19).",
+  "RUSSIA'S NINE-HOUR BARRAGE ON KYIV: Dozens of ballistic, cruise and hypersonic missiles plus 168 drones killed 16 and injured more than 40. Nearly 90% of drones and most cruise missiles were downed, but all the faster ballistic missiles got through. Targets included residential buildings, a school, a children's hospital and Red Cross facilities; Odesa was also hit, pressuring agricultural exports (Reuters, Aug 20).",
+  "JAPAN'S RECORD TRADE FLOWS, THIRD STRAIGHT DEFICIT: July trade deficit Y634.5B (~$4.0B), narrower than the Y680B forecast. Exports +23.2% YoY (11th straight rise, beating +19.9% expected) on semis, electronics and autos; imports +27.8% on a weak yen inflating crude costs. Both were record highs in value terms since 1979. Middle East crude imports fell over 30% by volume on Hormuz disruption (Reuters, Xinhua, Aug 20).",
+  "FED MINUTES: THREE DISSENTS FOR A HIKE: The July 28-29 minutes showed a 9-3 hold at 3.50-3.75%, with Hammack, Kashkari and Logan dissenting for a 25bp hike - the first unified three-way same-direction dissent since 2016. Non-voters Schmid and Musalem indicated they would have backed a hike too. Participants' inflation outlooks were called \"highly uncertain,\" with the Iran war \"clouding\" the picture (Federal Reserve, Aug 19)."
  ]
 }

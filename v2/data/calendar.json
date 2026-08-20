@@ -1,143 +1,95 @@
 {
- "last_curated": "2026-08-19",
+ "last_curated": "2026-08-20 07:20 AM ET",
  "macro": [
   {
-   "date": "2026-08-19",
-   "time_et": "7:00 AM",
-   "event": "MBA Mortgage Applications (wk 8/14)",
-   "consensus": "ACTUAL -0.4%",
-   "importance": "low",
-   "note": "Refis +2% but -18% YoY; purchases -2%; 30Y fixed unchanged 6.77%"
-  },
-  {
-   "date": "2026-08-19",
-   "time_et": "10:30 AM",
-   "event": "EIA Weekly Petroleum Status Report",
-   "consensus": "n/a",
-   "importance": "medium",
-   "note": "Summary tables 10:30, remaining 1:00 PM, per EIA's own release calendar"
-  },
-  {
-   "date": "2026-08-19",
-   "time_et": "1:00 PM",
-   "event": "$16B 20-Year Bond Auction",
-   "consensus": "no result yet",
+   "date": "2026-08-20",
+   "time_et": "8:30 AM",
+   "event": "Initial Jobless Claims (wk 8/15)",
+   "consensus": "prior 209,000",
    "importance": "high",
-   "note": "CUSIP 912810UX4. Competitive bids close 1:00 PM - two aggregators list a 5.163% 'result' that cannot yet exist; disregard"
-  },
-  {
-   "date": "2026-08-19",
-   "time_et": "2:00 PM",
-   "event": "FOMC Minutes (Jul 28-29 meeting)",
-   "consensus": "n/a",
-   "importance": "high",
-   "note": "July was a 9-3 hold with Hammack, Kashkari and Logan dissenting FOR a hike - watch how deep the hawkish split runs"
+   "note": "4-week average 199,000; claims have stayed historically low all summer (DOL)"
   },
   {
    "date": "2026-08-20",
    "time_et": "8:30 AM",
-   "event": "Initial jobless claims + Philadelphia Fed Mfg (Aug)",
-   "consensus": "n/a",
+   "event": "Continuing Claims (wk 8/8)",
+   "consensus": "-",
    "importance": "medium",
-   "note": ""
+   "note": "Watched for any softening in re-employment (DOL)"
   },
   {
    "date": "2026-08-20",
-   "time_et": "10:00 AM",
-   "event": "Conference Board Leading Economic Index (Jul)",
-   "consensus": "n/a",
+   "time_et": "8:30 AM",
+   "event": "Philadelphia Fed Manufacturing Index (Aug)",
+   "consensus": "-",
+   "importance": "medium",
+   "note": "First August regional manufacturing read; prices-paid subindex is the tariff tell"
+  },
+  {
+   "date": "2026-08-20",
+   "time_et": "10:30 AM",
+   "event": "EIA Weekly Natural Gas Storage",
+   "consensus": "-",
    "importance": "low",
-   "note": ""
+   "note": "Energy complex already bid on Hormuz risk"
   },
   {
-   "date": "2026-08-21",
-   "time_et": "9:45 AM",
-   "event": "Flash PMIs, manufacturing & services (Aug)",
-   "consensus": "n/a",
-   "importance": "medium",
-   "note": ""
-  },
-  {
-   "date": "2026-08-21",
-   "time_et": "4:00 PM",
-   "event": "August monthly options expiration",
-   "consensus": "n/a",
-   "importance": "medium",
-   "note": ""
-  },
-  {
-   "date": "2026-08-22",
-   "time_et": "12:01 AM",
-   "event": "NEW Canada tariff deadline (50%, ~$20.2B, Section 338)",
-   "consensus": "unresolved",
+   "date": "2026-08-20",
+   "time_et": "~1:00 PM",
+   "event": "Treasury 30-Year TIPS reopening ($8B)",
+   "consensus": "-",
    "importance": "high",
-   "note": "Moved from 8/19 by White House proclamation; a 3-day pause pending 'finalization of documents'"
+   "note": "First long-end auction since Treasury doubled its buyback cap on 8/19; day confirmed, exact minute not primary-verified"
+  },
+  {
+   "date": "2026-08-26",
+   "time_et": "8:30 AM",
+   "event": "PCE Price Index (Jul)",
+   "consensus": "-",
+   "importance": "high",
+   "note": "The Fed's preferred gauge; next real inflation test"
+  },
+  {
+   "date": "2026-08-27",
+   "time_et": "11:00 AM",
+   "event": "Kansas City Fed Manufacturing Survey (Aug)",
+   "consensus": "-",
+   "importance": "low",
+   "note": "Confirmed next release Aug 27 (was NOT today)"
+  },
+  {
+   "date": "2026-08-27",
+   "time_et": "All day",
+   "event": "Jackson Hole Symposium opens (Aug 27-29)",
+   "consensus": "-",
+   "importance": "high",
+   "note": "Theme: Financial Innovation. Chair Warsh delivers his first Jackson Hole keynote Fri Aug 28 AM (KC Fed)"
   }
  ],
  "earnings": [
-  {
-   "date": "2026-08-19",
-   "ticker": "TGT",
-   "name": "Target",
-   "session": "pre-market",
-   "importance": "high",
-   "note": "REPORTED: sales $26.5B +5.3%, comps +3.8%, EPS $4.11 incl $1.65 tariff-refund benefit; ex-refund ~+20%"
-  },
-  {
-   "date": "2026-08-19",
-   "ticker": "LOW",
-   "name": "Lowe's",
-   "session": "pre-market",
-   "importance": "high",
-   "note": "REPORTED: adj EPS $4.40 (incl $0.11 refunds) vs ~$4.22; sales $26.0B just shy; comps +0.2%; FY guide $12.25 below consensus"
-  },
-  {
-   "date": "2026-08-19",
-   "ticker": "TJX",
-   "name": "TJX Companies",
-   "session": "pre-market",
-   "importance": "medium",
-   "note": "Not out as of 7:00 AM. Consensus ~$1.19 EPS on ~$15.16B. Call 11:00 AM"
-  },
-  {
-   "date": "2026-08-19",
-   "ticker": "ADI",
-   "name": "Analog Devices",
-   "session": "pre-market",
-   "importance": "high",
-   "note": "REPORTED record Q3: rev $4,022M +40%, adj EPS $3.45 +68%, adj GM 72.5%, Q4 guide ~$4.3B. Call 10:00 AM"
-  },
   {
    "date": "2026-08-20",
    "ticker": "WMT",
    "name": "Walmart",
    "session": "pre-market",
    "importance": "high",
-   "note": "Release ~8:00 AM ET"
-  },
-  {
-   "date": "2026-08-20",
-   "ticker": "DE",
-   "name": "Deere & Co",
-   "session": "pre-market",
-   "importance": "high",
-   "note": "Fiscal Q3; call 10:00 AM ET. Stock -1.87% Tuesday"
+   "note": "FY27 Q2. The cleanest read on whether the low-end consumer is absorbing tariff costs"
   },
   {
    "date": "2026-08-20",
    "ticker": "BABA",
-   "name": "Alibaba Group",
+   "name": "Alibaba",
    "session": "pre-market",
-   "importance": "medium",
-   "note": "Per earnings calendars"
+   "importance": "high",
+   "note": "Call 7:30 AM ET. China consumer and cloud/AI capex read"
   },
   {
    "date": "2026-08-20",
-   "ticker": "ROST",
-   "name": "Ross Stores",
-   "session": "after-close",
-   "importance": "low",
-   "note": ""
+   "ticker": "DE",
+   "name": "Deere",
+   "session": "pre-market",
+   "importance": "medium",
+   "note": "FY26 Q3, call 10:00 AM ET. Ag equipment as a farm-economy and rate-sensitivity proxy"
   }
  ]
 }
