@@ -1,121 +1,121 @@
 {
  "SPX": {
-  "value": 7707.98,
-  "as_of": "2026-08-19 close",
+  "value": 7641.16,
+  "as_of": "2026-08-20 close",
   "status": "CLOSED",
-  "prev_close": 7691.76,
-  "delta_pct": 0.2109,
+  "prev_close": 7707.98,
+  "delta_pct": -0.8669,
   "label": "S&P 500",
-  "source": "Polygon I:SPX daily bar (8/19 close; NOT ATH - 1.17% below 8/13 record close 7798.99)"
+  "source": "Polygon I:SPX daily bar (8/20 close; NOT ATH - 2.02% below 8/13 record close 7798.99)"
  },
  "NDX": {
-  "value": 29426.02,
-  "as_of": "2026-08-19 close",
+  "value": 29213.16,
+  "as_of": "2026-08-20 close",
   "status": "CLOSED",
-  "prev_close": 29490.96,
-  "delta_pct": -0.2202,
+  "prev_close": 29426.02,
+  "delta_pct": -0.7234,
   "label": "Nasdaq 100",
-  "source": "Polygon I:NDX daily bar (8/19 close; NOT ATH - 4.03% below 6/2 record close 30660.60)"
+  "source": "Polygon I:NDX daily bar (8/20 close; NOT ATH - 4.72% below 6/2 record close 30660.60)"
  },
  "SOX": {
-  "value": 11738.23,
-  "as_of": "2026-08-19 close",
+  "value": 11800.02,
+  "as_of": "2026-08-20 close",
   "status": "CLOSED",
-  "prev_close": 11992.46,
-  "delta_pct": -2.1199,
+  "prev_close": 11738.23,
+  "delta_pct": 0.5264,
   "label": "Philly Semis",
-  "source": "Polygon I:SOX daily bar (8/19 close; -6.99% over two sessions from 8/17 close 12621.00)"
+  "source": "Polygon I:SOX daily bar (8/20 close; ROSE while the Dow fell - this was not a chip story. NOT ATH - 19.37% below 6/22 record close 14634.72)"
  },
  "DJI": {
-  "value": 53463.05,
-  "as_of": "2026-08-19 close",
+  "value": 52759.21,
+  "as_of": "2026-08-20 close",
   "status": "CLOSED",
-  "prev_close": 53343.4,
-  "delta_pct": 0.2243,
+  "prev_close": 53463.05,
+  "delta_pct": -1.3165,
   "label": "Dow 30",
-  "source": "Polygon I:DJI daily bar (8/19 close; NOT ATH - 1.63% below 8/5 record close 54349.12)"
+  "source": "Polygon I:DJI daily bar (8/20 close, -703.84 pts; Walmart -9.15% was the single largest drag. NOT ATH - 2.93% below 8/5 record close 54349.12)"
  },
  "VIX": {
-  "value": 15.17,
-  "as_of": "2026-08-20 07:06 UTC",
-  "status": "LIVE",
+  "value": 16.01,
+  "as_of": "2026-08-20 close",
+  "status": "CLOSED",
   "prev_close": 14.89,
-  "delta_pct": 1.8805,
+  "delta_pct": 7.5218,
   "label": "VIX",
-  "source": "Polygon I:VIX - 165 minute bars 07:15-11:06 UTC; prev = 8/19 close 14.89"
+  "source": "Polygon I:VIX settled 8/20 close. A same-day 8/21 bar at 15.66 was excluded per the pre-open index-bar rule"
  },
  "US10Y": {
-  "value": 4.683,
-  "as_of": "2026-08-20 07:15",
+  "value": 4.709,
+  "as_of": "2026-08-21 07:40",
   "status": "LIVE",
-  "prev_close": 4.653,
-  "delta_pct": 0.6447,
+  "prev_close": 4.706,
+  "delta_pct": 0.0637,
   "label": "US 10Y",
   "unit": "pct",
-  "source": "TradingEconomics live 07:15 (+3.3bp); prev close Polygon I:TNX 46.53 = 4.653%"
+  "source": "TradingEconomics live (+0.3bp). Rebounded Thursday, erasing most of Wednesday's buyback-driven decline"
  },
  "US2Y": {
   "value": 4.2,
-  "as_of": "2026-08-20 07:15",
+  "as_of": "2026-08-21 07:40",
   "status": "LIVE",
-  "prev_close": 4.171,
-  "delta_pct": 0.6953,
+  "prev_close": 4.198,
+  "delta_pct": 0.0476,
   "label": "US 2Y",
   "unit": "pct",
-  "source": "TradingEconomics live 07:15 (+2.9bp vs prior session)"
+  "source": "TradingEconomics live (+0.2bp). Front end anchored; 2s10s +50.9bp"
  },
  "WTI": {
-  "value": 86.95,
-  "as_of": "2026-08-20 07:15",
+  "value": 87.1362,
+  "as_of": "2026-08-21 07:13",
   "status": "LIVE",
-  "prev_close": 84.39,
-  "delta_pct": 3.0335,
+  "prev_close": 86.83,
+  "delta_pct": 0.3526,
   "label": "WTI Crude",
-  "source": "TradingEconomics live 07:15; prev = 8/19 settle 84.39. Iran economic operation + Hormuz risk"
+  "source": "TradingEconomics live 07:13; fifth straight daily gain on the new Iran measures"
  },
  "BRENT": {
-  "value": 94.07,
-  "as_of": "2026-08-20 07:16",
+  "value": 94.034,
+  "as_of": "2026-08-21 04:13",
   "status": "LIVE",
-  "prev_close": 91.62,
-  "delta_pct": 2.6741,
+  "prev_close": 93.7799,
+  "delta_pct": 0.271,
   "label": "Brent Crude",
-  "source": "TradingEconomics live 07:16; prev = 8/19 settle 91.62"
+  "source": "TradingEconomics live 04:13; a one-month high. Bessent details the Iran measures Monday 8/24"
  },
  "GOLD": {
-  "value": 4486.95,
-  "as_of": "2026-08-20 07:12",
+  "value": 4589.48,
+  "as_of": "2026-08-21 04:12",
   "status": "LIVE",
-  "prev_close": 4511.43,
-  "delta_pct": -0.5426,
+  "prev_close": 4515.78,
+  "delta_pct": 1.6321,
   "label": "Gold",
-  "source": "TradingEconomics live 07:12; prev close Polygon C:XAUUSD 4511.43 (8/19 +4.13%). NOT a record - 18.1% below 1/28/26 record close 5510.73"
+  "source": "TradingEconomics live 04:12; third consecutive weekly gain, +11.1% over the past month. NOT a record - 16.7% below the 1/28/26 record close 5510.73"
  },
  "BTC": {
-  "value": 71882.47,
-  "as_of": "2026-08-20 04:17",
+  "value": 77359.94,
+  "as_of": "2026-08-21 07:13",
   "status": "LIVE",
-  "prev_close": 69297.78,
-  "delta_pct": 3.7298,
+  "prev_close": 73011.87,
+  "delta_pct": 5.9553,
   "label": "Bitcoin",
-  "source": "TradingEconomics live 04:17; prev close Polygon X:BTCUSD 69297.78 (8/19 +7.14%). Highest since early June"
+  "source": "TradingEconomics live 07:13; prev close Polygon X:BTCUSD 73011.87. Highest since 5/21/26. NOT a record - 37.97% below the 10/6/25 record close 124720.09"
  },
  "EURJPY": {
-  "value": 185.445,
-  "as_of": "2026-08-20 07:16",
+  "value": 185.768,
+  "as_of": "2026-08-21 07:12",
   "status": "LIVE",
-  "prev_close": 184.752,
-  "delta_pct": 0.3751,
+  "prev_close": 185.703,
+  "delta_pct": 0.035,
   "label": "EUR/JPY",
-  "source": "TradingEconomics live 07:16; prev close Polygon C:EURJPY 184.752"
+  "source": "TradingEconomics live 07:12; prev close Polygon C:EURJPY 185.703. Yen weaker on a softer dollar, not a funding squeeze"
  },
  "AUDJPY": {
-  "value": 112.892,
-  "as_of": "2026-08-20 04:17",
+  "value": 113.658,
+  "as_of": "2026-08-21 07:13",
   "status": "LIVE",
-  "prev_close": 112.723,
-  "delta_pct": 0.1499,
+  "prev_close": 113.11,
+  "delta_pct": 0.4845,
   "label": "AUD/JPY",
-  "source": "TradingEconomics live 04:17; prev close Polygon C:AUDJPY 112.723"
+  "source": "TradingEconomics live 07:13; prev close Polygon C:AUDJPY 113.110. AUD/USD +0.67% - a dollar story"
  }
 }

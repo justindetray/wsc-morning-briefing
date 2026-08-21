@@ -1,45 +1,45 @@
 {
- "last_curated": "2026-08-20 07:20 AM ET",
+ "last_curated": "2026-08-21 07:45 AM ET",
  "macro": [
   {
-   "date": "2026-08-20",
-   "time_et": "8:30 AM",
-   "event": "Initial Jobless Claims (wk 8/15)",
-   "consensus": "prior 209,000",
+   "date": "2026-08-21",
+   "time_et": "9:45 AM",
+   "event": "S&P Global Flash US PMI (Aug)",
+   "consensus": "Mfg 54.0, Svcs 53.9",
    "importance": "high",
-   "note": "4-week average 199,000; claims have stayed historically low all summer (DOL)"
+   "note": "The only market-moving US release today. July final: Composite 54.5, Mfg 53.9, Svcs 54.6. Watch prices-paid after Philly Fed's blowout"
   },
   {
-   "date": "2026-08-20",
-   "time_et": "8:30 AM",
-   "event": "Continuing Claims (wk 8/8)",
-   "consensus": "-",
-   "importance": "medium",
-   "note": "Watched for any softening in re-employment (DOL)"
-  },
-  {
-   "date": "2026-08-20",
-   "time_et": "8:30 AM",
-   "event": "Philadelphia Fed Manufacturing Index (Aug)",
-   "consensus": "-",
-   "importance": "medium",
-   "note": "First August regional manufacturing read; prices-paid subindex is the tariff tell"
-  },
-  {
-   "date": "2026-08-20",
-   "time_et": "10:30 AM",
-   "event": "EIA Weekly Natural Gas Storage",
+   "date": "2026-08-21",
+   "time_et": "1:00 PM",
+   "event": "Baker Hughes US Rig Count",
    "consensus": "-",
    "importance": "low",
-   "note": "Energy complex already bid on Hormuz risk"
+   "note": "Weekly. Relevant only because crude is at a one-month high"
   },
   {
-   "date": "2026-08-20",
-   "time_et": "~1:00 PM",
-   "event": "Treasury 30-Year TIPS reopening ($8B)",
+   "date": "2026-08-24",
+   "time_et": "TBA",
+   "event": "Treasury press conference on new Iran measures",
    "consensus": "-",
    "importance": "high",
-   "note": "First long-end auction since Treasury doubled its buyback cap on 8/19; day confirmed, exact minute not primary-verified"
+   "note": "Bessent confirmed Monday on CNBC 8/20. The single biggest scheduled catalyst for oil next week"
+  },
+  {
+   "date": "2026-08-25",
+   "time_et": "10:00 AM",
+   "event": "Consumer Confidence (Aug)",
+   "consensus": "-",
+   "importance": "high",
+   "note": "Cross-check on Michigan's slide to 51.0 preliminary from 55.2 and on Walmart's soft comps"
+  },
+  {
+   "date": "2026-08-25",
+   "time_et": "1:00 PM",
+   "event": "Treasury 2-Year Note auction",
+   "consensus": "-",
+   "importance": "medium",
+   "note": "First of three coupon auctions this week; front end is the Fed-expectations tenor"
   },
   {
    "date": "2026-08-26",
@@ -47,15 +47,15 @@
    "event": "PCE Price Index (Jul)",
    "consensus": "-",
    "importance": "high",
-   "note": "The Fed's preferred gauge; next real inflation test"
+   "note": "The Fed's preferred gauge, and the main input to September hike odds now sitting at 38%"
   },
   {
-   "date": "2026-08-27",
-   "time_et": "11:00 AM",
-   "event": "Kansas City Fed Manufacturing Survey (Aug)",
+   "date": "2026-08-26",
+   "time_et": "8:30 AM",
+   "event": "GDP 2nd Estimate (Q2) and Durable Goods (Jul)",
    "consensus": "-",
-   "importance": "low",
-   "note": "Confirmed next release Aug 27 (was NOT today)"
+   "importance": "medium",
+   "note": "Both 8:30 AM. Plus 5-Year Note and 2-Year FRN auctions the same day"
   },
   {
    "date": "2026-08-27",
@@ -63,33 +63,49 @@
    "event": "Jackson Hole Symposium opens (Aug 27-29)",
    "consensus": "-",
    "importance": "high",
-   "note": "Theme: Financial Innovation. Chair Warsh delivers his first Jackson Hole keynote Fri Aug 28 AM (KC Fed)"
+   "note": "Theme: Financial Innovation. Also KC Fed Manufacturing 11:00 AM and the 7-Year Note auction"
+  },
+  {
+   "date": "2026-08-28",
+   "time_et": "10:00 AM",
+   "event": "Fed Chair Warsh keynote at Jackson Hole",
+   "consensus": "-",
+   "importance": "high",
+   "note": "His first Jackson Hole address as Chair, with futures pricing a 38% chance of a September hike. Michigan final also 10:00 AM"
   }
  ],
  "earnings": [
   {
-   "date": "2026-08-20",
-   "ticker": "WMT",
-   "name": "Walmart",
-   "session": "pre-market",
-   "importance": "high",
-   "note": "FY27 Q2. The cleanest read on whether the low-end consumer is absorbing tariff costs"
-  },
-  {
-   "date": "2026-08-20",
-   "ticker": "BABA",
-   "name": "Alibaba",
-   "session": "pre-market",
-   "importance": "high",
-   "note": "Call 7:30 AM ET. China consumer and cloud/AI capex read"
-  },
-  {
-   "date": "2026-08-20",
-   "ticker": "DE",
-   "name": "Deere",
+   "date": "2026-08-21",
+   "ticker": "BJ",
+   "name": "BJ's Wholesale Club",
    "session": "pre-market",
    "importance": "medium",
-   "note": "FY26 Q3, call 10:00 AM ET. Ag equipment as a farm-economy and rate-sensitivity proxy"
+   "note": "Call 8:00 AM ET. Already printed: EPS $1.36, net sales $6.09B +15.9%. A club-format read against Walmart's soft comps"
+  },
+  {
+   "date": "2026-08-21",
+   "ticker": "UI",
+   "name": "Ubiquiti",
+   "session": "pre-market",
+   "importance": "low",
+   "note": "Fiscal Q4. Networking hardware; date via converging trackers, not company-confirmed"
+  },
+  {
+   "date": "2026-08-21",
+   "ticker": "BKE",
+   "name": "The Buckle",
+   "session": "pre-market",
+   "importance": "low",
+   "note": "Small-cap apparel retail; another data point on the trade-down theme"
+  },
+  {
+   "date": "2026-08-26",
+   "ticker": "NVDA",
+   "name": "NVIDIA",
+   "session": "after-close",
+   "importance": "high",
+   "note": "FY27 Q2, call 5:00 PM ET, company-confirmed. Lands the same day as PCE - the week's two-sided risk event"
   }
  ]
 }
