@@ -1,121 +1,121 @@
 {
  "SPX": {
-  "value": 7641.16,
-  "as_of": "2026-08-20 close",
+  "value": 7674.37,
+  "as_of": "2026-08-21 close",
   "status": "CLOSED",
-  "prev_close": 7707.98,
-  "delta_pct": -0.8669,
+  "prev_close": 7641.16,
+  "delta_pct": 0.4346,
   "label": "S&P 500",
-  "source": "Polygon I:SPX daily bar (8/20 close; NOT ATH - 2.02% below 8/13 record close 7798.99)"
+  "source": "Polygon I:SPX 8/21 close. Week -1.43%. NOT ATH - 1.60% below the 8/13 record close 7798.99"
  },
  "NDX": {
-  "value": 29213.16,
-  "as_of": "2026-08-20 close",
+  "value": 29308.86,
+  "as_of": "2026-08-21 close",
   "status": "CLOSED",
-  "prev_close": 29426.02,
-  "delta_pct": -0.7234,
+  "prev_close": 29213.16,
+  "delta_pct": 0.3276,
   "label": "Nasdaq 100",
-  "source": "Polygon I:NDX daily bar (8/20 close; NOT ATH - 4.72% below 6/2 record close 30660.60)"
+  "source": "Polygon I:NDX 8/21 close. Week -2.45%. NOT ATH - 4.41% below the 6/2 record close 30660.60"
  },
  "SOX": {
-  "value": 11800.02,
-  "as_of": "2026-08-20 close",
+  "value": 11740.37,
+  "as_of": "2026-08-21 close",
   "status": "CLOSED",
-  "prev_close": 11738.23,
-  "delta_pct": 0.5264,
+  "prev_close": 11800.02,
+  "delta_pct": -0.5055,
   "label": "Philly Semis",
-  "source": "Polygon I:SOX daily bar (8/20 close; ROSE while the Dow fell - this was not a chip story. NOT ATH - 19.37% below 6/22 record close 14634.72)"
+  "source": "Polygon I:SOX 8/21 close. Week -5.45%, the worst of any major index, and it FELL on Friday while the Dow rose. NOT ATH - 19.78% below the 6/22 record close 14634.72"
  },
  "DJI": {
-  "value": 52759.21,
-  "as_of": "2026-08-20 close",
+  "value": 53277.01,
+  "as_of": "2026-08-21 close",
   "status": "CLOSED",
-  "prev_close": 53463.05,
-  "delta_pct": -1.3165,
+  "prev_close": 52759.21,
+  "delta_pct": 0.9814,
   "label": "Dow 30",
-  "source": "Polygon I:DJI daily bar (8/20 close, -703.84 pts; Walmart -9.15% was the single largest drag. NOT ATH - 2.93% below 8/5 record close 54349.12)"
+  "source": "Polygon I:DJI 8/21 close, +517.80 pts, recovering about three quarters of Thursday's 704-point drop. Week -0.85%. NOT ATH - 1.97% below the 8/5 record close 54349.12"
  },
  "VIX": {
-  "value": 16.01,
-  "as_of": "2026-08-20 close",
+  "value": 15.13,
+  "as_of": "2026-08-21 close",
   "status": "CLOSED",
-  "prev_close": 14.89,
-  "delta_pct": 7.5218,
+  "prev_close": 16.01,
+  "delta_pct": -5.4966,
   "label": "VIX",
-  "source": "Polygon I:VIX settled 8/20 close. A same-day 8/21 bar at 15.66 was excluded per the pre-open index-bar rule"
+  "source": "Polygon I:VIX settled 8/21 close. Week +6.18% even after Friday's 5.5% decline"
  },
  "US10Y": {
-  "value": 4.709,
-  "as_of": "2026-08-21 07:40",
-  "status": "LIVE",
-  "prev_close": 4.706,
-  "delta_pct": 0.0637,
+  "value": 4.74,
+  "as_of": "2026-08-21 close",
+  "status": "CLOSED",
+  "prev_close": 4.71,
+  "delta_pct": 0.6369,
   "label": "US 10Y",
   "unit": "pct",
-  "source": "TradingEconomics live (+0.3bp). Rebounded Thursday, erasing most of Wednesday's buyback-driven decline"
+  "source": "TradingEconomics 8/21 close, +3.0bp, testing the 20-month high set earlier in the week. More than erased the decline that followed Treasury's buyback announcement"
  },
  "US2Y": {
-  "value": 4.2,
-  "as_of": "2026-08-21 07:40",
-  "status": "LIVE",
-  "prev_close": 4.198,
-  "delta_pct": 0.0476,
+  "value": 4.24,
+  "as_of": "2026-08-21 close",
+  "status": "CLOSED",
+  "prev_close": 4.202,
+  "delta_pct": 0.9043,
   "label": "US 2Y",
   "unit": "pct",
-  "source": "TradingEconomics live (+0.2bp). Front end anchored; 2s10s +50.9bp"
+  "source": "TradingEconomics 8/21 close, +3.8bp. 2s10s flattened to 50bp. 30Y 5.28%, 30Y TIPS 3.00% real, 10Y breakeven 2.36%"
  },
  "WTI": {
-  "value": 87.1362,
-  "as_of": "2026-08-21 07:13",
-  "status": "LIVE",
+  "value": 87.06,
+  "as_of": "2026-08-21 settle",
+  "status": "CLOSED",
   "prev_close": 86.83,
-  "delta_pct": 0.3526,
+  "delta_pct": 0.2649,
   "label": "WTI Crude",
-  "source": "TradingEconomics live 07:13; fifth straight daily gain on the new Iran measures"
+  "source": "TradingEconomics 8/21 settle, corroborated by Reuters-sourced settle data. Second consecutive weekly gain of roughly 5%"
  },
  "BRENT": {
-  "value": 94.034,
-  "as_of": "2026-08-21 04:13",
-  "status": "LIVE",
-  "prev_close": 93.7799,
-  "delta_pct": 0.271,
+  "value": 94.39,
+  "as_of": "2026-08-21 settle",
+  "status": "CLOSED",
+  "prev_close": 93.78,
+  "delta_pct": 0.6505,
   "label": "Brent Crude",
-  "source": "TradingEconomics live 04:13; a one-month high. Bessent details the Iran measures Monday 8/24"
+  "source": "TradingEconomics 8/21 settle, corroborated by Reuters-sourced settle data. Hormuz oil traffic has virtually halted; Bessent details the sanctions Monday 8/24"
  },
  "GOLD": {
-  "value": 4589.48,
-  "as_of": "2026-08-21 04:12",
-  "status": "LIVE",
+  "value": 4607.35,
+  "as_of": "2026-08-21 settle",
+  "status": "CLOSED",
   "prev_close": 4515.78,
-  "delta_pct": 1.6321,
+  "delta_pct": 2.0278,
   "label": "Gold",
-  "source": "TradingEconomics live 04:12; third consecutive weekly gain, +11.1% over the past month. NOT a record - 16.7% below the 1/28/26 record close 5510.73"
+  "source": "TradingEconomics 8/21 settle, +2.03% on the day and about +5% on the week, +11.5% over the past month. NOT a record - 16.4% below the 1/28/26 record close 5510.73"
  },
  "BTC": {
-  "value": 77359.94,
-  "as_of": "2026-08-21 07:13",
+  "value": 76973.0,
+  "as_of": "2026-08-22 06:50",
   "status": "LIVE",
-  "prev_close": 73011.87,
-  "delta_pct": 5.9553,
+  "prev_close": 78325.54,
+  "delta_pct": -1.7268,
   "label": "Bitcoin",
-  "source": "TradingEconomics live 07:13; prev close Polygon X:BTCUSD 73011.87. Highest since 5/21/26. NOT a record - 37.97% below the 10/6/25 record close 124720.09"
+  "source": "TradingEconomics Saturday 8/22 - the one legitimately live field, crypto trades 24/7. Friday close 78325.54 (Polygon X:BTCUSD) was +24.38% on the week, the largest weekly gain in the full 104-week history checked. NOT a record - 37.20% below the 10/6/25 record close 124720.09"
  },
  "EURJPY": {
-  "value": 185.768,
-  "as_of": "2026-08-21 07:12",
-  "status": "LIVE",
+  "value": 185.63,
+  "as_of": "2026-08-21 close",
+  "status": "CLOSED",
   "prev_close": 185.703,
-  "delta_pct": 0.035,
+  "delta_pct": -0.0393,
   "label": "EUR/JPY",
-  "source": "TradingEconomics live 07:12; prev close Polygon C:EURJPY 185.703. Yen weaker on a softer dollar, not a funding squeeze"
+  "source": "Polygon C:EURJPY 8/21 close. Week +0.72%. No sign of a yen funding squeeze"
  },
  "AUDJPY": {
-  "value": 113.658,
-  "as_of": "2026-08-21 07:13",
-  "status": "LIVE",
+  "value": 113.768,
+  "as_of": "2026-08-21 close",
+  "status": "CLOSED",
   "prev_close": 113.11,
-  "delta_pct": 0.4845,
+  "delta_pct": 0.5817,
   "label": "AUD/JPY",
-  "source": "TradingEconomics live 07:13; prev close Polygon C:AUDJPY 113.110. AUD/USD +0.67% - a dollar story"
+  "source": "Polygon C:AUDJPY 8/21 close. Week +0.82%. Carry proxies firm, not stressed"
  }
 }

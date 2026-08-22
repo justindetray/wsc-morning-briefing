@@ -1,107 +1,54 @@
 {
- "headline": "Treasury's buyback relief lasted exactly one session: the best Philly Fed since 2021 pushed September hike odds to 38% and the Dow fell 704 points on Walmart's consumer warning, while Japan's CPI lifted BoJ September hike odds to about 80%",
- "as_of": "2026-08-21 7:45 AM ET",
- "client_frame_short": "The call today is some version of \"if the economy is this strong, why did my account go down and why is gas going up?\" Both halves are real, and they are the same story. Thursday brought the best factory survey since 2021 and stocks fell anyway, because good news now means the Fed's next move is likelier a hike than a cut. **Futures price no rate cut at any meeting into next year and a 38% chance of a hike in September.**\n\nThe piece that reaches your wallet is gasoline, and that traces to oil at a one-month high on the new Iran sanctions - a real household cost, not a portfolio emergency. The market is not pricing runaway inflation either: the gap between regular and inflation-protected Treasuries is an ordinary 2.3%. Nothing to do in your account today; what I am watching is Monday, when Treasury details the Iran measures, and Friday the 28th, when the Fed chair speaks at Jackson Hole.",
- "client_frame": "The mechanism is the one that has governed this whole summer, and it ran cleanly on Thursday. The Philadelphia Fed's August manufacturing index came in at 47.4 against roughly 25 expected, up from 41.4 and the strongest since April 2021, and its six-month outlook component hit 73.6, the highest in 43 years (Philadelphia Fed, August 20). Initial jobless claims fell to 206,000 (Labor Department, August 20). In a normal cycle that is unambiguously good news. In this one, with the funds rate at 3.50-3.75% and three regional presidents already dissenting for a hike in July, it reads as a reason the Fed cannot ease. Futures moved accordingly: the odds of a September hike rose to 38.3% from 31% a day earlier, December cumulative hike odds are 68.5%, and the probability of a cut at any meeting through January is zero (CME FedWatch, reporting date August 20).\n\nThe long end is worth separating from the inflation narrative, because they are not the same thing. The 30-year sits at 5.25% and the 20-year at 5.24%, having given back nearly all of Wednesday's decline that followed Treasury's decision to double its long-bond buyback cap. But Thursday's $8 billion 30-year TIPS reopening cleared at a 2.973% real yield, the highest for that tenor in about 25 years, and it did so with a bid-to-cover of 2.82 against 2.75 at the prior auction, with indirect participation at a multi-year high (Treasury auction results, August 20). That is solid demand at a punishing price, not a buyers' strike. Meanwhile the spread between nominal and inflation-protected yields is roughly 2.36% at ten years and 2.27% at thirty. Investors are demanding more compensation for time and supply, not protection from an inflation spiral.\n\nThe consumer read was the day's other story, and the two halves of it point in the same direction. Walmart beat on earnings and raised full-year guidance, yet US comparable sales grew just 2.6% against about 3.7% expected, the slowest in roughly six years, and third-quarter guidance came in below consensus; the stock fell 9.15% to a 2026 low, more than 20% off its high, and management pointed to customers making trade-offs in the face of higher gas prices. Michigan's preliminary August sentiment reading was 51.0, down from 55.2 in July. Then after the close, off-price retailer Ross Stores reported earnings of $2.66 against $1.94 expected with comparable sales up 10% and raised full-year guidance, and the stock rose about 8% after hours. Households are not stopping. They are trading down, and that shows up as a share shift between retailers rather than a collapse in spending.\n\nOvernight the same tightening impulse showed up in Japan, from the other direction. July core inflation printed 1.8% year over year, the fastest since January, with core-core at 1.9%, and overnight index swaps now imply roughly an 80% chance the Bank of Japan hikes at its September 18 meeting; super-long JGB yields rose four to six basis points on the release (MUFG Research, August 21). Asia closed mixed - Hang Seng +1.2% and KOSPI +0.9% on chip strength, Nikkei -0.3% - and Europe opened flat. Bitcoin is on track for a roughly 19% weekly gain, its best since February 2024, after the administration's push for the Clarity Act, though it remains about 38% below its October 2025 record. For clients: the discomfort here is the price of an economy that refuses to slow, and a bond market repricing what money costs rather than doubting it gets paid back - which is why the honest answer to most questions this week is that nothing in the plan needs to change.",
- "asia_close": [
-  {
-   "market": "Hang Seng",
-   "delta_pct": 1.16,
-   "level": "~26,000",
-   "note": "Tech subindex +1.4% on chip strength; turnover HK$257.3bn"
-  },
-  {
-   "market": "KOSPI",
-   "delta_pct": 0.88,
-   "level": "6,912.95",
-   "note": "Samsung and SK Hynix led"
-  },
-  {
-   "market": "TAIEX",
-   "delta_pct": 0.51,
-   "level": "45,160.72",
-   "note": "Direction confirmed; exact print varies by provider"
-  },
-  {
-   "market": "TOPIX",
-   "delta_pct": 0.19,
-   "level": "4,067.29",
-   "note": "Diverged from the Nikkei"
-  },
-  {
-   "market": "Shanghai Composite",
-   "delta_pct": 0.04,
-   "level": "3,905.20",
-   "note": "Flat; -0.6% for the week"
-  },
-  {
-   "market": "Nikkei 225",
-   "delta_pct": -0.3,
-   "level": "66,016.36",
-   "note": "Gave back part of Thursday's rally as JGB yields rose on the CPI print"
-  }
- ],
- "europe_open": [
-  {
-   "market": "FTSE 100",
-   "delta_pct": 0.08
-  },
-  {
-   "market": "STOXX 600",
-   "delta_pct": 0.06
-  },
-  {
-   "market": "DAX",
-   "delta_pct": 0.03
-  },
-  {
-   "market": "CAC 40",
-   "delta_pct": -0.04
-  }
- ],
+ "headline": "A week when almost everything rose except stocks: bitcoin had its biggest weekly gain in at least two years, gold added about 5% and oil a second straight 5%, while the S&P fell 1.4%, semis fell 5.4% and September rate-hike odds climbed to 42%",
+ "as_of": "2026-08-22 7:10 AM ET",
+ "client_frame_short": "The question this weekend is \"bitcoin is up 24% in a week and gold is up 5%, so why is my stock account down?\" Two sides of one story. Friday's business survey showed the fastest output growth in over four years, and strong growth with inflation above 3% means the Fed's next move is likelier a hike than a cut. **Futures price a 42% chance of a hike in September and no cut at any meeting into next year.**\n\nRepricing what money costs marks down anything valued on distant cash flows, which is why chips were worst, off 5% on the week, while hard assets caught the bid. The part that reaches your household is gasoline, and that traces to oil and the Strait of Hormuz, not to your portfolio. A 1.4% down week is noise and nothing in the plan changes; I am watching Wednesday, when the Fed's inflation gauge lands the same day Nvidia reports, and Friday, when the Fed chair speaks at Jackson Hole.",
+ "client_frame": "Start with what actually happened Friday, because it explains the whole week. S&P Global's flash August composite came in at 56.0 against about 54.0 expected and 54.5 in July, with services at 56.8 against 54.0 expected - the fastest output growth in more than four years. Manufacturing was the lone soft spot at 53.2, slightly missing. Stocks took it well on the day; the Dow rose 518 points and recovered roughly three quarters of Thursday's Walmart-driven decline. The rates market did not. Ten-year yields rose three basis points to 4.74%, testing a 20-month high, the two-year rose nearly four to 4.24%, and the odds of a September rate hike climbed to 41.9% from 38.3% Thursday and 31% Wednesday, with the probability of a cut at any meeting through January 2027 still exactly zero (CME FedWatch, reporting date August 21). Growth is not the problem. The price of money is.\n\nThat is also the cleanest read on why hard assets ran while equities fell. Treasury said this week it would at least double its long-dated buybacks, to $4 billion per operation, in an explicit attempt to hold long yields down - and by Friday the ten-year had more than erased the entire decline that followed the announcement. Wire coverage genuinely disagrees on this point, with some outlets framing Friday as bond-market stabilization and the Wall Street Journal noting yields held near decade highs despite Treasury's efforts; the tape sides with the Journal. Against a government trying to cap its own borrowing costs, gold rose about 5% on the week to $4,607 and bitcoin rose 24.4%, its largest weekly gain in the full 104 weeks of daily history checked. Two things worth keeping straight: wires disagree on whether bitcoin's prior comparable week was March 2023 or March 2024, and despite the move it remains 37% below its October 2025 record, while gold is 16% below its January record. Meanwhile the ten-year breakeven sits at an ordinary 2.36%. This is a repricing of real yields and term premium, not a market forecasting an inflation spiral.\n\nThe week's real damage was in semiconductors, and it is worth separating from the index. The Philadelphia semiconductor index fell 5.4% on the week and fell again Friday while the Dow rose, leaving it 19.8% below its June 22 record. Honest caveat: I could not find a properly sourced explanation for Friday's specific chip weakness - the only thing available was a Barron's headline about China competition concerns with no supporting article, so treat the cause as unconfirmed. The more likely mechanic is positioning ahead of Wednesday, when NVIDIA reports against its own guidance of $91 billion plus or minus 2%, on the same day the July PCE price index lands at 8:30 in the morning. Friday was also monthly options expiration, which mechanically releases some dealer hedging pressure into next week; no reputable desk published a notional or gamma figure for this specific expiration, so I am not going to invent one.\n\nThe geopolitical item is the one with a household cost attached. Reuters reported Saturday that oil shipments through the Strait of Hormuz have virtually halted, with only four commodity ships transiting on Thursday and none of them large crude or LNG carriers, as Iran threatens unauthorized tankers; Iran did grant transit to a number of Iraqi tankers after requests from Baghdad, a small easing. US Central Command says American forces have redirected 68 commercial vessels. Brent settled at $94.39 and WTI at $87.06, a second consecutive weekly gain of roughly 5%, and Secretary Bessent details the new sanctions Monday afternoon. Separately, Reuters columnists note that Chair Warsh has pointed to balance-sheet reduction and a productivity boom as alternatives to raising rates, which is the live tension going into Friday: futures price a 42% chance of a September hike from a Chair who has signalled hikes are not his preferred tool. For clients: this was a week that repriced the cost of money rather than the health of the economy, and the higher real yields that make portfolios uncomfortable today are the same higher real yields that raise the return on every dollar invested from here - which is why the honest answer to almost every question this weekend is that the plan does not change.",
+ "asia_close": [],
+ "europe_open": [],
  "single_name_moves": [
   {
    "ticker": "MSTR",
-   "delta_pct": 9.7,
-   "venue": "US pre-market",
-   "note": "Bitcoin rally; disclosed a swing to $1.4B unrealized bitcoin profit"
-  },
-  {
-   "ticker": "ROST",
-   "delta_pct": 8.0,
-   "venue": "US after-hours Thu",
-   "note": "EPS $2.66 vs $1.94 est, comps +10%, FY guidance raised to $8.61-8.77"
+   "delta_pct": 7.05,
+   "venue": "US Fri close",
+   "note": "Bitcoin treasury back above $2B unrealized profit; about +28% on the week. Friday prints vary 7-8% by source"
   },
   {
    "ticker": "COIN",
-   "delta_pct": 7.9,
-   "venue": "US pre-market",
-   "note": "Clarity Act optimism"
+   "delta_pct": 5.0,
+   "venue": "US Fri close",
+   "note": "Clarity Act optimism; mid-20s percent gain on the week"
   },
   {
-   "ticker": "HOOD",
-   "delta_pct": 5.5,
-   "venue": "US pre-market",
+   "ticker": "MARA",
+   "delta_pct": 6.0,
+   "venue": "US Fri close",
    "note": "Same crypto catalyst"
   },
   {
-   "ticker": "WMT",
-   "delta_pct": -9.15,
-   "venue": "US Thu close",
-   "note": "Beat and raised, but comps +2.6% vs 3.7% est and soft Q3 guidance; 2026 low"
+   "ticker": "ROST",
+   "delta_pct": 4.39,
+   "venue": "US Fri close",
+   "note": "Gave back about half of Thursday's 8% after-hours pop on the comps +10% beat"
   },
   {
-   "ticker": "MRNA",
-   "delta_pct": -23.55,
-   "venue": "US Thu close",
-   "note": "Thursday's worst S&P performer"
+   "ticker": "WMT",
+   "delta_pct": 0.0,
+   "venue": "US Fri close",
+   "note": "Essentially flat near $103.70 after Thursday's -9.15%. Sources disagree on the sign - stabilization, not continuation"
+  },
+  {
+   "ticker": "NVDA",
+   "delta_pct": -0.97,
+   "venue": "US Fri close",
+   "note": "Slightly lower into Wednesday's earnings; the semi complex fell while the Dow rose"
   }
  ],
  "geo_headlines": [
-  "GOOD NEWS READ AS BAD NEWS: The Philadelphia Fed's August manufacturing index hit 47.4 versus roughly 25 expected, up from 41.4 and the highest since April 2021, with its six-month outlook at 73.6, a 43-year high. Initial claims fell to 206,000 and continuing claims rose to 1.799 million. Stocks fell anyway. September hike odds rose to 38.3% from 31%, December cumulative hike odds are 68.5%, and cut probability is zero at every meeting through January (Philadelphia Fed, Labor Department, CME FedWatch, Aug 20).",
-  "THE BUYBACK BID LASTED ONE SESSION: The 30-year is back at 5.25% and the 20-year at 5.24%, erasing nearly all of Wednesday's decline that followed Treasury doubling its long-bond buyback cap. Bessent said buybacks could exceed the announced $4 billion per issue and that the deficit has likely peaked. But Thursday's $8B 30-year TIPS reopening cleared at a 2.973% real yield, the highest in about 25 years, with bid-to-cover 2.82 versus 2.75 prior - solid demand at a punishing price, not a failed auction (Treasury, Aug 20).",
-  "WALMART AND ROSS STORES TELL THE SAME STORY: Walmart beat and raised but US comps grew only 2.6% against 3.7% expected, the slowest in about six years, with soft Q3 guidance; the stock fell 9.15% to a 2026 low and was the Dow's largest single drag in a 704-point decline. Management cited customers making trade-offs on higher gas prices. Michigan preliminary August sentiment was 51.0 from 55.2. After the close, off-price Ross Stores posted $2.66 versus $1.94 expected with comps +10% and raised guidance, rising about 8%. Trade-down, not shutdown.",
-  "IRAN: DETAILS MONDAY, BRENT AT A ONE-MONTH HIGH: Treasury Secretary Bessent told CNBC Thursday the US will impose \"the toughest sanctions in history\" on Iran and will detail the measures at a press conference Monday, August 24. Brent extended a fifth straight daily gain to about $94, a one-month high, with WTI at $87.14. China, which buys more than 80% of Iran's shipped oil, rejected the pressure campaign and called for a diplomatic solution; Iran's foreign ministry called the measures economic terrorism (CNBC, Reuters, Aug 20).",
-  "JAPAN'S CPI PUTS A SEPTEMBER BOJ HIKE NEAR 80%: July nationwide core CPI rose 1.8% year over year, matching consensus and the fastest since January, with core-core at 1.9% and headline at 1.9%. Overnight index swaps now imply roughly an 80% probability of a hike at the September 18 meeting, and super-long JGB yields rose four to six basis points on the release. Deputy Governor Himino speaks Friday, August 28, a natural venue to cement that guidance (Japan Times, MUFG Research, Aug 21)."
+  "THE WEEK IN ONE LINE - ALMOST EVERYTHING ROSE EXCEPT STOCKS: S&P 500 -1.43%, Nasdaq 100 -2.45%, Dow -0.85%, Philadelphia semiconductor index -5.45%, VIX +6.18%. Against that: bitcoin +24.38%, gold about +5%, Brent and WTI a second straight weekly gain of roughly 5%, and the ten-year yield up to 4.74%. Friday itself was a partial recovery day - Dow +518 points, S&P +0.43% - but semis fell again even on the green day (Polygon daily bars, TradingEconomics, 8/21 closes).",
+  "THE PMI BEAT AND THE HAWKISH REPRICING: S&P Global's flash August composite hit 56.0 against about 54.0 expected, with services 56.8 versus 54.0 and manufacturing the lone miss at 53.2 - the fastest output growth in over four years. Equities rose on it; rates markets read it as a reason the Fed cannot ease. September hike odds went to 41.9% from 38.3% a day earlier and 31% on Wednesday, October cumulative 54.7%, December 73.4%, January 78.9%, and the probability of a cut at any meeting is zero. Caveat: S&P Global's own release page served a stale 2025 file, so the prices-paid commentary is aggregator-sourced and unconfirmed (S&P Global via wires, CME FedWatch cohort 8/21).",
+  "TREASURY TRIED TO CAP LONG YIELDS AND THE MARKET SAID NO: Treasury said it would at least double long-dated buybacks to $4 billion per operation. By Friday the ten-year had more than erased the entire decline that followed the announcement, closing at 4.74% and testing a 20-month high, with the thirty-year at 5.28% and the thirty-year TIPS real yield at 3.00%. Wires disagree on the framing - some cast Friday as bond-market stabilization, the Wall Street Journal noted yields held near decade highs despite Treasury's efforts. Breakevens stayed ordinary at 2.36% on ten years and 2.28% on thirty: a real-yield and term-premium story, not an inflation-expectations story (TradingEconomics curve, 8/21 close).",
+  "HORMUZ OIL TRAFFIC HAS VIRTUALLY HALTED, WITH SANCTIONS DETAILED MONDAY: Reuters reported Saturday that shipments through the Strait of Hormuz have virtually stopped as Iran threatens unauthorized tankers - only four commodity ships transited Thursday, none of them large crude or LNG carriers. Iran did grant transit to a number of Iraqi tankers after repeated requests from Baghdad, per IRNA. US Central Command says it has redirected 68 commercial vessels. Iran's foreign ministry called the coming sanctions an assertion of extraterritorial sovereignty with no foundation in international law; China's foreign ministry said sanctions and pressure will not resolve the issue. Brent settled at $94.39, WTI at $87.06. Secretary Bessent details the measures Monday afternoon (Reuters, 8/22).",
+  "BITCOIN'S BIGGEST WEEKLY GAIN IN AT LEAST TWO YEARS, VERIFIED INDEPENDENTLY: Friday's close of $78,325.54 was +24.38% on the week, the largest Friday-to-Friday gain in all 104 weeks of daily history checked directly rather than taken from a wire. Note the press does not agree with itself on the comparison - the Wall Street Journal and Dow Jones Market Data date the prior comparable week to March 2024, while Bloomberg and Investing.com say March 2023. Drivers: the administration's push for a Clarity Act vote now set for September 15, Treasury's buyback expansion, roughly $2.7-3 billion of short liquidations, and about $1 billion of spot ETF inflows. It is still 37.2% below the October 6, 2025 record close of $124,720.09, and it slipped 1.7% overnight to about $76,973 in thin weekend trade.",
+  "THE WEEK AHEAD IS FRONT-LOADED INTO WEDNESDAY: July PCE, the Q2 GDP second estimate and July durable goods all land Wednesday at 8:30 AM - verified against BEA's and Census's own schedules, not split to Thursday - and NVIDIA reports that afternoon with a 5:00 PM call. Jackson Hole runs Thursday through Saturday on the theme of financial innovation, with Chair Warsh's first keynote as Chair Friday at 10:00 AM. No other Fed speaker appears anywhere on the Board's own calendar all week, so the Committee speaks with one voice. Two aggregator earnings claims were checked and refuted: Dell reports September 1 and Lululemon September 3, neither next week."
  ]
 }

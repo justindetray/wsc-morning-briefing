@@ -1,51 +1,51 @@
 {
  "status": "LIVE",
- "as_of": "2026-08-21T11:25:18.818053+00:00",
- "reason": null,
+ "as_of": "2026-08-22T11:27:30.295932+00:00",
+ "reason": "Cohort 2026-08-21 (Friday). CME publishes no weekend update, so this is Friday's settle-based cohort.",
  "meetings": [
   {
    "meetingDt": "2026-09-16",
-   "reportingDt": "2026-08-20",
-   "hold": 0.617143,
-   "hike_25": 0.382857,
+   "reportingDt": "2026-08-21",
+   "hold": 0.581429,
+   "hike_25": 0.418571,
    "hike_50": 0.0,
    "hike_75": 0.0,
    "hike_100": 0.0,
    "current_band": "3.50-3.75",
-   "cumulative_hike": 0.383
+   "cumulative_hike": 0.419
   },
   {
    "meetingDt": "2026-10-28",
-   "reportingDt": "2026-08-20",
-   "hold": 0.50782,
-   "hike_25": 0.424359,
-   "hike_50": 0.06782,
+   "reportingDt": "2026-08-21",
+   "hold": 0.452684,
+   "hike_25": 0.454633,
+   "hike_50": 0.092684,
    "hike_75": 0.0,
    "hike_100": 0.0,
    "current_band": "3.50-3.75",
-   "cumulative_hike": 0.492
+   "cumulative_hike": 0.547
   },
   {
    "meetingDt": "2026-12-09",
-   "reportingDt": "2026-08-20",
-   "hold": 0.315225,
-   "hike_25": 0.456013,
-   "hike_50": 0.203041,
-   "hike_75": 0.025722,
+   "reportingDt": "2026-08-21",
+   "hold": 0.265574,
+   "hike_25": 0.453827,
+   "hike_50": 0.242289,
+   "hike_75": 0.038309,
    "hike_100": 0.0,
    "current_band": "3.50-3.75",
-   "cumulative_hike": 0.685
+   "cumulative_hike": 0.734
   },
   {
    "meetingDt": "2027-01-27",
-   "reportingDt": "2026-08-20",
-   "hold": 0.264555,
-   "hike_25": 0.433382,
-   "hike_50": 0.243704,
-   "hike_75": 0.054224,
-   "hike_100": 0.004134,
+   "reportingDt": "2026-08-21",
+   "hold": 0.210689,
+   "hike_25": 0.414922,
+   "hike_50": 0.286007,
+   "hike_75": 0.080465,
+   "hike_100": 0.007917,
    "current_band": "3.50-3.75",
-   "cumulative_hike": 0.735
+   "cumulative_hike": 0.789
   }
  ]
 }

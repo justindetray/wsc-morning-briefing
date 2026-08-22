@@ -1,37 +1,29 @@
 {
- "last_curated": "2026-08-21 07:45 AM ET",
+ "last_curated": "2026-08-22 07:10 AM ET",
  "macro": [
   {
-   "date": "2026-08-21",
-   "time_et": "9:45 AM",
-   "event": "S&P Global Flash US PMI (Aug)",
-   "consensus": "Mfg 54.0, Svcs 53.9",
-   "importance": "high",
-   "note": "The only market-moving US release today. July final: Composite 54.5, Mfg 53.9, Svcs 54.6. Watch prices-paid after Philly Fed's blowout"
-  },
-  {
-   "date": "2026-08-21",
-   "time_et": "1:00 PM",
-   "event": "Baker Hughes US Rig Count",
-   "consensus": "-",
-   "importance": "low",
-   "note": "Weekly. Relevant only because crude is at a one-month high"
-  },
-  {
    "date": "2026-08-24",
-   "time_et": "TBA",
-   "event": "Treasury press conference on new Iran measures",
+   "time_et": "2:00 PM",
+   "event": "Treasury press conference on new Iran sanctions",
    "consensus": "-",
    "importance": "high",
-   "note": "Bessent confirmed Monday on CNBC 8/20. The single biggest scheduled catalyst for oil next week"
+   "note": "Bessent has promised the toughest sanctions in history. Time per Reuters 8/22; not yet posted on Treasury's own schedule. The week's biggest scheduled oil catalyst"
   },
   {
    "date": "2026-08-25",
    "time_et": "10:00 AM",
    "event": "Consumer Confidence (Aug)",
-   "consensus": "-",
+   "consensus": "no reliable consensus",
    "importance": "high",
-   "note": "Cross-check on Michigan's slide to 51.0 preliminary from 55.2 and on Walmart's soft comps"
+   "note": "July was 90.8. A cross-check on Michigan's slide to 51.0 preliminary and on Walmart's soft comps"
+  },
+  {
+   "date": "2026-08-25",
+   "time_et": "10:00 AM",
+   "event": "New Home Sales (Jul)",
+   "consensus": "no reliable consensus",
+   "importance": "medium",
+   "note": "Census-confirmed for 8/25. Housing is the most rate-sensitive read with the 10Y at 4.74%"
   },
   {
    "date": "2026-08-25",
@@ -39,23 +31,31 @@
    "event": "Treasury 2-Year Note auction",
    "consensus": "-",
    "importance": "medium",
-   "note": "First of three coupon auctions this week; front end is the Fed-expectations tenor"
+   "note": "First of three coupon auctions. The front end is the Fed-expectations tenor"
   },
   {
    "date": "2026-08-26",
    "time_et": "8:30 AM",
    "event": "PCE Price Index (Jul)",
-   "consensus": "-",
+   "consensus": "no reliable consensus",
    "importance": "high",
-   "note": "The Fed's preferred gauge, and the main input to September hike odds now sitting at 38%"
+   "note": "June was +3.7% headline and +3.3% core year over year. The main input to September hike odds now at 41.9%"
   },
   {
    "date": "2026-08-26",
    "time_et": "8:30 AM",
-   "event": "GDP 2nd Estimate (Q2) and Durable Goods (Jul)",
-   "consensus": "-",
+   "event": "GDP Q2 2nd estimate and Durable Goods (Jul)",
+   "consensus": "Durables +0.7% (aggregator)",
    "importance": "medium",
-   "note": "Both 8:30 AM. Plus 5-Year Note and 2-Year FRN auctions the same day"
+   "note": "BEA-confirmed for Wednesday, not Thursday. Advance Q2 GDP was +1.5%. Plus 5-Year Note and 2-Year FRN auctions"
+  },
+  {
+   "date": "2026-08-27",
+   "time_et": "8:30 AM",
+   "event": "Initial jobless claims",
+   "consensus": "no reliable consensus",
+   "importance": "medium",
+   "note": "Prior 206,000, near cycle lows. Also KC Fed Manufacturing at 11:00 AM and the 7-Year Note auction"
   },
   {
    "date": "2026-08-27",
@@ -63,7 +63,7 @@
    "event": "Jackson Hole Symposium opens (Aug 27-29)",
    "consensus": "-",
    "importance": "high",
-   "note": "Theme: Financial Innovation. Also KC Fed Manufacturing 11:00 AM and the 7-Year Note auction"
+   "note": "Theme: Financial Innovation, Implications for Payments and Policy. No other Fed speaker is on the Board's calendar all week"
   },
   {
    "date": "2026-08-28",
@@ -71,33 +71,25 @@
    "event": "Fed Chair Warsh keynote at Jackson Hole",
    "consensus": "-",
    "importance": "high",
-   "note": "His first Jackson Hole address as Chair, with futures pricing a 38% chance of a September hike. Michigan final also 10:00 AM"
+   "note": "His first as Chair, verified on the Fed's own calendar at 10:00 AM. Michigan final sentiment also 10:00 AM"
   }
  ],
  "earnings": [
   {
-   "date": "2026-08-21",
-   "ticker": "BJ",
-   "name": "BJ's Wholesale Club",
+   "date": "2026-08-24",
+   "ticker": "PDD",
+   "name": "PDD Holdings",
    "session": "pre-market",
    "importance": "medium",
-   "note": "Call 8:00 AM ET. Already printed: EPS $1.36, net sales $6.09B +15.9%. A club-format read against Walmart's soft comps"
+   "note": "IR-confirmed for 8/24. A China consumer read"
   },
   {
-   "date": "2026-08-21",
-   "ticker": "UI",
-   "name": "Ubiquiti",
-   "session": "pre-market",
-   "importance": "low",
-   "note": "Fiscal Q4. Networking hardware; date via converging trackers, not company-confirmed"
-  },
-  {
-   "date": "2026-08-21",
-   "ticker": "BKE",
-   "name": "The Buckle",
-   "session": "pre-market",
-   "importance": "low",
-   "note": "Small-cap apparel retail; another data point on the trade-down theme"
+   "date": "2026-08-25",
+   "ticker": "INTU",
+   "name": "Intuit",
+   "session": "after-close",
+   "importance": "medium",
+   "note": "Call 4:30 PM ET, company-confirmed. Fiscal Q4 plus first FY27 guidance"
   },
   {
    "date": "2026-08-26",
@@ -105,7 +97,47 @@
    "name": "NVIDIA",
    "session": "after-close",
    "importance": "high",
-   "note": "FY27 Q2, call 5:00 PM ET, company-confirmed. Lands the same day as PCE - the week's two-sided risk event"
+   "note": "FY27 Q2, call 5:00 PM ET, company-confirmed. Own guidance was $91.0B +/- 2%. Lands the same day as PCE - the week's two-sided risk event"
+  },
+  {
+   "date": "2026-08-26",
+   "ticker": "CRM",
+   "name": "Salesforce",
+   "session": "after-close",
+   "importance": "medium",
+   "note": "Call 5:00 PM ET, company-confirmed. The software-versus-AI-capex debate"
+  },
+  {
+   "date": "2026-08-26",
+   "ticker": "CRWD",
+   "name": "CrowdStrike",
+   "session": "after-close",
+   "importance": "medium",
+   "note": "Call 5:00 PM ET, company-confirmed"
+  },
+  {
+   "date": "2026-08-26",
+   "ticker": "SNPS",
+   "name": "Synopsys",
+   "session": "after-close",
+   "importance": "medium",
+   "note": "Call 5:00 PM ET, company-confirmed. A chip-design read into a broken semi tape"
+  },
+  {
+   "date": "2026-08-26",
+   "ticker": "HPQ",
+   "name": "HP Inc.",
+   "session": "after-close",
+   "importance": "low",
+   "note": "Call 5:30 PM ET, company-confirmed"
+  },
+  {
+   "date": "2026-08-27",
+   "ticker": "MRVL",
+   "name": "Marvell",
+   "session": "after-close",
+   "importance": "medium",
+   "note": "Call 4:45 PM ET, company-confirmed. The other AI-networking datapoint after NVIDIA"
   }
  ]
 }
