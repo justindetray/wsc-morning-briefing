@@ -6,7 +6,7 @@
   "prev_close": 7641.16,
   "delta_pct": 0.4346,
   "label": "S&P 500",
-  "source": "Polygon I:SPX 8/21 close. Week -1.43%. NOT ATH - 1.60% below the 8/13 record close 7798.99"
+  "source": "Polygon I:SPX 8/21 close, re-derived this run. Week -1.43%. NOT ATH - 1.60% below the 8/13/26 record close 7798.99"
  },
  "NDX": {
   "value": 29308.86,
@@ -15,7 +15,7 @@
   "prev_close": 29213.16,
   "delta_pct": 0.3276,
   "label": "Nasdaq 100",
-  "source": "Polygon I:NDX 8/21 close. Week -2.45%. NOT ATH - 4.41% below the 6/2 record close 30660.60"
+  "source": "Polygon I:NDX 8/21 close, re-derived this run. Week -2.45%. NOT ATH - 4.41% below the 6/2/26 record close 30660.60"
  },
  "SOX": {
   "value": 11740.37,
@@ -24,7 +24,7 @@
   "prev_close": 11800.02,
   "delta_pct": -0.5055,
   "label": "Philly Semis",
-  "source": "Polygon I:SOX 8/21 close. Week -5.45%, the worst of any major index, and it FELL on Friday while the Dow rose. NOT ATH - 19.78% below the 6/22 record close 14634.72"
+  "source": "Polygon I:SOX 8/21 close. Week -5.45%, the worst of any major index, and it fell on Friday while the Dow rose. NOT ATH - 19.78% below the 6/22/26 record close 14634.72. Nvidia reports Wednesday"
  },
  "DJI": {
   "value": 53277.01,
@@ -33,7 +33,7 @@
   "prev_close": 52759.21,
   "delta_pct": 0.9814,
   "label": "Dow 30",
-  "source": "Polygon I:DJI 8/21 close, +517.80 pts, recovering about three quarters of Thursday's 704-point drop. Week -0.85%. NOT ATH - 1.97% below the 8/5 record close 54349.12"
+  "source": "Polygon I:DJI 8/21 close, +517.80 pts. Week -0.85%. NOT ATH - 1.97% below the 8/5/26 record close 54349.12"
  },
  "VIX": {
   "value": 15.13,
@@ -42,27 +42,27 @@
   "prev_close": 16.01,
   "delta_pct": -5.4966,
   "label": "VIX",
-  "source": "Polygon I:VIX settled 8/21 close. Week +6.18% even after Friday's 5.5% decline"
+  "source": "Polygon I:VIX 8/21 settled close. Week +6.18% even after Friday's 5.5% decline. Low outright, into the heaviest event week of the quarter"
  },
  "US10Y": {
-  "value": 4.74,
+  "value": 4.736,
   "as_of": "2026-08-21 close",
   "status": "CLOSED",
-  "prev_close": 4.71,
-  "delta_pct": 0.6369,
+  "prev_close": 4.706,
+  "delta_pct": 0.6375,
   "label": "US 10Y",
   "unit": "pct",
-  "source": "TradingEconomics 8/21 close, +3.0bp, testing the 20-month high set earlier in the week. More than erased the decline that followed Treasury's buyback announcement"
+  "source": "TradingEconomics 8/21 close, 4.736%, +3.0bp, confirmed twice this run on two independent pages. A 20-month high. More than erased the decline that followed Treasury's buyback expansion"
  },
  "US2Y": {
   "value": 4.24,
   "as_of": "2026-08-21 close",
   "status": "CLOSED",
-  "prev_close": 4.202,
-  "delta_pct": 0.9043,
+  "prev_close": 4.2,
+  "delta_pct": 0.9524,
   "label": "US 2Y",
   "unit": "pct",
-  "source": "TradingEconomics 8/21 close, +3.8bp. 2s10s flattened to 50bp. 30Y 5.28%, 30Y TIPS 3.00% real, 10Y breakeven 2.36%"
+  "source": "TradingEconomics 8/21 close, +4.0bp, re-derived this run. 2s10s at 50bp. 30Y 5.28% (+2.0bp), 30Y TIPS 3.00% real, 10Y breakeven 2.36%"
  },
  "WTI": {
   "value": 87.06,
@@ -71,7 +71,7 @@
   "prev_close": 86.83,
   "delta_pct": 0.2649,
   "label": "WTI Crude",
-  "source": "TradingEconomics 8/21 settle, corroborated by Reuters-sourced settle data. Second consecutive weekly gain of roughly 5%"
+  "source": "TradingEconomics 8/21 settle, re-derived this run. Second straight weekly gain, +5.66% on the week. Futures reopen 6:00 PM ET Sunday"
  },
  "BRENT": {
   "value": 94.39,
@@ -80,7 +80,7 @@
   "prev_close": 93.78,
   "delta_pct": 0.6505,
   "label": "Brent Crude",
-  "source": "TradingEconomics 8/21 settle, corroborated by Reuters-sourced settle data. Hormuz oil traffic has virtually halted; Bessent details the sanctions Monday 8/24"
+  "source": "TradingEconomics 8/21 settle, +6.63% on the week. Hormuz transit is in the single digits per Reuters and Kpler; Bessent details the new sanctions Monday 2:00 PM"
  },
  "GOLD": {
   "value": 4607.35,
@@ -89,16 +89,16 @@
   "prev_close": 4515.78,
   "delta_pct": 2.0278,
   "label": "Gold",
-  "source": "TradingEconomics 8/21 settle, +2.03% on the day and about +5% on the week, +11.5% over the past month. NOT a record - 16.4% below the 1/28/26 record close 5510.73"
+  "source": "TradingEconomics 8/21 settle, +2.03% on the day, +5.30% on the week, +11.54% on the month. Silver did better still, +6.63% on the week and +15.46% on the month. NOT a record - 16.4% below the 1/28/26 record close 5510.73"
  },
  "BTC": {
-  "value": 76973.0,
-  "as_of": "2026-08-22 06:50",
+  "value": 76646.0,
+  "as_of": "2026-08-23 07:05",
   "status": "LIVE",
-  "prev_close": 78325.54,
-  "delta_pct": -1.7268,
+  "prev_close": 77054.44,
+  "delta_pct": -0.5301,
   "label": "Bitcoin",
-  "source": "TradingEconomics Saturday 8/22 - the one legitimately live field, crypto trades 24/7. Friday close 78325.54 (Polygon X:BTCUSD) was +24.38% on the week, the largest weekly gain in the full 104-week history checked. NOT a record - 37.20% below the 10/6/25 record close 124720.09"
+  "source": "TradingEconomics Sunday 8/23 quote, the one legitimately live field. Measured against Polygon's SETTLED Saturday 8/22 close of 77054.44. TE's own prose said 76659 in the same fetch, a rounding-level disagreement. Last week's gain ranked #1 of 104 weeks on both a Friday-to-Friday (+24.38%) and Saturday-to-Saturday (+22.27%) basis. NOT a record - 38.5% below the 10/6/25 record close 124720.09"
  },
  "EURJPY": {
   "value": 185.63,
@@ -107,7 +107,7 @@
   "prev_close": 185.703,
   "delta_pct": -0.0393,
   "label": "EUR/JPY",
-  "source": "Polygon C:EURJPY 8/21 close. Week +0.72%. No sign of a yen funding squeeze"
+  "source": "Polygon C:EURJPY 8/21 close, re-derived this run. Week +0.73%. Still no sign of a yen funding squeeze"
  },
  "AUDJPY": {
   "value": 113.768,
@@ -116,6 +116,6 @@
   "prev_close": 113.11,
   "delta_pct": 0.5817,
   "label": "AUD/JPY",
-  "source": "Polygon C:AUDJPY 8/21 close. Week +0.82%. Carry proxies firm, not stressed"
+  "source": "Polygon C:AUDJPY 8/21 close, re-derived this run. Week +0.85%. Carry proxies firm, not stressed, into a September BoJ meeting the market reads as a hike"
  }
 }

@@ -1,7 +1,7 @@
 {
  "status": "LIVE",
- "as_of": "2026-08-22T11:27:30.295932+00:00",
- "reason": "Cohort 2026-08-21 (Friday). CME publishes no weekend update, so this is Friday's settle-based cohort.",
+ "as_of": "2026-08-23T11:19:38.596245+00:00",
+ "reason": "Cohort 2026-08-21 (Friday), re-fetched and re-confirmed Sunday 8/23. CME publishes no weekend update, so Friday's settle-based cohort is the current one. Note other providers' September estimates span roughly 27-45% on different methodologies; this is the CME futures-implied figure.",
  "meetings": [
   {
    "meetingDt": "2026-09-16",

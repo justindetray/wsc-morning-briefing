@@ -1,5 +1,5 @@
 {
- "last_curated": "2026-08-22 07:10 AM ET",
+ "last_curated": "2026-08-23 07:10 AM ET",
  "macro": [
   {
    "date": "2026-08-24",
@@ -7,7 +7,7 @@
    "event": "Treasury press conference on new Iran sanctions",
    "consensus": "-",
    "importance": "high",
-   "note": "Bessent has promised the toughest sanctions in history. Time per Reuters 8/22; not yet posted on Treasury's own schedule. The week's biggest scheduled oil catalyst"
+   "note": "Bessent has promised the toughest sanctions in history. Time per Reuters and still NOT posted on Treasury's own schedule, which shows nothing past 8/20. The week's first hard catalyst"
   },
   {
    "date": "2026-08-25",
@@ -15,7 +15,7 @@
    "event": "Consumer Confidence (Aug)",
    "consensus": "no reliable consensus",
    "importance": "high",
-   "note": "July was 90.8. A cross-check on Michigan's slide to 51.0 preliminary and on Walmart's soft comps"
+   "note": "Conference Board-confirmed. July was 90.8. A cross-check on Michigan's slide to 51.0 preliminary and on Walmart's soft comps"
   },
   {
    "date": "2026-08-25",
@@ -23,7 +23,7 @@
    "event": "New Home Sales (Jul)",
    "consensus": "no reliable consensus",
    "importance": "medium",
-   "note": "Census-confirmed for 8/25. Housing is the most rate-sensitive read with the 10Y at 4.74%"
+   "note": "Census-confirmed. The most rate-sensitive read on the board with the 10Y at a 20-month high"
   },
   {
    "date": "2026-08-25",
@@ -31,7 +31,7 @@
    "event": "Treasury 2-Year Note auction",
    "consensus": "-",
    "importance": "medium",
-   "note": "First of three coupon auctions. The front end is the Fed-expectations tenor"
+   "note": "Date Treasury-confirmed; the 1:00 PM clock is convention, not a primary-source time table. First of three coupon auctions"
   },
   {
    "date": "2026-08-26",
@@ -39,7 +39,7 @@
    "event": "PCE Price Index (Jul)",
    "consensus": "no reliable consensus",
    "importance": "high",
-   "note": "June was +3.7% headline and +3.3% core year over year. The main input to September hike odds now at 41.9%"
+   "note": "BEA-confirmed for Wednesday. June was +3.7% headline and +3.3% core year over year. The single biggest input to September hike odds now at 41.9%"
   },
   {
    "date": "2026-08-26",
@@ -47,7 +47,7 @@
    "event": "GDP Q2 2nd estimate and Durable Goods (Jul)",
    "consensus": "Durables +0.7% (aggregator)",
    "importance": "medium",
-   "note": "BEA-confirmed for Wednesday, not Thursday. Advance Q2 GDP was +1.5%. Plus 5-Year Note and 2-Year FRN auctions"
+   "note": "Both BEA- and Census-confirmed for Wednesday, not Thursday. Advance Q2 GDP was +1.5% annualized. Plus 5-Year Note and 2-Year FRN auctions"
   },
   {
    "date": "2026-08-27",
@@ -55,7 +55,7 @@
    "event": "Initial jobless claims",
    "consensus": "no reliable consensus",
    "importance": "medium",
-   "note": "Prior 206,000, near cycle lows. Also KC Fed Manufacturing at 11:00 AM and the 7-Year Note auction"
+   "note": "Prior 206,000, near cycle lows. Also KC Fed Manufacturing at 11:00 AM (time aggregator-only) and the 7-Year Note auction"
   },
   {
    "date": "2026-08-27",
@@ -63,7 +63,7 @@
    "event": "Jackson Hole Symposium opens (Aug 27-29)",
    "consensus": "-",
    "importance": "high",
-   "note": "Theme: Financial Innovation, Implications for Payments and Policy. No other Fed speaker is on the Board's calendar all week"
+   "note": "Kansas City Fed, theme Financial Innovation: Implications for Payments and Policy. No other Fed speaker appears anywhere on the Board's own calendar all week"
   },
   {
    "date": "2026-08-28",
@@ -71,7 +71,7 @@
    "event": "Fed Chair Warsh keynote at Jackson Hole",
    "consensus": "-",
    "importance": "high",
-   "note": "His first as Chair, verified on the Fed's own calendar at 10:00 AM. Michigan final sentiment also 10:00 AM"
+   "note": "His first as Chair, 10:00 AM on the Fed's own calendar. Bloomberg reported Saturday it is not entirely clear he will deliver substantive policy views. Michigan final sentiment also 10:00 AM"
   }
  ],
  "earnings": [
@@ -81,7 +81,7 @@
    "name": "PDD Holdings",
    "session": "pre-market",
    "importance": "medium",
-   "note": "IR-confirmed for 8/24. A China consumer read"
+   "note": "IR-confirmed. A China consumer read after July retail sales missed at +0.6%"
   },
   {
    "date": "2026-08-25",
@@ -97,7 +97,7 @@
    "name": "NVIDIA",
    "session": "after-close",
    "importance": "high",
-   "note": "FY27 Q2, call 5:00 PM ET, company-confirmed. Own guidance was $91.0B +/- 2%. Lands the same day as PCE - the week's two-sided risk event"
+   "note": "FY27 Q2, call 5:00 PM ET, company-confirmed. Own guidance was $91.0B +/- 2%. Lands the same day as PCE, with the semi index already 19.8% off its June record"
   },
   {
    "date": "2026-08-26",
@@ -137,7 +137,7 @@
    "name": "Marvell",
    "session": "after-close",
    "importance": "medium",
-   "note": "Call 4:45 PM ET, company-confirmed. The other AI-networking datapoint after NVIDIA"
+   "note": "Date confirmed on Marvell's own release; the 4:45 PM call time is syndication-sourced only. The other AI-networking datapoint after NVIDIA"
   }
  ]
 }
