@@ -6,7 +6,7 @@
   "prev_close": 7641.16,
   "delta_pct": 0.4346,
   "label": "S&P 500",
-  "source": "Polygon I:SPX 8/21 close, re-derived this run. Week -1.43%. NOT ATH - 1.60% below the 8/13/26 record close 7798.99"
+  "source": "Polygon I:SPX 8/21 settled close, re-derived this run. NOT ATH - 1.60% below the 8/13/26 record close 7798.99. TE's S&P proxy quotes 7653.22 at 7:24 AM, -0.28% from Friday"
  },
  "NDX": {
   "value": 29308.86,
@@ -15,7 +15,7 @@
   "prev_close": 29213.16,
   "delta_pct": 0.3276,
   "label": "Nasdaq 100",
-  "source": "Polygon I:NDX 8/21 close, re-derived this run. Week -2.45%. NOT ATH - 4.41% below the 6/2/26 record close 30660.60"
+  "source": "Polygon I:NDX 8/21 settled close. NOT ATH - 4.41% below the 6/2/26 record close 30660.60. TE's Nasdaq proxy quotes 29025 at 7:24 AM, -0.97% from Friday and the weakest of the three US benchmarks overnight"
  },
  "SOX": {
   "value": 11740.37,
@@ -24,7 +24,7 @@
   "prev_close": 11800.02,
   "delta_pct": -0.5055,
   "label": "Philly Semis",
-  "source": "Polygon I:SOX 8/21 close. Week -5.45%, the worst of any major index, and it fell on Friday while the Dow rose. NOT ATH - 19.78% below the 6/22/26 record close 14634.72. Nvidia reports Wednesday"
+  "source": "Polygon I:SOX 8/21 settled close, down 5.45% last week, the worst of any major index. NOT ATH - 19.78% below the 6/22/26 record close 14634.72. Micron traded -3.49% pre-market at 7:02 AM. Nvidia reports Wednesday"
  },
  "DJI": {
   "value": 53277.01,
@@ -33,7 +33,7 @@
   "prev_close": 52759.21,
   "delta_pct": 0.9814,
   "label": "Dow 30",
-  "source": "Polygon I:DJI 8/21 close, +517.80 pts. Week -0.85%. NOT ATH - 1.97% below the 8/5/26 record close 54349.12"
+  "source": "Polygon I:DJI 8/21 settled close, +517.80 pts. NOT ATH - 1.97% below the 8/5/26 record close 54349.12. TE's Dow proxy quotes 53152 at 7:24 AM, -0.24%"
  },
  "VIX": {
   "value": 15.13,
@@ -42,80 +42,80 @@
   "prev_close": 16.01,
   "delta_pct": -5.4966,
   "label": "VIX",
-  "source": "Polygon I:VIX 8/21 settled close. Week +6.18% even after Friday's 5.5% decline. Low outright, into the heaviest event week of the quarter"
+  "source": "Polygon I:VIX 8/21 settled close. The overnight VIX calculation is indicated near 16.0 at 7:20 AM (Polygon same-day bar, open 15.90 high 16.03 low 15.86) - a +5.75% pre-open drift, deliberately NOT used as the tile value. Low outright into the heaviest event week of the quarter"
  },
  "US10Y": {
-  "value": 4.736,
-  "as_of": "2026-08-21 close",
-  "status": "CLOSED",
-  "prev_close": 4.706,
-  "delta_pct": 0.6375,
+  "value": 4.719,
+  "as_of": "2026-08-24 07:20",
+  "status": "LIVE",
+  "prev_close": 4.736,
+  "delta_pct": -0.359,
   "label": "US 10Y",
   "unit": "pct",
-  "source": "TradingEconomics 8/21 close, 4.736%, +3.0bp, confirmed twice this run on two independent pages. A 20-month high. More than erased the decline that followed Treasury's buyback expansion"
+  "source": "TradingEconomics 7:20 AM quote, -1.7bp. Confirmed twice on the same page: the table reads 4.719 and the page prose reads eased to 4.72%, a 0.02 point decrease. Friday closed 4.736, a 20-month high. TE's /bonds table showed a contradictory +1.5bp change and was rejected in favour of the instrument page"
  },
  "US2Y": {
-  "value": 4.24,
-  "as_of": "2026-08-21 close",
-  "status": "CLOSED",
-  "prev_close": 4.2,
-  "delta_pct": 0.9524,
+  "value": 4.25,
+  "as_of": "2026-08-24 07:20",
+  "status": "LIVE",
+  "prev_close": 4.24,
+  "delta_pct": 0.2358,
   "label": "US 2Y",
   "unit": "pct",
-  "source": "TradingEconomics 8/21 close, +4.0bp, re-derived this run. 2s10s at 50bp. 30Y 5.28% (+2.0bp), 30Y TIPS 3.00% real, 10Y breakeven 2.36%"
+  "source": "TradingEconomics 7:20 AM quote, +1bp while the 10Y fell. 2s10s flattened to 47bp from 50bp Friday. 30Y 5.26% (-1.8bp), 5Y 4.42% (-1.0bp). Japan 10Y 2.88%, Germany 3.256%, UK 5.059%"
  },
  "WTI": {
-  "value": 87.06,
-  "as_of": "2026-08-21 settle",
-  "status": "CLOSED",
-  "prev_close": 86.83,
-  "delta_pct": 0.2649,
+  "value": 85.364,
+  "as_of": "2026-08-24 07:20",
+  "status": "LIVE",
+  "prev_close": 87.06,
+  "delta_pct": -1.9481,
   "label": "WTI Crude",
-  "source": "TradingEconomics 8/21 settle, re-derived this run. Second straight weekly gain, +5.66% on the week. Futures reopen 6:00 PM ET Sunday"
+  "source": "TradingEconomics 7:20 AM quote. The largest overnight move on the board. Reuters attributes it to profit-taking after a two-week rally of more than 5%, ahead of - not because of - the US Iran sanctions announcement, which Reuters says could further disrupt supply"
  },
  "BRENT": {
-  "value": 94.39,
-  "as_of": "2026-08-21 settle",
-  "status": "CLOSED",
-  "prev_close": 93.78,
-  "delta_pct": 0.6505,
+  "value": 93.021,
+  "as_of": "2026-08-24 07:20",
+  "status": "LIVE",
+  "prev_close": 94.39,
+  "delta_pct": -1.4504,
   "label": "Brent Crude",
-  "source": "TradingEconomics 8/21 settle, +6.63% on the week. Hormuz transit is in the single digits per Reuters and Kpler; Bessent details the new sanctions Monday 2:00 PM"
+  "source": "TradingEconomics 7:20 AM quote, still +2.37% on the week and +5.28% on the month. No Hormuz de-escalation is sourced: Reuters counted fewer than 20 commodity-vessel transits over the weekend and reported blockades still restricting the chokepoint"
  },
  "GOLD": {
-  "value": 4607.35,
-  "as_of": "2026-08-21 settle",
-  "status": "CLOSED",
-  "prev_close": 4515.78,
-  "delta_pct": 2.0278,
+  "value": 4644.79,
+  "as_of": "2026-08-24 07:20",
+  "status": "LIVE",
+  "prev_close": 4607.35,
+  "delta_pct": 0.8126,
   "label": "Gold",
-  "source": "TradingEconomics 8/21 settle, +2.03% on the day, +5.30% on the week, +11.54% on the month. Silver did better still, +6.63% on the week and +15.46% on the month. NOT a record - 16.4% below the 1/28/26 record close 5510.73"
+  "source": "TradingEconomics 7:20 AM quote, +5.15% on the week and +13.88% on the month. Silver flat at 68.942 but +18.06% on the month. NOT a record - 15.71% below the 1/28/26 record close 5510.73, re-derived this run from Polygon C:XAUUSD (620 bars, record high 5596.68 same day)"
  },
  "BTC": {
-  "value": 76646.0,
-  "as_of": "2026-08-23 07:05",
+  "value": 77836.0,
+  "as_of": "2026-08-24 07:21",
   "status": "LIVE",
-  "prev_close": 77054.44,
-  "delta_pct": -0.5301,
+  "prev_close": 77729.36,
+  "delta_pct": 0.1372,
   "label": "Bitcoin",
-  "source": "TradingEconomics Sunday 8/23 quote, the one legitimately live field. Measured against Polygon's SETTLED Saturday 8/22 close of 77054.44. TE's own prose said 76659 in the same fetch, a rounding-level disagreement. Last week's gain ranked #1 of 104 weeks on both a Friday-to-Friday (+24.38%) and Saturday-to-Saturday (+22.27%) basis. NOT a record - 38.5% below the 10/6/25 record close 124720.09"
+  "source": "TradingEconomics 7:21 AM quote against Polygon's SETTLED Sunday 8/23 close of 77729.36. Measured from Friday's 78325.54 close it is -0.63%, so it is holding rather than extending last week's gain. Still +20.7% on the week. NOT a record - 37.6% below the 10/6/25 record close 124720.09"
  },
  "EURJPY": {
-  "value": 185.63,
-  "as_of": "2026-08-21 close",
-  "status": "CLOSED",
-  "prev_close": 185.703,
-  "delta_pct": -0.0393,
+  "value": 185.694,
+  "as_of": "2026-08-24 04:21",
+  "status": "LIVE",
+  "prev_close": 185.7,
+  "delta_pct": -0.0032,
   "label": "EUR/JPY",
-  "source": "Polygon C:EURJPY 8/21 close, re-derived this run. Week +0.73%. Still no sign of a yen funding squeeze"
+  "source": "TradingEconomics quote against Polygon's C:EURJPY Friday 8/21 close of 185.700, re-derived this run. Unchanged to four figures. USD/JPY 159.195 (+0.13%) - the yen is slightly WEAKER, so still no funding squeeze"
  },
  "AUDJPY": {
-  "value": 113.768,
-  "as_of": "2026-08-21 close",
-  "status": "CLOSED",
-  "prev_close": 113.11,
-  "delta_pct": 0.5817,
+  "value": 113.967,
+  "as_of": "2026-08-24 04:22",
+  "status": "LIVE",
+  "prev_close": 113.768,
+  "delta_pct": 0.1749,
   "label": "AUD/JPY",
-  "source": "Polygon C:AUDJPY 8/21 close, re-derived this run. Week +0.85%. Carry proxies firm, not stressed, into a September BoJ meeting the market reads as a hike"
+  "source": "TradingEconomics quote against Polygon's C:AUDJPY Friday 8/21 close of 113.768. Carry proxies FIRMER on a risk-off morning, which argues the tech selling is idiosyncratic rather than a macro unwind. DXY 99.00 (+0.20%)"
  }
 }
