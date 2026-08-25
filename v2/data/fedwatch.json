@@ -1,51 +1,51 @@
 {
  "status": "LIVE",
- "as_of": "2026-08-24T11:40:54.345547+00:00",
- "reason": "Cohort 2026-08-21 (Friday). Re-fetched at 7:26 AM Monday and confirmed byte-identical to Friday's pull by direct JSON comparison - CME had not yet published a Monday update at build time, so Friday's settle-based cohort is still the current one. Do not read these as a Monday repricing. Other providers' September estimates span roughly 27-45% on different methodologies; this is the CME futures-implied figure. Current band 3.50-3.75% and cut probability is ZERO at every meeting through January 2027.",
+ "as_of": "2026-08-25T11:32:51.152493+00:00",
+ "reason": "Cohort 2026-08-24 (Monday settle), FRESH - advanced from the 2026-08-21 cohort that had been repeated for two prior runs, with every forecast field changed. Current band 3.50-3.75%. Cut probability is ZERO at every meeting through January 2027; the entire distribution sits on hold-or-hike. Reuters and LSEG data independently describe money markets pricing one 25bp INCREASE by year-end, which corroborates the December figure below. Tomorrow's PCE print is the single biggest input to the September number.",
  "meetings": [
   {
    "meetingDt": "2026-09-16",
-   "reportingDt": "2026-08-21",
-   "hold": 0.581429,
-   "hike_25": 0.418571,
+   "reportingDt": "2026-08-24",
+   "hold": 0.585714,
+   "hike_25": 0.414286,
    "hike_50": 0.0,
    "hike_75": 0.0,
    "hike_100": 0.0,
    "current_band": "3.50-3.75",
-   "cumulative_hike": 0.419
+   "cumulative_hike": 0.4143
   },
   {
    "meetingDt": "2026-10-28",
-   "reportingDt": "2026-08-21",
-   "hold": 0.452684,
-   "hike_25": 0.454633,
-   "hike_50": 0.092684,
+   "reportingDt": "2026-08-24",
+   "hold": 0.430082,
+   "hike_25": 0.459837,
+   "hike_50": 0.110082,
    "hike_75": 0.0,
    "hike_100": 0.0,
    "current_band": "3.50-3.75",
-   "cumulative_hike": 0.547
+   "cumulative_hike": 0.5699
   },
   {
    "meetingDt": "2026-12-09",
-   "reportingDt": "2026-08-21",
-   "hold": 0.265574,
-   "hike_25": 0.453827,
-   "hike_50": 0.242289,
-   "hike_75": 0.038309,
+   "reportingDt": "2026-08-24",
+   "hold": 0.25104,
+   "hike_25": 0.44745,
+   "hike_50": 0.255683,
+   "hike_75": 0.045827,
    "hike_100": 0.0,
    "current_band": "3.50-3.75",
-   "cumulative_hike": 0.734
+   "cumulative_hike": 0.749
   },
   {
    "meetingDt": "2027-01-27",
-   "reportingDt": "2026-08-21",
-   "hold": 0.210689,
-   "hike_25": 0.414922,
-   "hike_50": 0.286007,
-   "hike_75": 0.080465,
-   "hike_100": 0.007917,
+   "reportingDt": "2026-08-24",
+   "hold": 0.204923,
+   "hike_25": 0.411369,
+   "hike_50": 0.290912,
+   "hike_75": 0.084378,
+   "hike_100": 0.008419,
    "current_band": "3.50-3.75",
-   "cumulative_hike": 0.789
+   "cumulative_hike": 0.7951
   }
  ]
 }
