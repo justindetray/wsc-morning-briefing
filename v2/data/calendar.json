@@ -1,69 +1,61 @@
 {
- "last_curated": "2026-08-25 07:30 AM ET",
+ "last_curated": "2026-08-26 07:30 AM ET",
  "macro": [
   {
-   "date": "2026-08-25",
-   "time_et": "9:00 AM",
-   "event": "FHFA House Price Index (Jun and Q2)",
+   "date": "2026-08-26",
+   "time_et": "7:00 AM",
+   "event": "MBA mortgage applications (w/e Aug 21)",
    "consensus": "",
    "importance": "low",
-   "note": "FHFA-confirmed, 9:00 AM on the agency's own release schedule. May ran +0.3% month over month and +2.2% year over year. The Case-Shiller June read is expected the same hour on cadence, but S&P publishes no forward schedule page so that one is NOT date-verified"
+   "note": "MBA-confirmed weekly cadence. The prior composite fell 0.4% week over week with the index at 247.7 and the 30-year contract rate 6.77%. Tuesday's new home sales collapse of 10.5% makes this the timeliest housing read available"
   },
   {
-   "date": "2026-08-25",
-   "time_et": "10:00 AM",
-   "event": "Consumer Confidence (Aug)",
+   "date": "2026-08-26",
+   "time_et": "8:30 AM",
+   "event": "PCE Price Index (JULY reference month)",
    "consensus": "",
    "importance": "high",
-   "note": "Conference Board-confirmed for the last Tuesday of the month at 10:00. July was 90.8, down 1.4 points from an upwardly revised 92.2, with present situation 114.9 and expectations 74.7. The cross-check on Michigan's collapse to 51.0 preliminary. No credible non-aggregator consensus exists, so none is shown"
+   "note": "BEA Personal Income and Outlays, agency-confirmed. June ran -0.1% month over month and +3.7% year over year headline, +0.1% and +3.3% core. Reuters' consensus is +0.1% m/m taking headline to 3.6% and +0.2% m/m holding core at 3.3%. Note honestly that the wire consensus is NOT internally consistent - CNBC's Dow Jones poll and Yahoo/Investing.com quote different m/m figures that cannot both be right. The single biggest input to September hike odds, and it lands the same day as Nvidia"
   },
   {
-   "date": "2026-08-25",
-   "time_et": "10:00 AM",
-   "event": "New Home Sales (Jul)",
+   "date": "2026-08-26",
+   "time_et": "8:30 AM",
+   "event": "GDP Q2 second estimate",
    "consensus": "",
    "importance": "medium",
-   "note": "Census and HUD-confirmed. June ran 628,000 annualised with 9.3 months of supply and a $398,300 median price. The most rate-sensitive number on the board with the 10Y at 4.67% and the 30Y above 5.2%"
+   "note": "BEA-confirmed. The advance estimate was +1.5% annualised against +2.1% in Q1. NO credible non-aggregator consensus poll was located for the revision, so no number is printed here"
   },
   {
-   "date": "2026-08-25",
-   "time_et": "10:00 AM",
-   "event": "Richmond Fed manufacturing and services (Aug)",
+   "date": "2026-08-26",
+   "time_et": "8:30 AM",
+   "event": "Advance Durable Goods Orders (Jul)",
    "consensus": "",
-   "importance": "low",
-   "note": "Richmond Fed-confirmed, released between 10:00 and 10:10. A regional read into next week's ISM"
+   "importance": "medium",
+   "note": "Census-confirmed. June was +0.3% after May was revised to -4.0%. Consensus unverified against any primary poll, so none is shown"
   },
   {
-   "date": "2026-08-25",
+   "date": "2026-08-26",
+   "time_et": "10:30 AM",
+   "event": "EIA Weekly Petroleum Status Report",
+   "consensus": "",
+   "importance": "medium",
+   "note": "EIA-confirmed release slot. Unusually relevant this week: crude has fallen three straight sessions and 6.6% in two days on Hormuz reopening hope, so the inventory print lands into a tape already repricing supply risk"
+  },
+  {
+   "date": "2026-08-26",
    "time_et": "1:00 PM",
-   "event": "Treasury 2-Year Note auction ($69B)",
+   "event": "Treasury 5-Year Note auction ($70B)",
    "consensus": "",
    "importance": "medium",
-   "note": "Size, date and CUSIP 91282CRH6 from Treasury's own 8/20 offering announcement; settles 8/31. First of three coupon auctions this week. A $95B 42-day bill also goes at 11:30. Note for the record: aggregator sites are already displaying a 4.315% actual for today's 2-year - that number does not exist yet and must not be used"
-  },
-  {
-   "date": "2026-08-26",
-   "time_et": "8:30 AM",
-   "event": "PCE Price Index (Jul)",
-   "consensus": "",
-   "importance": "high",
-   "note": "BEA-confirmed for WEDNESDAY. June was +3.7% headline and +3.3% core year over year, with the saving rate at 2.7%. The single biggest input to September hike odds, and it lands the same day as Nvidia"
-  },
-  {
-   "date": "2026-08-26",
-   "time_et": "8:30 AM",
-   "event": "GDP Q2 second estimate and Durable Goods (Jul)",
-   "consensus": "",
-   "importance": "medium",
-   "note": "BEA- and Census-confirmed. Advance Q2 real GDP was +1.5% annualised against +2.1% in Q1; June durable orders were +0.3%. Treasury also sells $70B of 5-year at 1:00 PM and reopens a $28B FRN at 11:30"
+   "note": "Size, date and CUSIP 91282CRK9 from Treasury's own offering announcement. A $72B 17-week bill (912797WH6) and a $28B 2-year FRN reopening (91282CRD5) both go at 11:30. Yesterday's $69B 2-year cleared at 4.204% with 66.0% indirects, so the sponsorship bar for today is high"
   },
   {
    "date": "2026-08-27",
    "time_et": "8:30 AM",
-   "event": "Initial jobless claims",
+   "event": "Initial jobless claims and advance goods trade",
    "consensus": "",
    "importance": "medium",
-   "note": "Prior 206,000, down 6,000, with the four-week average at 204,000 - still near cycle lows. Advance goods trade at 8:30 (June deficit $101.5B), KC Fed manufacturing at 11:00, and the $44B 7-year auction at 1:00"
+   "note": "Prior claims 206,000 for the week ending Aug 15 with the four-week average 204,000, still near cycle lows. The June advance goods trade deficit was $101.5B. KC Fed manufacturing follows (July composite 9; the 11:00 AM slot is convention, not a published time), and the $44B 7-year auction (91282CRJ2) is at 1:00"
   },
   {
    "date": "2026-08-27",
@@ -71,7 +63,7 @@
    "event": "Jackson Hole Symposium opens (Aug 27-29)",
    "consensus": "",
    "importance": "high",
-   "note": "Kansas City Fed, theme Financial Innovation: Implications for Payments and Policy. The Board's own August calendar lists only three speeches all month - Cook on the 5th, Bowman on the 8th and Warsh on the 28th - so there is no Fed speaker at all before Friday and the Committee speaks with one voice"
+   "note": "Kansas City Fed-confirmed, the 49th symposium, theme Financial Innovation: Implications for Payments and Policy. The FULL AGENDA publishes Thursday at 8:00 PM ET, which is the first hard information event. There is no Fed speaker at all today - the Board's own calendar shows none between Aug 24 and Aug 27"
   },
   {
    "date": "2026-08-28",
@@ -79,49 +71,17 @@
    "event": "Fed Chair Warsh keynote at Jackson Hole",
    "consensus": "",
    "importance": "high",
-   "note": "His first as Chair, 10:00 AM on the Fed's own calendar. Michigan final sentiment (prelim 51.0) and the BLS preliminary payroll benchmark revision both land at 10:00 the same morning, which makes Friday the densest hour of the week"
+   "note": "His first as Chair, double-confirmed on both the Federal Reserve and Kansas City Fed pages, streaming 10:00 AM ET. Michigan final sentiment (preliminary 51.0), the BLS preliminary payroll benchmark revision and Q1 QCEW all land at 10:00 the same morning - a genuine same-minute collision. Bowman speaks at 12:45 PM. Piper Sandler's Kurt Lewis expects big-picture supply-side remarks rather than a policy deep dive"
   }
  ],
  "earnings": [
-  {
-   "date": "2026-08-25",
-   "ticker": "INTU",
-   "name": "Intuit",
-   "session": "after-close",
-   "importance": "medium",
-   "note": "Call 4:30 PM ET, company-confirmed. Fiscal Q4 plus the first FY27 guide. Monday close $369.92, +0.80%. Street numbers circulating near $3.55 EPS on $4.27B are aggregator-only and NOT verified"
-  },
-  {
-   "date": "2026-08-25",
-   "ticker": "ZM",
-   "name": "Zoom Communications",
-   "session": "after-close",
-   "importance": "low",
-   "note": "Webinar 5:00 PM ET, company-confirmed"
-  },
-  {
-   "date": "2026-08-25",
-   "ticker": "BOX",
-   "name": "Box",
-   "session": "after-close",
-   "importance": "low",
-   "note": "Call 5:00 PM ET, company-confirmed"
-  },
-  {
-   "date": "2026-08-25",
-   "ticker": "SMTC",
-   "name": "Semtech",
-   "session": "after-close",
-   "importance": "low",
-   "note": "Call 4:30 PM ET, company-confirmed. A small analog read into a semi index 22% off its record"
-  },
   {
    "date": "2026-08-26",
    "ticker": "NVDA",
    "name": "NVIDIA",
    "session": "after-close",
    "importance": "high",
-   "note": "FY27 Q2, call 5:00 PM ET, now confirmed on NVIDIA's own IR page. Its own guide was $91.0B plus or minus 2% but the street is near $92B with a $103-105B full-year guide, so the bar sits above the guide. The stock fell for a SEVENTH straight session Monday to $208.48, its longest losing streak since September 2022"
+   "note": "Fiscal Q2 FY27, quarter ended July 26. Results public at approximately 4:20 PM ET with the call at 5:00 PM, both confirmed on NVIDIA's own IR page. The company's own guide was $91.0B plus or minus 2% with non-GAAP gross margin 75.0%, excluding any China data-centre compute revenue. Sell-side revenue figures near $92B are aggregator-sourced and are NOT printed here as consensus. The number that matters is the Q3 guide - Reuters reports analysts looking for roughly $104.2B, and the stated selloff trigger is a guide below that. The stock snapped a SEVENTH straight decline Tuesday, closing $213.05, +2.19%, after Monday's $208.48"
   },
   {
    "date": "2026-08-26",
@@ -129,7 +89,7 @@
    "name": "Salesforce",
    "session": "after-close",
    "importance": "medium",
-   "note": "Broadcast 5:00 PM ET, company-confirmed. The software-versus-AI-capex debate"
+   "note": "Broadcast 5:00 PM ET, company-confirmed. The software-versus-AI-capex debate, on the same evening as Nvidia"
   },
   {
    "date": "2026-08-26",
@@ -145,7 +105,7 @@
    "name": "Synopsys",
    "session": "after-close",
    "importance": "medium",
-   "note": "Call 5:00 PM ET, company-confirmed. A chip-design read on the same evening as Nvidia"
+   "note": "Call 5:00 PM ET, company-confirmed. A chip-design read alongside Nvidia"
   },
   {
    "date": "2026-08-26",
@@ -153,7 +113,7 @@
    "name": "HP Inc.",
    "session": "after-close",
    "importance": "low",
-   "note": "Call 5:30 PM ET, company-confirmed. Alibaba's $10.2B placement is also slated to complete this day"
+   "note": "Call 5:30 PM ET, company-confirmed. No pre-open reporter could be primary-verified for today, so none is listed"
   },
   {
    "date": "2026-08-27",
@@ -161,7 +121,7 @@
    "name": "Marvell Technology",
    "session": "after-close",
    "importance": "medium",
-   "note": "Call 4:45 PM ET, now confirmed on Marvell's own release. The other AI-networking datapoint after Nvidia"
+   "note": "Call 4:45 PM ET, company-confirmed. The other AI-networking datapoint, 24 hours after Nvidia. The stock rose 4.8% Tuesday"
   }
  ]
 }
