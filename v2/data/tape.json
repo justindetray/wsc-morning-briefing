@@ -1,121 +1,121 @@
 {
  "SPX": {
-  "value": 7677.28,
-  "as_of": "2026-08-25 close",
+  "value": 7675.7,
+  "as_of": "2026-08-26 close",
   "status": "CLOSED",
-  "prev_close": 7652.86,
-  "delta_pct": 0.3191,
+  "prev_close": 7677.28,
+  "delta_pct": -0.0206,
   "label": "S&P 500",
-  "source": "Polygon I:SPX 8/25 settled close, re-derived this run. A broad relief session - all four indices tracked here finished higher and the VIX fell. Still down 0.19% over the past week. NOT ATH - 1.56% below the 8/13/26 record close 7798.99 (record high 7816.70). E-mini indicates 7685.50, -0.08%, on the Yahoo markets header this morning"
+  "source": "Polygon I:SPX 8/26 settled close, re-derived this run. Effectively unchanged, down 1.58 points, as the whole tape stood still waiting for Nvidia. Reuters had the closing arithmetic at -0.02%. Down 0.42% over the past week. NOT ATH - 1.58% below the 8/13/26 record close 7798.99 (record high 7816.70 the same day). S&P futures were +0.4% on the Reuters global wrap at 01:59 GMT"
  },
  "NDX": {
-  "value": 29209.23,
-  "as_of": "2026-08-25 close",
+  "value": 29224.52,
+  "as_of": "2026-08-26 close",
   "status": "CLOSED",
-  "prev_close": 29023.18,
-  "delta_pct": 0.641,
+  "prev_close": 29209.23,
+  "delta_pct": 0.0524,
   "label": "Nasdaq 100",
-  "source": "Polygon I:NDX 8/25 settled close, the best of the US benchmarks on the day as the tech complex bounced, though still -0.96% on the week. NOT ATH - 4.73% below the 6/2/26 record close 30660.60 (record high 30762.20 on 6/3). NQ futures indicate 29207.75, -0.24%, this morning: the market is standing still ahead of Nvidia rather than pressing the bounce"
+  "source": "Polygon I:NDX 8/26 settled close, up 15 points, the only US large-cap benchmark to finish green and by the narrowest possible margin. Still -0.68% on the week. NOT ATH - 4.68% below the 6/2/26 record close 30660.60 (record high 30762.20 on 6/3). Nasdaq futures were +0.8% overnight per the Reuters wrap, so the Nvidia bid is landing in futures rather than in yesterday's cash session"
  },
  "SOX": {
-  "value": 11588.04,
-  "as_of": "2026-08-25 close",
+  "value": 11611.24,
+  "as_of": "2026-08-26 close",
   "status": "CLOSED",
-  "prev_close": 11423.17,
-  "delta_pct": 1.4433,
+  "prev_close": 11588.04,
+  "delta_pct": 0.2002,
   "label": "Philly Semis",
-  "source": "Polygon I:SOX 8/25 settled close, the strongest index on the board Tuesday after Monday's 2.70% loss, but still -3.37% over the week. NOT ATH and still 20.82% below the 6/22/26 record close 14634.72 - the semiconductor complex remains more than 20% off its own record while the S&P sits 1.6% off its. Nvidia reports TODAY after the close"
+  "source": "Polygon I:SOX 8/26 settled close, the best US index on the day at +0.20% and the second straight gain, though still -1.08% over the week. NOT ATH and still 20.66% below the 6/22/26 record close 14634.72 - the semiconductor complex sits more than 20% off its own record on the morning after its largest constituent reported 106% revenue growth. That gap is the single most useful number on this page. European tech (.SX8P) was +1.3% overnight on the Nvidia read-through"
  },
  "DJI": {
-  "value": 53577.4,
-  "as_of": "2026-08-25 close",
+  "value": 53463.88,
+  "as_of": "2026-08-26 close",
   "status": "CLOSED",
-  "prev_close": 53417.16,
-  "delta_pct": 0.3,
+  "prev_close": 53577.4,
+  "delta_pct": -0.2119,
   "label": "Dow 30",
-  "source": "Polygon I:DJI 8/25 settled close, a third consecutive gain and the only US index UP on the week at +0.44%. NOT ATH - 1.42% below the 8/5/26 record close 54349.12. Note the internal contradiction worth holding: MarketWatch's live blog reported market breadth remained weak on Tuesday DESPITE the index gains, and no numeric advance-decline data was sourceable to a primary feed"
+  "source": "Polygon I:DJI 8/26 settled close, -113.52 points, the weakest of the four and the only one to break a streak - it had risen three straight. Flat on the week at +0.00%. NOT ATH - 1.63% below the 8/5/26 record close 54349.12 (record high 54744.33). The old-economy index lagging on a day the AI complex held is the reverse of the rotation pattern seen earlier in August"
  },
  "VIX": {
-  "value": 15.45,
-  "as_of": "2026-08-25 close",
+  "value": 15.21,
+  "as_of": "2026-08-26 close",
   "status": "CLOSED",
-  "prev_close": 15.85,
-  "delta_pct": -2.5237,
+  "prev_close": 15.45,
+  "delta_pct": -1.5534,
   "label": "VIX",
-  "source": "Polygon I:VIX 8/25 settled close, -2.52% on the day and -2.46% on the week, corroborated by Cboe and WSJ historical prices (open 15.71, high 16.30, low 15.13). The unsettled 8/26 bar prints 15.64 and WSJ read 15.73, +1.81%, at 6:30 AM - deliberately NOT used as the tile value. VIX3M was 18.21 on 8/25, a front-to-3M ratio near 0.85, so the term structure is in NORMAL CONTANGO hours before a binary event on the index's largest constituent. VIX FUTURES were not sourceable to a primary page and are not claimed here"
+  "source": "Polygon I:VIX 8/26 settled close, -1.55%, going INTO the largest single-stock binary event of the quarter. The unsettled 8/27 bar prints 14.89 and is deliberately NOT used as the tile value. VIX3M settled 17.99 and VXN, the Nasdaq-100 vol index, settled 21.42, -1.70% - a front-to-3M ratio of 0.85, so the term structure was in NORMAL CONTANGO through the event. Reuters put the implied Nvidia move at 5.4% against 6.5% ahead of the May print: the options market charged LESS for this print than the last one, and was right"
  },
  "US10Y": {
-  "value": 4.647,
-  "as_of": "2026-08-26 07:12",
+  "value": 4.672,
+  "as_of": "2026-08-27 06:16",
   "status": "LIVE",
-  "prev_close": 4.634,
-  "delta_pct": 0.2805,
+  "prev_close": 4.653,
+  "delta_pct": 0.4083,
   "label": "US 10Y",
   "unit": "pct",
-  "source": "TradingEconomics dedicated instrument page at 7:12 AM, +1.3bp, with the prior settle reconstructed from TE's own displayed change. The real move was TUESDAY, not overnight: Reuters had the 10Y at 4.625% from 4.704% late Monday, a 7.9bp rally, the lowest long-end yields since Aug 5 on MarketWatch's read, driven by falling oil plus soft US data. Overnight is a small give-back, not a reversal"
+  "source": "TradingEconomics dedicated instrument page at 06:16, +1.9bp, with the prior settle reconstructed from TE's own displayed change. Note the intra-morning drift: the Reuters global wrap at 01:59 GMT had the 10Y at 4.644%, -2bp, so yields have backed up roughly 3bp since the Asian session as the Nvidia bid built. Up 6bp on the month and 46bp on the year. Today brings $44B of 7-year supply at 1:00 PM"
  },
  "US2Y": {
-  "value": 4.207,
-  "as_of": "2026-08-26 04:12",
+  "value": 4.24,
+  "as_of": "2026-08-27 06:20",
   "status": "LIVE",
-  "prev_close": 4.187,
-  "delta_pct": 0.4777,
+  "prev_close": 4.222,
+  "delta_pct": 0.4263,
   "label": "US 2Y",
   "unit": "pct",
-  "source": "TradingEconomics 4:12 AM quote, +2.0bp, after Tuesday's 6.0bp front-end rally to 4.176% per Reuters. 2s10s sits at 44.0bp. The 30Y is 5.172%, +0.3bp, after TE noted it surged above 5.2%, the highest since 2007. The $69B 2-year auction yesterday cleared at 4.204%, roughly 11bp through the July stop, with indirect bidders taking 66.0% of competitive versus 56.6% in July - strong real-money sponsorship, from TreasuryDirect's own results file. Germany 3.2079, Japan 2.8880, UK 4.9987, Italy 4.0260, France 4.0630, Canada 3.6460"
+  "source": "TradingEconomics dedicated page, +1.8bp, prior settle reconstructed from TE's own change field. 2s10s sits at 43.2bp, a whisker flatter than yesterday. The 30Y is 5.19%, +1.6bp, still the highest since 2007 on TE's own read. Yesterday's $70B 5-year auction (CUSIP 91282CRK9) cleared at 4.393% with a 2.37 bid-to-cover, taken from TreasuryDirect's own results file rather than a calendar aggregator. Front-end yields are RISING while cut odds sit at zero - the curve is pricing a Fed that is done easing, not one about to start"
  },
  "WTI": {
-  "value": 80.3215,
-  "as_of": "2026-08-26 07:14",
+  "value": 80.83,
+  "as_of": "2026-08-27 08:00 GMT",
   "status": "LIVE",
-  "prev_close": 82.365,
-  "delta_pct": -2.481,
+  "prev_close": 82.23,
+  "delta_pct": -1.7025,
   "label": "WTI Crude",
-  "source": "TradingEconomics page metadata, -2.48%, with the prior settle reconstructed from TE's own displayed change. Reuters at 04:47 GMT had $80.29, -2.53%, the lowest since Aug 10. Third straight decline. Computed over our own held series: WTI has fallen 5.52% from Monday's $85.01 settle in two sessions. Down 2.84% on the month"
+  "source": "Reuters oil desk at 08:00 GMT, -$1.40, a FIFTH consecutive session of losses. Named cause per Reuters: Qatari Prime Minister Sheikh Mohammed bin Abdulrahman Al Thani travels to Tehran TODAY to relaunch mediation on the Strait of Hormuz. SOURCE CONFLICT DISCLOSED: TradingEconomics' WTI page read 82.2199 at 04:18, essentially unchanged and $1.39 higher. Both feeds reconstruct to the same 82.23 prior settle, so the disagreement is in the live print. Two independent Reuters snapshots against one CFD feed - the wire wins and TE oil is logged DEGRADED for this run"
  },
  "BRENT": {
-  "value": 86.0821,
-  "as_of": "2026-08-26 07:14",
+  "value": 86.48,
+  "as_of": "2026-08-27 08:00 GMT",
   "status": "LIVE",
-  "prev_close": 88.58,
-  "delta_pct": -2.8199,
+  "prev_close": 87.84,
+  "delta_pct": -1.5483,
   "label": "Brent Crude",
-  "source": "TradingEconomics extracted quote, -2.82%, reconstructing to the same prior settle. Reuters at 04:47 GMT had $86.28, -2.6%, the lowest since Aug 13 and a third consecutive daily fall. Computed over our own held series: Brent is down 6.61% from Monday's $92.17 settle in two sessions, and the monthly change has now TURNED NEGATIVE at -2.56% - the entire war premium built this month has been given back. Named cause per Reuters and MarketWatch: an Iran-Oman framework to restore navigation through the Strait of Hormuz after Tehran talks Tuesday"
+  "source": "Reuters oil desk at 08:00 GMT, -$1.36, a FOURTH consecutive decline. Corroborated in direction by a second and separate Reuters desk - the global markets wrap at 01:59 GMT had Brent $86.8, -1.1%. TradingEconomics read 88.278, +0.50%, at 07:19 and is the outlier, logged DEGRADED. Counter-evidence held in the same window: UKMTO Warning 121-26 was issued around 00:54 GMT after a tanker was struck by a projectile near Khasab, Oman. The market is trading the diplomacy, not the projectile"
  },
  "GOLD": {
-  "value": 4618.18,
-  "as_of": "2026-08-26 07:15",
+  "value": 4592.24,
+  "as_of": "2026-08-27 07:20",
   "status": "LIVE",
-  "prev_close": 4658.11,
-  "delta_pct": -0.8572,
+  "prev_close": 4593.74,
+  "delta_pct": -0.0327,
   "label": "Gold",
-  "source": "TradingEconomics quote, -0.86%, against a reconstructed prior settle; Polygon's settled 8/25 close was 4654.63. Reuters had spot $4632.65, just shy of the prior session's three-month high. Still +13.23% on the month. NOT a record - 15.54% below the 1/28/26 record close 5510.73 (record high 5596.68 the same day), verified against two years of daily bars rather than assumed"
+  "source": "TradingEconomics quote, -$1.50, against a prior settle reconstructed from TE's own change field and INDEPENDENTLY corroborated by the Reuters global wrap, which had gold near $4,598, +0.1%, implying the same base near 4593. Flagged for the record: Polygon's C:XAUUSD 8/26 daily bar closed 4623.43, roughly $30 higher, almost certainly a bar-boundary difference rather than a price disagreement - the two-source agreement is preferred. Still +14.0% on the month. NOT a record - 16.10% below the 1/28/26 record close 5510.73 (record high 5596.68 the same day), verified against two years of daily bars"
  },
  "BTC": {
-  "value": 78685.035,
-  "as_of": "2026-08-26 07:14",
+  "value": 79677.045,
+  "as_of": "2026-08-27 11:20 GMT",
   "status": "LIVE",
-  "prev_close": 78526.8,
-  "delta_pct": 0.2015,
+  "prev_close": 79026.18,
+  "delta_pct": 0.8236,
   "label": "Bitcoin",
-  "source": "Coinbase public spot at 11:14 UTC against Polygon's settled 8/25 close of 78526.80 (Polygon crypto live and minute endpoints both return 403 - entitlement absent, not retried). Roughly flat after tagging above $81,000 intraday Tuesday. Up 21.41% on the week. NOT a record - 37.04% below the 10/6/25 record close 124720.09. VanEck's Matthew Sigel explicitly rejects the Washington narrative: about 0% of the move, in his words, is policy-driven"
+  "source": "Coinbase public spot at 11:20 UTC against Polygon's settled 8/26 close of 79026.18, re-derived this run (Polygon crypto live and minute endpoints both return 403 - entitlement absent, not retried). Up 14.06% on the week and 24.07% on the month; Reuters attributes the metals-and-crypto August surge to dollar debasement trades following the Treasury's bond-market intervention last week. NOT a record - 36.64% below the 10/6/25 record close 124720.09"
  },
  "EURJPY": {
-  "value": 185.593,
-  "as_of": "2026-08-26 07:16",
+  "value": 185.616,
+  "as_of": "2026-08-27 07:20",
   "status": "LIVE",
-  "prev_close": 185.866,
-  "delta_pct": -0.1469,
+  "prev_close": 185.612,
+  "delta_pct": 0.0022,
   "label": "EUR/JPY",
-  "source": "TradingEconomics quote against Polygon's C:EURJPY settled 8/25 close of 185.866, re-derived this run. USD/JPY is 159.106, -0.06%, so the yen is marginally FIRMER for the first time in several sessions - but EUR/JPY is down only 0.15% while AUD/JPY is UP, which is not the signature of a funding squeeze"
+  "source": "TradingEconomics quote against Polygon's C:EURJPY settled 8/26 close of 185.612, re-derived this run. Unchanged to four decimal places - TE's own page prints the change as 0%. USD/JPY is 159.470, +0.10%, and the dollar index is 99.240, +0.08%. The yen is marginally softer against the dollar and pinned against the euro: no funding stress signature whatsoever, which matters because a yen-carry unwind is the standard tail risk attached to a big AI-equity move"
  },
  "AUDJPY": {
-  "value": 114.259,
-  "as_of": "2026-08-26 07:16",
+  "value": 114.496,
+  "as_of": "2026-08-27 07:20",
   "status": "LIVE",
-  "prev_close": 114.061,
-  "delta_pct": 0.1736,
+  "prev_close": 114.357,
+  "delta_pct": 0.1215,
   "label": "AUD/JPY",
-  "source": "TradingEconomics quote against Polygon's C:AUDJPY settled 8/25 close of 114.061. The two carry crosses are split - EUR/JPY slightly lower, AUD/JPY higher - which rules out a yen-funding unwind on the evidence available. EUR/USD 1.16656, AUD/USD 0.71818, dollar index 98.95 and tracking a roughly 1% August decline per Reuters"
+  "source": "TradingEconomics quote against Polygon's C:AUDJPY settled 8/26 close of 114.357. Both carry crosses are flat-to-higher, the opposite of a funding squeeze. Worth holding alongside it: the ASX 200 fell about 1% overnight on a hot Australian inflation print that raised RBA hike risk, so AUD strength here is a rate-differential story rather than a risk-appetite story. EUR/USD 1.16395, -0.10%; AUD/USD 0.71802, +0.14%"
  }
 }
