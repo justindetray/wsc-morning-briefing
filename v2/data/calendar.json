@@ -1,127 +1,87 @@
 {
- "last_curated": "2026-08-27 07:30 AM ET",
+ "last_curated": "2026-08-28 07:30 AM ET",
  "macro": [
   {
-   "date": "2026-08-27",
-   "time_et": "8:30 AM",
-   "event": "Initial jobless claims (w/e Aug 22)",
-   "consensus": "",
-   "importance": "medium",
-   "note": "DOL/ETA-confirmed from the agency's own release, not an aggregator: prior initial claims 206,000, down 6,000, with the four-week average 204,000, still near cycle lows. With cut odds at zero and hike odds rising, a labour market that refuses to crack is the permission slip for the hawkish repricing"
-  },
-  {
-   "date": "2026-08-27",
-   "time_et": "8:30 AM",
-   "event": "Advance Economic Indicators (Jul goods trade, retail and wholesale inventories)",
-   "consensus": "",
-   "importance": "medium",
-   "note": "Census-confirmed. One release carries all three series. The June advance goods deficit was $101.5B, confirmed from the June advance report itself. Relevant to the tariff calendar: Canada's counter-tariffs on C$27.6B of US goods take effect Sept 8"
-  },
-  {
-   "date": "2026-08-27",
+   "date": "2026-08-28",
    "time_et": "10:00 AM",
-   "event": "BLS Employment Projections 2025-35; Census steel imports",
-   "consensus": "",
-   "importance": "low",
-   "note": "BLS schedule-confirmed, alongside the Worker Displacement release. Structural rather than cyclical - not market-moving, but the projections are a genuinely useful client-conversation document"
-  },
-  {
-   "date": "2026-08-27",
-   "time_et": "Time not published",
-   "event": "Kansas City Fed manufacturing survey",
-   "consensus": "",
-   "importance": "low",
-   "note": "KC Fed's own release-date table confirms TODAY but publishes NO time - the 11:00 AM slot carried by aggregators is convention, not a published figure, and is not asserted here. The prior composite is 9, not the 17 several aggregators show"
-  },
-  {
-   "date": "2026-08-27",
-   "time_et": "1:00 PM",
-   "event": "Treasury 7-Year Note auction ($44B)",
-   "consensus": "",
-   "importance": "medium",
-   "note": "Size, time and CUSIP 91282CRJ2 all confirmed from Treasury's own upcoming-auctions feed. A $100B 4-week and a $90B 8-week bill go at 11:30. Yesterday's $70B 5-year cleared at 4.393% with a 2.37 bid-to-cover, so the belly of the curve just told us what real money thinks of a Fed with zero cut odds priced"
-  },
-  {
-   "date": "2026-08-27",
-   "time_et": "4:30 PM",
-   "event": "H.4.1 Federal Reserve balance sheet",
-   "consensus": "",
-   "importance": "low",
-   "note": "Fed-confirmed from the H.4.1 page itself: each Thursday, generally at 4:30 PM. Commercial paper follows at 1:00 and H.15 at 4:15"
-  },
-  {
-   "date": "2026-08-27",
-   "time_et": "8:00 PM",
-   "event": "Jackson Hole full agenda publishes (symposium runs Aug 27-29)",
+   "event": "Fed Chair Kevin Warsh - Jackson Hole keynote (livestreamed)",
    "consensus": "",
    "importance": "high",
-   "note": "Kansas City Fed-confirmed verbatim: the full agenda will be available at kansascityfed.org on Thursday, Aug. 27, at 8:00 p.m. EDT. Until then NOTHING about sessions, papers or presenters is public, and any agenda detail circulating this morning is unsourced. Theme: Financial Innovation, Implications for Payments and Policy. There is no Fed speaker at all today"
+   "note": "His first as Chair. DOUBLE-CONFIRMED on two primary calendars, with a title conflict noted rather than reconciled: the Kansas City Fed program titles the slot Opening Remarks, the Federal Reserve Board calendar says Keynote Remarks. 8:00 a.m. Mountain, Kristin Forbes of MIT chairing, streamed on youtube.com/kansascityfed - and only the Chair's address is streamed. Symposium theme: Financial Innovation, Implications for Payments and Policy. BofA's Mark Cabana is the sharpest stated risk: a structural rather than cyclical speech would read dovish and could push the 30Y toward 5.5%. Note what the volatility market has priced for this: VXN closed at a seven-month low"
   },
   {
    "date": "2026-08-28",
    "time_et": "10:00 AM",
-   "event": "Fed Chair Warsh keynote at Jackson Hole",
+   "event": "BLS preliminary payroll benchmark revision (CES, March 2026) and QCEW Q1",
    "consensus": "",
    "importance": "high",
-   "note": "His first as Chair, DOUBLE-CONFIRMED on both the Federal Reserve Board calendar and the Kansas City Fed release, streaming 10:00 AM ET. A genuine same-minute collision: Michigan final sentiment (preliminary 51.0), the BLS preliminary payroll benchmark revision and Q1 QCEW all land at 10:00 as well. Reuters reports few investors expect Warsh to honour the tradition of a framework speech. For the record, a Bowman 12:45 PM slot circulating on aggregators does NOT appear on the Board's own calendar and is not listed here"
+   "note": "BLS schedule-confirmed, National plus State and Area, landing at the SAME MINUTE as the Chair. This is the least-watched high-consequence number of the month: last year's preliminary benchmark revision was a downward revision of 911,000 jobs and it reset the entire labour-market debate. Monthly CES estimates are NOT revised today - the benchmark is applied with the January reference period in February. With July payrolls already at MINUS 23,000 and a 4.1% unemployment rate, a large downward revision would be the strongest argument yet against the hawks"
+  },
+  {
+   "date": "2026-08-28",
+   "time_et": "10:00 AM",
+   "event": "Michigan consumer sentiment - FINAL August",
+   "consensus": "",
+   "importance": "medium",
+   "note": "Confirmed from the Surveys of Consumers' own site. The preliminary read was 51.0, with Current Conditions 51.8 and Expectations 50.6, against a July final of 55.2 - a collapse of more than four points in the headline. No named-poll consensus exists for a final revision, so none is asserted here. For the record, an aggregator carrying an actual of 51.0 is recycling the preliminary"
+  },
+  {
+   "date": "2026-08-28",
+   "time_et": "1:00 PM",
+   "event": "Fed commercial paper; 4:15 PM H.8 and H.15",
+   "consensus": "",
+   "importance": "low",
+   "note": "Fed-confirmed from the release pages themselves. No Treasury auction today; the 2-year FRN reopening, CUSIP 91282CRD5, $28B, settles today"
+  },
+  {
+   "date": "2026-08-31",
+   "time_et": "10:30 AM",
+   "event": "Dallas Fed manufacturing survey; month-end settlements",
+   "consensus": "",
+   "importance": "low",
+   "note": "Dallas Fed-confirmed. July production was 10.1. Month-end index rebalancing and settlement flows sit alongside it, which is worth knowing before reading Monday's tape as information"
   },
   {
    "date": "2026-09-01",
    "time_et": "10:00 AM",
-   "event": "ISM Manufacturing PMI and JOLTS",
+   "event": "ISM Manufacturing PMI and JOLTS; Barr speaks 9:05 AM",
    "consensus": "",
    "importance": "medium",
-   "note": "The first hard data of September, two weeks ahead of the Sept 15-16 FOMC. Dallas Fed manufacturing and month-end rebalancing come Monday Aug 31; August payrolls land Friday Sept 4"
+   "note": "July ISM manufacturing was 55.6% and June JOLTS openings 7.4mn, both from the issuing agencies. Construction spending the same morning. First hard data of September, two weeks before the Sept 15-16 FOMC"
+  },
+  {
+   "date": "2026-09-02",
+   "time_et": "2:00 PM",
+   "event": "Beige Book; ADP employment and factory orders earlier",
+   "consensus": "",
+   "importance": "medium",
+   "note": "Fed and ADP confirmed. July ADP was plus 44,000. The Beige Book is the last qualitative read the committee publishes before the September meeting"
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": "8:30 AM",
+   "event": "August employment report",
+   "consensus": "",
+   "importance": "high",
+   "note": "BLS-confirmed. July was MINUS 23,000 payrolls with unemployment at 4.1%. This is the single most consequential number between today and the Sept 15-16 FOMC, and it lands one week from today. Waller speaks Thursday 9/3 at 8:30, with claims, ISM services (July 54.1%) and the trade balance the same day"
   }
  ],
  "earnings": [
   {
-   "date": "2026-08-27",
-   "ticker": "MRVL",
-   "name": "Marvell Technology",
-   "session": "after-close",
-   "importance": "high",
-   "note": "Call 4:45 PM ET, company-confirmed. The cleanest read-through to last night's Nvidia print: custom AI silicon and optical interconnect, 24 hours later, into a tape that just rewarded a forward narrative rather than delivered results"
-  },
-  {
-   "date": "2026-08-27",
-   "ticker": "WDAY",
-   "name": "Workday",
+   "date": "2026-09-01",
+   "ticker": "DELL",
+   "name": "Dell Technologies",
    "session": "after-close",
    "importance": "medium",
-   "note": "4:30 PM ET, IR-confirmed. Enterprise software into the same guidance-punishment pattern that took HP down roughly 9% overnight despite a $1.24B revenue beat"
+   "note": "4:30 PM ET Tuesday, IR-confirmed - NOT today. There are no noteworthy US earnings today, which is itself worth stating rather than padding the list. Dell is the next real AI-server datapoint after last night's beat-and-sold pattern"
   },
   {
-   "date": "2026-08-27",
-   "ticker": "ULTA",
-   "name": "Ulta Beauty",
-   "session": "after-close",
-   "importance": "medium",
-   "note": "4:30 PM ET, IR-confirmed. Discretionary spending read alongside Best Buy, Dollar Tree, Burlington and Dollar General pre-open - an unusually complete one-day picture of the US consumer"
-  },
-  {
-   "date": "2026-08-27",
-   "ticker": "BBY",
-   "name": "Best Buy",
-   "session": "pre-open",
-   "importance": "medium",
-   "note": "8:00 AM ET, IR-confirmed. Directly exposed to the memory-and-component cost inflation that HP's CFO flagged as driving below-seasonal Q4 revenue"
-  },
-  {
-   "date": "2026-08-27",
-   "ticker": "DLTR",
-   "name": "Dollar Tree",
-   "session": "pre-open",
-   "importance": "medium",
-   "note": "8:00 AM ET, IR-confirmed, with Dollar General at 9:00 and Burlington at 8:30. The low-income consumer cohort reporting on the same morning as the AI capex victory lap"
-  },
-  {
-   "date": "2026-08-27",
-   "ticker": "ADSK",
-   "name": "Autodesk",
+   "date": "2026-09-01",
+   "ticker": "MDB",
+   "name": "MongoDB",
    "session": "after-close",
    "importance": "low",
-   "note": "5:00 PM ET, IR-confirmed, with Affirm and Gap also after the close"
+   "note": "5:00 PM ET Tuesday, IR-confirmed. Enterprise software into the same guidance-punishment tape that took Marvell, Autodesk and Ulta down overnight despite all three raising guidance"
   }
  ]
 }
