@@ -1,51 +1,51 @@
 {
  "status": "LIVE",
- "as_of": "2026-08-28T11:34:21.430265+00:00",
- "reason": "Cohort 2026-08-27 (Thursday settle), FRESH - advanced from the 2026-08-26 cohort with every forecast field changed. Current band 3.50-3.75%. Cut probability remains ZERO at every meeting through January 2027, so the whole distribution still sits on hold-or-hike. The overnight move was NOT a simple dovish or hawkish shift and should not be reported as one: cumulative hike odds FELL for the near meetings and ROSE for the far ones. September went from 39.6% to 37.6% and October from 54.3% to 52.8%, while December rose from 73.5% to 75.2% and January 2027 from 78.2% to 80.3%. The hike moved LATER in the calendar rather than out of it. December now carries a 29.84% chance of TWO OR MORE hikes. Stated plainly for the record because a wire paraphrase overstated it: the market is NOT fully priced for a December hike, it is at 75.2% on our own re-derived CME payload. Four Fed speakers pushed the same way on Thursday - Schmid called inflation still stubborn and still sticky, Hammack said now is the time to act, Collins said it may be appropriate to tighten soon, and Goolsbee said everybody should be on edge. Chair Warsh's first Jackson Hole keynote is at 10:00 AM ET today.",
+ "as_of": "2026-08-29T11:27:41.186979+00:00",
+ "reason": "Cohort 2026-08-28 (Friday settle), FRESH - advanced from the 2026-08-27 cohort with every forecast field changed, and all four meetings sum to 1.0000 on re-parse. Current band 3.50-3.75%. This is the largest one-day hawkish repricing of the year and it is uniform rather than a shift in timing: a 25bp HIKE at the September 16 meeting is now the BASE CASE at 59.00%, up from 37.64% on Thursday, with hold at 41.00%. October cumulative hike odds are 71.71% from 52.83%, December 89.46% from 75.16%, and January 2027 92.12% from 80.29%. The number that moved most in substance is December's odds of TWO OR MORE hikes, now 51.81% against 29.84% on Thursday - the market has gone from a coin-flip on one more hike to a coin-flip on two. Cut probability is exactly ZERO at every meeting through January 2027. Wire figures for September span 55.5% to about 60% - CNBC and Guardian read 57.5% and 55.5%, Yahoo about 60%, Reuters about 60% - and we report our own re-derived CME payload of 59.00% as primary while naming that spread rather than picking whichever number reads best. The cause is not in dispute: Chair Warsh's first Jackson Hole keynote, delivered 10:00 AM ET Friday.",
  "meetings": [
   {
    "meetingDt": "2026-09-16",
-   "reportingDt": "2026-08-27",
-   "hold": 0.623571,
-   "hike_25": 0.376429,
+   "reportingDt": "2026-08-28",
+   "hold": 0.41,
+   "hike_25": 0.59,
    "hike_50": 0.0,
    "hike_75": 0.0,
    "hike_100": 0.0,
    "current_band": "3.50-3.75",
-   "cumulative_hike": 0.3764
+   "cumulative_hike": 0.59
   },
   {
    "meetingDt": "2026-10-28",
-   "reportingDt": "2026-08-27",
-   "hold": 0.471687,
-   "hike_25": 0.438887,
-   "hike_50": 0.089426,
+   "reportingDt": "2026-08-28",
+   "hold": 0.2829,
+   "hike_25": 0.5342,
+   "hike_50": 0.1829,
    "hike_75": 0.0,
    "hike_100": 0.0,
    "current_band": "3.50-3.75",
-   "cumulative_hike": 0.5283
+   "cumulative_hike": 0.7171
   },
   {
    "meetingDt": "2026-12-09",
-   "reportingDt": "2026-08-27",
-   "hold": 0.248422,
-   "hike_25": 0.453138,
-   "hike_50": 0.253011,
-   "hike_75": 0.045429,
+   "reportingDt": "2026-08-28",
+   "hold": 0.105406,
+   "hike_25": 0.376533,
+   "hike_50": 0.403308,
+   "hike_75": 0.114753,
    "hike_100": 0.0,
    "current_band": "3.50-3.75",
-   "cumulative_hike": 0.7516
+   "cumulative_hike": 0.8946
   },
   {
    "meetingDt": "2027-01-27",
-   "reportingDt": "2026-08-27",
-   "hold": 0.197082,
-   "hike_25": 0.409694,
-   "hike_50": 0.291938,
-   "hike_75": 0.092536,
-   "hike_100": 0.00875,
+   "reportingDt": "2026-08-28",
+   "hold": 0.078782,
+   "hike_25": 0.308048,
+   "hike_50": 0.396545,
+   "hike_75": 0.18764,
+   "hike_100": 0.028986,
    "current_band": "3.50-3.75",
-   "cumulative_hike": 0.8029
+   "cumulative_hike": 0.9212
   }
  ]
 }
