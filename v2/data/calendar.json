@@ -1,5 +1,5 @@
 {
- "last_curated": "2026-08-29 07:30 AM ET",
+ "last_curated": "2026-08-30 07:30 AM ET",
  "macro": [
   {
    "date": "2026-08-31",
@@ -7,23 +7,23 @@
    "event": "Dallas Fed manufacturing survey; MONTH-END",
    "consensus": "",
    "importance": "low",
-   "note": "Dallas Fed-confirmed; July production was 10.1. There are no major US economic reports Monday. What actually matters about the date is that it is the August close: month-end index rebalancing and settlement flows run through the tape, so Monday's price action carries less information than usual. Aug 31 is a UK bank holiday, which thins London liquidity, but US markets hold a normal full session - Labor Day is Monday Sept 7, verified on the NYSE, Nasdaq and FINRA calendars. 13-week and 26-week bill auctions"
+   "note": "Dallas Fed-confirmed at 9:30 CT. July general business activity was +1.3 and production 10.1. There are no major US economic reports Monday, and one correction matters more than anything on the list: the Chicago Business Barometer is NOT due Monday. Some aggregators carry an Aug 31 row with a 57.8 figure; the issuer calendar puts it Friday Aug 28 at 9:45 ET, where it printed 47.1, DOWN 10.5 points from 57.6. What actually matters about Monday is that it is the August close, so month-end rebalancing and settlement flows run through the tape and the price action carries less information than usual. Aug 31 is a UK bank holiday, which thins London liquidity, but US markets hold a normal full session. 13-week and 26-week bill auctions"
   },
   {
    "date": "2026-09-01",
    "time_et": "10:00 AM",
    "event": "ISM Manufacturing PMI and JOLTS job openings",
-   "consensus": "",
-   "importance": "medium",
-   "note": "NY Fed calendar-confirmed for Sept 1 at 10:00 ET. July ISM manufacturing was 55.6% and June JOLTS openings 7.359mn, both from the issuing agencies; TE carries indicative consensus of 55.0-55.3 and 7.39-7.40mn, treated as provisional. Disclosed: one aggregator places JOLTS on Sept 2 against four sources on Sept 1, and we could not confirm it on the BLS's own schedule page, which rendered only through mid-2026. Construction spending the same morning. Fed's Barr speaks - time conflicts between calendars at 9:05 AM and 1:05 PM, so neither is asserted. First hard data of September, two weeks before the Sept 15-16 FOMC"
+   "consensus": "ISM 55.1; JOLTS 7.4mn",
+   "importance": "high",
+   "note": "Both ISM-confirmed and BLS-confirmed for Sept 1 at 10:00 ET, and this is now the most interesting setup of the week. ISM manufacturing consensus is 55.1 against a July print of 55.6 - and that consensus has NOT repriced for Friday's Chicago collapse to 47.1. Regional surveys are noisy and Chicago is the noisiest of them, so this is an asymmetry rather than a forecast: if the national number follows Chicago down, it lands ten days before an FOMC the market has priced 59% for a HIKE. JOLTS resolved this run - the BLS September schedule states Tuesday Sept 1, 10:00 AM verbatim, so yesterday's Sep 2 conflict is closed and the Sep 2 listings are wrong. Consensus 7.4mn against 7.4mn prior. Construction spending the same morning, consensus -0.1%. Governor Barr speaks at 9:05 AM ET, also resolved this run on the Fed's own calendar; the 1:05 PM listings circulating on aggregators appear to be a timezone conversion error. Dell after the close"
   },
   {
    "date": "2026-09-02",
    "time_et": "2:00 PM",
    "event": "Fed Beige Book; ADP employment 8:15 AM and factory orders",
-   "consensus": "",
+   "consensus": "ADP +45k; factory orders +0.5%",
    "importance": "medium",
-   "note": "Fed and ADP confirmed. July ADP was plus 44,000. The Beige Book is the last qualitative read the committee publishes before the September meeting, and after Friday it is the first chance to see whether the districts describe the inflation Warsh described"
+   "note": "Fed and ADP both issuer-confirmed. July ADP was plus 44,000 with June revised to plus 95,000; consensus is plus 45,000 from three economists. Factory orders consensus is plus 0.5% against minus 0.3% in June. The Beige Book is the last qualitative read the committee publishes before the September meeting, and after Friday it is the first chance to see whether the districts describe the inflation the Chair described. Broadcom reports after the close - moved from Friday to Wednesday this run on the issuer's own confirmation"
   },
   {
    "date": "2026-09-03",
@@ -31,15 +31,15 @@
    "event": "ISM Services PMI; jobless claims, trade balance and revised productivity 8:30 AM",
    "consensus": "",
    "importance": "medium",
-   "note": "NY Fed-confirmed. July ISM services was 54.1%. Revised productivity and unit labour costs land the same morning and matter more than usual now that the Chair has put the inflation burden on the central bank rather than on the labour market. Fed speakers Thursday are given as Waller on one calendar and Cleveland's Hammack plus Chicago's Goolsbee on another; both are reported, neither is reconciled"
+   "note": "NY Fed-confirmed. July ISM services was 54.1%. Revised productivity and unit labour costs land the same morning and matter more than usual now that the Chair has put the inflation burden on the central bank rather than on the labour market. Thursday's Fed speaker slate is still given as Waller on one calendar and Cleveland's Hammack plus Chicago's Goolsbee on another; both are reported, neither is reconciled. One honest limit carried forward: the prior claims figure of 203,000 comes from Reuters and Dow Jones rather than from the Labor Department's own page, which timed out"
   },
   {
    "date": "2026-09-04",
    "time_et": "8:30 AM",
    "event": "AUGUST EMPLOYMENT REPORT",
-   "consensus": "",
+   "consensus": "+50k; 4.1%",
    "importance": "high",
-   "note": "Triple-verified on the BLS empsit page and the September release schedule, and independently on the NY Fed calendar. Consensus is around plus 60,000 with unemployment at 4.1% - a Reuters poll reads plus 58,000 and 4.1%, one house reads plus 60,000 and 4.2%, so the range is named rather than a single figure asserted. July was MINUS 23,000 payrolls with a 4.1% unemployment rate. This is the single most consequential number between now and the Sept 15-16 FOMC, it lands eleven days before that decision, and it lands into pre-holiday liquidity on the Friday before the Sept 7 close. Reuters frames jobs plus Broadcom as the week's two hurdles"
+   "note": "Triple-verified this run on the BLS empsit page, the BLS September release schedule and the NY Fed September calendar. Consensus is plus 50,000 with unemployment at 4.1%, and the attribution matters: that is the Dow Jones Newswires survey of eleven economists published Aug 28, which supersedes the Reuters plus-58,000 figure we carried yesterday. Sell-side dispersion is wide, plus 15,000 to plus 90,000, so treat any single number with suspicion. July was MINUS 23,000 payrolls with a 4.1% unemployment rate. This is the single most consequential number between now and the FOMC, it lands eleven days before that decision, and it lands into pre-holiday liquidity on the Friday before the Sept 7 Labor Day close"
   }
  ],
  "earnings": [
@@ -49,7 +49,7 @@
    "name": "Dell Technologies",
    "session": "after-close",
    "importance": "medium",
-   "note": "4:30 PM ET Tuesday, IR-confirmed. The next real AI-server datapoint into a tape that just sold Marvell 10.28% for soft guidance. There are no noteworthy US earnings before Tuesday, which is worth stating rather than padding the list"
+   "note": "4:30 PM ET Tuesday, confirmed on Dell's own IR event page and its Aug 18 press release. The next real AI-server datapoint into a tape that just sold Marvell down 10.28% for soft guidance. There are no noteworthy US earnings before Tuesday, which is worth stating rather than padding the list"
   },
   {
    "date": "2026-09-01",
@@ -57,15 +57,15 @@
    "name": "MongoDB",
    "session": "after-close",
    "importance": "low",
-   "note": "5:00 PM ET Tuesday, IR-confirmed. Enterprise software into the same guidance-punishment tape"
+   "note": "5:00 PM ET Tuesday, confirmed on MongoDB's IR announcement and its IR homepage. Enterprise software into the same guidance-punishment tape"
   },
   {
-   "date": "2026-09-04",
+   "date": "2026-09-02",
    "ticker": "AVGO",
    "name": "Broadcom",
    "session": "after-close",
    "importance": "high",
-   "note": "Broadcom headlines the week's earnings and is the AI-silicon read-through that matters most after Marvell's 10.28% Friday drop and Nvidia's 4.58% give-back. Also due that week: Palo Alto Networks, Zscaler, Lululemon, HPE, GitLab, NetApp and Samsara. Date is per a week-ahead wire rather than an IR page, so treat the exact day as provisional"
+   "note": "5:00 PM ET WEDNESDAY, and this is a correction to what we published yesterday. We carried Broadcom as Friday Sept 4 on a week-ahead wire and explicitly labelled the day provisional; the issuer confirms Wednesday Sept 2, and it is Q3 fiscal 2026 rather than Q4. It is the AI-silicon read-through that matters most after Marvell's 10.28% Friday drop and Nvidia's 4.58% give-back, and it now lands two days earlier than we told you. Also due that week: Palo Alto Networks, Zscaler, Lululemon, HPE, GitLab, NetApp and Samsara"
   }
  ]
 }
