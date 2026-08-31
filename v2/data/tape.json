@@ -1,121 +1,121 @@
 {
- "SPX": {
-  "value": 7711.76,
-  "as_of": "2026-08-28 close",
-  "status": "CLOSED",
-  "prev_close": 7730.99,
-  "delta_pct": -0.2487,
-  "label": "S&P 500",
-  "source": "Polygon I:SPX 8/28 settled close, -19.23 points, re-derived from our own daily series this run. Two sessions old now and nothing has traded since, which is worth saying plainly on a Sunday: this is Friday's number, not a stale one. The week finished +0.49%, a second consecutive weekly gain, so a hawkish Friday did not undo the week. Internals disagreed with the headline: 1,791 advancers against 2,888 decliners, only 37% of issues higher. NOT ATH - 1.119% below the 8/13/26 record close 7798.99. Up 2.96% over the last month measured against the 7/31 close"
- },
- "NDX": {
-  "value": 29433.43,
-  "as_of": "2026-08-28 close",
-  "status": "CLOSED",
-  "prev_close": 29641.56,
-  "delta_pct": -0.7022,
-  "label": "Nasdaq 100",
-  "source": "Polygon I:NDX 8/28 settled close, -0.70%, our own bars. The gap we flagged yesterday is unchanged: no wire we checked published a citable Friday NDX close, so this figure is ours and is labelled as such rather than borrowed. The index finished the WEEK +0.43%. NOT ATH - 4.002% below the 6/2/26 record close 30660.60, so the Nasdaq 100 remains 4% under a level it set three months ago even after a 4.10% month"
- },
- "SOX": {
-  "value": 11469.66,
-  "as_of": "2026-08-28 close",
-  "status": "CLOSED",
-  "prev_close": 11882.17,
-  "delta_pct": -3.4716,
-  "label": "Philly Semis",
-  "source": "Polygon I:SOX 8/28 settled close, -3.47%, still the worst thing on this board by a wide margin. Marvell -10.28% and Nvidia -4.58% did most of it. For the WEEK the semiconductor index fell 2.31% while the S&P rose 0.49% - the AI complex underperformed the market in a week its largest member reported 117% data-centre growth. NOT ATH and this is the number to keep in front of a client: still 21.627% below the 6/22/26 record close 14634.72. The semis are more than a fifth below their own June high. Dell reports Tuesday and Broadcom Wednesday, so this gets re-tested within 72 hours"
- },
- "DJI": {
-  "value": 53559.99,
-  "as_of": "2026-08-28 close",
-  "status": "CLOSED",
-  "prev_close": 53569.44,
-  "delta_pct": -0.0176,
-  "label": "Dow 30",
-  "source": "Polygon I:DJI 8/28 settled close, -9.45 points, -0.02% - effectively unchanged, and the least AI-exposed of the four benchmarks was the best of them on the day. For the WEEK the Dow added 0.53% and snapped a two-week losing streak. NOT ATH - 1.452% below the 8/5/26 record close 54349.12 (record high 54744.33 the same day)"
- },
- "VIX": {
-  "value": 14.43,
-  "as_of": "2026-08-28 close",
-  "status": "CLOSED",
-  "prev_close": 14.51,
-  "delta_pct": -0.5513,
-  "label": "VIX",
-  "source": "Polygon I:VIX 8/28 settled close, -0.55%. Two days on, this is still the most interesting fact on the board: on the day the Fed Chair triggered the largest hawkish repricing of the year, equity volatility FELL. VIX3M settled 17.48, so front-to-three-month is 14.43/17.48 = 0.8255 against 0.8263 Thursday - still steep contango, still complacency. VXN, the Nasdaq-100 volatility index, settled 19.92, -1.58%, its LOWEST CLOSE SINCE 2026-01-12 on our own two-year series, and -9.37% for the week. Nothing over the weekend disturbed that: no Fed speaker, no clarification, no Sunday-show appearance by a Fed or Treasury principal. Whatever the VIX is telling you, it has now had 48 hours to change its mind and has not been given a reason to"
- },
- "US10Y": {
-  "value": 4.717,
-  "as_of": "2026-08-28 settle",
-  "status": "CLOSED",
-  "prev_close": 4.674,
-  "delta_pct": 0.92,
-  "label": "US 10Y",
-  "unit": "pct",
-  "source": "Friday settle, +4.3bp, re-read from TradingEconomics' country bond-yield page this run at 4.7170/+0.0430 and corroborated on TE /bonds at the same 4.7170. LESSON #166-A HAS CLEARED: yesterday TE's dedicated 10Y page read 4.69/+0.01pp and was contradicted by TE's own overview table and four wires, so we logged it DEGRADED. This run all three TE surfaces AGREE at 4.717, which means yesterday's defect was a lagged intraday snapshot that has since settled, not a persistent vendor fault. No DEGRADED flag on rates today. CNBC's US10Y quote page shows 4.73%/+0.058 timed 5:05 PM EDT, which is the later cash-market cut rather than a disagreement about the level"
- },
- "US2Y": {
-  "value": 4.352,
-  "as_of": "2026-08-28 settle",
-  "status": "CLOSED",
-  "prev_close": 4.238,
-  "delta_pct": 2.6899,
-  "label": "US 2Y",
-  "unit": "pct",
-  "source": "Friday settle, +11.4bp, re-read from TE's dedicated 2Y page this run at 4.3520/+0.1140 - the single largest move on the board in yield terms and where the Warsh speech actually landed. The curve BEAR FLATTENED and we re-derive it rather than carrying it: 4.717 minus 4.352 is 36.5bp of 2s10s, against 4.674 minus 4.238 or 43.6bp the day before, so 7.1bp of flattening. The 5-year settled 4.49% (+8.6bp) and the 30-year 5.21% (+1.1bp), so the whole belly moved and the long end barely did. Attributed rather than asserted: WSJ and Dow Jones called the 2-year's +0.118pp the largest single-day yield gain following a Jackson Hole Chair speech since Greenspan in 1996 - their claim, their basis. Cut probability is still exactly ZERO at every meeting through January 2027"
- },
- "WTI": {
-  "value": 83.4,
-  "as_of": "2026-08-28 settle",
-  "status": "CLOSED",
-  "prev_close": 83.53,
-  "delta_pct": -0.1556,
-  "label": "WTI Crude",
-  "source": "October contract SETTLEMENT, -$0.13, -0.16%, on two sources NEW this run rather than carried: Barchart's CLV26 contract page and energynow.ca independently give 83.40 / -0.13 / -0.16%. energynow adds the citable weekly basis we lacked yesterday - down $3.66 or 4.2% from the prior Friday's $87.06 close - and notes TradingView's continuous contract at 83.43 after the close, confirming the settle. The driver has not changed: recovering Hormuz tanker traffic plus Iran-Oman corridor talks reframed Iran as a sanctions story rather than a supply story. That reframing now has a live test, because the Venezuela agreement developed over the weekend in the direction of MORE confusion, not less"
- },
- "BRENT": {
-  "value": 89.31,
-  "as_of": "2026-08-28 settle",
-  "status": "CLOSED",
-  "prev_close": 89.7,
-  "delta_pct": -0.4348,
-  "label": "Brent Crude",
-  "source": "October contract SETTLEMENT, -$0.39, -0.43%. NEW DATA DEFECT LOGGED, lesson #167-A: TradingEconomics' Brent page contradicted ITSELF this run. Its data table read 88.290/-0.23/-0.26% while the narrative text on the SAME page read that Brent fell to $89.3 on Friday, extending weekly losses to over 5%. The narrative is right - pflpetroleum's daily report and Forbes both put the settle at 89.31 - and the 88.29 print is a contract-roll artefact, since Brent October expires Aug 31 and quote vendors roll early. We ship 89.31 and name the basis. This is a different failure mode from yesterday's: there a dedicated page lagged a wire, here one page disagrees with its own prose. Brent fell more than 5% on the week, the first weekly loss in three"
- },
- "GOLD": {
-  "value": 4454.89,
-  "as_of": "2026-08-28 close",
-  "status": "CLOSED",
-  "prev_close": 4594.37,
-  "delta_pct": -3.0359,
-  "label": "Gold",
-  "source": "Polygon C:XAUUSD settled UTC-day bar, -3.04%, its worst session since 2026-02-05 on our own series - and still the cleanest confirmation anywhere that Friday was a real rates event rather than a headline. Note a correction to our own prior print: this run's re-read gives the prior close as 4594.37, not the 4594.29 we shipped yesterday, so the delta is -3.0359% rather than -3.0342%. Independent corroboration on the level from Kitco, which is a candidate primary source we have flagged twice: 4454.40, -$146.20, -3.18% timed 17:00 EST Aug 28. The percentage differs from ours only because Kitco's prior-close cut is not the UTC-day cut. Silver did worse at -4.17% and palladium rose 5.32% on the same day, so this was not uniform metals selling. NOT a record - 19.160% below the 1/28/26 record close 5510.73"
- },
- "BTC": {
-  "value": 78140.865,
-  "as_of": "2026-08-30 11:13 GMT",
-  "status": "LIVE",
-  "prev_close": 78233.93,
-  "delta_pct": -0.119,
-  "label": "Bitcoin",
-  "source": "Coinbase public spot at 11:13:38 UTC Sunday - the ONLY live price on this board today - against Polygon's settled 8/29 UTC-day close of 78233.93, both re-derived this run (Polygon crypto live and minute endpoints return 403; entitlement absent, not retried). The useful observation is the quiet: Saturday's UTC bar closed 78233.93, +0.51% on the day, on a high of 78351 and a low of 77345.28 - a range of about 1.3% for a 24-hour session, which is unusually tight for this asset and says the weekend produced no forced flows. Bitcoin is now up 0.4% from where it sat before Friday's speech and +24.5% on the month. NOT a record - 37.272% below the 10/6/25 record close 124720.09"
- },
- "EURJPY": {
-  "value": 185.64,
-  "as_of": "2026-08-28 close",
-  "status": "CLOSED",
-  "prev_close": 185.654,
-  "delta_pct": -0.0075,
-  "label": "EUR/JPY",
-  "source": "Polygon C:EURJPY settled 8/28 close, effectively unchanged at -0.01%. That is the point of showing it: on the day the front end of the US curve moved 11bp, the yen carry cross did not move at all. No funding stress, no forced unwind, no risk-parity signature anywhere in FX. NOT a record - 1.020% below the 4/16/26 record close 187.552. The dollar-index gap we flagged yesterday is unchanged: no citable Friday DXY close, only 99.20 at 9:13 ET pre-speech, with the wires putting the dollar +0.4% to +0.53% on the day, which we report as a range rather than a level"
- },
- "AUDJPY": {
-  "value": 114.62,
-  "as_of": "2026-08-28 close",
-  "status": "CLOSED",
-  "prev_close": 114.63,
-  "delta_pct": -0.0087,
-  "label": "AUD/JPY",
-  "source": "Polygon C:AUDJPY settled 8/28 close, -0.01%, the second carry cross and the same message: flat. One precise distinction that our ATH check forces and that a careless read would get wrong - AUD/JPY set its highest INTRADAY HIGH of the last two years on Friday at 114.96, but its CLOSE is still 0.115% below the 6/2/26 record close of 114.752. That is a high-water intraday mark, NOT a record close, and it is not reported as one. Both carry crosses sitting still while US front-end yields jumped remains the strongest evidence that Friday was a repricing rather than a stress event"
- }
+  "ES": {
+    "value": 7707.5,
+    "as_of": "2026-08-31 05:57 ET",
+    "status": "LIVE",
+    "prev_close": 7722.0,
+    "delta_pct": -0.1878,
+    "label": "S&P 500 Fut",
+    "source": "S&P 500 E-mini September contract, -14.50 points, off its own prior settle of 7722.00 - MarketWatch site strip, page updated 5:57 a.m. EDT. Read that number against what happened overnight, because the restraint is the story: US forces struck Iranian rocket launchers in the Strait of Hormuz, Iran fired ballistic missiles at two US-operated airbases in Jordan, crude gapped 3.5%, and the S&P is down two tenths of one percent. Corroborated at three timestamps rather than asserted from one - Reuters had E-minis -0.13% at 5:02 a.m. ET and Investing.com 7708.00/-0.18% at 06:31:50. Friday's CASH close was 7711.76, -0.25%, and the week finished +0.49%, a second consecutive weekly gain. NOT ATH: the cash index is 1.119% below its 8/13/26 record close of 7798.99 and +2.97% for the month against the 7/31 settle. This is month-end, so expect index-rebalance and market-on-close flows to distort the last half hour"
+  },
+  "NQ": {
+    "value": 29449.0,
+    "as_of": "2026-08-31 05:57 ET",
+    "status": "LIVE",
+    "prev_close": 29491.75,
+    "delta_pct": -0.145,
+    "label": "Nasdaq 100 Fut",
+    "source": "Nasdaq 100 E-mini September contract, -42.75 points, MarketWatch 5:57 a.m. EDT; Reuters had it -0.04% at 5:02 a.m. ET, so the two freshest reads bracket roughly flat. Nvidia is +0.72% pre-market and is the ONLY Magnificent Seven name higher, with Intel +1.73%, Lam Research +1.00% and Texas Instruments +0.92% alongside it - a semis bid inside a flat tape. Friday's CASH close was 29433.43, -0.70%, week +0.43%. NOT ATH and this is the number that matters for a client conversation about AI: the Nasdaq 100 is 4.002% below its 6/2/26 record close of 30660.60, three months on, even after gaining 4.10% this month. Dell and MongoDB report Tuesday after the close, Broadcom Wednesday at 5:00 p.m. - the AI capex thesis gets three live tests in 72 hours"
+  },
+  "SOX": {
+    "value": 11469.66,
+    "as_of": "2026-08-28 close",
+    "status": "CLOSED",
+    "prev_close": 11882.17,
+    "delta_pct": -3.4716,
+    "label": "Philly Semis",
+    "source": "Polygon I:SOX Friday settled close, -3.47%, still the worst thing on this board and by a wide margin. Marvell -10.28% and Nvidia -4.58% did most of it. For the WEEK the semiconductor index fell 2.31% while the S&P rose 0.49% - the AI complex underperformed the market in a week its largest member reported 117% data-centre growth. NOT ATH, and this is the figure to keep in front of a client who thinks semis only go up: still 21.627% below the 6/22/26 record close of 14634.72. More than a fifth below its own June high. The pre-market bid in Nvidia, Intel, Lam and TI is the first thing pushing back, and Broadcom Wednesday evening is the real test"
+  },
+  "DJI": {
+    "value": 53559.99,
+    "as_of": "2026-08-28 close",
+    "status": "CLOSED",
+    "prev_close": 53569.44,
+    "delta_pct": -0.0176,
+    "label": "Dow 30",
+    "source": "Polygon I:DJI Friday settled close, -9.45 points, -0.02% - effectively unchanged, and the least AI-exposed of the benchmarks was the best of them on the day. For the WEEK the Dow added 0.53% and snapped a two-week losing streak; +2.05% for the month. NOT ATH - 1.452% below the 8/5/26 record close of 54349.12. Dow futures are -89 points, -0.17%, at 5:57 a.m. EDT"
+  },
+  "VIX": {
+    "value": 14.43,
+    "as_of": "2026-08-28 close",
+    "status": "CLOSED",
+    "prev_close": 14.51,
+    "delta_pct": -0.5513,
+    "label": "VIX",
+    "source": "Polygon I:VIX Friday settled close, -0.55%, and it is deliberately shipped as Friday's CLOSED settle rather than an overnight print because cash VIX does not calculate outside US hours. For colour only, and explicitly not a tradeable level: MarketWatch's strip showed an indicated 15.17, +5.13%, at 2:00 a.m. EDT, which is futures-derived or indicative - DEGRADED, directionally useful, so read it as vol bid roughly 5% pre-open and nothing more precise than that. The Friday structure is what stands: VIX3M settled 17.48, so front-to-three-month is 14.43/17.48 = 0.826, still steep contango, still complacency. VXN, the Nasdaq-100 volatility index, settled 19.92, -1.58%, its LOWEST CLOSE SINCE 2026-01-12 on our own two-year series and -9.37% for the week. That complacency was priced BEFORE the Larak Island strike and before September hike odds settled near 59%. It has not yet been asked a hard question"
+  },
+  "US10Y": {
+    "value": 4.725,
+    "as_of": "2026-08-31 07:03 ET",
+    "status": "LIVE",
+    "prev_close": 4.722,
+    "delta_pct": 0.0635,
+    "label": "US 10Y",
+    "unit": "pct",
+    "source": "+0.3bp, Investing.com real-time quote stamped 07:03:01, overnight range 4.697-4.725 - so the 10-year is sitting at the very TOP of its overnight range and just under its 52-week high of 4.748%. That is the level to watch today. Friday's close is best stated as roughly 4.72% rather than to the basis point: vendors disagree by about 5bp of snapshot timing (Investing 4.722%, MarketWatch 4.674% on an earlier Friday cut, CNBC 4.73% at 5:05 p.m.), and CNBC's 4.73% is Friday's close being served as though it were live - added to the stale list. Corroborated by MarketWatch's own cross-table at 4.718%"
+  },
+  "US2Y": {
+    "value": 4.329,
+    "as_of": "2026-08-31 02:00 ET",
+    "status": "LIVE",
+    "prev_close": 4.352,
+    "delta_pct": -0.5285,
+    "label": "US 2Y",
+    "unit": "pct",
+    "source": "-2.3bp against Friday's 4.352% settle, MarketWatch stamped 2:00 a.m. EDT, overnight range 4.329-4.356; Investing.com corroborates at 4.327%, -2.3bp, around 06:08. THE DIVERGENCE IS THE POINT. The 2-year jumped almost 12bp on Friday on the Warsh speech - the largest single-day move on the board - and overnight it gave a little back even as September hike odds held near 59% and did not fade over the weekend. Treasury futures agree: the 2Y, 5Y, 10Y and 30Y continuous contracts are all marginally HIGHER in price, +0.04% to +0.06%. So the front end took a breather while the long end sat still. Either the hike pricing is running ahead of the bond market or Hormuz is quietly supporting the front end. 2s10s is now 4.725 minus 4.329 = 39.6bp, against 36.5bp Friday, so 3.1bp of RE-STEEPENING after Friday's sharp bear-flattening. The 30-year is 5.209%-5.219%, unchanged to +1bp. Cut probability remains exactly ZERO at every meeting through January 2027"
+  },
+  "WTI": {
+    "value": 86.36,
+    "as_of": "2026-08-31 09:03 GMT",
+    "status": "LIVE",
+    "prev_close": 83.4,
+    "delta_pct": 3.5492,
+    "label": "WTI Oct",
+    "source": "October 2026 contract, +$2.96, Reuters energy desk with an explicit 0903 GMT dateline and a named reporter. The contract has NOT rolled - Investing.com confirms Oct 26, settlement 09/22, last rollover 08/20 - and five independent feeds all price off the same $83.40 Friday settle, which is the proof the gap is real rather than a vendor artefact. It gapped to an $84.60 open on the Sunday 6 p.m. ET reopen, has ground higher through Asia and Europe, printed a high of $86.78, and was STILL FIRMING into 6 a.m.: MarketWatch's 5:57 a.m. strip is the highest read at $86.59, +3.82%. THE DRIVER IS A HOPE TRADE UNWINDING, NOT JUST A RISK PREMIUM, and that is why 3.5% is not an overreaction. Crude fell more than 4% LAST week - its first weekly decline in three - because Iran and Oman were reported to be negotiating a reopening of the strait. Those talks collapsed, then US forces struck two Iranian rocket launchers on Larak Island after observing IRGC units preparing to fire rockets carrying SEA MINES into the strait. The market is unwinding a reopening it had already paid for. The curve confirms it is disruption pricing rather than a structural re-rating: Oct +2.02, Nov +1.89, Dec +1.84 - the front moved most. Physical flow is the number that matters: Hormuz crude exports averaged 3.8m bpd over the past week against 9.8m bpd during the 25-day ceasefire, Iranian exports are at ZERO, and visible transits fell to five a day. UKMTO Warning 122-26 reports a crude tanker struck by a projectile 12nm north of Khasab, the THIRD strait attack in a week. Two cautions, both material. Ole Hansen at Saxo notes the reaction is amplified by thin volumes with London closed. And part of this rally may be priced on an AI-GENERATED VIDEO the President posted claiming Kharg Island was destroyed - no military confirmation, an Iranian official called it laughable. If that is in the price, it is reversal risk. Rejected sources: CNBC @CL.1 at 83.44 is Friday's data, oilprice.com at 82.12 is roughly Aug 27 vintage and points the WRONG way, Barchart self-labels Aug 27"
+  },
+  "BRENT": {
+    "value": 90.45,
+    "as_of": "2026-08-31 live",
+    "status": "LIVE",
+    "prev_close": 88.1,
+    "delta_pct": 2.6674,
+    "label": "Brent Nov",
+    "source": "NOVEMBER 2026 contract, +2.67%, Reuters markets table - and the contract month is stated because getting it wrong is the trap that nearly ate this tile for the second run running. Brent OCTOBER EXPIRES TODAY. Every fresh vendor has already rolled, and we proved it by arithmetic rather than trusting a label: Reuters 90.45/+2.67% implies a prior close of 88.10, MarketWatch 90.49/+2.39 implies 88.10, Reuters energy 91.25/+3.15 implies 88.10. Friday's OCTOBER settle was 89.31, so 88.10 is NOVEMBER's Friday settle and TradingEconomics was printing a correctly-rolled number all along - the error in run #167 was our comparison base, not their data. Do not compute Brent's change against 89.31. Range across fresh feeds is $90.45-91.25, +2.7% to +3.6%. Note what the roll reveals: Friday's Oct-Nov backwardation was $1.21, and November has now traded straight THROUGH Friday's October price, which is consistent with genuine supply-risk repricing rather than a calendar artefact. EXCLUDED, not averaged: Investing.com has rolled to DECEMBER, base 86.12, printing +4.55% - not comparable, and its month metadata may itself be mislabelled"
+  },
+  "GOLD": {
+    "value": 4425.0,
+    "as_of": "2026-08-31 00:38 UTC",
+    "status": "LIVE",
+    "prev_close": 4454.89,
+    "delta_pct": -0.6709,
+    "label": "Gold spot",
+    "source": "Spot XAU, -0.6%, Reuters - and GOLD IS DOWN ON A NIGHT OF LIVE MILITARY ESCALATION IN THE WORLD'S MOST IMPORTANT OIL CHOKEPOINT. That single fact reframes the whole session: this is a rates-dominated tape, not a fear-dominated one. The September hike repricing and a 30-year high in JGB yields are overwhelming the safe-haven bid. December COMEX futures corroborate at $4,493.50, -$36.40, -0.80% against a stated 8/28 settle of $4,529.90 (MarketWatch 5:57 a.m. EDT), with Investing.com independently at $4,500.76, -0.64%, at 06:31:56. TWO ACCOUNTING NOTES so the numbers reconcile: our Friday 4454.89 is SPOT and the 4529.90 is DECEMBER FUTURES - roughly $75 apart, never to be compared across - and the $4,560 figure in TradingEconomics' narrative is WRONG, contradicted by TE's own data table, and was not propagated. Front-month September futures traded as low as $4,410.90 overnight, which is already through the bottom of the 4,432-4,454 support zone Investing.com's technicians were flagging two hours before the open. Gold fell 3.04% last week. Rejected: CNBC @GC.1 is Friday with open/high/low all 0.00, and CNBC's XAU= is a FROZEN feed with open, high, low and previous close all identical at 4452.67"
+  },
+  "BTC": {
+    "value": 78534.11,
+    "as_of": "2026-08-31 11:17 UTC",
+    "status": "LIVE",
+    "prev_close": 77684.0,
+    "delta_pct": 1.0943,
+    "label": "Bitcoin",
+    "source": "Coinbase public spot, stamped 11:17:11 UTC this run, against the 8/30 UTC daily close of 77,684 from Polygon's X:BTCUSD bars - both re-derived this morning, neither carried. Bitcoin is one of the few things HIGHER overnight, and the crypto-linked equities are following it: Coinbase, Strategy and CleanSpark are all up between 0.97% and 1.92% pre-market. Worth keeping in proportion for a client, though - the 8/30 close was -0.70% on the day and -0.82% for the week. The real number is the month: +23.65% against the 7/31 close. That is the single largest monthly move on this board by a factor of five, and it happened while the semiconductor index fell 21.6% short of its June high"
+  },
+  "EURJPY": {
+    "value": 185.19,
+    "as_of": "2026-08-31 00:38 UTC",
+    "status": "LIVE",
+    "prev_close": 185.64,
+    "delta_pct": -0.2424,
+    "label": "EUR/JPY",
+    "source": "Cross computed this run from Reuters' two overnight legs rather than taken from a vendor cross quote: USD/JPY 159.78, -0.1%, and EUR/USD $1.1590, giving 185.19 against Friday's 185.64. Down about a quarter percent. THIS TILE IS HERE TO ANSWER THE YEN QUESTION WITHOUT THE DOLLAR IN THE WAY, and tonight it earns its place, because the yen story is loud: the 10-year JGB reached 2.950% at the Tokyo close, THE HIGHEST BENCHMARK JAPANESE YIELD SINCE OCTOBER 1996. An unnamed official at a Japanese securities house told Jiji that 3% could print as early as this week - unnamed, so colour only. Yet USD/JPY is 159.78 and the yen crosses are barely moved, which says this is being read as a Japanese domestic rates story rather than a funding event. Two policy anchors: a Reuters poll taken Aug 17-24 found 57% of economists expect a BOJ hike to 1.25% in September, and Treasury Secretary Bessent said Sunday the yen's move is 'pretty well contained' and that he will meet the BOJ governor at the G20 - language that reads as explicitly NOT setting up joint intervention"
+  },
+  "AUDJPY": {
+    "value": 114.62,
+    "as_of": "2026-08-28 close",
+    "status": "CLOSED",
+    "prev_close": 114.62,
+    "delta_pct": 0.0,
+    "label": "AUD/JPY",
+    "source": "Friday's close, shipped CLOSED and flat because we could NOT source a demonstrably fresh Monday AUD leg and will not derive a risk-appetite tile from a stale one. The Polygon 8/30 bar reads 114.623 but that is a thin Sunday-evening sliver spanning only 22:00-24:00 UTC, which is not a session. Stated as a known gap rather than papered over. The partner tile above carries the yen signal tonight. For orientation, the pair's record CLOSE is 114.752 from 6/2/26; the 114.96 high printed on 8/28 was intraday and is NOT a record close"
+  }
 }

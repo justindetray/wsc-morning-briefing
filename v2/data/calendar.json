@@ -1,71 +1,257 @@
 {
- "last_curated": "2026-08-30 07:30 AM ET",
- "macro": [
-  {
-   "date": "2026-08-31",
-   "time_et": "10:30 AM",
-   "event": "Dallas Fed manufacturing survey; MONTH-END",
-   "consensus": "",
-   "importance": "low",
-   "note": "Dallas Fed-confirmed at 9:30 CT. July general business activity was +1.3 and production 10.1. There are no major US economic reports Monday, and one correction matters more than anything on the list: the Chicago Business Barometer is NOT due Monday. Some aggregators carry an Aug 31 row with a 57.8 figure; the issuer calendar puts it Friday Aug 28 at 9:45 ET, where it printed 47.1, DOWN 10.5 points from 57.6. What actually matters about Monday is that it is the August close, so month-end rebalancing and settlement flows run through the tape and the price action carries less information than usual. Aug 31 is a UK bank holiday, which thins London liquidity, but US markets hold a normal full session. 13-week and 26-week bill auctions"
-  },
-  {
-   "date": "2026-09-01",
-   "time_et": "10:00 AM",
-   "event": "ISM Manufacturing PMI and JOLTS job openings",
-   "consensus": "ISM 55.1; JOLTS 7.4mn",
-   "importance": "high",
-   "note": "Both ISM-confirmed and BLS-confirmed for Sept 1 at 10:00 ET, and this is now the most interesting setup of the week. ISM manufacturing consensus is 55.1 against a July print of 55.6 - and that consensus has NOT repriced for Friday's Chicago collapse to 47.1. Regional surveys are noisy and Chicago is the noisiest of them, so this is an asymmetry rather than a forecast: if the national number follows Chicago down, it lands ten days before an FOMC the market has priced 59% for a HIKE. JOLTS resolved this run - the BLS September schedule states Tuesday Sept 1, 10:00 AM verbatim, so yesterday's Sep 2 conflict is closed and the Sep 2 listings are wrong. Consensus 7.4mn against 7.4mn prior. Construction spending the same morning, consensus -0.1%. Governor Barr speaks at 9:05 AM ET, also resolved this run on the Fed's own calendar; the 1:05 PM listings circulating on aggregators appear to be a timezone conversion error. Dell after the close"
-  },
-  {
-   "date": "2026-09-02",
-   "time_et": "2:00 PM",
-   "event": "Fed Beige Book; ADP employment 8:15 AM and factory orders",
-   "consensus": "ADP +45k; factory orders +0.5%",
-   "importance": "medium",
-   "note": "Fed and ADP both issuer-confirmed. July ADP was plus 44,000 with June revised to plus 95,000; consensus is plus 45,000 from three economists. Factory orders consensus is plus 0.5% against minus 0.3% in June. The Beige Book is the last qualitative read the committee publishes before the September meeting, and after Friday it is the first chance to see whether the districts describe the inflation the Chair described. Broadcom reports after the close - moved from Friday to Wednesday this run on the issuer's own confirmation"
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "10:00 AM",
-   "event": "ISM Services PMI; jobless claims, trade balance and revised productivity 8:30 AM",
-   "consensus": "",
-   "importance": "medium",
-   "note": "NY Fed-confirmed. July ISM services was 54.1%. Revised productivity and unit labour costs land the same morning and matter more than usual now that the Chair has put the inflation burden on the central bank rather than on the labour market. Thursday's Fed speaker slate is still given as Waller on one calendar and Cleveland's Hammack plus Chicago's Goolsbee on another; both are reported, neither is reconciled. One honest limit carried forward: the prior claims figure of 203,000 comes from Reuters and Dow Jones rather than from the Labor Department's own page, which timed out"
-  },
-  {
-   "date": "2026-09-04",
-   "time_et": "8:30 AM",
-   "event": "AUGUST EMPLOYMENT REPORT",
-   "consensus": "+50k; 4.1%",
-   "importance": "high",
-   "note": "Triple-verified this run on the BLS empsit page, the BLS September release schedule and the NY Fed September calendar. Consensus is plus 50,000 with unemployment at 4.1%, and the attribution matters: that is the Dow Jones Newswires survey of eleven economists published Aug 28, which supersedes the Reuters plus-58,000 figure we carried yesterday. Sell-side dispersion is wide, plus 15,000 to plus 90,000, so treat any single number with suspicion. July was MINUS 23,000 payrolls with a 4.1% unemployment rate. This is the single most consequential number between now and the FOMC, it lands eleven days before that decision, and it lands into pre-holiday liquidity on the Friday before the Sept 7 Labor Day close"
-  }
- ],
- "earnings": [
-  {
-   "date": "2026-09-01",
-   "ticker": "DELL",
-   "name": "Dell Technologies",
-   "session": "after-close",
-   "importance": "medium",
-   "note": "4:30 PM ET Tuesday, confirmed on Dell's own IR event page and its Aug 18 press release. The next real AI-server datapoint into a tape that just sold Marvell down 10.28% for soft guidance. There are no noteworthy US earnings before Tuesday, which is worth stating rather than padding the list"
-  },
-  {
-   "date": "2026-09-01",
-   "ticker": "MDB",
-   "name": "MongoDB",
-   "session": "after-close",
-   "importance": "low",
-   "note": "5:00 PM ET Tuesday, confirmed on MongoDB's IR announcement and its IR homepage. Enterprise software into the same guidance-punishment tape"
-  },
-  {
-   "date": "2026-09-02",
-   "ticker": "AVGO",
-   "name": "Broadcom",
-   "session": "after-close",
-   "importance": "high",
-   "note": "5:00 PM ET WEDNESDAY, and this is a correction to what we published yesterday. We carried Broadcom as Friday Sept 4 on a week-ahead wire and explicitly labelled the day provisional; the issuer confirms Wednesday Sept 2, and it is Q3 fiscal 2026 rather than Q4. It is the AI-silicon read-through that matters most after Marvell's 10.28% Friday drop and Nvidia's 4.58% give-back, and it now lands two days earlier than we told you. Also due that week: Palo Alto Networks, Zscaler, Lululemon, HPE, GitLab, NetApp and Samsara"
-  }
- ]
+  "last_curated": "2026-08-31 07:20 ET",
+  "macro": [
+    {
+      "date": "2026-08-31",
+      "time_et": "9:00 AM",
+      "event": "ONEOK call on the $4.425bn Brazos Midstream acquisition and $9bn Apollo minority equity investment",
+      "consensus": "n/a",
+      "importance": "medium",
+      "note": "Corporate, not macro, but it is the most actionable scheduled item in the next hour"
+    },
+    {
+      "date": "2026-08-31",
+      "time_et": "10:30 AM",
+      "event": "Dallas Fed Texas Manufacturing Outlook Survey (August)",
+      "consensus": "no published consensus",
+      "importance": "medium",
+      "note": "9:30 CT. July general business activity +1.3, production 10.1, company outlook 13.4, employment 12.2. The ONLY macro release today, and it lands in an oil-shock session from the state most levered to crude - the price-paid and outlook subindices are worth more than the headline this month"
+    },
+    {
+      "date": "2026-08-31",
+      "time_et": "~11:00/11:30 AM",
+      "event": "13-week and 26-week Treasury bill auctions",
+      "consensus": "n/a",
+      "importance": "low",
+      "note": "Date verified from Treasury's tentative auction schedule (announced 8/27, settles 9/3). TIMES AND SIZES ARE UNVERIFIED - treasurydirect.gov blocks automated access"
+    },
+    {
+      "date": "2026-08-31",
+      "time_et": "1:00 PM",
+      "event": "Fed Commercial Paper (CP)",
+      "consensus": "n/a",
+      "importance": "low",
+      "note": "Statistical release"
+    },
+    {
+      "date": "2026-08-31",
+      "time_et": "4:15 PM",
+      "event": "Fed H.15 Selected Interest Rates, H.10 FX Rates, G.20 Finance Companies",
+      "consensus": "n/a",
+      "importance": "low",
+      "note": "NO FED SPEAKER TODAY - the Fed's own August calendar lists only statistical releases for Aug 31. That is 48-plus hours of total silence since Warsh, with September hike odds sitting near 59%"
+    },
+    {
+      "date": "2026-08-31",
+      "time_et": "4:00 PM",
+      "event": "MONTH-END: index rebalance and market-on-close flows",
+      "consensus": "n/a",
+      "importance": "medium",
+      "note": "Last trading day of August. Expect distortion in the final half hour. No credible published estimate of the August rebalance size was found - only a stale May figure and an undated sheet, both REJECTED rather than laundered"
+    },
+    {
+      "date": "2026-09-01",
+      "time_et": "9:05 AM",
+      "event": "Fed Governor Barr: 'Economic Outlook and Financial Inclusion'",
+      "consensus": "n/a",
+      "importance": "high",
+      "note": "9:05 AM, Second Chance Lending Forum, Washington DC. THE FIRST FED VOICE SINCE WARSH'S JACKSON HOLE SPEECH, and it lands 55 MINUTES BEFORE ISM MANUFACTURING. Verified directly from the Fed's September calendar this run after two subagents disagreed and BOTH were wrong - Barr is Tuesday, Waller is Thursday"
+    },
+    {
+      "date": "2026-09-01",
+      "time_et": "9:45 AM",
+      "event": "S&P Global US Manufacturing PMI (final)",
+      "consensus": "flash 53.2",
+      "importance": "low",
+      "note": "Final release date UNVERIFIED at the issuer - pmi.spglobal.com blocks automated access"
+    },
+    {
+      "date": "2026-09-01",
+      "time_et": "10:00 AM",
+      "event": "ISM Manufacturing PMI (August)",
+      "consensus": "55.1",
+      "importance": "high",
+      "note": "Prior 55.6. Consensus 55.1 from the Dow Jones survey of 12; TE 55.3, Investing 55.2. THE WEEK'S LIVE ASYMMETRY: the MNI Chicago Business Barometer printed 47.1 on Friday, DOWN 10.5 points from 57.6, and this consensus has not repriced for it. The 47.1 level is attributed to MNI and ISM-Chicago rather than asserted - it could not be re-verified at the issuer this run, which is subscriber-gated"
+    },
+    {
+      "date": "2026-09-01",
+      "time_et": "10:00 AM",
+      "event": "JOLTS job openings (July)",
+      "consensus": "7.4M",
+      "importance": "medium",
+      "note": "Prior 7,359,000. Consensus from a survey of 6. The first of four labour datapoints before Friday's payrolls"
+    },
+    {
+      "date": "2026-09-01",
+      "time_et": "10:00 AM",
+      "event": "Construction spending (July)",
+      "consensus": "-0.1%",
+      "importance": "low",
+      "note": "June -0.1%. Survey of 8"
+    },
+    {
+      "date": "2026-09-02",
+      "time_et": "8:15 AM",
+      "event": "ADP employment (August)",
+      "consensus": "+45K",
+      "importance": "medium",
+      "note": "July +44,000; June revised down to +95,000 from +98,000. Survey of 3, so treat the consensus as thin"
+    },
+    {
+      "date": "2026-09-02",
+      "time_et": "10:00 AM",
+      "event": "Factory orders (July)",
+      "consensus": "+0.5%",
+      "importance": "low",
+      "note": "June -0.3%. Survey of 5"
+    },
+    {
+      "date": "2026-09-02",
+      "time_et": "2:00 PM",
+      "event": "FOMC Beige Book",
+      "consensus": "n/a",
+      "importance": "medium",
+      "note": "The last full anecdotal read on the economy before the September 15-16 FOMC. Read the price-pass-through language given crude"
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "8:30 AM",
+      "event": "Fed Governor Waller: 'Economic Outlook' (Reuters NEXT, virtual)",
+      "consensus": "n/a",
+      "importance": "high",
+      "note": "Verified directly from the Fed's September calendar. Lands in the same 8:30 slot as claims, trade and revised productivity"
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "8:30 AM",
+      "event": "Initial jobless claims",
+      "consensus": "205K",
+      "importance": "medium",
+      "note": "Prior 203,000 for the week ended Aug 22, DOL-sourced this run; prior week revised UP to 207,000. Four-week average 205,500, continuing claims 1,778,000. Survey of 9"
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "8:30 AM",
+      "event": "Trade balance (July) and revised Q2 productivity",
+      "consensus": "-$89.7B / +1.4%",
+      "importance": "low",
+      "note": "June trade -$73.3bn, survey of 10. Preliminary Q2 productivity +1.4% with unit labour costs +1.3%; consensus +1.4% and +1.4%, survey of 6"
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "10:00 AM",
+      "event": "ISM Services PMI (August)",
+      "consensus": "54.4",
+      "importance": "high",
+      "note": "July 54.1%. Survey of 11. Given China's services PMI just hit a 44-month low, the services read is the one to watch on both sides of the Pacific this week"
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "3:00 PM",
+      "event": "Cleveland Fed President Hammack",
+      "consensus": "n/a",
+      "importance": "medium",
+      "note": "3:00 PM EDT, sourced to the Cleveland Fed's own president's page rather than the Board calendar, which does not list regional presidents' events. GOOLSBEE IS REFUTED for this week - the Chicago Fed lists only Sept 21 and Sept 30"
+    },
+    {
+      "date": "2026-09-04",
+      "time_et": "8:30 AM",
+      "event": "AUGUST EMPLOYMENT SITUATION",
+      "consensus": "+50K / 4.1%",
+      "importance": "high",
+      "note": "THE WEEK. Prior -23,000 with unemployment at 4.1% and 6.9m unemployed; the trailing 12-month average is only +34,000. Consensus +50,000 and 4.1% from the Dow Jones survey of 11 published 8/28, average hourly earnings +0.2% m/m (survey of 10) and +3.0% y/y (survey of 5). Other published views are wider: roughly +55K at Wolfe (8/25) and +90K at Capital Economics (8/27). Note the asymmetry - with hike odds near 59% and cut odds at exactly zero, a hot print has more room to hurt than a soft one has to help"
+    },
+    {
+      "date": "2026-09-10",
+      "time_et": "8:30 AM",
+      "event": "August PPI",
+      "consensus": "n/a",
+      "importance": "medium",
+      "note": "ECB decision the same day, with the market pricing another hike"
+    },
+    {
+      "date": "2026-09-11",
+      "time_et": "8:30 AM",
+      "event": "AUGUST CPI",
+      "consensus": "n/a",
+      "importance": "high",
+      "note": "CRITICAL SEQUENCING: this lands BEFORE the September 15-16 FOMC, so it is the last inflation print the Committee sees. With crude up 3.5% overnight and weekly Iran sanctions promised, the energy pass-through question is live"
+    },
+    {
+      "date": "2026-09-15",
+      "time_et": "2:00 PM",
+      "event": "FOMC decision (Sept 15-16) with Summary of Economic Projections",
+      "consensus": "n/a",
+      "importance": "high",
+      "note": "Decision and SEP Wednesday Sept 16, presser to follow. Current band 3.50-3.75% after a 9-3 hold on July 29 in which all THREE dissents were FOR a hike. FedWatch has a September hike at 59% and a cut at exactly ZERO. Then Oct 27-28 and Dec 8-9. Labor Day is Monday Sept 7; Canadian counter-tariffs take effect Sept 8; government funding lapses Sept 30"
+    }
+  ],
+  "earnings": [
+    {
+      "date": "2026-08-31",
+      "time_et": "pre-open",
+      "ticker": "SAIC",
+      "note": "Q2 FY2027, call 10:00 AM. The only notable reporter today. NOTE: an aggregator row putting American Eagle (AEO) today is WRONG - AEO reports September 9"
+    },
+    {
+      "date": "2026-09-01",
+      "time_et": "4:30 PM",
+      "ticker": "DELL",
+      "note": "Issuer-verified. The AI-server margin question, straight into the semis weakness"
+    },
+    {
+      "date": "2026-09-01",
+      "time_et": "4:30 PM",
+      "ticker": "PANW",
+      "note": "Issuer-verified"
+    },
+    {
+      "date": "2026-09-01",
+      "time_et": "4:30 PM",
+      "ticker": "GTLB",
+      "note": "Issuer-verified"
+    },
+    {
+      "date": "2026-09-01",
+      "time_et": "5:00 PM",
+      "ticker": "MDB",
+      "note": "Issuer-verified"
+    },
+    {
+      "date": "2026-09-02",
+      "time_et": "5:00 PM",
+      "ticker": "AVGO",
+      "note": "RE-VERIFIED at Broadcom IR this run: Wednesday September 2, 5:00 PM EDT. A FinanceCalendar row showing September 3 is wrong. The single most important print of the week for the AI complex, with SOX 21.6% below its June high"
+    },
+    {
+      "date": "2026-09-02",
+      "time_et": "4:30 PM",
+      "ticker": "HPE",
+      "note": "Issuer-verified"
+    },
+    {
+      "date": "2026-09-02",
+      "time_et": "unverified",
+      "ticker": "NTAP",
+      "note": "Date carried, TIME UNVERIFIED at the issuer"
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "4:30 PM",
+      "ticker": "ZS / LULU",
+      "note": "Both issuer-verified at 4:30 PM"
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "5:00 PM",
+      "ticker": "IOT / GWRE",
+      "note": "Both issuer-verified at 5:00 PM"
+    },
+    {
+      "date": "2026-09-04",
+      "time_et": "n/a",
+      "ticker": "none",
+      "note": "No large-cap earnings Friday - the payrolls print has the day to itself"
+    }
+  ]
 }

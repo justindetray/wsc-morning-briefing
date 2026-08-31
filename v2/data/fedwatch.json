@@ -1,51 +1,51 @@
 {
- "status": "LIVE",
- "as_of": "2026-08-30T11:24:01.411504+00:00",
- "reason": "Cohort 2026-08-28 (Friday settle) - which is the CORRECT cohort for a Sunday, because no session has settled since Friday. Disclosed rather than buried: the CME FedWatch API is DOWN this morning. Our re-fetch failed three consecutive times at the OAuth token endpoint with an HTTP 400 server_error, which is a fault on CME's side and not a credential problem. So these figures were re-parsed this run from the raw saved CME response payload rather than from a live call, and every rateRange array was re-verified from scratch: all four meetings sum to 1.0000 and all four carry reportingDt 2026-08-28. Since a Sunday build needs Friday's cohort anyway, nothing here is stale - but you are entitled to know it came from a saved payload. The substance: a 25bp HIKE at the September 16 meeting is the BASE CASE at 59.00%, up from 37.64% on Thursday, with hold at 41.00%. October cumulative hike odds 71.71%, December 89.46%, January 2027 92.12%. December's odds of TWO OR MORE hikes are 51.81% against 29.84% on Thursday - the market has moved from a coin-flip on one more hike to a coin-flip on two. Cut probability is exactly ZERO at every meeting through January 2027. Current band 3.50-3.75%; the July 29 decision was a 9-3 hold with three dissents FOR a hike. Independent weekend prints on the September number span 55.7% (CNBC) to about 60% (AFR 59.5%, TheStreet, Morningstar), and our 59.00% sits inside that spread. The cause is not in dispute: Chair Warsh's first Jackson Hole keynote, 10:00 AM ET Friday. Two days later there has been no clarification and no Fed speaker.",
- "meetings": [
-  {
-   "meetingDt": "2026-09-16",
-   "reportingDt": "2026-08-28",
-   "hold": 0.41,
-   "hike_25": 0.59,
-   "hike_50": 0.0,
-   "hike_75": 0.0,
-   "hike_100": 0.0,
-   "current_band": "3.50-3.75",
-   "cumulative_hike": 0.59
-  },
-  {
-   "meetingDt": "2026-10-28",
-   "reportingDt": "2026-08-28",
-   "hold": 0.2829,
-   "hike_25": 0.5342,
-   "hike_50": 0.1829,
-   "hike_75": 0.0,
-   "hike_100": 0.0,
-   "current_band": "3.50-3.75",
-   "cumulative_hike": 0.7171
-  },
-  {
-   "meetingDt": "2026-12-09",
-   "reportingDt": "2026-08-28",
-   "hold": 0.105406,
-   "hike_25": 0.376533,
-   "hike_50": 0.403308,
-   "hike_75": 0.114753,
-   "hike_100": 0.0,
-   "current_band": "3.50-3.75",
-   "cumulative_hike": 0.8946
-  },
-  {
-   "meetingDt": "2027-01-27",
-   "reportingDt": "2026-08-28",
-   "hold": 0.078782,
-   "hike_25": 0.308048,
-   "hike_50": 0.396545,
-   "hike_75": 0.18764,
-   "hike_100": 0.028986,
-   "current_band": "3.50-3.75",
-   "cumulative_hike": 0.9212
-  }
- ]
+  "status": "LIVE",
+  "as_of": "2026-08-31 07:05 ET (CME cohort reportingDt 2026-08-28)",
+  "reason": "CME FedWatch API restored this run after being unavailable for run #167; token acquired and payload saved to fw168_raw.json. The cohort is Friday 2026-08-28, which is the correct last settle for a Monday pre-open build. Values are IDENTICAL to those carried in #167, which independently confirms that run's re-parse of the raw payload was correct rather than stale. CUT PROBABILITY IS EXACTLY ZERO AT EVERY MEETING THROUGH JANUARY 2027 - there is no easing in this curve at all. The September hike moved from 37.6% to 59.0% on Warsh's Jackson Hole speech and did NOT fade over the weekend; three independent in-window reads cluster at 57-60% (Reuters 'nearly 60%', Reuters market-implied 57%, Investing.com Fed monitor 60.4%). Prior 8/27 cohort for delta: Sep 0.376, Oct 0.528, Dec 0.752, Jan 0.803. Named repricing: BARCLAYS NOW EXPECTS 25bp HIKES IN BOTH SEPTEMBER AND DECEMBER, the most hawkish house call found in window. JPMorgan's Michael Feroli still expects the first hike in December but concedes September is live, adding that Warsh's speech 'suggested a chair more willing to translate his concern about inflation into a policy tightening.' Watch the divergence flagged on the 2Y tile: hike odds held while the front end eased 2bp overnight.",
+  "meetings": [
+    {
+      "meetingDt": "2026-09-16",
+      "reportingDt": "2026-08-28",
+      "hold": 0.41,
+      "hike_25": 0.59,
+      "hike_50": 0.0,
+      "hike_75": 0.0,
+      "hike_100": 0.0,
+      "current_band": "3.50-3.75",
+      "cumulative_hike": 0.59
+    },
+    {
+      "meetingDt": "2026-10-28",
+      "reportingDt": "2026-08-28",
+      "hold": 0.2829,
+      "hike_25": 0.5342,
+      "hike_50": 0.1829,
+      "hike_75": 0.0,
+      "hike_100": 0.0,
+      "current_band": "3.50-3.75",
+      "cumulative_hike": 0.7171
+    },
+    {
+      "meetingDt": "2026-12-09",
+      "reportingDt": "2026-08-28",
+      "hold": 0.105406,
+      "hike_25": 0.376533,
+      "hike_50": 0.403308,
+      "hike_75": 0.114753,
+      "hike_100": 0.0,
+      "current_band": "3.50-3.75",
+      "cumulative_hike": 0.894594
+    },
+    {
+      "meetingDt": "2027-01-27",
+      "reportingDt": "2026-08-28",
+      "hold": 0.078782,
+      "hike_25": 0.308048,
+      "hike_50": 0.396545,
+      "hike_75": 0.18764,
+      "hike_100": 0.028986,
+      "current_band": "3.50-3.75",
+      "cumulative_hike": 0.921219
+    }
+  ]
 }
