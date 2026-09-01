@@ -1,101 +1,86 @@
 {
-  "headline": "US strikes Iranian launchers in Hormuz, crude +3.5% as the reopening trade dies - but gold FELL and S&P futures are down only 0.2%",
-  "as_of": "2026-08-31 07:20 ET (window: Sun 08-30 07:00 ET -> Mon 08-31 07:00 ET)",
-  "client_frame_short": "We struck Iran again overnight and oil jumped more than 3%, so the fair question is whether your portfolio is in trouble. That is really two questions. Higher crude is a real cost at the pump, where gas is already near $4.08 a gallon, and worth planning around. It is not a portfolio emergency: S&P futures are down about two tenths of one percent, and gold actually FELL overnight.\n\nThat last detail is the one to hold onto. **When gold falls on a night of live military escalation, the market is telling you it is worried about interest rates, not about the world ending.** The safe-haven bid simply did not show up. So there is nothing you need to do today. What I am watching is Friday's jobs report and the Fed on September 16th - that is where this gets decided, not in the headlines.",
-  "client_frame": "Overnight the US struck two Iranian rocket launchers on Larak Island in the Strait of Hormuz, after US forces observed Revolutionary Guard units preparing to fire rockets carrying sea mines into the shipping lane. Iran retaliated against two US-operated airbases in Jordan; Reuters reports the incoming missiles were intercepted with no significant impact so far. Crude rose more than 3% to roughly $86 a barrel (Reuters energy desk, 0903 GMT). The important context is that this is a hope trade unwinding rather than only a new risk premium: oil fell more than 4% LAST week because Iran and Oman were reported to be negotiating a reopening of the strait, and those talks collapsed over the weekend. The market is giving back something it had already paid for.\n\nThe reason I am not treating this as a portfolio event is what did NOT happen. Gold fell about 0.6% (Reuters spot). S&P futures are down 0.19% and Nasdaq futures 0.14% (MarketWatch, 5:57 a.m. ET). The two-year Treasury yield actually eased about 2 basis points. On a night of live military escalation in the world's most important oil chokepoint, none of the classic fear trades engaged. That pattern says the market's dominant worry is still the Federal Reserve, not the Middle East - September hike odds sit near 59% on CME FedWatch and did not fade over the weekend.\n\nTwo honest caveats, because the oil price is less solid than it looks. Ole Hansen at Saxo Bank notes the commodity reaction is amplified by thin volumes, with London closed for the UK summer bank holiday. And part of the rally may be priced on an AI-generated video the President posted claiming Iran's main export terminal at Kharg Island had been destroyed - there is no military confirmation of any such attack and an Iranian official called the claim laughable. If that is in the price, a denial is a downside catalyst. Separately, China's August data cut both ways: factory activity beat at 49.8 but services fell to 49.0, the weakest reading since December 2022.\n\nFor clients: the pump matters and the portfolio does not, at least not today. If someone is anxious, the most useful thing you can show them is that gold went DOWN last night - that is the market's own verdict that this is an oil story and a rates story, not a crisis. The calendar is where the real risk sits this week: Friday's August jobs report, then CPI on September 11th, then the Fed on September 15th and 16th. Nothing that happened overnight changes a long-term allocation, and the temptation to trade a headline before three scheduled data points is exactly the impulse that costs families money.",
-  "asia_close": [
-    {
-      "market": "Nikkei 225",
-      "delta_pct": -0.14,
-      "level": 66311.93
-    },
-    {
-      "market": "Shanghai Comp",
-      "delta_pct": 0.86,
-      "level": 3986.3
-    },
-    {
-      "market": "Hang Seng",
-      "delta_pct": -0.07,
-      "level": 25566.99
-    },
-    {
-      "market": "KOSPI",
-      "delta_pct": 0.46,
-      "level": 6820.02
-    },
-    {
-      "market": "Shenzhen Comp",
-      "delta_pct": 0.44,
-      "level": 14015.0
-    }
-  ],
-  "europe_open": [
-    {
-      "market": "DAX",
-      "delta_pct": -0.62
-    },
-    {
-      "market": "CAC 40",
-      "delta_pct": 0.23
-    },
-    {
-      "market": "FTSE MIB",
-      "delta_pct": 0.16
-    }
-  ],
-  "single_name_moves": [
-    {
-      "ticker": "NVDA",
-      "delta_pct": 0.72,
-      "venue": "pre-mkt",
-      "note": "The ONLY Magnificent Seven name higher pre-market (Reuters, 5:02 a.m. ET), after falling 4.58% Friday"
-    },
-    {
-      "ticker": "INTC",
-      "delta_pct": 1.73,
-      "venue": "pre-mkt",
-      "note": "Semis bid inside a flat tape: Lam Research +1.00%, Texas Instruments +0.92% alongside"
-    },
-    {
-      "ticker": "HAL",
-      "delta_pct": 2.46,
-      "venue": "pre-mkt",
-      "note": "Energy bid on the crude gap; Valero +2.17%"
-    },
-    {
-      "ticker": "PYPL",
-      "delta_pct": -12.71,
-      "venue": "Fri close",
-      "note": "VERIFIED NEGATIVE - no in-window follow-up, no revised bid, no statement from PayPal, Stripe or Advent. Closed Friday at $53.66 as the S&P's worst performer after the Advent/Stripe consortium abandoned its $60.50-a-share, roughly $53bn pursuit. The tell worth remembering: PayPal closed Thursday at $61.47, ABOVE the bid, so the market had priced a bump that never came"
-    },
-    {
-      "ticker": "Shein 0625.HK",
-      "delta_pct": -10.0,
-      "venue": "HK grey mkt",
-      "note": "Fell more than 10% ahead of tomorrow's HKEX debut, with Futu, Bright Smart and Phillip Securities all down double digits within minutes of opening (Reuters). Priced at roughly a $26.5bn valuation raising about $1.77bn - more than 72% below the $98.2bn peak of 2022 - with under $600m of freely tradable float. A double-digit break the day BEFORE listing is a meaningful negative for the Hong Kong new-issue window"
-    },
-    {
-      "ticker": "AON / KKR",
-      "delta_pct": null,
-      "venue": "$17bn deal signed",
-      "note": "See headlines"
-    },
-    {
-      "ticker": "OKE",
-      "delta_pct": null,
-      "venue": "$4.425bn, call 9:00 AM ET",
-      "note": "See headlines"
-    }
-  ],
-  "geo_headlines": [
-    "**US STRUCK TWO IRANIAN ROCKET LAUNCHERS ON LARAK ISLAND IN THE STRAIT OF HORMUZ** - the first US strike on Iran since late July, and the sixth month of the conflict. A US official confirmed it followed observation of IRGC forces preparing to launch rockets carrying SEA MINES into the strait. Iran retaliated with ballistic missiles against the US-operated King Hussein and al-Azraq airbases in Jordan, claiming heavy damage; Reuters reports all incoming missiles were intercepted with no significant impact so far. The UAE intercepted a drone over its territorial waters, the IRGC claims it downed an MQ-9, and at least two Iranians were killed (Guardian, Reuters). Crude gapped from $83.40 to roughly $86.4, +3.5%. THE KEY POINT FOR INTERPRETING THE SIZE OF THAT MOVE: this is a hope trade unwinding, not only a new risk premium. Oil fell more than 4% LAST week - its first weekly decline in three - because Iran and Oman were reported to be negotiating a reopening of the strait. Those talks collapsed. The market is giving back something it had already paid for.",
-    "**CAUTION - PART OF THE CRUDE RALLY MAY BE PRICED ON AN AI-GENERATED VIDEO.** The President posted an AI-generated video claiming Kharg Island, Iran's main oil export terminal, had been blown to smithereens. There is NO confirmation from the US military, no evidence the island was attacked, and an Iranian official called the claim laughable (Reuters, Guardian). This is the single largest fragility in today's oil price: if any part of the move is priced on a Kharg outage, a denial is a downside catalyst. Second caveat, from Ole Hansen at Saxo Bank: the sharp commodity reaction is amplified by thin volumes with London closed. Discount the magnitude accordingly. What is NOT in doubt is the physical flow - Hormuz crude exports averaged 3.8m bpd over the past week against 9.8m bpd during the 25-day ceasefire, Iranian exports are at ZERO, and visible transits fell to five a day. UKMTO Warning 122-26 reports a crude tanker struck by a projectile 12nm north of Khasab, the THIRD strait attack in a week; JMIC still rates the strait SEVERE, though that assessment is Aug 10 vintage and could not be refreshed.",
-    "**CHINA'S HEADLINE BEAT IS MASKING THE ACTIONABLE NUMBER.** August NBS manufacturing PMI came in at 49.8 from 49.2, beating a 49.6-49.7 consensus but still a SECOND month in contraction. Non-manufacturing was 49.0, unchanged, MISSING consensus of 49.5 and the WEAKEST READING SINCE DECEMBER 2022 - a 44-month low. Inside manufacturing, production 50.4 and new orders 50.6 both re-crossed 50 and export orders hit 50.1, but employment FELL to 48.7 and small enterprises sit at 47.9; TradingEconomics attributes part of July's weakness to extreme weather, so read the bounce as partly mechanical. Inside services, business activity was 49.3 unchanged and construction 46.9 - domestic demand and property are still contracting. Reuters framed it as a factory slump easing against a weak services signal implying an uneven recovery. NBS chief statistician Huo Lihui said the climate improved markedly and the PMI rose in 16 of 21 sectors. Sourced from five independent relays agreeing to the decimal because the NBS English site had not posted the release at fetch time. Caixin manufacturing did NOT release in window - that is tomorrow, consensus 51.5. Note the symmetry with our own week: ISM Services lands Thursday.",
-    "**THE 10-YEAR JGB REACHED 2.950% AT THE TOKYO CLOSE - THE HIGHEST BENCHMARK JAPANESE YIELD SINCE OCTOBER 1996** (Japan Bond Trading Co. via Jiji, independently noted by Reuters). An unnamed official at a Japanese securities house told Jiji that 3% could print as early as this week - unnamed, so colour only. Yet USD/JPY is 159.78, -0.1%, still well below July's 163.99 high, and the yen crosses are barely moved, which says this is being read as a Japanese domestic rates story rather than a global funding event. Two policy anchors: a Reuters poll taken Aug 17-24 found 57% of economists expect a BOJ hike to 1.25% in September, and Treasury Secretary Bessent said Sunday the yen's move is 'pretty well contained' and that he will meet the BOJ governor at the G20 - language that reads as explicitly NOT setting up joint intervention. Tokyo's session was also more violent than its close suggests: the Nikkei plunged MORE THAN 1,500 POINTS to the 64,000 level intraday before clawing almost all of it back to finish -0.14%, on 2.67bn shares and Y9.36tn of turnover. That is genuine buy-the-dip absorption.",
-    "**LONDON IS CLOSED for the UK Summer Bank Holiday** - confirmed from the London Stock Exchange's own business-days table, which lists Monday 31 August 2026 as a NON-trading day and a GBX/GBP non-settlement day. The FTSE 100 finished Friday at 10,824.26, +0.29%. Elsewhere in Europe the DAX is the weakest major at -0.62% from Friday's 26,569.99, Paris is flat to marginally higher, Milan +0.16% and the STOXX 600 steady near 655 - so EUROPE IS NOT CONFIRMING A RISK-OFF SESSION EITHER. Euro Stoxx 50 futures were -0.3% pre-open. The holiday matters beyond London because it thins the very commodity books that are printing today's headline moves.",
-    "**BESSENT: NEW SECONDARY SANCTIONS ON IRAN EVERY WEEK, AND ANOTHER BANK DESIGNATED THIS WEEK.** The Treasury Secretary was the only administration economic principal on the record in the window, via two Sunday interviews. To Reuters: weekly secondary sanctions are likely, the yen is 'pretty well contained', and he will meet the head of the Bank of Japan at the G20. To the AP, in Asheville: the administration plans to sanction another bank this week over Iran transactions - 'This will be financial aggression if necessary. We are showing people that we know who you are, you know who you are, and this has to stop.' This is a SCHEDULED rather than speculative bid under the crude risk premium, which makes it directly relevant to the Fed's problem. G20 finance ministers and central bank governors meet today and tomorrow in Asheville with inflation and rates on the agenda; German finance minister Lars Klingbeil is expected to press the US to end the conflict diplomatically, citing the inflation impact. Separately, Ukraine struck the Kirishi refinery in Leningrad Oblast overnight - Russia's second-largest at roughly 20m tonnes a year - which is a products and crack-spread channel rather than a crude one, but additive.",
-    "**VENEZUELA: THREE DAYS, STILL NO PRIMARY DOCUMENT - AND THE AP SAID SO EXPLICITLY TODAY.** The AP published a Monday explainer stating that besides a social media post the White House has said little about what the President calls the biggest oil deal in world history; PBS NewsHour likewise reports no text of any agreement has been released. Checked and negative this run: whitehouse.gov presidential actions, Treasury/OFAC, and the Venezuelan Gaceta Oficial. state.gov could not be checked - the fetch was IP-blocked, and it is the most important unverified source here. The conflict is UNRESOLVED rather than walked back: interim president Delcy Rodriguez said Saturday the deal runs 25 years across 17 fields with a 1.5m bpd initial target and over $209bn in taxes, insisting sovereignty is retained, while a US official said 55% and PBS characterised it as 100 years. Neither government has corrected the other. AND HERE IS WHY IT IS NOT CAPPING THIS RALLY: it never added near-term supply. Rodriguez's own 1.5m bpd target sits against current output of roughly 1.0-1.25m bpd; JPMorgan's framework was 1.3-1.4m bpd within TWO YEARS and Rystad put 3m bpd at roughly 15 years, so ZERO incremental barrels arrive in 2026. More decisively, the President said Sunday the oil would replenish the Strategic Petroleum Reserve, near a 44-year low - SPR refill is government DEMAND, not market supply. Chevron's JV migration is still only 'expected Wednesday' on two unnamed sources. No OPEC or OPEC+ statement in window. Treat every number attached to this deal as an unverified claim by an interested party.",
-    "**AON IS BUYING USI INSURANCE SERVICES FROM KKR FOR ROUGHLY $17bn INCLUDING DEBT** - from WSJ scoop Sunday afternoon to SIGNED definitive agreement announced pre-market, inside the window. The primary source is KKR's own release (BusinessWire, stamped 08:11:34), and the disclosures are what make it tradeable rather than gossip: approximately 6.0x the original equity KKR invested in 2017, 3.4x total balance-sheet capital, roughly $3.3bn of after-tax proceeds and about $2.0bn of Adjusted Net Income - OVER $2.00 PER SHARE OF ANI from a single exit. KKR and CDPQ bought USI from Onex in 2017 for $4.3bn including debt. Rationale is mid-size business risk, benefits and retirement, with EPS accretion as soon as 2028. Overnight AON was flat and KKR higher. Second deal, and it has a call TODAY: ONEOK agreed Sunday to buy Brazos Midstream's Permian Midland gas gathering and processing assets for $4.425bn cash, MORE THAN DOUBLING its Midland processing capacity - roughly 600,000 dedicated acres on long-term fixed-fee contracts averaging over 12 years remaining - funded by a $9bn NONVOTING MINORITY EQUITY INVESTMENT from Apollo-managed funds, alongside tender offers tied to a $5bn debt repayment plan. Closing expected Q4 subject to Hart-Scott-Rodino. THE CALL IS AT 9:00 A.M. ET TODAY. Also in window: Ranger Energy buying STEP Energy's US coiled tubing assets for about $27.5m against 2027 EBITDA of more than $10m, roughly 2.5x, adding $80-90m of revenue and making it the second-largest US onshore coiled tubing operator."
-  ]
+ "headline": "Tech futures lead a rates-driven pullback: NQ -1.07% as the US 10-year hits a fresh 52-week high and Japan's 10-year touches 3% for the first time since 1996; two tankers struck exiting Hormuz lift crude 2.4% but gold falls again",
+ "as_of": "2026-09-01 07:25 ET",
+ "client_frame_short": "Why is my account opening lower when August was such a good month? Because two different clocks are running. August finished up about 2.6% on the S&P 500 and better than 4% on the Nasdaq 100. This morning is one pre-market session, with technology futures lower and oil higher after two tankers were struck leaving the Persian Gulf. The month is the signal. This morning is the noise.\n\nHere is the observable fact worth holding onto. The market now prices **no chance of a rate cut** at any Federal Reserve meeting between now and January. That is a real change from a year ago, and it is already in the price of every bond and every stock you own - which is precisely why it is not something to act on today. Nothing in this morning's tape touches a long-term allocation. The date that matters is Friday, when the August jobs report lands.",
+ "client_frame": "The hawkish repricing is the through-line. Chair Warsh's Friday speech pushed the front end of the curve higher for a third straight session, and at the G20 finance ministers' meeting on Monday he went further, coming closer than he previously had to acknowledging that rate hikes may be needed. CME's futures-implied odds put a 25bp HIKE at the September 16 meeting at 59%, with a hold at 41% - and cut probability at exactly zero at every meeting through January 2027. Governor Barr speaks at 9:05 a.m. ET on the economic outlook, 55 minutes ahead of the ISM manufacturing print, and he is the first Fed voice since Warsh.\n\nJapan is the larger change, and it is being underpriced. The 10-year JGB touched 3.00% overnight, a level last seen in 1996 (one feed puts the settle nearer 2.947%, so treat 3% as touched rather than closed). Market-implied odds of a Bank of Japan hike this month have moved to roughly 80-90%, well ahead of the 57% of economists in an August Reuters poll. And yet the yen crosses are unchanged - euro-yen moved four hundredths of a percent. The market is treating a 30-year high in Japanese yields as a domestic story. That is the assumption most likely to be tested.\n\nThe oil and gold combination tells you what kind of tape this is. Two tankers were struck by projectiles exiting the Strait of Hormuz on Monday evening (both confirmed by UKMTO advisories), and US Central Command explicitly refuted Iranian claims that the vessels hit mines. WTI October is up about 2.4% and Brent November about 1.8%. But gold FELL about 1.5%, a second consecutive decline. Crude up, gold down, and a fresh 52-week high in the US 10-year yield is a rates-dominated tape, not a fear-dominated one. Meanwhile China's RatingDog manufacturing PMI - the survey formerly branded Caixin - printed 51.5 against expectations nearer 51.0, a beat that sits awkwardly against the official NBS reading of 49.8.\n\nFor clients: the honest summary is that rate-cut hope has been removed from the curve entirely, and rate-HIKE risk is now the live question in both the United States and Japan. That argues for being deliberate about how much interest-rate risk a portfolio carries, and against reading a single soft pre-market session as information. Friday's August payrolls report - consensus roughly +55,000 to +58,000 jobs - is the next thing that genuinely matters.",
+ "asia_close": [
+  {
+   "market": "Nikkei 225",
+   "delta_pct": -0.15,
+   "level": 66215.34
+  },
+  {
+   "market": "Hang Seng",
+   "delta_pct": -0.93,
+   "level": 25329.73
+  },
+  {
+   "market": "Shanghai Comp",
+   "delta_pct": -0.16,
+   "level": 3979.89
+  },
+  {
+   "market": "Shenzhen Comp",
+   "delta_pct": -1.02,
+   "level": 13872.38
+  },
+  {
+   "market": "KOSPI",
+   "delta_pct": 0.23,
+   "level": 6835.8
+  }
+ ],
+ "europe_open": [
+  {
+   "market": "FTSE 100",
+   "delta_pct": -0.85
+  },
+  {
+   "market": "DAX",
+   "delta_pct": -0.92
+  },
+  {
+   "market": "CAC 40",
+   "delta_pct": -0.37
+  },
+  {
+   "market": "Euro STOXX 50",
+   "delta_pct": -0.51
+  }
+ ],
+ "single_name_moves": [
+  {
+   "ticker": "0625.HK",
+   "delta_pct": -0.12,
+   "venue": "HKEX",
+   "note": "Shein debut"
+  },
+  {
+   "ticker": "DELL",
+   "delta_pct": null,
+   "venue": "reports after the close"
+  },
+  {
+   "ticker": "PANW",
+   "delta_pct": null,
+   "venue": "reports after the close"
+  },
+  {
+   "ticker": "MDB",
+   "delta_pct": null,
+   "venue": "reports 5:00 p.m. ET"
+  }
+ ],
+ "geo_headlines": [
+  "HORMUZ - THE OVERNIGHT EVENT DRIVING CRUDE. Two tankers were struck by projectiles as they exited the Strait of Hormuz on Monday evening. The Sinokor-operated Senegal Prosperity was hit first by report, and the Saudi-flagged Sidr eight minutes earlier roughly 17nm east-northeast of Khasab; both incidents were confirmed by UKMTO advisories rather than by social-media claim. WTI October is +2.36% and Brent November +1.77% in response. TWO QUALIFICATIONS THAT CUT AGAINST THE BULLISH READING, both stated because the temptation is to price the headline and stop. First, attribution is contested: Iranian sources claimed the vessels struck mines, and US Central Command explicitly refuted that, stating 'This is FALSE.' Nobody credible has yet established who fired. Second, no infrastructure has been reported damaged and no closure of the strait has occurred - this is harassment of shipping, which historically produces a risk premium that decays within days unless it repeats. The tell that the market agrees: gold FELL 1.5% on the same news. A genuine Hormuz supply scare bids gold and crude together. This one did not.",
+  "OIL, THE UNRESOLVED CAVEAT - Carried forward for a fourth session because it has still not been settled either way, and it is the largest single uncertainty sitting under the crude price. The video posted last week claiming Kharg Island had been destroyed was AI-GENERATED. Kharg handles the overwhelming majority of Iranian crude exports, so the claim would be genuinely material if true. It has received neither US confirmation nor US denial, and no independent imagery or shipping-traffic evidence of damage has emerged in the days since. The honest position is that this is unverified in both directions. To whatever extent a Kharg premium is still embedded in the price, it is REVERSAL risk rather than supply risk - meaning the asymmetry in crude here may be to the downside on confirmation of nothing having happened.",
+  "JAPAN - THE LARGEST CHANGE IN THE GLOBAL RATES PICTURE OVERNIGHT, AND THE MOST UNDERPRICED. The 10-year JGB touched 3.00%, a level last seen in 1996 - thirty years. The feeds conflict on where it actually finished: one reports the 3.00% print, another puts the session high at 2.955% and the settle at 2.947%. That conflict is left UNRESOLVED here rather than rounded to the more dramatic number; 3% is best described as touched, not settled. Market-implied odds of a Bank of Japan hike at this month's meeting have moved to roughly 80-90%, far ahead of the 57% of economists surveyed in an August Reuters poll - so the market is well out in front of the forecasting community. THE REMARKABLE PART IS THE NON-REACTION IN CURRENCY. Euro-yen moved four hundredths of one percent overnight; USD/JPY is +0.19%; AUD/JPY is essentially unchanged. A thirty-year high in Japanese long yields is being read as a purely domestic rates story rather than a carry-unwind or funding event. That may well be right. It is also the single assumption in this morning's tape most likely to be tested, because the yen carry trade is the mechanism through which Japanese rates transmit into US equity, and it is currently pricing no transmission at all.",
+  "FEDERAL RESERVE - THE THROUGH-LINE FOR THE WHOLE TAPE. Chair Warsh spoke at the G20 finance ministers' meeting in Asheville on Monday and came closer than he previously had to acknowledging that rate HIKES may be needed. That follows his Friday speech and completes three consecutive sessions of front-end selling: the 2-year has risen each day since. CME futures put a 25bp hike at the September 16 meeting at 59% against a 41% hold, and cut probability at EXACTLY ZERO at every meeting on the visible curve through January 2027 - a state of affairs worth naming plainly, because most portfolios were built on an assumption of eventual easing. Governor Barr speaks at 9:05 a.m. ET today on the economic outlook, the first Fed voice since Warsh and 55 minutes ahead of the ISM manufacturing print. Governor Waller follows Thursday at 8:30. Note a data caveat on the probabilities: the CME cohort is Friday's, not Monday's - verified as a genuine non-publication rather than a fetch failure, and if anything the live distribution is more hawkish than the figures shown.",
+  "CHINA - A BEAT, AND A CONTRADICTION. The RatingDog manufacturing PMI - the survey formerly branded Caixin, renamed this year, which is worth knowing because the 'Caixin consensus' figures still circulating do not map cleanly onto it - printed 51.5 when it was released at 9:45 p.m. ET Monday, against expectations nearer 50.9 to 51.0. That is a genuine beat and the private-survey series is now firmly in expansion. It sits awkwardly against the OFFICIAL NBS readings: manufacturing at 49.8, still in contraction, and non-manufacturing at 49.0, the weakest since December 2022. The two surveys weight differently - the private series skews smaller, more export-oriented, coastal firms - so the divergence is informative rather than contradictory: it suggests external demand is holding up considerably better than domestic services activity. Asian equity did not reward it, with the Hang Seng -0.93% and Shenzhen -1.02%.",
+  "VENEZUELA - A PRIMARY DOCUMENT FINALLY EXISTS, AND IT CORRECTS THE PRIOR REPORTING. A White House fact sheet now sets out terms, and the counterparty is NOT Chevron as widely assumed: it names NABEP. The published terms are 100-year concessions across 17 fields holding roughly 65 billion barrels, a 35% Department of War equity stake, and 20% off-take at cost with a right of first refusal. Two specific corrections to figures that have been circulating, including in earlier editions of this brief: the 55% equity stake is UNCORROBORATED by the primary document, and the '25-year' figure referred to the royalty horizon, not the concession term. The scale is large enough to matter for the long-run crude supply picture, though nothing here affects near-dated barrels.",
+  "LONDON AND EUROPE - UK markets reopened after Monday's Summer Bank Holiday, so the FTSE 100's 'previous close' field spans a four-day gap rather than one session - worth knowing before reading its -0.85% against Friday's 10,824.26 as a single-day move. The rest of Europe is lower and orderly: DAX -0.92%, Euro STOXX 50 -0.51%, CAC 40 -0.37%. No European index is down more than one percent, which is consistent with a US-rates-led pullback rather than a global risk event. The ECB meets September 10; sources conflict on the current deposit rate, so no level is asserted here.",
+  "HONG KONG - Shein listed on HKEX and closed at HK$48.50 against an HK$48.56 IPO price - essentially flat on debut, but only after a roughly 10% air pocket during the session. For a listing of this profile, a flat close that required an intraday round trip of that size says demand was met at the price and not above it.",
+  "G20 - STATED AS AN OPEN ITEM RATHER THAN AN EVENT, because the absence is itself information. No communique has been issued from the Asheville finance ministers' meeting. Separately, Treasury Secretary Bessent's promised new bank designation remains outstanding: no new action has appeared since the Banque Misr UAE designation on August 28. Both were searched for in this window and neither was found.",
+  "AUGUST, FINAL - THE NUMBER THAT REFRAMES THIS MORNING. The month closed Monday and every US benchmark finished higher: S&P 500 +2.62%, Nasdaq 100 +4.18%, Philadelphia semiconductors +1.98%, Dow +1.34%. The VIX fell 6.69% across the month. Bitcoin gained 25.05%, from 62,825.90 to 78,566.10 - by a wide margin the largest move on the board. Set that against a morning in which tech futures are off about a percent and the temptation is to read the tape as deteriorating. Twenty-one sessions of evidence say August was a good month, and one pre-market session says very little."
+ ]
 }
