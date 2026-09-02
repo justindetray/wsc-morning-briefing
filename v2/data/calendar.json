@@ -1,241 +1,237 @@
 {
- "last_curated": "2026-09-01 07:25 ET",
- "macro": [
-  {
-   "date": "2026-09-01",
-   "time_et": "9:05 AM",
-   "event": "Fed Governor Barr - Economic Outlook and Financial Inclusion",
-   "consensus": "speech",
-   "importance": "high",
-   "note": "Second Chance Lending Forum, Washington DC. Verified against the Federal Reserve's own September calendar. First Fed voice since Chair Warsh, and 55 minutes ahead of ISM."
-  },
-  {
-   "date": "2026-09-01",
-   "time_et": "9:45 AM",
-   "event": "S&P Global US Manufacturing PMI (final)",
-   "consensus": "flash was 53.2",
-   "importance": "medium",
-   "note": "Release date could not be verified at the issuer - S&P Global's PMI pages block automated access. Treat the time as aggregator-sourced."
-  },
-  {
-   "date": "2026-09-01",
-   "time_et": "10:00 AM",
-   "event": "ISM Manufacturing PMI (August)",
-   "consensus": "55.2",
-   "importance": "high",
-   "note": "Prior 55.6. THE WEEK'S KEY PRINT BEFORE FRIDAY. Sell-side consensus has NOT moved despite the MNI Chicago Business Barometer collapsing 10.5 points to 47.1 on 8/28; prediction markets have repriced, with a 54.0-54.9 modal bucket, so the market sits below the published consensus."
-  },
-  {
-   "date": "2026-09-01",
-   "time_et": "10:00 AM",
-   "event": "JOLTS job openings (July)",
-   "consensus": "7.33M",
-   "importance": "high",
-   "note": "Prior 7,359,000. Date confirmed on the BLS September release schedule. The 7.4M figure circulating is a vendor model estimate, not a survey consensus."
-  },
-  {
-   "date": "2026-09-01",
-   "time_et": "10:00 AM",
-   "event": "Construction spending (July)",
-   "consensus": "0.0%",
-   "importance": "low",
-   "note": "Prior -0.1%."
-  },
-  {
-   "date": "2026-09-02",
-   "time_et": "8:15 AM",
-   "event": "ADP employment change (August)",
-   "consensus": "+47K",
-   "importance": "medium",
-   "note": "Aggregator-dated. First read on Friday's payrolls."
-  },
-  {
-   "date": "2026-09-02",
-   "time_et": "10:00 AM",
-   "event": "Factory orders (July)",
-   "consensus": "+0.6%",
-   "importance": "low",
-   "note": "Aggregator-dated."
-  },
-  {
-   "date": "2026-09-02",
-   "time_et": "2:00 PM",
-   "event": "Fed Beige Book",
-   "consensus": "n/a",
-   "importance": "medium",
-   "note": "Regional anecdote ahead of the September 15-16 FOMC."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "8:30 AM",
-   "event": "Fed Governor Waller - Economic Outlook",
-   "consensus": "speech",
-   "importance": "high",
-   "note": "Reuters NEXT newsmaker interview, virtual. Verified against the Federal Reserve's own September calendar."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "8:30 AM",
-   "event": "Initial jobless claims",
-   "consensus": "205K",
-   "importance": "medium",
-   "note": "Prior 203K."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "8:30 AM",
-   "event": "Trade balance (July)",
-   "consensus": "-$90.0B",
-   "importance": "low",
-   "note": ""
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "8:30 AM",
-   "event": "Nonfarm productivity (Q2 final)",
-   "consensus": "+1.4%",
-   "importance": "low",
-   "note": "Date confirmed on the BLS September schedule."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "10:00 AM",
-   "event": "ISM Services PMI (August)",
-   "consensus": "54.3",
-   "importance": "high",
-   "note": ""
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "3:00 PM",
-   "event": "Cleveland Fed's Hammack - opening remarks",
-   "consensus": "speech",
-   "importance": "low",
-   "note": "Connecting Communities webinar, verified on the Cleveland Fed's own events page. A community-development event, not a policy speech."
-  },
-  {
-   "date": "2026-09-04",
-   "time_et": "8:30 AM",
-   "event": "AUGUST NONFARM PAYROLLS",
-   "consensus": "+55K to +58K",
-   "importance": "high",
-   "note": "THE WEEK'S MAIN EVENT. Prior -23,000; 12-month average +34,000. Consensus is a genuine range, not a point: a Reuters poll gives +58K with a 45K-62.5K spread, Bloomberg 55K, PNC 60K, Wolfe 65K, Capital Economics +90K. Unemployment consensus is split between 4.1% and 4.2%. No survey sizes are published. Average hourly earnings expected +0.2% m/m."
-  },
-  {
-   "date": "2026-09-07",
-   "time_et": "all day",
-   "event": "Labor Day - US markets closed",
-   "consensus": "n/a",
-   "importance": "medium",
-   "note": "Confirmed on the Federal Reserve holiday schedule."
-  },
-  {
-   "date": "2026-09-08",
-   "time_et": "all day",
-   "event": "Canadian counter-tariffs take effect",
-   "consensus": "n/a",
-   "importance": "medium",
-   "note": "Confirmed on Finance Canada's published product list."
-  },
-  {
-   "date": "2026-09-10",
-   "time_et": "8:30 AM",
-   "event": "PPI (August)",
-   "consensus": "no published consensus found",
-   "importance": "medium",
-   "note": "Date confirmed on the BLS September release schedule."
-  },
-  {
-   "date": "2026-09-10",
-   "time_et": "8:15 AM",
-   "event": "ECB Governing Council monetary policy decision",
-   "consensus": "no published consensus found",
-   "importance": "high",
-   "note": "Confirmed on the ECB's own meeting calendar. Sources conflict on the current deposit rate (2.00% vs 2.25%), so no level is asserted here."
-  },
-  {
-   "date": "2026-09-11",
-   "time_et": "8:30 AM",
-   "event": "CPI (August)",
-   "consensus": "no published consensus found",
-   "importance": "high",
-   "note": "ORDERING CONFIRMED AT BOTH ISSUERS: CPI lands 9/11, the FOMC meets 9/15-16. The Committee will have August inflation in hand before it decides."
-  },
-  {
-   "date": "2026-09-15",
-   "time_et": "2:00 PM",
-   "event": "FOMC meeting begins (decision 9/16)",
-   "consensus": "59% priced for a 25bp HIKE",
-   "importance": "high",
-   "note": "Dates verified on the Federal Reserve's calendar. Cut probability is zero."
-  }
- ],
- "earnings": [
-  {
-   "date": "2026-09-01",
-   "time_et": "4:30 PM",
-   "ticker": "DELL",
-   "note": "AI server demand and margin mix - the cleanest read on enterprise AI capex this week."
-  },
-  {
-   "date": "2026-09-01",
-   "time_et": "4:30 PM",
-   "ticker": "PANW",
-   "note": "Platformisation and next-gen ARR."
-  },
-  {
-   "date": "2026-09-01",
-   "time_et": "4:30 PM",
-   "ticker": "GTLB",
-   "note": ""
-  },
-  {
-   "date": "2026-09-01",
-   "time_et": "5:00 PM",
-   "ticker": "MDB",
-   "note": "Atlas consumption trend."
-  },
-  {
-   "date": "2026-09-02",
-   "time_et": "5:00 PM",
-   "ticker": "AVGO",
-   "note": "THE WEEK'S MOST IMPORTANT REPORT for the AI complex. Custom-accelerator commentary matters more than the headline, with semis still 21% below their June high."
-  },
-  {
-   "date": "2026-09-02",
-   "time_et": "4:30 PM",
-   "ticker": "HPE",
-   "note": ""
-  },
-  {
-   "date": "2026-09-02",
-   "time_et": "4:05 PM",
-   "ticker": "NTAP",
-   "note": ""
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "4:30 PM",
-   "ticker": "ZS",
-   "note": ""
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "4:30 PM",
-   "ticker": "LULU",
-   "note": "Consumer discretionary read-through."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "5:00 PM",
-   "ticker": "IOT",
-   "note": ""
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "5:00 PM",
-   "ticker": "GWRE",
-   "note": ""
-  }
- ]
+  "last_curated": "2026-09-02 07:20 ET",
+  "macro": [
+    {
+      "date": "2026-09-02",
+      "time_et": "7:00 AM",
+      "event": "MBA Weekly Mortgage Applications (w/e Aug 28)",
+      "consensus": "none published",
+      "importance": "low",
+      "note": "Prior week total applications -1.0%, purchase index -0.3%. Date and time aggregator-sourced."
+    },
+    {
+      "date": "2026-09-02",
+      "time_et": "8:15 AM",
+      "event": "ADP National Employment Report, August",
+      "consensus": "+48K to +51K",
+      "importance": "high",
+      "note": "Prior +44,000 (July). Date confirmed on ADP's own site. The consensus is an aggregator band, not a named economist poll - Investing.com carries 48K and Trading Economics 51K, so use the band. ADP's own weekly pulse showed 11,750 private jobs per week added in the four weeks to Aug 8, up from 9,500. First of three labor reads this week ahead of Friday's payrolls."
+    },
+    {
+      "date": "2026-09-02",
+      "time_et": "10:00 AM",
+      "event": "Factory Orders / M3 Full Report, July",
+      "consensus": "+0.7% m/m",
+      "importance": "medium",
+      "note": "Prior -0.3% in June to $656.5bn, a second consecutive decline. Date and time confirmed on the Census Bureau's own release schedule. The already-published July advance durable-goods print was +1.1% to $339.3bn, ex-transport +0.4%, which skews risk toward a firm headline."
+    },
+    {
+      "date": "2026-09-02",
+      "time_et": "10:30 AM",
+      "event": "EIA Weekly Petroleum Status Report (w/e Aug 28)",
+      "consensus": "n/a",
+      "importance": "high",
+      "note": "Confirmed on EIA's own page as the next release. Prior week crude +0.1 mmbbl to 428.9 mmbbl, 1% above the five-year average; refinery utilization 97.4%. Matters more than usual with Hormuz transit volumes down to four vessels Tuesday against a ten-day average near thirteen."
+    },
+    {
+      "date": "2026-09-02",
+      "time_et": "11:30 AM",
+      "event": "17-week bill auction",
+      "consensus": "",
+      "importance": "low",
+      "note": "Announced Tuesday, settles Sept 8, per Treasury's own tentative auction schedule. No coupon auctions today. Time is aggregator-sourced."
+    },
+    {
+      "date": "2026-09-02",
+      "time_et": "2:00 PM",
+      "event": "Fed Beige Book",
+      "consensus": "",
+      "importance": "medium",
+      "note": "Confirmed on the Federal Reserve Board's own September 2026 calendar. Last Beige Book before the September 15-16 FOMC, and the first since the hawkish repricing began - the inflation and pricing-power anecdotes are the section to read given ISM prices paid held at 71.1."
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "5:30 AM",
+      "event": "Challenger Job Cuts, August",
+      "consensus": "none published",
+      "importance": "low",
+      "note": "Prior 33,429 cuts in July, down 27% and the lowest monthly total in two years. Time confirmed on Challenger's own release calendar - note several aggregators wrongly list 9:30 AM."
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "8:30 AM",
+      "event": "Initial jobless claims (w/e Aug 29)",
+      "consensus": "no named poll",
+      "importance": "medium",
+      "note": "Prior 203,000, down from an upwardly revised 207,000, per the Labor Department's own release. Do not pair this with the 227K figure circulating as consensus - that is a Trading Economics model output, not a survey. Claims are a DOL release, not BLS."
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "8:30 AM",
+      "event": "International Trade in Goods and Services, July",
+      "consensus": "no named poll",
+      "importance": "high",
+      "note": "Date confirmed on BEA's own schedule. The published Census advance estimate showed the GOODS deficit ballooning to $118.8bn from $101.4bn, exports -$6.0bn and imports +$11.4bn - the widest goods gap since March 2025. Sets up a sharply wider total deficit and a negative Q3 net-exports contribution."
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "8:30 AM",
+      "event": "Productivity and Costs, revised Q2",
+      "consensus": "no named poll",
+      "importance": "medium",
+      "note": "Confirmed on the BLS September calendar. Preliminary Q2 was productivity +1.4% annualized and unit labor costs +1.3%, well above consensus at the time. Productivity is the variable that decides whether the AI capital-spending boom is disinflationary or not - directly relevant to the hike debate."
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "8:30 AM",
+      "event": "Fed Governor Waller, Economic Outlook (Reuters NEXT, virtual)",
+      "consensus": "",
+      "importance": "high",
+      "note": "Confirmed by raw-HTML inspection of the Federal Reserve Board's own September calendar, which lists only two Board speeches for the entire month - Barr on the 1st and Waller on the 3rd. The date-and-speaker pairing was verified cell by cell because the Fed's layout places the date column far from the speaker name and extraction tools transpose them. Waller speaks at the same minute as claims, trade and productivity."
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "10:00 AM",
+      "event": "ISM Services PMI, August",
+      "consensus": "54.3 to 54.5",
+      "importance": "high",
+      "note": "Prior 54.1% in July, a 25th straight month of expansion, which itself missed a 54.5 consensus. Date confirmed on ISM's own release calendar. Consensus is aggregator-sourced. Read the prices paid line first given manufacturing prices paid held at 71.1."
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "3:00 PM",
+      "event": "Cleveland Fed's Hammack, opening remarks",
+      "consensus": "",
+      "importance": "medium",
+      "note": "Confirmed on the Cleveland Fed's own president's page. Important qualification: the issuer describes this as OPENING REMARKS at a community-development webinar, not a policy speech - do not brief it as a policy signal. Context that makes it interesting anyway: Hammack dissented in favor of RAISING the funds rate at the July FOMC."
+    },
+    {
+      "date": "2026-09-04",
+      "time_et": "8:30 AM",
+      "event": "August Employment Situation (nonfarm payrolls)",
+      "consensus": "+58K, u-rate 4.1% (Reuters poll)",
+      "importance": "high",
+      "note": "The week's main event. Prior -23,000 against a twelve-month average of +34,000, with May and June revised down a combined 103,000. Honest range +50K to +90K, clustered +55K to +65K. Wolfe at +65K and 4.16%; PNC cites consensus +60K and 4.2%; Capital Economics +90K but with an internally inconsistent u-rate. Largest dispersion is average hourly earnings: Wolfe +0.35% m/m against consensus near +0.2%, the most likely hawkish surprise. The Goldman '+60K, 4.3%' forecast circulating widely is a stale 2025 artifact - do not quote it."
+    },
+    {
+      "date": "2026-09-07",
+      "time_et": "all day",
+      "event": "Labor Day - US equity and bond markets closed",
+      "consensus": "",
+      "importance": "medium",
+      "note": "Confirmed on both the Nasdaq trader holiday calendar and the Fed's own September calendar, which notes daily and weekly statistical releases scheduled for the 7th move to Tuesday the 8th."
+    },
+    {
+      "date": "2026-09-08",
+      "time_et": "12:01 AM",
+      "event": "Canada counter-tariffs take effect",
+      "consensus": "",
+      "importance": "high",
+      "note": "Confirmed unamended on Finance Canada's own page. Tariffs of 15%, 25% and 50% on roughly 700 US product lines covering $27.6bn of imports, matching US Section 338 and 232 tariffs dollar for dollar. Sectors: steel, dairy, appliances, agricultural equipment, pulp and paper, electronics. Goods in transit on the effective date are exempt - the one operationally useful detail for modelling the impact."
+    },
+    {
+      "date": "2026-09-09",
+      "time_et": "all day",
+      "event": "ECB Governing Council meeting, Day 1 (Berlin)",
+      "consensus": "",
+      "importance": "medium",
+      "note": "Two-day meeting hosted by the Deutsche Bundesbank in Berlin, not Frankfurt, per the ECB's own calendar. Deposit facility rate currently 2.25%, effective 17 June 2026 - the 2.00% figure still widely circulated is stale by more than a year. Markets now price a near-40% chance of a 3% deposit rate by March 2027, up from 25% a week ago."
+    },
+    {
+      "date": "2026-09-10",
+      "time_et": "8:30 AM",
+      "event": "Producer Price Index, August",
+      "consensus": "",
+      "importance": "high",
+      "note": "Confirmed on the BLS September calendar. First of the two inflation prints the FOMC will have in hand before it meets."
+    },
+    {
+      "date": "2026-09-10",
+      "time_et": "8:15 AM",
+      "event": "ECB rate decision and press conference (Berlin)",
+      "consensus": "",
+      "importance": "high",
+      "note": "Day 2 of the Berlin meeting, decision followed by press conference, per the ECB's own calendar. Time shown is indicative. The market is now carrying a live ECB tightening path for the first time this cycle."
+    },
+    {
+      "date": "2026-09-11",
+      "time_et": "8:30 AM",
+      "event": "Consumer Price Index, August",
+      "consensus": "",
+      "importance": "high",
+      "note": "Confirmed on the BLS September calendar, alongside Real Earnings at the same time. Critical sequencing: August CPI lands three business days BEFORE the FOMC decision, so the Committee will have both August inflation prints and Friday's payrolls in hand when it meets."
+    },
+    {
+      "date": "2026-09-15",
+      "time_et": "all day",
+      "event": "FOMC meeting begins (two-day, Sept 15-16)",
+      "consensus": "69% odds of a 25bp HIKE",
+      "importance": "high",
+      "note": "Statement 2:00 PM and press conference 2:30 PM on the 16th, confirmed at two Federal Reserve pages. CME's own FedWatch data as of Tuesday's close prices a 69% chance of a 25bp HIKE and zero chance of a cut. Blackout period began Saturday September 5."
+    }
+  ],
+  "earnings": [
+    {
+      "date": "2026-09-02",
+      "time_et": "5:00 PM",
+      "ticker": "AVGO",
+      "importance": "high",
+      "note": "Broadcom Q3 FY26 - the day's main single-stock event, confirmed on Broadcom's own investor site. Company guidance is roughly $29.4bn revenue, up 84% y/y, with $16.0bn from AI semiconductors - which would be about 54% of sales and the first quarter in which AI is a MAJORITY of Broadcom's revenue. Street consensus clusters at non-GAAP EPS $3.22 and revenue $29.24bn. Last quarter was $22.2bn revenue and $10.8bn of AI. The catch: when Broadcom first guided to $16bn, that figure landed roughly seven percentage points BELOW sell-side expectations near $17bn, so simply hitting it may not be enough. Watch custom XPU accelerator commentary, hyperscaler customer count, and Q4 AI guidance."
+    },
+    {
+      "date": "2026-09-02",
+      "time_et": "4:30 PM",
+      "ticker": "HPE",
+      "note": "Hewlett Packard Enterprise Q3 FY26, quarter ended July 31. Date confirmed in HPE's own newsroom; the 4:30 PM ET call time is aggregator-confirmed. Company reiterated Q3 revenue guidance of $11.5bn to $12.1bn."
+    },
+    {
+      "date": "2026-09-02",
+      "time_et": "5:30 PM",
+      "ticker": "NTAP",
+      "note": "NetApp Q1 FY27, quarter ended July 31, confirmed after market close on NetApp's own newsroom. Aggregator consensus EPS $2.12 on revenue $1.84bn."
+    },
+    {
+      "date": "2026-09-02",
+      "time_et": "after close",
+      "ticker": "SNOW",
+      "importance": "high",
+      "note": "Snowflake Q2 FY27, confirmed on Snowflake's own newsroom. A large-cap AI-adjacent name reporting the same evening as Broadcom, and the most direct test of whether last night's software derating - MongoDB down 13% on a double beat - extends. Aggregator consensus EPS $0.45 on revenue $1.48bn."
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "4:30 PM",
+      "ticker": "ZS",
+      "note": "Zscaler Q4 FY26, confirmed on Zscaler's own investor relations release. Company guidance for the quarter was revenue of $875mn to $878mn."
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "4:30 PM",
+      "ticker": "LULU",
+      "note": "Lululemon Q2 FY26, confirmed in the company's own newsroom. The week's cleanest read on the discretionary consumer."
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "5:00 PM",
+      "ticker": "IOT",
+      "note": "Samsara Q2 FY27, confirmed on Samsara's own investor event page at 2:00 PM Pacific."
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "5:00 PM",
+      "ticker": "GWRE",
+      "note": "Guidewire Q4 and full-year FY26, quarter ended July 31, confirmed in the company's own press center."
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "after close",
+      "ticker": "DOCU",
+      "note": "DocuSign Q2 FY27, confirmed on Docusign's own news center. Another guidance-slope test for mid-cap software."
+    },
+    {
+      "date": "2026-09-03",
+      "time_et": "before open",
+      "ticker": "CIEN",
+      "note": "Ciena Q3 FY26. Aggregator-sourced only - the company's own events page did not render a date, so treat the timing as unconfirmed. An optical-networking read-through to AI datacenter buildout."
+    }
+  ]
 }

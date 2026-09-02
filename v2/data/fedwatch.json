@@ -1,51 +1,51 @@
 {
- "status": "LIVE",
- "as_of": "2026-09-01 07:20 ET (CME cohort reportingDt 2026-08-28)",
- "reason": "COHORT IS CARRIED, AND THIS WAS TESTED RATHER THAN ASSUMED. The CME FedWatch API is still serving reportingDt 2026-08-28 - Friday's cohort - on Tuesday morning, after Monday's full session settled. Before reporting that as staleness, the endpoint was probed for a fresher cohort: an explicit request for reportingDt=2026-08-31 returns HTTP 200 with totalElements=0, and 2026-09-01 the same. The parameter demonstrably works, because 2026-08-27 returns a genuinely different distribution (hold 64.57%, hike 25bp 35.43%) and 2026-08-28 returns the 41/59 split shown here. So the empty result for Monday is real: CME appears not to have published a post-Monday cohort, rather than the request failing. Treat these probabilities as of Friday's close. Directionally they are corroborated by the cash market - the 2-year has risen for three consecutive sessions since Chair Warsh's Friday speech, and Warsh turned more hawkish again at the G20 on Monday, so if anything the live distribution is more hawkish than what is shown. Cut probability is exactly ZERO at every meeting listed. Current target band 3.50-3.75%.",
- "meetings": [
-  {
-   "meetingDt": "2026-09-16",
-   "reportingDt": "2026-08-28",
-   "hold": 0.41,
-   "hike_25": 0.59,
-   "hike_50": 0.0,
-   "hike_75": 0.0,
-   "hike_100": 0.0,
-   "current_band": "3.50-3.75",
-   "cumulative_hike": 0.59
-  },
-  {
-   "meetingDt": "2026-10-28",
-   "reportingDt": "2026-08-28",
-   "hold": 0.2829,
-   "hike_25": 0.5342,
-   "hike_50": 0.1829,
-   "hike_75": 0.0,
-   "hike_100": 0.0,
-   "current_band": "3.50-3.75",
-   "cumulative_hike": 0.7171
-  },
-  {
-   "meetingDt": "2026-12-09",
-   "reportingDt": "2026-08-28",
-   "hold": 0.105406,
-   "hike_25": 0.376533,
-   "hike_50": 0.403308,
-   "hike_75": 0.114753,
-   "hike_100": 0.0,
-   "current_band": "3.50-3.75",
-   "cumulative_hike": 0.894594
-  },
-  {
-   "meetingDt": "2027-01-27",
-   "reportingDt": "2026-08-28",
-   "hold": 0.078782,
-   "hike_25": 0.308048,
-   "hike_50": 0.396545,
-   "hike_75": 0.18764,
-   "hike_100": 0.028986,
-   "current_band": "3.50-3.75",
-   "cumulative_hike": 0.921218
-  }
- ]
+  "status": "LIVE",
+  "as_of": "2026-09-02 07:20 ET",
+  "reason": "CME FedWatch API, reportingDt 2026-09-01 - Tuesday's close, published and fetched fresh this run. The cohort advanced: yesterday's probe returned zero elements for both Aug 31 and Sep 1, and 2026-09-01 is now published. Cut probability is ZERO at every meeting on the board. The September 16 distribution moved materially - hold 31% and a 25bp HIKE at 69%, against 41/59 on Friday. That is a ten-point hawkish repricing in three sessions, driven by Chair Warsh at Jackson Hole on August 28 and Governor Barr's 'act decisively to raise rates' line on Tuesday morning. Current target band 3.50-3.75%.",
+  "meetings": [
+    {
+      "meetingDt": "2026-09-16",
+      "reportingDt": "2026-09-01",
+      "hold": 0.31,
+      "hike_25": 0.69,
+      "hike_50": 0.0,
+      "hike_75": 0.0,
+      "hike_100": 0.0,
+      "current_band": "3.50-3.75",
+      "cumulative_hike": 0.69
+    },
+    {
+      "meetingDt": "2026-10-28",
+      "reportingDt": "2026-09-01",
+      "hold": 0.2139,
+      "hike_25": 0.5722,
+      "hike_50": 0.2139,
+      "hike_75": 0.0,
+      "hike_100": 0.0,
+      "current_band": "3.50-3.75",
+      "cumulative_hike": 0.7861
+    },
+    {
+      "meetingDt": "2026-12-09",
+      "reportingDt": "2026-09-01",
+      "hold": 0.084609,
+      "hike_25": 0.355628,
+      "hike_50": 0.430472,
+      "hike_75": 0.129291,
+      "hike_100": 0.0,
+      "current_band": "3.50-3.75",
+      "cumulative_hike": 0.915391
+    },
+    {
+      "meetingDt": "2027-01-27",
+      "reportingDt": "2026-09-01",
+      "hold": 0.061295,
+      "hike_25": 0.280947,
+      "hike_50": 0.409849,
+      "hike_75": 0.212283,
+      "hike_100": 0.035627,
+      "current_band": "3.50-3.75",
+      "cumulative_hike": 0.938705
+    }
+  ]
 }

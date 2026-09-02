@@ -1,86 +1,89 @@
 {
- "headline": "Tech futures lead a rates-driven pullback: NQ -1.07% as the US 10-year hits a fresh 52-week high and Japan's 10-year touches 3% for the first time since 1996; two tankers struck exiting Hormuz lift crude 2.4% but gold falls again",
- "as_of": "2026-09-01 07:25 ET",
- "client_frame_short": "Why is my account opening lower when August was such a good month? Because two different clocks are running. August finished up about 2.6% on the S&P 500 and better than 4% on the Nasdaq 100. This morning is one pre-market session, with technology futures lower and oil higher after two tankers were struck leaving the Persian Gulf. The month is the signal. This morning is the noise.\n\nHere is the observable fact worth holding onto. The market now prices **no chance of a rate cut** at any Federal Reserve meeting between now and January. That is a real change from a year ago, and it is already in the price of every bond and every stock you own - which is precisely why it is not something to act on today. Nothing in this morning's tape touches a long-term allocation. The date that matters is Friday, when the August jobs report lands.",
- "client_frame": "The hawkish repricing is the through-line. Chair Warsh's Friday speech pushed the front end of the curve higher for a third straight session, and at the G20 finance ministers' meeting on Monday he went further, coming closer than he previously had to acknowledging that rate hikes may be needed. CME's futures-implied odds put a 25bp HIKE at the September 16 meeting at 59%, with a hold at 41% - and cut probability at exactly zero at every meeting through January 2027. Governor Barr speaks at 9:05 a.m. ET on the economic outlook, 55 minutes ahead of the ISM manufacturing print, and he is the first Fed voice since Warsh.\n\nJapan is the larger change, and it is being underpriced. The 10-year JGB touched 3.00% overnight, a level last seen in 1996 (one feed puts the settle nearer 2.947%, so treat 3% as touched rather than closed). Market-implied odds of a Bank of Japan hike this month have moved to roughly 80-90%, well ahead of the 57% of economists in an August Reuters poll. And yet the yen crosses are unchanged - euro-yen moved four hundredths of a percent. The market is treating a 30-year high in Japanese yields as a domestic story. That is the assumption most likely to be tested.\n\nThe oil and gold combination tells you what kind of tape this is. Two tankers were struck by projectiles exiting the Strait of Hormuz on Monday evening (both confirmed by UKMTO advisories), and US Central Command explicitly refuted Iranian claims that the vessels hit mines. WTI October is up about 2.4% and Brent November about 1.8%. But gold FELL about 1.5%, a second consecutive decline. Crude up, gold down, and a fresh 52-week high in the US 10-year yield is a rates-dominated tape, not a fear-dominated one. Meanwhile China's RatingDog manufacturing PMI - the survey formerly branded Caixin - printed 51.5 against expectations nearer 51.0, a beat that sits awkwardly against the official NBS reading of 49.8.\n\nFor clients: the honest summary is that rate-cut hope has been removed from the curve entirely, and rate-HIKE risk is now the live question in both the United States and Japan. That argues for being deliberate about how much interest-rate risk a portfolio carries, and against reading a single soft pre-market session as information. Friday's August payrolls report - consensus roughly +55,000 to +58,000 jobs - is the next thing that genuinely matters.",
- "asia_close": [
-  {
-   "market": "Nikkei 225",
-   "delta_pct": -0.15,
-   "level": 66215.34
-  },
-  {
-   "market": "Hang Seng",
-   "delta_pct": -0.93,
-   "level": 25329.73
-  },
-  {
-   "market": "Shanghai Comp",
-   "delta_pct": -0.16,
-   "level": 3979.89
-  },
-  {
-   "market": "Shenzhen Comp",
-   "delta_pct": -1.02,
-   "level": 13872.38
-  },
-  {
-   "market": "KOSPI",
-   "delta_pct": 0.23,
-   "level": 6835.8
-  }
- ],
- "europe_open": [
-  {
-   "market": "FTSE 100",
-   "delta_pct": -0.85
-  },
-  {
-   "market": "DAX",
-   "delta_pct": -0.92
-  },
-  {
-   "market": "CAC 40",
-   "delta_pct": -0.37
-  },
-  {
-   "market": "Euro STOXX 50",
-   "delta_pct": -0.51
-  }
- ],
- "single_name_moves": [
-  {
-   "ticker": "0625.HK",
-   "delta_pct": -0.12,
-   "venue": "HKEX",
-   "note": "Shein debut"
-  },
-  {
-   "ticker": "DELL",
-   "delta_pct": null,
-   "venue": "reports after the close"
-  },
-  {
-   "ticker": "PANW",
-   "delta_pct": null,
-   "venue": "reports after the close"
-  },
-  {
-   "ticker": "MDB",
-   "delta_pct": null,
-   "venue": "reports 5:00 p.m. ET"
-  }
- ],
- "geo_headlines": [
-  "HORMUZ - THE OVERNIGHT EVENT DRIVING CRUDE. Two tankers were struck by projectiles as they exited the Strait of Hormuz on Monday evening. The Sinokor-operated Senegal Prosperity was hit first by report, and the Saudi-flagged Sidr eight minutes earlier roughly 17nm east-northeast of Khasab; both incidents were confirmed by UKMTO advisories rather than by social-media claim. WTI October is +2.36% and Brent November +1.77% in response. TWO QUALIFICATIONS THAT CUT AGAINST THE BULLISH READING, both stated because the temptation is to price the headline and stop. First, attribution is contested: Iranian sources claimed the vessels struck mines, and US Central Command explicitly refuted that, stating 'This is FALSE.' Nobody credible has yet established who fired. Second, no infrastructure has been reported damaged and no closure of the strait has occurred - this is harassment of shipping, which historically produces a risk premium that decays within days unless it repeats. The tell that the market agrees: gold FELL 1.5% on the same news. A genuine Hormuz supply scare bids gold and crude together. This one did not.",
-  "OIL, THE UNRESOLVED CAVEAT - Carried forward for a fourth session because it has still not been settled either way, and it is the largest single uncertainty sitting under the crude price. The video posted last week claiming Kharg Island had been destroyed was AI-GENERATED. Kharg handles the overwhelming majority of Iranian crude exports, so the claim would be genuinely material if true. It has received neither US confirmation nor US denial, and no independent imagery or shipping-traffic evidence of damage has emerged in the days since. The honest position is that this is unverified in both directions. To whatever extent a Kharg premium is still embedded in the price, it is REVERSAL risk rather than supply risk - meaning the asymmetry in crude here may be to the downside on confirmation of nothing having happened.",
-  "JAPAN - THE LARGEST CHANGE IN THE GLOBAL RATES PICTURE OVERNIGHT, AND THE MOST UNDERPRICED. The 10-year JGB touched 3.00%, a level last seen in 1996 - thirty years. The feeds conflict on where it actually finished: one reports the 3.00% print, another puts the session high at 2.955% and the settle at 2.947%. That conflict is left UNRESOLVED here rather than rounded to the more dramatic number; 3% is best described as touched, not settled. Market-implied odds of a Bank of Japan hike at this month's meeting have moved to roughly 80-90%, far ahead of the 57% of economists surveyed in an August Reuters poll - so the market is well out in front of the forecasting community. THE REMARKABLE PART IS THE NON-REACTION IN CURRENCY. Euro-yen moved four hundredths of one percent overnight; USD/JPY is +0.19%; AUD/JPY is essentially unchanged. A thirty-year high in Japanese long yields is being read as a purely domestic rates story rather than a carry-unwind or funding event. That may well be right. It is also the single assumption in this morning's tape most likely to be tested, because the yen carry trade is the mechanism through which Japanese rates transmit into US equity, and it is currently pricing no transmission at all.",
-  "FEDERAL RESERVE - THE THROUGH-LINE FOR THE WHOLE TAPE. Chair Warsh spoke at the G20 finance ministers' meeting in Asheville on Monday and came closer than he previously had to acknowledging that rate HIKES may be needed. That follows his Friday speech and completes three consecutive sessions of front-end selling: the 2-year has risen each day since. CME futures put a 25bp hike at the September 16 meeting at 59% against a 41% hold, and cut probability at EXACTLY ZERO at every meeting on the visible curve through January 2027 - a state of affairs worth naming plainly, because most portfolios were built on an assumption of eventual easing. Governor Barr speaks at 9:05 a.m. ET today on the economic outlook, the first Fed voice since Warsh and 55 minutes ahead of the ISM manufacturing print. Governor Waller follows Thursday at 8:30. Note a data caveat on the probabilities: the CME cohort is Friday's, not Monday's - verified as a genuine non-publication rather than a fetch failure, and if anything the live distribution is more hawkish than the figures shown.",
-  "CHINA - A BEAT, AND A CONTRADICTION. The RatingDog manufacturing PMI - the survey formerly branded Caixin, renamed this year, which is worth knowing because the 'Caixin consensus' figures still circulating do not map cleanly onto it - printed 51.5 when it was released at 9:45 p.m. ET Monday, against expectations nearer 50.9 to 51.0. That is a genuine beat and the private-survey series is now firmly in expansion. It sits awkwardly against the OFFICIAL NBS readings: manufacturing at 49.8, still in contraction, and non-manufacturing at 49.0, the weakest since December 2022. The two surveys weight differently - the private series skews smaller, more export-oriented, coastal firms - so the divergence is informative rather than contradictory: it suggests external demand is holding up considerably better than domestic services activity. Asian equity did not reward it, with the Hang Seng -0.93% and Shenzhen -1.02%.",
-  "VENEZUELA - A PRIMARY DOCUMENT FINALLY EXISTS, AND IT CORRECTS THE PRIOR REPORTING. A White House fact sheet now sets out terms, and the counterparty is NOT Chevron as widely assumed: it names NABEP. The published terms are 100-year concessions across 17 fields holding roughly 65 billion barrels, a 35% Department of War equity stake, and 20% off-take at cost with a right of first refusal. Two specific corrections to figures that have been circulating, including in earlier editions of this brief: the 55% equity stake is UNCORROBORATED by the primary document, and the '25-year' figure referred to the royalty horizon, not the concession term. The scale is large enough to matter for the long-run crude supply picture, though nothing here affects near-dated barrels.",
-  "LONDON AND EUROPE - UK markets reopened after Monday's Summer Bank Holiday, so the FTSE 100's 'previous close' field spans a four-day gap rather than one session - worth knowing before reading its -0.85% against Friday's 10,824.26 as a single-day move. The rest of Europe is lower and orderly: DAX -0.92%, Euro STOXX 50 -0.51%, CAC 40 -0.37%. No European index is down more than one percent, which is consistent with a US-rates-led pullback rather than a global risk event. The ECB meets September 10; sources conflict on the current deposit rate, so no level is asserted here.",
-  "HONG KONG - Shein listed on HKEX and closed at HK$48.50 against an HK$48.56 IPO price - essentially flat on debut, but only after a roughly 10% air pocket during the session. For a listing of this profile, a flat close that required an intraday round trip of that size says demand was met at the price and not above it.",
-  "G20 - STATED AS AN OPEN ITEM RATHER THAN AN EVENT, because the absence is itself information. No communique has been issued from the Asheville finance ministers' meeting. Separately, Treasury Secretary Bessent's promised new bank designation remains outstanding: no new action has appeared since the Banque Misr UAE designation on August 28. Both were searched for in this window and neither was found.",
-  "AUGUST, FINAL - THE NUMBER THAT REFRAMES THIS MORNING. The month closed Monday and every US benchmark finished higher: S&P 500 +2.62%, Nasdaq 100 +4.18%, Philadelphia semiconductors +1.98%, Dow +1.34%. The VIX fell 6.69% across the month. Bitcoin gained 25.05%, from 62,825.90 to 78,566.10 - by a wide margin the largest move on the board. Set that against a morning in which tech futures are off about a percent and the temptation is to read the tape as deteriorating. Twenty-one sessions of evidence say August was a good month, and one pre-market session says very little."
- ]
+  "headline": "Three central banks are now priced to tighten at the same time - the Fed, the BOJ and the ECB - and that, not the war, is what moved markets overnight. Japan's 10-year yield is holding above 3% for the first time since 1996, the Bund is at a 15-year high, and September Fed hike odds have reached 69%. Gold fell anyway. Broadcom reports tonight.",
+  "as_of": "2026-09-02 07:20 ET",
+  "client_frame_short": "The story this morning is not the Middle East, even though the Middle East supplied the frightening headlines. It is that three of the world's major central banks are simultaneously priced to raise interest rates - the Federal Reserve at 69% odds for September, the Bank of Japan explicitly promising more, and the ECB now carrying a near-40% market-implied chance of a 3% deposit rate by March. That is the first time in this cycle all three have leaned the same direction at once, and it repriced the cost of money worldwide overnight. Here is the honest tell that it is a rates story and not a war story: gold fell for a third straight day, and crude spiked overnight and gave every cent of it back. Gold does not fall on war. It falls when real yields rise. For a diversified portfolio this is a multiple-compression environment, not an earnings collapse - and those are two very different kinds of drawdown.",
+  "client_frame": "Let me separate the loud thing from the important thing, because this morning they are not the same.\n\nThe loud thing is the Strait of Hormuz. Saudi Arabia's national carrier Bahri confirmed that two Filipino seafarers were killed aboard its vessel SIDR, the United States has declared a 'tanker for tanker' policy of striking Iranian tankers in response to attacks on commercial shipping, and Kpler counted four commodity vessels transiting the strait on Tuesday against a ten-day average near thirteen. That is a genuine, current, physical disruption to roughly a fifth of the world's seaborne oil, and it deserves to be taken seriously.\n\nThe important thing is that markets largely looked past it. Crude rose about 5.7% Tuesday, traded up to 92.28 overnight on the confirmation of the deaths, and then round-tripped all the way back to 90.21. Gold fell for a third consecutive session. Bitcoin fell. The VIX is 16.7. None of that is what a war-panic tape looks like.\n\nWhat markets are actually trading is the cost of money, and it is rising everywhere at once. Japan's 10-year government bond yield is holding above 3% for the first time since 1996, after Governor Ueda said plainly that the Bank of Japan 'will continue to raise interest rates.' Germany's 10-year Bund is at its highest since April 2011, and investors now price a near-40% chance the ECB deposit rate reaches 3% by March 2027, up from 25% a week ago. And here at home, Governor Michael Barr said on Tuesday morning that if inflation 'appears not to be moderating sufficiently, then I think we should act decisively to raise rates.' September hike odds finished Tuesday at 69% on CME's own data, up from roughly a third before Chair Warsh spoke at Jackson Hole five days ago. Barclays now expects hikes in September and December; Deutsche Bank expects the same.\n\nSo this is a global discount-rate shock, and it explains the shape of the selling precisely. Tuesday's declines lined up in order of duration: the Dow fell 0.8%, the S&P 0.7%, the Nasdaq 100 1.3%, and semiconductors 2.1%. Overnight, Samsung fell 3.3% and SK Hynix 3.5%. When the discount rate rises, the assets whose value sits furthest in the future fall the most. That is arithmetic, not sentiment.\n\nAnd while we are being precise: nothing here is at a record. The S&P 500 closed Tuesday 2.1% below its August 13 record close, the Nasdaq 100 is 5.2% below its June 2 record, the Dow 2.9% below its August 5 record - and semiconductors are 22.9% below their June 22 peak, ten weeks later, even as the AI spending numbers underneath them keep accelerating. That last gap is the one I would keep in front of any client who thinks this trade only travels in one direction.\n\nNow the part worth actually holding onto. A rising-rate shock is painful, but it is a compression of valuations, not a destruction of earnings - and those two things have very different histories. Look at what companies reported last night. Dell grew revenue 58% to a record $46.97bn, raised its full-year revenue guidance by $25bn, and disclosed a record $95bn AI-server backlog. Broadcom, which reports tonight, has guided to roughly $29.4bn of revenue, up 84% year over year, with $16bn of that from AI semiconductors - the first quarter in the company's history in which AI would be a majority of sales. Earnings are not the problem here. The price paid for those earnings is what is being renegotiated.\n\nThat distinction matters for behaviour. Drawdowns driven by multiple compression have historically been recoverable for investors who stayed invested, because the underlying cash flows kept growing through them. Drawdowns driven by earnings collapse are the ones that take years. Nothing in last night's reports looks like the second kind.\n\nOne caution I want to be straight about, because it cuts against the comfortable read. The market is pricing a rate repricing and essentially not pricing the war at all - a 16.7 VIX alongside confirmed fatalities in Hormuz and Iranian strikes on Jordan, Bahrain and Kuwait. That may prove correct. It also means that if the Middle East does escalate into sustained supply loss, very little of that outcome is currently in the price. The practical implication is not to sell anything. It is that portfolio insurance is unusually cheap relative to a risk that is visibly on the table, which is a better problem to have than the reverse.",
+  "asia_close": [
+    {
+      "market": "Nikkei 225",
+      "delta_pct": -2.85,
+      "level": "64,325.64"
+    },
+    {
+      "market": "KOSPI",
+      "delta_pct": -3.13,
+      "level": "approx 6,600 (feeds conflict)"
+    },
+    {
+      "market": "Shanghai Composite",
+      "delta_pct": -0.97,
+      "level": "3,941.39"
+    },
+    {
+      "market": "Shenzhen Component",
+      "delta_pct": -1.88,
+      "level": "13,611.55"
+    },
+    {
+      "market": "Hang Seng",
+      "delta_pct": -0.07,
+      "level": "little changed (feeds conflict)"
+    }
+  ],
+  "europe_open": [
+    {
+      "market": "FTSE 100",
+      "delta_pct": -0.65
+    },
+    {
+      "market": "DAX",
+      "delta_pct": -0.1
+    },
+    {
+      "market": "CAC 40",
+      "delta_pct": -0.52
+    },
+    {
+      "market": "Euro STOXX 50",
+      "delta_pct": 0.03
+    }
+  ],
+  "single_name_moves": [
+    {
+      "ticker": "DELL",
+      "delta_pct": 9.8,
+      "venue": "after hours",
+      "note": "Q2 revenue $46.97bn, up 58% y/y and a record, against $44.89bn expected. Non-GAAP EPS $7.04 versus $4.91 consensus. Record AI-server backlog of $95bn, up from $51.3bn entering the quarter. Full-year FY27 revenue guidance RAISED by $25bn to $192bn; FY27 AI server revenue guided to $74bn, triple last year. Note it closed DOWN 7.34% into the print with the semis."
+    },
+    {
+      "ticker": "MDB",
+      "delta_pct": -13.29,
+      "venue": "after hours",
+      "note": "The sharpest signal of the night. MongoDB beat on both lines - revenue $771.8mn up 30% versus $735mn expected, non-GAAP EPS $1.90 versus $1.62 - with operating margin up roughly 900bp y/y and free cash flow nearly doubled. Down 13% anyway, because Q3 revenue guidance of $756-761mn is a SEQUENTIAL DECLINE from the quarter just delivered. Guidance slope is now being punished harder than a beat is rewarded."
+    },
+    {
+      "ticker": "GTLB",
+      "delta_pct": 20.25,
+      "venue": "after hours",
+      "note": "Revenue $286.3mn up 21% versus $273.1mn expected; management flagged the largest gross-bookings quarter in company history. Up 20% even though the Q3 revenue guide of $281-283mn is also below the quarter just delivered - the market is paying for the bookings inflection rather than the guide."
+    },
+    {
+      "ticker": "PANW",
+      "delta_pct": -1.27,
+      "venue": "after hours",
+      "note": "Beat and raised - revenue $3.41bn up 34%, non-GAAP EPS $1.02 versus $0.98, FY27 revenue guided to $14.10-14.20bn against $13.79bn consensus - and the stock is still slightly lower. Same software-derating theme. GAAP net loss of $282mn."
+    }
+  ],
+  "geo_headlines": [
+    "HORMUZ, CONFIRMED FATALITIES AND A NEW US DOCTRINE. Saudi Arabia's national carrier Bahri confirmed on Wednesday that two Filipino seafarers were killed aboard its vessel SIDR, IMO 9854715, in a security incident while transiting the Strait of Hormuz at approximately 11:40 p.m. local time on August 31. That upgrades what was a UKMTO advisory report into an owner-confirmed attack with loss of life. Separately and more consequentially for oil, the United States has announced a 'tanker for tanker' deterrence policy - striking Iranian oil tankers in response to attacks on commercial shipping - and Axios reported that two Iranian government tankers were hit in Tuesday's action. Note carefully what is NOT established: Bahri itself used the neutral phrase 'security incident' and did not assign blame, and no official body has produced a forensic attribution of the SIDR strike to Iran. CENTCOM's 'attempted Iranian attacks' language is a US characterisation, not an attribution. The 'tanker for tanker' policy has been reported by multiple outlets but does not yet appear on a CENTCOM or Defense Department primary release. The escalation vector that matters for markets is that Iranian EXPORT barrels, not merely transit barrels, are now declared targets.",
+    "THE PHYSICAL DISRUPTION IS REAL AND MEASURABLE, WHICH IS WHY THE FLAT OIL PRICE IS SO STRANGE. Kpler counted FOUR commodity vessels transiting the Strait of Hormuz on Tuesday - one VLCC, one Panamax tanker, one Kamsarmax and one intermediate tanker - down from ten the prior day and against a ten-day average near thirteen. That is a roughly 70% collapse in transit volume through a waterway carrying close to a fifth of global seaborne crude, and it is a hard count rather than a sentiment read. Set that against the price action: WTI rose about 5.7% Tuesday, traded up to 92.28 overnight on the fatality confirmation, and closed the loop back at 90.21 - flat. Brent is up 0.33% at 94.96 after printing above 95, a six-week high. Two honest gaps worth stating: no war-risk insurance premium quote could be verified in the overnight window, so any specific premium number circulating today is unsourced - the most recent verified data is from July, at 7.5-10% of hull value per Marsh. And the formal status of the strait, open or closed or restricted, could not be verified from any official body. The Kpler transit count is the defensible framing: severely reduced, not officially closed.",
+    "JAPAN'S 10-YEAR YIELD IS ABOVE 3% AND HOLDING - FIRST TIME SINCE 1996. This is the overnight event with the widest reach, and it resolves a conflict this briefing flagged as unresolved yesterday. Tuesday's feeds disagreed on whether the settle was 2.947% or 3.00%; the answer is that 2.947 was Tuesday's LOW, misread as a settle, while Quick data via Morningstar had the intraday touch at 3.000% trimming to 2.995%. This morning the yield is 3.001% on Investing.com's own real-time page, having traded a 2.995-3.016 range overnight - so the 3% threshold has now been crossed AND held, which is a different and more significant fact than touching it. Governor Ueda said Tuesday the Bank of Japan 'will continue to raise interest rates as financial conditions remain accommodative' and will debate this month whether upside inflation risks are heightening. Market-implied odds of a September BOJ hike were around 85% in late August. Thirty years of Japanese yield repression functioning as the world's cheapest funding source is what is being unwound here, and it raises the global hurdle rate for every long-duration asset.",
+    "AND EUROPE IS NOW PRICING HIKES TOO, WHICH MAKES THIS SYNCHRONISED. The German 10-year Bund yield hit its highest level since April 2011 overnight. More telling than the level is the repricing behind it: investors now see a near-40% chance the ECB deposit facility rate reaches 3% by March 2027, up from 25% just a week ago. For reference the deposit rate currently stands at 2.25%, having been raised 25bp effective 17 June 2026 - and it is worth flagging that the 2.00% figure still circulating widely is stale by more than a year, being the level in force from June 2025 to June 2026. The ECB's Governing Council meets September 9-10, hosted by the Bundesbank in Berlin rather than in Frankfurt, with the decision and press conference on the 10th. So: the Fed at 69% for a September hike, the BOJ explicitly promising more, and the ECB now carrying a live tightening path. Three major central banks leaning the same direction simultaneously is the first occurrence of this cycle, and it is the mechanism behind every other number on this page.",
+    "BARR SAID THE QUIET PART OUT LOUD, AND THE CURVE MOVED. Federal Reserve Governor Michael Barr spoke at 9:05 a.m. Tuesday in Washington and delivered the most explicit hawkish signal from a sitting governor this cycle. Verbatim from the Fed's own published text: 'if inflation appears not to be moderating sufficiently, then I think we should act decisively to raise rates.' He paired it with an unusually candid framing of the dilemma - 'The labor market is stable... The economy has been growing solidly, powered in part by the boom in AI-related business investment... But inflation remains too high - and has been for over five years' - and named the risk directly: 'With inflation above target for a protracted period, there is a risk of broader price pressures taking hold, a risk I am watching closely.' September hike odds finished Tuesday at 69% on CME's own FedWatch data, against roughly a third before Chair Warsh's Jackson Hole speech on August 28. Barclays now forecasts 25bp in September and again in December; Deutsche Bank forecasts the same 50bp of total tightening this year. A correction to yesterday's framing: Warsh's hawkish remarks were at Jackson Hole on August 28, not at the G20 in Asheville - he was in Asheville, but the hike content is Jackson Hole.",
+    "TUESDAY'S ISM WAS A STAGFLATIONARY MISS AND IT SUPPORTS THE HAWKS. August ISM Manufacturing came in at 54.6% against 55.2% consensus and 55.6% prior, a full point lower and the eighth consecutive month of expansion. The composition is worse than the headline: New Orders fell 3.0 points to 53.7%, Employment fell 1.6 to 51.2% and is barely expanding, and critically PRICES PAID HELD AT 71.1% - unchanged, and deeply elevated. Softening demand with sticky input costs is precisely the mix that argues for the hawkish read, and it landed the same morning as Barr's speech. One vendor trap to note: Investing.com's economic calendar shows 55.2 in the Actual column, which is the consensus mis-slotted; the ISM's own primary document governs at 54.6. Separately S&P Global's final US manufacturing PMI was revised UP to 53.9 from a 53.2 flash, though that figure is single-sourced and a 0.7-point revision is large enough to warrant caution. Construction spending fell 0.5% in July, though with a plus-or-minus 0.8% error band that is statistically indistinguishable from flat.",
+    "A JOLTS CORRECTION THAT FLIPS THE SIGN. July job openings came in at 7.271 million against a 7.30-7.33 million consensus, with the openings rate at 4.4%, hires 5.054 million and quits 3.056 million. But the important part is in the revisions, and it corrects a figure this briefing carried yesterday. The prior month was stated as 7.359 million; BLS revised June DOWN by 177,000 to roughly 7.182 million in the same release. So anyone comparing 7.271 against 7.359 concludes openings FELL by about 88,000, when the actual sequential change is a RISE of 89,000 off a cut base. Opposite sign, same two numbers. This is the second consecutive month in which a downward revision has done more work than the headline, and it matters ahead of Friday's payrolls print, where the August 28 annual benchmark revision already removed 79,000 jobs from the twelve months through March. Durable-goods manufacturing openings rose 76,000.",
+    "THE AI TRADE SPLIT IN TWO AFTER THE CLOSE, AND BROADCOM IS TONIGHT'S REFEREE. Hardware was paid and software was punished. Dell grew revenue 58% to a record $46.97bn, beat EPS by more than two dollars, disclosed a record $95bn AI-server backlog against $51.3bn entering the quarter, and raised full-year revenue guidance by $25bn to $192bn - the stock is up 9.8% having closed down 7.3% with the semis. MongoDB beat both lines with 900bp of margin expansion and is down 13.3%, purely because Q3 guidance is sequentially lower than the quarter just delivered. Palo Alto beat and raised and is still down 1.3%. Broadcom reports at 5:00 p.m. tonight and is the day's main event: company guidance is roughly $29.4bn of revenue, up 84% year over year, with $16bn from AI semiconductors, which would make AI a majority of sales for the first time. The catch worth knowing is that when Broadcom first guided to $16bn, that figure landed roughly seven percentage points BELOW sell-side expectations near $17bn. Simply hitting the number may not be enough. Snowflake, HPE and NetApp also report tonight.",
+    "TODAY'S CALENDAR, AND WHAT IS NOT ON IT. ADP's August employment report is at 8:15 a.m., with a consensus band of 48,000 to 51,000 against a July print of 44,000 - treat that as an aggregator band rather than a named economist poll. July factory orders at 10:00 a.m. carry a 0.7% consensus against June's 0.3% decline, and the already-published July advance durable-goods figure of plus 1.1% skews the risk to a firm headline. The EIA petroleum status report is at 10:30 a.m. and matters more than usual given Hormuz. The Fed's Beige Book lands at 2:00 p.m. There are NO Federal Reserve Board speaking engagements today - the Board's own September calendar lists only two speeches for the entire month, Barr on the 1st and Waller on the 3rd, which is consistent with the FOMC blackout beginning Saturday September 5. Tomorrow brings jobless claims, the July trade balance and revised Q2 productivity all at 8:30 a.m., colliding with Waller at the same minute, plus ISM Services at 10:00 a.m.",
+    "FRIDAY'S PAYROLLS ARE A SPREAD, NOT A POINT - AND ONE WIDELY CIRCULATED FORECAST IS FROM LAST YEAR. August nonfarm payrolls arrive Friday at 8:30 a.m. The prior month was minus 23,000 against a twelve-month average of plus 34,000, with May and June revised down by a combined 103,000. The best attributed current forecast is the Reuters poll at plus 58,000 with unemployment at 4.1%. Wolfe Research is at plus 65,000 and 4.16%, and quotes consensus at plus 55,000. PNC cites consensus at plus 60,000 and 4.2%. Capital Economics is the high outlier at plus 90,000, but its published unemployment figure is internally inconsistent with July's actual print and should not be relied on. The honest range is plus 50,000 to plus 90,000, clustered 55,000 to 65,000. The largest dispersion in the whole report is average hourly earnings, where Wolfe is at plus 0.35% month over month against a consensus near plus 0.2%, because August's survey period captures mid-month pay increases - that is the most likely source of a hawkish surprise. A caution: the 'Goldman Sachs plus 60,000 with unemployment at 4.3%' forecast circulating widely is a stale artifact from September 2025 previewing August 2025, and should not be quoted. Two internal tells confirm it. No verifiable Goldman August 2026 forecast exists."
+  ]
 }
