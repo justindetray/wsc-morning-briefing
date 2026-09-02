@@ -342,8 +342,14 @@ def render_calendar(calendar, today_et):
     for e in earn:
         combined.append({
             "date": e.get("date") or "",
-            "time": e.get("session") or "",
-            "event": f"{e.get('ticker','?')} ({e.get('name','?')}) earnings",
+            # Payloads carry time_et (matching the macro rows), not session; and they carry
+            # no company name. The old f-string rendered a literal "AVGO (?) earnings" with an
+            # empty time cell - verified shipping in the v2-dev index.html blob for run #169.
+            "time": e.get("time_et") or e.get("session") or "",
+            "event": (
+                "%s (%s) earnings" % (e.get("ticker") or "", e["name"])
+                if e.get("name") else "%s earnings" % (e.get("ticker") or "")
+            ),
             "cons": e.get("note") or "",
             "imp": e.get("importance") or "low",
         })
@@ -435,6 +441,7 @@ html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -ap
 .fw-dead{padding:8px;color:#f87171;font-size:12px;background:#1f1414;border-radius:4px}
 .cal{width:100%;border-collapse:collapse;font-size:12px}
 .cal th,.cal td{padding:6px 8px;border-bottom:1px solid #1c1d1e;text-align:left}
+.cal td:first-child,.cal th:first-child{white-space:nowrap}
 .cal th{color:#888;font-weight:500;text-transform:uppercase;letter-spacing:.06em;font-size:10px}
 .cal tr.imp-high td{background:#181818}
 .cal .muted{color:#888}
