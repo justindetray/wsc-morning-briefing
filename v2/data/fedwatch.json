@@ -1,51 +1,51 @@
 {
-  "status": "LIVE",
-  "as_of": "2026-09-02 07:20 ET",
-  "reason": "CME FedWatch API, reportingDt 2026-09-01 - Tuesday's close, published and fetched fresh this run. The cohort advanced: yesterday's probe returned zero elements for both Aug 31 and Sep 1, and 2026-09-01 is now published. Cut probability is ZERO at every meeting on the board. The September 16 distribution moved materially - hold 31% and a 25bp HIKE at 69%, against 41/59 on Friday. That is a ten-point hawkish repricing in three sessions, driven by Chair Warsh at Jackson Hole on August 28 and Governor Barr's 'act decisively to raise rates' line on Tuesday morning. Current target band 3.50-3.75%.",
-  "meetings": [
-    {
-      "meetingDt": "2026-09-16",
-      "reportingDt": "2026-09-01",
-      "hold": 0.31,
-      "hike_25": 0.69,
-      "hike_50": 0.0,
-      "hike_75": 0.0,
-      "hike_100": 0.0,
-      "current_band": "3.50-3.75",
-      "cumulative_hike": 0.69
-    },
-    {
-      "meetingDt": "2026-10-28",
-      "reportingDt": "2026-09-01",
-      "hold": 0.2139,
-      "hike_25": 0.5722,
-      "hike_50": 0.2139,
-      "hike_75": 0.0,
-      "hike_100": 0.0,
-      "current_band": "3.50-3.75",
-      "cumulative_hike": 0.7861
-    },
-    {
-      "meetingDt": "2026-12-09",
-      "reportingDt": "2026-09-01",
-      "hold": 0.084609,
-      "hike_25": 0.355628,
-      "hike_50": 0.430472,
-      "hike_75": 0.129291,
-      "hike_100": 0.0,
-      "current_band": "3.50-3.75",
-      "cumulative_hike": 0.915391
-    },
-    {
-      "meetingDt": "2027-01-27",
-      "reportingDt": "2026-09-01",
-      "hold": 0.061295,
-      "hike_25": 0.280947,
-      "hike_50": 0.409849,
-      "hike_75": 0.212283,
-      "hike_100": 0.035627,
-      "current_band": "3.50-3.75",
-      "cumulative_hike": 0.938705
-    }
-  ]
+ "status": "LIVE",
+ "as_of": "2026-09-03 07:15 ET",
+ "reason": "CME FedWatch API, reportingDt 2026-09-02 - Wednesday's close, published and fetched fresh this run, and the cohort advanced from the 2026-09-01 set used yesterday. The September 16 distribution repriced materially DOVISH: hold 38.8% and a 25bp HIKE at 61.2%, against 31/69 on the prior cohort. That eight-point move is directly attributable to Wednesday's ADP miss at +38,000 against expectations near +48,000. Cut probability remains exactly ZERO at every meeting on the board through March 2027, because the distribution contains no bucket below the current target band. Current target band 3.50-3.75%.",
+ "meetings": [
+  {
+   "meetingDt": "2026-09-16",
+   "reportingDt": "2026-09-02",
+   "hold": 0.387857,
+   "hike_25": 0.612143,
+   "hike_50": 0.0,
+   "hike_75": 0.0,
+   "hike_100": 0.0,
+   "current_band": "3.50-3.75",
+   "cumulative_hike": 0.612143
+  },
+  {
+   "meetingDt": "2026-10-28",
+   "reportingDt": "2026-09-02",
+   "hold": 0.27621,
+   "hike_25": 0.547581,
+   "hike_50": 0.17621,
+   "hike_75": 0.0,
+   "hike_100": 0.0,
+   "current_band": "3.50-3.75",
+   "cumulative_hike": 0.72379
+  },
+  {
+   "meetingDt": "2026-12-09",
+   "reportingDt": "2026-09-02",
+   "hold": 0.113962,
+   "hike_25": 0.388175,
+   "hike_50": 0.394356,
+   "hike_75": 0.103507,
+   "hike_100": 0.0,
+   "current_band": "3.50-3.75",
+   "cumulative_hike": 0.886038
+  },
+  {
+   "meetingDt": "2027-01-27",
+   "reportingDt": "2026-09-02",
+   "hold": 0.085176,
+   "hike_25": 0.318911,
+   "hike_50": 0.392795,
+   "hike_75": 0.176973,
+   "hike_100": 0.026145,
+   "current_band": "3.50-3.75",
+   "cumulative_hike": 0.914824
+  }
+ ]
 }
