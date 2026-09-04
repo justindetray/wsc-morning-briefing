@@ -1,51 +1,51 @@
 {
  "status": "LIVE",
- "as_of": "2026-09-03 07:15 ET",
- "reason": "CME FedWatch API, reportingDt 2026-09-02 - Wednesday's close, published and fetched fresh this run, and the cohort advanced from the 2026-09-01 set used yesterday. The September 16 distribution repriced materially DOVISH: hold 38.8% and a 25bp HIKE at 61.2%, against 31/69 on the prior cohort. That eight-point move is directly attributable to Wednesday's ADP miss at +38,000 against expectations near +48,000. Cut probability remains exactly ZERO at every meeting on the board through March 2027, because the distribution contains no bucket below the current target band. Current target band 3.50-3.75%.",
+ "as_of": "2026-09-04 07:05 ET",
+ "reason": "CME FedWatch API, reportingDt 2026-09-03 - Thursday's close, fetched fresh this run, and the cohort advanced from the 2026-09-02 set used yesterday. The September 16 distribution repriced materially DOVISH for a second consecutive session: hold 48.6% against a 25bp HIKE at 51.4%, which is a coin flip, versus 38.8/61.2 on the prior cohort and 31/69 two sessions ago. The move is directly attributable to Governor Waller's 8:30 Thursday speech, in which he said he would be inclined to support holding rates if the disinflation seen in recent data continues. Cut probability remains exactly ZERO at every meeting on the board through March 2027, because the distribution contains no bucket below the current target band. Current target band 3.50-3.75%.",
  "meetings": [
   {
    "meetingDt": "2026-09-16",
-   "reportingDt": "2026-09-02",
-   "hold": 0.387857,
-   "hike_25": 0.612143,
+   "reportingDt": "2026-09-03",
+   "hold": 0.485714,
+   "hike_25": 0.514286,
    "hike_50": 0.0,
    "hike_75": 0.0,
    "hike_100": 0.0,
    "current_band": "3.50-3.75",
-   "cumulative_hike": 0.612143
+   "cumulative_hike": 0.514286
   },
   {
    "meetingDt": "2026-10-28",
-   "reportingDt": "2026-09-02",
-   "hold": 0.27621,
-   "hike_25": 0.547581,
-   "hike_50": 0.17621,
+   "reportingDt": "2026-09-03",
+   "hold": 0.356653,
+   "hike_25": 0.506694,
+   "hike_50": 0.136653,
    "hike_75": 0.0,
    "hike_100": 0.0,
    "current_band": "3.50-3.75",
-   "cumulative_hike": 0.72379
+   "cumulative_hike": 0.643347
   },
   {
    "meetingDt": "2026-12-09",
-   "reportingDt": "2026-09-02",
-   "hold": 0.113962,
-   "hike_25": 0.388175,
-   "hike_50": 0.394356,
-   "hike_75": 0.103507,
+   "reportingDt": "2026-09-03",
+   "hold": 0.159305,
+   "hike_25": 0.423671,
+   "hike_50": 0.341409,
+   "hike_75": 0.075615,
    "hike_100": 0.0,
    "current_band": "3.50-3.75",
-   "cumulative_hike": 0.886038
+   "cumulative_hike": 0.840695
   },
   {
    "meetingDt": "2027-01-27",
-   "reportingDt": "2026-09-02",
-   "hold": 0.085176,
-   "hike_25": 0.318911,
-   "hike_50": 0.392795,
-   "hike_75": 0.176973,
-   "hike_100": 0.026145,
+   "reportingDt": "2026-09-03",
+   "hold": 0.126382,
+   "hike_25": 0.369036,
+   "hike_50": 0.35841,
+   "hike_75": 0.130546,
+   "hike_100": 0.015627,
    "current_band": "3.50-3.75",
-   "cumulative_hike": 0.914824
+   "cumulative_hike": 0.873618
   }
  ]
 }

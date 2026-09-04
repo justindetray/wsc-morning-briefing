@@ -1,101 +1,29 @@
 {
- "last_curated": "2026-09-03 07:20 ET",
+ "last_curated": "2026-09-04 07:12 ET",
  "macro": [
-  {
-   "date": "2026-09-03",
-   "time_et": "5:30 AM",
-   "event": "Challenger Job Cuts, August",
-   "consensus": "none published",
-   "importance": "medium",
-   "note": "ALREADY RELEASED: 52,881 announced cuts, +58% m/m from 33,429 in July, -38% y/y. Hiring plans 12,325 against 16,095 in July. Year-to-date cuts 529,914 versus 892,362 in 2025, down 41%. Time and figures taken from the Challenger report itself, dateline September 3. Challenger is not a polled series so no consensus exists."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "8:30 AM",
-   "event": "Initial Jobless Claims (w/e Aug 29)",
-   "consensus": "no verified consensus",
-   "importance": "high",
-   "note": "Prior 203,000, down 4,000 from a revised 207,000, per the DOL release. NO published poll consensus exists for this week - the only circulating number is an aggregator estimate of 205K. A higher figure in the low 220-thousands circulating on secondary sites traces to no primary or poll source and must not be briefed as consensus. The prior week's level is routinely revised in this release; read the revised line before computing any week-on-week change."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "8:30 AM",
-   "event": "Continuing Claims (w/e Aug 22)",
-   "consensus": "no verified consensus",
-   "importance": "medium",
-   "note": "Prior 1,778,000, down 18,000, insured unemployment rate 1.2%. This week is the reference period for tomorrow's payrolls survey, and at 1.778mn against 1.777mn heading into the July report it is essentially unchanged."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "8:30 AM",
-   "event": "International Trade in Goods and Services, July",
-   "consensus": "-$86.4bn (aggregator, not a poll)",
-   "importance": "medium",
-   "note": "Prior -$73.3bn for June; goods deficit $102.1bn, services surplus $28.8bn, May revised to -$77.6bn. Date and time confirmed on the BEA's own release schedule. The July advance goods deficit was already published at $118.8bn, up $17.4bn and the widest since March 2025, which skews risk toward a materially wider headline. BEA revises the prior month in every release."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "8:30 AM",
-   "event": "Productivity and Costs, Q2 2026 (revised)",
-   "consensus": "+1.4% productivity / +1.3% ULC (aggregator)",
-   "importance": "low",
-   "note": "Time confirmed on the BLS release schedule. The correct comparison for a revision release is the Q2 preliminary estimate of +1.4% productivity and +1.3% unit labour costs, not the Q1 figure of 0.8% that at least one aggregator listed as prior."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "8:30 AM",
-   "event": "Fed Governor Waller - speech, Economic Outlook",
-   "consensus": "",
-   "importance": "high",
-   "note": "Reuters NEXT Newsmaker interview, virtual. Listed on the Federal Reserve Board's own September calendar as a speech with a topic, not an informal appearance. POLICY-RELEVANT: he is the last Fed voice before the September 15-16 FOMC blackout begins Saturday September 5, and he speaks the day before August payrolls."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "9:45 AM",
-   "event": "S&P Global US Services PMI, August final",
-   "consensus": "flash was 56.8",
-   "importance": "medium",
-   "note": "August flash was 56.8 against 54.6 in July, with the flash composite at 56.0 against 54.5. A 56.8 S&P services reading against an ISM consensus near 54.2 is an unusually wide divergence between the two surveys and should be flagged rather than reconciled."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "10:00 AM",
-   "event": "ISM Services PMI, August",
-   "consensus": "54.2-54.3",
-   "importance": "high",
-   "note": "Prior 54.1, verified on ISM's own July report page, which was up from 54.0 in June and a 25th consecutive month of expansion. Consensus is 54.2 to 54.3 - the 54.5 figure in circulation was the JULY consensus, which missed, and must not be recycled. Employment sub-index prior 47.4 is contractionary and is the line to read ahead of tomorrow's payrolls; business activity prior 59.1."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "10:30 AM",
-   "event": "EIA Weekly Natural Gas Storage (w/e Aug 28)",
-   "consensus": "no verified consensus",
-   "importance": "low",
-   "note": "Standard Thursday slot. A tracker reported the prior week at a +15 Bcf injection but this could NOT be verified against the EIA's own release page, which returned a stale cached edition. Pull the primary EIA page at 10:30 before quoting the prior."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "11:00 AM",
-   "event": "Treasury announces 3Y, 10Y reopening, 30Y reopening, bills",
-   "consensus": "",
-   "importance": "medium",
-   "note": "Announcement date confirmed on Treasury's own Tentative Auction Schedule for 6-week, 13-week and 26-week bills plus the 3-year note and 10-year and 30-year reopenings, auctioning September 8, 9 and 10. Separately, a secondary mirror shows 4-week and 8-week bill AUCTIONS today around 11:30, matching Treasury's standard cadence, but this could not be verified at Treasury directly and is flagged UNVERIFIED."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "3:00 PM",
-   "event": "Cleveland Fed's Hammack - opening remarks",
-   "consensus": "",
-   "importance": "low",
-   "note": "NOT A POLICY SPEECH. Confirmed on the Cleveland Fed's own events page as opening remarks at a Connecting Communities webinar titled When Every Dollar Counts: Worker Perspectives on the Economy. No prepared policy remarks and no Q&A billed. Treat as non-market-moving by default. Her stance is already public - she told CNBC on August 27 that now is the time to act on raising rates."
-  },
   {
    "date": "2026-09-04",
    "time_et": "8:30 AM",
-   "event": "Employment Situation, August - THE WEEK'S EVENT",
-   "consensus": "spread: -25K to +90K",
+   "event": "Employment Situation, August - TODAY'S EVENT",
+   "consensus": "spread: -25K to +125K",
    "importance": "high",
-   "note": "Prior -23,000. Brief this as a SPREAD, not a point estimate, because the range of named professional forecasts is extraordinary: Fifth Third -25K, Barclays +25K, BofA +40K, Newsquawk +45K, Bloomberg consensus roughly +55K, Reuters poll +58K with 4.1% unemployment, Nomura +60K, Wolfe and Goldman and Credit Agricole +65K, Wells Fargo +80K, Capital Economics +90K. Note that a Goldman +60K/4.3% figure in circulation is a September 2025 artifact - the 2026 Goldman number is +65K with 4.1%. Unemployment consensus clusters 4.1% to 4.2%; average hourly earnings consensus +0.2% with Wolfe at +0.35%."
+   "note": "NOT YET RELEASED at build time - this is the week's main event and it lands 90 minutes after this briefing. Date and time triple-confirmed on the BLS release schedule. Prior: payrolls FELL 23,000, unemployment 4.1%, participation 61.4%, average hourly earnings +$0.02 m/m and +3.2% y/y, with May and June revised down a combined 103,000. Brief as a SPREAD, never a point: Fifth Third -25K, Reuters poll +56K, FactSet median +65K (n=6, range 50-70K), Goldman Sachs +65K headline / +40K private / 4.1% unemployment, Wolfe +65K, Credit Agricole +65K, Wells Fargo +80K, street top near +125K. A circulating 'Goldman +60K / 4.3%' figure is a conflation - 4.3% is their YEAR-END forecast. NO annual benchmark revision in this release; the preliminary estimate came separately on August 28 at -79,000 nonfarm and -178,000 private, with the final due February 2027."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": "1:00 PM",
+   "event": "Baker Hughes Rig Count",
+   "consensus": "none published",
+   "importance": "low",
+   "note": "Standard Friday slot, time confirmed. The prior rig LEVEL could not be verified against a primary source this run and is therefore not published here rather than carried forward."
+  },
+  {
+   "date": "2026-09-04",
+   "time_et": "",
+   "event": "No Fed speakers scheduled",
+   "consensus": "",
+   "importance": "medium",
+   "note": "The Federal Reserve Board's own September calendar lists NO speeches today. Regional reserve bank appearances could not be exhaustively excluded and are flagged. The pre-meeting communications blackout for the September 15-16 FOMC begins TOMORROW, Saturday September 5, and runs to September 17 - so Governor Waller's Thursday speech was the last policy voice before the quiet period."
   },
   {
    "date": "2026-09-07",
@@ -103,83 +31,94 @@
    "event": "Labor Day - US markets closed",
    "consensus": "",
    "importance": "medium",
-   "note": "US equity and bond markets closed for Labor Day."
+   "note": "US equity and bond markets closed. Note the knock-on: the holiday pushes several standard release slots out by a day next week, including consumer credit."
+  },
+  {
+   "date": "2026-09-08",
+   "time_et": "12:01 AM",
+   "event": "Canada counter-tariffs take effect",
+   "consensus": "",
+   "importance": "medium",
+   "note": "Confirmed on Finance Canada's own list of US products subject to counter-tariffs: roughly C$27.6bn of goods at rates of 15, 25 and 50 percent, in force from 12:01 on September 8."
+  },
+  {
+   "date": "2026-09-08",
+   "time_et": "3:00 PM",
+   "event": "Consumer Credit, July (G.19)",
+   "consensus": "",
+   "importance": "low",
+   "note": "CORRECTION to prior circulation: this is NOT a Friday September 4 release. The Federal Reserve's own September calendar places G.19 on Tuesday September 8 at 3:00 PM, because Labor Day pushes the fifth business day out."
   },
   {
    "date": "2026-09-09",
    "time_et": "",
-   "event": "Bank of Canada decision; ECB Governing Council convenes Berlin",
+   "event": "ECB Governing Council convenes, Berlin",
    "consensus": "",
    "importance": "medium",
-   "note": "The ECB meets in Berlin September 9 and 10 with markets pricing a rate increase at more than 95% probability. Canada's counter-tariff measures are also scheduled for September 8."
+   "note": "The Governing Council convenes in Berlin on September 9 ahead of the September 10 decision. CORRECTION: the Bank of Canada does NOT announce a rate this day. Its published 2026 fixed announcement dates are January 28, March 18, April 29, June 10, July 15, SEPTEMBER 2, October 28 and December 9. It held at 2.25% on September 2. September 16 carries only the Summary of Deliberations at 13:30 ET."
+  },
+  {
+   "date": "2026-09-10",
+   "time_et": "8:15 AM",
+   "event": "ECB rate decision - a HIKE is priced",
+   "consensus": "+25bp to 2.50%",
+   "importance": "high",
+   "note": "Decision at 8:15 AM ET with the press conference at 8:45 AM ET, in Berlin. All 65 economists in the Reuters poll expect a 25 basis point increase to 2.50%, the second of the cycle, and then a pause. Brief this as a HIKE - framing the ECB as easing is wrong by direction."
   },
   {
    "date": "2026-09-10",
    "time_et": "8:30 AM",
    "event": "PPI, August",
-   "consensus": "",
+   "consensus": "no verified consensus",
    "importance": "high",
-   "note": "First of the two inflation prints before the FOMC."
+   "note": "First of the two inflation prints before the FOMC. The July prior could not be verified against the BLS release this run and is therefore not published rather than carried forward."
+  },
+  {
+   "date": "2026-09-10",
+   "time_et": "after close",
+   "event": "Oracle and Adobe report",
+   "consensus": "",
+   "importance": "medium",
+   "note": "Both confirmed after the close on September 10 from company investor-relations pages. Consensus estimates for both are UNVERIFIED and not published here. Oracle is the more consequential of the two as a read on AI infrastructure backlog."
   },
   {
    "date": "2026-09-11",
    "time_et": "8:30 AM",
-   "event": "CPI, August",
-   "consensus": "",
+   "event": "CPI, August - THE print Waller named",
+   "consensus": "no verified consensus",
    "importance": "high",
-   "note": "The last major inflation reading before the September 15-16 FOMC, and the single most important scheduled release of the month. University of Michigan sentiment also lands September 11."
+   "note": "The single most important scheduled release of the month. Governor Waller said explicitly on September 3 that his policy decision 'will be heavily influenced by what we learn about August inflation' - this is that reading. University of Michigan preliminary sentiment also lands September 11. The August prior could not be verified primary this run and is not published."
   },
   {
    "date": "2026-09-15",
    "time_et": "",
    "event": "FOMC meeting begins (Sept 15-16)",
-   "consensus": "",
+   "consensus": "48.6% hold / 51.4% hike",
    "importance": "high",
-   "note": "Market prices 38.8% hold and 61.2% for a 25 basis point hike as of the September 2 FedWatch cohort. Probability of a cut is zero. Retail sales land September 16, the Bank of England September 17, and the Bank of Japan September 17-18."
+   "note": "Market prices a coin flip - 48.6% hold against 51.4% for a 25 basis point hike, per the September 3 FedWatch cohort. Probability of a CUT is exactly zero. The decision TIME is UNVERIFIED and not published here. The Bank of Japan meets September 17-18 and is widely expected to hike; a late-August Reuters poll had it going to 1.25% in September."
   }
  ],
  "earnings": [
   {
-   "date": "2026-09-03",
-   "time_et": "8:30 AM",
-   "ticker": "CIEN",
-   "importance": "medium",
-   "note": "Reports before the open with the call at 8:30, confirmed from company investor relations. Optical networking is a direct read on AI data-centre interconnect spending, which makes it a useful same-day cross-check on Broadcom's claim that AI networking revenue grew 2.5 times year-on-year."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "4:30 PM",
-   "ticker": "ZS",
-   "importance": "medium",
-   "note": "Zscaler reports after the close, time confirmed from company investor relations. Read alongside Snowflake's 24% move: the market is currently paying a premium for software that monetises AI usage while marking down hardware that carries AI mix dilution."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "4:30 PM",
-   "ticker": "LULU",
-   "importance": "medium",
-   "note": "Lululemon reports after the close, time confirmed from company investor relations. The most useful consumer datapoint of the week, and it lands on the day the Beige Book described consumer demand as restrained."
-  },
-  {
-   "date": "2026-09-03",
-   "time_et": "5:00 PM",
-   "ticker": "IOT",
+   "date": "2026-09-04",
+   "time_et": "9:30 AM",
+   "ticker": "KNOP",
    "importance": "low",
-   "note": "Samsara reports after the close, time confirmed from company investor relations."
+   "note": "KNOT Offshore Partners holds its results call at 9:30 this morning, but the RESULTS themselves were released Wednesday September 3 - only the call is today. Immaterial to the index."
   },
   {
-   "date": "2026-09-03",
-   "time_et": "5:00 PM",
-   "ticker": "GWRE",
-   "importance": "low",
-   "note": "Guidewire reports after the close, time confirmed from company investor relations."
+   "date": "2026-09-10",
+   "time_et": "after close",
+   "ticker": "ORCL",
+   "importance": "high",
+   "note": "Oracle reports after the close on September 10, confirmed from company investor relations. The most consequential single earnings report of next week as a read on AI infrastructure demand and backlog conversion. Note that Oracle already appears on this Friday's elevated expected option-volume list."
   },
   {
-   "date": "2026-09-03",
-   "time_et": "5:00 PM",
-   "ticker": "DOCU",
-   "importance": "low",
-   "note": "DocuSign reports after the close, time confirmed from company investor relations."
+   "date": "2026-09-10",
+   "time_et": "after close",
+   "ticker": "ADBE",
+   "importance": "medium",
+   "note": "Adobe reports after the close on September 10, confirmed from company investor relations. Read as a check on whether software that monetises AI usage is still being rewarded - the pattern that separated Samsara and UiPath from Guidewire and Asana this week."
   }
  ]
 }

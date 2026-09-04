@@ -1,119 +1,119 @@
 {
  "ES": {
-  "value": 7680.75,
-  "as_of": "2026-09-03 07:10 ET",
+  "value": 7759.5,
+  "as_of": "2026-09-04 07:12 ET",
   "status": "LIVE",
-  "prev_close": 7676.5,
-  "delta_pct": 0.0554,
+  "prev_close": 7754.75,
+  "delta_pct": 0.0613,
   "label": "S&P 500 Fut",
-  "source": "S&P 500 E-mini September contract, +4.25 points, Perplexity consolidated feed stamped 11:10 UTC, priced off Wednesday's 7676.50 settle. Overnight range 7661.25 to 7694.50. Flat is the story. Two sessions ago this board was pricing a synchronised global repricing of the cost of money; Wednesday reversed a large part of it and the overnight tape has held that reversal rather than giving it back. Wednesday's CASH close was 7666.60, up 0.460% from Tuesday's 7631.47 - the first green session in four. NOT ATH: the cash index sits -1.698% below its record close of 7798.99 set 8/13/26 and -1.920% below the 7816.70 record intraday high from the same session. The index has now spent three weeks failing to retake mid-August levels, which is a consolidation, not a downtrend."
+  "source": "S&P 500 E-mini, 7759.50, +4.75 points, Perplexity consolidated feed stamped 11:02 UTC in a snapshot pulled 11:12 UTC, priced off Thursday's 7754.75 settle. Overnight range 7748.25 to 7764.50 - a sixteen-point band, which is close to the narrowest overnight range this board has printed in a month. That stillness is the signal: the August employment report lands at 8:30 this morning and the market has stopped taking positions into it. Thursday's CASH close was 7747.71, up 1.058% from 7666.60 - the second consecutive green session and the largest single-day gain since mid-August. NOT ATH: the cash index sits -0.658% below its record close of 7798.99 set 8/13/26 and -0.883% below the 7816.70 record intraday high from the same session. It is close - about half a percent of upside would do it - but it has not done it, and Thursday's high of 7756.76 was still 60 points short of the record high. The two-session recovery has retraced essentially all of the hawkish scare that dominated the start of the week."
  },
  "NQ": {
-  "value": 29165.75,
-  "as_of": "2026-09-03 07:10 ET",
+  "value": 29660.75,
+  "as_of": "2026-09-04 07:12 ET",
   "status": "LIVE",
-  "prev_close": 29186.25,
-  "delta_pct": -0.0702,
+  "prev_close": 29524.75,
+  "delta_pct": 0.4606,
   "label": "Nasdaq 100 Fut",
-  "source": "Nasdaq 100 E-mini September contract, -20.50 points, -0.07%, Perplexity consolidated feed stamped 11:10 UTC off Wednesday's 29186.25 settle. Overnight range 29075.00 to 29292.75 - a 218-point swing that resolved almost exactly flat, which is what a market digesting a very large earnings report looks like. Broadcom beat on revenue and on AI semiconductor revenue and still trades about 3% lower pre-market on a gross-margin guide, and the index has absorbed that without breaking. Wednesday's CASH close was 29143.33, up 0.227% from 29077.22. NOT ATH: -4.949% below the 6/2/26 record close of 30660.60 and -5.263% below the 6/3/26 record high of 30762.20. Three months on, the Nasdaq 100 has still not made a new high - the AI trade is being repriced on margin, not on demand."
+  "source": "Nasdaq 100 E-mini, 29660.75, +136.00 points, +0.46%, consolidated feed stamped 11:01 UTC off Thursday's 29524.75 settle. Overnight range 29482.00 to 29697.25. Note the divergence from the S&P contract, which is flat: the Nasdaq is the only major US future making a real move overnight, and it is being carried by the Thursday-night software earnings cohort rather than by anything macro. Thursday's CASH close was 29482.32, up 1.163% from 29143.33. NOT ATH: -3.843% below the 6/2/26 record close of 30660.60 and -4.161% below the 6/3/26 record high of 30762.20. Three months after the June high the Nasdaq 100 has still not made a new record, and the gap has narrowed by less than a point of percentage over the last week."
  },
  "SOX": {
-  "value": 11339.25,
-  "as_of": "2026-09-02 close",
+  "value": 11352.13,
+  "as_of": "2026-09-03 close",
   "status": "CLOSED",
-  "prev_close": 11288.61,
-  "delta_pct": 0.4486,
+  "prev_close": 11339.25,
+  "delta_pct": 0.1136,
   "label": "Philadelphia Semis",
-  "source": "Polygon daily bar, Wednesday cash settle, +50.64 points, +0.449%. A green session but the weakest bounce of the four US equity boards, and that ordering matters: semis fell 2.14% Tuesday and recovered less than a quarter of it Wednesday. NOT ATH, and not close - the index is -22.52% below its record close of 14634.72 set 6/22/26. That is the single widest drawdown on this board and it has been widening, not narrowing, for ten weeks. Broadcom's Q4 gross-margin guide of roughly 73% against 78% a year ago is the cleanest available explanation: custom AI accelerators are enormous revenue at structurally lower margin than the merchant silicon they are displacing, and the semiconductor complex is being marked down for mix even as unit demand compounds."
+  "source": "Polygon daily bar, Thursday cash settle, +12.88 points, +0.114%. This is the most informative number on the equity board and the shape matters more than the level. Semis rose one-tenth of a percent on a day the Nasdaq 100 rose 1.16% and the Dow rose 1.18% - a full percentage point of underperformance. But the index traded as low as 11056.38 intraday, roughly 2.5% down, and closed near its session high of 11371.33, so this was a morning shock almost entirely repaired rather than steady weakness. The cause is single-name and identifiable: Broadcom, the heaviest weight in the index, fell 2.74% to $357.16 on its Q4 gross-margin guide after Wednesday night's report. NOT ATH, and not close - the index is -22.43% below its record close of 14634.72 set 6/22/26. Broadcom traded back up about 1.2% overnight, which would mechanically reverse much of the drag if it holds."
  },
  "DJI": {
-  "value": 53061.95,
-  "as_of": "2026-09-02 close",
+  "value": 53686.11,
+  "as_of": "2026-09-03 close",
   "status": "CLOSED",
-  "prev_close": 52766.88,
-  "delta_pct": 0.5592,
+  "prev_close": 53061.95,
+  "delta_pct": 1.1763,
   "label": "Dow Jones Ind",
-  "source": "Polygon daily bar, Wednesday cash settle, +295.07 points, +0.559%. The best of the four boards Wednesday, which is the mirror image of Tuesday when the Dow was the most defensive loser. A cyclical, rate-sensitive, low-duration index leading a bounce that began with a weak ADP print is internally consistent: softer labour data lowers the discount rate before it lowers earnings. NOT ATH: -2.368% below the record close of 54349.12 set 8/5/26. The Russell 2000 gained 1.13% to 2953.17 on the same session, a wider small-cap bounce that says the same thing about rates."
+  "source": "Polygon daily bar, Thursday cash settle, +624.16 points, +1.177%. The best of the four US boards for a second consecutive session, which is a consistent pattern worth naming: the rate-sensitive, low-duration index is leading a rally that is being driven by falling rate expectations rather than by earnings. NOT ATH: -1.220% below the record close of 54349.12 set 8/5/26. The Russell 2000 gained 0.51% to 2968.27 and the Nasdaq Composite 1.397% to 26584.06, so breadth was genuine but tilted to large-cap. Every one of the four boards is now green over two sessions and none of them is at a record."
  },
  "VIX": {
-  "value": 15.2,
-  "as_of": "2026-09-02 settle",
+  "value": 14.32,
+  "as_of": "2026-09-03 settle",
   "status": "CLOSED",
-  "prev_close": 16.34,
-  "delta_pct": -6.9767,
+  "prev_close": 15.2,
+  "delta_pct": -5.7895,
   "label": "VIX",
-  "source": "Cboe VIX, Wednesday settle, down 1.14 points or -6.98% from Tuesday's 16.34. Wednesday's intraday high was 16.82, so the index opened in the panic and closed well outside it - a full round trip. This is the most informative number on the board. Two sessions ago volatility was bid on a global rates shock; it has now given back the entire move and sits inside the 14 to 16 band that has contained it since late July. The Nasdaq analogue VXN settled 21.07, down 4.05% from 21.96, also falling. Note the freshness discipline here: Polygon served a 2026-09-03 pre-open VIX bar at 15.34 and Investing.com's page was showing Wednesday's session as though live. Neither was used. A falling VIX into a payrolls print is the setup that punishes complacency, and Friday is payrolls."
+  "source": "Cboe VIX, Thursday settle, down 0.88 points or -5.79% from Wednesday's 15.20. Thursday's intraday high was 15.44. This is a volatility index at 14.32 going into a payrolls print, and that pairing deserves to be stated plainly rather than buried: the options market is pricing an unusually quiet reaction to the single most consequential scheduled data release of the week. Two sessions ago the VIX was above 16 on a global rates shock; it has now given the entire move back and sits at the bottom of the 14 to 16 band that has contained it since late July. The Nasdaq analogue VXN settled 20.16, down 4.32% from 21.07, also falling. Freshness discipline: Polygon again served a same-day pre-open VIX bar at 14.16 this morning, which was rejected in favour of Thursday's settle."
  },
  "US10Y": {
-  "value": 4.785,
-  "as_of": "2026-09-03 06:25 ET",
+  "value": 4.761,
+  "as_of": "2026-09-04 07:02 ET",
   "status": "LIVE",
-  "prev_close": 4.794,
-  "delta_pct": -0.1877,
+  "prev_close": 4.762,
+  "delta_pct": -0.021,
   "label": "US 10Y Yield",
-  "source": "US 10-year Treasury yield, 4.785%, down 0.9 basis points from Wednesday's 4.794% close, overnight range 4.755% to 4.787%, page stamped Real-time Data 06:25:19 and verified independently of the 2-year page. Off the 52-week high printed Tuesday. The move is small in isolation and important in context: the entire hawkish impulse that drove this yield to a one-year high has stalled, and it stalled on a labour-market miss rather than on anything the Fed said. Reads as a level, not a percentage - the tile's delta is the percentage change in the yield itself, which is roughly one basis point here, not 0.19% of anything. Treasury announces 3-year, 10-year and 30-year auctions around 11:00 this morning for next week's settlement."
+  "source": "US 10-year Treasury yield, 4.761%, down 0.1 basis point from Thursday's 4.762% close, overnight range 4.746% to 4.780%, page stamped Real-time Data 07:02:12 and verified independently of the 2-year page. Unchanged is the correct description. The long end has stopped moving entirely ahead of 8:30, which is consistent with the flat equity futures and the narrow overnight ranges elsewhere. Read this tile as a LEVEL: the percentage-change figure shown is the change in the yield itself, not a basis-point move, so a tenth of a basis point renders as a very small percentage rather than as nothing. The yield is now roughly 3 basis points below where it started the week, having been at a one-year high on Tuesday."
  },
  "US2Y": {
-  "value": 4.379,
-  "as_of": "2026-09-03 08:08 ET",
+  "value": 4.365,
+  "as_of": "2026-09-04 07:07 ET",
   "status": "LIVE",
-  "prev_close": 4.394,
-  "delta_pct": -0.3414,
+  "prev_close": 4.386,
+  "delta_pct": -0.4788,
   "label": "US 2Y Yield",
-  "source": "US 2-year Treasury yield, 4.379%, down 1.5 basis points from Wednesday's 4.394%, overnight range 4.377% to 4.408%, page stamped Real-time Data 08:08:21 and timestamped separately from the 10-year. The front end is falling faster than the long end, which is the correct signature for a dovish repricing driven by labour data: the 2-year is the Fed-expectations instrument. That puts 2s10s at roughly 40.6 basis points, a modest steepening from Wednesday. Worth stating plainly that the curve is positively sloped and steepening while the market still prices a 61% chance of a HIKE this month - the bond market is pricing one more hike and then a long pause, not a hiking cycle."
+  "source": "US 2-year Treasury yield, 4.365%, down 2.1 basis points from Thursday's 4.386%, overnight range 4.361% to 4.376%. The front end continues to fall faster than the long end, which is the correct signature for a dovish repricing: the 2-year is the Fed-expectations instrument and it has now dropped four sessions in a row. That puts 2s10s at roughly 39.6 basis points, essentially unchanged from Thursday. Freshness note: this page's own clock read 08:06:44 at a wall-clock near 07:10 ET, the known one-hour-ahead artifact on some Investing.com pages. The quote itself is fresh - its stated previous close of 4.386 matches Thursday's official close and its overnight range is disjoint from it - so the clock is wrong and the price is right."
  },
  "WTI": {
-  "value": 92.31,
-  "as_of": "2026-09-03 07:20 ET",
+  "value": 90.54,
+  "as_of": "2026-09-04 07:12 ET",
   "status": "LIVE",
-  "prev_close": 91.01,
-  "delta_pct": 1.4284,
+  "prev_close": 91.3,
+  "delta_pct": -0.8324,
   "label": "WTI Crude",
-  "source": "WTI front-month crude, $92.31, +1.43% from Wednesday's $91.01 settle, overnight range $89.60 to $93.13. Contract month re-verified this run rather than assumed - lesson from the run where WTI front was October while Brent front was November, so the roll is checked independently on each leg every session. Oil is the discordant instrument on the board: every other risk gauge eased overnight while crude firmed more than a percent. The Hormuz picture is genuinely quieter - no new US or Israeli action inside the window and the Wall Street Journal reporting the administration is weighing declaring the war over - yet transit volumes remain badly impaired at six vessels Wednesday against a ten-day average near thirteen. Reduced flow with reduced shooting still means reduced flow."
+  "source": "WTI front-month crude, $90.54, -0.83% from Thursday's $91.30 settle, overnight range $90.37 to $92.16. Contract month re-verified independently this run rather than assumed, per the standing rule after the session when WTI front was October while Brent front was November. Crude is finally giving something back after the week's run, and it is doing so on a night when the Middle East was active rather than quiet: Iran struck US bases in Kuwait and the UAE on Thursday morning and the US disabled three vessels overnight. Both benchmarks are still on track for their strongest weekly gain since mid-July, which is the point - the escalation was priced in earlier this week and the overnight tape is fading it, not extending it."
  },
  "BRENT": {
-  "value": 96.63,
-  "as_of": "2026-09-03 07:20 ET",
+  "value": 95.01,
+  "as_of": "2026-09-04 07:12 ET",
   "status": "LIVE",
-  "prev_close": 95.63,
-  "delta_pct": 1.0457,
+  "prev_close": 95.52,
+  "delta_pct": -0.5339,
   "label": "Brent Crude",
-  "source": "Brent front-month, $96.63, +1.05% from Wednesday's $95.63, overnight range $94.02 to $97.62. Contract month confirmed separately from WTI. The Brent-WTI spread sits near $4.32, wide enough to keep US export economics attractive and consistent with a supply-side rather than demand-side bid. Brent above $96 with the VIX at 15 is an unusual pair, and it is the pair that should worry an equity investor more than either number alone: the equity market has priced the Gulf risk down to nothing while the physical crude market has not. Iran struck Kuwait early Thursday and the missile was intercepted, which is both an escalation and a demonstration of intact air defence. No verified war-risk insurance datapoint exists inside the window, so none is published here."
+  "source": "Brent front-month, $95.01, -0.53% from Thursday's $95.52, overnight range $94.82 to $96.22. Contract month confirmed separately from WTI. The Brent-WTI spread sits near $4.47, marginally wider than Thursday and still consistent with a supply-side rather than demand-side bid. Brent above $95 with the VIX at 14.32 remains the standing tension on this board: the equity market has priced Gulf risk down to almost nothing while the physical crude market has not. The live tail risk is specific and was restated inside the window - Israel's defence minister said Israel would target Iranian energy infrastructure if Iran attacked Israel. No verified war-risk insurance datapoint exists in the window, so none is published here."
  },
  "GOLD": {
-  "value": 4476.6,
-  "as_of": "2026-09-03 07:10 ET",
+  "value": 4518.6,
+  "as_of": "2026-09-04 07:12 ET",
   "status": "LIVE",
-  "prev_close": 4414.6,
-  "delta_pct": 1.4044,
+  "prev_close": 4539.9,
+  "delta_pct": -0.4692,
   "label": "Gold",
-  "source": "Gold futures, $4,476.60, +1.40% from Wednesday's $4,414.60, overnight range $4,426.70 to $4,490.00. This is the third leg of the same trade and the cleanest confirmation that the hawkish scare has broken. Gold fell three consecutive sessions into Tuesday as real yields rose and the dollar firmed; it has now risen two sessions as both reversed. Silver is up 1.12% alongside. The dollar index at 99.09 is down 0.51% overnight and made its low of the session at 99.08, so this is a genuine dollar-debasement bid rather than a pure safe-haven one - equities are flat and credit is quiet, which is not the configuration in which gold rallies for fear reasons."
+  "source": "Gold futures, $4,518.60, -0.47% from Thursday's $4,539.90, overnight range $4,506.60 to $4,537.80. Gold rose roughly 2.4% on Thursday as the hike odds collapsed and is giving back a fifth of that overnight. Silver is down 0.49% at $67.37 alongside, so this is the whole precious complex easing together rather than a gold-specific move. Note the cross-check that matters: the dollar index is DOWN 0.53% at 99.06 overnight while gold is also down. A softer dollar with softer gold is not the debasement configuration that held earlier in the week - it reads as position-trimming ahead of 8:30 rather than as a change in the underlying trade."
  },
  "BTC": {
-  "value": 77897.96,
-  "as_of": "2026-09-03 07:20 ET",
+  "value": 81128.99,
+  "as_of": "2026-09-04 07:12 ET",
   "status": "LIVE",
-  "prev_close": 77310.17,
-  "delta_pct": 0.7603,
+  "prev_close": 81271.92,
+  "delta_pct": -0.1759,
   "label": "Bitcoin",
-  "source": "Bitcoin, $77,897.96, +0.76%, overnight range $76,993.97 to $78,093.95, fetched from the consolidated crypto feed and cross-checked against the Polygon X:BTCUSD daily series, which puts Wednesday's close at $77,305.10 and Monday's at $78,566.10. Bitcoin fell 0.121% Wednesday while every equity board rose, and it is now recovering that on the softer dollar. The instrument has decoupled from the AI-equity complex over the last fortnight and is trading much more like a dollar-liquidity asset than a risk asset, which makes it a reasonable cross-check on the debasement read that gold is giving. It remains well below its own highs and is not making a directional statement here."
+  "source": "Bitcoin, $81,128.99, -0.18%, overnight range $80,622.66 to $81,392.30, from the consolidated crypto feed and cross-checked against the Polygon X:BTCUSD daily series, which puts Thursday's close at $81,263.99 against $77,305.10 Wednesday. That is the number to understand on this tile: Bitcoin rose 5.12% on Thursday, and essentially all of it happened after Governor Waller spoke at 8:30. It has given back nothing overnight. More than $415mn of short positions were liquidated as the price took out $81,000, so a forced-covering component is well supported even though the various venue tallies disagree on magnitude. The instrument is trading as a dollar-liquidity asset rather than as a risk asset, and it remains well below its own highs."
  },
  "EURJPY": {
-  "value": 181.18,
-  "as_of": "2026-09-03 07:17 ET",
+  "value": 181.69,
+  "as_of": "2026-09-04 07:12 ET",
   "status": "LIVE",
-  "prev_close": 183.85,
-  "delta_pct": -1.4523,
+  "prev_close": 181.17,
+  "delta_pct": 0.287,
   "label": "EUR/JPY",
-  "source": "Euro-yen, 181.18, down 1.45% from 183.85, overnight range 181.05 to 184.18, consolidated feed stamped 11:17 UTC. This tile required work: Investing.com's euro-yen page was still displaying Wednesday's session as live, which would have understated the move to roughly flat. It was caught by cross-checking euro-dollar, which is UP 0.16% overnight - a falling euro-yen against a rising euro-dollar can only be yen strength - and confirmed on MarketWatch at 181.42 stamped 6:44 a.m. EDT. The driver is a hawkish Bank of Japan repricing: Bloomberg reports the BoJ favours a 25 basis point hike, board member Takata has discussed larger or consecutive moves, and BoJ accounts confirm there was NO intervention Wednesday, so this is positioning rather than official action."
+  "source": "Euro-yen, 181.69, UP 0.29% from 181.17, overnight range 180.60 to 181.96. The direction has reversed and that needs saying clearly rather than smoothing over: after two sessions of sharp yen strength, the yen gave a little back overnight. Aussie-yen is up 0.48% and dollar-yen up 0.32% at 156.34, so it is consistent across all three crosses. But the week's trend is intact and the levels are what matter - dollar-yen traded as strong as 155.25 for the yen in Friday morning trade, the strongest in a month and essentially a retest of the post-July-intervention high near 155.20, before retreating. The yen is still on track for a weekly gain of roughly 2.2%, its biggest since late July."
  },
  "AUDJPY": {
-  "value": 112.23,
-  "as_of": "2026-09-03 07:17 ET",
+  "value": 112.57,
+  "as_of": "2026-09-04 07:12 ET",
   "status": "LIVE",
-  "prev_close": 113.73,
-  "delta_pct": -1.3189,
+  "prev_close": 112.03,
+  "delta_pct": 0.482,
   "label": "AUD/JPY",
-  "source": "Aussie-yen, 112.23, down 1.31% from 113.73, overnight range 112.13 to 113.91. Read against AUD/USD, which is UP 0.34% overnight - so this is not Australian weakness, it is yen strength, and the same holds for the euro cross. Dollar-yen is down 1.76% at 155.87 from 158.66, a one-month high for the yen, having traded above 160 as recently as Tuesday. Applying the funding-squeeze test explicitly: the crosses are down 1.3% to 1.8%, which does clear the 1.5% threshold on dollar-yen, but the second and third conditions FAIL - VXN is 21.07 and FALLING against the 28 to 30 that a genuine carry unwind requires, equity futures are flat, and the dollar is broadly SOFT rather than firm. Verdict: a yen-specific policy repricing, NOT a funding squeeze. It is the instrument to watch, because a real unwind would appear here first."
+  "source": "Aussie-yen, 112.57, up 0.48% from 112.03, overnight range 111.83 to 112.79. Read against Aussie-dollar, which is essentially unchanged overnight at -0.01%: so this is yen weakness rather than Australian strength, the mirror image of Wednesday and Thursday. Applying the funding-squeeze test explicitly, as required: the crosses are UP 0.3% to 0.5%, so the first condition does not even arise - a carry unwind cannot be running while the carry crosses rally. VXN is 20.16 and falling, equity futures are flat to higher, and the dollar is broadly soft. Verdict: no funding squeeze, and the two-day yen repricing has paused rather than broken. This remains the instrument to watch, because Japan's top currency diplomat said Friday he is in constant contact with US authorities, which keeps two-way intervention risk live."
  }
 }
