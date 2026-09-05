@@ -1,37 +1,13 @@
 {
- "last_curated": "2026-09-04 07:12 ET",
+ "last_curated": "2026-09-05 07:15 ET",
  "macro": [
-  {
-   "date": "2026-09-04",
-   "time_et": "8:30 AM",
-   "event": "Employment Situation, August - TODAY'S EVENT",
-   "consensus": "spread: -25K to +125K",
-   "importance": "high",
-   "note": "NOT YET RELEASED at build time - this is the week's main event and it lands 90 minutes after this briefing. Date and time triple-confirmed on the BLS release schedule. Prior: payrolls FELL 23,000, unemployment 4.1%, participation 61.4%, average hourly earnings +$0.02 m/m and +3.2% y/y, with May and June revised down a combined 103,000. Brief as a SPREAD, never a point: Fifth Third -25K, Reuters poll +56K, FactSet median +65K (n=6, range 50-70K), Goldman Sachs +65K headline / +40K private / 4.1% unemployment, Wolfe +65K, Credit Agricole +65K, Wells Fargo +80K, street top near +125K. A circulating 'Goldman +60K / 4.3%' figure is a conflation - 4.3% is their YEAR-END forecast. NO annual benchmark revision in this release; the preliminary estimate came separately on August 28 at -79,000 nonfarm and -178,000 private, with the final due February 2027."
-  },
-  {
-   "date": "2026-09-04",
-   "time_et": "1:00 PM",
-   "event": "Baker Hughes Rig Count",
-   "consensus": "none published",
-   "importance": "low",
-   "note": "Standard Friday slot, time confirmed. The prior rig LEVEL could not be verified against a primary source this run and is therefore not published here rather than carried forward."
-  },
-  {
-   "date": "2026-09-04",
-   "time_et": "",
-   "event": "No Fed speakers scheduled",
-   "consensus": "",
-   "importance": "medium",
-   "note": "The Federal Reserve Board's own September calendar lists NO speeches today. Regional reserve bank appearances could not be exhaustively excluded and are flagged. The pre-meeting communications blackout for the September 15-16 FOMC begins TOMORROW, Saturday September 5, and runs to September 17 - so Governor Waller's Thursday speech was the last policy voice before the quiet period."
-  },
   {
    "date": "2026-09-07",
    "time_et": "all day",
    "event": "Labor Day - US markets closed",
    "consensus": "",
    "importance": "medium",
-   "note": "US equity and bond markets closed. Note the knock-on: the holiday pushes several standard release slots out by a day next week, including consumer credit."
+   "note": "NYSE closed and a full bond-market close per SIFMA's recommended schedule. The BLS is closed. Canada also observes Labour Day. The knock-on matters for next week's calendar: the holiday pushes several standard release slots out by a day, including consumer credit and the EIA petroleum report."
   },
   {
    "date": "2026-09-08",
@@ -39,7 +15,7 @@
    "event": "Canada counter-tariffs take effect",
    "consensus": "",
    "importance": "medium",
-   "note": "Confirmed on Finance Canada's own list of US products subject to counter-tariffs: roughly C$27.6bn of goods at rates of 15, 25 and 50 percent, in force from 12:01 on September 8."
+   "note": "Confirmed on Finance Canada's own published list: roughly C$27.6bn of US goods at rates of 15, 25 and 50 percent, in force from 12:01 AM on September 8."
   },
   {
    "date": "2026-09-08",
@@ -47,78 +23,63 @@
    "event": "Consumer Credit, July (G.19)",
    "consensus": "",
    "importance": "low",
-   "note": "CORRECTION to prior circulation: this is NOT a Friday September 4 release. The Federal Reserve's own September calendar places G.19 on Tuesday September 8 at 3:00 PM, because Labor Day pushes the fifth business day out."
+   "note": "Confirmed on the Federal Reserve's own September calendar. Labor Day pushes the fifth business day to Tuesday. The Treasury also auctions a 3-year note of $58bn this day; the auction TIME is unverified because the offering announcement does not publish until September 8, so it is not stated here."
   },
   {
    "date": "2026-09-09",
-   "time_et": "",
-   "event": "ECB Governing Council convenes, Berlin",
+   "time_et": "10:00 AM",
+   "event": "ECB Governing Council Day 1, Berlin; Census QSS",
    "consensus": "",
    "importance": "medium",
-   "note": "The Governing Council convenes in Berlin on September 9 ahead of the September 10 decision. CORRECTION: the Bank of Canada does NOT announce a rate this day. Its published 2026 fixed announcement dates are January 28, March 18, April 29, June 10, July 15, SEPTEMBER 2, October 28 and December 9. It held at 2.25% on September 2. September 16 carries only the Summary of Deliberations at 13:30 ET."
+   "note": "The Governing Council convenes in Berlin, hosted by the Bundesbank, ahead of the September 10 decision. BLS Employer Costs for Employee Compensation and the Census Quarterly Services Survey both land at 10:00 AM ET. Treasury reopens the 10-year note at $39bn. CORRECTION carried from prior runs: the Bank of Canada does NOT announce this day - its September fixed date was the 2nd, where it held at 2.25%, and September 16 carries only the Summary of Deliberations at 1:30 PM ET."
   },
   {
    "date": "2026-09-10",
    "time_et": "8:15 AM",
-   "event": "ECB rate decision - a HIKE is priced",
-   "consensus": "+25bp to 2.50%",
+   "event": "ECB rate decision (presser 8:45 AM)",
+   "consensus": "",
    "importance": "high",
-   "note": "Decision at 8:15 AM ET with the press conference at 8:45 AM ET, in Berlin. All 65 economists in the Reuters poll expect a 25 basis point increase to 2.50%, the second of the cycle, and then a pause. Brief this as a HIKE - framing the ECB as easing is wrong by direction."
+   "note": "Poll expects +25bp to 2.50%. Decision 8:15 AM ET, press conference 8:45 AM ET, in Berlin. IMPORTANT FRAMING CORRECTION: the move to 2.50% is a Reuters-poll EXPECTATION, not an ECB fact. The ECB's current key rates are deposit 2.25%, main refinancing 2.40% and marginal lending 2.65%, effective 17 June 2026, and the 23 July 2026 decision HELD. Brief the direction as a HIKE if it comes - framing the ECB as easing is wrong by direction - but do not state the hike as scheduled fact."
   },
   {
    "date": "2026-09-10",
    "time_et": "8:30 AM",
-   "event": "PPI, August",
-   "consensus": "no verified consensus",
-   "importance": "high",
-   "note": "First of the two inflation prints before the FOMC. The July prior could not be verified against the BLS release this run and is therefore not published rather than carried forward."
-  },
-  {
-   "date": "2026-09-10",
-   "time_et": "after close",
-   "event": "Oracle and Adobe report",
+   "event": "PPI, August; jobless claims",
    "consensus": "",
-   "importance": "medium",
-   "note": "Both confirmed after the close on September 10 from company investor-relations pages. Consensus estimates for both are UNVERIFIED and not published here. Oracle is the more consequential of the two as a read on AI infrastructure backlog."
+   "importance": "high",
+   "note": "No verified poll median. First of the two inflation prints before the FOMC. A Continuum Economics forecast of +0.4% headline and +0.3% core was located but that is a single house view, NOT a poll median, and is labelled as such rather than presented as consensus. Wholesale trade 10:00 AM, natural gas storage 10:30 AM, and the EIA petroleum status report shifted to 12:00 PM by the Labor Day holiday. Treasury reopens the 30-year bond at $22bn. Oracle AND Adobe both report after the close."
   },
   {
    "date": "2026-09-11",
    "time_et": "8:30 AM",
-   "event": "CPI, August - THE print Waller named",
-   "consensus": "no verified consensus",
+   "event": "CPI, August - THE print the Fed named",
+   "consensus": "",
    "importance": "high",
-   "note": "The single most important scheduled release of the month. Governor Waller said explicitly on September 3 that his policy decision 'will be heavily influenced by what we learn about August inflation' - this is that reading. University of Michigan preliminary sentiment also lands September 11. The August prior could not be verified primary this run and is not published."
+   "note": "Reuters poll +0.4% headline / +0.2% core. The single most consequential scheduled release of the month, and the last major inflation reading before the FOMC decides. Governor Waller said on September 3 that his policy decision 'will be heavily influenced by what we learn about August inflation' - this is that reading, and it arrives with the Fed in communications blackout, so there will be no official reaction. Bloomberg Economics expects headline CPI to ACCELERATE to 3.4% year-over-year with core easing to 2.4%. Real Earnings also 8:30 AM, University of Michigan preliminary sentiment 10:00 AM, Business Formation Statistics 10:00 AM, and the Federal Reserve's Z.1 Financial Accounts at 12:00 PM."
   },
   {
-   "date": "2026-09-15",
-   "time_et": "",
-   "event": "FOMC meeting begins (Sept 15-16)",
-   "consensus": "48.6% hold / 51.4% hike",
+   "date": "2026-09-16",
+   "time_et": "2:00 PM",
+   "event": "FOMC decision (meeting Sept 15-16)",
+   "consensus": "",
    "importance": "high",
-   "note": "Market prices a coin flip - 48.6% hold against 51.4% for a 25 basis point hike, per the September 3 FedWatch cohort. Probability of a CUT is exactly zero. The decision TIME is UNVERIFIED and not published here. The Bank of Japan meets September 17-18 and is widely expected to hike; a late-August Reuters poll had it going to 1.25% in September."
+   "note": "Prices 42.6% hold / 57.4% hike on the 9/4 cohort. Decision at 2:00 PM ET with the press conference at 2:30 PM ET, both times confirmed on the Federal Reserve's own September 2026 calendar page - this closes a previously unverified item. The September 4 FedWatch cohort prices 42.6% hold against 57.4% for a 25 basis point hike; other estimates span 51% to 65%, so brief it as a range. Probability of a CUT is exactly zero. The Bank of Japan meets September 17-18 and is widely expected to hike; its statement time is unverified. The Fed communications blackout runs from today, September 5, through September 17."
   }
  ],
  "earnings": [
-  {
-   "date": "2026-09-04",
-   "time_et": "9:30 AM",
-   "ticker": "KNOP",
-   "importance": "low",
-   "note": "KNOT Offshore Partners holds its results call at 9:30 this morning, but the RESULTS themselves were released Wednesday September 3 - only the call is today. Immaterial to the index."
-  },
   {
    "date": "2026-09-10",
    "time_et": "after close",
    "ticker": "ORCL",
    "importance": "high",
-   "note": "Oracle reports after the close on September 10, confirmed from company investor relations. The most consequential single earnings report of next week as a read on AI infrastructure demand and backlog conversion. Note that Oracle already appears on this Friday's elevated expected option-volume list."
+   "note": "Oracle reports after the close on September 10, confirmed from company investor relations. The most consequential single earnings report of next week as a read on AI infrastructure demand and backlog conversion - and it now lands the day before CPI, into a market that has just repriced the policy path higher."
   },
   {
    "date": "2026-09-10",
    "time_et": "after close",
    "ticker": "ADBE",
    "importance": "medium",
-   "note": "Adobe reports after the close on September 10, confirmed from company investor relations. Read as a check on whether software that monetises AI usage is still being rewarded - the pattern that separated Samsara and UiPath from Guidewire and Asana this week."
+   "note": "Adobe reports after the close on September 10, confirmed from company investor relations. Read as a check on whether software that monetises AI usage is still being rewarded - the dividing line that separated the winners from the losers across the whole of last week's earnings cohort."
   }
  ]
 }
