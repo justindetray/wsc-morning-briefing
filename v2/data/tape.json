@@ -1,21 +1,75 @@
 {
- "SPX": {
-  "value": 7718.6,
-  "as_of": "2026-09-04 close",
-  "status": "CLOSED",
-  "prev_close": 7747.71,
-  "delta_pct": -0.3757,
-  "label": "S&P 500",
-  "source": "Polygon I:SPX daily bars, re-fetched this run (poly175_out.json). CLOSED: NYSE and Nasdaq are shut all day for Labor Day, confirmed on Nasdaq Trader's own market calendar, so this is Friday's settle and there is no Monday print to show. Friday's close of 7718.60 was a 0.376% decline from Thursday's 7747.71 on the day August payrolls beat every published estimate - the index fell BECAUSE the data was strong, which remains the most important thing to understand about this tape. There is no 2026-09-07 bar for this index in Polygon's data, which is the correct and expected absence on a market holiday. NOT ATH: the cash index sits -1.031% below its record close of 7798.99 set 8/13/26 and -1.255% below the 7816.70 peak intraday high from that same session. Friday's own high of 7750.19 re-reads identically this run, so the upward revision flagged in run #174 has settled and the figure is now stable across two consecutive re-derivations."
+ "ES": {
+  "value": 7697.75,
+  "as_of": "2026-09-08 07:21 ET",
+  "status": "LIVE",
+  "prev_close": 7708.75,
+  "delta_pct": -0.1427,
+  "label": "S&P 500 Fut",
+  "source": "E-mini S&P 500 continuous, 7697.75 quoted 11:21:33 UTC. Prior reference 7708.75, the close of the 16:45 UTC 15-minute bar on 9/07 - the last bar before the CME Labor Day halt, on 1458 contracts, so a real print rather than a stub. Post-reopen overnight range 7687.75 to 7725.75, re-derived from the same bar series. The index is therefore a fifth of a percent lower than where the abbreviated holiday session left it, having traded a 38-point band overnight. BASE SELECTION, disclosed in full because it is contestable. CME did not derive or disseminate settlement prices for any CME, CBOT, NYMEX or COMEX product on Monday 9/7 - the exchange's own Labor Day settlement notice says so, and its clearing advisory carries prices forward from the prior day. So there is NO official Monday settlement to measure against. Three candidate bases existed and all three were computed. (1) The vendor's daily 9/07 aggregate. (2) The vendor's previousClose field. (3) The last print before the exchange's documented 1:00 PM ET holiday halt, re-derived this run from 15-minute bars. Basis 3 is shipped: the bar series shows a clean five-hour gap from 16:45/17:00 UTC to 22:00 UTC, and 22:00 UTC is 6:00 PM ET, which is exactly the 17:00 CT reopen published in CME's holiday calendar. The gap boundary derived independently from price data matches the exchange document to the minute, which is what makes basis 3 defensible and the other two arbitrary. The vendor's previousClose for NQ was NOT rolled past Friday at all and would have shown a -0.02% move; the daily aggregate would have shown -0.61%. The escalation threshold for this run is a 2% overnight futures move and it is NOT tripped under any of the three bases - worst case across all of them is 0.563%. That robustness is the reason the ambiguity did not need to be resolved before shipping. CASH CONTEXT: NOT ATH: the S&P 500 cash index closed Friday at 7718.60, -1.031% below its record close of 7798.99 set 8/13/26 and -1.255% below the 7816.70 peak intraday high from that session. This is context for the futures tile above, not a live level - SPX cash has not printed since Friday. The e-mini is the only S&P instrument on today's board carrying a Tuesday timestamp."
  },
- "NDX": {
-  "value": 29544.16,
-  "as_of": "2026-09-04 close",
-  "status": "CLOSED",
-  "prev_close": 29482.32,
-  "delta_pct": 0.2098,
-  "label": "Nasdaq 100",
-  "source": "Polygon I:NDX daily bars, re-fetched this run. CLOSED for Labor Day. Up 0.210% Friday, the only major cash index to close green, and +0.376% on the week from 29433.43. Worth carrying into Tuesday: the Asian semiconductor complex rallied hard today while this index was shut - SoftBank, Advantest, Tokyo Electron and Kioxia drove the Nikkei up 2.12% - so the US technology board opens Tuesday with an unpriced overseas lead. Do not read that as a guaranteed gap: Tokyo's breadth was NEGATIVE beneath the index move. NOT ATH: -3.641% below the 6/2/26 record close of 30660.60 and -3.960% below the 6/3/26 peak high of 30762.20. Friday's own high of 29655.22 finished about 1107 points beneath that peak. Three months on, the June high still stands unchallenged."
+ "NQ": {
+  "value": 29560.0,
+  "as_of": "2026-09-08 07:21 ET",
+  "status": "LIVE",
+  "prev_close": 29603.5,
+  "delta_pct": -0.1469,
+  "label": "Nasdaq 100 Fut",
+  "source": "E-mini Nasdaq 100 continuous, 29560.00 quoted 11:21:34 UTC. Prior reference 29603.50, the 17:00 UTC 9/07 bar - last before the halt - but note that bar printed on NINE contracts and is a stub tick, which is a weaker anchor than the ES equivalent and is disclosed as such. Post-reopen overnight range 29481.75 to 29763.50, a 282-point band. THE STORY OF THIS TILE IS WHAT DID NOT HAPPEN: Tokyo fell 1.70% on a 1.3% yen appreciation and Nasdaq futures are down a seventh of a percent. The yen shock did not travel. BASE SELECTION, disclosed in full because it is contestable. CME did not derive or disseminate settlement prices for any CME, CBOT, NYMEX or COMEX product on Monday 9/7 - the exchange's own Labor Day settlement notice says so, and its clearing advisory carries prices forward from the prior day. So there is NO official Monday settlement to measure against. Three candidate bases existed and all three were computed. (1) The vendor's daily 9/07 aggregate. (2) The vendor's previousClose field. (3) The last print before the exchange's documented 1:00 PM ET holiday halt, re-derived this run from 15-minute bars. Basis 3 is shipped: the bar series shows a clean five-hour gap from 16:45/17:00 UTC to 22:00 UTC, and 22:00 UTC is 6:00 PM ET, which is exactly the 17:00 CT reopen published in CME's holiday calendar. The gap boundary derived independently from price data matches the exchange document to the minute, which is what makes basis 3 defensible and the other two arbitrary. The vendor's previousClose for NQ was NOT rolled past Friday at all and would have shown a -0.02% move; the daily aggregate would have shown -0.61%. The escalation threshold for this run is a 2% overnight futures move and it is NOT tripped under any of the three bases - worst case across all of them is 0.563%. That robustness is the reason the ambiguity did not need to be resolved before shipping. CASH CONTEXT: NOT ATH: Nasdaq 100 cash closed Friday at 29544.16, -3.641% below the 6/2/26 record close of 30660.60 and -3.960% below the 6/3/26 peak high of 30762.20. Three months on, the June high still stands unchallenged and the index needs a 3.8% rally to retake it. Context for the NQ futures tile, not a live print."
+ },
+ "WTI": {
+  "value": 93.98,
+  "as_of": "2026-09-08 07:06 ET",
+  "status": "LIVE",
+  "prev_close": 92.7,
+  "delta_pct": 1.3808,
+  "label": "WTI Crude",
+  "source": "CLUSD front-month futures, 93.98 against Monday's 92.70 electronic close. Up a fourth consecutive session and the strongest tile on the board in percentage terms among instruments that actually traded. Friday's US settlement - the last clean one - was 91.48, so crude is 2.73% above the last settled American print. The vendor's previousClose rolled correctly here, which it did not for Brent. BASE RE-DERIVED, NOT TAKEN FROM THE VENDOR. This run found that the quote vendor's previousClose field rolls per-instrument and inconsistently through a holiday session: four of nine instruments checked had NOT rolled past Friday, and on the dollar index the stale base produced an outright SIGN FLIP. Every base on this board was therefore re-derived from daily OHLCV bars for the specific date, and the staleness test used was whether the vendor's base sat nearer Friday's close than Monday's - not a bare numeric tolerance, which produced a false positive on AUD/JPY where a 5-pip difference is just rounding."
+ },
+ "BRENT": {
+  "value": 98.65,
+  "as_of": "2026-09-08 07:06 ET",
+  "status": "LIVE",
+  "prev_close": 97.6,
+  "delta_pct": 1.0758,
+  "label": "Brent Crude",
+  "source": "BZUSD front-month futures, 98.65 against Monday's 97.60 close. Brent set a six-week high on Monday and this is a third consecutive up day. The vendor's previousClose for this instrument was 96.28, which is FRIDAY's close, not Monday's - shipping it would have overstated the overnight move by 1.37 percentage points. Brent-WTI spread has narrowed to 4.67 from 4.90 Monday, which is the physical-tightness tell worth watching more than the flat price. BASE RE-DERIVED, NOT TAKEN FROM THE VENDOR. This run found that the quote vendor's previousClose field rolls per-instrument and inconsistently through a holiday session: four of nine instruments checked had NOT rolled past Friday, and on the dollar index the stale base produced an outright SIGN FLIP. Every base on this board was therefore re-derived from daily OHLCV bars for the specific date, and the staleness test used was whether the vendor's base sat nearer Friday's close than Monday's - not a bare numeric tolerance, which produced a false positive on AUD/JPY where a 5-pip difference is just rounding."
+ },
+ "GOLD": {
+  "value": 4443.4,
+  "as_of": "2026-09-08 07:06 ET",
+  "status": "LIVE",
+  "prev_close": 4484.2,
+  "delta_pct": -0.9099,
+  "label": "Gold",
+  "source": "GCUSD FRONT-MONTH FUTURES, 4443.40 against Monday's 4484.20 close. If a desk sees a print near 4428 this morning, those are SPOT quotes and this tile is futures - that basis gap was the false alarm of run #175 and it is not a vendor conflict. The vendor's previousClose was 4476.60, Friday's close, unrolled. Silver, not tiled, is 66.63 against 67.64, down 1.49% and falling faster than gold. BASE RE-DERIVED, NOT TAKEN FROM THE VENDOR. This run found that the quote vendor's previousClose field rolls per-instrument and inconsistently through a holiday session: four of nine instruments checked had NOT rolled past Friday, and on the dollar index the stale base produced an outright SIGN FLIP. Every base on this board was therefore re-derived from daily OHLCV bars for the specific date, and the staleness test used was whether the vendor's base sat nearer Friday's close than Monday's - not a bare numeric tolerance, which produced a false positive on AUD/JPY where a 5-pip difference is just rounding."
+ },
+ "BTC": {
+  "value": 78412.0,
+  "as_of": "2026-09-08 07:06 ET",
+  "status": "LIVE",
+  "prev_close": 79091.97,
+  "delta_pct": -0.8597,
+  "label": "Bitcoin",
+  "source": "Polygon X:BTCUSD, 78412 against the 9/07 UTC close of 79091.97, recomputed against the preceding UTC daily close because the instrument trades continuously and there is no session to anchor to. Down a third consecutive day and 1.78% below Friday's 79831.57. Bitcoin is the only genuinely 24/7 tile on this board and it is the one that had the most opportunity to express a view across the holiday - it chose lower, which modestly contradicts the risk-neutral read coming off the flat equity futures."
+ },
+ "EURJPY": {
+  "value": 179.17,
+  "as_of": "2026-09-08 07:06 ET",
+  "status": "LIVE",
+  "prev_close": 179.38,
+  "delta_pct": -0.1171,
+  "label": "EUR/JPY",
+  "source": "179.17 against Monday's 179.38 close. Overnight low 177.84, so the cross has already recovered 1.33 yen off its trough. This is the cleanest single read on the overnight story: the yen's appreciation was violent in the Tokyo morning and had largely reversed by the time New York woke up. Friday's close was 181.38, so the cross is still 1.22% stronger for the yen across the three-day break. BASE RE-DERIVED, NOT TAKEN FROM THE VENDOR. This run found that the quote vendor's previousClose field rolls per-instrument and inconsistently through a holiday session: four of nine instruments checked had NOT rolled past Friday, and on the dollar index the stale base produced an outright SIGN FLIP. Every base on this board was therefore re-derived from daily OHLCV bars for the specific date, and the staleness test used was whether the vendor's base sat nearer Friday's close than Monday's - not a bare numeric tolerance, which produced a false positive on AUD/JPY where a 5-pip difference is just rounding."
+ },
+ "AUDJPY": {
+  "value": 111.28,
+  "as_of": "2026-09-08 07:06 ET",
+  "status": "LIVE",
+  "prev_close": 111.34,
+  "delta_pct": -0.0539,
+  "label": "AUD/JPY",
+  "source": "111.28 against Monday's 111.34 close, the smallest move on the board. Overnight low 110.27. The classic carry-unwind barometer is essentially unchanged, which is itself the signal - a genuine global carry unwind does not leave AUD/JPY flat. Friday's close was 112.51. Note the vendor's previousClose of 111.39 sits within rounding of the true base and was correctly NOT flagged stale, unlike the four instruments that were. BASE RE-DERIVED, NOT TAKEN FROM THE VENDOR. This run found that the quote vendor's previousClose field rolls per-instrument and inconsistently through a holiday session: four of nine instruments checked had NOT rolled past Friday, and on the dollar index the stale base produced an outright SIGN FLIP. Every base on this board was therefore re-derived from daily OHLCV bars for the specific date, and the staleness test used was whether the vendor's base sat nearer Friday's close than Monday's - not a bare numeric tolerance, which produced a false positive on AUD/JPY where a 5-pip difference is just rounding."
  },
  "SOX": {
   "value": 11735.26,
@@ -24,7 +78,7 @@
   "prev_close": 11352.13,
   "delta_pct": 3.375,
   "label": "Philadelphia Semis",
-  "source": "Polygon I:SOX daily bars, re-fetched this run. CLOSED for Labor Day. Friday's 3.375% advance remains the standout move on the board and it happened while the S&P 500 and the Dow both FELL - a genuine intra-market divergence rather than a beta effect. HONEST LIMITATION carried from run #174 and still unresolved: this run has no cap-weighted attribution for that move, so no individual name is credited with driving it. The read-across today is that semis led Asia again, with Advantest and Tokyo Electron among the largest contributors to Tokyo's gain, so the sector had a second strong session that this tile cannot show. NOT ATH, and not close - even after Friday's 3.4% session the index is -19.81% below its record close of 14634.72 set 6/22/26 and -19.93% below the 14655.29 peak high from the same session. Monday's Asian semiconductor rally does not change this: SOX did not trade today."
+  "source": "Polygon I:SOX daily aggregate, Friday's 11735.26 close against Thursday's 11352.13 - a 3.375% session and still the largest single move on this board. CARRIED FORWARD, AND SAYING SO. This tile is byte-identical to yesterday's edition because the last completed US cash session was FRIDAY 9/4 - Monday was Labor Day. That is correct, not stale, but it means the number is three calendar days old and carries no information about the overnight tape. The first chance to mark it is the 9:30 AM ET open. NOT ATH, and not close. Even after Friday's 3.375% session the index is -19.81% below its record close of 14634.72 set 6/22/26 and -19.93% below the 14655.29 peak intraday high from that same session. Friday's own high was 11750.25. Nothing in the overnight tape changes this: SOX has not traded since Friday's close, so this tile is a THREE-DAY-OLD cash print carried forward, identical by construction to yesterday's edition. Tuesday's open is the first chance to mark it."
  },
  "DJI": {
   "value": 53414.25,
@@ -33,7 +87,7 @@
   "prev_close": 53686.11,
   "delta_pct": -0.5064,
   "label": "Dow Jones Ind",
-  "source": "Polygon I:DJI daily bars, re-fetched this run. CLOSED for Labor Day. Down 0.506% Friday and -0.272% on the week from 53559.99, the worst weekly performance of the four equity tiles - consistent with a rate-sensitive, value-tilted index reacting to a hawkish repricing of the policy path. Friday's high re-reads at 53635.35, identical to run #174's re-read, so that revision has now settled. NOT ATH: -1.720% below the record close of 54349.12 set 8/5/26 and -2.430% below the 54744.33 peak high. Friday's high re-reads as 53635.35, unchanged from run #174's re-read."
+  "source": "Polygon I:DJI daily aggregate, Friday's 53414.25 against 53686.11. CARRIED FORWARD, AND SAYING SO. This tile is byte-identical to yesterday's edition because the last completed US cash session was FRIDAY 9/4 - Monday was Labor Day. That is correct, not stale, but it means the number is three calendar days old and carries no information about the overnight tape. The first chance to mark it is the 9:30 AM ET open. NOT ATH: -1.720% below the record close of 54349.12 set 8/5/26 and -2.430% below the 54744.33 peak high. Friday's high re-reads as 53635.35. Like SOX this is Friday's cash print carried across the Labor Day close, unchanged from run #175 and correctly so - the Dow has had no session in which to move. Treat the level as three days stale for narrative purposes even though the number is right."
  },
  "VIX": {
   "value": 14.53,
@@ -42,7 +96,7 @@
   "prev_close": 14.32,
   "delta_pct": 1.4665,
   "label": "VIX",
-  "source": "Polygon I:VIX daily bars, Friday's settle. CLOSED - Cboe does not compute VIX on a US market holiday. REJECTED INPUT, DISCLOSED RATHER THAN HIDDEN: Polygon served a daily bar dated 2026-09-07 for this ticker and for no other index, and this run refused it on three independent grounds. First, it MUTATED between two fetches minutes apart - initially close 15.14 with a high of 15.16, then open 15.02, high 15.17, low 14.99, close 15.17. A settled close does not move. Second, its close equalled its high exactly, the signature of a thin accumulating partial bar. Third, no sibling bar exists for I:SPX, I:NDX, I:SOX, I:DJI or I:VXN, and since VIX and VXN are both Cboe-calculated off the same session a VIX print without a VXN print is not possible. Shipping that figure would have invented a volatility move on a day the options market was shut. On the real number: VIX rose 1.467% Friday to 14.53 and is essentially unchanged on the week from 14.43. A payrolls print that repriced the September FOMC toward a HIKE moved implied volatility two tenths of a point. Companion VXN fell to 20.04 from 20.16."
+  "source": "Cboe VIX, FRIDAY's 14.53 settle against Thursday's 14.32. THIS TILE REJECTS TWO NEWER INPUTS AND THE REJECTION IS THE POINT. The data vendor serves an I:VIX bar for 9/07 - a day the US cash market was closed and Cboe does not compute the index - and that bar has now MUTATED between fetches on three separate occasions across three runs: read as close 15.14 with a 15.16 high, then 15.17, and this run as open 15.02, high 15.32, low 14.99, close 15.30. A settled closing value does not move three times, so the bar is not a settle. Run #175 rejected it on two fetches; the third mutation retroactively vindicates that call. The vendor also serves a 9/08 bar which is a live pre-open partial and is likewise mutating. REJECTED INPUT: 15.17, and the 15.30 that replaced it. The decisive corroborating argument is a missing sibling - the same vendor serves NO 9/07 or 9/08 bar for I:SPX, I:NDX, I:SOX, I:DJI or VXN. A feed that had genuinely computed holiday volatility would not have computed it for exactly one index. INDICATIVE ONLY, never on the tile: VIX futures and the pre-open implied level sit near 15.8, roughly 9% above Friday's settle, against S&P futures down 0.14% - a vol bid materially larger than the spot move justifies. That asymmetry is worth a desk's attention and is NOT a settled number. VXN's last real bar remains 20.04 from 9/04."
  },
  "US10Y": {
   "value": 4.78,
@@ -51,8 +105,7 @@
   "prev_close": 4.77,
   "delta_pct": 0.2096,
   "label": "US 10Y Yield",
-  "source": "Treasury par yield curve CMT, re-read this run from the home.treasury.gov daily CSV rather than any vendor quote page (lesson #173-A: same basis for both the value and the prior close). CLOSED: SIFMA recommends a FULL close for US dollar fixed income today, not an early one - its Labor Day line carries no early-close qualifier, unlike the Memorial Day and Thanksgiving entries on the same page - and the CSV's latest row is 09/04/2026 with no 09/07 row, which is the correct absence for a Treasury holiday. The 10-year rose one basis point Friday to 4.78% and is +5bp on the week from 4.73%. This tile and the 2-year read off the identical CMT series, so the spread arithmetic is internally consistent.",
-  "percent": "percent"
+  "source": "Treasury CMT par yield curve, 4.78% on 09/04 against 4.77% on 09/03, up one basis point. BOTH YIELD TILES USE THE SAME BASIS - the Treasury CMT series - so the 10s2s read is internally consistent. The CMT file's latest row is still 09/04: there is no 09/07 row because Treasury published no curve on the holiday, and no 09/08 row will exist until roughly 3:30 PM ET today. Yields therefore cannot be marked this morning from the primary source, and this build refuses to substitute a broker quote for it. For narrative only, the Reuters global wrap had the 10-year at 4.788% and up 0.6bp at 01:48 UTC, consistent in direction. CARRIED FORWARD, AND SAYING SO. This tile is byte-identical to yesterday's edition because the last completed US cash session was FRIDAY 9/4 - Monday was Labor Day. That is correct, not stale, but it means the number is three calendar days old and carries no information about the overnight tape. The first chance to mark it is the 9:30 AM ET open."
  },
  "US2Y": {
   "value": 4.37,
@@ -61,61 +114,6 @@
   "prev_close": 4.34,
   "delta_pct": 0.6912,
   "label": "US 2Y Yield",
-  "source": "Treasury par yield curve CMT, re-read this run from the home.treasury.gov daily CSV. CLOSED for the SIFMA full close; no 09/07 row exists. The 2-year rose three basis points Friday to 4.37% against the 10-year's one, taking the 2s10s spread to 41bp from 43bp - a BEAR FLATTENING, the textbook shape for a market marking up the near-term policy path while leaving its terminal view broadly intact. The 2-year traded as high as 4.416% intraday Friday, its highest since January 2025. Supply resumes immediately on reopening: a $58bn 3-year note Tuesday with competitive bidding closing at 1:00 PM, then a $39bn 10-year reopening Wednesday and a $22bn 30-year reopening Thursday, all three sizes and CUSIPs verified this run from Treasury's Fiscal Data auctions API.",
-  "percent": "percent"
- },
- "WTI": {
-  "value": 92.26,
-  "as_of": "2026-09-07 07:08 ET",
-  "status": "LIVE",
-  "prev_close": 91.48,
-  "delta_pct": 0.8526,
-  "label": "WTI Crude",
-  "source": "LIVE TILE. CLUSD front-month, print 92.26 timestamped 2026-09-07 11:08:29 UTC, against Friday's 91.48 settle - up 0.853% in a holiday-thinned session, with a Monday range of 90.88 to 93.03. CME energy ran holiday hours, so this is a real market, but it is a thin one and Reuters explicitly described light trade with Wall Street shut. Two developments inside the overnight window point the same way. OPEC+ paused its run of monthly output increases, holding October required production at September levels, which removes the supply-side offset that had been absorbing the Iran risk premium. And Kpler transit counts through Hormuz fell to a 10-day moving average of 10 commodity ships a day as of Sunday, the lowest since May, from above 15 on Friday, with only two vessels physically transiting Saturday and six Sunday. Throughput is collapsing while the group has stopped adding barrels. On the week WTI is up roughly 10%."
- },
- "BRENT": {
-  "value": 97.42,
-  "as_of": "2026-09-07 07:08 ET",
-  "status": "LIVE",
-  "prev_close": 96.28,
-  "delta_pct": 1.184,
-  "label": "Brent Crude",
-  "source": "LIVE TILE. BZUSD front-month, print 97.42 timestamped 2026-09-07 11:08:34 UTC, against Friday's 96.28 settle - up 1.184%, outpacing WTI and widening the Brent-WTI spread to $5.16 from $4.80. That widening is the informative part: the seaborne benchmark carries Strait of Hormuz risk more directly than the landlocked US grade, which is what you would expect given where the escalation is happening. Iran's SNSC secretary Mohsen Rezaei said Sunday that Tehran will declare an exclusion zone outside Hormuz within days and place any ship entering it on an Iranian sanctions list. Brent rose 7.8% last week. Vendor spread on this morning's level is worth noting rather than averaging: intraday prints between 96.9 and 97.6 were reported at different clock times, and 97.42 is this run's own timestamped read."
- },
- "GOLD": {
-  "value": 4437.7,
-  "as_of": "2026-09-07 06:58 ET",
-  "status": "LIVE",
-  "prev_close": 4476.6,
-  "delta_pct": -0.869,
-  "label": "Gold",
-  "source": "LIVE TILE, AND AN INSTRUMENT-BASIS CORRECTION. GCUSD FRONT-MONTH FUTURES, print 4437.70 timestamped 2026-09-07 10:58:32 UTC, against Friday's 4476.60 settle - down 0.869%. The research leg of this run reported an unresolved vendor conflict on gold, having found Monday quotes near 4404 and Friday reference prices of 4429.95 and 4460.75. That is not a conflict, it is a basis difference: those are SPOT quotes and this tile is futures. The check that settles it is that the futures prevClose of 4476.60 matches Polygon's independent Friday GCUSD settle of 4476.60 to the cent, so value and prior close are the same instrument on the same basis. On the move itself: gold is falling in a week when a Middle East supply shock is escalating, which surprises clients but is straightforward - a hawkish policy path raises real yields, gold pays no coupon, and a higher real discount rate is a direct headwind regardless of the geopolitical backdrop. Silver fell in sympathy to 66.25, down 0.75%, and the dollar index eased 0.26% to 98.92."
- },
- "BTC": {
-  "value": 79295.0,
-  "as_of": "2026-09-07 07:08 ET",
-  "status": "LIVE",
-  "prev_close": 80339.13,
-  "delta_pct": -1.2997,
-  "label": "Bitcoin",
-  "source": "LIVE TILE. Print 79295.00 timestamped 2026-09-07 11:08:26 UTC. Prior close is Sunday's Polygon X:BTCUSD UTC daily close of 80339.13, the immediately preceding daily reference and the same basis convention used on runs #167 and #174 (lesson #166-C: recompute against the preceding UTC close for a 24/7 instrument rather than carrying Friday). That puts bitcoin down 1.300% on the session and back below $80,000, having traded a Monday range of 79218.68 to 80387.91. Cross-check disclosed: the live vendor reports its own prior close as 80351.40, twelve dollars and 0.015% above Polygon's UTC close, an immaterial difference between two definitions of the same boundary. Bitcoin has now given back all of the weekend's gain - Friday's UTC close was 79675.12, Saturday's 79831.57, Sunday's 80339.13 - and no crypto-specific catalyst of any kind is dated 6 or 7 September. This is a macro-beta move, not a crypto story: the yen is the overnight event and bitcoin is behaving like the risk asset it is."
- },
- "EURJPY": {
-  "value": 179.81,
-  "as_of": "2026-09-07 07:08 ET",
-  "status": "LIVE",
-  "prev_close": 181.46,
-  "delta_pct": -0.9093,
-  "label": "EUR/JPY",
-  "source": "LIVE TILE. Print 179.81 timestamped 2026-09-07 11:08:32 UTC against a prior close of 181.46 - down 0.910%, and the day's range of 179.22 to 181.48 means the pair traded the whole distance from Friday's settle to a fresh low in one holiday session. This is the cleanest read on the carry complex and today it IS moving. The cause is identifiable and sits on the yen leg, not the euro leg: Takuji Aida, economic adviser to Prime Minister Sanae Takaichi and a self-identified reflationist, said Monday that the Bank of Japan is likely to hike in September and to keep hiking once a quarter through January 2027, taking the policy rate to 1.25%. A dove inside the Prime Minister's own circle conceding the hike is a materially different signal from a hawkish economist predicting one. Note what did NOT move it: the AfD's win in Saxony-Anhalt left the euro steady, and Frankfurt's own desk wrote that the election played no role on the floor."
- },
- "AUDJPY": {
-  "value": 111.65,
-  "as_of": "2026-09-07 07:05 ET",
-  "status": "LIVE",
-  "prev_close": 112.54,
-  "delta_pct": -0.7908,
-  "label": "AUD/JPY",
-  "source": "LIVE TILE. Print 111.65 timestamped 2026-09-07 11:04:42 UTC against a prior close of 112.54 - down 0.791%, with a range of 111.25 to 112.61. The classic risk-appetite carry proxy, and it answers the interpretive question this brief has been carrying for a week: is the yen's strength a disorderly carry unwind or an orderly repricing of Bank of Japan policy? Today's evidence says repricing, but less comfortably than Friday's did. The move is broad rather than pair-specific - USD/JPY fell 0.971% to 154.71 with a low of 154.05, a six-month low that broke the 155.15 support and tested the 24 February low, and daily RSI is around 27 - yet Asian equities RALLIED into it, with the Nikkei up 2.12% and the Kospi up 4.61%. A genuine carry unwind takes equities down with the pair. What you have instead is a yen repricing on a specific policy signal, in a thin holiday session, with the Bank of Japan meeting 17-18 September."
+  "source": "Treasury CMT par yield curve, 4.37% on 09/04 against 4.34% on 09/03, up three basis points and steepening the front end faster than the belly. The 10s2s spread is 41bp, in from 43bp Thursday. Same-basis, same-file, same-timestamp discipline as the 10-year tile above - no mixing of CMT with vendor quotes. Note the front end is where the hiking repricing lands, and with FedWatch now assigning a 57.4% probability to a September HIKE the 2-year is the tile most likely to move on today's 3-year auction. CARRIED FORWARD, AND SAYING SO. This tile is byte-identical to yesterday's edition because the last completed US cash session was FRIDAY 9/4 - Monday was Labor Day. That is correct, not stale, but it means the number is three calendar days old and carries no information about the overnight tape. The first chance to mark it is the 9:30 AM ET open."
  }
 }

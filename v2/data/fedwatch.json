@@ -1,51 +1,48 @@
 {
  "status": "LIVE",
- "as_of": "2026-09-07 07:10 ET",
- "reason": "CME FedWatch API re-fetched fresh this run (fw175_raw.json); all five returned meetings sum to 1.000000. The cohort reportingDt is 2026-09-04, which is now the THIRD consecutive run on the same cohort - and that is correct rather than stale. No market settle has occurred since Friday's close: Saturday and Sunday were weekend days and today is a full market holiday, so Friday's distribution is the only distribution that exists. The next cohort prints after Tuesday's settle. This is a conditions-matched carry verified against a live API, disclosed here rather than passed silently. On the numbers: 16 September prices hold at 42.6% against a 25bp HIKE at 57.4%. Cut probability is exactly ZERO at every meeting through March 2027 - the distribution contains no bucket below the current 3.50-3.75% target band, which is a stronger statement than a low probability and worth saying plainly to clients who assume the next move is down. Treat 57.4% as one estimate among several: wire surveys read 58% to 65%, Citi 61%, and prediction markets nearer 51% to 53%, so brief a RANGE. The reason a large consensus beat on payrolls moved September pricing only about six points is that the Committee has made the vote conditional on August inflation, which prints Friday 11 September.",
+ "cohort_date": "2026-09-04",
+ "as_of": "2026-09-04 (CME reporting date)",
+ "note": "CME FedWatch, cohort reporting date 2026-09-04, now the FOURTH consecutive run on the same cohort. THIS IS LEGITIMATE AND NOT A DEGRADED FEED, and the exception is documented from CME's own publications: its Labor Day settlement notice states that on Monday 7 September CME Group would not derive or disseminate settlement prices for CME, CBOT, NYMEX or COMEX, and its Labor Day clearing advisory carries end-of-day prices forward from the prior day. No new settlement means no new FedWatch cohort. CME's holiday calendar independently confirms interest-rate and equity-index products halted at 12:00 CT and reopened at 17:00 CT, which is 1:00 PM and 6:00 PM ET - and that reopen time matches, to the minute, the five-hour gap this build derived independently from 15-minute futures bars. CAVEAT CARRIED FORWARD FOR TOMORROW: the next build MUST show a reporting date of 2026-09-08. If it still reads 2026-09-04 after a full trading session, that is a real failure and not a holiday artifact. The distribution itself is striking: ZERO probability of a cut at any meeting through March 2027, and a 57.4% probability of a HIKE next week.",
  "meetings": [
   {
    "meetingDt": "2026-09-16",
-   "reportingDt": "2026-09-04",
    "hold": 0.425714,
    "hike_25": 0.574286,
    "hike_50": 0.0,
    "hike_75": 0.0,
    "hike_100": 0.0,
-   "current_band": "3.50-3.75",
-   "cumulative_hike": 0.574286
+   "cumulative_hike": 0.574286,
+   "current_band": "3.50-3.75"
   },
   {
    "meetingDt": "2026-10-28",
-   "reportingDt": "2026-09-04",
    "hold": 0.312596,
    "hike_25": 0.534808,
    "hike_50": 0.152596,
    "hike_75": 0.0,
    "hike_100": 0.0,
-   "current_band": "3.50-3.75",
-   "cumulative_hike": 0.687404
+   "cumulative_hike": 0.687404,
+   "current_band": "3.50-3.75"
   },
   {
    "meetingDt": "2026-12-09",
-   "reportingDt": "2026-09-04",
    "hold": 0.153056,
    "hike_25": 0.421398,
    "hike_50": 0.347666,
    "hike_75": 0.07788,
    "hike_100": 0.0,
-   "current_band": "3.50-3.75",
-   "cumulative_hike": 0.846944
+   "cumulative_hike": 0.846944,
+   "current_band": "3.50-3.75"
   },
   {
    "meetingDt": "2027-01-27",
-   "reportingDt": "2026-09-04",
    "hold": 0.11791,
    "hike_25": 0.359778,
    "hike_50": 0.364597,
    "hike_75": 0.139831,
    "hike_100": 0.017884,
-   "current_band": "3.50-3.75",
-   "cumulative_hike": 0.88209
+   "cumulative_hike": 0.88209,
+   "current_band": "3.50-3.75"
   }
  ]
 }

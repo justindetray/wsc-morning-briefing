@@ -1,85 +1,69 @@
 {
- "last_curated": "2026-09-07 07:15 ET",
+ "last_curated": "2026-09-08 07:25 ET",
  "macro": [
-  {
-   "date": "2026-09-07",
-   "time_et": "all day",
-   "event": "Labor Day - US markets closed",
-   "consensus": "",
-   "importance": "medium",
-   "note": "ZERO scheduled US economic data releases and zero Fed statistical releases today - every calendar checked shows either a holiday entry or no entry at all. NYSE and Nasdaq closed all day per Nasdaq Trader's own market calendar. The bond market takes a FULL close, not an early one: SIFMA's Labor Day line carries no early-close qualifier, unlike the Memorial Day and Thanksgiving entries on the same page, and the recommendation covers the US, UK and Japan. BLS closed; Census has no 9/7 entry; Treasury's tentative auction schedule lists the holiday and no auction. Canadian markets closed for Labour Day. KNOCK-ONS, all verified: the Fed's H.10 foreign exchange release moves to Tuesday 4:15 PM, and the Fed states outright that Monday's daily and weekly releases move to Tuesday 9/8. The EIA weekly petroleum status report moves to THURSDAY 9/10 at 12:00 PM for the week ending 9/4. Natural gas storage does NOT move and stays Thursday 10:30 AM - the only 2026 exceptions are 13 and 25 November."
-  },
   {
    "date": "2026-09-08",
    "time_et": "12:01 AM",
-   "event": "Canada counter-tariffs take effect",
+   "event": "Canada counter-tariffs IN EFFECT",
    "consensus": "",
    "importance": "high",
-   "note": "Confirmed on Finance Canada's own published list: roughly C$27.6bn of US goods at rates of 15, 25 and 50 percent, each matching the US rate on the corresponding goods, in force from 12:01 AM ET, across 600-plus product classifications spanning steel and aluminium, pulp and paper, dairy, appliances and agricultural equipment. Goods in transit on the day of coming into force are exempt. No weekend delay, carve-out or ministerial change was found dated 6-7 September, so this is on track. Tuesday is also the first US trading session in three days, so the open absorbs the tariffs plus three days of accumulated news. China's August trade data is also due, where a Reuters poll of 35 economists looks for exports +25% y/y, imports +30% and a $119.05bn surplus - forecasts, not results."
+   "note": "LIVE as of 12:01 AM ET on roughly C$27.6bn of US-origin goods at 15, 25 and 50% - each rate matching the corresponding US rate good-for-good - across 600-plus product classifications: steel and aluminium, dairy, pulp and paper, appliances, electronics, agricultural equipment. Goods in transit on the coming-into-force date are exempt. Confirmed on Finance Canada's own published product list, and confirmed as having actually taken effect - not merely scheduled - by in-window wire copy. No delay, carve-out or reprieve found; as of late Monday no further US-Canada talks were scheduled. DISARM THE ARITHMETIC TRAP: US$20bn, C$27.6bn and $28bn all refer to the SAME programme in different currencies with different rounding, not to two or three programmes. Today is the first US session able to price it."
+  },
+  {
+   "date": "2026-09-08",
+   "time_et": "released",
+   "event": "China August trade - exports +25.0%, imports +28.2% MISS",
+   "consensus": "",
+   "importance": "high",
+   "note": "Already on the tape. Exports +25.0% y/y against a Reuters poll of 35 at +25.0% - in line. Imports +28.2% against +30.0% expected - a MISS, and the more informative number given that import strength has been the rebalancing story for six straight months. Surplus $119.09bn against a $119.05bn poll and $112.5bn in July. Total trade $683.8bn, +26.3%; cumulative first-eight-months trade +17.6%. SOURCING: the GACC primary release was NOT obtained. All figures are wire-derived and tagged REPORTED, not primary. Two outlets citing one customs release is not independent corroboration, though three wire lineages quote the export figure with identical decimals."
+  },
+  {
+   "date": "2026-09-08",
+   "time_et": "10:00 AM",
+   "event": "Census QFR Q2 (Mfg/Mining/Wholesale + Retail); NFIB Aug",
+   "consensus": "",
+   "importance": "low",
+   "note": "Two Quarterly Financial Report releases at 10:00 AM, verified from Census's calendar list view - the JavaScript-driven main calendar page is unusable and the list view is the working endpoint. NFIB Small Business Optimism for August is DERIVED as today from the second-Tuesday rule and its TIME IS UNVERIFIED - no primary confirmation was obtained, so do not build a trade around its release moment. An aggregator lists consensus 99.2 against 99.8 prior; that is an aggregator figure, NOT a verified poll median, and is presented only so a desk is not surprised. NOTE THERE IS NO BLS RELEASE TODAY - confirmed against the BLS September schedule."
   },
   {
    "date": "2026-09-08",
    "time_et": "1:00 PM",
-   "event": "Treasury 3yr $58bn; G.19 3:00 PM; H.10 4:15 PM",
+   "event": "Treasury 3yr $58bn NEW ISSUE; bills; Fed G.19 3:00 PM, H.10 + H.15 4:15 PM",
    "consensus": "",
-   "importance": "low",
-   "note": "Treasury auctions a NEW $58bn 3-year note, CUSIP 91282CRL7, competitive bidding closing 1:00 PM - size, CUSIP and closing time all verified this run from Treasury's Fiscal Data auctions API, which is the reliable primary route now that treasurydirect.gov is robots-blocked and its cached JSON is months stale. Also auctioning: 6-week bill reopening $75bn, 13-week reopening $92bn, 26-week $79bn. Fed G.19 consumer credit at 3:00 PM covers the JULY reference period, inferred from the current release's consistent two-month lag rather than stated on the calendar. Census publishes TWO separate Quarterly Financial Reports at 10:00 AM, manufacturing/mining/wholesale/services and retail trade. Fed H.10 arrives 4:15 PM having been pushed off Monday by the holiday, with H.15 alongside it."
+   "importance": "medium",
+   "note": "Treasury auctions a NEW $58bn 3-year note, CUSIP 91282CRL7, competitive bidding closing 1:00 PM, alongside a $75bn 6-week bill. IMPORTANT CORRECTION TO A COMMON CALENDAR ERROR: the 13-week $92bn and 26-week $79bn bills close at 11:30 AM, NOT 1:00 PM - only the 3-year and the 6-week close at 1:00. Announcements today cover the 17-week (auctions 9/9) and the 4- and 8-week (auction 9/10). With FedWatch at 57.4% for a September hike, the 3-year is the most information-rich auction of the week. Fed releases deferred from the holiday all land today, the Fed having stated outright that Monday's daily and weekly releases move to Tuesday 9/8: commercial paper 1:00 PM, G.19 consumer credit 3:00 PM, and H.10 foreign exchange plus H.15 selected interest rates both at 4:15 PM. The G.19 reference month is DERIVED as July from the fifth-business-day rule because the Fed's own g19/current page is serving a 2012 release."
   },
   {
    "date": "2026-09-09",
-   "time_et": "10:00 AM",
-   "event": "ECB Governing Council Day 1, Berlin; 10yr reopening",
+   "time_et": "8:15 AM CET",
+   "event": "ECB Governing Council Day 1, Berlin - MONETARY POLICY",
    "consensus": "",
-   "importance": "medium",
-   "note": "This is a MONETARY POLICY meeting, Day 1, hosted by the Bundesbank in Berlin - the ECB's own Governing Council calendar labels it so explicitly, and the same page labels its 30 September entry a non-policy meeting, so the distinction is the ECB's own. No time is published for Day 1. BLS Employer Costs for Employee Compensation at 10:00 AM covers the JUNE reference period, confirmed on the BLS schedule. Census Quarterly Services Survey also 10:00 AM. Treasury reopens the 10-year note at $39bn, CUSIP 91282CRF0, competitive close 1:00 PM, verified from the Fiscal Data API. The Bank of Canada does NOT announce this day: its September fixed date was the 2nd, where it held the policy rate at 2.25% with the Bank Rate at 2.5%, and its next announcements are 28 October and 9 December."
+   "importance": "high",
+   "note": "Day one of a two-day MONETARY POLICY Governing Council meeting, held in Berlin and hosted by the Bundesbank rather than in Frankfurt. TIME UNVERIFIED - no primary confirmation of the session time was obtained. Also today: BLS Employer Costs for Employee Compensation for the June reference period at 10:00 AM, Census Quarterly Services Survey Q2 at 10:00 AM, a $39bn 10-year note REOPENING at 1:00 PM on CUSIP 91282CRF0, the 17-week bill auction, Fed commercial paper at 1:00 and H.15 at 4:15. EXPLICIT NON-EVENT: there is NO Bank of Canada decision this week. The BoC held at 2.25% on 2 September and next meets 28 October."
   },
   {
    "date": "2026-09-10",
    "time_et": "8:15 AM",
-   "event": "ECB rate decision, Berlin (presser 8:45 AM)",
+   "event": "ECB DECISION 8:15 AM ET, presser 8:45; PPI Aug 8:30; ORCL + ADBE after close",
    "consensus": "",
    "importance": "high",
-   "note": "Decision 8:15 AM ET and press conference 8:45 AM ET, both verified from the ECB's own press-conference page giving 14:15 and 14:45 CET, with the statement read from 15:00 CET, and the venue is BERLIN rather than Frankfurt per the Governing Council calendar. FRAMING DISCIPLINE: a Reuters poll published 3 September expects the ECB to RAISE rates for the second and final time in what would be its shortest tightening campaign in fifteen years - that is a poll EXPECTATION, not an ECB decision. Current key rates are deposit 2.25%, main refinancing 2.40% and marginal lending 2.65%, effective 17 June 2026, and the 23 July meeting HELD. Brief the direction as a hike if it comes, since framing the ECB as easing would be wrong by direction, but do not state the outcome as scheduled fact."
-  },
-  {
-   "date": "2026-09-10",
-   "time_et": "8:30 AM",
-   "event": "PPI, August; claims; ORCL and ADBE after close",
-   "consensus": "",
-   "importance": "high",
-   "note": "NO GENUINE CONSENSUS POLL EXISTS for August PPI and this brief will not manufacture one. Reuters' own week-ahead carries a poll median for CPI only. What exists is a TradingEconomics vendor aggregate and a single-house Continuum Economics view of +0.4% headline with +0.3% core; neither is a poll median and neither should be called consensus. First of two inflation prints before the FOMC. Initial claims 8:30 AM for the week ended 5 September. Wholesale trade 10:00 AM covers July. Natural gas storage 10:30 AM. EIA petroleum shifted by the holiday to 12:00 PM. Treasury reopens the 30-year at $22bn, CUSIP 912810UW6, 1:00 PM. ORACLE reports Q1 FY2027 after the close with its call at 5:00 PM ET - Thursday the 10th per Oracle's own investor relations, NOT the 9th as two aggregators assert. Adobe reports Q3 FY2026 after the close; its own release states no clock time."
+   "note": "The heaviest day of the week and it front-loads. ECB decision at 14:15 CET, which is 8:15 AM ET, with the press conference at 14:45 CET, 8:45 AM ET, from Berlin - fifteen minutes before the US cash open, so the euro and Bund reaction lands inside the US pre-open. Current settings: deposit 2.25%, MRO 2.40%, marginal lending 2.65%, effective 17 June 2026, and reached by a 25bp HIKE on 11 June, held 23 July. Frame Thursday as a hiking cycle in progress, not a cutting cycle. August PPI at 8:30 AM with NO GENUINE CONSENSUS POLL EXISTS from any primary wire we could reach - anyone quoting a PPI forecast this week is quoting a vendor model. Jobless claims 8:30. Census wholesale trade 10:00. EIA natural gas storage 10:30 and EIA weekly petroleum at 12:00 PM - the petroleum report MOVED off its usual Wednesday because of the holiday, so the two EIA releases are 90 minutes apart this week rather than simultaneous. Treasury reopens the 30-year, $22bn, CUSIP 912810UW6, at 1:00 PM. H.4.1 at 4:30. EARNINGS: Oracle reports Q1 FY27 after the close with its call at 5:00 PM ET on THURSDAY 10 September - two aggregators say 9 September and both are WRONG, per Oracle's own investor-relations page. Adobe reports Q3 FY26 with its call also at 5:00 PM ET."
   },
   {
    "date": "2026-09-11",
    "time_et": "8:30 AM",
-   "event": "CPI, August - THE print the Fed named",
+   "event": "CPI August 8:30 AM - NO VERIFIED CONSENSUS; UMich prelim 10:00",
    "consensus": "",
    "importance": "high",
-   "note": "Reuters poll expects +0.4% headline and +0.2% core month-over-month. The single most consequential scheduled release of the month and the last major inflation reading before the FOMC votes. Governor Waller said on 3 September that his decision will be heavily influenced by what is learned about August inflation - this is that reading, and it arrives with the Fed in blackout, so there will be no official reaction to it. Note the day: 11 September 2026 is a FRIDAY, and any source dating August CPI to a Wednesday is prior-year copy. Real Earnings also 8:30 AM for August, University of Michigan preliminary September sentiment 10:00 AM - the final August index was 51.7 against 55.2 in July, a 6.3% decline - Business Formation Statistics 10:00 AM, and Fed Z.1 financial accounts 12:00 PM."
+   "note": "August CPI at 8:30 AM is the week's main event, and it arrives with NO GENUINE CONSENSUS POLL EXISTS located from any primary wire - a carried-forward note in prior editions cited a Reuters poll at +0.4% headline and +0.2% core, and that figure could NOT be re-verified this run, so it is withdrawn rather than repeated. Real Earnings also 8:30. University of Michigan preliminary September sentiment at 10:00 AM against an August final ICS of 51.7, down from 55.2 in July, a 6.3% monthly fall and 58.2 a year ago; current conditions 51.9 from 54.8, expectations 51.5 from 55.4, one-year inflation expectations 4.0% down from 4.2% and long-run 3.3%. With diesel at a whisker under its all-time high, the inflation-expectations series is the line to watch. Census business formation statistics 10:00, Z.1 financial accounts 12:00 PM, H.8 and H.15 4:15."
   },
   {
-   "date": "2026-09-16",
-   "time_et": "2:00 PM",
-   "event": "FOMC decision (meeting Sept 15-16)",
+   "date": "2026-09-15",
+   "time_et": "forward",
+   "event": "FOMC 15-16 Sept; BOJ 17-18; Fed blackout through 9/17",
    "consensus": "",
    "importance": "high",
-   "note": "The 9/4 cohort prices 42.6% hold against 57.4% for a 25bp HIKE, and the probability of a CUT is exactly zero at every meeting through March 2027. Other estimates span 51% to 65%, so brief it as a range rather than a point. CORRECTION IN THIS BRIEF'S OWN DISFAVOUR: run #174 shipped the 2:30 PM press-conference time as UNVERIFIED. It is in fact published, as a discrete line item on the Federal Reserve's own September 2026 events calendar, which carries both the 2:00 PM statement and the 2:30 PM press conference against the 15-16 September two-day meeting. Both times are now VERIFIED. The Bank of Japan meets 17-18 September and is widely expected to hike, with its statement time printed as undecided by the BOJ itself. A 10-year TIPS reopening auctions 17 September, size and CUSIP not yet available since the offering announcement is not due until the 10th. The Fed communications blackout runs 5 September through 17 September."
-  }
- ],
- "earnings": [
-  {
-   "date": "2026-09-10",
-   "time_et": "after close",
-   "ticker": "ORCL",
-   "importance": "high",
-   "note": "Oracle reports first quarter fiscal 2027 after the close on THURSDAY 10 September, with its conference call at 4:00 PM Central, 5:00 PM ET, confirmed from Oracle's own investor-relations release. The date is worth pinning: financecalendar.com and one MarketBeat page assert 9 September and are wrong. The most consequential single earnings report of the week as a read on AI infrastructure demand and backlog conversion, and it lands the evening before CPI, into a market that has just repriced the policy path higher."
-  },
-  {
-   "date": "2026-09-10",
-   "time_et": "after close",
-   "ticker": "ADBE",
-   "importance": "medium",
-   "note": "Adobe reports third quarter fiscal 2026 after the close on 10 September, confirmed from Adobe's own newsroom item dated 3 September. Adobe's own page states no clock time for the call; the 2:00 PM Pacific time in circulation is secondary-sourced only. Read as a check on whether software that monetises AI usage is still being rewarded."
+   "note": "FOMC meets 15-16 September. A CORRECTION TO RUN #175, which logged this as resolved the other way: primary re-verification of the Fed's own calendar shows the 2:00 p.m. timestamp attaches to the SEPTEMBER 15 meeting entry, and the Fed does NOT publish a statement at 2:00 p.m. on September 16 as a line item. Only the 2:30 p.m. press conference on 16 September is published with a time. We default to the weaker, verifiable claim. Fed blackout runs 12:00 AM ET Saturday 5 September through 11:59 PM ET Thursday 17 September, which is why there is no Fed commentary in any overnight window this week. Bank of Japan meets 17-18 September and the BOJ's own language for its announcement time is undecided. A 10-year TIPS reopening auctions 9/17 with its announcement 9/10; size and CUSIP are NOT FOUND, which is expected at this remove."
   }
  ]
 }
