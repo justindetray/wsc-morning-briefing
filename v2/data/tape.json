@@ -1,119 +1,155 @@
 {
  "ES": {
-  "value": 7697.75,
-  "as_of": "2026-09-08 07:21 ET",
+  "value": 7651.0,
+  "prev_close": 7680.5,
+  "delta_pct": -0.38,
+  "label": "S&P 500 fut",
+  "as_of": "Wed 9/9 7:30a ET",
   "status": "LIVE",
-  "prev_close": 7708.75,
-  "delta_pct": -0.1427,
-  "label": "S&P 500 Fut",
-  "source": "E-mini S&P 500 continuous, 7697.75 quoted 11:21:33 UTC. Prior reference 7708.75, the close of the 16:45 UTC 15-minute bar on 9/07 - the last bar before the CME Labor Day halt, on 1458 contracts, so a real print rather than a stub. Post-reopen overnight range 7687.75 to 7725.75, re-derived from the same bar series. The index is therefore a fifth of a percent lower than where the abbreviated holiday session left it, having traded a 38-point band overnight. BASE SELECTION, disclosed in full because it is contestable. CME did not derive or disseminate settlement prices for any CME, CBOT, NYMEX or COMEX product on Monday 9/7 - the exchange's own Labor Day settlement notice says so, and its clearing advisory carries prices forward from the prior day. So there is NO official Monday settlement to measure against. Three candidate bases existed and all three were computed. (1) The vendor's daily 9/07 aggregate. (2) The vendor's previousClose field. (3) The last print before the exchange's documented 1:00 PM ET holiday halt, re-derived this run from 15-minute bars. Basis 3 is shipped: the bar series shows a clean five-hour gap from 16:45/17:00 UTC to 22:00 UTC, and 22:00 UTC is 6:00 PM ET, which is exactly the 17:00 CT reopen published in CME's holiday calendar. The gap boundary derived independently from price data matches the exchange document to the minute, which is what makes basis 3 defensible and the other two arbitrary. The vendor's previousClose for NQ was NOT rolled past Friday at all and would have shown a -0.02% move; the daily aggregate would have shown -0.61%. The escalation threshold for this run is a 2% overnight futures move and it is NOT tripped under any of the three bases - worst case across all of them is 0.563%. That robustness is the reason the ambiguity did not need to be resolved before shipping. CASH CONTEXT: NOT ATH: the S&P 500 cash index closed Friday at 7718.60, -1.031% below its record close of 7798.99 set 8/13/26 and -1.255% below the 7816.70 peak intraday high from that session. This is context for the futures tile above, not a live level - SPX cash has not printed since Friday. The e-mini is the only S&P instrument on today's board carrying a Tuesday timestamp."
+  "source": "CME settle 9/8 21:00 UTC, verified in settlement window"
  },
  "NQ": {
-  "value": 29560.0,
-  "as_of": "2026-09-08 07:21 ET",
+  "value": 29383.75,
+  "prev_close": 29538.75,
+  "delta_pct": -0.52,
+  "label": "Nasdaq 100 fut",
+  "as_of": "Wed 9/9 7:30a ET",
   "status": "LIVE",
-  "prev_close": 29603.5,
-  "delta_pct": -0.1469,
-  "label": "Nasdaq 100 Fut",
-  "source": "E-mini Nasdaq 100 continuous, 29560.00 quoted 11:21:34 UTC. Prior reference 29603.50, the 17:00 UTC 9/07 bar - last before the halt - but note that bar printed on NINE contracts and is a stub tick, which is a weaker anchor than the ES equivalent and is disclosed as such. Post-reopen overnight range 29481.75 to 29763.50, a 282-point band. THE STORY OF THIS TILE IS WHAT DID NOT HAPPEN: Tokyo fell 1.70% on a 1.3% yen appreciation and Nasdaq futures are down a seventh of a percent. The yen shock did not travel. BASE SELECTION, disclosed in full because it is contestable. CME did not derive or disseminate settlement prices for any CME, CBOT, NYMEX or COMEX product on Monday 9/7 - the exchange's own Labor Day settlement notice says so, and its clearing advisory carries prices forward from the prior day. So there is NO official Monday settlement to measure against. Three candidate bases existed and all three were computed. (1) The vendor's daily 9/07 aggregate. (2) The vendor's previousClose field. (3) The last print before the exchange's documented 1:00 PM ET holiday halt, re-derived this run from 15-minute bars. Basis 3 is shipped: the bar series shows a clean five-hour gap from 16:45/17:00 UTC to 22:00 UTC, and 22:00 UTC is 6:00 PM ET, which is exactly the 17:00 CT reopen published in CME's holiday calendar. The gap boundary derived independently from price data matches the exchange document to the minute, which is what makes basis 3 defensible and the other two arbitrary. The vendor's previousClose for NQ was NOT rolled past Friday at all and would have shown a -0.02% move; the daily aggregate would have shown -0.61%. The escalation threshold for this run is a 2% overnight futures move and it is NOT tripped under any of the three bases - worst case across all of them is 0.563%. That robustness is the reason the ambiguity did not need to be resolved before shipping. CASH CONTEXT: NOT ATH: Nasdaq 100 cash closed Friday at 29544.16, -3.641% below the 6/2/26 record close of 30660.60 and -3.960% below the 6/3/26 peak high of 30762.20. Three months on, the June high still stands unchallenged and the index needs a 3.8% rally to retake it. Context for the NQ futures tile, not a live print."
- },
- "WTI": {
-  "value": 93.98,
-  "as_of": "2026-09-08 07:06 ET",
-  "status": "LIVE",
-  "prev_close": 92.7,
-  "delta_pct": 1.3808,
-  "label": "WTI Crude",
-  "source": "CLUSD front-month futures, 93.98 against Monday's 92.70 electronic close. Up a fourth consecutive session and the strongest tile on the board in percentage terms among instruments that actually traded. Friday's US settlement - the last clean one - was 91.48, so crude is 2.73% above the last settled American print. The vendor's previousClose rolled correctly here, which it did not for Brent. BASE RE-DERIVED, NOT TAKEN FROM THE VENDOR. This run found that the quote vendor's previousClose field rolls per-instrument and inconsistently through a holiday session: four of nine instruments checked had NOT rolled past Friday, and on the dollar index the stale base produced an outright SIGN FLIP. Every base on this board was therefore re-derived from daily OHLCV bars for the specific date, and the staleness test used was whether the vendor's base sat nearer Friday's close than Monday's - not a bare numeric tolerance, which produced a false positive on AUD/JPY where a 5-pip difference is just rounding."
+  "source": "CME settle 9/8 21:00 UTC, verified in settlement window"
  },
  "BRENT": {
-  "value": 98.65,
-  "as_of": "2026-09-08 07:06 ET",
+  "value": 100.72,
+  "prev_close": 97.92,
+  "delta_pct": 2.86,
+  "label": "Brent crude",
+  "as_of": "Wed 9/9 7:30a ET",
   "status": "LIVE",
-  "prev_close": 97.6,
-  "delta_pct": 1.0758,
-  "label": "Brent Crude",
-  "source": "BZUSD front-month futures, 98.65 against Monday's 97.60 close. Brent set a six-week high on Monday and this is a third consecutive up day. The vendor's previousClose for this instrument was 96.28, which is FRIDAY's close, not Monday's - shipping it would have overstated the overnight move by 1.37 percentage points. Brent-WTI spread has narrowed to 4.67 from 4.90 Monday, which is the physical-tightness tell worth watching more than the flat price. BASE RE-DERIVED, NOT TAKEN FROM THE VENDOR. This run found that the quote vendor's previousClose field rolls per-instrument and inconsistently through a holiday session: four of nine instruments checked had NOT rolled past Friday, and on the dollar index the stale base produced an outright SIGN FLIP. Every base on this board was therefore re-derived from daily OHLCV bars for the specific date, and the staleness test used was whether the vendor's base sat nearer Friday's close than Monday's - not a bare numeric tolerance, which produced a false positive on AUD/JPY where a 5-pip difference is just rounding."
+  "source": "ICE settle 9/8; base confirmed by 2 independent paths"
+ },
+ "WTI": {
+  "value": 95.4,
+  "prev_close": 94.25,
+  "delta_pct": 1.22,
+  "label": "WTI crude",
+  "as_of": "Wed 9/9 7:30a ET",
+  "status": "LIVE",
+  "source": "base 9/8 21:00 UTC, matches vendor prevClose"
  },
  "GOLD": {
-  "value": 4443.4,
-  "as_of": "2026-09-08 07:06 ET",
-  "status": "LIVE",
-  "prev_close": 4484.2,
-  "delta_pct": -0.9099,
+  "value": 4447.5,
+  "prev_close": 4439.0,
+  "delta_pct": 0.19,
   "label": "Gold",
-  "source": "GCUSD FRONT-MONTH FUTURES, 4443.40 against Monday's 4484.20 close. If a desk sees a print near 4428 this morning, those are SPOT quotes and this tile is futures - that basis gap was the false alarm of run #175 and it is not a vendor conflict. The vendor's previousClose was 4476.60, Friday's close, unrolled. Silver, not tiled, is 66.63 against 67.64, down 1.49% and falling faster than gold. BASE RE-DERIVED, NOT TAKEN FROM THE VENDOR. This run found that the quote vendor's previousClose field rolls per-instrument and inconsistently through a holiday session: four of nine instruments checked had NOT rolled past Friday, and on the dollar index the stale base produced an outright SIGN FLIP. Every base on this board was therefore re-derived from daily OHLCV bars for the specific date, and the staleness test used was whether the vendor's base sat nearer Friday's close than Monday's - not a bare numeric tolerance, which produced a false positive on AUD/JPY where a 5-pip difference is just rounding."
+  "as_of": "Wed 9/9 7:30a ET",
+  "status": "LIVE",
+  "source": "base COMEX settle 9/8, in-window 4438.9-4440.3"
  },
  "BTC": {
-  "value": 78412.0,
-  "as_of": "2026-09-08 07:06 ET",
-  "status": "LIVE",
-  "prev_close": 79091.97,
-  "delta_pct": -0.8597,
+  "value": 79004.34,
+  "prev_close": 78447.11,
+  "delta_pct": 0.71,
   "label": "Bitcoin",
-  "source": "Polygon X:BTCUSD, 78412 against the 9/07 UTC close of 79091.97, recomputed against the preceding UTC daily close because the instrument trades continuously and there is no session to anchor to. Down a third consecutive day and 1.78% below Friday's 79831.57. Bitcoin is the only genuinely 24/7 tile on this board and it is the one that had the most opportunity to express a view across the holiday - it chose lower, which modestly contradicts the risk-neutral read coming off the flat equity futures."
+  "as_of": "Wed 9/9 7:30a ET",
+  "status": "LIVE",
+  "source": "base Polygon X:BTCUSD 9/8 UTC close"
  },
  "EURJPY": {
-  "value": 179.17,
-  "as_of": "2026-09-08 07:06 ET",
-  "status": "LIVE",
-  "prev_close": 179.38,
-  "delta_pct": -0.1171,
+  "value": 178.53,
+  "prev_close": 178.88,
+  "delta_pct": -0.2,
   "label": "EUR/JPY",
-  "source": "179.17 against Monday's 179.38 close. Overnight low 177.84, so the cross has already recovered 1.33 yen off its trough. This is the cleanest single read on the overnight story: the yen's appreciation was violent in the Tokyo morning and had largely reversed by the time New York woke up. Friday's close was 181.38, so the cross is still 1.22% stronger for the yen across the three-day break. BASE RE-DERIVED, NOT TAKEN FROM THE VENDOR. This run found that the quote vendor's previousClose field rolls per-instrument and inconsistently through a holiday session: four of nine instruments checked had NOT rolled past Friday, and on the dollar index the stale base produced an outright SIGN FLIP. Every base on this board was therefore re-derived from daily OHLCV bars for the specific date, and the staleness test used was whether the vendor's base sat nearer Friday's close than Monday's - not a bare numeric tolerance, which produced a false positive on AUD/JPY where a 5-pip difference is just rounding."
+  "as_of": "Wed 9/9 7:10a ET",
+  "status": "LIVE",
+  "source": "base 9/8 21:00 UTC 178.884"
  },
  "AUDJPY": {
-  "value": 111.28,
-  "as_of": "2026-09-08 07:06 ET",
-  "status": "LIVE",
-  "prev_close": 111.34,
-  "delta_pct": -0.0539,
+  "value": 110.75,
+  "prev_close": 111.05,
+  "delta_pct": -0.27,
   "label": "AUD/JPY",
-  "source": "111.28 against Monday's 111.34 close, the smallest move on the board. Overnight low 110.27. The classic carry-unwind barometer is essentially unchanged, which is itself the signal - a genuine global carry unwind does not leave AUD/JPY flat. Friday's close was 112.51. Note the vendor's previousClose of 111.39 sits within rounding of the true base and was correctly NOT flagged stale, unlike the four instruments that were. BASE RE-DERIVED, NOT TAKEN FROM THE VENDOR. This run found that the quote vendor's previousClose field rolls per-instrument and inconsistently through a holiday session: four of nine instruments checked had NOT rolled past Friday, and on the dollar index the stale base produced an outright SIGN FLIP. Every base on this board was therefore re-derived from daily OHLCV bars for the specific date, and the staleness test used was whether the vendor's base sat nearer Friday's close than Monday's - not a bare numeric tolerance, which produced a false positive on AUD/JPY where a 5-pip difference is just rounding."
+  "as_of": "Wed 9/9 7:10a ET",
+  "status": "LIVE",
+  "source": "base 9/8 21:00 UTC 111.078"
  },
  "SOX": {
-  "value": 11735.26,
-  "as_of": "2026-09-04 close",
+  "value": 11887.87,
+  "prev_close": 11735.26,
+  "delta_pct": 1.3,
+  "label": "Phlx Semis",
+  "as_of": "Tue 9/8 close",
   "status": "CLOSED",
-  "prev_close": 11352.13,
-  "delta_pct": 3.375,
-  "label": "Philadelphia Semis",
-  "source": "Polygon I:SOX daily aggregate, Friday's 11735.26 close against Thursday's 11352.13 - a 3.375% session and still the largest single move on this board. CARRIED FORWARD, AND SAYING SO. This tile is byte-identical to yesterday's edition because the last completed US cash session was FRIDAY 9/4 - Monday was Labor Day. That is correct, not stale, but it means the number is three calendar days old and carries no information about the overnight tape. The first chance to mark it is the 9:30 AM ET open. NOT ATH, and not close. Even after Friday's 3.375% session the index is -19.81% below its record close of 14634.72 set 6/22/26 and -19.93% below the 14655.29 peak intraday high from that same session. Friday's own high was 11750.25. Nothing in the overnight tape changes this: SOX has not traded since Friday's close, so this tile is a THREE-DAY-OLD cash print carried forward, identical by construction to yesterday's edition. Tuesday's open is the first chance to mark it."
+  "source": "Polygon I:SOX daily bars"
  },
  "DJI": {
-  "value": 53414.25,
-  "as_of": "2026-09-04 close",
+  "value": 52786.07,
+  "prev_close": 53414.25,
+  "delta_pct": -1.18,
+  "label": "Dow",
+  "as_of": "Tue 9/8 close",
   "status": "CLOSED",
-  "prev_close": 53686.11,
-  "delta_pct": -0.5064,
-  "label": "Dow Jones Ind",
-  "source": "Polygon I:DJI daily aggregate, Friday's 53414.25 against 53686.11. CARRIED FORWARD, AND SAYING SO. This tile is byte-identical to yesterday's edition because the last completed US cash session was FRIDAY 9/4 - Monday was Labor Day. That is correct, not stale, but it means the number is three calendar days old and carries no information about the overnight tape. The first chance to mark it is the 9:30 AM ET open. NOT ATH: -1.720% below the record close of 54349.12 set 8/5/26 and -2.430% below the 54744.33 peak high. Friday's high re-reads as 53635.35. Like SOX this is Friday's cash print carried across the Labor Day close, unchanged from run #175 and correctly so - the Dow has had no session in which to move. Treat the level as three days stale for narrative purposes even though the number is right."
+  "source": "Polygon I:DJI daily bars"
  },
  "VIX": {
-  "value": 14.53,
-  "as_of": "2026-09-04 settle",
-  "status": "CLOSED",
-  "prev_close": 14.32,
-  "delta_pct": 1.4665,
+  "value": 15.72,
+  "prev_close": 14.53,
+  "delta_pct": 8.19,
   "label": "VIX",
-  "source": "Cboe VIX, FRIDAY's 14.53 settle against Thursday's 14.32. THIS TILE REJECTS TWO NEWER INPUTS AND THE REJECTION IS THE POINT. The data vendor serves an I:VIX bar for 9/07 - a day the US cash market was closed and Cboe does not compute the index - and that bar has now MUTATED between fetches on three separate occasions across three runs: read as close 15.14 with a 15.16 high, then 15.17, and this run as open 15.02, high 15.32, low 14.99, close 15.30. A settled closing value does not move three times, so the bar is not a settle. Run #175 rejected it on two fetches; the third mutation retroactively vindicates that call. The vendor also serves a 9/08 bar which is a live pre-open partial and is likewise mutating. REJECTED INPUT: 15.17, and the 15.30 that replaced it. The decisive corroborating argument is a missing sibling - the same vendor serves NO 9/07 or 9/08 bar for I:SPX, I:NDX, I:SOX, I:DJI or VXN. A feed that had genuinely computed holiday volatility would not have computed it for exactly one index. INDICATIVE ONLY, never on the tile: VIX futures and the pre-open implied level sit near 15.8, roughly 9% above Friday's settle, against S&P futures down 0.14% - a vol bid materially larger than the spot move justifies. That asymmetry is worth a desk's attention and is NOT a settled number. VXN's last real bar remains 20.04 from 9/04."
+  "as_of": "Tue 9/8 close",
+  "status": "CLOSED",
+  "source": "Polygon I:VIX 9/8 vs 9/4; same-day 9/9 partial bar rejected"
  },
  "US10Y": {
-  "value": 4.78,
-  "as_of": "2026-09-04 3:30 PM ET",
+  "value": 4.8,
+  "prev_close": 4.78,
+  "delta_pct": 0.42,
+  "label": "US 10y",
+  "as_of": "Tue 9/8 close",
   "status": "CLOSED",
-  "prev_close": 4.77,
-  "delta_pct": 0.2096,
-  "label": "US 10Y Yield",
-  "source": "Treasury CMT par yield curve, 4.78% on 09/04 against 4.77% on 09/03, up one basis point. BOTH YIELD TILES USE THE SAME BASIS - the Treasury CMT series - so the 10s2s read is internally consistent. The CMT file's latest row is still 09/04: there is no 09/07 row because Treasury published no curve on the holiday, and no 09/08 row will exist until roughly 3:30 PM ET today. Yields therefore cannot be marked this morning from the primary source, and this build refuses to substitute a broker quote for it. For narrative only, the Reuters global wrap had the 10-year at 4.788% and up 0.6bp at 01:48 UTC, consistent in direction. CARRIED FORWARD, AND SAYING SO. This tile is byte-identical to yesterday's edition because the last completed US cash session was FRIDAY 9/4 - Monday was Labor Day. That is correct, not stale, but it means the number is three calendar days old and carries no information about the overnight tape. The first chance to mark it is the 9:30 AM ET open."
+  "source": "Treasury CMT 09/08 vs 09/04 (+2.0bp)"
  },
  "US2Y": {
-  "value": 4.37,
-  "as_of": "2026-09-04 3:30 PM ET",
+  "value": 4.39,
+  "prev_close": 4.37,
+  "delta_pct": 0.46,
+  "label": "US 2y",
+  "as_of": "Tue 9/8 close",
   "status": "CLOSED",
-  "prev_close": 4.34,
-  "delta_pct": 0.6912,
-  "label": "US 2Y Yield",
-  "source": "Treasury CMT par yield curve, 4.37% on 09/04 against 4.34% on 09/03, up three basis points and steepening the front end faster than the belly. The 10s2s spread is 41bp, in from 43bp Thursday. Same-basis, same-file, same-timestamp discipline as the 10-year tile above - no mixing of CMT with vendor quotes. Note the front end is where the hiking repricing lands, and with FedWatch now assigning a 57.4% probability to a September HIKE the 2-year is the tile most likely to move on today's 3-year auction. CARRIED FORWARD, AND SAYING SO. This tile is byte-identical to yesterday's edition because the last completed US cash session was FRIDAY 9/4 - Monday was Labor Day. That is correct, not stale, but it means the number is three calendar days old and carries no information about the overnight tape. The first chance to mark it is the 9:30 AM ET open."
+  "source": "Treasury CMT 09/08 vs 09/04 (+2.0bp)"
+ },
+ "SPX_ATH": {
+  "value": 7673.52,
+  "prev_close": 7798.99,
+  "delta_pct": -1.609,
+  "label": "SPX vs record",
+  "as_of": "Tue 9/8 close",
+  "status": "CLOSED",
+  "source": "CASH CONTEXT \u2014 not at a record on either leg: close -1.609% vs max close 7798.99 (2026-08-13); high -1.265% vs max high 7816.70 (2026-08-13). Re-derived over 501 sessions on 2026-09-09."
+ },
+ "NDX_ATH": {
+  "value": 29507.7,
+  "prev_close": 30660.6,
+  "delta_pct": -3.76,
+  "label": "NDX vs record",
+  "as_of": "Tue 9/8 close",
+  "status": "CLOSED",
+  "source": "CASH CONTEXT \u2014 not at a record on either leg: close -3.760% vs max close 30660.60 (2026-06-02); high -3.597% vs max high 30762.20 (2026-06-03). Re-derived over 501 sessions on 2026-09-09."
+ },
+ "SOX_ATH": {
+  "value": 11887.87,
+  "prev_close": 14634.72,
+  "delta_pct": -18.769,
+  "label": "SOX vs record",
+  "as_of": "Tue 9/8 close",
+  "status": "CLOSED",
+  "source": "CASH CONTEXT \u2014 not at a record on either leg: close -18.769% vs max close 14634.72 (2026-06-22); high -17.955% vs max high 14655.29 (2026-06-22). Re-derived over 501 sessions on 2026-09-09."
+ },
+ "DJI_ATH": {
+  "value": 52786.07,
+  "prev_close": 54349.12,
+  "delta_pct": -2.876,
+  "label": "DJI vs record",
+  "as_of": "Tue 9/8 close",
+  "status": "CLOSED",
+  "source": "CASH CONTEXT \u2014 not at a record on either leg: close -2.876% vs max close 54349.12 (2026-08-05); high -2.985% vs max high 54744.33 (2026-08-05). Re-derived over 501 sessions on 2026-09-09."
  }
 }

@@ -1,48 +1,63 @@
 {
  "status": "LIVE",
- "cohort_date": "2026-09-04",
- "as_of": "2026-09-04 (CME reporting date)",
- "note": "CME FedWatch, cohort reporting date 2026-09-04, now the FOURTH consecutive run on the same cohort. THIS IS LEGITIMATE AND NOT A DEGRADED FEED, and the exception is documented from CME's own publications: its Labor Day settlement notice states that on Monday 7 September CME Group would not derive or disseminate settlement prices for CME, CBOT, NYMEX or COMEX, and its Labor Day clearing advisory carries end-of-day prices forward from the prior day. No new settlement means no new FedWatch cohort. CME's holiday calendar independently confirms interest-rate and equity-index products halted at 12:00 CT and reopened at 17:00 CT, which is 1:00 PM and 6:00 PM ET - and that reopen time matches, to the minute, the five-hour gap this build derived independently from 15-minute futures bars. CAVEAT CARRIED FORWARD FOR TOMORROW: the next build MUST show a reporting date of 2026-09-08. If it still reads 2026-09-04 after a full trading session, that is a real failure and not a holiday artifact. The distribution itself is striking: ZERO probability of a cut at any meeting through March 2027, and a 57.4% probability of a HIKE next week.",
+ "reporting_date": "2026-09-08",
+ "current_band": "3.50-3.75",
+ "note": "Pulled directly from the CME FedWatch API and stamped 8 September, so the cohort rolled normally after the Labor Day holiday. Hike odds rose at every horizon day over day; cut probability is zero at every meeting through March 2027. Independently corroborated by secondary reports of a 59-60% September probability.",
  "meetings": [
   {
    "meetingDt": "2026-09-16",
-   "hold": 0.425714,
-   "hike_25": 0.574286,
+   "reportingDt": "2026-09-08",
+   "hold": 0.405714,
+   "hike_25": 0.594286,
    "hike_50": 0.0,
    "hike_75": 0.0,
    "hike_100": 0.0,
-   "cumulative_hike": 0.574286,
-   "current_band": "3.50-3.75"
+   "cut": 0.0,
+   "cumulative_hike": 0.594286
   },
   {
    "meetingDt": "2026-10-28",
-   "hold": 0.312596,
-   "hike_25": 0.534808,
-   "hike_50": 0.152596,
+   "reportingDt": "2026-09-08",
+   "hold": 0.29791,
+   "hike_25": 0.54418,
+   "hike_50": 0.15791,
    "hike_75": 0.0,
    "hike_100": 0.0,
-   "cumulative_hike": 0.687404,
-   "current_band": "3.50-3.75"
+   "cut": 0.0,
+   "cumulative_hike": 0.70209
   },
   {
    "meetingDt": "2026-12-09",
-   "hold": 0.153056,
-   "hike_25": 0.421398,
-   "hike_50": 0.347666,
-   "hike_75": 0.07788,
+   "reportingDt": "2026-09-08",
+   "hold": 0.134832,
+   "hike_25": 0.40937,
+   "hike_50": 0.369357,
+   "hike_75": 0.086441,
    "hike_100": 0.0,
-   "cumulative_hike": 0.846944,
-   "current_band": "3.50-3.75"
+   "cut": 0.0,
+   "cumulative_hike": 0.865168
   },
   {
    "meetingDt": "2027-01-27",
-   "hold": 0.11791,
-   "hike_25": 0.359778,
-   "hike_50": 0.364597,
-   "hike_75": 0.139831,
-   "hike_100": 0.017884,
-   "cumulative_hike": 0.88209,
-   "current_band": "3.50-3.75"
+   "reportingDt": "2026-09-08",
+   "hold": 0.100774,
+   "hike_25": 0.340024,
+   "hike_50": 0.379464,
+   "hike_75": 0.157904,
+   "hike_100": 0.021834,
+   "cut": 0.0,
+   "cumulative_hike": 0.899226
+  },
+  {
+   "meetingDt": "2027-03-17",
+   "reportingDt": "2026-09-08",
+   "hold": 0.063632,
+   "hike_25": 0.251843,
+   "hike_50": 0.364927,
+   "hike_75": 0.239564,
+   "hike_100": 0.071986,
+   "cut": 0.0,
+   "cumulative_hike": 0.936368
   }
  ]
 }
