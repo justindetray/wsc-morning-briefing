@@ -1,138 +1,126 @@
 {
- "last_curated": "2026-09-09",
+ "last_curated": "2026-09-10T07:55:00-04:00",
  "macro": [
-  {
-   "date": "2026-09-09",
-   "time_et": "10:00 AM",
-   "importance": "low",
-   "event": "Employer Costs for Employee Compensation, Q2 (BLS)",
-   "note": "date-verified on the BLS release schedule"
-  },
-  {
-   "date": "2026-09-09",
-   "time_et": "10:00 AM",
-   "importance": "low",
-   "event": "Quarterly Services Survey, Q2 (Census)",
-   "note": "date-verified on the Census listview calendar"
-  },
-  {
-   "date": "2026-09-09",
-   "time_et": "",
-   "importance": "high",
-   "event": "ECB Governing Council, Day 1 - Berlin",
-   "note": "hosted by the Bundesbank; decision tomorrow. Day 1 start time is not published on the ECB calendar"
-  },
-  {
-   "date": "2026-09-09",
-   "time_et": "1:00 PM",
-   "importance": "medium",
-   "event": "Treasury 10-year note reopening, $39bn",
-   "note": "CUSIP 91282CRF0, verified by CUSIP and size; 17-week bill also today"
-  },
-  {
-   "date": "2026-09-09",
-   "time_et": "4:15 PM",
-   "importance": "low",
-   "event": "Fed H.15 selected interest rates",
-   "note": "commercial paper 1:00p. FOMC blackout runs through Sept 17, so no Fed speakers"
-  },
   {
    "date": "2026-09-10",
    "time_et": "8:15 AM",
+   "event": "ECB rate decision",
    "importance": "high",
-   "event": "ECB rate decision (14:15 CET), presser 8:45a ET",
-   "note": "all 65 economists in a Reuters poll expect a 25bp hike to a 2.50 percent deposit rate, then a pause"
+   "note": "14:15 CET, away meeting hosted by the Bundesbank in Berlin. All 65 economists in Reuters' 3 Sep poll expect +25bp to a 2.50% deposit rate, then a pause. Not decided at publication of this brief."
   },
   {
    "date": "2026-09-10",
    "time_et": "8:30 AM",
+   "event": "PPI, August",
    "importance": "high",
-   "event": "PPI final demand, August",
-   "note": "no consensus could be verified from any primary source - treat published forecasts as house estimates"
+   "note": "Only BLS release today. No wire-poll median could be verified; the best available street figure is +0.4% m/m from a single unattributed compilation, so treat any consensus you see with care."
   },
   {
    "date": "2026-09-10",
    "time_et": "8:30 AM",
-   "importance": "medium",
    "event": "Initial jobless claims",
-   "note": "week ending Sept 5"
+   "importance": "medium",
+   "note": "DOL publishes no forward calendar; time derived from the standing embargo line on the weekly release."
+  },
+  {
+   "date": "2026-09-10",
+   "time_et": "8:45 AM",
+   "event": "Lagarde press conference",
+   "importance": "high",
+   "note": "Watch the 2027 inflation projection and any question on oil pass-through."
   },
   {
    "date": "2026-09-10",
    "time_et": "10:30 AM",
-   "importance": "low",
    "event": "EIA natural gas storage",
-   "note": "week ending Sept 4"
+   "importance": "low",
+   "note": "Time derived from standing schedule, not a dated issuer notice."
   },
   {
    "date": "2026-09-10",
    "time_et": "12:00 PM",
-   "importance": "medium",
    "event": "EIA weekly petroleum status",
-   "note": "noon, not the usual 10:30a - EIA published an explicit exception row for the week ending Sept 4"
+   "importance": "medium",
+   "note": "Noon, not the usual 10:30 - a Labor Day shift confirmed on EIA's own schedule page."
   },
   {
    "date": "2026-09-10",
    "time_et": "1:00 PM",
+   "event": "$22bn 30-year bond reopening",
+   "importance": "high",
+   "note": "CUSIP 912810UW6. Follows Wednesday's strong $39bn 10-year, which cleared at 4.834% with a 2.71 bid-to-cover and a 1.5bp stop-through."
+  },
+  {
+   "date": "2026-09-10",
+   "time_et": "1:40 PM",
+   "event": "Treasury buyback, 10-20 year",
    "importance": "medium",
-   "event": "Treasury 30-year bond reopening, $22bn",
-   "note": "CUSIP 912810UW6; 10-year TIPS announcement also today for a Sept 17 auction"
+   "note": "Up to $2bn, overlapping the auction. Wednesday's buyback size was cited in Asian wraps as a driver of the selloff."
   },
   {
    "date": "2026-09-11",
    "time_et": "8:30 AM",
-   "importance": "high",
    "event": "CPI, August",
-   "note": "a Reuters poll dated Sept 4 has plus 0.4 headline and plus 0.2 core, but two other compilations for the same month give plus 0.2 and plus 0.3 - treat consensus as a dispersed 0.2 to 0.4 range, not a point estimate"
+   "importance": "high",
+   "note": "Consensus +0.4% headline / +0.2% core. Yesterday we flagged forecaster dispersion here; that was wrong - the dissenting compilations were 2024 and 2025 vintage. There is no disagreement."
   },
   {
    "date": "2026-09-11",
    "time_et": "10:00 AM",
+   "event": "UMich sentiment, preliminary",
    "importance": "medium",
-   "event": "UMich consumer sentiment, preliminary September",
-   "note": ""
+   "note": "Inflation expectations matter more than the headline with fuel prices at records."
   },
   {
    "date": "2026-09-15",
    "time_et": "",
+   "event": "FOMC meeting begins",
    "importance": "high",
-   "event": "FOMC meeting begins (two-day)",
-   "note": "statement and press conference are both attached to Wednesday Sept 16 on the Fed calendar - verified twice"
+   "note": "Blackout runs 5-17 September, so no Fed speakers between now and the decision."
+  },
+  {
+   "date": "2026-09-16",
+   "time_et": "2:00 PM",
+   "event": "FOMC decision and press conference",
+   "importance": "high",
+   "note": "CME cohort puts a hike at 61.4%, up two points overnight. Zero probability of a cut."
+  },
+  {
+   "date": "2026-09-17",
+   "time_et": "1:00 PM",
+   "event": "10-year TIPS reopening",
+   "importance": "low",
+   "note": "Announced today; roughly $19bn indicated on the tentative auction schedule."
   }
  ],
  "earnings": [
   {
-   "date": "2026-09-09",
-   "time_et": "AMC",
-   "ticker": "COO",
-   "name": "Cooper Companies",
-   "importance": "low",
-   "note": ""
-  },
-  {
    "date": "2026-09-10",
    "time_et": "AMC",
+   "session": "after-hours",
    "ticker": "ORCL",
    "name": "Oracle",
    "importance": "high",
-   "note": "Q1 FY27; consensus EPS about 1.74 on about 19.1bn revenue. Aggregators listing Oracle for the 8th or 9th are wrong - confirmed for the 10th against issuer IR"
+   "note": "Q1 FY2027, call 5:00 PM ET. Consensus ~$1.74 EPS on ~$19.13bn (+28% y/y). The story is RPO, which hit $638bn last quarter. Options price an 11-13% move against a 16% average over the last four prints."
   },
   {
    "date": "2026-09-10",
    "time_et": "AMC",
+   "session": "after-hours",
    "ticker": "ADBE",
    "name": "Adobe",
    "importance": "high",
-   "note": "Q3 FY26; consensus EPS 6.07 to 6.09 sits mid-guide, so a beat is close to guidance confirmation"
+   "note": "Q3 FY2026, call 5:00 PM ET. Consensus ~$6.08 EPS on ~$6.70bn (+12% y/y). Implied move roughly 7-8%; Adobe has exceeded its implied move in 12 of its last 16 reports."
   },
   {
    "date": "2026-09-11",
    "time_et": "BMO",
+   "session": "pre-market",
    "ticker": "KR",
    "name": "Kroger",
    "importance": "medium",
-   "note": ""
+   "note": "A read on grocery pass-through with diesel at a record."
   }
  ],
- "note": "Thursday is the week's load-bearing day: PPI and claims at 8:30a, the ECB decision at 8:15a ET with the presser at 8:45a, EIA petroleum at 12:00p on a published exception schedule, a $22bn 30-year reopening, and Oracle and Adobe after the close."
+ "note": "Times verified against issuer pages this morning. ECB 14:15 CET is primary from the ECB's own decisions page; a widely-syndicated 13:45 CET listing is wrong."
 }

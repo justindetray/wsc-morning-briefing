@@ -1,155 +1,119 @@
 {
  "ES": {
-  "value": 7651.0,
-  "prev_close": 7680.5,
-  "delta_pct": -0.38,
+  "value": 7648.5,
+  "prev_close": 7643.75,
+  "delta_pct": 0.0621,
   "label": "S&P 500 fut",
-  "as_of": "Wed 9/9 7:30a ET",
+  "as_of": "Thu 11:00 UTC",
   "status": "LIVE",
-  "source": "CME settle 9/8 21:00 UTC, verified in settlement window"
+  "source": "vendor prevClose=CME settle Wed 9/9 (#177-B)"
  },
  "NQ": {
-  "value": 29383.75,
-  "prev_close": 29538.75,
-  "delta_pct": -0.52,
+  "value": 29374.75,
+  "prev_close": 29448.75,
+  "delta_pct": -0.2513,
   "label": "Nasdaq 100 fut",
-  "as_of": "Wed 9/9 7:30a ET",
+  "as_of": "Thu 11:00 UTC",
   "status": "LIVE",
-  "source": "CME settle 9/8 21:00 UTC, verified in settlement window"
- },
- "BRENT": {
-  "value": 100.72,
-  "prev_close": 97.92,
-  "delta_pct": 2.86,
-  "label": "Brent crude",
-  "as_of": "Wed 9/9 7:30a ET",
-  "status": "LIVE",
-  "source": "ICE settle 9/8; base confirmed by 2 independent paths"
+  "source": "vendor prevClose=CME settle Wed 9/9 (#177-B)"
  },
  "WTI": {
-  "value": 95.4,
-  "prev_close": 94.25,
-  "delta_pct": 1.22,
+  "value": 97.63,
+  "prev_close": 96.05,
+  "delta_pct": 1.645,
   "label": "WTI crude",
-  "as_of": "Wed 9/9 7:30a ET",
+  "as_of": "Thu 11:10 UTC",
   "status": "LIVE",
-  "source": "base 9/8 21:00 UTC, matches vendor prevClose"
+  "source": "vendor prevClose=NYMEX settle Wed 9/9"
+ },
+ "BRENT": {
+  "value": 102.38,
+  "prev_close": 101.21,
+  "delta_pct": 1.156,
+  "label": "Brent crude",
+  "as_of": "Thu 11:10 UTC",
+  "status": "LIVE",
+  "source": "base=ICE settle Wed 9/9; 15-min bars put 18:30 UTC window at 101.25-101.56"
  },
  "GOLD": {
-  "value": 4447.5,
-  "prev_close": 4439.0,
-  "delta_pct": 0.19,
+  "value": 4421.8,
+  "prev_close": 4460.7,
+  "delta_pct": -0.8721,
   "label": "Gold",
-  "as_of": "Wed 9/9 7:30a ET",
+  "as_of": "Thu 11:00 UTC",
   "status": "LIVE",
-  "source": "base COMEX settle 9/8, in-window 4438.9-4440.3"
+  "source": "vendor prevClose=COMEX settle Wed 9/9"
  },
  "BTC": {
-  "value": 79004.34,
-  "prev_close": 78447.11,
-  "delta_pct": 0.71,
+  "value": 77829.78,
+  "prev_close": 78281.65,
+  "delta_pct": -0.5772,
   "label": "Bitcoin",
-  "as_of": "Wed 9/9 7:30a ET",
+  "as_of": "Thu 11:11 UTC",
   "status": "LIVE",
-  "source": "base Polygon X:BTCUSD 9/8 UTC close"
+  "source": "base=Polygon X:BTCUSD 9/9 UTC close (#166-C); Polygon crypto intraday 403 so live px from finance API"
  },
  "EURJPY": {
-  "value": 178.53,
-  "prev_close": 178.88,
-  "delta_pct": -0.2,
+  "value": 179.11,
+  "prev_close": 178.56,
+  "delta_pct": 0.308,
   "label": "EUR/JPY",
-  "as_of": "Wed 9/9 7:10a ET",
+  "as_of": "Thu 11:09 UTC",
   "status": "LIVE",
-  "source": "base 9/8 21:00 UTC 178.884"
+  "source": "vendor prevClose Wed 21:00 UTC"
  },
  "AUDJPY": {
-  "value": 110.75,
-  "prev_close": 111.05,
-  "delta_pct": -0.27,
+  "value": 110.88,
+  "prev_close": 110.74,
+  "delta_pct": 0.1264,
   "label": "AUD/JPY",
-  "as_of": "Wed 9/9 7:10a ET",
+  "as_of": "Thu 11:09 UTC",
   "status": "LIVE",
-  "source": "base 9/8 21:00 UTC 111.078"
+  "source": "vendor prevClose Wed 21:00 UTC"
  },
  "SOX": {
-  "value": 11887.87,
-  "prev_close": 11735.26,
-  "delta_pct": 1.3,
+  "value": 11931.32,
+  "prev_close": 11887.87,
+  "delta_pct": 0.3655,
   "label": "Phlx Semis",
-  "as_of": "Tue 9/8 close",
+  "as_of": "Wed 9/9 close",
   "status": "CLOSED",
-  "source": "Polygon I:SOX daily bars"
+  "source": "Polygon I:SOX daily"
  },
  "DJI": {
-  "value": 52786.07,
-  "prev_close": 53414.25,
-  "delta_pct": -1.18,
+  "value": 52380.66,
+  "prev_close": 52786.07,
+  "delta_pct": -0.768,
   "label": "Dow",
-  "as_of": "Tue 9/8 close",
+  "as_of": "Wed 9/9 close",
   "status": "CLOSED",
-  "source": "Polygon I:DJI daily bars"
+  "source": "Polygon I:DJI daily"
  },
  "VIX": {
-  "value": 15.72,
-  "prev_close": 14.53,
-  "delta_pct": 8.19,
+  "value": 16.46,
+  "prev_close": 15.72,
+  "delta_pct": 4.7074,
   "label": "VIX",
-  "as_of": "Tue 9/8 close",
+  "as_of": "Wed 9/9 close",
   "status": "CLOSED",
-  "source": "Polygon I:VIX 9/8 vs 9/4; same-day 9/9 partial bar rejected"
+  "source": "Polygon I:VIX 9/9; 9/10 bar (16.64) REJECTED - no I:VXN twin (#177-A, 5th recurrence)"
  },
  "US10Y": {
-  "value": 4.8,
-  "prev_close": 4.78,
-  "delta_pct": 0.42,
+  "value": 4.83,
+  "prev_close": 4.8,
+  "delta_pct": 0.625,
   "label": "US 10y",
-  "as_of": "Tue 9/8 close",
+  "as_of": "Wed 9/9",
   "status": "CLOSED",
-  "source": "Treasury CMT 09/08 vs 09/04 (+2.0bp)"
+  "source": "Treasury CMT 09/09 vs 09/08 (+3.0bp)"
  },
  "US2Y": {
-  "value": 4.39,
-  "prev_close": 4.37,
-  "delta_pct": 0.46,
+  "value": 4.43,
+  "prev_close": 4.39,
+  "delta_pct": 0.9112,
   "label": "US 2y",
-  "as_of": "Tue 9/8 close",
+  "as_of": "Wed 9/9",
   "status": "CLOSED",
-  "source": "Treasury CMT 09/08 vs 09/04 (+2.0bp)"
- },
- "SPX_ATH": {
-  "value": 7673.52,
-  "prev_close": 7798.99,
-  "delta_pct": -1.609,
-  "label": "SPX vs record",
-  "as_of": "Tue 9/8 close",
-  "status": "CLOSED",
-  "source": "CASH CONTEXT \u2014 not at a record on either leg: close -1.609% vs max close 7798.99 (2026-08-13); high -1.265% vs max high 7816.70 (2026-08-13). Re-derived over 501 sessions on 2026-09-09."
- },
- "NDX_ATH": {
-  "value": 29507.7,
-  "prev_close": 30660.6,
-  "delta_pct": -3.76,
-  "label": "NDX vs record",
-  "as_of": "Tue 9/8 close",
-  "status": "CLOSED",
-  "source": "CASH CONTEXT \u2014 not at a record on either leg: close -3.760% vs max close 30660.60 (2026-06-02); high -3.597% vs max high 30762.20 (2026-06-03). Re-derived over 501 sessions on 2026-09-09."
- },
- "SOX_ATH": {
-  "value": 11887.87,
-  "prev_close": 14634.72,
-  "delta_pct": -18.769,
-  "label": "SOX vs record",
-  "as_of": "Tue 9/8 close",
-  "status": "CLOSED",
-  "source": "CASH CONTEXT \u2014 not at a record on either leg: close -18.769% vs max close 14634.72 (2026-06-22); high -17.955% vs max high 14655.29 (2026-06-22). Re-derived over 501 sessions on 2026-09-09."
- },
- "DJI_ATH": {
-  "value": 52786.07,
-  "prev_close": 54349.12,
-  "delta_pct": -2.876,
-  "label": "DJI vs record",
-  "as_of": "Tue 9/8 close",
-  "status": "CLOSED",
-  "source": "CASH CONTEXT \u2014 not at a record on either leg: close -2.876% vs max close 54349.12 (2026-08-05); high -2.985% vs max high 54744.33 (2026-08-05). Re-derived over 501 sessions on 2026-09-09."
+  "source": "Treasury CMT 09/09 vs 09/08 (+4.0bp)"
  }
 }
