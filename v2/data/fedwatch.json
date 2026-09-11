@@ -1,68 +1,68 @@
 {
  "status": "LIVE",
- "reporting_date": "2026-09-09",
+ "reporting_date": "2026-09-10",
  "current_band": "3.50-3.75",
- "note": "Zero cut probability at every meeting through March 2027. Cumulative hike odds rose at all five horizons for a second straight session. March also carries a 1.1% tail at +125bp, which has no column here but is included in the cumulative figure.",
+ "note": "Third consecutive session of hardening and the largest of the three. Zero cut probability at every meeting through March 2027.",
  "meetings": [
   {
    "meetingDt": "2026-09-16",
-   "reportingDt": "2026-09-09",
-   "hold": 0.385714,
-   "hike_25": 0.614286,
+   "reportingDt": "2026-09-10",
+   "hold": 0.278571,
+   "hike_25": 0.721429,
    "hike_50": 0.0,
    "hike_75": 0.0,
    "hike_100": 0.0,
    "hike_125": 0.0,
    "cut": 0.0,
-   "cumulative_hike": 0.614286
+   "cumulative_hike": 0.721429
   },
   {
    "meetingDt": "2026-10-28",
-   "reportingDt": "2026-09-09",
-   "hold": 0.283224,
-   "hike_25": 0.553551,
-   "hike_50": 0.163224,
+   "reportingDt": "2026-09-10",
+   "hold": 0.167541,
+   "hike_25": 0.544918,
+   "hike_50": 0.287541,
    "hike_75": 0.0,
    "hike_100": 0.0,
    "hike_125": 0.0,
    "cut": 0.0,
-   "cumulative_hike": 0.7167760000000001
+   "cumulative_hike": 0.8324590000000001
   },
   {
    "meetingDt": "2026-12-09",
-   "reportingDt": "2026-09-09",
-   "hold": 0.117696,
-   "hike_25": 0.39556,
-   "hike_50": 0.391349,
-   "hike_75": 0.095396,
+   "reportingDt": "2026-09-10",
+   "hold": 0.046663,
+   "hike_25": 0.272647,
+   "hike_50": 0.473234,
+   "hike_75": 0.207455,
    "hike_100": 0.0,
    "hike_125": 0.0,
    "cut": 0.0,
-   "cumulative_hike": 0.882304
+   "cumulative_hike": 0.953337
   },
   {
    "meetingDt": "2027-01-27",
-   "reportingDt": "2026-09-09",
-   "hold": 0.085264,
-   "hike_25": 0.318993,
-   "hike_50": 0.392509,
-   "hike_75": 0.176947,
-   "hike_100": 0.026287,
+   "reportingDt": "2026-09-10",
+   "hold": 0.032733,
+   "hike_25": 0.205187,
+   "hike_50": 0.413355,
+   "hike_75": 0.286795,
+   "hike_100": 0.061929,
    "hike_125": 0.0,
    "cut": 0.0,
-   "cumulative_hike": 0.914736
+   "cumulative_hike": 0.967267
   },
   {
    "meetingDt": "2027-03-17",
-   "reportingDt": "2026-09-09",
-   "hold": 0.050427,
-   "hike_25": 0.223498,
-   "hike_50": 0.362473,
-   "hike_75": 0.26502,
-   "hike_100": 0.087842,
-   "hike_125": 0.01074,
+   "reportingDt": "2026-09-10",
+   "hold": 0.01169,
+   "hike_25": 0.094324,
+   "hike_50": 0.279533,
+   "hike_75": 0.368155,
+   "hike_100": 0.206486,
+   "hike_125": 0.039812,
    "cut": 0.0,
-   "cumulative_hike": 0.949573
+   "cumulative_hike": 0.98831
   }
  ]
 }
