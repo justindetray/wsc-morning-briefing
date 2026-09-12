@@ -1,137 +1,122 @@
 {
- "ES": {
-  "value": 7638.75,
-  "prev_close": 7598.5,
-  "delta_pct": 0.5297,
-  "label": "S&P 500 fut",
-  "as_of": "Fri 10:59 UTC",
+ "BTC": {
+  "value": 77308.97,
+  "prev_close": 77208.55,
+  "delta_pct": 0.1301,
   "status": "LIVE",
-  "source": "vendor prevClose=CME settle Thu 9/10 (#177-B)"
+  "as_of": "Sat 11:06 UTC",
+  "reason": "live px from finance API @2026-09-12 11:06:42 UTC; base=Polygon X:BTCUSD 9/11 UTC daily close 77,208.55 per #166-C (vendor prevClose 77,201.88 differs slightly)"
+ },
+ "ES": {
+  "value": 7659.5,
+  "prev_close": 7598.5,
+  "delta_pct": 0.8028,
+  "status": "CLOSED",
+  "as_of": "Fri 9/11 settle",
+  "reason": "finance API ts 2026-09-11 21:00 UTC; vendor prevClose=CME settle Thu 9/10 (#177-B)"
  },
  "NQ": {
-  "value": 29311.0,
+  "value": 29387.0,
   "prev_close": 29135.25,
-  "delta_pct": 0.6032,
-  "label": "Nasdaq 100 fut",
-  "as_of": "Fri 10:59 UTC",
-  "status": "LIVE",
-  "source": "vendor prevClose=CME settle Thu 9/10 (#177-B)"
+  "delta_pct": 0.8641,
+  "status": "CLOSED",
+  "as_of": "Fri 9/11 settle",
+  "reason": "finance API ts 2026-09-11 21:00 UTC; vendor prevClose=CME settle Thu 9/10 (#177-B)"
  },
  "WTI": {
-  "value": 99.09,
+  "value": 100.05,
   "prev_close": 102.48,
-  "delta_pct": -3.308,
-  "label": "WTI crude",
-  "as_of": "Fri 11:09 UTC",
-  "status": "LIVE",
-  "source": "base=NYMEX settle Thu 9/10; 15-min bars put 18:30 UTC window at 101.90-102.41"
+  "delta_pct": -2.3712,
+  "status": "CLOSED",
+  "as_of": "Fri 9/11 settle",
+  "reason": "finance API ts 2026-09-11 21:00:01 UTC; Fri range 98.48-104.46, open 104.32"
  },
  "BRENT": {
-  "value": 103.7,
+  "value": 104.61,
   "prev_close": 107.63,
-  "delta_pct": -3.6514,
-  "label": "Brent crude",
-  "as_of": "Fri 11:09 UTC",
-  "status": "LIVE",
-  "source": "base=ICE settle Thu 9/10 (+6.34% on the day); 15-min bars put 18:30 UTC window at 107.20-107.61"
+  "delta_pct": -2.8059,
+  "status": "CLOSED",
+  "as_of": "Fri 9/11 settle",
+  "reason": "finance API ts 2026-09-11 21:00:01 UTC; Fri range 103.48-110.19, open 109.16; base=ICE settle Thu 9/10 (+6.34% on the day)"
  },
  "GOLD": {
-  "value": 4379.6,
+  "value": 4408.9,
   "prev_close": 4407.3,
-  "delta_pct": -0.6285,
-  "label": "Gold",
-  "as_of": "Fri 10:59 UTC",
-  "status": "LIVE",
-  "source": "vendor prevClose=COMEX settle Thu 9/10"
- },
- "BTC": {
-  "value": 76766.01,
-  "prev_close": 76536.55,
-  "delta_pct": 0.2998,
-  "label": "Bitcoin",
-  "as_of": "Fri 11:09 UTC",
-  "status": "LIVE",
-  "source": "base=Polygon X:BTCUSD 9/10 UTC close (#166-C); Polygon crypto intraday 403 so live px from finance API"
+  "delta_pct": 0.0363,
+  "status": "CLOSED",
+  "as_of": "Fri 9/11 settle",
+  "reason": "finance API ts 2026-09-11 21:00:01 UTC; Fri range 4,333.00-4,444.90"
  },
  "EURJPY": {
-  "value": 178.48,
+  "value": 178.17,
   "prev_close": 179.17,
-  "delta_pct": -0.3851,
-  "label": "EUR/JPY",
-  "as_of": "Fri 11:08 UTC",
-  "status": "LIVE",
-  "source": "vendor prevClose Thu 21:00 UTC; validated against 15-min bar 21:00 UTC close 179.144"
+  "delta_pct": -0.5581,
+  "status": "CLOSED",
+  "as_of": "Fri 9/11 close",
+  "reason": "finance API ts 2026-09-12 00:00 UTC = Fri 17:00 ET; vendor prevClose Thu 179.17"
  },
  "AUDJPY": {
-  "value": 110.39,
-  "prev_close": 110.45,
-  "delta_pct": -0.0543,
-  "label": "AUD/JPY",
-  "as_of": "Fri 11:08 UTC",
-  "status": "LIVE",
-  "source": "#173-D re-base: vendor prevClose 110.39 == live px (0.00%); base is Thu 21:00 UTC 15-min bar close 110.447"
+  "value": 110.14,
+  "prev_close": 110.39,
+  "delta_pct": -0.2265,
+  "status": "CLOSED",
+  "as_of": "Fri 9/11 close",
+  "reason": "finance API ts 2026-09-12 00:00 UTC = Fri 17:00 ET; vendor prevClose Thu 110.39"
  },
  "SPX": {
-  "value": 7591.7,
-  "prev_close": 7636.36,
-  "delta_pct": -0.5848,
-  "label": "S&P 500",
-  "as_of": "Thu 9/10 close",
+  "value": 7656.98,
+  "prev_close": 7591.7,
+  "delta_pct": 0.8599,
   "status": "CLOSED",
-  "source": "Polygon I:SPX daily"
+  "as_of": "Fri 9/11 close",
+  "reason": "Polygon I:SPX daily bar 2026-09-11"
  },
  "NDX": {
-  "value": 29103.51,
-  "prev_close": 29421.55,
-  "delta_pct": -1.081,
-  "label": "Nasdaq 100",
-  "as_of": "Thu 9/10 close",
+  "value": 29368.44,
+  "prev_close": 29103.51,
+  "delta_pct": 0.9103,
   "status": "CLOSED",
-  "source": "Polygon I:NDX daily"
+  "as_of": "Fri 9/11 close",
+  "reason": "Polygon I:NDX daily bar 2026-09-11"
  },
  "SOX": {
-  "value": 11614.17,
-  "prev_close": 11931.32,
-  "delta_pct": -2.6581,
-  "label": "Phlx Semis",
-  "as_of": "Thu 9/10 close",
+  "value": 11824.0,
+  "prev_close": 11614.17,
+  "delta_pct": 1.8067,
   "status": "CLOSED",
-  "source": "Polygon I:SOX daily"
+  "as_of": "Fri 9/11 close",
+  "reason": "Polygon I:SOX daily bar 2026-09-11"
  },
  "DJI": {
-  "value": 52064.1,
-  "prev_close": 52380.66,
-  "delta_pct": -0.6043,
-  "label": "Dow",
-  "as_of": "Thu 9/10 close",
+  "value": 52573.29,
+  "prev_close": 52064.1,
+  "delta_pct": 0.978,
   "status": "CLOSED",
-  "source": "Polygon I:DJI daily"
+  "as_of": "Fri 9/11 close",
+  "reason": "Polygon I:DJI daily bar 2026-09-11"
  },
  "VIX": {
-  "value": 17.84,
-  "prev_close": 16.46,
-  "delta_pct": 8.384,
-  "label": "VIX",
-  "as_of": "Thu 9/10 close",
+  "value": 15.84,
+  "prev_close": 17.84,
+  "delta_pct": -11.2108,
   "status": "CLOSED",
-  "source": "Polygon I:VIX 9/10; #177-A twin test PASSED - I:VXN 9/10 bar present (23.33)"
+  "as_of": "Fri 9/11 close",
+  "reason": "Polygon I:VIX 9/11; #177-A twin test PASSED - I:VXN 9/11 bar present (21.02, from 23.33)"
  },
  "US10Y": {
-  "value": 4.95,
-  "prev_close": 4.83,
-  "delta_pct": 2.4845,
-  "label": "US 10y",
-  "as_of": "Thu 9/10",
+  "value": 4.96,
+  "prev_close": 4.95,
+  "delta_pct": 0.202,
   "status": "CLOSED",
-  "source": "Treasury CMT 09/10 vs 09/09 (+12.0bp)"
+  "as_of": "Fri 9/11",
+  "reason": "Treasury CMT 09/11 vs 09/10 (+1.0bp)"
  },
  "US2Y": {
-  "value": 4.56,
-  "prev_close": 4.43,
-  "delta_pct": 2.9345,
-  "label": "US 2y",
-  "as_of": "Thu 9/10",
+  "value": 4.63,
+  "prev_close": 4.56,
+  "delta_pct": 1.5351,
   "status": "CLOSED",
-  "source": "Treasury CMT 09/10 vs 09/09 (+13.0bp)"
+  "as_of": "Fri 9/11",
+  "reason": "Treasury CMT 09/11 vs 09/10 (+7.0bp)"
  }
 }

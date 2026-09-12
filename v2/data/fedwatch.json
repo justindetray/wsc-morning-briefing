@@ -1,68 +1,54 @@
 {
  "status": "LIVE",
- "reporting_date": "2026-09-10",
  "current_band": "3.50-3.75",
- "note": "Third consecutive session of hardening and the largest of the three. Zero cut probability at every meeting through March 2027.",
+ "as_of": "2026-09-11",
+ "reason": "CME FedWatch cohort, reportingDt 2026-09-11 (Friday's settlement; no intervening settle exists on a Saturday, so this is the correct and current cohort)",
  "meetings": [
   {
    "meetingDt": "2026-09-16",
-   "reportingDt": "2026-09-10",
-   "hold": 0.278571,
-   "hike_25": 0.721429,
+   "hold": 0.125,
+   "hike_25": 0.875,
    "hike_50": 0.0,
    "hike_75": 0.0,
    "hike_100": 0.0,
-   "hike_125": 0.0,
-   "cut": 0.0,
-   "cumulative_hike": 0.721429
+   "cumulative_hike": 0.875,
+   "reportingDt": "2026-09-11"
   },
   {
    "meetingDt": "2026-10-28",
-   "reportingDt": "2026-09-10",
-   "hold": 0.167541,
-   "hike_25": 0.544918,
-   "hike_50": 0.287541,
+   "hold": 0.0669,
+   "hike_25": 0.5262,
+   "hike_50": 0.4069,
    "hike_75": 0.0,
    "hike_100": 0.0,
-   "hike_125": 0.0,
-   "cut": 0.0,
-   "cumulative_hike": 0.8324590000000001
+   "cumulative_hike": 0.9331
   },
   {
    "meetingDt": "2026-12-09",
-   "reportingDt": "2026-09-10",
-   "hold": 0.046663,
-   "hike_25": 0.272647,
-   "hike_50": 0.473234,
-   "hike_75": 0.207455,
+   "hold": 0.0234,
+   "hike_25": 0.2278,
+   "hike_50": 0.4844,
+   "hike_75": 0.2643,
    "hike_100": 0.0,
-   "hike_125": 0.0,
-   "cut": 0.0,
-   "cumulative_hike": 0.953337
+   "cumulative_hike": 0.9766
   },
   {
    "meetingDt": "2027-01-27",
-   "reportingDt": "2026-09-10",
-   "hold": 0.032733,
-   "hike_25": 0.205187,
-   "hike_50": 0.413355,
-   "hike_75": 0.286795,
-   "hike_100": 0.061929,
-   "hike_125": 0.0,
-   "cut": 0.0,
-   "cumulative_hike": 0.967267
+   "hold": 0.0143,
+   "hike_25": 0.148,
+   "hike_50": 0.3843,
+   "hike_75": 0.3502,
+   "hike_100": 0.1032,
+   "cumulative_hike": 0.9857
   },
   {
    "meetingDt": "2027-03-17",
-   "reportingDt": "2026-09-10",
-   "hold": 0.01169,
-   "hike_25": 0.094324,
-   "hike_50": 0.279533,
-   "hike_75": 0.368155,
-   "hike_100": 0.206486,
-   "hike_125": 0.039812,
-   "cut": 0.0,
-   "cumulative_hike": 0.98831
+   "hold": 0.0063,
+   "hike_25": 0.0729,
+   "hike_50": 0.2516,
+   "hike_75": 0.3693,
+   "hike_100": 0.2419,
+   "cumulative_hike": 0.9937
   }
  ]
 }

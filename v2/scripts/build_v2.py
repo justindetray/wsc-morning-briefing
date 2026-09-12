@@ -442,6 +442,10 @@ html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -ap
 .cal{width:100%;border-collapse:collapse;font-size:12px}
 .cal th,.cal td{padding:6px 8px;border-bottom:1px solid #1c1d1e;text-align:left}
 .cal td:first-child,.cal th:first-child{white-space:nowrap}
+/* Run #180: the Time ET column was wrapping "10:00 AM" across two lines. The
+   time_key() sort regex requires the full "H:MM AM" form, so the label cannot be
+   abbreviated - pin the column instead. */
+.cal td:nth-child(2),.cal th:nth-child(2){white-space:nowrap}
 .cal th{color:#888;font-weight:500;text-transform:uppercase;letter-spacing:.06em;font-size:10px}
 .cal tr.imp-high td{background:#181818}
 .cal .muted{color:#888}
