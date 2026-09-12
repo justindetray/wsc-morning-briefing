@@ -379,7 +379,21 @@ def render_research(manifest):
             f'<a href="{html_mod.escape(d.get("drive_url",""))}">{html_mod.escape(d.get("title",""))}</a> '
             f'<span class="rtoken">{html_mod.escape(d.get("headline_token",""))}</span></li>'
         )
-    return "<ul class=\"research\">" + "".join(items) + "</ul>"
+    # Run #180: the daily Drive Doc has been permanently skipped since Run #100, so
+    # this manifest is frozen and the newest entry recedes further from today on every
+    # build - a September page was advertising June docs as "Research" with no hint
+    # they were an archive. Name the staleness rather than silently render it.
+    stale = ""
+    newest = max((d.get("date") or "" for d in manifest["docs"]), default="")
+    if newest:
+        try:
+            age = (datetime.now(timezone.utc).date() - datetime.fromisoformat(newest).date()).days
+            if age > 14:
+                stale = ('<div class="rstale">Archive - newest entry is %d days old '
+                         '(%s). The daily research Doc is discontinued.</div>' % (age, newest))
+        except Exception:
+            pass
+    return stale + "<ul class=\"research\">" + "".join(items) + "</ul>"
 
 # ---------- DEGRADED banner ----------
 
@@ -453,8 +467,11 @@ html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -ap
 .research li{padding:5px 0;font-size:12px}
 .research li a{color:#9cb8ff;text-decoration:none}
 .research li a:hover{text-decoration:underline}
-.research .rdate{color:#888;font-family:ui-monospace,Menlo,monospace;margin-right:8px}
-.research .rtoken{color:#666;font-size:10px;margin-left:8px;font-family:ui-monospace,Menlo,monospace}
+/* Run #180: #888/#666 on #0d0d0d failed a contrast check. Raised to keep the
+   monospace metadata legible without competing with the link itself. */
+.research .rdate{color:#a6a6a6;font-family:ui-monospace,Menlo,monospace;margin-right:8px}
+.research .rtoken{color:#8f8f8f;font-size:10px;margin-left:8px;font-family:ui-monospace,Menlo,monospace}
+.research .rstale{color:#c9a227;font-size:11px;margin-bottom:6px}
 .muted{color:#888;font-size:12px;padding:6px 0}
 @media (max-width:760px){
   .tape{grid-template-columns:repeat(4,1fr)}
