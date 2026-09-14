@@ -1,30 +1,30 @@
 {
   "AUDJPY": {
-    "as_of": "Fri 9/11 close",
-    "delta_pct": -0.3893,
+    "as_of": "Mon 7:12 ET",
+    "delta_pct": 0.0454,
     "label": "AUD/JPY",
-    "prev_close": 110.46,
-    "source": "finance API 1day OHLCV bar 2026-09-11 close=110.03 (bar range 110.00-110.76); base = same series 2026-09-10 close 110.46. A phantom 2026-09-12 Saturday bar duplicating Friday's H/L was REJECTED per #181-D",
-    "status": "CLOSED",
-    "value": 110.03
+    "prev_close": 110.12,
+    "source": "finance API live quote ts 2026-09-14 11:12:36 UTC; base = same-series previousClose 110.12. Polygon C:AUDJPY Fri bar closed 110.104; both series read FLAT",
+    "status": "LIVE",
+    "value": 110.17
   },
   "BRENT": {
-    "as_of": "Fri 9/11 settle",
-    "delta_pct": -2.8059,
+    "as_of": "Mon 7:12 ET",
+    "delta_pct": 2.8487,
     "label": "Brent crude",
-    "prev_close": 107.63,
-    "source": "finance API ts 2026-09-11 21:00:01 UTC; Fri range 103.48-110.19, open 109.16; base = ICE settle Thu 9/10 which was +6.34% on the day",
-    "status": "CLOSED",
-    "value": 104.61
+    "prev_close": 104.61,
+    "source": "finance API live quote ts 2026-09-14 11:12:32 UTC; base = Fri 9/11 ICE settle 104.61. Overnight range 106.57-108.65 - still BELOW Friday's 110.19 intraday high",
+    "status": "LIVE",
+    "value": 107.59
   },
   "BTC": {
-    "as_of": "Sun 11:28 UTC",
-    "delta_pct": -0.8369,
+    "as_of": "Mon 7:12 ET",
+    "delta_pct": 1.2642,
     "label": "Bitcoin",
-    "prev_close": 77262.85,
-    "source": "finance API live quote ts 2026-09-13 11:28:41 UTC, market_status=open, intraday range 76,503.83-77,308.94 (a real range, not a placeholder); base = our own Polygon X:BTCUSD 9/12 UTC daily close 77,262.85 per #166-C (vendor prevClose 77,270.22 differs slightly)",
+    "prev_close": 76806.19,
+    "source": "finance API live quote ts 2026-09-14 11:12:27 UTC, market_status=open; base = same series previousClose 76,806.19 (our own Polygon X:BTCUSD 9/13 UTC close was 76,799.85 - venue offset, not mixed in per #177-B). Range 76,452.55-78,343.92",
     "status": "LIVE",
-    "value": 76616.27
+    "value": 77777.15
   },
   "DJI": {
     "as_of": "Fri 9/11 close",
@@ -36,56 +36,56 @@
     "value": 52573.29
   },
   "ES": {
-    "as_of": "Fri 9/11 settle",
-    "delta_pct": 0.8028,
+    "as_of": "Mon 7:02 ET",
+    "delta_pct": -0.6365,
     "label": "S&P 500 fut",
-    "prev_close": 7598.5,
-    "source": "finance API ts 2026-09-11 21:00:00 UTC (stamp correctly did NOT move over the weekend, cf #181-D); vendor prevClose = CME settle Thu 9/10 (#177-B)",
-    "status": "CLOSED",
-    "value": 7659.5
+    "prev_close": 7659.5,
+    "source": "finance API live quote ts 2026-09-14 11:02:30 UTC; base = vendor previousClose 7,659.50 = Fri 9/11 CME settle (same series). Overnight range 7,593.75-7,634.50",
+    "status": "LIVE",
+    "value": 7610.75
   },
   "EURJPY": {
-    "as_of": "Fri 9/11 close",
-    "delta_pct": -0.7083,
+    "as_of": "Mon 7:12 ET",
+    "delta_pct": 0.1291,
     "label": "EUR/JPY",
-    "prev_close": 179.29,
-    "source": "finance API 1day OHLCV bar 2026-09-11 close=178.02 (bar range 177.88-179.54); base = same series 2026-09-10 close 179.29. Sunday quote endpoint returned a zero-range 177.25 placeholder stamped 2026-09-13 04:21 UTC - REJECTED per #181-D",
-    "status": "CLOSED",
-    "value": 178.02
+    "prev_close": 178.14,
+    "source": "finance API live quote ts 2026-09-14 11:12:15 UTC; base = same-series previousClose 178.14. Polygon C:EURJPY Fri bar closed 177.850 (venue offset); both series read FLAT",
+    "status": "LIVE",
+    "value": 178.37
   },
   "GOLD": {
-    "as_of": "Fri 9/11 settle",
-    "delta_pct": 0.0363,
+    "as_of": "Mon 7:02 ET",
+    "delta_pct": -1.6535,
     "label": "Gold",
-    "prev_close": 4407.3,
-    "source": "finance API ts 2026-09-11 21:00:01 UTC; Fri range 4,333.00-4,444.90",
-    "status": "CLOSED",
-    "value": 4408.9
+    "prev_close": 4408.9,
+    "source": "finance API live quote ts 2026-09-14 11:02:29 UTC; base = Fri 9/11 settle 4,408.90. Overnight range 4,317.30-4,396.80",
+    "status": "LIVE",
+    "value": 4336.0
   },
   "NDX": {
     "as_of": "Fri 9/11 close",
     "delta_pct": 0.9103,
     "label": "Nasdaq 100",
     "prev_close": 29103.51,
-    "source": "Polygon I:NDX daily bar 2026-09-11; the 2026-09-12 zero-range placeholder bar was filtered per #181-A",
+    "source": "Polygon I:NDX daily bar 2026-09-11; 2026-09-12 zero-range placeholder filtered (#181-A)",
     "status": "CLOSED",
     "value": 29368.44
   },
   "NQ": {
-    "as_of": "Fri 9/11 settle",
-    "delta_pct": 0.8641,
+    "as_of": "Mon 7:02 ET",
+    "delta_pct": -1.5313,
     "label": "Nasdaq 100 fut",
-    "prev_close": 29135.25,
-    "source": "finance API ts 2026-09-11 21:00:00 UTC; vendor prevClose = CME settle Thu 9/10",
-    "status": "CLOSED",
-    "value": 29387.0
+    "prev_close": 29387.0,
+    "source": "finance API live quote ts 2026-09-14 11:02:32 UTC; base = Fri 9/11 CME settle 29,387.00. Overnight range 28,816.25-29,229.50. -1.53% is INSIDE the 2% escalation trigger, no pause required",
+    "status": "LIVE",
+    "value": 28937.0
   },
   "SOX": {
     "as_of": "Fri 9/11 close",
     "delta_pct": 1.8067,
     "label": "Phlx Semis",
     "prev_close": 11614.17,
-    "source": "Polygon I:SOX daily bar 2026-09-11; 9/12 placeholder filtered per #181-A",
+    "source": "Polygon I:SOX daily bar 2026-09-11; 9/12 placeholder filtered (#181-A)",
     "status": "CLOSED",
     "value": 11824.0
   },
@@ -103,7 +103,7 @@
     "delta_pct": 0.202,
     "label": "US 10Y",
     "prev_close": 4.95,
-    "source": "Treasury par yield curve CMT cmt2026_r181.csv, obs 09/11/2026 vs 09/10/2026",
+    "source": "Treasury par yield curve CMT cmt2026_r182.csv, obs 09/11/2026 vs 09/10/2026",
     "status": "CLOSED",
     "value": 4.96
   },
@@ -112,7 +112,7 @@
     "delta_pct": 1.5351,
     "label": "US 2Y",
     "prev_close": 4.56,
-    "source": "Treasury par yield curve CMT cmt2026_r181.csv, obs 09/11/2026 vs 09/10/2026",
+    "source": "Treasury par yield curve CMT cmt2026_r182.csv, obs 09/11/2026 vs 09/10/2026",
     "status": "CLOSED",
     "value": 4.63
   },
@@ -121,17 +121,17 @@
     "delta_pct": -11.2108,
     "label": "VIX",
     "prev_close": 17.84,
-    "source": "Polygon I:VIX daily bar 2026-09-11, -11.21% on the day",
+    "source": "Polygon I:VIX daily bar 2026-09-11, -11.21% on the day. A 2026-09-14 bar exists (c=17.56) but has NO I:VXN twin = still mutating pre-open (#177-A); NOT shipped as a session value",
     "status": "CLOSED",
     "value": 15.84
   },
   "WTI": {
-    "as_of": "Fri 9/11 settle",
-    "delta_pct": -2.3712,
+    "as_of": "Mon 7:12 ET",
+    "delta_pct": 2.4688,
     "label": "WTI crude",
-    "prev_close": 102.48,
-    "source": "finance API ts 2026-09-11 21:00:01 UTC; Fri range 98.48-104.46, open 104.32",
-    "status": "CLOSED",
-    "value": 100.05
+    "prev_close": 100.05,
+    "source": "finance API live quote ts 2026-09-14 11:12:34 UTC; base = Fri 9/11 settle 100.05. Overnight range 101.76-103.84",
+    "status": "LIVE",
+    "value": 102.52
   }
 }

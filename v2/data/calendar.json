@@ -1,26 +1,82 @@
 {
-  "last_curated": "2026-09-13T11:33:42.411716+00:00",
+  "last_curated": "2026-09-14T11:22:20.824407+00:00",
   "macro": [
     {
       "date": "2026-09-14",
-      "time_et": "11:30 AM",
-      "importance": "low",
-      "event": "13-week bill auction, $92bn (912797VH7); 26-week, $79bn (912797UD7)",
-      "consensus": "both reopenings, issue 9/17; prior 9/8 stops 3.800% (2.61x) and 3.890% (2.88x)"
+      "time_et": "12:00 AM",
+      "importance": "high",
+      "event": "Oman ministerial on a new Strait of Hormuz maritime route - POSTPONED INDEFINITELY",
+      "consensus": "Oman's foreign minister confirmed the Salalah meeting is off with NO new date; nothing was signed and nobody attended. Who asked for the delay is unreconciled three ways: Oman says consensus, Fars says some regional countries, Iran's MFA spokesman said Saudi Arabia. This was the premise Friday's oil reversal was bought on"
+    },
+    {
+      "date": "2026-09-14",
+      "time_et": "12:00 AM",
+      "importance": "high",
+      "event": "Saudi East-West pipeline remains SHUT after the drone attack from Iraq",
+      "consensus": "Saudi Energy Ministry confirmed the shutdown; Yanbu has 5-7 days of export cover and up to 4% of global supply is at risk. Repair estimates run days to weeks with NO official timeline. Any 'restored to 7mb/d' headline is April 2026 news"
+    },
+    {
+      "date": "2026-09-14",
+      "time_et": "12:00 AM",
+      "importance": "high",
+      "event": "Iran publishes a 77-vessel Persian Gulf blacklist",
+      "consensus": "up from 45 vessels on 24 August. Hormuz transits have fallen to single digits per day against a 10-day average of 14 (excludes dark AIS) - that transit count is the number to watch this week, not the headline crude price"
     },
     {
       "date": "2026-09-14",
       "time_et": "12:00 AM",
       "importance": "medium",
-      "event": "Federal Register publishes all five Section 338 Canada proclamations",
-      "consensus": "docs 2026-18835 through -18839; one day before the scope change bites"
+      "event": "Crown Prince Mohammed bin Salman meets Adm. Brad Cooper (CENTCOM) in Jeddah",
+      "consensus": "first senior US-Saudi military contact since the pipeline strike; no readout yet. There has been NO US naval force-movement announcement in the window"
+    },
+    {
+      "date": "2026-09-14",
+      "time_et": "8:30 AM",
+      "importance": "medium",
+      "event": "Canada consumer price index, August",
+      "consensus": "Statistics Canada release; relevant because the Section 338 duties bite Tuesday and the BoC has its own tariff-passthrough problem"
+    },
+    {
+      "date": "2026-09-14",
+      "time_et": "1:00 PM",
+      "importance": "low",
+      "event": "13-week and 26-week bill auctions",
+      "consensus": "1:00 PM ET per Treasury's own weekly-bill fact sheet, both reopenings issued 9/17. Prior 9/8 stops were 3.800% at 2.61x and 3.890% at 2.88x. Sizes and CUSIPs circulating for today could not be primary-verified and are deliberately omitted"
+    },
+    {
+      "date": "2026-09-14",
+      "time_et": "1:00 PM",
+      "importance": "low",
+      "event": "Fed commercial paper outstandings",
+      "consensus": "statistical release; the funding-stress tell if the long-end selloff starts pulling short-dated corporate issuance"
+    },
+    {
+      "date": "2026-09-14",
+      "time_et": "4:15 PM",
+      "importance": "low",
+      "event": "Fed H.15 selected interest rates and H.10 foreign exchange rates",
+      "consensus": "the canonical CMT print - Friday's 09/11 observation had 30Y 5.35% and 20Y 5.38%, still inverted"
+    },
+    {
+      "date": "2026-09-14",
+      "time_et": "12:00 AM",
+      "importance": "medium",
+      "event": "Federal Register publishes the Section 338 Canada proclamations",
+      "consensus": "Vol. 91 No. 176, documents 2026-18835, -18836 and -18838 verified; one day before the scope change takes legal effect"
+    },
+    {
+      "date": "2026-09-14",
+      "time_et": "12:00 AM",
+      "importance": "medium",
+      "event": "Dangote Refinery IPO opens",
+      "consensus": "NGN 525 per share on 4.1bn shares, roughly $1.6bn, subscription runs one month. The largest listing in Nigerian history and a direct play on refining margins in the middle of a distillate squeeze"
     },
     {
       "date": "2026-09-14",
       "time_et": "12:00 AM",
       "importance": "low",
-      "event": "Fed communications blackout in force",
-      "consensus": "window runs Sat Sep 5 12:00 AM ET to Thu Sep 17 11:59 PM ET; zero scheduled speakers"
+      "event": "Fed communications blackout in force - zero scheduled speakers 13-17 September",
+      "consensus": "verified negative against the Board's own September calendar page. The window runs Sat Sep 5 12:00 AM ET to Thu Sep 17 11:59 PM ET. Anyone claiming a Fed signal this week is inventing one"
     },
     {
       "date": "2026-09-15",
@@ -97,7 +153,7 @@
       "time_et": "2:00 PM",
       "importance": "high",
       "event": "FOMC decision plus Summary of Economic Projections and dot plot",
-      "consensus": "band 3.50-3.75%, held in July with THREE dissents FOR a hike; our own CME FedWatch API read off the 9/11 cohort puts a 25bp HIKE at 87.50% and a cut at ZERO - this is a hike-versus-hold meeting, not a cut meeting"
+      "consensus": "band 3.50-3.75%, held in July with THREE dissents FOR a hike; our own CME FedWatch API read off the 9/11 cohort puts a 25bp HIKE at 87.50%, a hold at 12.50% and a cut at ZERO. Goldman and J.P. Morgan both flipped to a hike over the weekend - Goldman said explicitly it flipped on market pricing, not its own forecast"
     },
     {
       "date": "2026-09-16",
@@ -118,7 +174,7 @@
       "time_et": "7:00 AM",
       "importance": "high",
       "event": "Bank of England Bank Rate decision, summary and minutes",
-      "consensus": "hold at 3.75% expected, roughly 6-3 with Pill, Greene and Mann seen voting for a hike; annual QT vote expected to cut gilt reduction to GBP 50bn from 70bn; no Monetary Policy Report this month. 12:00 noon London is convention, not a page-verified time"
+      "consensus": "hold at 3.75% expected, roughly 6-3 with Pill, Greene and Mann seen voting for a hike; annual QT vote expected to cut gilt reduction to GBP 50bn from 70bn; no Monetary Policy Report this month. Gilts are at multi-year highs going in"
     },
     {
       "date": "2026-09-17",
@@ -167,7 +223,7 @@
       "time_et": "1:00 AM",
       "importance": "high",
       "event": "Bank of Japan policy decision, MPM day 2",
-      "consensus": "25bp hike to 1.25% expected, roughly 79% market-implied; short rate has been at 1.00% since the 8-1 July hold; no Outlook Report at this meeting. The BoJ publishes no fixed clock time - the announcement lands in the Japanese afternoon"
+      "consensus": "25bp hike to 1.25% expected, roughly 79% market-implied; short rate has been at 1.00% since the 8-1 July hold; no Outlook Report. Note the yen WEAKENED overnight to 154.35 despite hike pricing - that divergence is the thing to watch"
     },
     {
       "date": "2026-09-18",
