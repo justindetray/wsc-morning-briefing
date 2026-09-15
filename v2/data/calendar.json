@@ -1,257 +1,138 @@
 {
-  "last_curated": "2026-09-14T11:22:20.824407+00:00",
+  "last_curated": "2026-09-15T11:26:52.031472+00:00",
   "macro": [
-    {
-      "date": "2026-09-14",
-      "time_et": "12:00 AM",
-      "importance": "high",
-      "event": "Oman ministerial on a new Strait of Hormuz maritime route - POSTPONED INDEFINITELY",
-      "consensus": "Oman's foreign minister confirmed the Salalah meeting is off with NO new date; nothing was signed and nobody attended. Who asked for the delay is unreconciled three ways: Oman says consensus, Fars says some regional countries, Iran's MFA spokesman said Saudi Arabia. This was the premise Friday's oil reversal was bought on"
-    },
-    {
-      "date": "2026-09-14",
-      "time_et": "12:00 AM",
-      "importance": "high",
-      "event": "Saudi East-West pipeline remains SHUT after the drone attack from Iraq",
-      "consensus": "Saudi Energy Ministry confirmed the shutdown; Yanbu has 5-7 days of export cover and up to 4% of global supply is at risk. Repair estimates run days to weeks with NO official timeline. Any 'restored to 7mb/d' headline is April 2026 news"
-    },
-    {
-      "date": "2026-09-14",
-      "time_et": "12:00 AM",
-      "importance": "high",
-      "event": "Iran publishes a 77-vessel Persian Gulf blacklist",
-      "consensus": "up from 45 vessels on 24 August. Hormuz transits have fallen to single digits per day against a 10-day average of 14 (excludes dark AIS) - that transit count is the number to watch this week, not the headline crude price"
-    },
-    {
-      "date": "2026-09-14",
-      "time_et": "12:00 AM",
-      "importance": "medium",
-      "event": "Crown Prince Mohammed bin Salman meets Adm. Brad Cooper (CENTCOM) in Jeddah",
-      "consensus": "first senior US-Saudi military contact since the pipeline strike; no readout yet. There has been NO US naval force-movement announcement in the window"
-    },
-    {
-      "date": "2026-09-14",
-      "time_et": "8:30 AM",
-      "importance": "medium",
-      "event": "Canada consumer price index, August",
-      "consensus": "Statistics Canada release; relevant because the Section 338 duties bite Tuesday and the BoC has its own tariff-passthrough problem"
-    },
-    {
-      "date": "2026-09-14",
-      "time_et": "1:00 PM",
-      "importance": "low",
-      "event": "13-week and 26-week bill auctions",
-      "consensus": "1:00 PM ET per Treasury's own weekly-bill fact sheet, both reopenings issued 9/17. Prior 9/8 stops were 3.800% at 2.61x and 3.890% at 2.88x. Sizes and CUSIPs circulating for today could not be primary-verified and are deliberately omitted"
-    },
-    {
-      "date": "2026-09-14",
-      "time_et": "1:00 PM",
-      "importance": "low",
-      "event": "Fed commercial paper outstandings",
-      "consensus": "statistical release; the funding-stress tell if the long-end selloff starts pulling short-dated corporate issuance"
-    },
-    {
-      "date": "2026-09-14",
-      "time_et": "4:15 PM",
-      "importance": "low",
-      "event": "Fed H.15 selected interest rates and H.10 foreign exchange rates",
-      "consensus": "the canonical CMT print - Friday's 09/11 observation had 30Y 5.35% and 20Y 5.38%, still inverted"
-    },
-    {
-      "date": "2026-09-14",
-      "time_et": "12:00 AM",
-      "importance": "medium",
-      "event": "Federal Register publishes the Section 338 Canada proclamations",
-      "consensus": "Vol. 91 No. 176, documents 2026-18835, -18836 and -18838 verified; one day before the scope change takes legal effect"
-    },
-    {
-      "date": "2026-09-14",
-      "time_et": "12:00 AM",
-      "importance": "medium",
-      "event": "Dangote Refinery IPO opens",
-      "consensus": "NGN 525 per share on 4.1bn shares, roughly $1.6bn, subscription runs one month. The largest listing in Nigerian history and a direct play on refining margins in the middle of a distillate squeeze"
-    },
-    {
-      "date": "2026-09-14",
-      "time_et": "12:00 AM",
-      "importance": "low",
-      "event": "Fed communications blackout in force - zero scheduled speakers 13-17 September",
-      "consensus": "verified negative against the Board's own September calendar page. The window runs Sat Sep 5 12:00 AM ET to Thu Sep 17 11:59 PM ET. Anyone claiming a Fed signal this week is inventing one"
-    },
     {
       "date": "2026-09-15",
       "time_et": "12:01 AM",
       "importance": "high",
-      "event": "Section 338 Canada tariff scope change takes legal effect",
-      "consensus": "50% ad valorem; ATVs, hides, mattresses, lamps, motorboats and more dairy ADDED, rock salt, cement and some bulk spirits REMOVED; applies regardless of USMCA origin and stacks on Section 232"
+      "event": "Section 338 Canada tariff scope change takes legal effect - 50% ad valorem",
+      "consensus": "Live as of 12:01 a.m. eastern time this morning, verbatim from the proclamations. ATVs, hides, mattresses, lamps, motorboats and additional dairy ADDED; rock salt, cement and some bulk spirits REMOVED. Applies regardless of USMCA origin and stacks on Section 232. Federal Register Vol. 91 No. 176, Proclamation 11063 (FR Doc 2026-18837), published 9/14; CBP CSMS 69851916. The import BANS on Canadian alcohol, dairy and motor vehicles are a separate step on 9/29 - do not conflate the two"
     },
     {
       "date": "2026-09-15",
       "time_et": "8:30 AM",
       "importance": "medium",
       "event": "Empire State manufacturing survey, September",
-      "consensus": "cons 11.1 (4 economists) vs 20.6 prior"
+      "consensus": "consensus 11.1 (4 economists) vs 20.6 in August. First September regional manufacturing print, and the first hard read on whether the tariff step-up is showing in new orders. NY Fed Business Leaders Survey (services) lands the same minute with no published consensus"
+    },
+    {
+      "date": "2026-09-15",
+      "time_et": "11:30 AM",
+      "importance": "low",
+      "event": "6-week bill auction, $75bn, CUSIP 912797SK4 (reopening), issue 9/17",
+      "consensus": "prior 9/8 stop 3.740% at 2.93x bid-to-cover"
     },
     {
       "date": "2026-09-15",
       "time_et": "1:00 PM",
       "importance": "high",
-      "event": "20-year bond reopening, $13bn (CUSIP 912810UX4)",
-      "consensus": "5.125% coupon, matures 2046-08-15; prior 8/19 original cleared 5.204% at 2.53x cover on $16bn - the long end is the pressure point with 20s/30s inverted"
+      "event": "20-year bond reopening, $13bn, CUSIP 912810UX4",
+      "consensus": "5.125% coupon, matures 2046-08-15, issue 9/18, single-price. The 8/19 original cleared 5.204% at 2.53x on $16bn. This is the duration test the day before the dots, with the 20-year CMT at 5.37% and the 20s/30s segment still inverted - a tail here is the cleanest signal that the long end is refusing to fund a hiking Fed"
     },
     {
       "date": "2026-09-15",
       "time_et": "3:00 PM",
       "importance": "medium",
-      "event": "IRS Q3 estimated-tax installment due, individual and corporate",
-      "consensus": "also extended 1065 and 1120-S filings; a real Treasury cash and TGA event"
+      "event": "IRS Q3 estimated-tax installment due (individual and corporate)",
+      "consensus": "extended Form 1065 and 1120-S returns also due. A real Treasury cash event - the TGA build around quarterly installment dates drains reserves and can tighten repo into month-end"
     },
     {
       "date": "2026-09-15",
-      "time_et": "12:00 AM",
+      "time_et": "9:00 AM",
       "importance": "high",
-      "event": "FOMC meeting day 1 of 2, no statement today",
-      "consensus": "two-day meeting Sep 15-16 per the Board's own calendar"
+      "event": "FOMC meeting day 1 of 2 - no statement today",
+      "consensus": "The Fed's own calendar reads 'Two-day meeting, September 15-16' and the July minutes name Tuesday-Wednesday 15-16 explicitly. Blackout is intact through Thursday 9/17 at 11:59 p.m. ET, so there is no Fed voice today by design. Everything lands tomorrow at 2:00 p.m. with the SEP and dots"
     },
     {
       "date": "2026-09-16",
       "time_et": "8:30 AM",
       "importance": "high",
-      "event": "Advance retail and food services sales, August",
-      "consensus": "cons +0.8% m/m (8 economists), ex-autos +0.6% (7); prior -0.6% headline and -0.3% ex-autos per Census - lands 5.5 hours before the Fed decision"
-    },
-    {
-      "date": "2026-09-16",
-      "time_et": "8:30 AM",
-      "importance": "low",
-      "event": "Import and export price indexes, August",
-      "consensus": "cons import prices -0.1% (4) vs -0.4% prior; export prices -1.3% prior"
+      "event": "Retail sales, August: consensus +0.8% headline / +0.6% ex-autos",
+      "consensus": "priors -0.6% and -0.3%. Import prices -0.1% the same minute"
     },
     {
       "date": "2026-09-16",
       "time_et": "9:30 AM",
-      "importance": "high",
-      "event": "September VIX expiration - final settlement set by the a.m. SOQ",
-      "consensus": "VX/U6 expires 09/16/2026; vol books roll off in the MORNING, hours before the 2:00 PM decision - the hedge you want Wednesday afternoon is not the one expiring Wednesday morning"
-    },
-    {
-      "date": "2026-09-16",
-      "time_et": "10:00 AM",
       "importance": "medium",
-      "event": "NAHB/Wells Fargo housing market index, September",
-      "consensus": "cons 34 (3) vs 35 prior"
+      "event": "VIX September a.m. SOQ settlement (VX/U6)",
+      "consensus": "the special opening quotation that settles September VIX futures and options. Mechanical vol supply/demand, not a signal"
     },
     {
       "date": "2026-09-16",
       "time_et": "10:00 AM",
       "importance": "low",
-      "event": "Business inventories, July",
-      "consensus": "cons +0.3% (5) vs virtually unchanged in June"
+      "event": "NAHB housing market index, September: consensus 34 vs 35",
+      "consensus": "business inventories +0.3% the same hour"
     },
     {
       "date": "2026-09-16",
       "time_et": "2:00 PM",
       "importance": "high",
       "event": "FOMC decision plus Summary of Economic Projections and dot plot",
-      "consensus": "band 3.50-3.75%, held in July with THREE dissents FOR a hike; our own CME FedWatch API read off the 9/11 cohort puts a 25bp HIKE at 87.50%, a hold at 12.50% and a cut at ZERO. Goldman and J.P. Morgan both flipped to a hike over the weekend - Goldman said explicitly it flipped on market pricing, not its own forecast"
-    },
-    {
-      "date": "2026-09-16",
-      "time_et": "2:30 PM",
-      "importance": "high",
-      "event": "Chair Warsh press conference",
-      "consensus": "first read on whether an oil-driven headline print changes the reaction function"
+      "consensus": "fed funds futures now price a 93.5% chance of a +25bp HIKE to 3.75-4.00% and a 0.0% chance of a cut. Chair Kevin Warsh's press conference is 2:30 PM. The dots, not the decision, are the event"
     },
     {
       "date": "2026-09-16",
       "time_et": "4:00 PM",
-      "importance": "medium",
-      "event": "Treasury International Capital (TIC) data, July",
-      "consensus": "June net inflow was $133.5bn; foreign demand for the long end is the live question"
+      "importance": "low",
+      "event": "Treasury International Capital (TIC) data",
+      "consensus": "foreign official holdings of Treasuries - slow-moving, but the long end is the pressure point right now"
     },
     {
       "date": "2026-09-17",
       "time_et": "7:00 AM",
       "importance": "high",
-      "event": "Bank of England Bank Rate decision, summary and minutes",
-      "consensus": "hold at 3.75% expected, roughly 6-3 with Pill, Greene and Mann seen voting for a hike; annual QT vote expected to cut gilt reduction to GBP 50bn from 70bn; no Monetary Policy Report this month. Gilts are at multi-year highs going in"
+      "event": "Bank of England decision: hold at 3.75% expected, roughly 6-3",
+      "consensus": "Pill, Greene and Mann are the hawkish dissent risk. Separately the QT vote is expected to slow the gilt run-off to GBP 50bn from GBP 70bn"
     },
     {
       "date": "2026-09-17",
       "time_et": "8:30 AM",
       "importance": "medium",
-      "event": "Initial jobless claims, week ended Sep 12",
-      "consensus": "cons 205K (4) vs 206K prior"
-    },
-    {
-      "date": "2026-09-17",
-      "time_et": "8:30 AM",
-      "importance": "high",
-      "event": "Housing starts and building permits, August",
-      "consensus": "cons starts 1.30M +4.9% (9), permits 1.39M -3.7% (4); prior starts 1,239,000 at -12.4% and permits 1,443,000 at +5.0%"
-    },
-    {
-      "date": "2026-09-17",
-      "time_et": "8:30 AM",
-      "importance": "medium",
-      "event": "Philadelphia Fed manufacturing survey, September",
-      "consensus": "cons 27.5 (4) vs 47.4 prior"
-    },
-    {
-      "date": "2026-09-17",
-      "time_et": "10:00 AM",
-      "importance": "medium",
-      "event": "NAR pending home sales, August",
-      "consensus": "no consensus published; July index 71.2, -2.3% m/m"
+      "event": "Jobless claims 205K vs 206K; housing starts 1.30M (+4.9%) and permits 1.39M (-3.7%)",
+      "consensus": "starts prior 1,239,000 (-12.4%), permits prior 1,443,000 (+5.0%). Philadelphia Fed manufacturing consensus 27.5 vs 47.4 the same minute"
     },
     {
       "date": "2026-09-17",
       "time_et": "1:00 PM",
-      "importance": "high",
-      "event": "10-year TIPS reopening, $19bn (CUSIP 91282CRE3)",
-      "consensus": "2.375% coupon, matures 2036-07-15; prior 7/23 original cleared 2.438% at 2.30x on $21bn - the cleanest read available on what the market will pay for inflation protection into an oil shock"
+      "importance": "medium",
+      "event": "10-year TIPS auction, $19bn, CUSIP 91282CRE3",
+      "consensus": "prior 7/23 cleared 2.438% real at 2.30x. The day after the dots, this is the market's direct vote on the Fed's inflation credibility"
     },
     {
       "date": "2026-09-17",
       "time_et": "11:59 PM",
       "importance": "medium",
-      "event": "Fed communications blackout ends",
-      "consensus": "per the Board's own external-communications policy, 11:59 PM ET the day after the meeting"
+      "event": "Fed communications blackout ENDS",
+      "consensus": "the blackout runs Sat Sept 5 12:00 a.m. through Thu Sept 17 11:59 p.m. ET per the Fed's own external-communications policy. Speakers resume Friday"
     },
     {
       "date": "2026-09-18",
-      "time_et": "1:00 AM",
+      "time_et": "12:00 AM",
       "importance": "high",
-      "event": "Bank of Japan policy decision, MPM day 2",
-      "consensus": "25bp hike to 1.25% expected, roughly 79% market-implied; short rate has been at 1.00% since the 8-1 July hold; no Outlook Report. Note the yen WEAKENED overnight to 154.35 despite hike pricing - that divergence is the thing to watch"
+      "event": "Bank of Japan decision: +25bp to 1.25% expected (~79% priced)",
+      "consensus": "USD/JPY is still drifting WEAKER into it - 154.82 this morning from 154.29 - which is the tell that the market doubts the follow-through, not the hike itself"
     },
     {
       "date": "2026-09-18",
       "time_et": "9:15 AM",
-      "importance": "medium",
-      "event": "Industrial production and capacity utilization, August",
-      "consensus": "cons IP +0.3% (8) and cap-u 76.5% (7) vs +0.2% and 76.3% prior"
+      "importance": "low",
+      "event": "Industrial production +0.3%, capacity utilisation 76.5%",
+      "consensus": "Conference Board leading index +0.2% at 10:00 AM"
     },
     {
       "date": "2026-09-18",
       "time_et": "9:30 AM",
       "importance": "medium",
-      "event": "Vice Chair for Supervision Bowman on stress testing, London",
-      "consensus": "the first scheduled Fed voice after the blackout lifts, but it is a supervision topic - do NOT price it as post-meeting policy guidance"
-    },
-    {
-      "date": "2026-09-18",
-      "time_et": "10:00 AM",
-      "importance": "low",
-      "event": "Conference Board leading economic index, August",
-      "consensus": "cons +0.2% (3) vs +0.2% prior"
+      "event": "Fed Vice Chair for Supervision Bowman, London: 'Stress Testing'",
+      "consensus": "a supervision topic, not policy. Do NOT price this as a rate signal, even though it is the first Fed voice after the blackout lifts"
     },
     {
       "date": "2026-09-18",
       "time_et": "4:00 PM",
       "importance": "high",
-      "event": "September quad witching - equity, index and index-futures expiration",
-      "consensus": "CME front E-mini S&P 500 last trade 18 Sep 2026; the largest mechanical unpin of the quarter, two days after the Fed and the BoJ"
+      "event": "Quadruple witching - September index and single-stock expiry",
+      "consensus": "the largest gamma roll-off of the quarter, two days after the dots and with the VIX at 17.10. Dealer hedging flows dominate the tape into the close and the week after is typically when positioning actually resets"
     }
   ],
   "earnings": [
@@ -261,7 +142,7 @@
       "ticker": "LEN",
       "name": "Lennar",
       "importance": "high",
-      "note": "Q3 FY26 release AFTER THE CLOSE Wed 9/16 - hours after the FOMC statement, not before it. Call is Thu 9/17 at 11:00 AM ET. Company-confirmed 2026-09-02. The only macro-relevant print of the week, and the cleanest read on housing at a 4.96% 10-year"
+      "note": "Q3 FY26 release AFTER THE CLOSE Wed 9/16 - hours after the FOMC statement, not before it. Call is Thu 9/17 at 11:00 AM ET, company-confirmed 2026-09-02. The only macro-relevant print of the week and the cleanest read on housing with the 10-year at 4.97%"
     }
   ]
 }
