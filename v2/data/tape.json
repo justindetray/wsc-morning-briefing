@@ -1,137 +1,137 @@
 {
-  "AUDJPY": {
-    "as_of": "Wed 7:07 ET",
-    "delta_pct": 0.0814,
-    "label": "AUD/JPY",
-    "prev_close": 110.54,
-    "source": "finance API live quote ts 2026-09-16 11:07:34 UTC; base = same-series previousClose 110.54. Range 110.46-110.80",
-    "status": "LIVE",
-    "value": 110.63
-  },
-  "BRENT": {
-    "as_of": "Wed 6:56 ET",
-    "delta_pct": -1.0759,
-    "label": "Brent crude",
-    "prev_close": 108.75,
-    "source": "finance API live quote ts 2026-09-16 10:56:31 UTC; base = Tue 9/15 ICE settle 108.75. Overnight range 107.18-108.59",
-    "status": "LIVE",
-    "value": 107.58
-  },
-  "BTC": {
-    "as_of": "Wed 7:07 ET",
-    "delta_pct": 0.3922,
-    "label": "Bitcoin",
-    "prev_close": 75586.51,
-    "source": "finance API live quote ts 2026-09-16 11:07:31 UTC, market_status=open; base = same series previousClose 75,586.51. Independent Polygon X:BTCUSD 9/15 UTC close was 75,584.17 (0.003% venue offset, series agree); no 9/16 Polygon crypto bar exists yet, so the live connector pair is the only same-series option. Range 75,349.47-76,009.16",
-    "status": "LIVE",
-    "value": 75882.96
-  },
-  "DJI": {
-    "as_of": "Tue 9/15 close",
-    "delta_pct": -0.6259,
-    "label": "Dow",
-    "prev_close": 52421.2,
-    "source": "Polygon I:DJI daily bar 2026-09-15 (o=52303.24 h=52336.61 l=51875.65)",
-    "status": "CLOSED",
-    "value": 52093.11
-  },
-  "ES": {
-    "as_of": "Wed 6:57 ET",
-    "delta_pct": 0.2188,
-    "label": "S&P 500 fut",
-    "prev_close": 7656.0,
-    "source": "finance API live quote ts 2026-09-16 10:57:24 UTC; base = vendor previousClose 7,656.00 = Tue 9/15 CME settle (same series). Overnight range 7,658.75-7,678.00",
-    "status": "LIVE",
-    "value": 7672.75
-  },
-  "EURJPY": {
-    "as_of": "Wed 7:07 ET",
-    "delta_pct": -0.0056,
-    "label": "EUR/JPY",
-    "prev_close": 178.94,
-    "source": "finance API live quote ts 2026-09-16 11:07:34 UTC; base = same-series previousClose 178.94. Range 178.85-179.35",
-    "status": "LIVE",
-    "value": 178.93
-  },
-  "GOLD": {
-    "as_of": "Wed 6:57 ET",
-    "delta_pct": 1.2994,
-    "label": "Gold",
-    "prev_close": 4332.8,
-    "source": "finance API live quote ts 2026-09-16 10:57:30 UTC; base = Tue 9/15 settle 4,332.80. Overnight range 4,315.20-4,390.60; printed the session high into the Fed",
-    "status": "LIVE",
-    "value": 4389.1
-  },
-  "NDX": {
-    "as_of": "Tue 9/15 close",
-    "delta_pct": -0.65,
-    "label": "Nasdaq 100",
-    "prev_close": 29127.16,
-    "source": "Polygon I:NDX daily bar 2026-09-15 (o=29100.16 h=29142.80 l=28899.43)",
-    "status": "CLOSED",
-    "value": 28937.84
-  },
-  "NQ": {
-    "as_of": "Wed 6:57 ET",
-    "delta_pct": 0.4428,
-    "label": "Nasdaq 100 fut",
-    "prev_close": 29246.75,
-    "source": "finance API live quote ts 2026-09-16 10:57:29 UTC; base = Tue 9/15 CME settle 29,246.75. Overnight range 29,226.00-29,398.00. +0.44% is INSIDE the 2% escalation trigger, no pause required",
-    "status": "LIVE",
-    "value": 29376.25
-  },
-  "SOX": {
-    "as_of": "Tue 9/15 close",
-    "delta_pct": 0.3977,
-    "label": "Phlx Semis",
-    "prev_close": 11131.28,
-    "source": "Polygon I:SOX daily bar 2026-09-15 (o=11233.04 h=11304.24 l=11128.88). The ONLY green index on Tuesday: +0.40% after Monday's -5.86%, so the semi cascade stopped rather than extended - it did NOT recover it",
-    "status": "CLOSED",
-    "value": 11175.55
-  },
-  "SPX": {
-    "as_of": "Tue 9/15 close",
-    "delta_pct": -0.4495,
-    "label": "S&P 500",
-    "prev_close": 7619.98,
-    "source": "Polygon I:SPX daily bar 2026-09-15 (o=7612.30 h=7617.26 l=7572.69)",
-    "status": "CLOSED",
-    "value": 7585.73
-  },
-  "US10Y": {
-    "as_of": "Tue 9/15 CMT",
-    "delta_pct": 0.6036,
-    "label": "US 10Y",
-    "prev_close": 4.97,
-    "source": "Treasury par yield curve CMT cmt2026_r184.csv, obs 09/15/2026 vs 09/14/2026. First 5.00% handle CLOSE of 2026 and the 2026 series max. Corroborated by connector ^TNX 5.00 (ts Tue 18:59 UTC)",
-    "status": "CLOSED",
-    "value": 5.0
-  },
-  "US2Y": {
-    "as_of": "Tue 9/15 CMT",
-    "delta_pct": 0.4301,
-    "label": "US 2Y",
-    "prev_close": 4.65,
-    "source": "Treasury par yield curve CMT cmt2026_r184.csv, obs 09/15/2026 vs 09/14/2026. 2026 series max",
-    "status": "CLOSED",
-    "value": 4.67
-  },
-  "VIX": {
-    "as_of": "Tue 9/15 close",
-    "delta_pct": 0.5848,
-    "label": "VIX",
-    "prev_close": 17.1,
-    "source": "Polygon I:VIX daily bar 2026-09-15, settled (has a 9/15 I:VXN twin at 22.26). A 2026-09-16 I:VIX bar exists (c=16.87) with NO 9/16 twin on ANY other index = still mutating pre-open (#177-A); not shipped",
-    "status": "CLOSED",
-    "value": 17.2
-  },
-  "WTI": {
-    "as_of": "Wed 6:57 ET",
-    "delta_pct": -2.041,
-    "label": "WTI crude",
-    "prev_close": 105.83,
-    "source": "finance API live quote ts 2026-09-16 10:57:29 UTC; base = Tue 9/15 settle 105.83. Overnight range 103.54-105.63. Crude is GIVING BACK Tuesday's pipeline bid",
-    "status": "LIVE",
-    "value": 103.67
-  }
+ "ES": {
+  "value": 7688.0,
+  "prev_close": 7623.0,
+  "delta_pct": 0.8527,
+  "label": "S&P 500 fut",
+  "as_of": "Thu 7:05 ET",
+  "status": "LIVE",
+  "source": "finance API live quote ts 2026-09-17 11:05:20 UTC; base = vendor previousClose 7,623.00 = Wed 9/16 CME settle (same series). Overnight range 7,617.50-7,690.50"
+ },
+ "NQ": {
+  "value": 29591.75,
+  "prev_close": 29256.75,
+  "delta_pct": 1.145,
+  "label": "Nasdaq 100 fut",
+  "as_of": "Thu 7:05 ET",
+  "status": "LIVE",
+  "source": "finance API live quote ts 2026-09-17 11:05:17 UTC; base = Wed 9/16 CME settle 29,256.75. Overnight range 29,247.75-29,610.25. +1.15% is INSIDE the 2% escalation trigger, no pause required"
+ },
+ "WTI": {
+  "value": 100.36,
+  "prev_close": 102.43,
+  "delta_pct": -2.0209,
+  "label": "WTI crude",
+  "as_of": "Thu 7:15 ET",
+  "status": "LIVE",
+  "source": "finance API live quote ts 2026-09-17 11:15:16 UTC; base = Wed 9/16 settle 102.43. Overnight range 100.34-102.45; trading at the session low, now BELOW $101 with the Saudi East-West pipeline still shut"
+ },
+ "BRENT": {
+  "value": 102.87,
+  "prev_close": 105.83,
+  "delta_pct": -2.7969,
+  "label": "Brent crude",
+  "as_of": "Thu 7:15 ET",
+  "status": "LIVE",
+  "source": "finance API live quote ts 2026-09-17 11:15:18 UTC; base = Wed 9/16 ICE settle 105.83. At the session low 102.87; second consecutive down day"
+ },
+ "GOLD": {
+  "value": 4370.4,
+  "prev_close": 4387.5,
+  "delta_pct": -0.3897,
+  "label": "Gold",
+  "as_of": "Thu 7:05 ET",
+  "status": "LIVE",
+  "source": "finance API live quote ts 2026-09-17 11:05:05 UTC; base = Wed 9/16 settle 4,387.50. Overnight range 4,294.50-4,374.40. NOT a record: 2026 high 5,626.80"
+ },
+ "BTC": {
+  "value": 76377.59,
+  "prev_close": 76143.81,
+  "delta_pct": 0.307,
+  "label": "Bitcoin",
+  "as_of": "Thu 7:15 ET",
+  "status": "LIVE",
+  "source": "finance API live quote ts 2026-09-17 11:15:14 UTC (market_status=open); base = vendor previousClose 76,143.81. Independent Polygon X:BTCUSD 9/16 UTC close 76,138.60 = 0.007% venue offset, agrees (#181-D cross-check)"
+ },
+ "EURJPY": {
+  "value": 178.63,
+  "prev_close": 179.1,
+  "delta_pct": -0.2624,
+  "label": "EUR/JPY",
+  "as_of": "Thu 7:13 ET",
+  "status": "LIVE",
+  "source": "finance API live quote ts 2026-09-17 11:13:54 UTC; base = Wed close 179.10"
+ },
+ "AUDJPY": {
+  "value": 110.67,
+  "prev_close": 110.72,
+  "delta_pct": -0.0452,
+  "label": "AUD/JPY",
+  "as_of": "Thu 7:13 ET",
+  "status": "LIVE",
+  "source": "finance API live quote ts 2026-09-17 11:13:42 UTC; base = Wed close 110.72"
+ },
+ "SPX": {
+  "value": 7551.81,
+  "prev_close": 7585.73,
+  "delta_pct": -0.4472,
+  "label": "S&P 500",
+  "as_of": "Wed 9/16 close",
+  "status": "CLOSED",
+  "source": "Polygon I:SPX daily 2026-09-16 settled close vs 2026-09-15 close 7,585.73. Session range 7,507.77-7,626.79 - a 119-point round trip on the decision"
+ },
+ "NDX": {
+  "value": 28945.06,
+  "prev_close": 28937.84,
+  "delta_pct": 0.025,
+  "label": "Nasdaq 100",
+  "as_of": "Wed 9/16 close",
+  "status": "CLOSED",
+  "source": "Polygon I:NDX daily 2026-09-16 settled close vs 2026-09-15 close 28,937.84. Range 28,753.29-29,235.89. Essentially unchanged - the only large-cap index that did not fall on decision day"
+ },
+ "SOX": {
+  "value": 11246.11,
+  "prev_close": 11175.55,
+  "delta_pct": 0.6314,
+  "label": "Semis (SOX)",
+  "as_of": "Wed 9/16 close",
+  "status": "CLOSED",
+  "source": "Polygon I:SOX daily 2026-09-16 settled close vs 2026-09-15 close 11,175.55. Range 11,132.26-11,413.46. Second consecutive green session after the 9/14 5.86% collapse"
+ },
+ "DJI": {
+  "value": 51461.9,
+  "prev_close": 52093.11,
+  "delta_pct": -1.2117,
+  "label": "Dow",
+  "as_of": "Wed 9/16 close",
+  "status": "CLOSED",
+  "source": "Polygon I:DJI daily 2026-09-16 settled close vs 2026-09-15 close 52,093.11. Range 51,186.67-52,173.70. Worst of the four by a wide margin"
+ },
+ "VIX": {
+  "value": 17.71,
+  "prev_close": 17.2,
+  "delta_pct": 2.9651,
+  "label": "VIX",
+  "as_of": "Wed 9/16 close",
+  "status": "CLOSED",
+  "source": "Polygon I:VIX daily 2026-09-16 SETTLED close vs 2026-09-15 close 17.20; confirmed settled by its same-day I:VXN twin at 22.44 (#177-A). Intraday high 18.94 on the decision. The 9/17 I:VIX bar (15.96) has NO VXN twin and is NOT shipped; the connector's 15.91 pre-open indication is prose only"
+ },
+ "US10Y": {
+  "value": 5.01,
+  "prev_close": 5.0,
+  "delta_pct": 0.2,
+  "label": "US 10-year",
+  "as_of": "Wed 9/16 CMT",
+  "status": "CLOSED",
+  "source": "Treasury daily par yield curve, observation 09/16/2026 vs 09/15/2026 5.00. NEW 2026 MAXIMUM (prior max was Tuesday's 5.00) and a second consecutive close at or above 5%. Corroborated by connector ^TNX 5.01 (Wed 18:59 UTC)"
+ },
+ "US2Y": {
+  "value": 4.74,
+  "prev_close": 4.67,
+  "delta_pct": 1.4989,
+  "label": "US 2-year",
+  "as_of": "Wed 9/16 CMT",
+  "status": "CLOSED",
+  "source": "Treasury daily par yield curve, observation 09/16/2026 vs 09/15/2026 4.67. NEW 2026 MAXIMUM. +7bp is the largest one-day move on the curve and the front-end signature of a hawkish dot plot"
+ }
 }

@@ -1,130 +1,73 @@
 {
-  "last_curated": "2026-09-16T07:07:00-04:00",
+  "last_curated": "2026-09-17T07:40:00-04:00",
   "macro": [
-    {
-      "date": "2026-09-16",
-      "time_et": "8:30 AM",
-      "importance": "high",
-      "event": "Advance Retail & Food Services Sales, August (Census)",
-      "consensus": "+0.8% m/m headline, +0.6% ex-autos (WSJ survey 9/11, 8 and 7 economists); priors -0.6% headline / -0.3% ex-autos",
-      "note": "the single biggest consumer read before the 2pm decision"
-    },
-    {
-      "date": "2026-09-16",
-      "time_et": "8:30 AM",
-      "importance": "medium",
-      "event": "Import & Export Price Indexes, August (BLS)",
-      "consensus": "Import prices -0.1% (4 economists); priors import -0.4%, export -1.3%",
-      "note": "tariff pass-through shows up here before it reaches CPI"
-    },
-    {
-      "date": "2026-09-16",
-      "time_et": "9:30 AM",
-      "importance": "high",
-      "event": "VIX September final settlement - a.m. Special Opening Quotation; VX/U6 expires today (Cboe)",
-      "consensus": "Settlement is struck off the 9:30 SOQ, not the cash VIX print; September vol books roll off here",
-      "note": "Tuesday's settled VIX close was 17.20"
-    },
-    {
-      "date": "2026-09-16",
-      "time_et": "10:00 AM",
-      "importance": "medium",
-      "event": "NAHB/Wells Fargo Housing Market Index, September",
-      "consensus": "34 (3 economists) vs 35 prior - a third consecutive sub-40 builder read",
-      "note": "reads through to Lennar tonight"
-    },
-    {
-      "date": "2026-09-16",
-      "time_et": "10:00 AM",
-      "importance": "low",
-      "event": "Business Inventories (Manufacturing & Trade Inventories and Sales), July (Census)",
-      "consensus": "+0.3% (5 economists) vs +0.0% prior"
-    },
-    {
-      "date": "2026-09-16",
-      "time_et": "11:30 AM",
-      "importance": "low",
-      "event": "17-week bill auction, CUSIP 912797WQ6 (Treasury)",
-      "consensus": "Prior 9/9: 3.895%, bid-to-cover 2.73 on $72B"
-    },
-    {
-      "date": "2026-09-16",
-      "time_et": "2:00 PM",
-      "importance": "high",
-      "event": "FOMC decision + Summary of Economic Projections / dot plot",
-      "consensus": "CME priced 93.5% for +25bp to 3.75-4.00% and 6.5% hold, ZERO cut probability (cohort as of 9/15); current range 3.50-3.75% was held in July over three dissents FOR a hike",
-      "note": "the dot plot, not the hike, is the tradeable surprise"
-    },
-    {
-      "date": "2026-09-16",
-      "time_et": "2:30 PM",
-      "importance": "high",
-      "event": "FOMC press conference",
-      "consensus": "Guidance on whether October is live matters more than today's move; October already carries a 96.5% cumulative hike probability"
-    },
-    {
-      "date": "2026-09-16",
-      "time_et": "4:00 PM",
-      "importance": "medium",
-      "event": "Treasury International Capital (TIC) data, July",
-      "consensus": "June prior was a $133.5B net inflow - the foreign-demand read that matters with the 10y at 5.00%"
-    },
-    {
-      "date": "2026-09-16",
-      "time_et": "4:15 PM",
-      "importance": "high",
-      "event": "Lennar (LEN) Q3 FY26 results - after the close",
-      "consensus": "Release is tonight after the close; the call is tomorrow 9/17 at 11:00 a.m. ET (company press release, Sept 2). Company guided Q3 EPS $1.20-$1.40. Reads directly off this morning's NAHB 34 and a 5.00% 10-year",
-      "note": "the most rate-sensitive print of the week"
-    },
     {
       "date": "2026-09-17",
       "time_et": "7:00 AM",
       "importance": "high",
-      "event": "Bank of England Bank Rate decision + minutes",
-      "consensus": "Hold at 3.75% expected; QT pace to GBP 50bn. 12:00 noon London / 7:00 a.m. ET is the BoE's convention - the MPC dates page does not state a clock time"
+      "event": "Bank of England Bank Rate decision + minutes \u2014 LANDED",
+      "consensus": "was a hold at 3.75%, and that was DELIVERED \u2014 but only 6-3, with Greene, Mann and Pill all dissenting FOR +25bp and the MPC judging inflation risks tilted to the upside. Separately and unanimously, the MPC voted to take the gilt stock to ZERO at only GBP 20bn/yr of active sales (~GBP 46bn/yr with maturities, complete end-2034) \u2014 well below the ~GBP 50bn pace the market had assumed",
+      "note": "hawkish on rates, dovish on gilt supply \u2014 which is why cable held 1.3400"
     },
     {
       "date": "2026-09-17",
       "time_et": "8:30 AM",
       "importance": "high",
       "event": "Housing Starts & Building Permits, August (Census)",
-      "consensus": "Starts 1.30M (+4.9%), permits 1.39M (-3.7%); priors starts 1,239,000 (-12.4%), permits 1,443,000 (+5.0%)"
+      "consensus": "Starts ~1.30M, permits ~1.40M; priors starts 1,239,000 (-12.4%), permits 1,443,000. First housing print since the 10-year went through 5% and the day after Lennar cut its full-year delivery target",
+      "note": "the affordability channel is now binding on price, not just incentives"
     },
     {
       "date": "2026-09-17",
       "time_et": "8:30 AM",
       "importance": "medium",
       "event": "Initial Jobless Claims, week ending Sept 12",
-      "consensus": "205K (4 economists) vs 206,000 prior"
+      "consensus": "~205K vs 206,000 prior (4-week average also 206,000). Warsh called claims 'consistent with full employment' yesterday, so a clean print keeps the labour side out of the policy debate"
     },
     {
       "date": "2026-09-17",
       "time_et": "8:30 AM",
       "importance": "medium",
       "event": "Philadelphia Fed Manufacturing Survey, September",
-      "consensus": "27.5 (4 economists) vs 47.4 prior - a 20-point give-back is the consensus"
+      "consensus": "UNRECONCILED across sources at 27.5 / 30.5 / 31.3 / 37 \u2014 no primary consensus exists; prior 47.4. A give-back of roughly 20 points is the common thread, after Empire State fell to 7.6 from 20.6 on Tuesday",
+      "note": "prices-paid is the sub-index to read, not the headline"
+    },
+    {
+      "date": "2026-09-17",
+      "time_et": "10:00 AM",
+      "importance": "low",
+      "event": "Pending Home Sales, August",
+      "consensus": "Second-tier housing read, but it samples contract signings at mortgage rates approaching 7%"
+    },
+    {
+      "date": "2026-09-17",
+      "time_et": "11:00 AM",
+      "importance": "medium",
+      "event": "Lennar (LEN) Q3 FY26 earnings call",
+      "consensus": "was $1.29 EPS on $8.31bn revenue; the print landed after Wednesday's close at $1.19 GAAP / $1.23 ex-items on $8.0bn, and the full-year delivery target was CUT to 80,000-81,000 from 82,000-83,000. Stock fell ~2.1-2.7% after hours",
+      "note": "the delivery cut is the story, not the EPS miss"
     },
     {
       "date": "2026-09-17",
       "time_et": "1:00 PM",
       "importance": "high",
       "event": "10-Year TIPS reopening, $19B, CUSIP 91282CRE3 (Treasury)",
-      "consensus": "7/23 original cleared 2.438% high yield at 2.30 bid-to-cover on $21B - the cleanest real-yield demand test of the week"
+      "consensus": "The 7/23 original cleared 2.438% real, the highest at auction for this term since October 2008; the issue closed last Friday near 2.59% real, so it goes to auction below par with a 0.99985 index ratio. Non-competitive bids close at noon",
+      "note": "cleanest same-day read on whether anyone will pay up for inflation protection now that the Fed says it responds to energy"
     },
     {
       "date": "2026-09-17",
       "time_et": "11:59 PM",
       "importance": "medium",
       "event": "FOMC communications blackout ENDS",
-      "consensus": "Blackout ran Sat Sept 5 12:00 a.m. through Thu Sept 17 11:59 p.m. ET - no Fed speakers before then"
+      "consensus": "Blackout ran Sat Sept 5 through tonight 11:59 p.m. ET. With a 12-0 Committee, a +50bp shift in the 2027 dot and October priced near a coin flip, tomorrow's speaker calendar is live event risk"
     },
     {
       "date": "2026-09-18",
       "time_et": "12:00 AM",
       "importance": "high",
       "event": "Bank of Japan policy decision",
-      "consensus": "+25bp to 1.25% is the market's base case. The BoJ publishes no scheduled announcement time - expect it in the Japanese afternoon, US pre-dawn"
+      "consensus": "+25bp to 1.25% is the base case for 97% of 68 economists in the Reuters Sept 1-8 poll, up from 57%; 1.25% would be the highest policy rate since April 1995. The BoJ publishes no scheduled announcement time \u2014 expect it in the Japanese afternoon, US pre-dawn. The hike is priced; the guidance is the tradeable variable"
     },
     {
       "date": "2026-09-18",
@@ -137,8 +80,8 @@
       "date": "2026-09-18",
       "time_et": "9:30 AM",
       "importance": "medium",
-      "event": "Fed Vice Chair for Supervision Michelle Bowman - 'Stress Testing', London",
-      "consensus": "First Fed appearance after the blackout, but the topic is SUPERVISION, not policy - do not read it as guidance"
+      "event": "Fed Vice Chair for Supervision Michelle Bowman \u2014 'Stress Testing', London",
+      "consensus": "First Fed appearance after the blackout lifts, but the topic is SUPERVISION, not policy \u2014 do not read it as guidance"
     },
     {
       "date": "2026-09-18",
@@ -151,8 +94,8 @@
       "date": "2026-09-18",
       "time_et": "4:00 PM",
       "importance": "high",
-      "event": "Quarterly quad witching - September equity, index-option and index-futures expiration",
-      "consensus": "CME front E-mini S&P 500 last trade 18 SEP 2026. Largest pinning/roll event of the quarter, two days after the Fed"
+      "event": "Quarterly quad witching \u2014 September equity, index-option and index-futures expiration",
+      "consensus": "CME front E-mini S&P 500 last trade 18 SEP 2026. Largest pinning and roll event of the quarter, landing two days after a hawkish Fed and one day after the BoJ"
     }
   ],
   "earnings": []

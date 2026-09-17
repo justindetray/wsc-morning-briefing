@@ -1,57 +1,57 @@
 {
  "status": "LIVE",
- "current_band": "3.50-3.75",
- "as_of": "2026-09-15",
+ "current_band": "3.75-4.00",
+ "as_of": "2026-09-16",
  "meetings": [
   {
-   "meetingDt": "2026-09-16",
-   "reportingDt": "2026-09-15",
-   "hold": 0.065,
-   "hike_25": 0.935,
-   "hike_50": 0.0,
-   "hike_75": 0.0,
-   "hike_100": 0.0,
-   "cumulative_hike": 0.935
-  },
-  {
    "meetingDt": "2026-10-28",
-   "reportingDt": "2026-09-15",
-   "hold": 0.034775,
-   "hike_25": 0.53045,
-   "hike_50": 0.434775,
+   "reportingDt": "2026-09-16",
+   "hold": 0.485457,
+   "hike_25": 0.509087,
+   "hike_50": 0.005457,
    "hike_75": 0.0,
    "hike_100": 0.0,
-   "cumulative_hike": 0.965225
+   "cumulative_hike": 0.514544
   },
   {
    "meetingDt": "2026-12-09",
-   "reportingDt": "2026-09-15",
-   "hold": 0.010587,
-   "hike_25": 0.185681,
-   "hike_50": 0.501322,
-   "hike_75": 0.30241,
+   "reportingDt": "2026-09-16",
+   "hold": 0.114712,
+   "hike_25": 0.49104,
+   "hike_50": 0.390081,
+   "hike_75": 0.004167,
    "hike_100": 0.0,
-   "cumulative_hike": 0.9894130000000001
+   "cumulative_hike": 0.885288
   },
   {
    "meetingDt": "2027-01-27",
-   "reportingDt": "2026-09-15",
-   "hold": 0.00694,
-   "hike_25": 0.125371,
-   "hike_50": 0.392601,
-   "hike_75": 0.370924,
-   "hike_100": 0.104164,
-   "cumulative_hike": 0.9930599999999999
+   "reportingDt": "2026-09-16",
+   "hold": 0.064663,
+   "hike_25": 0.32685,
+   "hike_50": 0.434129,
+   "hike_75": 0.17254,
+   "hike_100": 0.001818,
+   "cumulative_hike": 0.935337
   },
   {
    "meetingDt": "2027-03-17",
-   "reportingDt": "2026-09-15",
-   "hold": 0.002756,
-   "hike_25": 0.053974,
-   "hike_50": 0.231499,
-   "hike_75": 0.383992,
-   "hike_100": 0.264982,
-   "cumulative_hike": 0.997243
+   "reportingDt": "2026-09-16",
+   "hold": 0.020785,
+   "hike_25": 0.148937,
+   "hike_50": 0.361332,
+   "hike_75": 0.350047,
+   "hike_100": 0.117665,
+   "cumulative_hike": 0.9792150000000001
+  },
+  {
+   "meetingDt": "2027-04-28",
+   "reportingDt": "2026-09-16",
+   "hold": 0.014104,
+   "hike_25": 0.107745,
+   "hike_50": 0.293062,
+   "hike_75": 0.353674,
+   "hike_100": 0.192359,
+   "cumulative_hike": 0.985895
   }
  ]
 }
