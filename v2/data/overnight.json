@@ -1,71 +1,96 @@
 {
-  "window": "Wed 16 Sep 4:00 p.m. ET -> Thu 17 Sep 7:00 a.m. ET",
-  "lede": "The Fed hiked 25bp to 3.75-4.00% on a 12-0 vote and moved its 2027 median dot up 50bp. The curve bear-flattened: 2s and 10s to new 2026 highs, the 30y lower and still below its own peak. The BoE held 6-3 with three dissents for a hike and took QT to zero at a slower pace than feared. Crude fell a second session on unconfirmed Saudi repair reports.",
-  "asia_close": [
-    {
-      "market": "Nikkei 225",
-      "delta_pct": 0.33,
-      "level": 64136.25
-    },
-    {
-      "market": "TOPIX",
-      "delta_pct": 0.8,
-      "level": 4094.19
-    },
-    {
-      "market": "KOSPI",
-      "delta_pct": 0.9,
-      "level": 6778.49
-    },
-    {
-      "market": "Hang Seng",
-      "delta_pct": -0.7,
-      "level": 24533.46
-    },
-    {
-      "market": "Shanghai Composite",
-      "delta_pct": -0.4,
-      "level": 3877.46
-    }
-  ],
-  "europe_open": [
-    {
-      "market": "STOXX 600",
-      "delta_pct": 0.5
-    },
-    {
-      "market": "FTSE 100",
-      "delta_pct": 0.6
-    },
-    {
-      "market": "DAX",
-      "delta_pct": 0.5
-    },
-    {
-      "market": "CAC 40",
-      "delta_pct": 0.36
-    }
-  ],
-  "single_name_moves": [
-    {
-      "ticker": "LEN",
-      "delta_pct": -2.07,
-      "venue": "after hours, 19:59 ET"
-    }
-  ],
-  "geo_headlines": [
-    "THE FED HIKED 25BP TO 3.75-4.00% ON A 12-0 VOTE. No dissents in either direction - the three members who dissented *for* a hike in July were satisfied by getting one. A unanimous hawkish committee removes the \"the doves will reassert themselves\" hedge from the October trade. It is the first increase since July 2023.",
-    "THE DOT PLOT IS THE REAL STORY, AND IT MOVED 30-50BP. The median fed funds path went to **4.1% for end-2026, 4.1% for end-2027 and 3.9% for end-2028**, from 3.8 / 3.6 / 3.4 in June. The 2026 move is a level revision; the +50bp at 2027 is a persistence revision, and that is what repriced the curve. The longer-run dot also rose, to 3.2% from 3.1%, with 2027 core PCE left unchanged - meaning the committee raised its estimate of the *real* neutral rate. That part cannot be un-priced by a growth scare.",
-    "THE CURVE BEAR-FLATTENED RATHER THAN SELLING OFF IN PARALLEL. On Treasury's own curve for the 16th, the 2-year rose 7bp to 4.74% and the 10-year to 5.01% - both new 2026 highs - while the 30-year eased to 5.35%, which is still 2bp *below* its 2026 peak set on the 10th. Twos-tens flattened 6bp to +27bp. A hawkish dot shift that leaves the long end lower in yield and gold higher is a market conceding Fed credibility, not pricing an inflation breakout. That is the constructive version of a hawkish surprise.",
-    "THE STATEMENT DROPPED ITS ENERGY \"SUPPLY SHOCKS\" LANGUAGE, WHICH INVERTS THE OIL TRADE. Under the old framing an oil spike was a relative-price event the Fed looked through, so the reflex was to buy duration into it. Under the new framing the same move is an inflation impulse the Fed responds to. Every position built on \"energy shock, therefore Fed cuts\" is now on the wrong side of the reaction function - and roughly 4mb/d of Saudi pipeline capacity is still offline.",
-    "MARKET PRICING MOVED HAWKISH ACROSS THE BOARD, MEASURED PROPERLY. Because the target band itself moved yesterday, the only honest cross-day comparison is at fixed rate levels. On that basis the probability of at least 4.25% by the 28 October meeting went from 43% to 51%, and of at least 4.50% by January from 48% to 61% and by March from 71% to 83%. There is still **zero** cut probability at every meeting on the board.",
-    "THE BANK OF ENGLAND HELD AT 3.75% BUT SPLIT 6-3, WITH ALL THREE DISSENTS FOR A HIKE. Greene, Mann and Pill wanted 4.00%, and the committee called inflation risks tilted to the upside - one more defection makes November live. It landed a day after UK inflation reaccelerated to 3.1%, driven by motor fuels: exactly the energy-led print the Fed just decided it will not look through. Separately, and unanimously, the MPC voted to run the gilt stock to zero - but at only 20bn pounds a year of sales, well below the 50bn pace the market had assumed. Hawkish on rates, dovish on supply, so cable barely moved.",
-    "HONG KONG RAISED ITS BASE RATE 25BP TO 4.25%, ITS FIRST HIKE SINCE JULY 2023, mechanically tracking the Fed under the currency peg. Imported tightening into a property market that has been recovering since 2025 is why Hang Seng was the region's laggard.",
-    "CRUDE FELL A SECOND STRAIGHT SESSION ON UNCONFIRMED REPORTS THAT SAUDI ARABIA MAY RESTORE HALF THE PIPELINE'S CAPACITY WITHIN DAYS. Riyadh is also reported to be offering extra cargoes through Oman. Neither report is confirmed by Saudi authorities, and nothing else has changed: no restart, no new Aramco statement since the 11 September shutdown notice, Yanbu loadings still suspended. The repair estimates run from the US energy secretary's \"measured in days\" to Lipow's \"months\" - the widest credible dispersion on a 4mb/d supply variable in recent memory.",
-    "LENNAR CUT ITS FULL-YEAR DELIVERY TARGET TO 80-81,000 HOMES FROM 82-83,000. That, not the earnings miss, is the news: it is a volume capitulation from the builder that has deliberately run volume over margin. Gross margin rose just 20bp even though the incentive rate fell about 90bp, because the average selling price came in below guidance - the giveback shrank mostly because the list price did. With mortgage rates approaching 7%, affordability is now binding on price, not just on incentives.",
-    "THE NATIONAL AVERAGE DIESEL PRICE SET A RECORD AT $6.3103, confirmed against the motoring club's own highest-recorded-price table rather than inferred from a strong tape. Regular gasoline at $4.3672 is *not* a record - it is about 13% below the June 2022 high. A record diesel print is a freight-cost input that propagates into core goods with a lag, and it is the most legible evidence for the chair's line that too many categories are still running above 3%.",
-    "THE BANK OF JAPAN DECIDES TOMORROW AND A HIKE TO 1.25% IS FULLY PRICED, so the guidance is the only tradeable variable. That would be the highest Japanese policy rate since April 1995. The Fed and the BoJ both tightening inside 48 hours with dollar-yen roughly flat means the market reads the differential as unchanged; the risk is a BoJ that under-delivers on guidance. Quad witching follows Friday afternoon."
-  ],
-  "client_frame_short": "The Fed raised interest rates yesterday for the first time in over three years, and every single member voted for it. **The quarter-point move is not the story - the story is that the Fed now expects to keep rates higher for longer than it did in June, adding half a percentage point to where it thinks rates will sit at the end of 2027.** Here is the encouraging part, and it is genuinely encouraging: long-term bond yields actually went down on the news, and gold went up. When a central bank surprises hawkishly and the long end rallies, the market is telling you it believes the Fed will get inflation under control. The alternative - long yields spiking on fear of entrenched inflation - is the outcome we did not get.",
-  "client_frame": "The headline is simple: the Fed raised its policy rate by a quarter point to a range of 3.75-4.00%, the first increase since July 2023, on a unanimous 12-0 vote. If a client asks only one question, it will be \"why are they raising rates when everyone spent two years expecting cuts?\" The honest answer is that inflation has been above target for more than five years, the unemployment rate is around 4.1% and job openings and hours are rising, so the labour side of the Fed's mandate is not asking for help. The chair put it bluntly: he would be hard-pressed to call financial conditions restrictive, so the committee removed a dose of accommodation. That framing matters - it says the Fed thinks policy is still not tight, which is a different message from \"we are fighting inflation with a heavy hand.\"\n\nThe more important development is the projections, not the rate. The Fed's own median forecast for where rates sit at the end of 2027 rose by half a percentage point, and its estimate of the long-run neutral rate went up too. Translated: this is not a one-off adjustment that gets unwound next year. It is the Fed saying the level of interest rates that the economy can sustain is simply higher than it assumed three months ago. For a client, the practical implication is that cash and short-term bonds keep paying well, and that the refinancing arithmetic on any floating-rate debt does not improve on a schedule. It also means the Fed marked growth up and unemployment down while doing this - it is a strong-economy forecast, not a recession forecast.\n\nNow the part worth leading with, because it runs against the instinct. Yesterday should have been a bad day for bonds, and at the front end it was: the two-year yield rose to 4.74% and the ten-year to 5.01%, both the highest of the year. But the thirty-year yield actually fell, and it remains below its own peak from earlier this month. Gold rose overnight. That combination is the market expressing confidence rather than fear. Long-term yields reflect long-term inflation expectations; if investors thought the Fed was losing control, the thirty-year would be leading the move higher, not lagging it. Instead the curve flattened, which is the textbook signature of a central bank the market believes.\n\nThe second-order change is one almost nobody will mention, and it is the one worth understanding. The Fed quietly deleted the language attributing high inflation to energy supply shocks. For the last few years, an oil spike was something the Fed looked past, on the reasoning that it would hurt growth and fade on its own. That is over. With roughly 4% of global oil supply still disrupted and diesel at a record national average of $6.31 a gallon, the Fed has now said it will respond to energy-driven inflation rather than wait it out. Anyone whose mental model is \"oil shock means the Fed cuts\" has the sign backwards from here.\n\nWhat to do about it is, as usual, less dramatic than the news. Nothing in this changes a long-term allocation. Higher-for-longer rates are a tailwind for the fixed-income side of a balanced portfolio, which is a reversal from the 2022 experience when rising rates hurt everything at once - today the starting yields are high enough to absorb it. It is a headwind for anything that depends on cheap financing, which showed up plainly in housing yesterday: a major homebuilder cut its full-year delivery target with mortgage rates approaching 7%. And note what did not happen - stocks did not break. The market's internal mix rotated, with the rate-sensitive parts lagging and semiconductors actually finishing higher on the day. That is rotation, not risk-off, and rotation is what a healthy market does when the discount rate changes.\n\nThe trigger that would change this view: the long end. As long as the thirty-year stays below its September high while the front end rises, the market is endorsing the Fed's credibility and this stays a story about the price of money rather than a story about inflation getting away. If the thirty-year starts leading yields higher - particularly on an oil headline - that is the signal that the market has stopped believing the second half of the Fed's message, and it would warrant a genuine conversation about inflation-protected exposure. Watch tomorrow too: the Bank of Japan is expected to raise rates to their highest level since 1995, and Japanese policy is the quiet anchor under global bond yields."
+ "window": "Thu Sep 17, 4:00 PM ET \u2192 Fri Sep 18, 7:30 AM ET",
+ "lede": "BoJ hiked to a 31-year-high 1.25 percent and the yen fell anyway; crude down a third day; quad witching today.",
+ "asia_close": [
+  {
+   "market": "Nikkei 225",
+   "delta_pct": 1.38,
+   "level": "65,018.95"
+  },
+  {
+   "market": "KOSPI",
+   "delta_pct": 2.66,
+   "level": "6,894.23"
+  },
+  {
+   "market": "Shanghai Comp",
+   "delta_pct": 0.94,
+   "level": "3,911.87"
+  },
+  {
+   "market": "Hang Seng",
+   "delta_pct": 0.6,
+   "level": "24,750.78"
+  },
+  {
+   "market": "ASX 200",
+   "delta_pct": -0.11,
+   "level": "8,723.10"
+  }
+ ],
+ "europe_open": [
+  {
+   "market": "Euro STOXX 50",
+   "delta_pct": -0.79
+  },
+  {
+   "market": "DAX",
+   "delta_pct": -0.63
+  },
+  {
+   "market": "FTSE 100",
+   "delta_pct": -0.8
+  },
+  {
+   "market": "CAC 40",
+   "delta_pct": -0.96
+  }
+ ],
+ "single_name_moves": [
+  {
+   "ticker": "INTC",
+   "delta_pct": 7.67,
+   "venue": "Thu close"
+  },
+  {
+   "ticker": "AMD",
+   "delta_pct": 6.36,
+   "venue": "Thu close"
+  },
+  {
+   "ticker": "MU",
+   "delta_pct": 5.5,
+   "venue": "Thu close"
+  },
+  {
+   "ticker": "MRVL",
+   "delta_pct": 4.81,
+   "venue": "Thu close"
+  },
+  {
+   "ticker": "NVDA",
+   "delta_pct": 2.54,
+   "venue": "Thu close"
+  },
+  {
+   "ticker": "AVGO",
+   "delta_pct": 2.29,
+   "venue": "Thu close"
+  },
+  {
+   "ticker": "AAPL",
+   "delta_pct": 1.38,
+   "venue": "Thu close"
+  }
+ ],
+ "geo_headlines": [
+  "THE BANK OF JAPAN RAISED ITS POLICY RATE TO AROUND 1.25 PERCENT, THE HIGHEST IN JAPAN SINCE 1995. The vote was 7-2 and **both dissents were dovish** \u2014 Asada and Sato each preferred no change at all. On a separate vote, Takata and Tamura opposed the statement's description of the price outlook, arguing underlying inflation has *already* reached the 2 percent target. So the board is split on both sides of centre at once. There was no Outlook Report at this meeting and no change to the JGB taper. Governor Ueda said the policy phase has shifted and declined to rule out consecutive hikes. The yen weakened anyway: USD/JPY rose about 1.2 percent to roughly 157.8, EUR/JPY 1.2 percent and AUD/JPY 1.5 percent. A hike that was already 97 percent expected by economists cannot tighten anything; only the path can, and the path disappointed.",
+  "CRUDE FELL FOR A THIRD CONSECUTIVE SESSION ON HOPES THE SAUDI OUTAGE STAYS CONTAINED. WTI is back below 100 dollars and Brent near 103, which puts Brent on track for its **first weekly decline in three**. The optimism rests on thin evidence. Reuters now reports three pumping stations on the East-West line were damaged, one more than first assessed, Saudi and Houthi forces exchanged fresh cross-border strikes overnight, and there has been no new official Saudi production figure. Regional officials earlier said repairs could take three to five weeks; the tape is instead trading single-source reporting that a bypass is days away.",
+  "AAA DIESEL SET A NEW ALL-TIME RECORD AT 6.4476 DOLLARS A GALLON. This is read directly off AAA's own highest-recorded-average table, which now carries today's date \u2014 not inferred from the price level. It is the third consecutive record print, from 6.3103 on Tuesday through 6.3956 on Thursday, and it is up roughly 18 percent on the month. Regular unleaded is **not** a record and remains about 55 cents below its June 2022 high. Diesel is the freight-cost channel, so this is the piece that keeps showing up in goods prices with a lag.",
+  "THURSDAY'S BOND RALLY WAS ENTIRELY A REAL-RATE MOVE, WITH INFLATION EXPECTATIONS COMPLETELY UNCHANGED. The 10-year nominal fell 7bp to 4.94 percent and the 10-year TIPS yield fell 7bp to 2.61, leaving the 10-year breakeven dead flat at 233bp on both days. That happened on an afternoon when the 10-year TIPS reopening cleared at **2.653 percent, the highest 10-year real yield in nearly 18 years**, on a soft 2.24 bid-to-cover. The 10-year's move above 5 percent lasted exactly one close.",
+  "THE THURSDAY DATA WAS PRO-INFLATION AND PRO-HIKE, WHICH IS WHY THE RALLY IS WORTH A SECOND LOOK. Jobless claims fell 10,000 to **196,000** with no sign of labour-market cracking. The Philadelphia Fed headline beat every published estimate at 37.8, but its internals were the story: prices paid up 8 points to 48.6, prices received up 14 to 31.3 and the highest since April, while employment fell 16 points to 11.8. Rising input costs with slowing hiring is the uncomfortable combination. Housing was the offset \u2014 starts 1,275,000 and permits 1,394,000 both fell, and completions dropped 11.9 percent on the month and 27.1 percent on the year.",
+  "TODAY IS QUARTERLY QUAD WITCHING, THE LARGEST SINGLE EXPIRATION OF THE QUARTER. September equity options, index options, index futures and single-stock futures all expire, and CME's front E-mini S&P 500 contract has its last trade today. It lands 48 hours after the Fed hike, with **VIX down 12.8 percent to 15.44** and the term structure in deeper contango \u2014 an IVTS of 0.83 against 0.90 a day earlier. Large expirations release the dealer positioning that has been pinning the tape, so Monday's market can behave quite differently from Friday's without anything fundamental having changed."
+ ],
+ "client_frame_short": "Two central banks raised interest rates this week, and both stock and bond markets went up. That is not a contradiction \u2014 it is the single most useful thing to understand about how markets price policy. **A rate hike that everyone already expects does almost nothing; what moves markets is the path implied for the rates that come after it.** The Fed hiked Wednesday and Japan hiked overnight, and in both cases the decision itself was fully anticipated. What changed was the outlook beyond it: the market now prices a meaningfully lower peak in rates than it did 24 hours ago, so the 10-year Treasury yield fell back below 5 percent and equities rallied hard, led by semiconductors.",
+ "client_frame": "If a client asks why stocks rose after the Federal Reserve raised rates, the answer is that the hike was never the news. The Fed's 25bp move on Wednesday was universally expected, and the Bank of Japan's hike to 1.25 percent overnight was expected by 97 percent of surveyed economists. Anticipated decisions are already in the price. What is not in the price is the path, and the path moved in the market's favour this week: the probability of rates ending up at or above 4.50 percent by next March fell by about four percentage points, even as the odds of another hike in October edged slightly higher. Markets marked down the destination while marking up the next step. Lower destination is what matters for long-duration assets, which is why the 10-year Treasury yield fell seven basis points to 4.94 percent, giving back all of its brief move above 5 percent, and why the Nasdaq 100 rose 1.7 percent and semiconductors 3.1 percent.\n\nThere is a subtlety worth carrying into client conversations, because it cuts against the comfortable read. The entire bond rally was a real-rate move. The 10-year inflation-protected yield fell by exactly the same seven basis points as the nominal, which means the market's expected inflation over the next decade did not budge at all \u2014 it sat at 2.33 percent before and after. Investors did not become more confident about inflation this week; they became more confident that policy will not have to go much higher. Those are different beliefs, and the second one is more fragile than the first, particularly on a day when the Philadelphia Fed's survey showed input costs accelerating and its measure of prices charged to customers hitting a five-month high.\n\nThe more practical point for portfolios is what real yields now offer. Thursday's 10-year inflation-protected Treasury auction cleared at 2.653 percent \u2014 the highest real yield on that maturity in nearly 18 years. That is a contractually guaranteed 2.65 percent above inflation, before tax, for a decade. It reframes the whole allocation question. For most of the past 15 years the argument for taking equity risk was that safe assets paid nothing after inflation; that argument no longer holds. High-quality bonds are doing real work in a portfolio again, and for clients with defined future spending \u2014 a liability in eight years, a funding commitment, a retirement date \u2014 locking in a positive real return is now a genuine option rather than a consolation prize. That does not argue for abandoning equities. It argues that the bar equities have to clear has risen, and that diversification is finally being compensated rather than merely tolerated.\n\nOne housekeeping note for anyone watching prices today. This is quarterly quad witching, the largest options and futures expiration of the quarter, and it is landing two days after a Fed meeting with volatility sharply lower. Expirations of this size release the dealer hedging flows that tend to hold the market in a narrow range, so it is entirely normal for the following week to trade with more range than the week before it. If Monday looks choppier than Friday, that is mechanical, not a message about the economy \u2014 and the week ahead has no inflation report, no growth report and no Fed meeting to give it direction."
 }

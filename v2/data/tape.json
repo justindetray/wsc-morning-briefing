@@ -1,137 +1,137 @@
 {
  "ES": {
-  "value": 7688.0,
-  "prev_close": 7623.0,
-  "delta_pct": 0.8527,
+  "value": 7720.75,
+  "prev_close": 7707.25,
+  "delta_pct": 0.1752,
   "label": "S&P 500 fut",
-  "as_of": "Thu 7:05 ET",
+  "as_of": "Fri 7:00 ET",
   "status": "LIVE",
-  "source": "finance API live quote ts 2026-09-17 11:05:20 UTC; base = vendor previousClose 7,623.00 = Wed 9/16 CME settle (same series). Overnight range 7,617.50-7,690.50"
+  "source": "finance API live quote ts 2026-09-18 10:54:36 UTC; base = vendor previousClose 7,707.25 = Thu 9/17 CME settle (same series). Overnight range 7,696.00-7,739.25"
  },
  "NQ": {
-  "value": 29591.75,
-  "prev_close": 29256.75,
-  "delta_pct": 1.145,
+  "value": 29876.25,
+  "prev_close": 29743.0,
+  "delta_pct": 0.448,
   "label": "Nasdaq 100 fut",
-  "as_of": "Thu 7:05 ET",
+  "as_of": "Fri 7:00 ET",
   "status": "LIVE",
-  "source": "finance API live quote ts 2026-09-17 11:05:17 UTC; base = Wed 9/16 CME settle 29,256.75. Overnight range 29,247.75-29,610.25. +1.15% is INSIDE the 2% escalation trigger, no pause required"
- },
- "WTI": {
-  "value": 100.36,
-  "prev_close": 102.43,
-  "delta_pct": -2.0209,
-  "label": "WTI crude",
-  "as_of": "Thu 7:15 ET",
-  "status": "LIVE",
-  "source": "finance API live quote ts 2026-09-17 11:15:16 UTC; base = Wed 9/16 settle 102.43. Overnight range 100.34-102.45; trading at the session low, now BELOW $101 with the Saudi East-West pipeline still shut"
- },
- "BRENT": {
-  "value": 102.87,
-  "prev_close": 105.83,
-  "delta_pct": -2.7969,
-  "label": "Brent crude",
-  "as_of": "Thu 7:15 ET",
-  "status": "LIVE",
-  "source": "finance API live quote ts 2026-09-17 11:15:18 UTC; base = Wed 9/16 ICE settle 105.83. At the session low 102.87; second consecutive down day"
- },
- "GOLD": {
-  "value": 4370.4,
-  "prev_close": 4387.5,
-  "delta_pct": -0.3897,
-  "label": "Gold",
-  "as_of": "Thu 7:05 ET",
-  "status": "LIVE",
-  "source": "finance API live quote ts 2026-09-17 11:05:05 UTC; base = Wed 9/16 settle 4,387.50. Overnight range 4,294.50-4,374.40. NOT a record: 2026 high 5,626.80"
- },
- "BTC": {
-  "value": 76377.59,
-  "prev_close": 76143.81,
-  "delta_pct": 0.307,
-  "label": "Bitcoin",
-  "as_of": "Thu 7:15 ET",
-  "status": "LIVE",
-  "source": "finance API live quote ts 2026-09-17 11:15:14 UTC (market_status=open); base = vendor previousClose 76,143.81. Independent Polygon X:BTCUSD 9/16 UTC close 76,138.60 = 0.007% venue offset, agrees (#181-D cross-check)"
- },
- "EURJPY": {
-  "value": 178.63,
-  "prev_close": 179.1,
-  "delta_pct": -0.2624,
-  "label": "EUR/JPY",
-  "as_of": "Thu 7:13 ET",
-  "status": "LIVE",
-  "source": "finance API live quote ts 2026-09-17 11:13:54 UTC; base = Wed close 179.10"
- },
- "AUDJPY": {
-  "value": 110.67,
-  "prev_close": 110.72,
-  "delta_pct": -0.0452,
-  "label": "AUD/JPY",
-  "as_of": "Thu 7:13 ET",
-  "status": "LIVE",
-  "source": "finance API live quote ts 2026-09-17 11:13:42 UTC; base = Wed close 110.72"
+  "source": "finance API live quote ts 2026-09-18 10:54:31 UTC; base = Thu 9/17 CME settle 29,743.00 (same series). Overnight range 29,648.00-29,966.75"
  },
  "SPX": {
-  "value": 7551.81,
-  "prev_close": 7585.73,
-  "delta_pct": -0.4472,
+  "value": 7637.76,
+  "prev_close": 7551.81,
+  "delta_pct": 1.1381,
   "label": "S&P 500",
-  "as_of": "Wed 9/16 close",
+  "as_of": "Thu close",
   "status": "CLOSED",
-  "source": "Polygon I:SPX daily 2026-09-16 settled close vs 2026-09-15 close 7,585.73. Session range 7,507.77-7,626.79 - a 119-point round trip on the decision"
+  "source": "Polygon I:SPX daily 2026-09-17 settled close vs 2026-09-16 close 7,551.81. Session range 7,611.81-7,646.86"
  },
  "NDX": {
-  "value": 28945.06,
-  "prev_close": 28937.84,
-  "delta_pct": 0.025,
+  "value": 29446.98,
+  "prev_close": 28945.06,
+  "delta_pct": 1.734,
   "label": "Nasdaq 100",
-  "as_of": "Wed 9/16 close",
+  "as_of": "Thu close",
   "status": "CLOSED",
-  "source": "Polygon I:NDX daily 2026-09-16 settled close vs 2026-09-15 close 28,937.84. Range 28,753.29-29,235.89. Essentially unchanged - the only large-cap index that did not fall on decision day"
+  "source": "Polygon I:NDX daily 2026-09-17 settled close vs 2026-09-16 close 28,945.06. Session range 29,305.90-29,494.95"
  },
  "SOX": {
-  "value": 11246.11,
-  "prev_close": 11175.55,
-  "delta_pct": 0.6314,
-  "label": "Semis (SOX)",
-  "as_of": "Wed 9/16 close",
+  "value": 11599.49,
+  "prev_close": 11246.11,
+  "delta_pct": 3.1422,
+  "label": "Semis",
+  "as_of": "Thu close",
   "status": "CLOSED",
-  "source": "Polygon I:SOX daily 2026-09-16 settled close vs 2026-09-15 close 11,175.55. Range 11,132.26-11,413.46. Second consecutive green session after the 9/14 5.86% collapse"
+  "source": "Polygon I:SOX daily 2026-09-17 settled close vs 2026-09-16 close 11,246.11. Session range 11,533.95-11,643.88 - best sector move of the week"
  },
  "DJI": {
-  "value": 51461.9,
-  "prev_close": 52093.11,
-  "delta_pct": -1.2117,
+  "value": 51778.04,
+  "prev_close": 51461.9,
+  "delta_pct": 0.6143,
   "label": "Dow",
-  "as_of": "Wed 9/16 close",
+  "as_of": "Thu close",
   "status": "CLOSED",
-  "source": "Polygon I:DJI daily 2026-09-16 settled close vs 2026-09-15 close 52,093.11. Range 51,186.67-52,173.70. Worst of the four by a wide margin"
+  "source": "Polygon I:DJI daily 2026-09-17 settled close vs 2026-09-16 close 51,461.90. Session range 51,607.65-51,935.97"
  },
  "VIX": {
-  "value": 17.71,
-  "prev_close": 17.2,
-  "delta_pct": 2.9651,
+  "value": 15.44,
+  "prev_close": 17.71,
+  "delta_pct": -12.8176,
   "label": "VIX",
-  "as_of": "Wed 9/16 close",
+  "as_of": "Thu close",
   "status": "CLOSED",
-  "source": "Polygon I:VIX daily 2026-09-16 SETTLED close vs 2026-09-15 close 17.20; confirmed settled by its same-day I:VXN twin at 22.44 (#177-A). Intraday high 18.94 on the decision. The 9/17 I:VIX bar (15.96) has NO VXN twin and is NOT shipped; the connector's 15.91 pre-open indication is prose only"
+  "source": "Polygon I:VIX daily 2026-09-17 SETTLED close vs 2026-09-16 close 17.71; settled status confirmed by the same-day I:VXN twin at 19.96 (#177-A). Session range 15.38-16.29. The 2026-09-18 I:VIX bar has NO VXN twin and is excluded"
  },
  "US10Y": {
-  "value": 5.01,
-  "prev_close": 5.0,
-  "delta_pct": 0.2,
-  "label": "US 10-year",
-  "as_of": "Wed 9/16 CMT",
+  "value": 4.94,
+  "prev_close": 5.01,
+  "delta_pct": -1.3972,
+  "label": "US 10y",
+  "as_of": "Thu close",
   "status": "CLOSED",
-  "source": "Treasury daily par yield curve, observation 09/16/2026 vs 09/15/2026 5.00. NEW 2026 MAXIMUM (prior max was Tuesday's 5.00) and a second consecutive close at or above 5%. Corroborated by connector ^TNX 5.01 (Wed 18:59 UTC)"
+  "source": "Treasury CMT observation 09/17/2026 vs 09/16/2026 5.01. Back BELOW 5% after exactly one close above it; 7bp below the 2026 max of 5.01 set 09/16"
  },
  "US2Y": {
-  "value": 4.74,
-  "prev_close": 4.67,
-  "delta_pct": 1.4989,
-  "label": "US 2-year",
-  "as_of": "Wed 9/16 CMT",
+  "value": 4.67,
+  "prev_close": 4.74,
+  "delta_pct": -1.4768,
+  "label": "US 2y",
+  "as_of": "Thu close",
   "status": "CLOSED",
-  "source": "Treasury daily par yield curve, observation 09/16/2026 vs 09/15/2026 4.67. NEW 2026 MAXIMUM. +7bp is the largest one-day move on the curve and the front-end signature of a hawkish dot plot"
+  "source": "Treasury CMT observation 09/17/2026 vs 09/16/2026 4.74. 7bp below the 2026 max of 4.74 set 09/16. 2s10s +27bp, UNCHANGED on the day - a near-parallel rally"
+ },
+ "WTI": {
+  "value": 95.69,
+  "prev_close": 101.91,
+  "delta_pct": -6.1034,
+  "label": "WTI crude",
+  "as_of": "Fri 7:00 ET",
+  "status": "LIVE",
+  "source": "finance API live quote ts 2026-09-18 10:54:40 UTC; base = Thu 9/17 settle 101.91. Overnight range 94.83-96.84 - largest one-day fall of the episode"
+ },
+ "BRENT": {
+  "value": 102.59,
+  "prev_close": 104.82,
+  "delta_pct": -2.1275,
+  "label": "Brent crude",
+  "as_of": "Fri 7:00 ET",
+  "status": "LIVE",
+  "source": "finance API live quote ts 2026-09-18 11:04:34 UTC; base = Thu 9/17 ICE settle 104.82. Overnight range 101.94-104.24"
+ },
+ "GOLD": {
+  "value": 4416.9,
+  "prev_close": 4399.7,
+  "delta_pct": 0.3909,
+  "label": "Gold",
+  "as_of": "Fri 7:00 ET",
+  "status": "LIVE",
+  "source": "finance API live quote ts 2026-09-18 10:54:31 UTC; base = Thu 9/17 settle 4,399.70 (same series). Overnight range 4,372.20-4,439.80"
+ },
+ "BTC": {
+  "value": 78280.97,
+  "prev_close": 76350.68,
+  "delta_pct": 2.5282,
+  "label": "Bitcoin",
+  "as_of": "Fri 7:00 ET",
+  "status": "LIVE",
+  "source": "finance API live quote ts 2026-09-18 11:04:36 UTC (market_status=open); base = vendor previousClose 76,350.68. Polygon X:BTCUSD 9/17 close 76,348.74 corroborates the base to 0.0025% (#181-D cross-check, not mixed)"
+ },
+ "EURJPY": {
+  "value": 181.1,
+  "prev_close": 178.95,
+  "delta_pct": 1.2015,
+  "label": "EUR/JPY",
+  "as_of": "Fri 7:00 ET",
+  "status": "LIVE",
+  "source": "finance API live quote ts 2026-09-18 11:03:53 UTC; base = Thu close 178.95"
+ },
+ "AUDJPY": {
+  "value": 112.47,
+  "prev_close": 110.84,
+  "delta_pct": 1.4706,
+  "label": "AUD/JPY",
+  "as_of": "Fri 7:00 ET",
+  "status": "LIVE",
+  "source": "finance API live quote ts 2026-09-18 11:03:55 UTC; base = Thu close 110.84"
  }
 }
