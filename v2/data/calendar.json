@@ -1,83 +1,152 @@
 {
- "last_curated": "2026-09-18T07:30:00-04:00",
+ "last_curated": "2026-09-19",
  "macro": [
   {
-   "date": "2026-09-17",
-   "time_et": "8:30 AM",
-   "event": "Initial Jobless Claims, week ending Sept 12 \u2014 LANDED",
-   "consensus": "was ~205K; came in at 196,000, DOWN 10,000 from an unrevised 206,000, and the 4-week average fell to 203,250. Insured unemployment 1,730,000, rate 1.1%. No crack in the labour market \u2014 this is the print that lets Warsh keep hiking",
-   "importance": "high"
-  },
-  {
-   "date": "2026-09-17",
-   "time_et": "8:30 AM",
-   "event": "Philadelphia Fed Manufacturing Survey, September \u2014 LANDED",
-   "consensus": "was UNRECONCILED at 27.5/30.5/31.3/37; came in at 37.8, down from 47.4 but well above every published estimate. The internals matter more than the beat: prices paid +8 to 48.6, prices received +14 to 31.3 (highest since April), employment \u221216 to 11.8, new orders 29.2",
-   "importance": "high"
-  },
-  {
-   "date": "2026-09-17",
-   "time_et": "8:30 AM",
-   "event": "Housing Starts & Building Permits, August (Census) \u2014 LANDED",
-   "consensus": "was starts ~1.30M / permits ~1.40M; starts 1,275,000 (\u22122.6% vs revised July 1,309,000), permits 1,394,000 (\u22122.7%), completions 1,128,000 (\u221211.9% m/m and \u221227.1% y/y). Single-family starts bucked it at 918,000, +7.6%",
+   "date": "2026-09-21",
+   "time_et": "6:30 AM",
+   "event": "Fed's Goolsbee (non-voter), OMFIF London",
+   "consensus": "n/a - first FOMC voice since the blackout lifted Sept 17",
    "importance": "medium"
   },
   {
-   "date": "2026-09-17",
+   "date": "2026-09-21",
+   "time_et": "8:30 AM",
+   "event": "Chicago Fed National Activity Index (Aug)",
+   "consensus": "n/a - only US data point Mon-Wed",
+   "importance": "low"
+  },
+  {
+   "date": "2026-09-21",
+   "time_et": "",
+   "event": "Treasury: 13-week and 26-week bill auctions",
+   "consensus": "n/a - bills only",
+   "importance": "low"
+  },
+  {
+   "date": "2026-09-22",
+   "time_et": "10:05 AM",
+   "event": "Fed's Williams (voter), US Treasury Market Conference, FRBNY",
+   "consensus": "n/a - plumbing and duration focus",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-09-22",
+   "time_et": "10:20 AM",
+   "event": "Fed Vice Chair Jefferson, discount window and Treasury market functioning",
+   "consensus": "n/a - most senior Board voice scheduled all week",
+   "importance": "high"
+  },
+  {
+   "date": "2026-09-22",
    "time_et": "1:00 PM",
-   "event": "10-Year TIPS reopening, $19B, CUSIP 91282CRE3 \u2014 LANDED",
-   "consensus": "the 7/23 original cleared 2.438% real; this reopening cleared 2.653%, which TIPSWatch calls the highest 10-year TIPS real yield in nearly 18 years, on a 2.24 bid-to-cover. A 2.65% guaranteed real return is now the hurdle every risk asset has to clear",
-   "importance": "high"
-  },
-  {
-   "date": "2026-09-17",
-   "time_et": "11:59 PM",
-   "event": "FOMC communications blackout ENDS",
-   "consensus": "ran Sat Sept 5 through last night. Committee members can speak again starting today",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-09-18",
-   "time_et": "12:00 AM",
-   "event": "Bank of Japan policy decision \u2014 LANDED",
-   "consensus": "was +25bp to 1.25%, and that was DELIVERED \u2014 the highest Japanese policy rate since 1995. But the vote was 7-2 with BOTH dissents DOVISH (Asada and Sato, each preferring no change), and the yen fell anyway: USD/JPY +1.2% to ~157.8",
-   "importance": "high",
-   "note": "effective Sept 24; guidance retained \u2014 the Bank 'will continue to raise the policy interest rate'"
-  },
-  {
-   "date": "2026-09-18",
-   "time_et": "9:15 AM",
-   "event": "Industrial Production & Capacity Utilization (G.17), August (Federal Reserve)",
-   "consensus": "IP +0.3% (8 economists) and capacity utilisation 76.5% (7); priors +0.2% and 76.3%",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-09-18",
-   "time_et": "9:30 AM",
-   "event": "Fed Vice Chair for Supervision Michelle Bowman \u2014 'Stress Testing', London",
-   "consensus": "n/a \u2014 first Fed appearance after the blackout lifts, 39 hours after it ended, but the topic is bank supervision, NOT monetary policy. Do not price it as post-meeting guidance",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-09-18",
-   "time_et": "10:00 AM",
-   "event": "Conference Board Leading Economic Index, August",
-   "consensus": "+0.2% (3 economists), matching the July print",
+   "event": "Fed's Barkin (non-voter), CFA Society Baltimore",
+   "consensus": "n/a",
    "importance": "low"
   },
   {
-   "date": "2026-09-18",
-   "time_et": "10:00 AM",
-   "event": "State Employment and Unemployment, August (BLS)",
-   "consensus": "n/a \u2014 state-level detail behind the national August payroll report",
+   "date": "2026-09-22",
+   "time_et": "",
+   "event": "Treasury: 2-year note auction",
+   "consensus": "n/a - first leg of the duration test, with the 2y at a 2026 high of 4.76%",
+   "importance": "high"
+  },
+  {
+   "date": "2026-09-22",
+   "time_et": "",
+   "event": "AutoZone (AZO) Q4 FY26, before the open",
+   "consensus": "n/a - consumer hard-parts read",
    "importance": "low"
   },
   {
-   "date": "2026-09-18",
-   "time_et": "4:00 PM",
-   "event": "Quarterly quad witching \u2014 September equity, index-option and index-futures expiration",
-   "consensus": "n/a \u2014 CME's front E-mini S&P 500 contract has LAST TRADE 18 SEP 2026. The largest single expiration of the quarter, and it lands on a day when dealers are sitting on a big post-FOMC volatility crush",
+   "date": "2026-09-23",
+   "time_et": "10:05 AM",
+   "event": "Fed Governor Barr, Housing, Chicago Fed",
+   "consensus": "n/a",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-09-23",
+   "time_et": "",
+   "event": "Treasury: 2-year FRN and 5-year note auctions",
+   "consensus": "n/a - the 5y tied its 2026 high of 4.86% on Friday",
    "importance": "high"
+  },
+  {
+   "date": "2026-09-23",
+   "time_et": "",
+   "event": "EIA Weekly Petroleum Status Report",
+   "consensus": "n/a - EIA introduces methodology and presentation changes in THIS release; a data-continuity break",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-09-23",
+   "time_et": "",
+   "event": "Cintas (CTAS) Q1 FY27",
+   "consensus": "n/a - call 10:00 AM ET",
+   "importance": "low"
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "8:30 AM",
+   "event": "BEA: US International Transactions, Q2 2026",
+   "consensus": "n/a",
+   "importance": "low"
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "8:50 AM",
+   "event": "Fed's Hammack (voter), Cleveland Fed inflation conference",
+   "consensus": "n/a",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "10:00 AM",
+   "event": "New Residential Sales (Aug)",
+   "consensus": "n/a - first housing print since starts fell 2.6% and permits 2.7%",
+   "importance": "high"
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "2:00 PM",
+   "event": "Fed Senior Credit Officer Opinion Survey (SCOOS)",
+   "consensus": "n/a - dealer financing terms, a leverage tell",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "",
+   "event": "Treasury: 7-year note auction",
+   "consensus": "n/a - final leg of the duration test",
+   "importance": "high"
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "",
+   "event": "Xi Jinping state visit, White House meeting with Trump",
+   "consensus": "n/a - AI policy expected on the agenda",
+   "importance": "high"
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "",
+   "event": "Costco (COST) Q4 and FY26",
+   "consensus": "n/a - call 5:00 PM ET; the only large index-mover reporting",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-09-25",
+   "time_et": "8:30 AM",
+   "event": "Advance Durable Goods (Aug)",
+   "consensus": "n/a - last hard data before the Sept 29-30 cluster",
+   "importance": "high"
+  },
+  {
+   "date": "2026-09-25",
+   "time_et": "2:00 PM",
+   "event": "Fed's Hammack on policy panel with ECB's Vujcic and Banxico's Heath",
+   "consensus": "n/a",
+   "importance": "low"
   }
  ],
  "earnings": []

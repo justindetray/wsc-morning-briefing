@@ -1,137 +1,119 @@
 {
- "ES": {
-  "value": 7720.75,
-  "prev_close": 7707.25,
-  "delta_pct": 0.1752,
-  "label": "S&P 500 fut",
-  "as_of": "Fri 7:00 ET",
-  "status": "LIVE",
-  "source": "finance API live quote ts 2026-09-18 10:54:36 UTC; base = vendor previousClose 7,707.25 = Thu 9/17 CME settle (same series). Overnight range 7,696.00-7,739.25"
- },
- "NQ": {
-  "value": 29876.25,
-  "prev_close": 29743.0,
-  "delta_pct": 0.448,
-  "label": "Nasdaq 100 fut",
-  "as_of": "Fri 7:00 ET",
-  "status": "LIVE",
-  "source": "finance API live quote ts 2026-09-18 10:54:31 UTC; base = Thu 9/17 CME settle 29,743.00 (same series). Overnight range 29,648.00-29,966.75"
- },
  "SPX": {
-  "value": 7637.76,
-  "prev_close": 7551.81,
-  "delta_pct": 1.1381,
+  "value": 7650.5,
+  "prev_close": 7637.76,
+  "delta_pct": 0.1668,
   "label": "S&P 500",
-  "as_of": "Thu close",
+  "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Polygon I:SPX daily 2026-09-17 settled close vs 2026-09-16 close 7,551.81. Session range 7,611.81-7,646.86"
+  "source": "Polygon I:SPX daily 2026-09-18 settled close vs 2026-09-17 close 7,637.76. Session range 7,610.52-7,657.17 - OPENED AT THE HIGH and faded all day"
  },
  "NDX": {
-  "value": 29446.98,
-  "prev_close": 28945.06,
-  "delta_pct": 1.734,
+  "value": 29644.17,
+  "prev_close": 29446.98,
+  "delta_pct": 0.6696,
   "label": "Nasdaq 100",
-  "as_of": "Thu close",
+  "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Polygon I:NDX daily 2026-09-17 settled close vs 2026-09-16 close 28,945.06. Session range 29,305.90-29,494.95"
+  "source": "Polygon I:NDX daily 2026-09-18 settled close vs 2026-09-17 close 29,446.98. Session high 29,647.80"
  },
  "SOX": {
-  "value": 11599.49,
-  "prev_close": 11246.11,
-  "delta_pct": 3.1422,
+  "value": 11921.69,
+  "prev_close": 11599.49,
+  "delta_pct": 2.7777,
   "label": "Semis",
-  "as_of": "Thu close",
+  "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Polygon I:SOX daily 2026-09-17 settled close vs 2026-09-16 close 11,246.11. Session range 11,533.95-11,643.88 - best sector move of the week"
+  "source": "Polygon I:SOX daily 2026-09-18 settled close vs 2026-09-17 close 11,599.49. Session high 11,922.95 - CLOSED ON ITS HIGH, the only thing holding the index up"
  },
  "DJI": {
-  "value": 51778.04,
-  "prev_close": 51461.9,
-  "delta_pct": 0.6143,
+  "value": 51682.64,
+  "prev_close": 51778.04,
+  "delta_pct": -0.1842,
   "label": "Dow",
-  "as_of": "Thu close",
+  "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Polygon I:DJI daily 2026-09-17 settled close vs 2026-09-16 close 51,461.90. Session range 51,607.65-51,935.97"
+  "source": "Polygon I:DJI daily 2026-09-18 settled close vs 2026-09-17 close 51,778.04. Opened at the session high 51,826.78. Third straight down week"
  },
  "VIX": {
-  "value": 15.44,
-  "prev_close": 17.71,
-  "delta_pct": -12.8176,
+  "value": 14.81,
+  "prev_close": 15.44,
+  "delta_pct": -4.0803,
   "label": "VIX",
-  "as_of": "Thu close",
+  "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Polygon I:VIX daily 2026-09-17 SETTLED close vs 2026-09-16 close 17.71; settled status confirmed by the same-day I:VXN twin at 19.96 (#177-A). Session range 15.38-16.29. The 2026-09-18 I:VIX bar has NO VXN twin and is excluded"
+  "source": "Polygon I:VIX daily 2026-09-18 SETTLED close vs 2026-09-17 close 15.44; settled status confirmed by the same-day I:VXN twin at 19.29 (#177-A does NOT fire this run). Session range 14.80-15.63"
  },
  "US10Y": {
-  "value": 4.94,
-  "prev_close": 5.01,
-  "delta_pct": -1.3972,
+  "value": 5.01,
+  "prev_close": 4.94,
+  "delta_pct": 1.417,
   "label": "US 10y",
-  "as_of": "Thu close",
+  "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Treasury CMT observation 09/17/2026 vs 09/16/2026 5.01. Back BELOW 5% after exactly one close above it; 7bp below the 2026 max of 5.01 set 09/16"
+  "source": "Treasury CMT observation 09/18/2026 vs 09/17/2026 4.94. +7bp. TIED the 2026 high of 5.01 set 09/16 - tied, NOT a new high"
  },
  "US2Y": {
-  "value": 4.67,
-  "prev_close": 4.74,
-  "delta_pct": -1.4768,
+  "value": 4.76,
+  "prev_close": 4.67,
+  "delta_pct": 1.9272,
   "label": "US 2y",
-  "as_of": "Thu close",
+  "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Treasury CMT observation 09/17/2026 vs 09/16/2026 4.74. 7bp below the 2026 max of 4.74 set 09/16. 2s10s +27bp, UNCHANGED on the day - a near-parallel rally"
+  "source": "Treasury CMT observation 09/18/2026 vs 09/17/2026 4.67. +9bp = NEW OUTRIGHT 2026 HIGH (prior max 4.74 on 09/16). 2s10s flattened to +25bp from +27bp"
  },
  "WTI": {
-  "value": 95.69,
+  "value": 100.3,
   "prev_close": 101.91,
-  "delta_pct": -6.1034,
+  "delta_pct": -1.5798,
   "label": "WTI crude",
-  "as_of": "Fri 7:00 ET",
-  "status": "LIVE",
-  "source": "finance API live quote ts 2026-09-18 10:54:40 UTC; base = Thu 9/17 settle 101.91. Overnight range 94.83-96.84 - largest one-day fall of the episode"
+  "as_of": "Fri 9/18 close",
+  "status": "CLOSED",
+  "source": "Front-month Oct WTI (CLV26) settle 100.30, -1.6%, per CNBC 2026-09-18; base = Thu 9/17 settle 101.91. NOT the finance-API CLUSD value (96.08 = Nov CLX26, deferred contract - value/base series mismatch, see lesson #187-B)"
  },
  "BRENT": {
-  "value": 102.59,
+  "value": 103.87,
   "prev_close": 104.82,
-  "delta_pct": -2.1275,
+  "delta_pct": -0.9063,
   "label": "Brent crude",
-  "as_of": "Fri 7:00 ET",
-  "status": "LIVE",
-  "source": "finance API live quote ts 2026-09-18 11:04:34 UTC; base = Thu 9/17 ICE settle 104.82. Overnight range 101.94-104.24"
+  "as_of": "Fri 9/18 close",
+  "status": "CLOSED",
+  "source": "ICE Brent front-month settle 103.87, -0.9%, per CNBC 2026-09-18; independently matched to the cent by the finance API BZUSD close and by TradingEconomics 103.870. Base = Thu 9/17 settle 104.82"
  },
  "GOLD": {
-  "value": 4416.9,
+  "value": 4424.9,
   "prev_close": 4399.7,
-  "delta_pct": 0.3909,
+  "delta_pct": 0.5728,
   "label": "Gold",
-  "as_of": "Fri 7:00 ET",
-  "status": "LIVE",
-  "source": "finance API live quote ts 2026-09-18 10:54:31 UTC; base = Thu 9/17 settle 4,399.70 (same series). Overnight range 4,372.20-4,439.80"
+  "as_of": "Fri 9/18 close",
+  "status": "CLOSED",
+  "source": "finance API GCUSD settle ts 2026-09-18 21:00 UTC; base = Thu 9/17 settle 4,399.70 (same series). Session range 4,372.20-4,439.80"
  },
  "BTC": {
-  "value": 78280.97,
-  "prev_close": 76350.68,
-  "delta_pct": 2.5282,
+  "value": 81273.36,
+  "prev_close": 80877.27,
+  "delta_pct": 0.4897,
   "label": "Bitcoin",
-  "as_of": "Fri 7:00 ET",
+  "as_of": "Sat 7:14 ET",
   "status": "LIVE",
-  "source": "finance API live quote ts 2026-09-18 11:04:36 UTC (market_status=open); base = vendor previousClose 76,350.68. Polygon X:BTCUSD 9/17 close 76,348.74 corroborates the base to 0.0025% (#181-D cross-check, not mixed)"
+  "source": "finance API BTCUSD live quote ts 2026-09-19 11:13:41 UTC (market_status=open); base = vendor previousClose 80,877.27, corroborated by Polygon X:BTCUSD 9/18 daily close 80,875.04 to 0.003% (#181-D cross-check, series not mixed). Only live market on the board"
  },
  "EURJPY": {
-  "value": 181.1,
+  "value": 179.53,
   "prev_close": 178.95,
-  "delta_pct": 1.2015,
+  "delta_pct": 0.3241,
   "label": "EUR/JPY",
-  "as_of": "Fri 7:00 ET",
-  "status": "LIVE",
-  "source": "finance API live quote ts 2026-09-18 11:03:53 UTC; base = Thu close 178.95"
+  "as_of": "Fri 9/18 close",
+  "status": "CLOSED",
+  "source": "finance API EURJPY last print carried from the Fri 5pm ET FX close; base = Thu 9/17 close 178.95. Was 181.10 at Fri 07:00 ET - the yen RECOVERED through the US session after the BoJ hike"
  },
  "AUDJPY": {
-  "value": 112.47,
+  "value": 111.74,
   "prev_close": 110.84,
-  "delta_pct": 1.4706,
+  "delta_pct": 0.812,
   "label": "AUD/JPY",
-  "as_of": "Fri 7:00 ET",
-  "status": "LIVE",
-  "source": "finance API live quote ts 2026-09-18 11:03:55 UTC; base = Thu close 110.84"
+  "as_of": "Fri 9/18 close",
+  "status": "CLOSED",
+  "source": "finance API AUDJPY last print carried from the Fri 5pm ET FX close; base = Thu 9/17 close 110.84. Was 112.47 at Fri 07:00 ET - same intraday yen recovery"
  }
 }
