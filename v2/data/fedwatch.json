@@ -48,7 +48,8 @@
    "hike_50": 0.289128,
    "hike_75": 0.355989,
    "hike_100": 0.196687,
-   "cumulative_hike": 0.986223
+   "hike_125": 0.039045,
+   "cumulative_hike": 0.9862230000000001
   }
  ],
  "status": "LIVE"

@@ -1,54 +1,52 @@
 {
- "window": "Friday 2026-09-18 close -> Saturday 2026-09-19 7:00 AM ET (weekend edition)",
- "lede": "Weekend edition: week in review and week ahead.",
+ "window": "Friday 2026-09-18 close -> Sunday 2026-09-20 7:00 AM ET (weekend edition, day 2)",
+ "lede": "Sunday edition: nothing traded but crypto; Washington and Beijing negotiate today.",
  "asia_close": [],
  "europe_open": [],
  "single_name_moves": [
   {
    "ticker": "MU",
-   "delta_pct": 3.9182,
-   "venue": "Fri close"
+   "delta_pct": 3.92,
+   "venue": "Fri 9/18 close"
   },
   {
    "ticker": "AVGO",
-   "delta_pct": 2.9686,
-   "venue": "Fri close"
+   "delta_pct": 2.97,
+   "venue": "Fri 9/18 close"
   },
   {
    "ticker": "AMD",
-   "delta_pct": 2.7023,
-   "venue": "Fri close"
-  },
-  {
-   "ticker": "MRVL",
-   "delta_pct": 1.4496,
-   "venue": "Fri close"
+   "delta_pct": 2.7,
+   "venue": "Fri 9/18 close"
   },
   {
    "ticker": "NVDA",
-   "delta_pct": 1.3359,
-   "venue": "Fri close"
+   "delta_pct": 1.34,
+   "venue": "Fri 9/18 close"
   },
   {
    "ticker": "INTC",
-   "delta_pct": -0.1838,
-   "venue": "Fri close"
+   "delta_pct": -0.18,
+   "venue": "Fri 9/18 close"
   },
   {
    "ticker": "AAPL",
-   "delta_pct": -0.2582,
-   "venue": "Fri close"
+   "delta_pct": -0.26,
+   "venue": "Fri 9/18 close"
+  },
+  {
+   "ticker": "XLU",
+   "delta_pct": -1.41,
+   "venue": "Fri 9/18 close"
   }
  ],
  "geo_headlines": [
-  "ARAMCO HAS TOLD AT LEAST TWO EUROPEAN TERM REFINERIES THEY WILL GET NO CRUDE AT ALL IN OCTOBER. Poland's Orlen is named and is buying North Sea grades to replace the barrels. Three pumping stations on the East-West pipeline are damaged; Aramco is targeting a partial restart within days but **full capacity in roughly six weeks**, and is lifting Gulf exports via ship-to-ship transfers off Sohar, Oman. The market read this as a geographic reshuffle rather than lost volume, which is why crude fell on the news. Bloomberg-sourced; Reuters says it could not independently verify.",
-  "THE INDEX LEVEL ON FRIDAY WAS A CAP-WEIGHT ARTIFACT, NOT A RALLY. The S&P closed +0.17% on 25.29bn shares against a 16.19bn twenty-day average - about **1.56x normal volume** - while NYSE decliners beat advancers 1.78-to-1 and new lows beat new highs 346 to 92. Quad witching does that: the cap-weighted index was carried by semiconductors alone while the median stock fell. The SOX closed +2.78% on its high; utilities, the rate-sensitive leg, fell 1.4%.",
-  "FRIDAY ERASED THURSDAY'S ENTIRE BOND RALLY AND THEN SOME. The 2-year jumped 9bp to **4.76%, a new outright 2026 high**, while the 5-year and 10-year each rose to 4.86% and 5.01% - tying, not exceeding, the highs set on 9/16. The curve flattened to +25bp from +27bp. CME pricing moved with it: the odds of a hike by the December meeting rose to 89.5%, and the probability the band's upper bound is at or above 4.50% by January went from 56.8% to 62.9% in a single session.",
-  "THE WEEK'S ENTIRE YIELD MOVE WAS REAL RATES, WITH INFLATION EXPECTATIONS COMPLETELY STILL. The 10-year breakeven printed **233bp for three consecutive sessions** - 9/16, 9/17 and 9/18 - while the real 10-year yield round-tripped from 2.68% to 2.61% and back to 2.68%. That is a market repricing the growth-and-policy path, not the inflation path, even with crude near $100 and AAA diesel at an all-time high of $6.4476 a gallon.",
-  "TAIL HEDGING GOT MORE EXPENSIVE EVEN AS SPOT VOLATILITY COLLAPSED. The VIX fell to 14.81 from 15.44 and nine-day vol dropped to 12.27 from 13.39, yet **SKEW rose to 148.10 from 145.70**. Investors sold near-term volatility into the expiration while paying up for crash protection. The term structure stayed steeply upward-sloping with the VIX/VIX3M ratio at 0.81.",
-  "THE YEN REVERSED ITS BANK OF JAPAN SELLOFF DURING THE US SESSION. The BoJ hiked to around 1.25% on a 7-2 vote and the yen initially weakened, with dollar-yen at 157.79 by Friday morning. By the Friday close it had recovered to **156.85**, and euro-yen fell from 181.10 to 179.53. The funding-currency trade did not extend the way the hike-and-weaken pattern implied earlier in the day.",
-  "NEXT WEEK IS A MACRO VACUUM WITH A DURATION TEST SITTING IN THE MIDDLE OF IT. There is no PCE, no GDP revision, no consumer confidence and no existing-home sales - all of those fall on or after September 29. What there is: **2-year, 5-year and 7-year auctions Tuesday through Thursday with the 10-year at 5%**, new home sales Thursday, durable goods Friday, a Xi-Trump White House meeting Thursday, and the first Fed speakers since the blackout lifted."
+  "WASHINGTON AND BEIJING ARE NEGOTIATING ON A SUNDAY. Treasury Secretary Bessent and Trade Representative Greer meet Vice Premier He Lifeng at 10:30 AM ET today at JPMorgan's Manhattan headquarters for an all-day session covering AI guard rails, tariffs on non-strategic goods, rare earths and critical minerals, and Boeing and agricultural purchases. It is groundwork for Xi Jinping's White House visit Thursday, and the tariff truce expires November 10.",
+  "THE HOUTHIS PUT A BALLISTIC MISSILE OVER RIYADH FOR THE FIRST TIME IN THIS ESCALATION. Saudi Arabia said Saturday it intercepted the missile aimed at the capital and thwarted attempts on Yanbu, Taif, Baysh and Farasan, with no casualties reported. Houthi spokesman Yahya Saree separately *claimed* strikes on Aramco's Yanbu facilities, a claim Aramco has not addressed and no independent source has confirmed. Yanbu is the Red Sea terminus of the East-West pipeline that is already damaged.",
+  "THERE WAS NO ARAMCO PIPELINE UPDATE ALL WEEKEND. No statement from Aramco, the Saudi energy ministry or OPEC-plus in twenty-four hours, which leaves last week's guidance of a partial restart in days and full capacity in roughly six weeks now a week old and unrefreshed. Iran's parliament speaker said Sunday that Hormuz stays shut until Iran's conditions are met, while CENTCOM said it has escorted more than a billion barrels out of the Gulf in two months.",
+  "UKRAINE RAN ITS LARGEST DRONE ATTACK YET ON MOSCOW AND HIT THE CITY'S OIL REFINERY. Russia reported more than sixteen hundred drones downed since Saturday, roughly four hundred fifty of them aimed at Moscow, with two dead in the surrounding region and four hundred people evacuated from a tower block. It lands six days after Trump said the two sides had agreed to stop striking each other's energy infrastructure.",
+  "TRUMP SAID HE WILL CREATE AN AI FORCE AND NAME AN AI CZAR. The Saturday announcement on Truth Social carried no name and no detail, one day before artificial intelligence went onto the negotiating table with Beijing. The post said the administration will not hinder or stifle the industry's growth but will also be watching for bad actors. The previous AI and crypto czar left the role in March."
  ],
- "client_frame_short": "Friday looked calm and was not. The S&P finished up 0.17%, but that was quad-witching expiration mechanics: volume ran about 1.5 times normal and more than three stocks fell for every two that rose. Semiconductors alone held the index up. Underneath, the 2-year Treasury yield hit a new high for the year at 4.76% and the 10-year is back at 5%, which is the number that actually matters for what you own. **The market is no longer arguing about whether the Fed hikes again - it is arguing about how many more times.** Nothing here calls for action, but the next two weeks will be noisier than the last two.",
- "client_frame": "The useful way to describe this week to a client is that three central banks tightened into an oil shock, and the bond market decided that was the story.\n\nThe Federal Reserve raised rates 25 basis points on Wednesday to 3.75-4.00% on a unanimous 12-0 vote. The Bank of Japan followed on Friday, raising to around 1.25% on a 7-2 vote. The ECB went two weeks ago. That is a coordinated turn, and it is happening while crude sits near $100 and US diesel is at an all-time high of $6.4476 a gallon - a cost that flows straight into food and freight.\n\nWhat moved most was not stocks, it was the front end of the yield curve. The 2-year Treasury yield rose 9 basis points on Friday to 4.76%, its highest level of 2026, and the 10-year is back at 5.01%. Futures markets now put roughly 89% odds on at least one more hike by December. A month ago those same markets were pricing a 7% chance of an October move; a week ago it was 43%; on Friday, 55%.\n\nHere is the part worth emphasising, because it cuts against the intuitive story. The entire move in yields this week came from real rates, not inflation expectations. The 10-year breakeven - the market's implied forecast of average inflation over the next decade - printed exactly 233 basis points on three consecutive days while the real yield swung around underneath it. Investors are not raising their inflation forecasts. They are marking up the price of money. That distinction matters: an inflation scare and a real-rate repricing call for very different portfolio responses, and this is the second one.\n\nOn equities, be careful with Friday's headline. The S&P 500 rose 0.17%, but it was quarterly expiration - about 1.56 times normal volume - and NYSE decliners outnumbered advancers 1.78 to 1, with 346 new lows against 92 new highs. Semiconductors, up 2.78%, carried the whole index; utilities fell 1.4% because they compete with a 5% Treasury. For the week, the Dow had its worst week since March and its third straight decline, the S&P its second, while the Nasdaq finished higher. That is rotation, not a broad advance, and it is exactly what you would expect when the discount rate rises.\n\nEven the risk gauges disagreed with each other. The VIX fell to 14.81, but SKEW - the cost of crash protection - rose to 148.10. Investors sold the near-term fear and bought the tail. That is a market that is comfortable day to day and quietly uneasy about the distribution.\n\nFor the week ahead, there is very little data: no PCE, no GDP revision, no consumer confidence. The real event is supply - the Treasury sells 2-year, 5-year and 7-year notes Tuesday through Thursday with the 10-year at 5%. How those auctions are received will tell us more about the rate path than any speech. Xi Jinping visits the White House on Thursday.\n\nThe advice is unchanged and deliberately dull: this is a repricing of the cost of capital, not a credit event or a growth scare. Higher yields make the bonds you own more valuable going forward even as they mark down today, and they are the reason the median stock is lagging the index. Rebalancing into that gap is the opportunity; reacting to the headline index level is the mistake."
+ "client_frame_short": "Nothing traded this weekend except crypto, and crypto went down: bitcoin is off about 1% this morning after giving back Saturday's gain. The real weekend story is that American and Chinese officials are in a room together today, on a Sunday, trying to build something Xi and Trump can sign on Thursday. **The thing to watch this week is not a headline but three Treasury auctions** - two-year Tuesday, five-year Wednesday, seven-year Thursday - because the entire move in yields last week was the market repricing the cost of money, not its inflation forecast. If those auctions clear badly, that is the story. If they clear fine, last week's selloff was positioning, not a verdict.",
+ "client_frame": "Here is the honest state of play on a Sunday morning. US markets have not traded since Friday afternoon and do not reopen until 6:00 PM ET tonight, so every equity, bond, metal and energy number on the board is Friday's close. The only live market all weekend was crypto, where bitcoin rose Saturday and has given it back this morning, sitting near $80,300 and down about 1% on the day. Anyone quoting you a live oil or currency price right now is quoting a stale widget, not a trade.\n\nWhat actually happened last week is worth restating because it sets up everything that follows. The Federal Reserve raised rates a quarter point to 3.75-4.00% on Wednesday on a unanimous vote, and the Bank of Japan raised to around 1.25% on Friday. The Dow had its worst week since March and its third consecutive weekly decline; the S&P fell for a second straight week; the Nasdaq finished higher on the strength of semiconductors. None of the four major US indexes is near a high - the S&P is about 1.9% below its August peak, the Nasdaq 3.3% below its June peak, and the semiconductor index still 18.5% below where it was in June.\n\nThe part that matters most is what drove the bond move. The two-year Treasury yield rose to 4.76% on Friday, the highest level of 2026, while the five- and ten-year yields matched but did not exceed the highs they set earlier in the week. Crucially, the ten-year inflation breakeven printed exactly 233 basis points on three consecutive sessions while the real, inflation-adjusted yield did all the moving. That is a specific and useful fact: investors are not raising their inflation expectations. They are raising the price they charge for lending money over time. A discount-rate repricing and an inflation scare look identical on a chart of nominal yields and call for completely different responses.\n\nThis week is built to test that. Treasury sells two-year notes Tuesday, five-year Wednesday and seven-year Thursday, with the ten-year sitting at 5%. There is almost no economic data - the personal consumption price index and the GDP revision are both the following week - so the auctions and the first Fed speeches since the communications blackout lifted will carry the week. Chicago's Goolsbee speaks Monday morning, Williams and Vice Chair Jefferson Tuesday morning, and Xi Jinping visits the White House Thursday. Futures now put better than even odds on another hike in October and roughly 90% on at least one more by December.\n\nOn the risk side, the Middle East got worse over the weekend rather than better. The Houthis fired a ballistic missile at Riyadh for the first time in this escalation, which Saudi Arabia says it intercepted, and claimed a strike on Aramco's facilities at Yanbu - the Red Sea terminus of the pipeline that is already damaged. Saudi Arabia says that attempt was thwarted too, and Aramco has said nothing at all. There was no pipeline update of any kind this weekend, which means last week's guidance of full capacity in about six weeks is now a week old. Crude settled Friday at $100.30 for West Texas and $103.87 for Brent, and diesel at the pump is at an all-time high of $6.4476 a gallon, which is the number that actually reaches households.\n\nThe advice does not change, and it should not. A repricing of the cost of capital is not a credit event and not a growth scare. Higher yields mark down the bonds you already own while raising the return on every dollar you invest from here, and they are the arithmetic reason the average stock has been lagging the index. Rebalancing into that gap is the opportunity. Reacting to the index level, or to a weekend headline about a market that will not open for another eleven hours, is the mistake."
 }

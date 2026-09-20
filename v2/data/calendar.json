@@ -1,6 +1,13 @@
 {
- "last_curated": "2026-09-19",
+ "last_curated": "2026-09-20",
  "macro": [
+  {
+   "date": "2026-09-20",
+   "time_et": "10:30 AM",
+   "event": "US-China talks: Bessent and Greer meet Vice Premier He Lifeng, JPMorgan HQ, Manhattan",
+   "consensus": "n/a - all-day session on AI, tariffs, critical minerals; groundwork for Thursday's Xi visit; truce expires Nov 10",
+   "importance": "high"
+  },
   {
    "date": "2026-09-21",
    "time_et": "6:30 AM",
@@ -42,6 +49,13 @@
    "event": "Fed's Barkin (non-voter), CFA Society Baltimore",
    "consensus": "n/a",
    "importance": "low"
+  },
+  {
+   "date": "2026-09-22",
+   "time_et": "",
+   "event": "UN General Assembly general debate opens (runs through Sept 26, plus Sept 28)",
+   "consensus": "n/a - Trump slated for the Tuesday morning session; collides with Williams and Jefferson",
+   "importance": "medium"
   },
   {
    "date": "2026-09-22",
@@ -124,7 +138,7 @@
    "date": "2026-09-24",
    "time_et": "",
    "event": "Xi Jinping state visit, White House meeting with Trump",
-   "consensus": "n/a - AI policy expected on the agenda",
+   "consensus": "n/a - AI policy expected on the agenda; one wire reports it may run into Friday",
    "importance": "high"
   },
   {

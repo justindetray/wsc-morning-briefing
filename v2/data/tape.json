@@ -6,7 +6,7 @@
   "label": "S&P 500",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Polygon I:SPX daily 2026-09-18 settled close vs 2026-09-17 close 7,637.76. Session range 7,610.52-7,657.17 - OPENED AT THE HIGH and faded all day"
+  "source": "Polygon I:SPX settled daily bars, 2026-09-18 vs 2026-09-17 (poly188_out.json)"
  },
  "NDX": {
   "value": 29644.17,
@@ -15,7 +15,7 @@
   "label": "Nasdaq 100",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Polygon I:NDX daily 2026-09-18 settled close vs 2026-09-17 close 29,446.98. Session high 29,647.80"
+  "source": "Polygon I:NDX settled daily bars, 2026-09-18 vs 2026-09-17 (poly188_out.json)"
  },
  "SOX": {
   "value": 11921.69,
@@ -24,7 +24,7 @@
   "label": "Semis",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Polygon I:SOX daily 2026-09-18 settled close vs 2026-09-17 close 11,599.49. Session high 11,922.95 - CLOSED ON ITS HIGH, the only thing holding the index up"
+  "source": "Polygon I:SOX settled daily bars, 2026-09-18 vs 2026-09-17 (poly188_out.json)"
  },
  "DJI": {
   "value": 51682.64,
@@ -33,7 +33,7 @@
   "label": "Dow",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Polygon I:DJI daily 2026-09-18 settled close vs 2026-09-17 close 51,778.04. Opened at the session high 51,826.78. Third straight down week"
+  "source": "Polygon I:DJI settled daily bars, 2026-09-18 vs 2026-09-17 (poly188_out.json)"
  },
  "VIX": {
   "value": 14.81,
@@ -42,7 +42,7 @@
   "label": "VIX",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Polygon I:VIX daily 2026-09-18 SETTLED close vs 2026-09-17 close 15.44; settled status confirmed by the same-day I:VXN twin at 19.29 (#177-A does NOT fire this run). Session range 14.80-15.63"
+  "source": "Polygon I:VIX settled daily bars, 2026-09-18 vs 2026-09-17 (poly188_out.json)"
  },
  "US10Y": {
   "value": 5.01,
@@ -51,7 +51,7 @@
   "label": "US 10y",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Treasury CMT observation 09/18/2026 vs 09/17/2026 4.94. +7bp. TIED the 2026 high of 5.01 set 09/16 - tied, NOT a new high"
+  "source": "Treasury daily CMT CSV, obs 09/18/2026 vs 09/17/2026 (cmt2026_r188.csv); TIED its 2026 high of 5.01 set 09/16, did not exceed it"
  },
  "US2Y": {
   "value": 4.76,
@@ -60,7 +60,7 @@
   "label": "US 2y",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Treasury CMT observation 09/18/2026 vs 09/17/2026 4.67. +9bp = NEW OUTRIGHT 2026 HIGH (prior max 4.74 on 09/16). 2s10s flattened to +25bp from +27bp"
+  "source": "Treasury daily CMT CSV, obs 09/18/2026 vs 09/17/2026 (cmt2026_r188.csv); sole 2026 high -- verified as the unique yearly max across all 2026 obs"
  },
  "WTI": {
   "value": 100.3,
@@ -69,7 +69,7 @@
   "label": "WTI crude",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Front-month Oct WTI (CLV26) settle 100.30, -1.6%, per CNBC 2026-09-18; base = Thu 9/17 settle 101.91. NOT the finance-API CLUSD value (96.08 = Nov CLX26, deferred contract - value/base series mismatch, see lesson #187-B)"
+  "source": "CNBC 2026-09-18 explicit settle sentence, corroborated by Barchart CLV26 -1.61/-1.58%. NOT the finance connector CLUSD, which serves the deferred Nov contract (#187-B)"
  },
  "BRENT": {
   "value": 103.87,
@@ -78,7 +78,7 @@
   "label": "Brent crude",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "ICE Brent front-month settle 103.87, -0.9%, per CNBC 2026-09-18; independently matched to the cent by the finance API BZUSD close and by TradingEconomics 103.870. Base = Thu 9/17 settle 104.82"
+  "source": "CNBC 2026-09-18 settle, matched to the cent by finance BZUSD (re-verified this run)"
  },
  "GOLD": {
   "value": 4424.9,
@@ -87,16 +87,16 @@
   "label": "Gold",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "finance API GCUSD settle ts 2026-09-18 21:00 UTC; base = Thu 9/17 settle 4,399.70 (same series). Session range 4,372.20-4,439.80"
+  "source": "finance GCUSD, ts 2026-09-18 21:00:00 UTC (Friday settle, unchanged over the weekend)"
  },
  "BTC": {
-  "value": 81273.36,
-  "prev_close": 80877.27,
-  "delta_pct": 0.4897,
+  "value": 80330.47,
+  "prev_close": 81226.62,
+  "delta_pct": -1.1033,
   "label": "Bitcoin",
-  "as_of": "Sat 7:14 ET",
+  "as_of": "Sun 7:09 AM ET",
   "status": "LIVE",
-  "source": "finance API BTCUSD live quote ts 2026-09-19 11:13:41 UTC (market_status=open); base = vendor previousClose 80,877.27, corroborated by Polygon X:BTCUSD 9/18 daily close 80,875.04 to 0.003% (#181-D cross-check, series not mixed). Only live market on the board"
+  "source": "finance BTCUSD live quote ts 2026-09-20 11:09:20 UTC (market_status=open); base = vendor previousClose 81226.62 = Saturday close, corroborated by Polygon X:BTCUSD 2026-09-19 close 81233.91. Same-vendor value/base pair (#181-D)"
  },
  "EURJPY": {
   "value": 179.53,
@@ -105,7 +105,7 @@
   "label": "EUR/JPY",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "finance API EURJPY last print carried from the Fri 5pm ET FX close; base = Thu 9/17 close 178.95. Was 181.10 at Fri 07:00 ET - the yen RECOVERED through the US session after the BoJ hike"
+  "source": "Friday 9/18 close. #188-A: vendor served 180.17 at build time but the FX week does not open until Sun 21:00 UTC, so that print is untraded and was discarded"
  },
  "AUDJPY": {
   "value": 111.74,
@@ -114,6 +114,6 @@
   "label": "AUD/JPY",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "finance API AUDJPY last print carried from the Fri 5pm ET FX close; base = Thu 9/17 close 110.84. Was 112.47 at Fri 07:00 ET - same intraday yen recovery"
+  "source": "Friday 9/18 close. #188-A: vendor 111.68 discarded for the same reason"
  }
 }
