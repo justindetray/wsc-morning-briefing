@@ -99,21 +99,21 @@
   "source": "finance BTCUSD live quote ts 2026-09-20 11:09:20 UTC (market_status=open); base = vendor previousClose 81226.62 = Saturday close, corroborated by Polygon X:BTCUSD 2026-09-19 close 81233.91. Same-vendor value/base pair (#181-D)"
  },
  "EURJPY": {
-  "value": 179.53,
-  "prev_close": 178.95,
-  "delta_pct": 0.3241,
+  "value": 180.18,
+  "prev_close": 179.21,
+  "delta_pct": 0.5413,
   "label": "EUR/JPY",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Friday 9/18 close. #188-A: vendor served 180.17 at build time but the FX week does not open until Sun 21:00 UTC, so that print is untraded and was discarded"
+  "source": "Friday 9/18 close vs Thursday 9/17 close, Polygon settled daily bars C:EURJPY. #188-A: the FX week had not opened at build time, so both legs come from settled bars rather than from a live quote record's intraday range"
  },
  "AUDJPY": {
-  "value": 111.74,
-  "prev_close": 110.84,
-  "delta_pct": 0.812,
+  "value": 111.76,
+  "prev_close": 111.09,
+  "delta_pct": 0.6031,
   "label": "AUD/JPY",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Friday 9/18 close. #188-A: vendor 111.68 discarded for the same reason"
+  "source": "Friday 9/18 close vs Thursday 9/17 close, Polygon settled daily bars C:AUDJPY"
  }
 }
