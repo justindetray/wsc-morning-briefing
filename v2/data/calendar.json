@@ -1,26 +1,19 @@
 {
- "last_curated": "2026-09-20",
+ "last_curated": "2026-09-21",
  "macro": [
-  {
-   "date": "2026-09-20",
-   "time_et": "10:30 AM",
-   "event": "US-China talks: Bessent and Greer meet Vice Premier He Lifeng, JPMorgan HQ, Manhattan",
-   "consensus": "n/a - all-day session on AI, tariffs, critical minerals; groundwork for Thursday's Xi visit; truce expires Nov 10",
-   "importance": "high"
-  },
   {
    "date": "2026-09-21",
    "time_et": "6:30 AM",
    "event": "Fed's Goolsbee (non-voter), OMFIF London",
-   "consensus": "n/a - first FOMC voice since the blackout lifted Sept 17",
-   "importance": "medium"
+   "consensus": "n/a - already spoke: strong demand may be adding to inflation, 'no ambiguity' on the response",
+   "importance": "high"
   },
   {
    "date": "2026-09-21",
    "time_et": "8:30 AM",
    "event": "Chicago Fed National Activity Index (Aug)",
-   "consensus": "n/a - only US data point Mon-Wed",
-   "importance": "low"
+   "consensus": "n/a - the only US data point Monday through Wednesday",
+   "importance": "medium"
   },
   {
    "date": "2026-09-21",
@@ -54,7 +47,7 @@
    "date": "2026-09-22",
    "time_et": "",
    "event": "UN General Assembly general debate opens (runs through Sept 26, plus Sept 28)",
-   "consensus": "n/a - Trump slated for the Tuesday morning session; collides with Williams and Jefferson",
+   "consensus": "n/a - Trump slated for the Tuesday morning session",
    "importance": "medium"
   },
   {
@@ -63,6 +56,13 @@
    "event": "Treasury: 2-year note auction",
    "consensus": "n/a - first leg of the duration test, with the 2y at a 2026 high of 4.76%",
    "importance": "high"
+  },
+  {
+   "date": "2026-09-22",
+   "time_et": "",
+   "event": "NYMEX WTI October contract expires",
+   "consensus": "n/a - the board has already rolled to November",
+   "importance": "medium"
   },
   {
    "date": "2026-09-22",
@@ -137,9 +137,16 @@
   {
    "date": "2026-09-24",
    "time_et": "",
-   "event": "Xi Jinping state visit, White House meeting with Trump",
-   "consensus": "n/a - AI policy expected on the agenda; one wire reports it may run into Friday",
+   "event": "Xi Jinping at the White House; Sunday's talks produced only an AI proposal",
+   "consensus": "n/a - Reuters reports the leaders meet Thursday and Friday in Washington",
    "importance": "high"
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "",
+   "event": "SNB, Riksbank and Norges Bank all decide",
+   "consensus": "n/a - all three seen holding",
+   "importance": "medium"
   },
   {
    "date": "2026-09-24",

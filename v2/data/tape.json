@@ -1,21 +1,21 @@
 {
- "SPX": {
-  "value": 7650.5,
-  "prev_close": 7637.76,
-  "delta_pct": 0.1668,
-  "label": "S&P 500",
-  "as_of": "Fri 9/18 close",
-  "status": "CLOSED",
-  "source": "Polygon I:SPX settled daily bars, 2026-09-18 vs 2026-09-17 (poly188_out.json)"
+ "ES": {
+  "value": 7763.75,
+  "prev_close": 7712.5,
+  "delta_pct": 0.6645,
+  "label": "E-mini S&P (Dec)",
+  "as_of": "Mon 7:20 AM ET",
+  "status": "LIVE",
+  "source": "finance ESUSD live quote ts 2026-09-21 11:10:32 UTC; base = vendor previousClose 7712.50 = Friday's CME settle (#177-B). December contract throughout -- hourly bars show no roll discontinuity and a stable ~62pt premium to cash SPX 7650.50"
  },
- "NDX": {
-  "value": 29644.17,
-  "prev_close": 29446.98,
-  "delta_pct": 0.6696,
-  "label": "Nasdaq 100",
-  "as_of": "Fri 9/18 close",
-  "status": "CLOSED",
-  "source": "Polygon I:NDX settled daily bars, 2026-09-18 vs 2026-09-17 (poly188_out.json)"
+ "NQ": {
+  "value": 30226.5,
+  "prev_close": 29917.25,
+  "delta_pct": 1.0337,
+  "label": "E-mini Nasdaq (Dec)",
+  "as_of": "Mon 7:20 AM ET",
+  "status": "LIVE",
+  "source": "finance NQUSD live quote ts 2026-09-21 11:10:32 UTC; base = vendor previousClose 29917.25 = Friday's CME settle. December contract throughout -- premium to cash NDX was +250 on 9/17 and +273 on 9/18, i.e. stable, so value and base are one series"
  },
  "SOX": {
   "value": 11921.69,
@@ -24,7 +24,7 @@
   "label": "Semis",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Polygon I:SOX settled daily bars, 2026-09-18 vs 2026-09-17 (poly188_out.json)"
+  "source": "Polygon I:SOX settled daily bars, 2026-09-18 vs 2026-09-17 (poly189_out.json); cash session has not opened at build time"
  },
  "DJI": {
   "value": 51682.64,
@@ -33,7 +33,7 @@
   "label": "Dow",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Polygon I:DJI settled daily bars, 2026-09-18 vs 2026-09-17 (poly188_out.json)"
+  "source": "Polygon I:DJI settled daily bars, 2026-09-18 vs 2026-09-17 (poly189_out.json)"
  },
  "VIX": {
   "value": 14.81,
@@ -42,7 +42,7 @@
   "label": "VIX",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Polygon I:VIX settled daily bars, 2026-09-18 vs 2026-09-17 (poly188_out.json)"
+  "source": "Polygon I:VIX settled daily bars, 2026-09-18 vs 2026-09-17 (poly189_out.json). #177-A: a same-day 2026-09-21 I:VIX bar exists (c=14.87) with no I:VXN twin; per #156-I it is a pre-open partial and is NOT shipped"
  },
  "US10Y": {
   "value": 5.01,
@@ -51,7 +51,7 @@
   "label": "US 10y",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Treasury daily CMT CSV, obs 09/18/2026 vs 09/17/2026 (cmt2026_r188.csv); TIED its 2026 high of 5.01 set 09/16, did not exceed it"
+  "source": "Treasury daily CMT CSV, obs 09/18/2026 vs 09/17/2026 (cmt2026_r189.csv); Monday's obs does not publish until ~3:30pm ET. TIED its 2026 high of 5.01 set 09/16. Reuters reports the 10y slipping back below 5% intraday Monday -- not yet an official CMT observation, so not shipped as the tile"
  },
  "US2Y": {
   "value": 4.76,
@@ -60,60 +60,61 @@
   "label": "US 2y",
   "as_of": "Fri 9/18 close",
   "status": "CLOSED",
-  "source": "Treasury daily CMT CSV, obs 09/18/2026 vs 09/17/2026 (cmt2026_r188.csv); sole 2026 high -- verified as the unique yearly max across all 2026 obs"
+  "source": "Treasury daily CMT CSV, obs 09/18/2026 vs 09/17/2026 (cmt2026_r189.csv); re-verified this run as the sole unique 2026 maximum across all 180 observations"
  },
  "WTI": {
-  "value": 100.3,
-  "prev_close": 101.91,
-  "delta_pct": -1.5798,
-  "label": "WTI crude",
-  "as_of": "Fri 9/18 close",
-  "status": "CLOSED",
-  "source": "CNBC 2026-09-18 explicit settle sentence, corroborated by Barchart CLV26 -1.61/-1.58%. NOT the finance connector CLUSD, which serves the deferred Nov contract (#187-B)"
+  "value": 93.51,
+  "prev_close": 96.08,
+  "delta_pct": -2.6749,
+  "label": "WTI (Nov)",
+  "as_of": "Mon 7:20 AM ET",
+  "status": "LIVE",
+  "source": "finance CLUSD live quote ts 2026-09-21 11:20:24 UTC; base = vendor previousClose 96.08 = the NOVEMBER contract's Friday settle. CLUSD rolled Oct->Nov at 2026-09-17 22:00 UTC (hourly bars jump 101.91 -> 96.57), so value and base are one series and the -2.67% is real. NOT comparable to Friday's board, which carried October at 100.30; October expires Tue 9/22 and was $98.34 at 08:59 GMT per Reuters",
+  "note": "Nov contract (rolled 9/17)"
  },
  "BRENT": {
-  "value": 103.87,
-  "prev_close": 104.82,
-  "delta_pct": -0.9063,
+  "value": 101.18,
+  "prev_close": 103.87,
+  "delta_pct": -2.5898,
   "label": "Brent crude",
-  "as_of": "Fri 9/18 close",
-  "status": "CLOSED",
-  "source": "CNBC 2026-09-18 settle, matched to the cent by finance BZUSD (re-verified this run)"
+  "as_of": "Mon 7:20 AM ET",
+  "status": "LIVE",
+  "source": "finance BZUSD live quote ts 2026-09-21 11:20:09 UTC; base = vendor previousClose 103.87, which matches the Brent settle shipped Friday to the cent, so no roll has occurred. Corroborated by Reuters: Brent Nov $101.75 at 08:59 GMT"
  },
  "GOLD": {
-  "value": 4424.9,
-  "prev_close": 4399.7,
-  "delta_pct": 0.5728,
+  "value": 4383.1,
+  "prev_close": 4424.9,
+  "delta_pct": -0.9447,
   "label": "Gold",
-  "as_of": "Fri 9/18 close",
-  "status": "CLOSED",
-  "source": "finance GCUSD, ts 2026-09-18 21:00:00 UTC (Friday settle, unchanged over the weekend)"
+  "as_of": "Mon 7:20 AM ET",
+  "status": "LIVE",
+  "source": "finance GCUSD live quote ts 2026-09-21 11:10:25 UTC; base = vendor previousClose 4424.90 = Friday's settle as shipped. Reuters has gold flat at ~$4,380"
  },
  "BTC": {
-  "value": 80330.47,
-  "prev_close": 81226.62,
-  "delta_pct": -1.1033,
+  "value": 84576.72,
+  "prev_close": 81162.18,
+  "delta_pct": 4.2071,
   "label": "Bitcoin",
-  "as_of": "Sun 7:09 AM ET",
+  "as_of": "Mon 7:20 AM ET",
   "status": "LIVE",
-  "source": "finance BTCUSD live quote ts 2026-09-20 11:09:20 UTC (market_status=open); base = vendor previousClose 81226.62 = Saturday close, corroborated by Polygon X:BTCUSD 2026-09-19 close 81233.91. Same-vendor value/base pair (#181-D)"
+  "source": "finance BTCUSD live quote ts 2026-09-21 11:20:32 UTC (market_status=open); base = vendor previousClose 81162.18 = Sunday's close, corroborated by Polygon X:BTCUSD 2026-09-20 close 81159.64 (a $2.54 venue difference). Same-vendor pair (#181-D)"
  },
  "EURJPY": {
-  "value": 180.18,
-  "prev_close": 179.21,
-  "delta_pct": 0.5413,
+  "value": 180.59,
+  "prev_close": 180.16,
+  "delta_pct": 0.2387,
   "label": "EUR/JPY",
-  "as_of": "Fri 9/18 close",
-  "status": "CLOSED",
-  "source": "Friday 9/18 close vs Thursday 9/17 close, Polygon settled daily bars C:EURJPY. #188-A: the FX week had not opened at build time, so both legs come from settled bars rather than from a live quote record's intraday range"
+  "as_of": "Mon 7:20 AM ET",
+  "status": "LIVE",
+  "source": "finance EURJPY live quote ts 2026-09-21 11:17:04 UTC; base = vendor previousClose 180.16 = Friday's close. #188-A closure: that 180.16 independently confirms the Polygon C:EURJPY Friday close of 180.18 used to fix last run's defect, and confirms the 179.53 shipped in error was in fact Sunday's reopening print, not a close"
  },
  "AUDJPY": {
-  "value": 111.76,
-  "prev_close": 111.09,
-  "delta_pct": 0.6031,
+  "value": 112.14,
+  "prev_close": 111.68,
+  "delta_pct": 0.4119,
   "label": "AUD/JPY",
-  "as_of": "Fri 9/18 close",
-  "status": "CLOSED",
-  "source": "Friday 9/18 close vs Thursday 9/17 close, Polygon settled daily bars C:AUDJPY"
+  "as_of": "Mon 7:20 AM ET",
+  "status": "LIVE",
+  "source": "finance AUDJPY live quote ts 2026-09-21 11:16:58 UTC; base = vendor previousClose 111.68 (Polygon C:AUDJPY had Friday at 111.76, an 8-pip venue difference). Value and base taken from the SAME vendor record per #181-D"
  }
 }

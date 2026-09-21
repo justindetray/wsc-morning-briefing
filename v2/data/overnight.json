@@ -1,52 +1,91 @@
 {
- "window": "Friday 2026-09-18 close -> Sunday 2026-09-20 7:00 AM ET (weekend edition, day 2)",
- "lede": "Sunday edition: nothing traded but crypto; Washington and Beijing negotiate today.",
- "asia_close": [],
- "europe_open": [],
+ "window": "Friday 2026-09-18 close -> Monday 2026-09-21 7:20 AM ET",
+ "lede": "Risk-on: oil down a fourth session, AI bid, and Sunday's China talks produced a proposal rather than a deal.",
+ "asia_close": [
+  {
+   "market": "Shanghai Comp",
+   "delta_pct": 0.97,
+   "level": 3949.91
+  },
+  {
+   "market": "Shenzhen Comp",
+   "delta_pct": 0.65,
+   "level": 13730.02
+  },
+  {
+   "market": "Hang Seng",
+   "delta_pct": 1.18
+  },
+  {
+   "market": "Kospi",
+   "delta_pct": 1.65
+  },
+  {
+   "market": "ASX 200",
+   "delta_pct": 0.0,
+   "level": 8731
+  }
+ ],
+ "europe_open": [
+  {
+   "market": "STOXX 600",
+   "delta_pct": 0.56
+  },
+  {
+   "market": "DAX",
+   "delta_pct": 0.76
+  }
+ ],
  "single_name_moves": [
   {
-   "ticker": "MU",
-   "delta_pct": 3.92,
-   "venue": "Fri 9/18 close"
+   "ticker": "WBD",
+   "delta_pct": 7.6,
+   "venue": "pre-mkt"
   },
   {
-   "ticker": "AVGO",
-   "delta_pct": 2.97,
-   "venue": "Fri 9/18 close"
+   "ticker": "MSTR",
+   "delta_pct": 6.8,
+   "venue": "pre-mkt"
   },
   {
-   "ticker": "AMD",
-   "delta_pct": 2.7,
-   "venue": "Fri 9/18 close"
-  },
-  {
-   "ticker": "NVDA",
-   "delta_pct": 1.34,
-   "venue": "Fri 9/18 close"
+   "ticker": "ACN",
+   "delta_pct": 6.0,
+   "venue": "pre-mkt"
   },
   {
    "ticker": "INTC",
-   "delta_pct": -0.18,
-   "venue": "Fri 9/18 close"
+   "delta_pct": 5.4,
+   "venue": "pre-mkt"
   },
   {
-   "ticker": "AAPL",
-   "delta_pct": -0.26,
-   "venue": "Fri 9/18 close"
+   "ticker": "COIN",
+   "delta_pct": 4.6,
+   "venue": "pre-mkt"
   },
   {
-   "ticker": "XLU",
-   "delta_pct": -1.41,
-   "venue": "Fri 9/18 close"
+   "ticker": "DELL",
+   "delta_pct": 2.7,
+   "venue": "pre-mkt"
+  },
+  {
+   "ticker": "MRVL",
+   "delta_pct": 2.6,
+   "venue": "pre-mkt"
+  },
+  {
+   "ticker": "META",
+   "delta_pct": 2.4,
+   "venue": "pre-mkt"
   }
  ],
  "geo_headlines": [
-  "WASHINGTON AND BEIJING ARE NEGOTIATING ON A SUNDAY. Treasury Secretary Bessent and Trade Representative Greer meet Vice Premier He Lifeng at 10:30 AM ET today at JPMorgan's Manhattan headquarters for an all-day session covering AI guard rails, tariffs on non-strategic goods, rare earths and critical minerals, and Boeing and agricultural purchases. It is groundwork for Xi Jinping's White House visit Thursday, and the tariff truce expires November 10.",
-  "THE HOUTHIS PUT A BALLISTIC MISSILE OVER RIYADH FOR THE FIRST TIME IN THIS ESCALATION. Saudi Arabia said Saturday it intercepted the missile aimed at the capital and thwarted attempts on Yanbu, Taif, Baysh and Farasan, with no casualties reported. Houthi spokesman Yahya Saree separately *claimed* strikes on Aramco's Yanbu facilities, a claim Aramco has not addressed and no independent source has confirmed. Yanbu is the Red Sea terminus of the East-West pipeline that is already damaged.",
-  "THERE WAS NO ARAMCO PIPELINE UPDATE ALL WEEKEND. No statement from Aramco, the Saudi energy ministry or OPEC-plus in twenty-four hours, which leaves last week's guidance of a partial restart in days and full capacity in roughly six weeks now a week old and unrefreshed. Iran's parliament speaker said Sunday that Hormuz stays shut until Iran's conditions are met, while CENTCOM said it has escorted more than a billion barrels out of the Gulf in two months.",
-  "UKRAINE RAN ITS LARGEST DRONE ATTACK YET ON MOSCOW AND HIT THE CITY'S OIL REFINERY. Russia reported more than sixteen hundred drones downed since Saturday, roughly four hundred fifty of them aimed at Moscow, with two dead in the surrounding region and four hundred people evacuated from a tower block. It lands six days after Trump said the two sides had agreed to stop striking each other's energy infrastructure.",
-  "TRUMP SAID HE WILL CREATE AN AI FORCE AND NAME AN AI CZAR. The Saturday announcement on Truth Social carried no name and no detail, one day before artificial intelligence went onto the negotiating table with Beijing. The post said the administration will not hinder or stifle the industry's growth but will also be watching for bad actors. The previous AI and crypto czar left the role in March."
+  "THE US-CHINA TALKS ENDED SUNDAY WITH A PROPOSAL AND NOT A DEAL. Bessent and Greer met Vice Premier He Lifeng at JPMorgan's Manhattan headquarters and produced no joint statement, no framework and no document - only a US proposal for an AI incident *notification mechanism* between the two countries, to be put to Trump and Xi on Thursday, plus an agreement to keep talking. Greer said chip and equipment export controls were not on the agenda. Xinhua called the exchanges candid and constructive and did not say how Beijing received the AI proposal. Nothing in any readout quantifies tariffs, rare earths, Boeing or farm purchases. The truce still expires November 10.",
+  "OIL FELL FOR A FOURTH STRAIGHT SESSION BECAUSE SAUDI BARRELS ARE COMING BACK. Kpler and LSEG tanker data show Saudi crude exports back above 4 million barrels a day in September after 2.4 million in August, and Saudi volumes through Hormuz averaging 2.9 million a day over six days against 700,000 in August. That is the actual news. Against it: Hormuz saw only 17 trackable transits over the weekend versus 37 a week earlier, there have been no visible loadings from Yanbu since September 16, and Aramco, the Saudi energy ministry and OPEC-plus have all said nothing. The line about restarting pipeline flows quickly is an unattributed report that Reuters itself flags as doubted.",
+  "UKRAINE RAN ITS LARGEST REPORTED DRONE ATTACK ON THE MOSCOW REGION AND DAMAGED THE CITY'S REFINERY. Russia says it downed more than 1,600 drones since Saturday, about 450 of them headed for Moscow, with three dead and 400 people evacuated from a tower block. The Moscow refinery processed 11.6 million tonnes of crude in 2024. It lands a week after Trump said both sides had agreed to stop hitting energy infrastructure, and on the weekend United Russia won the parliamentary election with over 57%.",
+  "THE AFD CAME FIRST IN MECKLENBURG-VORPOMMERN AND THE CDU HAD ITS WORST STATE RESULT SINCE 1949. The AfD took 38.2% against the SPD's 35.5%, while Merz's CDU collected 4.9% and lost every seat in the state parliament; in Berlin, Die Linke came first on 25.7%. Merz called it a disaster and said he will carry on. The market response was almost nil - the euro sat flat at $1.1480 and the DAX rose 0.76%, and Reuters was explicit that the bid in Bunds came from the drop in oil rather than from the politics.",
+  "GOOLSBEE OPENED THE HEAVIEST FED SPEAKING WEEK OF THE QUARTER WITH A HAWKISH LINE. Speaking in London at 6:30 AM ET, the Chicago Fed president said strong demand may be adding to inflation and that there would be no ambiguity about how the Fed would respond - a signal that officials are no longer treating the problem as purely a tariff and energy shock. At least ten policymakers speak this week, with Williams and Vice Chair Jefferson on Tuesday. Futures put the odds of an October hike in the low-to-mid fifties and treat a move by December as close to settled.",
+  "JAPAN IS SHUT UNTIL THURSDAY AND THAT IS ITSELF THE YEN RISK. Tokyo is closed Monday through Wednesday for Silver Week, three sessions after the Bank of Japan raised rates to about 1.25%. The yen has weakened back to roughly 157 per dollar anyway, and traders are watching for the Ministry of Finance to use the thin holiday liquidity to intervene, having already run rate checks on Friday. Nikkei futures were up 0.5% with the cash market closed."
  ],
- "client_frame_short": "Nothing traded this weekend except crypto, and crypto went down: bitcoin is off about 1% this morning after giving back Saturday's gain. The real weekend story is that American and Chinese officials are in a room together today, on a Sunday, trying to build something Xi and Trump can sign on Thursday. **The thing to watch this week is not a headline but three Treasury auctions** - two-year Tuesday, five-year Wednesday, seven-year Thursday - because the entire move in yields last week was the market repricing the cost of money, not its inflation forecast. If those auctions clear badly, that is the story. If they clear fine, last week's selloff was positioning, not a verdict.",
- "client_frame": "Here is the honest state of play on a Sunday morning. US markets have not traded since Friday afternoon and do not reopen until 6:00 PM ET tonight, so every equity, bond, metal and energy number on the board is Friday's close. The only live market all weekend was crypto, where bitcoin rose Saturday and has given it back this morning, sitting near $80,300 and down about 1% on the day. Anyone quoting you a live oil or currency price right now is quoting a stale widget, not a trade.\n\nWhat actually happened last week is worth restating because it sets up everything that follows. The Federal Reserve raised rates a quarter point to 3.75-4.00% on Wednesday on a unanimous vote, and the Bank of Japan raised to around 1.25% on Friday. The Dow had its worst week since March and its third consecutive weekly decline; the S&P fell for a second straight week; the Nasdaq finished higher on the strength of semiconductors. None of the four major US indexes is near a high - the S&P is about 1.9% below its August peak, the Nasdaq 3.3% below its June peak, and the semiconductor index still 18.5% below where it was in June.\n\nThe part that matters most is what drove the bond move. The two-year Treasury yield rose to 4.76% on Friday, the highest level of 2026, while the five- and ten-year yields matched but did not exceed the highs they set earlier in the week. Crucially, the ten-year inflation breakeven printed exactly 233 basis points on three consecutive sessions while the real, inflation-adjusted yield did all the moving. That is a specific and useful fact: investors are not raising their inflation expectations. They are raising the price they charge for lending money over time. A discount-rate repricing and an inflation scare look identical on a chart of nominal yields and call for completely different responses.\n\nThis week is built to test that. Treasury sells two-year notes Tuesday, five-year Wednesday and seven-year Thursday, with the ten-year sitting at 5%. There is almost no economic data - the personal consumption price index and the GDP revision are both the following week - so the auctions and the first Fed speeches since the communications blackout lifted will carry the week. Chicago's Goolsbee speaks Monday morning, Williams and Vice Chair Jefferson Tuesday morning, and Xi Jinping visits the White House Thursday. Futures now put better than even odds on another hike in October and roughly 90% on at least one more by December.\n\nOn the risk side, the Middle East got worse over the weekend rather than better. The Houthis fired a ballistic missile at Riyadh for the first time in this escalation, which Saudi Arabia says it intercepted, and claimed a strike on Aramco's facilities at Yanbu - the Red Sea terminus of the pipeline that is already damaged. Saudi Arabia says that attempt was thwarted too, and Aramco has said nothing at all. There was no pipeline update of any kind this weekend, which means last week's guidance of full capacity in about six weeks is now a week old. Crude settled Friday at $100.30 for West Texas and $103.87 for Brent, and diesel at the pump is at an all-time high of $6.4476 a gallon, which is the number that actually reaches households.\n\nThe advice does not change, and it should not. A repricing of the cost of capital is not a credit event and not a growth scare. Higher yields mark down the bonds you already own while raising the return on every dollar you invest from here, and they are the arithmetic reason the average stock has been lagging the index. Rebalancing into that gap is the opportunity. Reacting to the index level, or to a weekend headline about a market that will not open for another eleven hours, is the mistake."
+ "client_frame_short": "Markets are having a good morning for two unrelated reasons: oil is down about 2.5% because Saudi exports are visibly recovering, and the AI trade is bid again. Nasdaq futures are up about 1%. What did not happen matters more - Sunday's US-China meeting produced a proposal on AI safety and nothing at all on tariffs, rare earths or farm purchases, so Thursday's Trump-Xi meeting is carrying the whole load. **The thing to watch this week is not a headline but three Treasury auctions** - two-year Tuesday, five-year Wednesday, seven-year Thursday - because last week's move in yields was the market repricing the cost of money, not its inflation forecast. If those auctions clear badly, that is the story. If they clear fine, last week's selloff was positioning rather than a verdict.",
+ "client_frame": "Two things are lifting markets this morning and neither of them is a policy decision. The first is oil. Brent is down about 2.6% to roughly $101 and it is the fourth consecutive session of declines, because tanker-tracking data now shows Saudi crude exports back above 4 million barrels a day this month after collapsing to 2.4 million in August. The second is the AI complex, which is bid across Asia, Europe and US pre-market on strong Korean chip exports and a $2 billion Accenture-Anthropic tie-up. Nasdaq futures are up about 1%, S&P futures about 0.65%, and the ten-year yield has slipped back below 5%. Cheaper energy and lower yields is a combination that flatters almost everything.\n\nA note on the oil number, because it will look wrong next to Friday's brief. The futures board rolled. Friday we quoted West Texas at $100.30, which was the October contract; October expires tomorrow, and the quote everyone now carries is November, which settled Friday at $96.08 and is trading near $93.50 today. So the honest read is that WTI is down about 2.7% today, not down 6.8%. The $4-plus gap between the two contracts is the market paying a premium for a barrel delivered right now versus one delivered in five weeks, which is what a genuine supply disruption looks like.\n\nSunday's US-China meeting is the one to be careful about. Bessent and Greer spent the day with Vice Premier He Lifeng and came out with no joint statement, no framework and no document. What exists is an American proposal for a notification mechanism between the two countries when an AI incident reaches the level of a national-security concern, plus an agreement to talk again. Greer said export controls on advanced chips were not even on the agenda, and China's official readout did not say how Beijing received the proposal. Nothing was agreed on tariffs, rare earths, Boeing or agricultural purchases. All of that is now riding on Thursday, when Xi is at the White House, and the tariff truce expires November 10. A client who reads that the talks went well is reading tone, not substance.\n\nThe part that actually determines returns this week is the Treasury auction calendar. Treasury sells two-year notes Tuesday, five-year Wednesday and seven-year Thursday, with the two-year yield at 4.76% - its highest level this year - and the ten-year at 5%. There is essentially no economic data until next week, so the auctions and the Fed speakers will carry it. Goolsbee opened in London this morning by saying strong demand may be adding to inflation and that there would be no ambiguity about the response; at least ten officials speak before Friday. What matters is the character of last week's bond selloff: the ten-year inflation breakeven printed exactly 233 basis points on three consecutive sessions while the real yield did all the moving. Investors are not raising their inflation forecast. They are raising the price they charge to lend over time.\n\nBitcoin is up about 4% to roughly $84,600, which Reuters describes as a seven-month high. It is worth saying plainly that this is not a peak of any kind - it remains about a third below its own high of the past year. The same caution applies to the equity board: Nasdaq futures near 30,200 look like a big number, but that is the December contract carrying a premium of roughly 275 points to the cash index, and the cash Nasdaq is still about 3.3% below its June peak, with the S&P about 1.9% below its August peak and the semiconductor index 18.5% below June.\n\nSo the framing for a client call is straightforward. A good morning driven by cheaper oil and a better AI tape is welcome but it is not information about the next twelve months. The repricing of the cost of capital that drove last week is still underway and is still the dominant fact; it marks down the bonds already owned while raising the return on every dollar invested from here, and it is the arithmetic reason the average stock has lagged the index. Rebalancing into that gap is the opportunity. The trigger that would change this view is a failed auction this week or a collapse at Thursday's summit - not a 1% move in futures before the opening bell."
 }

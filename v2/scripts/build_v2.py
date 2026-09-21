@@ -152,6 +152,14 @@ def render_tile(key, field):
     dcls = delta_class(field.get("delta_pct"))
     prev = field.get("prev_close")
     prev_str = f"prev {fmt_num(prev, fmt['places'])}{fmt['suffix']}" if prev is not None else ""
+    # Optional per-tile qualifier, rendered only when the payload supplies one.
+    # Added run #189 so a futures contract roll is visible ON THE BOARD rather
+    # than only in the source string: the WTI tile switched from the October to
+    # the November contract, which makes it non-comparable to the prior board.
+    note = field.get("note")
+    if note:
+        note_str = html_mod.escape(note)
+        prev_str = f"{prev_str} &middot; {note_str}" if prev_str else note_str
     return f"""<div class="tile">
   <div class="sym">{key}</div>
   <div class="val">{val}</div>
