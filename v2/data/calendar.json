@@ -1,172 +1,172 @@
 {
- "last_curated": "2026-09-21",
+ "last_curated": "2026-09-22",
  "macro": [
   {
-   "date": "2026-09-21",
-   "time_et": "6:30 AM",
-   "event": "Fed's Goolsbee (non-voter), OMFIF London",
-   "consensus": "n/a - already spoke: strong demand may be adding to inflation, 'no ambiguity' on the response",
-   "importance": "high"
-  },
-  {
-   "date": "2026-09-21",
-   "time_et": "8:30 AM",
-   "event": "Chicago Fed National Activity Index (Aug)",
-   "consensus": "n/a - the only US data point Monday through Wednesday",
+   "date": "2026-09-22",
+   "time_et": "8:55 AM",
+   "event": "AutoZone (AZO) Q4 FY26, before the open",
+   "consensus": "EPS ~$54.1-55.0 on revenue ~$6.70bn (~8:55 AM inferred from last year's wire)",
+   "note": null,
    "importance": "medium"
   },
   {
-   "date": "2026-09-21",
-   "time_et": "",
-   "event": "Treasury: 13-week and 26-week bill auctions",
-   "consensus": "n/a - bills only",
-   "importance": "low"
+   "date": "2026-09-22",
+   "time_et": "9:45 AM",
+   "event": "Trump addresses the UN General Assembly, speaking right after Brazil - US-Iran talks possible on the sidelines this week",
+   "consensus": null,
+   "note": null,
+   "importance": "high"
   },
   {
    "date": "2026-09-22",
    "time_et": "10:05 AM",
-   "event": "Fed's Williams (voter), US Treasury Market Conference, FRBNY",
-   "consensus": "n/a - plumbing and duration focus",
+   "event": "Fed's Williams (voter), US Treasury Market Conference, FRBNY - market-structure and duration venue",
+   "consensus": null,
+   "note": null,
    "importance": "medium"
   },
   {
    "date": "2026-09-22",
    "time_et": "10:20 AM",
-   "event": "Fed Vice Chair Jefferson, discount window and Treasury market functioning",
-   "consensus": "n/a - most senior Board voice scheduled all week",
+   "event": "Fed Vice Chair Jefferson, same FRBNY conference - the most senior Board voice on the calendar this week",
+   "consensus": null,
+   "note": null,
+   "importance": "high"
+  },
+  {
+   "date": "2026-09-22",
+   "time_et": "1:00 PM",
+   "event": "Treasury: $69bn 2-year note auction, CUSIP 91282CRP8 - a 4.625-4.749% high yield triggers an unscheduled 5-year reopening",
+   "consensus": null,
+   "note": null,
    "importance": "high"
   },
   {
    "date": "2026-09-22",
    "time_et": "1:00 PM",
    "event": "Fed's Barkin (non-voter), CFA Society Baltimore",
-   "consensus": "n/a",
+   "consensus": null,
+   "note": null,
    "importance": "low"
   },
   {
    "date": "2026-09-22",
    "time_et": "",
-   "event": "UN General Assembly general debate opens (runs through Sept 26, plus Sept 28)",
-   "consensus": "n/a - Trump slated for the Tuesday morning session",
+   "event": "Trump meets Zelensky, who is pushing an energy-infrastructure truce; NYMEX WTI October contract expires",
+   "consensus": null,
+   "note": null,
    "importance": "medium"
-  },
-  {
-   "date": "2026-09-22",
-   "time_et": "",
-   "event": "Treasury: 2-year note auction",
-   "consensus": "n/a - first leg of the duration test, with the 2y at a 2026 high of 4.76%",
-   "importance": "high"
-  },
-  {
-   "date": "2026-09-22",
-   "time_et": "",
-   "event": "NYMEX WTI October contract expires",
-   "consensus": "n/a - the board has already rolled to November",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-09-22",
-   "time_et": "",
-   "event": "AutoZone (AZO) Q4 FY26, before the open",
-   "consensus": "n/a - consumer hard-parts read",
-   "importance": "low"
   },
   {
    "date": "2026-09-23",
    "time_et": "10:05 AM",
-   "event": "Fed Governor Barr, Housing, Chicago Fed",
-   "consensus": "n/a",
+   "event": "Fed Governor Barr on housing, Chicago Fed",
+   "consensus": null,
+   "note": null,
    "importance": "medium"
   },
   {
    "date": "2026-09-23",
-   "time_et": "",
-   "event": "Treasury: 2-year FRN and 5-year note auctions",
-   "consensus": "n/a - the 5y tied its 2026 high of 4.86% on Friday",
+   "time_et": "1:00 PM",
+   "event": "Treasury: $70bn 5-year note auction, plus 2-year FRN",
+   "consensus": null,
+   "note": "the 5y tied its 2026 high of 4.86% on Friday",
    "importance": "high"
   },
   {
    "date": "2026-09-23",
    "time_et": "",
    "event": "EIA Weekly Petroleum Status Report",
-   "consensus": "n/a - EIA introduces methodology and presentation changes in THIS release; a data-continuity break",
+   "consensus": null,
+   "note": "EIA introduces methodology and presentation changes in THIS release - a data-continuity break",
    "importance": "medium"
   },
   {
    "date": "2026-09-23",
    "time_et": "",
    "event": "Cintas (CTAS) Q1 FY27",
-   "consensus": "n/a - call 10:00 AM ET",
+   "consensus": null,
+   "note": "call 10:00 AM ET",
    "importance": "low"
   },
   {
    "date": "2026-09-24",
    "time_et": "8:30 AM",
    "event": "BEA: US International Transactions, Q2 2026",
-   "consensus": "n/a",
+   "consensus": null,
+   "note": null,
    "importance": "low"
   },
   {
    "date": "2026-09-24",
    "time_et": "8:50 AM",
    "event": "Fed's Hammack (voter), Cleveland Fed inflation conference",
-   "consensus": "n/a",
+   "consensus": null,
+   "note": null,
    "importance": "medium"
   },
   {
    "date": "2026-09-24",
    "time_et": "10:00 AM",
    "event": "New Residential Sales (Aug)",
-   "consensus": "n/a - first housing print since starts fell 2.6% and permits 2.7%",
+   "consensus": null,
+   "note": "first housing print since starts fell 2.6% and permits 2.7%",
+   "importance": "high"
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "1:00 PM",
+   "event": "Treasury: $44bn 7-year note auction",
+   "consensus": null,
+   "note": "final leg of the duration test",
    "importance": "high"
   },
   {
    "date": "2026-09-24",
    "time_et": "2:00 PM",
    "event": "Fed Senior Credit Officer Opinion Survey (SCOOS)",
-   "consensus": "n/a - dealer financing terms, a leverage tell",
+   "consensus": null,
+   "note": "dealer financing terms, a leverage tell",
    "importance": "medium"
   },
   {
    "date": "2026-09-24",
    "time_et": "",
-   "event": "Treasury: 7-year note auction",
-   "consensus": "n/a - final leg of the duration test",
-   "importance": "high"
-  },
-  {
-   "date": "2026-09-24",
-   "time_et": "",
-   "event": "Xi Jinping at the White House; Sunday's talks produced only an AI proposal",
-   "consensus": "n/a - Reuters reports the leaders meet Thursday and Friday in Washington",
+   "event": "Xi Jinping at the White House; Tokyo reopens after Silver Week",
+   "consensus": null,
+   "note": "Xi arrives in Washington Wednesday per Reuters",
    "importance": "high"
   },
   {
    "date": "2026-09-24",
    "time_et": "",
    "event": "SNB, Riksbank and Norges Bank all decide",
-   "consensus": "n/a - all three seen holding",
+   "consensus": null,
+   "note": "all three seen holding",
    "importance": "medium"
   },
   {
    "date": "2026-09-24",
    "time_et": "",
    "event": "Costco (COST) Q4 and FY26",
-   "consensus": "n/a - call 5:00 PM ET; the only large index-mover reporting",
+   "consensus": null,
+   "note": "call 5:00 PM ET",
    "importance": "medium"
   },
   {
    "date": "2026-09-25",
    "time_et": "8:30 AM",
    "event": "Advance Durable Goods (Aug)",
-   "consensus": "n/a - last hard data before the Sept 29-30 cluster",
+   "consensus": null,
+   "note": "last hard data before the Sept 29-30 cluster",
    "importance": "high"
   },
   {
    "date": "2026-09-25",
    "time_et": "2:00 PM",
-   "event": "Fed's Hammack on policy panel with ECB's Vujcic and Banxico's Heath",
-   "consensus": "n/a",
+   "event": "Fed's Hammack on a policy panel with the ECB's Vujcic and Banxico's Heath",
+   "consensus": null,
+   "note": null,
    "importance": "low"
   }
  ],

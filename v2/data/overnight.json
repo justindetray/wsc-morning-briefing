@@ -1,91 +1,74 @@
 {
- "window": "Friday 2026-09-18 close -> Monday 2026-09-21 7:20 AM ET",
- "lede": "Risk-on: oil down a fourth session, AI bid, and Sunday's China talks produced a proposal rather than a deal.",
+ "window": "Monday 2026-09-21 4:00 PM ET close -> Tuesday 2026-09-22 7:20 AM ET",
+ "lede": "Monday's AI rally did not travel: Asia faded, Europe opened flat, futures are flat, and oil round-tripped an overnight gain in a single hour.",
  "asia_close": [
   {
    "market": "Shanghai Comp",
-   "delta_pct": 0.97,
-   "level": 3949.91
+   "delta_pct": 0.06,
+   "level": 3952.13
   },
   {
    "market": "Shenzhen Comp",
-   "delta_pct": 0.65,
-   "level": 13730.02
+   "delta_pct": -0.05,
+   "level": 13723.74
   },
   {
    "market": "Hang Seng",
-   "delta_pct": 1.18
+   "delta_pct": 0.18,
+   "level": 25087.75
   },
   {
    "market": "Kospi",
-   "delta_pct": 1.65
+   "delta_pct": 0.15,
+   "level": 7017.91
   },
   {
    "market": "ASX 200",
-   "delta_pct": 0.0,
-   "level": 8731
+   "delta_pct": 0.2
   }
  ],
  "europe_open": [
   {
    "market": "STOXX 600",
-   "delta_pct": 0.56
-  },
-  {
-   "market": "DAX",
-   "delta_pct": 0.76
+   "delta_pct": 0.2
   }
  ],
  "single_name_moves": [
   {
-   "ticker": "WBD",
-   "delta_pct": 7.6,
+   "ticker": "GOOGL",
+   "delta_pct": 0.8,
    "venue": "pre-mkt"
   },
   {
-   "ticker": "MSTR",
-   "delta_pct": 6.8,
-   "venue": "pre-mkt"
-  },
-  {
-   "ticker": "ACN",
-   "delta_pct": 6.0,
-   "venue": "pre-mkt"
-  },
-  {
-   "ticker": "INTC",
-   "delta_pct": 5.4,
-   "venue": "pre-mkt"
-  },
-  {
-   "ticker": "COIN",
-   "delta_pct": 4.6,
-   "venue": "pre-mkt"
-  },
-  {
-   "ticker": "DELL",
-   "delta_pct": 2.7,
-   "venue": "pre-mkt"
-  },
-  {
-   "ticker": "MRVL",
-   "delta_pct": 2.6,
+   "ticker": "AMZN",
+   "delta_pct": 0.6,
    "venue": "pre-mkt"
   },
   {
    "ticker": "META",
-   "delta_pct": 2.4,
+   "delta_pct": 0.5,
+   "venue": "pre-mkt"
+  },
+  {
+   "ticker": "MSFT",
+   "delta_pct": 0.4,
+   "venue": "pre-mkt"
+  },
+  {
+   "ticker": "NVDA",
+   "delta_pct": -0.2,
    "venue": "pre-mkt"
   }
  ],
  "geo_headlines": [
-  "THE US-CHINA TALKS ENDED SUNDAY WITH A PROPOSAL AND NOT A DEAL. Bessent and Greer met Vice Premier He Lifeng at JPMorgan's Manhattan headquarters and produced no joint statement, no framework and no document - only a US proposal for an AI incident *notification mechanism* between the two countries, to be put to Trump and Xi on Thursday, plus an agreement to keep talking. Greer said chip and equipment export controls were not on the agenda. Xinhua called the exchanges candid and constructive and did not say how Beijing received the AI proposal. Nothing in any readout quantifies tariffs, rare earths, Boeing or farm purchases. The truce still expires November 10.",
-  "OIL FELL FOR A FOURTH STRAIGHT SESSION BECAUSE SAUDI BARRELS ARE COMING BACK. Kpler and LSEG tanker data show Saudi crude exports back above 4 million barrels a day in September after 2.4 million in August, and Saudi volumes through Hormuz averaging 2.9 million a day over six days against 700,000 in August. That is the actual news. Against it: Hormuz saw only 17 trackable transits over the weekend versus 37 a week earlier, there have been no visible loadings from Yanbu since September 16, and Aramco, the Saudi energy ministry and OPEC-plus have all said nothing. The line about restarting pipeline flows quickly is an unattributed report that Reuters itself flags as doubted.",
-  "UKRAINE RAN ITS LARGEST REPORTED DRONE ATTACK ON THE MOSCOW REGION AND DAMAGED THE CITY'S REFINERY. Russia says it downed more than 1,600 drones since Saturday, about 450 of them headed for Moscow, with three dead and 400 people evacuated from a tower block. The Moscow refinery processed 11.6 million tonnes of crude in 2024. It lands a week after Trump said both sides had agreed to stop hitting energy infrastructure, and on the weekend United Russia won the parliamentary election with over 57%.",
-  "THE AFD CAME FIRST IN MECKLENBURG-VORPOMMERN AND THE CDU HAD ITS WORST STATE RESULT SINCE 1949. The AfD took 38.2% against the SPD's 35.5%, while Merz's CDU collected 4.9% and lost every seat in the state parliament; in Berlin, Die Linke came first on 25.7%. Merz called it a disaster and said he will carry on. The market response was almost nil - the euro sat flat at $1.1480 and the DAX rose 0.76%, and Reuters was explicit that the bid in Bunds came from the drop in oil rather than from the politics.",
-  "GOOLSBEE OPENED THE HEAVIEST FED SPEAKING WEEK OF THE QUARTER WITH A HAWKISH LINE. Speaking in London at 6:30 AM ET, the Chicago Fed president said strong demand may be adding to inflation and that there would be no ambiguity about how the Fed would respond - a signal that officials are no longer treating the problem as purely a tariff and energy shock. At least ten policymakers speak this week, with Williams and Vice Chair Jefferson on Tuesday. Futures put the odds of an October hike in the low-to-mid fifties and treat a move by December as close to settled.",
-  "JAPAN IS SHUT UNTIL THURSDAY AND THAT IS ITSELF THE YEN RISK. Tokyo is closed Monday through Wednesday for Silver Week, three sessions after the Bank of Japan raised rates to about 1.25%. The yen has weakened back to roughly 157 per dollar anyway, and traders are watching for the Ministry of Finance to use the thin holiday liquidity to intervene, having already run rate checks on Friday. Nikkei futures were up 0.5% with the cash market closed."
+  "MONDAY'S AI RALLY DID NOT TRAVEL OVERNIGHT. Wall Street had its best session in weeks, but Asia refused to follow: the Kospi opened up 2.2% and closed up 0.15%, having traded *below* Monday's close at one point, and Chinese indices opened higher and finished flat to slightly lower. Europe opened within 0.15% of unchanged. US futures are flat. The clearest tell is that the Asian chip complex went the other way in US pre-market, with TSMC and SK Hynix ADRs both more than 1% lower while Alphabet, Amazon, Meta and Microsoft were marginally higher. Beware wire copy still quoting Korea up nearly 2% - that is the opening print, not the close.",
+  "OIL ROUND-TRIPPED A FULL RALLY IN ONE HOUR THIS MORNING. Crude spent the Asian session climbing on a Reuters report that a senior Iranian official said Tehran could reopen the Strait of Hormuz within seven days if the US eases pressure, and by 0758 GMT Reuters had Brent at $101.63 and November West Texas at $93.17, the first gain in five sessions. It did not hold. Between 08:00 and 11:00 UTC both benchmarks broke hard on the heaviest volume of the day, and West Texas is now near $90.40 and Brent near $98.65 - both lower again, a fifth straight decline. No verified catalyst explains the break, so none is asserted here.",
+  "THE ODDS OF AN OCTOBER FED HIKE KEPT GRINDING HIGHER. Two policymakers spoke hawkishly Monday: Goolsbee said in London that supply shocks have come more frequently and hit harder, that the road to 2% may not be painless, and afterwards that there would be no ambiguity about how the Fed would react, while Musalem said more hikes are likely needed and called 3.75-4.00% still on the accommodative side. Reuters' pre-open wrap this morning puts the probability of an October move at 57.6%, against roughly 50-55% Monday and 43.5% a week ago. Williams and Vice Chair Jefferson speak mid-morning and Barkin after lunch.",
+  "TODAY'S TWO-YEAR AUCTION SITS ON A MECHANICAL TRIPWIRE. Treasury sells $69bn of two-year notes at 1:00 PM ET with the two-year yield at 4.76%, its 2026 high. A high yield printing between 4.625% and 4.749% would trigger an unscheduled reopening of the five-year, so the auction is sitting right at the top edge of that band. Monday was a bull flattening into it - the ten-year rallied five basis points back below 5% to 4.96% while the front end did not move at all, taking two-year to ten-year down to 20 basis points. Five-year notes follow Wednesday and seven-year Thursday.",
+  "THE UN GENERAL ASSEMBLY OPENS AND IRAN IS THE REAL OIL TRADE. The general debate begins today with Trump expected to speak around 9:45 AM ET, immediately after Brazil. Reuters reports potential US-Iran talks on the sidelines this week, which is the single biggest binary for crude, and Trump has said he would be open to meeting President Pezeshkian. Trump also meets Zelensky today, who is pushing a limited truce protecting energy and heating infrastructure before winter. That would be bearish for crude and for refined products if it lands, and it comes after Ukraine struck the Kuibyshev refinery overnight.",
+  "TOKYO IS STILL SHUT AND THE YEN IS BACK NEAR 157. Japan is closed again today for Citizens' Holiday and does not reopen until Thursday, four sessions after the Bank of Japan raised rates to about 1.25% on a 7-2 vote. The yen has drifted to roughly 157.1-157.8 per dollar regardless, and the Nikkei reported that officials ran a rate check late Friday, the classic precursor to intervention. The Ministry of Finance has confirmed nothing and its published intervention data only runs to late August, so there is no way to verify action from official sources yet. Thin holiday liquidity is what makes an outsized move possible.",
+  "MONDAY'S NASDAQ RECORD WAS THE COMPOSITE AND NOT THE NASDAQ 100. Reuters labelled Monday a record Nasdaq close, the first since June 2, and that is correct for the Composite - but only on one of the two tests that matter. Its closing level beat the June 2 record by 0.10%, while its intraday high finished 0.02% short of the June 1 high, so the two legs disagree. The Nasdaq 100, which is what the futures and the options book actually track, is a different story: it is still 0.58% below its own June 2 record close. The S&P 500 is 0.44% below its August 13 record and the semiconductor index remains 15.0% below its June peak despite gaining 4.29% Monday."
  ],
- "client_frame_short": "Markets are having a good morning for two unrelated reasons: oil is down about 2.5% because Saudi exports are visibly recovering, and the AI trade is bid again. Nasdaq futures are up about 1%. What did not happen matters more - Sunday's US-China meeting produced a proposal on AI safety and nothing at all on tariffs, rare earths or farm purchases, so Thursday's Trump-Xi meeting is carrying the whole load. **The thing to watch this week is not a headline but three Treasury auctions** - two-year Tuesday, five-year Wednesday, seven-year Thursday - because last week's move in yields was the market repricing the cost of money, not its inflation forecast. If those auctions clear badly, that is the story. If they clear fine, last week's selloff was positioning rather than a verdict.",
- "client_frame": "Two things are lifting markets this morning and neither of them is a policy decision. The first is oil. Brent is down about 2.6% to roughly $101 and it is the fourth consecutive session of declines, because tanker-tracking data now shows Saudi crude exports back above 4 million barrels a day this month after collapsing to 2.4 million in August. The second is the AI complex, which is bid across Asia, Europe and US pre-market on strong Korean chip exports and a $2 billion Accenture-Anthropic tie-up. Nasdaq futures are up about 1%, S&P futures about 0.65%, and the ten-year yield has slipped back below 5%. Cheaper energy and lower yields is a combination that flatters almost everything.\n\nA note on the oil number, because it will look wrong next to Friday's brief. The futures board rolled. Friday we quoted West Texas at $100.30, which was the October contract; October expires tomorrow, and the quote everyone now carries is November, which settled Friday at $96.08 and is trading near $93.50 today. So the honest read is that WTI is down about 2.7% today, not down 6.8%. The $4-plus gap between the two contracts is the market paying a premium for a barrel delivered right now versus one delivered in five weeks, which is what a genuine supply disruption looks like.\n\nSunday's US-China meeting is the one to be careful about. Bessent and Greer spent the day with Vice Premier He Lifeng and came out with no joint statement, no framework and no document. What exists is an American proposal for a notification mechanism between the two countries when an AI incident reaches the level of a national-security concern, plus an agreement to talk again. Greer said export controls on advanced chips were not even on the agenda, and China's official readout did not say how Beijing received the proposal. Nothing was agreed on tariffs, rare earths, Boeing or agricultural purchases. All of that is now riding on Thursday, when Xi is at the White House, and the tariff truce expires November 10. A client who reads that the talks went well is reading tone, not substance.\n\nThe part that actually determines returns this week is the Treasury auction calendar. Treasury sells two-year notes Tuesday, five-year Wednesday and seven-year Thursday, with the two-year yield at 4.76% - its highest level this year - and the ten-year at 5%. There is essentially no economic data until next week, so the auctions and the Fed speakers will carry it. Goolsbee opened in London this morning by saying strong demand may be adding to inflation and that there would be no ambiguity about the response; at least ten officials speak before Friday. What matters is the character of last week's bond selloff: the ten-year inflation breakeven printed exactly 233 basis points on three consecutive sessions while the real yield did all the moving. Investors are not raising their inflation forecast. They are raising the price they charge to lend over time.\n\nBitcoin is up about 4% to roughly $84,600, which Reuters describes as a seven-month high. It is worth saying plainly that this is not a peak of any kind - it remains about a third below its own high of the past year. The same caution applies to the equity board: Nasdaq futures near 30,200 look like a big number, but that is the December contract carrying a premium of roughly 275 points to the cash index, and the cash Nasdaq is still about 3.3% below its June peak, with the S&P about 1.9% below its August peak and the semiconductor index 18.5% below June.\n\nSo the framing for a client call is straightforward. A good morning driven by cheaper oil and a better AI tape is welcome but it is not information about the next twelve months. The repricing of the cost of capital that drove last week is still underway and is still the dominant fact; it marks down the bonds already owned while raising the return on every dollar invested from here, and it is the arithmetic reason the average stock has lagged the index. Rebalancing into that gap is the opportunity. The trigger that would change this view is a failed auction this week or a collapse at Thursday's summit - not a 1% move in futures before the opening bell."
+ "client_frame_short": "Monday was a big day for US equities - the S&P rose 1.49%, the Nasdaq 100 2.83% and the semiconductor index 4.29% - and the useful observation this morning is that none of it travelled. Korea opened up more than 2% and closed up 0.15%. China opened higher and closed flat. Europe opened flat. US futures are flat, and the Asian chip names are actually lower in pre-market. **A rally that cannot reproduce itself in the next time zone is usually positioning rather than a change in view.** Oil did the same thing in miniature, rallying overnight on a report that Iran could reopen Hormuz within a week and then giving all of it back and more in a single hour. Watch the $69bn two-year auction at 1:00 PM - that is the real test today, not the open.",
+ "client_frame": "Monday was the strongest US session in weeks. The S&P 500 closed up 1.49% at 7,764.70, the Nasdaq 100 up 2.83%, and the semiconductor index up 4.29%, driven by an AI bid that included AMD crossing a trillion dollars in market value and double-digit moves in Intel and Arm. The most useful thing to say about it this morning is that it did not travel. The Korean market opened up more than 2% and closed up 0.15%, trading below Monday's close along the way. Chinese indices opened higher and closed flat to slightly lower. Europe opened within a fraction of unchanged. US futures are flat as I write. And the clearest tell of all: the Asian chip complex, the epicentre of Monday's rally, is lower in US pre-market, with TSMC and SK Hynix both off more than a percent while the US megacaps are marginally higher. A rally that cannot reproduce itself in the next time zone is usually positioning being covered rather than a genuine change of view.\n\nA word on the record headlines, because they will be quoted at you and they are only half right. Reuters called Monday a record Nasdaq close, the first since June 2. That is true of the Nasdaq Composite, and even there it only passes one of the two tests we apply: the closing level beat the old record by 0.10%, but the intraday high came up 0.02% short of the June 1 high. The Nasdaq 100 - the index the futures, the options book and the volatility complex actually track - is not at a record at all. It is still 0.58% below its June 2 close. The S&P 500 is 0.44% below its August 13 record, and the semiconductor index, after gaining 4.29% in a single session, is still 15.0% below where it was in June. The distinction matters because a client who hears 'record' assumes the recovery is complete, and in the indices that drive most portfolios it is not.\n\nOil did in miniature exactly what the equity market did in aggregate. Crude climbed through the Asian session on a Reuters report that a senior Iranian official said Tehran could reopen the Strait of Hormuz within seven days if Washington eases pressure, and by just before 8am London time Brent was $101.63 and November West Texas $93.17 - the first gain in five sessions. Then it broke. Between 8 and 11 UTC both contracts sold off hard on the heaviest volume of the day, and as I write West Texas is near $90.40 and Brent near $98.65, both lower on the day and extending the losing streak to five. I cannot point to a verified catalyst for the break and I am not going to invent one. What I can say is that the supply picture underneath is genuinely improving: Saudi exports are back above 4 million barrels a day this month after collapsing to 2.4 million in August, and Aramco loaded about 14 million barrels onto seven supertankers near Ras Tanura on Sunday. Against that, an armed group shut a valve on Libya's Sharara pipeline Monday, taking roughly 200,000 barrels a day off the market. Note also that a single 'WTI price' is ambiguous today: the October contract expires this afternoon near $96 and the November contract everyone now quotes is near $90.\n\nThe thing that actually decides this week is the Treasury auction calendar, and today is the first leg. Treasury sells $69bn of two-year notes at 1:00 PM with the two-year yield at 4.76%, its high for the year. There is a mechanical detail worth knowing: a high yield between 4.625% and 4.749% triggers an unscheduled reopening of the five-year, and the auction is sitting right on the top edge of that band. Monday's price action was a bull flattening into it - the ten-year rallied five basis points back below 5% to 4.96% while the two-year did not move at all, compressing the two-to-ten spread to 20 basis points. Five-year notes come Wednesday, seven-year Thursday. There is essentially no economic data until next week, so the auctions and the Fed speakers carry the tape. Williams and Vice Chair Jefferson both speak at the New York Fed's Treasury market conference mid-morning, which is the right venue for the question of who absorbs all this duration, and Barkin follows at one o'clock.\n\nOn the Fed itself, the direction of travel is unambiguous. Goolsbee said in London Monday that supply shocks have come more frequently and hit harder and that the road back to 2% may not be painless, and told reporters afterwards there would be no ambiguity about how the Fed would react if demand were adding to inflation. Musalem said outright that more hikes are likely needed and that 3.75-4.00% is still on the accommodative side. Reuters' pre-open wrap this morning has the market pricing a 57.6% chance of an October hike, up from roughly 50-55% Monday and 43.5% a week ago. I am quoting Reuters rather than our own CME feed deliberately: that feed advanced its reporting date to Monday without changing a single probability, which is our signature for a stale file, so the probability table is suppressed on the dashboard today rather than shown as if it were live. One other small thing worth filing away - Nasdaq volatility actually rose Monday, from 19.29 to 20.39, while the index itself gained 2.83%. Index vol bid through a rally is not normal and usually means someone is paying up for protection into an event.\n\nSo the client framing is this. Yesterday was a good day and today is a flat one, and the gap between them is the information. The two questions that decide the next fortnight are whether the market will absorb this week's duration without a concession, and whether Thursday's meeting between Trump and Xi produces anything more substantive than Sunday's talks did - which produced a proposal for an AI incident notification line, a plan to meet again in Shenzhen in two months, and explicitly no agreement to extend the tariff truce that expires November 10. Neither question is answered by a 4% day in semiconductors. The repricing of the cost of capital is still the dominant fact, it still marks down bonds already owned while raising the return on every dollar invested from here, and rebalancing into that gap is still the opportunity. What would change this view is a failed auction this week, or a collapse at Thursday's summit."
 }

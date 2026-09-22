@@ -1,120 +1,120 @@
 {
  "ES": {
-  "value": 7763.75,
-  "prev_close": 7712.5,
-  "delta_pct": 0.6645,
+  "value": 7836.25,
+  "prev_close": 7833.5,
+  "delta_pct": 0.0351,
   "label": "E-mini S&P (Dec)",
-  "as_of": "Mon 7:20 AM ET",
+  "as_of": "Tue 7:20 AM ET",
   "status": "LIVE",
-  "source": "finance ESUSD live quote ts 2026-09-21 11:10:32 UTC; base = vendor previousClose 7712.50 = Friday's CME settle (#177-B). December contract throughout -- hourly bars show no roll discontinuity and a stable ~62pt premium to cash SPX 7650.50"
+  "source": "finance ESUSD live quote ts 2026-09-22 11:01:44 UTC; base = vendor previousClose 7833.50 = Monday's CME settle (#177-B). December contract throughout -- the 2026-09-17..22 hourly series shows no roll discontinuity (#189-A scan) and the premium to cash SPX 7764.70 is a stable ~72pt. Reuters had E-minis -0.08% at 5:28 AM ET; our 11:01 UTC print is +0.04%, i.e. flat either way"
  },
  "NQ": {
-  "value": 30226.5,
-  "prev_close": 29917.25,
-  "delta_pct": 1.0337,
+  "value": 30807.0,
+  "prev_close": 30784.75,
+  "delta_pct": 0.0723,
   "label": "E-mini Nasdaq (Dec)",
-  "as_of": "Mon 7:20 AM ET",
+  "as_of": "Tue 7:20 AM ET",
   "status": "LIVE",
-  "source": "finance NQUSD live quote ts 2026-09-21 11:10:32 UTC; base = vendor previousClose 29917.25 = Friday's CME settle. December contract throughout -- premium to cash NDX was +250 on 9/17 and +273 on 9/18, i.e. stable, so value and base are one series"
+  "source": "finance NQUSD live quote ts 2026-09-22 11:01:49 UTC; base = vendor previousClose 30784.75 = Monday's CME settle. December contract throughout -- no roll discontinuity in the hourly scan; premium to cash NDX 30482.35 is ~325pt"
  },
  "SOX": {
-  "value": 11921.69,
-  "prev_close": 11599.49,
-  "delta_pct": 2.7777,
+  "value": 12433.17,
+  "prev_close": 11921.69,
+  "delta_pct": 4.2903,
   "label": "Semis",
-  "as_of": "Fri 9/18 close",
+  "as_of": "Mon 9/21 close",
   "status": "CLOSED",
-  "source": "Polygon I:SOX settled daily bars, 2026-09-18 vs 2026-09-17 (poly189_out.json); cash session has not opened at build time"
+  "source": "Polygon I:SOX settled daily bars, 2026-09-21 vs 2026-09-18 (poly190_out.json). +4.29% was Monday's single biggest index move; corroborated by Nasdaq Global Index Watch (12,433.17, +511.49, +4.29%) and Reuters ('rose 4.3%')"
  },
  "DJI": {
-  "value": 51682.64,
-  "prev_close": 51778.04,
-  "delta_pct": -0.1842,
+  "value": 52048.83,
+  "prev_close": 51682.64,
+  "delta_pct": 0.7085,
   "label": "Dow",
-  "as_of": "Fri 9/18 close",
+  "as_of": "Mon 9/21 close",
   "status": "CLOSED",
-  "source": "Polygon I:DJI settled daily bars, 2026-09-18 vs 2026-09-17 (poly189_out.json)"
+  "source": "Polygon I:DJI settled daily bars, 2026-09-21 vs 2026-09-18 (poly190_out.json); matches Reuters' +0.71% / +366.19pt for Monday"
  },
  "VIX": {
-  "value": 14.81,
-  "prev_close": 15.44,
-  "delta_pct": -4.0803,
+  "value": 14.87,
+  "prev_close": 14.81,
+  "delta_pct": 0.4051,
   "label": "VIX",
-  "as_of": "Fri 9/18 close",
+  "as_of": "Mon 9/21 close",
   "status": "CLOSED",
-  "source": "Polygon I:VIX settled daily bars, 2026-09-18 vs 2026-09-17 (poly189_out.json). #177-A: a same-day 2026-09-21 I:VIX bar exists (c=14.87) with no I:VXN twin; per #156-I it is a pre-open partial and is NOT shipped"
+  "source": "Polygon I:VIX settled daily bars, 2026-09-21 vs 2026-09-18 (poly190_out.json). #177-A fires a 7th consecutive run: a same-day 2026-09-22 I:VIX bar exists (c=14.82) with no I:VXN twin for that date; per #156-I it is a pre-open partial and is NOT shipped. Note VXN ROSE Monday (19.29 -> 20.39) while NDX gained 2.83% -- index vol bid through a rally, which is unusual and worth watching"
  },
  "US10Y": {
-  "value": 5.01,
-  "prev_close": 4.94,
-  "delta_pct": 1.417,
+  "value": 4.96,
+  "prev_close": 5.01,
+  "delta_pct": -0.998,
   "label": "US 10y",
-  "as_of": "Fri 9/18 close",
+  "as_of": "Mon 9/21 close",
   "status": "CLOSED",
-  "source": "Treasury daily CMT CSV, obs 09/18/2026 vs 09/17/2026 (cmt2026_r189.csv); Monday's obs does not publish until ~3:30pm ET. TIED its 2026 high of 5.01 set 09/16. Reuters reports the 10y slipping back below 5% intraday Monday -- not yet an official CMT observation, so not shipped as the tile"
+  "source": "Treasury daily CMT CSV, obs 09/21/2026 vs 09/18/2026 (cmt2026_r190.csv, 181 rows). Monday's observation IS published, so unlike run #189 the curve is same-session with the equity tiles. Back below 5%. Corroborated by FRED T10Y2Y = 0.20 on 2026-09-21, which equals 4.96 - 4.76 exactly. NOT a 2026 high: the 5.01 max is TIED between 09/16 and 09/18"
  },
  "US2Y": {
   "value": 4.76,
-  "prev_close": 4.67,
-  "delta_pct": 1.9272,
+  "prev_close": 4.76,
+  "delta_pct": 0.0,
   "label": "US 2y",
-  "as_of": "Fri 9/18 close",
+  "as_of": "Mon 9/21 close",
   "status": "CLOSED",
-  "source": "Treasury daily CMT CSV, obs 09/18/2026 vs 09/17/2026 (cmt2026_r189.csv); re-verified this run as the sole unique 2026 maximum across all 180 observations"
+  "source": "Treasury daily CMT CSV, obs 09/21/2026 vs 09/18/2026 (cmt2026_r190.csv); the front end was pinned exactly while the 10y rallied 5bp -- a bull flattening into today's 2-year auction. 4.76 is the 2026 maximum but is now TIED between 09/18 and 09/21, so it is no longer the sole unique high it was at run #189"
  },
  "WTI": {
-  "value": 93.51,
-  "prev_close": 96.08,
-  "delta_pct": -2.6749,
+  "value": 90.36,
+  "prev_close": 92.37,
+  "delta_pct": -2.176,
   "label": "WTI (Nov)",
-  "as_of": "Mon 7:20 AM ET",
+  "as_of": "Tue 7:20 AM ET",
   "status": "LIVE",
-  "source": "finance CLUSD live quote ts 2026-09-21 11:20:24 UTC; base = vendor previousClose 96.08 = the NOVEMBER contract's Friday settle. CLUSD rolled Oct->Nov at 2026-09-17 22:00 UTC (hourly bars jump 101.91 -> 96.57), so value and base are one series and the -2.67% is real. NOT comparable to Friday's board, which carried October at 100.30; October expires Tue 9/22 and was $98.34 at 08:59 GMT per Reuters",
-  "note": "Nov contract (rolled 9/17)"
+  "source": "finance CLUSD live quote ts 2026-09-22 11:11:50 UTC; base = vendor previousClose 92.37 = the NOVEMBER contract's Monday settle, which matches Reuters' '+80c to $93.17' at 0758 GMT implying a 92.37 settle. Roll re-scanned per #189-A: the only discontinuity in the hourly series is the known -5.43 Oct->Nov roll at 09-17 22:00 UTC, so value and base are one November series. The overnight rally to 93.82 at 07:00 UTC was fully reversed in the 08:00 UTC hour (93.27 -> 90.23) on the heaviest volume of the day",
+  "note": "Nov contract; Oct expires today"
  },
  "BRENT": {
-  "value": 101.18,
-  "prev_close": 103.87,
-  "delta_pct": -2.5898,
+  "value": 98.65,
+  "prev_close": 100.34,
+  "delta_pct": -1.6843,
   "label": "Brent crude",
-  "as_of": "Mon 7:20 AM ET",
+  "as_of": "Tue 7:20 AM ET",
   "status": "LIVE",
-  "source": "finance BZUSD live quote ts 2026-09-21 11:20:09 UTC; base = vendor previousClose 103.87, which matches the Brent settle shipped Friday to the cent, so no roll has occurred. Corroborated by Reuters: Brent Nov $101.75 at 08:59 GMT"
+  "source": "finance BZUSD live quote ts 2026-09-22 11:11:50 UTC; base = vendor previousClose 100.34, which matches Reuters' Monday Brent November settle of $100.34 (-$3.53, -3.4%, a 12-day low) to the cent -- independent confirmation of the base. No roll discontinuity in the hourly scan. Same round trip as WTI: 102.29 high at 07:00 UTC, then 101.82 -> 98.69 in the 08:00 hour"
  },
  "GOLD": {
-  "value": 4383.1,
-  "prev_close": 4424.9,
-  "delta_pct": -0.9447,
+  "value": 4358.6,
+  "prev_close": 4383.9,
+  "delta_pct": -0.5771,
   "label": "Gold",
-  "as_of": "Mon 7:20 AM ET",
+  "as_of": "Tue 7:20 AM ET",
   "status": "LIVE",
-  "source": "finance GCUSD live quote ts 2026-09-21 11:10:25 UTC; base = vendor previousClose 4424.90 = Friday's settle as shipped. Reuters has gold flat at ~$4,380"
+  "source": "finance GCUSD live quote ts 2026-09-22 11:01:26 UTC; base = vendor previousClose 4383.90 = Monday's settle. No roll discontinuity in the hourly scan"
  },
  "BTC": {
-  "value": 84576.72,
-  "prev_close": 81162.18,
-  "delta_pct": 4.2071,
+  "value": 85902.82,
+  "prev_close": 86597.82,
+  "delta_pct": -0.8026,
   "label": "Bitcoin",
-  "as_of": "Mon 7:20 AM ET",
+  "as_of": "Tue 7:20 AM ET",
   "status": "LIVE",
-  "source": "finance BTCUSD live quote ts 2026-09-21 11:20:32 UTC (market_status=open); base = vendor previousClose 81162.18 = Sunday's close, corroborated by Polygon X:BTCUSD 2026-09-20 close 81159.64 (a $2.54 venue difference). Same-vendor pair (#181-D)"
+  "source": "finance BTCUSD live quote ts 2026-09-22 11:11:47 UTC (market_status=open); base = vendor previousClose 86597.82 = Monday's close, corroborated by Polygon X:BTCUSD 2026-09-21 close 86594.94 (a $2.88 venue difference). Same-vendor pair (#181-D). Reuters has bitcoin -1.3% off its seven-month high; our -0.80% is a later print"
  },
  "EURJPY": {
-  "value": 180.59,
-  "prev_close": 180.16,
-  "delta_pct": 0.2387,
+  "value": 180.1,
+  "prev_close": 180.34,
+  "delta_pct": -0.1331,
   "label": "EUR/JPY",
-  "as_of": "Mon 7:20 AM ET",
+  "as_of": "Tue 7:20 AM ET",
   "status": "LIVE",
-  "source": "finance EURJPY live quote ts 2026-09-21 11:17:04 UTC; base = vendor previousClose 180.16 = Friday's close. #188-A closure: that 180.16 independently confirms the Polygon C:EURJPY Friday close of 180.18 used to fix last run's defect, and confirms the 179.53 shipped in error was in fact Sunday's reopening print, not a close"
+  "source": "finance EURJPY live quote ts 2026-09-22 11:08:55 UTC; base = vendor previousClose 180.34 = Monday's close. Value and base from the SAME vendor record (#181-D)"
  },
  "AUDJPY": {
-  "value": 112.14,
-  "prev_close": 111.68,
-  "delta_pct": 0.4119,
+  "value": 111.75,
+  "prev_close": 111.98,
+  "delta_pct": -0.2054,
   "label": "AUD/JPY",
-  "as_of": "Mon 7:20 AM ET",
+  "as_of": "Tue 7:20 AM ET",
   "status": "LIVE",
-  "source": "finance AUDJPY live quote ts 2026-09-21 11:16:58 UTC; base = vendor previousClose 111.68 (Polygon C:AUDJPY had Friday at 111.76, an 8-pip venue difference). Value and base taken from the SAME vendor record per #181-D"
+  "source": "finance AUDJPY live quote ts 2026-09-22 11:11:51 UTC; base = vendor previousClose 111.98. NOTE for future runs: 111.75 is one pip from the BANNED run-188 artifact 111.74, but it is unrelated -- 111.74 was a value reconstructed from a day range, whereas this is the vendor's own live price field paired with its own previousClose"
  }
 }
