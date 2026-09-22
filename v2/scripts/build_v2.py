@@ -129,8 +129,15 @@ TILE_FORMAT = {
     "SOX":   {"places": 2, "suffix": ""},
     "DJI":   {"places": 2, "suffix": ""},
     "VIX":   {"places": 2, "suffix": ""},
-    "US10Y": {"places": 3, "suffix": "%"},
-    "US2Y":  {"places": 3, "suffix": "%"},
+    # Yield tiles render their move in BASIS POINTS, not as a percentage change
+    # of the yield level. Added run #190 (Tier 2, display-only): the 10y went
+    # 5.01 -> 4.96, a 5bp rally, which fmt_delta was rendering as "-1.00%" --
+    # readable as "the 10-year fell 1%", which is false and is not how anyone
+    # quotes rates. The unchanged 2y was rendering "+0.00%", indistinguishable
+    # from a dead feed. delta_pct stays in the payload and still drives the
+    # colour class; only the displayed string changes.
+    "US10Y": {"places": 3, "suffix": "%", "delta_bp": True},
+    "US2Y":  {"places": 3, "suffix": "%", "delta_bp": True},
     "WTI":   {"places": 2, "suffix": ""},
     "BRENT": {"places": 2, "suffix": ""},
     "GOLD":  {"places": 2, "suffix": ""},
@@ -148,9 +155,17 @@ def render_tile(key, field):
   <div class="meta">{html_mod.escape(field.get('reason') or 'unavailable')}</div>
 </div>"""
     val = fmt_num(field["value"], fmt["places"]) + fmt["suffix"]
-    delta = fmt_delta(field.get("delta_pct"))
-    dcls = delta_class(field.get("delta_pct"))
     prev = field.get("prev_close")
+    if fmt.get("delta_bp") and prev is not None:
+        # Level difference in bp; yields are quoted in percent, so x100.
+        bp = int(round((field["value"] - prev) * 100))
+        delta = f"{bp:+d}bp" if bp else "unchanged"
+        # A genuinely unchanged yield must not read green: delta_class(0.0)
+        # returns "up", which rendered an "unchanged" 2y in gain-green.
+        dcls = "delta neutral" if bp == 0 else ("delta up" if bp > 0 else "delta down")
+    else:
+        delta = fmt_delta(field.get("delta_pct"))
+        dcls = delta_class(field.get("delta_pct"))
     prev_str = f"prev {fmt_num(prev, fmt['places'])}{fmt['suffix']}" if prev is not None else ""
     # Optional per-tile qualifier, rendered only when the payload supplies one.
     # Added run #189 so a futures contract roll is visible ON THE BOARD rather
