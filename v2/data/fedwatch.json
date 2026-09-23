@@ -2,7 +2,7 @@
  "meetings": [
   {
    "meetingDt": "2026-10-28",
-   "reportingDt": "2026-09-21",
+   "reportingDt": "2026-09-22",
    "hold": 0.446429,
    "hike_25": 0.553571,
    "hike_50": 0.0,
@@ -12,46 +12,46 @@
   },
   {
    "meetingDt": "2026-12-09",
-   "reportingDt": "2026-09-21",
-   "hold": 0.105489,
-   "hike_25": 0.471746,
-   "hike_50": 0.422765,
+   "reportingDt": "2026-09-22",
+   "hold": 0.104167,
+   "hike_25": 0.471429,
+   "hike_50": 0.424405,
    "hike_75": 0.0,
    "hike_100": 0.0,
-   "cumulative_hike": 0.8945110000000001
+   "cumulative_hike": 0.895834
   },
   {
    "meetingDt": "2027-01-27",
-   "reportingDt": "2026-09-21",
-   "hold": 0.059465,
-   "hike_25": 0.31195,
-   "hike_50": 0.444135,
-   "hike_75": 0.184451,
+   "reportingDt": "2026-09-22",
+   "hold": 0.061111,
+   "hike_25": 0.319627,
+   "hike_50": 0.443841,
+   "hike_75": 0.175421,
    "hike_100": 0.0,
-   "cumulative_hike": 0.940536
+   "cumulative_hike": 0.9388890000000001
   },
   {
    "meetingDt": "2027-03-17",
-   "reportingDt": "2026-09-21",
-   "hold": 0.020303,
-   "hike_25": 0.14567,
-   "hike_50": 0.357081,
-   "hike_75": 0.355471,
-   "hike_100": 0.121474,
-   "cumulative_hike": 0.9796959999999999
+   "reportingDt": "2026-09-22",
+   "hold": 0.020778,
+   "hike_25": 0.149007,
+   "hike_50": 0.36186,
+   "hike_75": 0.352578,
+   "hike_100": 0.115778,
+   "cumulative_hike": 0.9792230000000001
   },
   {
    "meetingDt": "2027-04-28",
-   "reportingDt": "2026-09-21",
-   "hold": 0.013777,
-   "hike_25": 0.105374,
-   "hike_50": 0.289128,
-   "hike_75": 0.355989,
-   "hike_100": 0.196687,
-   "hike_125": 0.039045,
-   "cumulative_hike": 0.9862230000000001
+   "reportingDt": "2026-09-22",
+   "hold": 0.014544,
+   "hike_25": 0.110538,
+   "hike_50": 0.298004,
+   "hike_75": 0.355363,
+   "hike_100": 0.186818,
+   "hike_125": 0.034733,
+   "cumulative_hike": 0.985456
   }
  ],
- "status": "DEGRADED",
- "reason": "file advanced its reporting date to Mon 9/21 but returned Friday's probabilities unchanged to 4dp - stale-file signature. Reuters reads October at 57.6% vs this file's 55.4%, so no table is published today."
+ "status": "LIVE",
+ "note": "CME FedWatch, reporting date Tue 9/22. Four of the five meetings repriced overnight, so the file is updating normally after yesterday's stale read. The Oct 28 meeting is the exception and is unchanged to six decimals for a third reporting date - an independent FedWatch reading dated today has it at 55.1% against our 55.4%, and Reuters calls it a coin toss, so the level is corroborated even though our front-month value has not ticked."
 }

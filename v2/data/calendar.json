@@ -1,93 +1,61 @@
 {
- "last_curated": "2026-09-22",
+ "last_curated": "2026-09-23",
  "macro": [
   {
-   "date": "2026-09-22",
-   "time_et": "8:55 AM",
-   "event": "AutoZone (AZO) Q4 FY26, before the open",
-   "consensus": "EPS ~$54.1-55.0 on revenue ~$6.70bn (~8:55 AM inferred from last year's wire)",
-   "note": null,
-   "importance": "medium"
-  },
-  {
-   "date": "2026-09-22",
-   "time_et": "9:45 AM",
-   "event": "Trump addresses the UN General Assembly, speaking right after Brazil - US-Iran talks possible on the sidelines this week",
-   "consensus": null,
-   "note": null,
-   "importance": "high"
-  },
-  {
-   "date": "2026-09-22",
-   "time_et": "10:05 AM",
-   "event": "Fed's Williams (voter), US Treasury Market Conference, FRBNY - market-structure and duration venue",
-   "consensus": null,
-   "note": null,
-   "importance": "medium"
-  },
-  {
-   "date": "2026-09-22",
-   "time_et": "10:20 AM",
-   "event": "Fed Vice Chair Jefferson, same FRBNY conference - the most senior Board voice on the calendar this week",
-   "consensus": null,
-   "note": null,
-   "importance": "high"
-  },
-  {
-   "date": "2026-09-22",
-   "time_et": "1:00 PM",
-   "event": "Treasury: $69bn 2-year note auction, CUSIP 91282CRP8 - a 4.625-4.749% high yield triggers an unscheduled 5-year reopening",
-   "consensus": null,
-   "note": null,
-   "importance": "high"
-  },
-  {
-   "date": "2026-09-22",
-   "time_et": "1:00 PM",
-   "event": "Fed's Barkin (non-voter), CFA Society Baltimore",
-   "consensus": null,
-   "note": null,
-   "importance": "low"
-  },
-  {
-   "date": "2026-09-22",
-   "time_et": "",
-   "event": "Trump meets Zelensky, who is pushing an energy-infrastructure truce; NYMEX WTI October contract expires",
-   "consensus": null,
+   "date": "2026-09-23",
+   "time_et": "10:00 AM",
+   "event": "Cintas (CTAS) Q1 FY27 earnings call, results before the open",
+   "consensus": "EPS $1.35-1.36 on revenue $2.98bn (two figures in circulation, not averaged)",
    "note": null,
    "importance": "medium"
   },
   {
    "date": "2026-09-23",
    "time_et": "10:05 AM",
-   "event": "Fed Governor Barr on housing, Chicago Fed",
+   "event": "Fed Governor Barr, 'Economic Outlook and Housing', Chicago Fed housing affordability summit",
    "consensus": null,
    "note": null,
    "importance": "medium"
   },
   {
    "date": "2026-09-23",
-   "time_et": "1:00 PM",
-   "event": "Treasury: $70bn 5-year note auction, plus 2-year FRN",
-   "consensus": null,
-   "note": "the 5y tied its 2026 high of 4.86% on Friday",
-   "importance": "high"
-  },
-  {
-   "date": "2026-09-23",
-   "time_et": "",
+   "time_et": "10:30 AM",
    "event": "EIA Weekly Petroleum Status Report",
    "consensus": null,
-   "note": "EIA introduces methodology and presentation changes in THIS release - a data-continuity break",
+   "note": "format change only, NOT methodology: Highlights PDF becomes a summary text file and the full report PDF is discontinued - breaks PDF-based parsers",
    "importance": "medium"
   },
   {
    "date": "2026-09-23",
-   "time_et": "",
-   "event": "Cintas (CTAS) Q1 FY27",
+   "time_et": "11:30 AM",
+   "event": "Treasury: $28bn 2-year FRN reopening, CUSIP 91282CRD5",
    "consensus": null,
-   "note": "call 10:00 AM ET",
+   "note": null,
    "importance": "low"
+  },
+  {
+   "date": "2026-09-23",
+   "time_et": "1:00 PM",
+   "event": "Treasury: $70bn 5-year note auction, CUSIP 91282CRN3",
+   "consensus": null,
+   "note": "the regular new issue - Tuesday's 2y stopped at 4.787%, above the 4.625-4.749% band, so NO unscheduled reopening was triggered",
+   "importance": "high"
+  },
+  {
+   "date": "2026-09-23",
+   "time_et": "",
+   "event": "Xi Jinping arrives at Joint Base Andrews; Trump greets him at the airport, an unusual step",
+   "consensus": null,
+   "note": "state visit runs Sept 23-25; the substantive bilateral is Thursday",
+   "importance": "high"
+  },
+  {
+   "date": "2026-09-23",
+   "time_et": "",
+   "event": "S&P Global US flash PMI (Sept); Iran's President Pezeshkian addresses the UN General Assembly",
+   "consensus": null,
+   "note": null,
+   "importance": "medium"
   },
   {
    "date": "2026-09-24",
@@ -118,7 +86,7 @@
    "time_et": "1:00 PM",
    "event": "Treasury: $44bn 7-year note auction",
    "consensus": null,
-   "note": "final leg of the duration test",
+   "note": "final leg of this week's duration test",
    "importance": "high"
   },
   {
@@ -132,9 +100,9 @@
   {
    "date": "2026-09-24",
    "time_et": "",
-   "event": "Xi Jinping at the White House; Tokyo reopens after Silver Week",
+   "event": "Trump-Xi bilateral at the White House; Tokyo reopens after a three-day close",
    "consensus": null,
-   "note": "Xi arrives in Washington Wednesday per Reuters",
+   "note": "Nikkei futures near 66,775 imply a ~2.7% gap to Friday's 65,018.95 cash close",
    "importance": "high"
   },
   {
@@ -162,12 +130,12 @@
    "importance": "high"
   },
   {
-   "date": "2026-09-25",
-   "time_et": "2:00 PM",
-   "event": "Fed's Hammack on a policy panel with the ECB's Vujcic and Banxico's Heath",
+   "date": "2026-09-30",
+   "time_et": "4:30 PM",
+   "event": "Micron (MU) fiscal Q4 2026",
    "consensus": null,
-   "note": null,
-   "importance": "low"
+   "note": "NEXT week, not today - company IR confirms Sept 30",
+   "importance": "medium"
   }
  ],
  "earnings": []

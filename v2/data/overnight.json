@@ -1,74 +1,92 @@
 {
- "window": "Monday 2026-09-21 4:00 PM ET close -> Tuesday 2026-09-22 7:20 AM ET",
- "lede": "Monday's AI rally did not travel: Asia faded, Europe opened flat, futures are flat, and oil round-tripped an overnight gain in a single hour.",
+ "window": "Tuesday 2026-09-22 4:00 PM ET close -> Wednesday 2026-09-23 7:25 AM ET",
+ "lede": "The S&P moved six one-hundredths of a point while the semis gained 2.06% and the Dow fell 0.36%; the Nasdaq 100 took a genuine record by eight points, and the 2-year auction cleared above its reopening tripwire.",
  "asia_close": [
   {
-   "market": "Shanghai Comp",
-   "delta_pct": 0.06,
-   "level": 3952.13
-  },
-  {
-   "market": "Shenzhen Comp",
-   "delta_pct": -0.05,
-   "level": 13723.74
-  },
-  {
-   "market": "Hang Seng",
-   "delta_pct": 0.18,
-   "level": 25087.75
+   "market": "Taiex",
+   "delta_pct": 0.75,
+   "level": 48157.29
   },
   {
    "market": "Kospi",
-   "delta_pct": 0.15,
-   "level": 7017.91
+   "delta_pct": 0.9,
+   "level": 7080.92
   },
   {
    "market": "ASX 200",
-   "delta_pct": 0.2
+   "delta_pct": 0.09,
+   "level": 8765.3
+  },
+  {
+   "market": "Shanghai Comp",
+   "delta_pct": -0.39,
+   "level": 3936.52
+  },
+  {
+   "market": "Shenzhen Comp",
+   "delta_pct": -0.64,
+   "level": 13636.07
+  },
+  {
+   "market": "Hang Seng",
+   "delta_pct": -1.01,
+   "level": 24834.12
   }
  ],
  "europe_open": [
   {
+   "market": "CAC 40",
+   "delta_pct": 0.32
+  },
+  {
    "market": "STOXX 600",
    "delta_pct": 0.2
+  },
+  {
+   "market": "FTSE 100",
+   "delta_pct": 0.09
+  },
+  {
+   "market": "DAX",
+   "delta_pct": -0.41
   }
  ],
  "single_name_moves": [
   {
-   "ticker": "GOOGL",
-   "delta_pct": 0.8,
-   "venue": "pre-mkt"
+   "ticker": "MU",
+   "delta_pct": 5.0,
+   "venue": "Tue close"
   },
   {
-   "ticker": "AMZN",
-   "delta_pct": 0.6,
-   "venue": "pre-mkt"
+   "ticker": "WDC",
+   "delta_pct": 3.67,
+   "venue": "Tue close"
   },
   {
-   "ticker": "META",
-   "delta_pct": 0.5,
-   "venue": "pre-mkt"
+   "ticker": "INTC",
+   "delta_pct": 1.71,
+   "venue": "Tue close"
   },
   {
-   "ticker": "MSFT",
-   "delta_pct": 0.4,
-   "venue": "pre-mkt"
+   "ticker": "AMD",
+   "delta_pct": 1.34,
+   "venue": "Tue close"
   },
   {
    "ticker": "NVDA",
-   "delta_pct": -0.2,
-   "venue": "pre-mkt"
+   "delta_pct": 0.66,
+   "venue": "Tue close"
   }
  ],
  "geo_headlines": [
-  "MONDAY'S AI RALLY DID NOT TRAVEL OVERNIGHT. Wall Street had its best session in weeks, but Asia refused to follow: the Kospi opened up 2.2% and closed up 0.15%, having traded *below* Monday's close at one point, and Chinese indices opened higher and finished flat to slightly lower. Europe opened within 0.15% of unchanged. US futures are flat. The clearest tell is that the Asian chip complex went the other way in US pre-market, with TSMC and SK Hynix ADRs both more than 1% lower while Alphabet, Amazon, Meta and Microsoft were marginally higher. Beware wire copy still quoting Korea up nearly 2% - that is the opening print, not the close.",
-  "OIL ROUND-TRIPPED A FULL RALLY IN ONE HOUR THIS MORNING. Crude spent the Asian session climbing on a Reuters report that a senior Iranian official said Tehran could reopen the Strait of Hormuz within seven days if the US eases pressure, and by 0758 GMT Reuters had Brent at $101.63 and November West Texas at $93.17, the first gain in five sessions. It did not hold. Between 08:00 and 11:00 UTC both benchmarks broke hard on the heaviest volume of the day, and West Texas is now near $90.40 and Brent near $98.65 - both lower again, a fifth straight decline. No verified catalyst explains the break, so none is asserted here.",
-  "THE ODDS OF AN OCTOBER FED HIKE KEPT GRINDING HIGHER. Two policymakers spoke hawkishly Monday: Goolsbee said in London that supply shocks have come more frequently and hit harder, that the road to 2% may not be painless, and afterwards that there would be no ambiguity about how the Fed would react, while Musalem said more hikes are likely needed and called 3.75-4.00% still on the accommodative side. Reuters' pre-open wrap this morning puts the probability of an October move at 57.6%, against roughly 50-55% Monday and 43.5% a week ago. Williams and Vice Chair Jefferson speak mid-morning and Barkin after lunch.",
-  "TODAY'S TWO-YEAR AUCTION SITS ON A MECHANICAL TRIPWIRE. Treasury sells $69bn of two-year notes at 1:00 PM ET with the two-year yield at 4.76%, its 2026 high. A high yield printing between 4.625% and 4.749% would trigger an unscheduled reopening of the five-year, so the auction is sitting right at the top edge of that band. Monday was a bull flattening into it - the ten-year rallied five basis points back below 5% to 4.96% while the front end did not move at all, taking two-year to ten-year down to 20 basis points. Five-year notes follow Wednesday and seven-year Thursday.",
-  "THE UN GENERAL ASSEMBLY OPENS AND IRAN IS THE REAL OIL TRADE. The general debate begins today with Trump expected to speak around 9:45 AM ET, immediately after Brazil. Reuters reports potential US-Iran talks on the sidelines this week, which is the single biggest binary for crude, and Trump has said he would be open to meeting President Pezeshkian. Trump also meets Zelensky today, who is pushing a limited truce protecting energy and heating infrastructure before winter. That would be bearish for crude and for refined products if it lands, and it comes after Ukraine struck the Kuibyshev refinery overnight.",
-  "TOKYO IS STILL SHUT AND THE YEN IS BACK NEAR 157. Japan is closed again today for Citizens' Holiday and does not reopen until Thursday, four sessions after the Bank of Japan raised rates to about 1.25% on a 7-2 vote. The yen has drifted to roughly 157.1-157.8 per dollar regardless, and the Nikkei reported that officials ran a rate check late Friday, the classic precursor to intervention. The Ministry of Finance has confirmed nothing and its published intervention data only runs to late August, so there is no way to verify action from official sources yet. Thin holiday liquidity is what makes an outsized move possible.",
-  "MONDAY'S NASDAQ RECORD WAS THE COMPOSITE AND NOT THE NASDAQ 100. Reuters labelled Monday a record Nasdaq close, the first since June 2, and that is correct for the Composite - but only on one of the two tests that matter. Its closing level beat the June 2 record by 0.10%, while its intraday high finished 0.02% short of the June 1 high, so the two legs disagree. The Nasdaq 100, which is what the futures and the options book actually track, is a different story: it is still 0.58% below its own June 2 record close. The S&P 500 is 0.44% below its August 13 record and the semiconductor index remains 15.0% below its June peak despite gaining 4.29% Monday."
+  "THE SP 500 MOVED SIX ONE-HUNDREDTHS OF A POINT AND THE MARKET UNDERNEATH IT DID NOT. Tuesday's close of 7,764.64 against Monday's 7,764.70 is a decline of 0.0008%, which rounds to unchanged on any screen a client will ever look at. Inside it the semiconductor index gained 2.06%, the Nasdaq 100 gained 0.82%, and the Dow *fell* 0.36% - a spread of 2.42 percentage points between the best and worst major index on a day the headline benchmark did nothing. The leadership was memory rather than logic: Micron closed up 5.00% and Western Digital up 3.67%, against Nvidia up 0.66%.",
+  "THE NASDAQ 100 SET A GENUINE RECORD AND IT CLEARED THE OLD ONE BY EIGHT POINTS. Both of the two tests we apply agree this time, which is why we are willing to use the word: the closing level of 30,732.40 beat the June 2 record by 0.234%, and the intraday high of 30,770.63 beat the June 3 high by 0.027%. That second number is eight and a half index points on an index near 30,700, so treat the high-water mark as touched rather than broken. It is the first Nasdaq 100 record since June 2. The Composite also set one on both legs. The SP 500 remains 0.44% below its August 13 record and the semiconductor index, after leading the tape, is still 13.29% below its own June peak.",
+  "YESTERDAY'S AUCTION TRIPWIRE DID NOT TRIP. We flagged that a two-year auction stopping between 4.625% and 4.749% would force an unscheduled reopening of the five-year. It cleared at 4.787%, above the band, so today's 70 billion dollar five-year at 1:00 PM is the ordinary new issue and carries no extra supply. Read from Treasury's own auction record rather than a wire: bid-to-cover 2.63, indirect bidders 57.79%, direct 29.02%, dealers 13.19%. Indirects fell hard from August's 66.0% but landed almost exactly on the six-auction average of 58.6%, and the auction tailed the when-issued by 0.2 basis points against an average tail of 0.1. This was an ordinary auction at the highest two-year stop since May 2024, not a buyers' strike.",
+  "THE FRONT END RALLIED ON THE DAY IT SWALLOWED 69 BILLION DOLLARS OF NEW SUPPLY. The two-year yield finished Tuesday at 4.71%, five basis points lower, while the ten-year did not move at all from 4.96%. That is a bull steepening, and it takes the two-to-ten spread from 20 to 25 basis points - the exact mirror of Monday's flattening. Note the sequence: the auction stopped at 4.787%, some 7.7 basis points above where the two-year actually finished the day, so the concession was paid at one o'clock and taken straight back afterwards. Seven-year notes follow Thursday.",
+  "NASDAQ VOLATILITY WENT UP WHILE THE NASDAQ WENT TO A RECORD. VXN closed at 20.18 Tuesday against 19.29 last Friday. Over those same two sessions the Nasdaq 100 rose 3.67% and printed a record close. Implied volatility rising 4.61% into a 3.67% rally is the wrong sign convention - vol normally bleeds as an index grinds higher - and it usually means someone is paying up for protection rather than chasing the move. The VIX did the conventional thing over the same stretch and fell to 14.21. *That divergence between the two vol surfaces is the most tradeable observation on this board.*",
+  "OIL FELL FOR A SIXTH SESSION AND THE DRIVER IS SUPPLY RATHER THAN DIPLOMACY. Saudi Arabia restarted its East-West pipeline to the Red Sea on Tuesday, according to three sources briefed on the matter - it had been shut since September 11 by drone attack, and it moves roughly four million barrels a day, about 4% of global supply. Iraq is exporting above three million barrels a day, and the American Petroleum Institute reported US crude stocks up 1.8 million barrels against expectations of a draw. Brent closed below 100 dollars for the first time since September 8. The Iran headlines cut both ways overnight: Trump called a roughly three-hour indirect meeting with Iranian officials productive, then US sources told Al Hadath the chance of a deal is limited.",
+  "TOKYO HAS BEEN SHUT FOR THREE DAYS AND REOPENS INTO A GAP TOMORROW. Japanese markets were closed Monday, Tuesday and Wednesday and do not trade again until Thursday, five sessions after the Bank of Japan raised its policy rate to 1.25% on a 7-2 vote. Nikkei futures are quoted near 66,775 against Friday's cash close of 65,018.95, which implies an opening gap of roughly 2.7% if it holds. The yen has drifted to about 157.8 per dollar in the meantime, and Reuters notes traders are wary of provoking intervention beyond 160 - roughly 1.5% away. A three-day gap, a hawkish Fed bid in the dollar and a thin reopening all land on the same morning as the Trump-Xi bilateral and the seven-year auction."
  ],
- "client_frame_short": "Monday was a big day for US equities - the S&P rose 1.49%, the Nasdaq 100 2.83% and the semiconductor index 4.29% - and the useful observation this morning is that none of it travelled. Korea opened up more than 2% and closed up 0.15%. China opened higher and closed flat. Europe opened flat. US futures are flat, and the Asian chip names are actually lower in pre-market. **A rally that cannot reproduce itself in the next time zone is usually positioning rather than a change in view.** Oil did the same thing in miniature, rallying overnight on a report that Iran could reopen Hormuz within a week and then giving all of it back and more in a single hour. Watch the $69bn two-year auction at 1:00 PM - that is the real test today, not the open.",
- "client_frame": "Monday was the strongest US session in weeks. The S&P 500 closed up 1.49% at 7,764.70, the Nasdaq 100 up 2.83%, and the semiconductor index up 4.29%, driven by an AI bid that included AMD crossing a trillion dollars in market value and double-digit moves in Intel and Arm. The most useful thing to say about it this morning is that it did not travel. The Korean market opened up more than 2% and closed up 0.15%, trading below Monday's close along the way. Chinese indices opened higher and closed flat to slightly lower. Europe opened within a fraction of unchanged. US futures are flat as I write. And the clearest tell of all: the Asian chip complex, the epicentre of Monday's rally, is lower in US pre-market, with TSMC and SK Hynix both off more than a percent while the US megacaps are marginally higher. A rally that cannot reproduce itself in the next time zone is usually positioning being covered rather than a genuine change of view.\n\nA word on the record headlines, because they will be quoted at you and they are only half right. Reuters called Monday a record Nasdaq close, the first since June 2. That is true of the Nasdaq Composite, and even there it only passes one of the two tests we apply: the closing level beat the old record by 0.10%, but the intraday high came up 0.02% short of the June 1 high. The Nasdaq 100 - the index the futures, the options book and the volatility complex actually track - is not at a record at all. It is still 0.58% below its June 2 close. The S&P 500 is 0.44% below its August 13 record, and the semiconductor index, after gaining 4.29% in a single session, is still 15.0% below where it was in June. The distinction matters because a client who hears 'record' assumes the recovery is complete, and in the indices that drive most portfolios it is not.\n\nOil did in miniature exactly what the equity market did in aggregate. Crude climbed through the Asian session on a Reuters report that a senior Iranian official said Tehran could reopen the Strait of Hormuz within seven days if Washington eases pressure, and by just before 8am London time Brent was $101.63 and November West Texas $93.17 - the first gain in five sessions. Then it broke. Between 8 and 11 UTC both contracts sold off hard on the heaviest volume of the day, and as I write West Texas is near $90.40 and Brent near $98.65, both lower on the day and extending the losing streak to five. I cannot point to a verified catalyst for the break and I am not going to invent one. What I can say is that the supply picture underneath is genuinely improving: Saudi exports are back above 4 million barrels a day this month after collapsing to 2.4 million in August, and Aramco loaded about 14 million barrels onto seven supertankers near Ras Tanura on Sunday. Against that, an armed group shut a valve on Libya's Sharara pipeline Monday, taking roughly 200,000 barrels a day off the market. Note also that a single 'WTI price' is ambiguous today: the October contract expires this afternoon near $96 and the November contract everyone now quotes is near $90.\n\nThe thing that actually decides this week is the Treasury auction calendar, and today is the first leg. Treasury sells $69bn of two-year notes at 1:00 PM with the two-year yield at 4.76%, its high for the year. There is a mechanical detail worth knowing: a high yield between 4.625% and 4.749% triggers an unscheduled reopening of the five-year, and the auction is sitting right on the top edge of that band. Monday's price action was a bull flattening into it - the ten-year rallied five basis points back below 5% to 4.96% while the two-year did not move at all, compressing the two-to-ten spread to 20 basis points. Five-year notes come Wednesday, seven-year Thursday. There is essentially no economic data until next week, so the auctions and the Fed speakers carry the tape. Williams and Vice Chair Jefferson both speak at the New York Fed's Treasury market conference mid-morning, which is the right venue for the question of who absorbs all this duration, and Barkin follows at one o'clock.\n\nOn the Fed itself, the direction of travel is unambiguous. Goolsbee said in London Monday that supply shocks have come more frequently and hit harder and that the road back to 2% may not be painless, and told reporters afterwards there would be no ambiguity about how the Fed would react if demand were adding to inflation. Musalem said outright that more hikes are likely needed and that 3.75-4.00% is still on the accommodative side. Reuters' pre-open wrap this morning has the market pricing a 57.6% chance of an October hike, up from roughly 50-55% Monday and 43.5% a week ago. I am quoting Reuters rather than our own CME feed deliberately: that feed advanced its reporting date to Monday without changing a single probability, which is our signature for a stale file, so the probability table is suppressed on the dashboard today rather than shown as if it were live. One other small thing worth filing away - Nasdaq volatility actually rose Monday, from 19.29 to 20.39, while the index itself gained 2.83%. Index vol bid through a rally is not normal and usually means someone is paying up for protection into an event.\n\nSo the client framing is this. Yesterday was a good day and today is a flat one, and the gap between them is the information. The two questions that decide the next fortnight are whether the market will absorb this week's duration without a concession, and whether Thursday's meeting between Trump and Xi produces anything more substantive than Sunday's talks did - which produced a proposal for an AI incident notification line, a plan to meet again in Shenzhen in two months, and explicitly no agreement to extend the tariff truce that expires November 10. Neither question is answered by a 4% day in semiconductors. The repricing of the cost of capital is still the dominant fact, it still marks down bonds already owned while raising the return on every dollar invested from here, and rebalancing into that gap is still the opportunity. What would change this view is a failed auction this week, or a collapse at Thursday's summit."
+ "client_frame_short": "The S&P 500 closed Tuesday six one-hundredths of a point away from where it closed Monday. That is as close to literally unchanged as an index gets, and it is also completely misleading: underneath it the semiconductor index rose 2.06%, the Nasdaq 100 rose 0.82% to its first record close since June, and the Dow fell 0.36%. **A flat index is not a quiet market - it is a market where the money is moving sideways between sectors rather than leaving.** The rotation was into memory chips, with Micron up 5% and Western Digital up 3.7%. Two things to watch today: the $70bn five-year auction at 1:00 PM, and the fact that Nasdaq volatility rose while the Nasdaq hit a record, which is not the usual pairing.",
+ "client_frame": "The most useful number on the board this morning is a non-event. The S&P 500 closed Tuesday at 7,764.64 against 7,764.70 on Monday. That is a decline of six one-hundredths of one index point, 0.0008%, which every screen in the world will display as unchanged. A client glancing at the headline number would conclude nothing happened. Quite a lot happened. The semiconductor index gained 2.06%, the Nasdaq 100 gained 0.82%, the Nasdaq Composite gained 0.45% and the Dow Jones Industrial Average lost 0.36%. That is a spread of 2.42 percentage points between the best and worst major US index on a day the headline benchmark did not move. This is worth explaining to clients precisely because it is invisible: a flat index is not evidence of a quiet market, and it is certainly not evidence of money leaving. It is evidence of money rotating. The leadership was memory rather than logic - Micron closed up 5.00% and Western Digital up 3.67%, while Nvidia managed only 0.66%.\n\nThe Nasdaq 100 set a real record and I want to be precise about it, because we have been burned by loose record language before. We apply two tests: the closing level must beat the prior best close, and the intraday high must beat the prior best high. Both passed. The close of 30,732.40 beat the June 2 record by 0.234%, and the high of 30,770.63 beat the June 3 high by 0.027%. It is the first Nasdaq 100 record since June 2. But that second figure is eight and a half index points on an index trading near 30,700, so the honest characterisation is that the old high was touched and edged rather than decisively broken. And the record sits alongside two facts that complicate the celebration: the S&P 500 is still 0.44% below its August 13 record, and the semiconductor index - the group that actually drove Tuesday's move - is still 13.29% below its own June peak even after gaining 2.06%. A client who hears 'record' assumes the whole market has recovered. One index has.\n\nYesterday I flagged a mechanical tripwire on the two-year auction, so I owe you the resolution. A high yield printing between 4.625% and 4.749% would have forced an unscheduled reopening of the five-year and put unplanned supply into today's session. It cleared at 4.787%, above the band, so today's $70bn five-year at 1:00 PM is the ordinary scheduled new issue. I pulled the result from Treasury's own auction record rather than from a wire, and it reproduces the wire numbers exactly: bid-to-cover 2.63, indirect bidders 57.79%, direct 29.02%, primary dealers 13.19%. The story being told about this auction is that indirect demand collapsed, and that needs a caveat. Indirects did fall sharply from August's 66.0% - but 57.79% is almost exactly the six-auction average of 58.6%. August was the outlier, not September. The auction tailed the when-issued level by two-tenths of a basis point against an average tail of one tenth. What we actually had was an unremarkable auction at the highest two-year stop since May 2024. That is a story about the level of rates, not about anyone refusing to buy them.\n\nThe bond market's reaction says the same thing more clearly. On the day it absorbed $69bn of new two-year paper, the two-year yield fell five basis points to 4.71% while the ten-year sat perfectly still at 4.96%. That is a bull steepening, and it widens the two-to-ten spread from 20 to 25 basis points - the exact mirror of Monday's flattening. Look at the sequence: the auction stopped at 4.787%, some 7.7 basis points above where the two-year actually closed the day. The market demanded a concession at one o'clock and then took it straight back. Seven-year notes come Thursday and that is the last leg of this week's duration test. Separately, SoftBank's $10bn-plus bond sale drew more than $20bn of interest overnight, which is a reminder that government paper is not the only thing competing for the same dollars.\n\nThere is one genuine oddity on the board and it is the one I would actually trade. Nasdaq implied volatility went UP while the Nasdaq went to a record. VXN closed at 20.18 Tuesday against 19.29 last Friday, a rise of 4.61%, and over those same two sessions the Nasdaq 100 rose 3.67% to a record close. Volatility normally bleeds lower as an index grinds up, because the demand for protection falls as people become comfortable. Rising implied vol into a rising index usually means the opposite: somebody is paying up for downside protection rather than chasing the move, or dealers are being forced to pay for gamma they are short. Note that the VIX did the conventional thing over the same period and fell to 14.21, so this is specific to the Nasdaq surface rather than a market-wide risk bid. For a client the translation is simple: the options market is not as comfortable with this record as the index level implies, and protection on Nasdaq exposure is being bid rather than sold.\n\nOn the Fed, our CME feed is working properly again after yesterday's stale file, and it puts the October 28 hike at 55.4% with December cumulative at 89.6%. I am publishing the table today where yesterday I suppressed it, because four of the five meetings moved overnight and an independent reading this morning has October at 55.1%, which brackets our number. Reuters this morning simply calls it a coin toss. The direction of travel has not changed: Barkin said Tuesday that the risks to inflation outweigh the risks to maximum employment and that conditions are, if anything, firming, and Collins said she now sees an increased likelihood of scenarios where inflation stays notably above 2%. Governor Barr speaks on housing at 10:05 this morning. Elsewhere the euro zone flash composite PMI jumped to 53.1 from 52.0, its fastest in over three years and above the highest forecast in the Reuters poll, with firms reporting steeper operating costs - hawkish at the margin, and the euro fell anyway to near a two-month low.\n\nSo the client framing is this. Tuesday looked like nothing and was actually a substantial rotation, which is a good reminder that index level and market activity are different things, and that the cost of watching only the headline number is that you miss the part that matters. The record in the Nasdaq 100 is real but narrow, both in how far it cleared the old high and in how few indices came with it. The bond market absorbed a large auction at a two-year-high yield and then rallied, which is reassuring about demand at these levels. And the one thing that does not fit the calm picture is Nasdaq volatility rising into a record. What would change my view is a poor five-year auction this afternoon, or a failure at Thursday's Trump-Xi bilateral, where the tariff truce expiring November 10 is still unresolved and where markets actually trimmed their expectations overnight rather than raising them."
 }
