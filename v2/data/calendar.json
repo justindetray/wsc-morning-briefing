@@ -1,124 +1,84 @@
 {
- "last_curated": "2026-09-23",
+ "last_curated": "2026-09-24",
  "macro": [
   {
-   "date": "2026-09-23",
-   "time_et": "10:00 AM",
-   "event": "Cintas (CTAS) Q1 FY27 earnings call, results before the open",
-   "consensus": "EPS $1.35-1.36 on revenue $2.98bn (two figures in circulation, not averaged)",
+   "date": "2026-09-24",
+   "time_et": "8:30 AM",
+   "event": "Initial jobless claims (week to 9/19)",
+   "consensus": "201K (prior 196K)",
    "note": null,
-   "importance": "medium"
-  },
-  {
-   "date": "2026-09-23",
-   "time_et": "10:05 AM",
-   "event": "Fed Governor Barr, 'Economic Outlook and Housing', Chicago Fed housing affordability summit",
-   "consensus": null,
-   "note": null,
-   "importance": "medium"
-  },
-  {
-   "date": "2026-09-23",
-   "time_et": "10:30 AM",
-   "event": "EIA Weekly Petroleum Status Report",
-   "consensus": null,
-   "note": "format change only, NOT methodology: Highlights PDF becomes a summary text file and the full report PDF is discontinued - breaks PDF-based parsers",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-09-23",
-   "time_et": "11:30 AM",
-   "event": "Treasury: $28bn 2-year FRN reopening, CUSIP 91282CRD5",
-   "consensus": null,
-   "note": null,
-   "importance": "low"
-  },
-  {
-   "date": "2026-09-23",
-   "time_et": "1:00 PM",
-   "event": "Treasury: $70bn 5-year note auction, CUSIP 91282CRN3",
-   "consensus": null,
-   "note": "the regular new issue - Tuesday's 2y stopped at 4.787%, above the 4.625-4.749% band, so NO unscheduled reopening was triggered",
    "importance": "high"
-  },
-  {
-   "date": "2026-09-23",
-   "time_et": "",
-   "event": "Xi Jinping arrives at Joint Base Andrews; Trump greets him at the airport, an unusual step",
-   "consensus": null,
-   "note": "state visit runs Sept 23-25; the substantive bilateral is Thursday",
-   "importance": "high"
-  },
-  {
-   "date": "2026-09-23",
-   "time_et": "",
-   "event": "S&P Global US flash PMI (Sept); Iran's President Pezeshkian addresses the UN General Assembly",
-   "consensus": null,
-   "note": null,
-   "importance": "medium"
   },
   {
    "date": "2026-09-24",
    "time_et": "8:30 AM",
-   "event": "BEA: US International Transactions, Q2 2026",
-   "consensus": null,
+   "event": "BEA: US current account, Q2 2026",
+   "consensus": "-$255.0bn (Dow Jones); prior -$226.8bn",
    "note": null,
    "importance": "low"
   },
   {
    "date": "2026-09-24",
-   "time_et": "8:50 AM",
-   "event": "Fed's Hammack (voter), Cleveland Fed inflation conference",
+   "time_et": "8:30 AM",
+   "event": "Richmond Fed's Barkin, Economic Club of Washington",
+   "consensus": null,
+   "note": "Williams and Hammack: Reuters says today, Dow Jones calendar says Friday - unresolved",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "",
+   "event": "Darden (DRI), TD Synnex (SNX), BlackBerry (BB) report before the open",
+   "consensus": null,
+   "note": "dates confirmed by company IR; results not seen at build time",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "10:00 AM",
+   "event": "New home sales (Aug)",
+   "consensus": "615K (July 607K)",
+   "note": null,
+   "importance": "high"
+  },
+  {
+   "date": "2026-09-24",
+   "time_et": "10:10 AM",
+   "event": "Philadelphia Fed's Paulson",
    "consensus": null,
    "note": null,
    "importance": "medium"
   },
   {
    "date": "2026-09-24",
-   "time_et": "10:00 AM",
-   "event": "New Residential Sales (Aug)",
-   "consensus": null,
-   "note": "first housing print since starts fell 2.6% and permits 2.7%",
-   "importance": "high"
+   "time_et": "10:30 AM",
+   "event": "EIA natural gas storage",
+   "consensus": "about +50 Bcf",
+   "note": null,
+   "importance": "low"
   },
   {
    "date": "2026-09-24",
    "time_et": "1:00 PM",
    "event": "Treasury: $44bn 7-year note auction",
    "consensus": null,
-   "note": "final leg of this week's duration test",
-   "importance": "high"
-  },
-  {
-   "date": "2026-09-24",
-   "time_et": "2:00 PM",
-   "event": "Fed Senior Credit Officer Opinion Survey (SCOOS)",
-   "consensus": null,
-   "note": "dealer financing terms, a leverage tell",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-09-24",
-   "time_et": "",
-   "event": "Trump-Xi bilateral at the White House; Tokyo reopens after a three-day close",
-   "consensus": null,
-   "note": "Nikkei futures near 66,775 imply a ~2.7% gap to Friday's 65,018.95 cash close",
+   "note": "follows a 5-year that stopped at 5.033% with the lowest bid-to-cover of 2026",
    "importance": "high"
   },
   {
    "date": "2026-09-24",
    "time_et": "",
-   "event": "SNB, Riksbank and Norges Bank all decide",
+   "event": "Trump-Xi formal bilateral at the White House; state dinner tonight",
    "consensus": null,
-   "note": "all three seen holding",
-   "importance": "medium"
+   "note": "exact ET times not confirmed; Bessent's Jan 10 truce date not confirmed by Beijing",
+   "importance": "high"
   },
   {
    "date": "2026-09-24",
-   "time_et": "",
-   "event": "Costco (COST) Q4 and FY26",
-   "consensus": null,
-   "note": "call 5:00 PM ET",
+   "time_et": "AMC",
+   "event": "Costco (COST) fiscal Q4",
+   "consensus": "EPS about $6.55-6.66",
+   "note": null,
    "importance": "medium"
   },
   {
@@ -126,16 +86,40 @@
    "time_et": "8:30 AM",
    "event": "Advance Durable Goods (Aug)",
    "consensus": null,
-   "note": "last hard data before the Sept 29-30 cluster",
+   "note": null,
    "importance": "high"
+  },
+  {
+   "date": "2026-09-25",
+   "time_et": "",
+   "event": "Fed's Williams (5:15 AM) and Hammack (2:00 PM) per Dow Jones; UMich final sentiment",
+   "consensus": null,
+   "note": null,
+   "importance": "medium"
+  },
+  {
+   "date": "2026-09-30",
+   "time_et": "",
+   "event": "Q2 GDP third estimate; advance trade and inventories",
+   "consensus": null,
+   "note": null,
+   "importance": "medium"
   },
   {
    "date": "2026-09-30",
    "time_et": "4:30 PM",
    "event": "Micron (MU) fiscal Q4 2026",
    "consensus": null,
-   "note": "NEXT week, not today - company IR confirms Sept 30",
+   "note": "next week, not today - company IR confirms Sept 30",
    "importance": "medium"
+  },
+  {
+   "date": "2026-10-01",
+   "time_et": "",
+   "event": "Accenture (ACN) fiscal Q4",
+   "consensus": null,
+   "note": "company IR confirms Oct 1",
+   "importance": "low"
   }
  ],
  "earnings": []
