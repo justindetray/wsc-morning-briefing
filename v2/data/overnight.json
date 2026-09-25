@@ -1,6 +1,6 @@
 {
  "window": "Thursday 2026-09-24 4:00 PM ET close -> Friday 2026-09-25 7:05 AM ET",
- "lede": "The 7-year auction stopped at 5.085% with the thinnest demand of 2026 but no real tail; long yields set another 2026 high, stocks were flat, and yields and oil are easing this morning.",
+ "lede": "The 7-year auction stopped at 5.085% with the thinnest demand of 2026 but a tail under 1bp; long yields set another 2026 high, stocks were flat, and yields and oil are easing this morning.",
  "asia_close": [
   {
    "market": "Nikkei 225",
@@ -61,7 +61,7 @@
   }
  ],
  "geo_headlines": [
-  "THE SEVEN-YEAR AUCTION DREW THE THINNEST DEMAND OF 2026 BUT DID NOT TAIL. Treasury's auction record shows a 5.085% stop, bid-to-cover 2.42 and indirect bidders at 57.20% of accepted competitive bids. Against the eight regular seven-year auctions earlier this year, that is the lowest bid-to-cover and the lowest indirect share. Dow Jones calls it the highest seven-year auction yield since April 1993, but the when-issued was 5.078%, so the tail was only about 0.7 basis points.",
+  "THE SEVEN-YEAR AUCTION DREW THE THINNEST DEMAND OF 2026 BUT TAILED BY LESS THAN ONE BASIS POINT. Treasury's auction record shows a 5.085% stop, bid-to-cover 2.42 and indirect bidders at 57.20% of accepted competitive bids. Against the eight regular seven-year auctions earlier this year, that is the lowest bid-to-cover and the lowest indirect share. Dow Jones calls it the highest seven-year auction yield since April 1993, but the when-issued was 5.078%, so the tail was only about 0.7 basis points.",
   "LONG YIELDS MADE ANOTHER 2026 HIGH AND THE CURVE STEEPENED. Treasury's curve file for Thursday has the ten-year at 5.18% (up 7 basis points), the thirty-year at 5.47% (up 7) and the two-year at 4.87% (up 2), all sole highs for the year. The gap between the two- and ten-year widened to 31 basis points from 26. CNBC puts the late ten-year near 5.225%, the highest since June 2007. This morning it is back near 5.17%.",
   "STOCKS FINISHED FLAT AND THE AI TRADE SPLIT IN TWO. The S&P 500 slipped 0.02% to 7,704.13 and the Nasdaq 100 rose 0.03% to 30,478.86. Meta rose 4.50% while Oracle fell 3.48% after sending a force majeure notice on a Blue Owl-developed New Mexico data center; Oracle says the project remains on track. After the bell Akamai jumped about 19% on an 11.6 billion dollar, seven-year cloud deal with Anthropic, having closed down 6.78%.",
   "OCTOBER HIKE ODDS EDGED UP AGAIN AFTER WILLIAMS. CME FedWatch now prices a 70.9% chance of a quarter-point hike on October 28, up from 68.6% a day earlier. New York Fed President Williams said in London that another hike this year is a reasonable expectation. Freddie Mac's 30-year mortgage rate moved above 7% for the first time since January 2025.",
