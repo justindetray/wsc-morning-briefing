@@ -2,56 +2,56 @@
  "meetings": [
   {
    "meetingDt": "2026-10-28",
-   "reportingDt": "2026-09-23",
-   "hold": 0.313571,
-   "hike_25": 0.686429,
+   "reportingDt": "2026-09-24",
+   "hold": 0.291429,
+   "hike_25": 0.708571,
    "hike_50": 0.0,
    "hike_75": 0.0,
    "hike_100": 0.0,
-   "cumulative_hike": 0.686429
+   "cumulative_hike": 0.708571
   },
   {
    "meetingDt": "2026-12-09",
-   "reportingDt": "2026-09-23",
-   "hold": 0.058069,
-   "hike_25": 0.382619,
-   "hike_50": 0.559312,
+   "reportingDt": "2026-09-24",
+   "hold": 0.06066,
+   "hike_25": 0.378256,
+   "hike_50": 0.561084,
    "hike_75": 0.0,
    "hike_100": 0.0,
-   "cumulative_hike": 0.9419310000000001
+   "cumulative_hike": 0.9393400000000001
   },
   {
    "meetingDt": "2027-01-27",
-   "reportingDt": "2026-09-23",
-   "hold": 0.028733,
-   "hike_25": 0.218661,
-   "hike_50": 0.470049,
-   "hike_75": 0.282556,
+   "reportingDt": "2026-09-24",
+   "hold": 0.028623,
+   "hike_25": 0.210518,
+   "hike_50": 0.464524,
+   "hike_75": 0.296335,
    "hike_100": 0.0,
-   "cumulative_hike": 0.971266
+   "cumulative_hike": 0.971377
   },
   {
    "meetingDt": "2027-03-17",
-   "reportingDt": "2026-09-23",
-   "hold": 0.00821,
-   "hike_25": 0.082998,
-   "hike_50": 0.290486,
-   "hike_75": 0.41648,
-   "hike_100": 0.201826,
-   "cumulative_hike": 0.9917900000000002
+   "reportingDt": "2026-09-24",
+   "hold": 0.008219,
+   "hike_25": 0.080853,
+   "hike_50": 0.283454,
+   "hike_75": 0.41623,
+   "hike_100": 0.211245,
+   "cumulative_hike": 0.991782
   },
   {
    "meetingDt": "2027-04-28",
-   "reportingDt": "2026-09-23",
-   "hold": 0.005043,
-   "hike_25": 0.054151,
-   "hike_50": 0.210455,
-   "hike_75": 0.367882,
-   "hike_100": 0.284621,
-   "hike_125": 0.077847,
-   "cumulative_hike": 0.994956
+   "reportingDt": "2026-09-24",
+   "hold": 0.004873,
+   "hike_25": 0.05128,
+   "hike_50": 0.200966,
+   "hike_75": 0.362171,
+   "hike_100": 0.294703,
+   "hike_125": 0.086007,
+   "cumulative_hike": 0.9951269999999999
   }
  ],
  "status": "LIVE",
- "note": "CME FedWatch, reporting date Wed 9/23. All five meetings repriced; the October 28 meeting, pinned for three reporting dates, moved to 68.6% hike from 55.4%. CNBC cites 66.4% for Wednesday, which brackets our read."
+ "note": "CME FedWatch, reporting date Thu 9/24. October 28 hike 70.9%, up from 68.6%; 5 of 5 meetings repriced. December cumulative 93.9%, from 94.2%."
 }

@@ -1,108 +1,60 @@
 {
- "last_curated": "2026-09-24",
+ "last_curated": "2026-09-25",
  "macro": [
   {
-   "date": "2026-09-24",
+   "date": "2026-09-25",
    "time_et": "8:30 AM",
-   "event": "Initial jobless claims (week to 9/19)",
-   "consensus": "201K (prior 196K)",
+   "event": "Durable goods orders (Aug)",
+   "consensus": "about -0.4% (prior +1.1%); ex-transport +0.6%",
    "note": null,
    "importance": "high"
   },
   {
-   "date": "2026-09-24",
-   "time_et": "8:30 AM",
-   "event": "BEA: US current account, Q2 2026",
-   "consensus": "-$255.0bn (Dow Jones); prior -$226.8bn",
-   "note": null,
-   "importance": "low"
-  },
-  {
-   "date": "2026-09-24",
-   "time_et": "8:30 AM",
-   "event": "Richmond Fed's Barkin, Economic Club of Washington",
-   "consensus": null,
-   "note": "Williams and Hammack: Reuters says today, Dow Jones calendar says Friday - unresolved",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-09-24",
-   "time_et": "",
-   "event": "Darden (DRI), TD Synnex (SNX), BlackBerry (BB) report before the open",
-   "consensus": null,
-   "note": "dates confirmed by company IR; results not seen at build time",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-09-24",
+   "date": "2026-09-25",
    "time_et": "10:00 AM",
-   "event": "New home sales (Aug)",
-   "consensus": "615K (July 607K)",
-   "note": null,
-   "importance": "high"
-  },
-  {
-   "date": "2026-09-24",
-   "time_et": "10:10 AM",
-   "event": "Philadelphia Fed's Paulson",
+   "event": "UMich consumer sentiment, final (Sep)",
    "consensus": null,
-   "note": null,
-   "importance": "medium"
-  },
-  {
-   "date": "2026-09-24",
-   "time_et": "10:30 AM",
-   "event": "EIA natural gas storage",
-   "consensus": "about +50 Bcf",
-   "note": null,
-   "importance": "low"
-  },
-  {
-   "date": "2026-09-24",
-   "time_et": "1:00 PM",
-   "event": "Treasury: $44bn 7-year note auction",
-   "consensus": null,
-   "note": "follows a 5-year that stopped at 5.033% with the lowest bid-to-cover of 2026",
-   "importance": "high"
-  },
-  {
-   "date": "2026-09-24",
-   "time_et": "",
-   "event": "Trump-Xi formal bilateral at the White House; state dinner tonight",
-   "consensus": null,
-   "note": "exact ET times not confirmed; Bessent's Jan 10 truce date not confirmed by Beijing",
-   "importance": "high"
-  },
-  {
-   "date": "2026-09-24",
-   "time_et": "AMC",
-   "event": "Costco (COST) fiscal Q4",
-   "consensus": "EPS about $6.55-6.66",
-   "note": null,
-   "importance": "medium"
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "8:30 AM",
-   "event": "Advance Durable Goods (Aug)",
-   "consensus": null,
-   "note": null,
+   "note": "preliminary 47.8, down from 51.7; watch the inflation-expectations lines",
    "importance": "high"
   },
   {
    "date": "2026-09-25",
-   "time_et": "",
-   "event": "Fed's Williams (5:15 AM) and Hammack (2:00 PM) per Dow Jones; UMich final sentiment",
+   "time_et": "2:00 PM",
+   "event": "Cleveland Fed's Hammack, policy panel",
    "consensus": null,
-   "note": null,
+   "note": "time per the Cleveland Fed; one bank calendar lists 1:00 PM",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-09-25",
+   "time_et": "",
+   "event": "Fed's Williams and Schmid also listed today",
+   "consensus": null,
+   "note": "times not confirmed; Williams already spoke in London on Thursday",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-09-25",
+   "time_et": "",
+   "event": "Xi state visit continues",
+   "consensus": null,
+   "note": "Friday program times not confirmed",
    "importance": "medium"
   },
   {
    "date": "2026-09-30",
-   "time_et": "",
-   "event": "Q2 GDP third estimate; advance trade and inventories",
+   "time_et": "8:30 AM",
+   "event": "Personal income and outlays incl. PCE prices (Aug)",
    "consensus": null,
-   "note": null,
+   "note": "BEA schedule",
+   "importance": "high"
+  },
+  {
+   "date": "2026-09-30",
+   "time_et": "8:30 AM",
+   "event": "Q2 GDP third estimate and corporate profits",
+   "consensus": null,
+   "note": "BEA schedule",
    "importance": "medium"
   },
   {
@@ -110,7 +62,7 @@
    "time_et": "4:30 PM",
    "event": "Micron (MU) fiscal Q4 2026",
    "consensus": null,
-   "note": "next week, not today - company IR confirms Sept 30",
+   "note": "company IR confirms Sept 30",
    "importance": "medium"
   },
   {

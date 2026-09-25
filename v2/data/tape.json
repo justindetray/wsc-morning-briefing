@@ -1,120 +1,120 @@
 {
  "ES": {
-  "value": 7731.0,
-  "prev_close": 7772.5,
-  "delta_pct": -0.5339,
+  "value": 7785.75,
+  "prev_close": 7767.0,
+  "delta_pct": 0.2414,
   "label": "E-mini S&P (Dec)",
-  "as_of": "Thu 7:14 AM ET",
+  "as_of": "Fri 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance ESUSD quote ts 2026-09-24 11:03:43 UTC (fetched 11:13:56); base = vendor previousClose 7772.50 = Wednesday's CME settle. December contract throughout; the 09-21..09-24 hourly scan shows no step >1.2% (#189-A). Overnight low 7,707.25. Reuters had e-minis -0.19% before the European open; the slide deepened as the DAX opened lower on rate worries"
+  "source": "finance ESUSD quote ts 2026-09-25 10:55:24 UTC (fetched 11:05:33); base = vendor previousClose 7767.00 = Thursday's CME settle. December contract; the prior settle moved in line with a flat cash session, so no roll step. Overnight range 7,748.50-7,792.50"
  },
  "NQ": {
-  "value": 30482.25,
-  "prev_close": 30764.75,
-  "delta_pct": -0.9183,
+  "value": 30918.25,
+  "prev_close": 30766.75,
+  "delta_pct": 0.4924,
   "label": "E-mini Nasdaq (Dec)",
-  "as_of": "Thu 7:14 AM ET",
+  "as_of": "Fri 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance NQUSD quote ts 2026-09-24 11:03:46 UTC; base = vendor previousClose 30764.75 = Wednesday's CME settle. No roll step in the hourly scan. Premium to cash NDX 30,470.29 has compressed to ~12pt"
+  "source": "finance NQUSD quote ts 2026-09-25 10:55:26 UTC; base = vendor previousClose 30766.75 = Thursday's CME settle (Wednesday's was 30764.75, matching the flat cash NDX). Contract high 31,094.75"
  },
  "SOX": {
-  "value": 12534.27,
-  "prev_close": 12689.82,
-  "delta_pct": -1.2258,
+  "value": 12492.54,
+  "prev_close": 12534.27,
+  "delta_pct": -0.3329,
   "label": "Semis",
-  "as_of": "Wed 9/23 close",
+  "as_of": "Thu 9/24 close",
   "status": "CLOSED",
-  "source": "Polygon I:SOX settled daily bars, 2026-09-23 vs 2026-09-22 (poly192_out.json). Tuesday's memory-led +2.06% half-reversed; 14.35% below the 2026-06-22 peak close"
+  "source": "Polygon I:SOX settled daily bars, 2026-09-24 vs 2026-09-23 (poly193_out.json). 14.64% below the 2026-06-22 peak close"
  },
  "DJI": {
-  "value": 51511.59,
-  "prev_close": 51863.69,
-  "delta_pct": -0.6789,
+  "value": 51349.98,
+  "prev_close": 51511.59,
+  "delta_pct": -0.3137,
   "label": "Dow",
-  "as_of": "Wed 9/23 close",
+  "as_of": "Thu 9/24 close",
   "status": "CLOSED",
-  "source": "Polygon I:DJI settled daily bars, 2026-09-23 vs 2026-09-22. McDonald's -4.81% was a large drag"
+  "source": "Polygon I:DJI settled daily bars, 2026-09-24 vs 2026-09-23. Third straight loss; CNBC has the Dow on track for a fourth straight weekly decline"
  },
  "VIX": {
-  "value": 15.18,
-  "prev_close": 14.21,
-  "delta_pct": 6.8262,
+  "value": 15.67,
+  "prev_close": 15.18,
+  "delta_pct": 3.2279,
   "label": "VIX",
-  "as_of": "Wed 9/23 close",
+  "as_of": "Thu 9/24 close",
   "status": "CLOSED",
-  "source": "Polygon I:VIX settled daily bars, 2026-09-23 vs 2026-09-22. #177-A fires a 9th consecutive run: a same-day 2026-09-24 I:VIX bar exists (c=16.11) with no I:VXN twin, so it is a pre-open partial and is NOT shipped. VXN closed 20.76 (+2.87%), rising LESS than VIX on the down day"
+  "source": "Polygon I:VIX settled daily bars, 2026-09-24 vs 2026-09-23. #177-A fires a 10th consecutive run: a same-day 2026-09-25 I:VIX bar exists (c=15.27) with no I:VXN twin, so it is a pre-open partial and is NOT shipped. VXN closed 21.24 (+2.31%)"
  },
  "US10Y": {
-  "value": 5.11,
-  "prev_close": 4.96,
-  "delta_pct": 3.0242,
+  "value": 5.18,
+  "prev_close": 5.11,
+  "delta_pct": 1.3699,
   "label": "US 10y",
-  "as_of": "Wed 9/23 close",
+  "as_of": "Thu 9/24 close",
   "status": "CLOSED",
-  "source": "Treasury daily CMT CSV, obs 09/23/2026 vs 09/22/2026 (cmt2026_r192.csv, 183 rows). +15bp to a new sole 2026 high (prior max 5.01). CNBC: intraday ~5.135%, highest since July 2007"
+  "source": "Treasury daily CMT CSV, obs 09/24/2026 vs 09/23/2026 (cmt2026_r193.csv). +7bp to another sole 2026 high. CNBC: late Thursday ~5.225%, highest since June 2007; about 5.17% Friday morning"
  },
  "US2Y": {
-  "value": 4.85,
-  "prev_close": 4.71,
-  "delta_pct": 2.9724,
+  "value": 4.87,
+  "prev_close": 4.85,
+  "delta_pct": 0.4124,
   "label": "US 2y",
-  "as_of": "Wed 9/23 close",
+  "as_of": "Thu 9/24 close",
   "status": "CLOSED",
-  "source": "Treasury daily CMT CSV, obs 09/23 vs 09/22. +14bp to a new sole 2026 high (prior max 4.76). 2s10s 25bp -> 26bp: a near-parallel bear shift, belly led (5y +16, 7y +16)"
+  "source": "Treasury daily CMT CSV, obs 09/24 vs 09/23. +2bp to a sole 2026 high. 2s10s 26bp -> 31bp: a bear steepener, long end led (20y +8, 30y +7)"
  },
  "WTI": {
-  "value": 93.29,
-  "prev_close": 92.16,
-  "delta_pct": 1.2261,
+  "value": 92.92,
+  "prev_close": 94.61,
+  "delta_pct": -1.7863,
   "label": "WTI (Nov)",
-  "as_of": "Thu 7:14 AM ET",
+  "as_of": "Fri 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance CLUSD quote ts 2026-09-24 11:13:44 UTC; base = vendor previousClose 92.16 = November Wednesday settle (CNBC: +1.81%). No hourly step >1.2% outside the Wednesday session rally that Brent matches in direction",
+  "source": "finance CLUSD quote ts 2026-09-25 11:05:30 UTC; base = vendor previousClose 94.61 = Thursday settle, matching Reuters (WTI 93.05, -1.65% at 0212 GMT)",
   "note": "Nov contract"
  },
  "BRENT": {
-  "value": 104.83,
-  "prev_close": 103.08,
-  "delta_pct": 1.6977,
+  "value": 105.56,
+  "prev_close": 106.6,
+  "delta_pct": -0.9756,
   "label": "Brent crude",
-  "as_of": "Thu 7:14 AM ET",
+  "as_of": "Fri 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance BZUSD quote ts 2026-09-24 11:13:54 UTC; base = vendor previousClose 103.08 = Wednesday settle (CNBC: +3.86% on the day, back above $100 after Trump's UNGA Iran remarks). Reuters had Brent ~$103.76 around the European open"
+  "source": "finance BZUSD quote ts 2026-09-25 11:05:29 UTC; base = vendor previousClose 106.60 = Thursday settle (Reuters: +3.4%, highest close since 9/15). Brent-WTI spread ~$12.7 on US diesel-export-ban fears"
  },
  "GOLD": {
-  "value": 4291.2,
-  "prev_close": 4318.4,
-  "delta_pct": -0.6299,
+  "value": 4345.1,
+  "prev_close": 4298.0,
+  "delta_pct": 1.0959,
   "label": "Gold",
-  "as_of": "Thu 7:14 AM ET",
+  "as_of": "Fri 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance GCUSD quote ts 2026-09-24 11:03:42 UTC; base = vendor previousClose 4318.40. Gold is falling with real yields rising and the dollar bid"
+  "source": "finance GCUSD quote ts 2026-09-25 10:55:06 UTC; base = vendor previousClose 4298.00. Bid as yields ease and the dollar snaps a five-day run (Bloomberg)"
  },
  "BTC": {
-  "value": 83518.74,
-  "prev_close": 84370.41,
-  "delta_pct": -1.0094,
+  "value": 84802.79,
+  "prev_close": 84378.125,
+  "delta_pct": 0.5033,
   "label": "Bitcoin",
-  "as_of": "Thu 7:14 AM ET",
+  "as_of": "Fri 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance BTCUSD quote ts 2026-09-24 11:13:49 UTC (market_status=open); base = vendor previousClose 84370.41, corroborated by Polygon X:BTCUSD 2026-09-23 close 84378.31. 33.8% below the vendor's 52-week high of 126,198.07"
+  "source": "finance BTCUSD quote ts 2026-09-25 11:05:29 UTC (market_status=open); base = vendor previousClose 84378.125, corroborated by Polygon X:BTCUSD 2026-09-23 UTC close 84378.31 and 2026-09-24 UTC close 84385.46. 32.8% below the vendor's 52-week high of 126,198.07"
  },
  "EURJPY": {
-  "value": 180.54,
-  "prev_close": 180.11,
-  "delta_pct": 0.2387,
+  "value": 179.858,
+  "prev_close": 180.606,
+  "delta_pct": -0.4142,
   "label": "EUR/JPY",
-  "as_of": "Thu 7:14 AM ET",
+  "as_of": "Fri 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance EURJPY quote ts 2026-09-24 11:11:56 UTC; base = vendor previousClose 180.11 (same record, #181-D)"
+  "source": "finance EURJPY quote ts 2026-09-25 11:05:10 UTC; base = vendor previousClose 180.606 (same record, #181-D). USD/JPY -0.64% to 157.75"
  },
  "AUDJPY": {
-  "value": 111.56,
-  "prev_close": 111.28,
-  "delta_pct": 0.2516,
+  "value": 110.913,
+  "prev_close": 111.324,
+  "delta_pct": -0.3692,
   "label": "AUD/JPY",
-  "as_of": "Thu 7:14 AM ET",
+  "as_of": "Fri 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance AUDJPY quote ts 2026-09-24 11:11:59 UTC; base = vendor previousClose 111.28"
+  "source": "finance AUDJPY quote ts 2026-09-25 11:05:12 UTC; base = vendor previousClose 111.324"
  }
 }
