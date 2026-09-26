@@ -1,76 +1,130 @@
 {
- "last_curated": "2026-09-25",
+ "last_curated": "2026-09-26",
  "macro": [
   {
-   "date": "2026-09-25",
-   "time_et": "8:30 AM",
-   "event": "Durable goods orders (Aug)",
-   "consensus": "about -0.4% (prior +1.1%); ex-transport +0.6%",
-   "note": null,
-   "importance": "high"
+   "date": "2026-09-28",
+   "time_et": "8:15 AM",
+   "event": "Fed Vice Chair for Supervision Bowman, bank supervision discussion (virtual)",
+   "consensus": "n/a - regulatory topic",
+   "importance": "low"
   },
   {
-   "date": "2026-09-25",
+   "date": "2026-09-28",
+   "time_et": "1:25 PM",
+   "event": "Fed Governor Cook, AI and emerging tech, Oakland",
+   "consensus": "n/a",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-09-29",
    "time_et": "10:00 AM",
-   "event": "UMich consumer sentiment, final (Sep)",
-   "consensus": null,
-   "note": "preliminary 47.8, down from 51.7; watch the inflation-expectations lines",
+   "event": "JOLTS job openings (Aug)",
+   "consensus": "n/a - per BLS schedule",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-09-29",
+   "time_et": "10:00 AM",
+   "event": "Conference Board consumer confidence (Sep)",
+   "consensus": "n/a - August 89.4",
+   "importance": "low"
+  },
+  {
+   "date": "2026-09-29",
+   "time_et": "12:40 PM",
+   "event": "Fed Governor Barr, economic outlook, Detroit",
+   "consensus": "n/a - his remarks helped drive this week's selloff",
    "importance": "high"
   },
   {
-   "date": "2026-09-25",
-   "time_et": "2:00 PM",
-   "event": "Cleveland Fed's Hammack, policy panel",
-   "consensus": null,
-   "note": "time per the Cleveland Fed; one bank calendar lists 1:00 PM",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "",
-   "event": "Fed's Williams and Schmid also listed today",
-   "consensus": null,
-   "note": "times not confirmed; Williams already spoke in London on Thursday",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-09-25",
-   "time_et": "",
-   "event": "Xi state visit continues",
-   "consensus": null,
-   "note": "Friday program times not confirmed",
-   "importance": "medium"
+   "date": "2026-09-29",
+   "time_et": "3:00 PM",
+   "event": "Fed Governor Waller, payments, Sibos Miami",
+   "consensus": "n/a",
+   "importance": "low"
   },
   {
    "date": "2026-09-30",
    "time_et": "8:30 AM",
    "event": "Personal income and outlays incl. PCE prices (Aug)",
-   "consensus": null,
-   "note": "BEA schedule",
+   "consensus": "n/a - the Fed's preferred inflation gauge; BEA schedule",
    "importance": "high"
   },
   {
    "date": "2026-09-30",
    "time_et": "8:30 AM",
    "event": "Q2 GDP third estimate and corporate profits",
-   "consensus": null,
-   "note": "BEA schedule",
-   "importance": "medium"
+   "consensus": "n/a - second estimate 1.5% annualized",
+   "importance": "high"
+  },
+  {
+   "date": "2026-09-30",
+   "time_et": "8:30 AM",
+   "event": "Advance economic indicators (trade, retail and wholesale inventories)",
+   "consensus": "n/a - Census",
+   "importance": "low"
+  },
+  {
+   "date": "2026-09-30",
+   "time_et": "3:25 PM",
+   "event": "Fed Governor Cook, rural economy, Asheville",
+   "consensus": "n/a",
+   "importance": "low"
   },
   {
    "date": "2026-09-30",
    "time_et": "4:30 PM",
    "event": "Micron (MU) fiscal Q4 2026",
-   "consensus": null,
-   "note": "company IR confirms Sept 30",
+   "consensus": "n/a - after the close",
+   "importance": "high"
+  },
+  {
+   "date": "2026-10-01",
+   "time_et": "10:00 AM",
+   "event": "ISM manufacturing PMI (Sep)",
+   "consensus": "n/a - August 54.6",
    "importance": "medium"
+  },
+  {
+   "date": "2026-10-01",
+   "time_et": "10:00 AM",
+   "event": "Construction spending (Aug)",
+   "consensus": "n/a - Census",
+   "importance": "low"
+  },
+  {
+   "date": "2026-10-01",
+   "time_et": "10:00 AM",
+   "event": "Fed Governor Waller, Federal Reserve economic data",
+   "consensus": "n/a",
+   "importance": "low"
+  },
+  {
+   "date": "2026-10-01",
+   "time_et": "1:30 PM",
+   "event": "Fed Vice Chair Jefferson, US economy and monetary policy",
+   "consensus": "n/a - most senior Board voice of the week",
+   "importance": "high"
   },
   {
    "date": "2026-10-01",
    "time_et": "",
    "event": "Accenture (ACN) fiscal Q4",
-   "consensus": null,
-   "note": "company IR confirms Oct 1",
+   "consensus": "n/a - company IR confirms Oct 1",
+   "importance": "low"
+  },
+  {
+   "date": "2026-10-02",
+   "time_et": "8:30 AM",
+   "event": "Employment Situation (Sep)",
+   "consensus": "n/a - first payrolls since the Sept 16 hike; BLS schedule",
+   "importance": "high"
+  },
+  {
+   "date": "2026-10-02",
+   "time_et": "10:00 AM",
+   "event": "Factory orders full report (Aug)",
+   "consensus": "n/a - Census",
    "importance": "low"
   }
  ],

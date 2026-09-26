@@ -1,120 +1,119 @@
 {
- "ES": {
-  "value": 7785.75,
-  "prev_close": 7767.0,
-  "delta_pct": 0.2414,
-  "label": "E-mini S&P (Dec)",
-  "as_of": "Fri 7:05 AM ET",
-  "status": "LIVE",
-  "source": "finance ESUSD quote ts 2026-09-25 10:55:24 UTC (fetched 11:05:33); base = vendor previousClose 7767.00 = Thursday's CME settle. December contract; the prior settle moved in line with a flat cash session, so no roll step. Overnight range 7,748.50-7,792.50"
+ "SPX": {
+  "value": 7743.41,
+  "prev_close": 7704.13,
+  "delta_pct": 0.5099,
+  "label": "S&P 500",
+  "as_of": "Fri 9/25 close",
+  "status": "CLOSED",
+  "source": "Polygon I:SPX daily 2026-09-25 settled close vs 2026-09-24 close"
  },
- "NQ": {
-  "value": 30918.25,
-  "prev_close": 30766.75,
-  "delta_pct": 0.4924,
-  "label": "E-mini Nasdaq (Dec)",
-  "as_of": "Fri 7:05 AM ET",
-  "status": "LIVE",
-  "source": "finance NQUSD quote ts 2026-09-25 10:55:26 UTC; base = vendor previousClose 30766.75 = Thursday's CME settle (Wednesday's was 30764.75, matching the flat cash NDX). Contract high 31,094.75"
+ "NDX": {
+  "value": 30608.13,
+  "prev_close": 30478.86,
+  "delta_pct": 0.4241,
+  "label": "Nasdaq 100",
+  "as_of": "Fri 9/25 close",
+  "status": "CLOSED",
+  "source": "Polygon I:NDX daily 2026-09-25 settled close vs 2026-09-24 close"
  },
  "SOX": {
-  "value": 12492.54,
-  "prev_close": 12534.27,
-  "delta_pct": -0.3329,
+  "value": 12668.93,
+  "prev_close": 12492.54,
+  "delta_pct": 1.412,
   "label": "Semis",
-  "as_of": "Thu 9/24 close",
+  "as_of": "Fri 9/25 close",
   "status": "CLOSED",
-  "source": "Polygon I:SOX settled daily bars, 2026-09-24 vs 2026-09-23 (poly193_out.json). 14.64% below the 2026-06-22 peak close"
+  "source": "Polygon I:SOX daily 2026-09-25 settled close vs 2026-09-24 close"
  },
  "DJI": {
-  "value": 51349.98,
-  "prev_close": 51511.59,
-  "delta_pct": -0.3137,
+  "value": 51828.62,
+  "prev_close": 51349.98,
+  "delta_pct": 0.9321,
   "label": "Dow",
-  "as_of": "Thu 9/24 close",
+  "as_of": "Fri 9/25 close",
   "status": "CLOSED",
-  "source": "Polygon I:DJI settled daily bars, 2026-09-24 vs 2026-09-23. Third straight loss; CNBC has the Dow on track for a fourth straight weekly decline"
+  "source": "Polygon I:DJI daily 2026-09-25 settled close vs 2026-09-24 close"
  },
  "VIX": {
-  "value": 15.67,
-  "prev_close": 15.18,
-  "delta_pct": 3.2279,
+  "value": 14.87,
+  "prev_close": 15.67,
+  "delta_pct": -5.1053,
   "label": "VIX",
-  "as_of": "Thu 9/24 close",
+  "as_of": "Fri 9/25 close",
   "status": "CLOSED",
-  "source": "Polygon I:VIX settled daily bars, 2026-09-24 vs 2026-09-23. #177-A fires a 10th consecutive run: a same-day 2026-09-25 I:VIX bar exists (c=15.27) with no I:VXN twin, so it is a pre-open partial and is NOT shipped. VXN closed 21.24 (+2.31%)"
+  "source": "Polygon I:VIX daily 2026-09-25 settled close vs 2026-09-24 close ; settled status confirmed by same-day I:VXN twin 20.87 (#177-A n/a on a Saturday)"
  },
  "US10Y": {
-  "value": 5.18,
-  "prev_close": 5.11,
-  "delta_pct": 1.3699,
+  "value": 5.17,
+  "prev_close": 5.18,
+  "delta_pct": -0.1931,
   "label": "US 10y",
-  "as_of": "Thu 9/24 close",
+  "as_of": "Fri 9/25 close",
   "status": "CLOSED",
-  "source": "Treasury daily CMT CSV, obs 09/24/2026 vs 09/23/2026 (cmt2026_r193.csv). +7bp to another sole 2026 high. CNBC: late Thursday ~5.225%, highest since June 2007; about 5.17% Friday morning"
+  "source": "Treasury CMT 09/25/2026 vs 09/24 5.18 (-1bp). 30y 5.49 and 20y 5.54 are sole 2026 highs; 10y is not (5.18 on 9/24)"
  },
  "US2Y": {
-  "value": 4.87,
-  "prev_close": 4.85,
-  "delta_pct": 0.4124,
+  "value": 4.81,
+  "prev_close": 4.87,
+  "delta_pct": -1.232,
   "label": "US 2y",
-  "as_of": "Thu 9/24 close",
+  "as_of": "Fri 9/25 close",
   "status": "CLOSED",
-  "source": "Treasury daily CMT CSV, obs 09/24 vs 09/23. +2bp to a sole 2026 high. 2s10s 26bp -> 31bp: a bear steepener, long end led (20y +8, 30y +7)"
+  "source": "Treasury CMT 09/25/2026 vs 09/24 4.87 (-6bp). 2s10s steepened to +36bp from +31bp - bull steepener"
  },
  "WTI": {
-  "value": 92.92,
+  "value": 92.41,
   "prev_close": 94.61,
-  "delta_pct": -1.7863,
-  "label": "WTI (Nov)",
-  "as_of": "Fri 7:05 AM ET",
-  "status": "LIVE",
-  "source": "finance CLUSD quote ts 2026-09-25 11:05:30 UTC; base = vendor previousClose 94.61 = Thursday settle, matching Reuters (WTI 93.05, -1.65% at 0212 GMT)",
-  "note": "Nov contract"
+  "delta_pct": -2.3253,
+  "label": "WTI crude",
+  "as_of": "Fri 9/25 close",
+  "status": "CLOSED",
+  "source": "finance CLUSD 9/25 daily close 92.41 vs 9/24 94.61; matches Reuters settle 92.41 (-$2.20, -2.3%) to the cent. Front month is Nov (Oct expired), so value and base are the same contract (#187-B check passed)"
  },
  "BRENT": {
-  "value": 105.56,
+  "value": 104.32,
   "prev_close": 106.6,
-  "delta_pct": -0.9756,
+  "delta_pct": -2.1388,
   "label": "Brent crude",
-  "as_of": "Fri 7:05 AM ET",
-  "status": "LIVE",
-  "source": "finance BZUSD quote ts 2026-09-25 11:05:29 UTC; base = vendor previousClose 106.60 = Thursday settle (Reuters: +3.4%, highest close since 9/15). Brent-WTI spread ~$12.7 on US diesel-export-ban fears"
+  "as_of": "Fri 9/25 close",
+  "status": "CLOSED",
+  "source": "finance BZUSD 9/25 daily close 104.32 vs 9/24 106.60; matches Reuters settle 104.32 (-$2.28, -2.1%)"
  },
  "GOLD": {
-  "value": 4345.1,
+  "value": 4321.2,
   "prev_close": 4298.0,
-  "delta_pct": 1.0959,
+  "delta_pct": 0.5398,
   "label": "Gold",
-  "as_of": "Fri 7:05 AM ET",
-  "status": "LIVE",
-  "source": "finance GCUSD quote ts 2026-09-25 10:55:06 UTC; base = vendor previousClose 4298.00. Bid as yields ease and the dollar snaps a five-day run (Bloomberg)"
+  "as_of": "Fri 9/25 close",
+  "status": "CLOSED",
+  "source": "finance GCUSD 9/25 daily close vs 9/24 4,298.00 (same series, histories not quote previousClose per #187-A)"
  },
  "BTC": {
-  "value": 84802.79,
-  "prev_close": 84378.125,
-  "delta_pct": 0.5033,
+  "value": 84144.08,
+  "prev_close": 84081.91,
+  "delta_pct": 0.0739,
   "label": "Bitcoin",
-  "as_of": "Fri 7:05 AM ET",
+  "as_of": "Sat 7:05 ET",
   "status": "LIVE",
-  "source": "finance BTCUSD quote ts 2026-09-25 11:05:29 UTC (market_status=open); base = vendor previousClose 84378.125, corroborated by Polygon X:BTCUSD 2026-09-23 UTC close 84378.31 and 2026-09-24 UTC close 84385.46. 32.8% below the vendor's 52-week high of 126,198.07"
+  "source": "finance BTCUSD live quote ts 2026-09-26 11:05:10 UTC (market_status=open); base = vendor previousClose 84,081.91, corroborated by Polygon X:BTCUSD 9/25 UTC daily close 84,093.13 (0.013%). Polygon live snapshot NOT_AUTHORIZED on this key"
  },
  "EURJPY": {
-  "value": 179.858,
-  "prev_close": 180.606,
-  "delta_pct": -0.4142,
+  "value": 179.14,
+  "prev_close": 180.77,
+  "delta_pct": -0.9017,
   "label": "EUR/JPY",
-  "as_of": "Fri 7:05 AM ET",
-  "status": "LIVE",
-  "source": "finance EURJPY quote ts 2026-09-25 11:05:10 UTC; base = vendor previousClose 180.606 (same record, #181-D). USD/JPY -0.64% to 157.75"
+  "as_of": "Fri 9/25 close",
+  "status": "CLOSED",
+  "source": "finance EURJPY 9/25 daily close vs 9/24 180.77"
  },
  "AUDJPY": {
-  "value": 110.913,
-  "prev_close": 111.324,
-  "delta_pct": -0.3692,
+  "value": 110.5,
+  "prev_close": 111.37,
+  "delta_pct": -0.7812,
   "label": "AUD/JPY",
-  "as_of": "Fri 7:05 AM ET",
-  "status": "LIVE",
-  "source": "finance AUDJPY quote ts 2026-09-25 11:05:12 UTC; base = vendor previousClose 111.324"
+  "as_of": "Fri 9/25 close",
+  "status": "CLOSED",
+  "source": "finance AUDJPY 9/25 daily close vs 9/24 111.37"
  }
 }
