@@ -1,5 +1,5 @@
 {
- "last_curated": "2026-09-26",
+ "last_curated": "2026-09-27",
  "macro": [
   {
    "date": "2026-09-28",
@@ -33,7 +33,7 @@
    "date": "2026-09-29",
    "time_et": "12:40 PM",
    "event": "Fed Governor Barr, economic outlook, Detroit",
-   "consensus": "n/a - his remarks helped drive this week's selloff",
+   "consensus": "n/a - his remarks helped drive last week's bond selloff",
    "importance": "high"
   },
   {
@@ -41,6 +41,20 @@
    "time_et": "3:00 PM",
    "event": "Fed Governor Waller, payments, Sibos Miami",
    "consensus": "n/a",
+   "importance": "low"
+  },
+  {
+   "date": "2026-09-29",
+   "time_et": "",
+   "event": "Carnival (CCL) earnings",
+   "consensus": "n/a - per CNBC calendar",
+   "importance": "low"
+  },
+  {
+   "date": "2026-09-30",
+   "time_et": "8:15 AM",
+   "event": "ADP employment (Sep)",
+   "consensus": "n/a - per CNBC calendar",
    "importance": "low"
   },
   {
@@ -77,6 +91,20 @@
    "event": "Micron (MU) fiscal Q4 2026",
    "consensus": "n/a - after the close",
    "importance": "high"
+  },
+  {
+   "date": "2026-10-01",
+   "time_et": "8:30 AM",
+   "event": "Initial jobless claims",
+   "consensus": "n/a - weekly",
+   "importance": "low"
+  },
+  {
+   "date": "2026-10-01",
+   "time_et": "",
+   "event": "Nike (NKE) and McCormick (MKC) earnings",
+   "consensus": "n/a - per CNBC calendar",
+   "importance": "low"
   },
   {
    "date": "2026-10-01",
@@ -117,7 +145,7 @@
    "date": "2026-10-02",
    "time_et": "8:30 AM",
    "event": "Employment Situation (Sep)",
-   "consensus": "n/a - first payrolls since the Sept 16 hike; BLS schedule",
+   "consensus": "~85k expected per CNBC (Aug 162k); unemployment 4.1% - first payrolls since the Sept 16 hike",
    "importance": "high"
   },
   {

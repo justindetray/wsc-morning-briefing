@@ -42,7 +42,7 @@
   "label": "VIX",
   "as_of": "Fri 9/25 close",
   "status": "CLOSED",
-  "source": "Polygon I:VIX daily 2026-09-25 settled close vs 2026-09-24 close ; settled status confirmed by same-day I:VXN twin 20.87 (#177-A n/a on a Saturday)"
+  "source": "Polygon I:VIX daily 2026-09-25 settled close vs 2026-09-24 close ; settled status confirmed by same-day I:VXN twin 20.87 (#177-A n/a on a Sunday)"
  },
  "US10Y": {
   "value": 5.17,
@@ -90,30 +90,30 @@
   "source": "finance GCUSD 9/25 daily close vs 9/24 4,298.00 (same series, histories not quote previousClose per #187-A)"
  },
  "BTC": {
-  "value": 84144.08,
-  "prev_close": 84081.91,
-  "delta_pct": 0.0739,
+  "value": 84849.6,
+  "prev_close": 84429.02,
+  "delta_pct": 0.4981,
   "label": "Bitcoin",
-  "as_of": "Sat 7:05 ET",
+  "as_of": "Sun 7:04 ET",
   "status": "LIVE",
-  "source": "finance BTCUSD live quote ts 2026-09-26 11:05:10 UTC (market_status=open); base = vendor previousClose 84,081.91, corroborated by Polygon X:BTCUSD 9/25 UTC daily close 84,093.13 (0.013%). Polygon live snapshot NOT_AUTHORIZED on this key"
+  "source": "finance BTCUSD live quote ts 2026-09-27 11:04:09 UTC (market_status=open); base = vendor previousClose 84,429.02, corroborated by Polygon X:BTCUSD 9/26 UTC daily close 84,416.65 (0.015%). Polygon live snapshot NOT_AUTHORIZED on this key"
  },
  "EURJPY": {
-  "value": 179.14,
-  "prev_close": 180.77,
-  "delta_pct": -0.9017,
+  "value": 179.25,
+  "prev_close": 180.656,
+  "delta_pct": -0.7783,
   "label": "EUR/JPY",
   "as_of": "Fri 9/25 close",
   "status": "CLOSED",
-  "source": "finance EURJPY 9/25 daily close vs 9/24 180.77"
+  "source": "Polygon C:EURJPY settled daily 9/25 close 179.25 (range 178.90-180.57) vs 9/24 180.656 (#188-A)"
  },
  "AUDJPY": {
-  "value": 110.5,
-  "prev_close": 111.37,
-  "delta_pct": -0.7812,
+  "value": 110.391,
+  "prev_close": 111.252,
+  "delta_pct": -0.7739,
   "label": "AUD/JPY",
   "as_of": "Fri 9/25 close",
   "status": "CLOSED",
-  "source": "finance AUDJPY 9/25 daily close vs 9/24 111.37"
+  "source": "Polygon C:AUDJPY settled daily 9/25 close 110.391 (range 110.22-111.315) vs 9/24 111.252 (#188-A)"
  }
 }
