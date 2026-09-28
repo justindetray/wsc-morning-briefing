@@ -1,32 +1,56 @@
 {
- "window": "Friday 2026-09-25 close -> Sunday 2026-09-27 7:00 AM ET (weekend edition, day 2)",
- "lede": "Weekend edition: week in review and week ahead.",
- "asia_close": [],
- "europe_open": [],
- "single_name_moves": [
+ "window": "Friday 2026-09-25 close -> Monday 2026-09-28 7:10 AM ET",
+ "lede": "Oil takes back Friday's deal rally; gold drops 3% on rates.",
+ "asia_close": [
   {
-   "ticker": "PYPL",
-   "delta_pct": 4.64,
-   "venue": "Fri close"
+   "market": "Nikkei 225",
+   "delta_pct": -0.73,
+   "level": 65877.62
   },
+  {
+   "market": "Kospi",
+   "delta_pct": -2.7,
+   "level": 6889.74
+  },
+  {
+   "market": "Shanghai Comp",
+   "delta_pct": -1.7,
+   "level": 3823.62
+  },
+  {
+   "market": "ASX 200",
+   "delta_pct": 0.2,
+   "level": 8679.7
+  },
+  {
+   "market": "Hang Seng (late)",
+   "delta_pct": 0.6,
+   "level": 24654.86
+  }
+ ],
+ "europe_open": [
+  {
+   "market": "STOXX 600 (open)",
+   "delta_pct": 0.3
+  },
+  {
+   "market": "FTSE 100 (open)",
+   "delta_pct": 0.45
+  },
+  {
+   "market": "DAX (open)",
+   "delta_pct": 0.22
+  }
+ ],
+ "single_name_moves": [
   {
    "ticker": "MSFT",
    "delta_pct": 3.66,
    "venue": "Fri close"
   },
   {
-   "ticker": "AKAM",
-   "delta_pct": 3.2,
-   "venue": "Fri close"
-  },
-  {
-   "ticker": "COST",
-   "delta_pct": 2.93,
-   "venue": "Fri close"
-  },
-  {
-   "ticker": "ORCL",
-   "delta_pct": -1.76,
+   "ticker": "PYPL",
+   "delta_pct": 4.64,
    "venue": "Fri close"
   },
   {
@@ -36,15 +60,14 @@
   }
  ],
  "geo_headlines": [
-  "TRUMP PUBLICLY REJECTED IRAN'S HORMUZ PLAN; TEHRAN SAYS IT IS STILL WAITING FOR A FORMAL ANSWER. Outside the White House Trump said \"I'm rejecting their deal... that deal would not be acceptable,\" adding that the US has \"total control\" of the strait and that 29 ships crossed it the previous day (ABC News, RFE/RL). Foreign Minister Araghchi said Iran has seen the remarks but no official reply through mediators, and that any reopening is contingent on Iran's conditions. **All of this came after Friday's settle.**",
-  "TEHRAN'S RHETORIC HARDENED OVERNIGHT. President Pezeshkian said Iran no longer trusts talks with Washington; a senior general warned Gulf neighbours the strait stays closed until US economic warfare ends (Al Jazeera). The IRGC Navy's deputy political commander told Fars that Iran would hit US vessels even in the Indian Ocean if fighting resumes. The coverage reviewed reports threats, not new strikes.",
-  "WASHINGTON IS TIGHTENING THE ECONOMIC SQUEEZE INSTEAD. Treasury Secretary Bessent said the UAE has stopped all Iranian airline flights and Turkey and Oman halted Mahan Air arrivals, part of a campaign the Journal says reached more than 50 countries. At the UN, Saudi Arabia's foreign minister demanded Hormuz return to pre-February 28 conditions with no transit fees (RFE/RL).",
-  "OIL REOPENS TONIGHT HAVING PRICED A DEAL THAT WAS JUST TURNED DOWN. Brent settled $104.32 Friday (-2.14%) and WTI $92.41 (-2.33%) on truce hopes. Energy futures reopen at 6:00 PM ET; the first question is how much of Friday's decline comes back. Trump's claim that tankers are moving is the offsetting argument.",
-  "BONDS ENDED THE WEEK WITH A BULL STEEPENER AND A 2026 HIGH IN THE 30-YEAR. Treasury's curve file for Friday: 2-year 4.81% (-6bp), 10-year 5.17% (-1), 20-year 5.54% and 30-year 5.49%, both their highest closes of 2026; 2s10s 36bp from 31. Over the week the nominal 10-year rose 16bp and the real 10-year 15bp, so the breakeven moved one basis point - the price of money, not an inflation scare.",
-  "HIKE ODDS EASED FRIDAY AS OIL FELL. CME FedWatch (reporting 9/25, unchanged over the weekend): October hike 64.2%, down from 70.9%; at least one hike by December 91.9%; a 49.8% chance December ends 50bp higher. Cleveland's Hammack warned an inflationary mindset could set in.",
-  "STOCKS POSTED A WINNING WEEK WITHOUT A NEW HIGH. Week: S&P 500 +1.21% to 7,743.41, Nasdaq 100 +3.25%, Dow +0.28% (ending a three-week losing streak); VIX 14.87. The S&P is 0.71% below its August 13 record and the Nasdaq 100 0.40% below its September 22 record. Friday: Microsoft +3.66%, Meta -3.33%.",
-  "THE WEEK AHEAD IS ALL LABOR AND INFLATION. JOLTS and consumer confidence Tuesday; ADP, August PCE and the Q2 GDP third estimate Wednesday; ISM manufacturing Thursday; September payrolls Friday 8:30, which CNBC says economists expect to roughly halve to 85,000 from 162,000, with unemployment at 4.1%. Earnings: Carnival Tuesday, Micron Wednesday after the close, Nike and Accenture Thursday."
+  "OIL IS TAKING BACK FRIDAY'S DEAL RALLY - AND THEN SOME. Brent is $108.46 (+4.0%) and WTI $96.29 (+4.2%) this morning, more than reversing Friday's 2% drop, after Trump rejected Iran's Hormuz plan and Tehran said it will not soften its conditions. **Brent is up almost 18% this month** (Reuters). Diesel is at record highs in the US and Europe on refining shortages - the channel into embedded inflation the Fed worries about.",
+  "BOTH SIDES TALKED TOUGH AND LEFT A DOOR OPEN. Araghchi on Meet the Press: \"We are fully prepared for the war to be resumed... At the same time, we stand ready for diplomacy. It is up to President Trump to choose.\" He floated Iran's 60% enriched uranium as a possible future bargaining chip. Trump said new strikes before the midterms are \"possible\" but told Axios he expects talks to resume this week; Qatar is mediating and the Saudi foreign minister has arrived in Washington (Iran International).",
+  "THE BARRELS ARE MOVING FASTER THAN THE DIPLOMACY. Kpler data via Reuters: Middle East crude exports rebounded to 12.8 million barrels a day in September, the most since the war began, with Hormuz flows about 7.4 million and Saudi exports more than doubling to 5.4 million. Regional exports are still about 6 million barrels a day below February. Bessent on Fox: once Iran makes its final deliveries to China, \"they will have nothing.\"",
+  "GOLD IS DOWN 3% - THE CLEAREST SIGN THIS IS A RATES STORY, NOT A FEAR STORY. Gold futures $4,188.50 (-3.1%); Reuters had spot at $4,171.85, down 2.7%, on bets the Fed keeps hiking. The dollar index is at a two-month high of 101.39. Higher oil means higher inflation expectations, which means higher real yields - and gold, which pays nothing, loses. Bitcoin is down 1.8% to $82,970.",
+  "BONDS ARE STILL UNDER PRESSURE BEFORE THE WEEK'S DATA. Reuters: the 30-year Treasury touched 5.5173% overnight, near its highest since 2004 and up 27bp this month; the 2-year is up 55bp this month. FedWatch still shows Friday's 64.2% October hike odds; Reuters cites a 68% market-implied chance. Bank of America's Cabana: repricing may not stop until financial conditions are \"sufficiently restrictive.\" Atlanta Fed GDPNow: 5.0%.",
+  "FUTURES SLIP, ASIA MIXED, EUROPE SHRUGS. S&P futures -0.48%, Nasdaq futures -0.85%. Korea's Kospi -2.7% and Shanghai -1.7% led Asia lower, with Chinese tech hit by a US bill barring Chinese AI data-centre components from sensitive government systems; China's August industrial profit growth slowed to 4.2%, its weakest of the year. Nikkei -0.7%. Europe opened higher, led by UK homebuilders on a new buyer-support scheme.",
+  "TODAY IS QUIET ON DATA: TWO FED SPEAKERS AND JEFFERIES. Vice Chair for Supervision Bowman speaks on bank supervision at 8:15 AM and Governor Cook on AI at 1:25 PM. Jefferies reports third-quarter results after the close (company IR), the first read on investment-banking fees this season. The heavy data starts Tuesday with JOLTS; the week ends with Friday's payrolls, expected around 85,000 with unemployment at 4.1%."
  ],
- "client_frame_short": "Nothing traded this weekend except Bitcoin, but the Iran story moved backward. The President publicly rejected Tehran's seven-day plan to reopen the Strait of Hormuz, and Iran's leaders answered with harder words, though no new strikes were reported. **Friday's 2% oil drop was built on deal hopes that are now off the table, so oil may open firmer Sunday night.** Underneath the headlines the picture is unchanged: a good week for stocks, a hard one for long bonds, both driven by a strong economy that costs more to finance. Nothing here calls for action; Friday's jobs report matters more than any weekend quote.",
- "client_frame": "If a client calls about the weekend headlines, the honest answer is that the diplomacy went backward but the market has not had a chance to react yet.\n\nWhat happened: Iran offered a seven-day plan to reopen the Strait of Hormuz in exchange for a truce and sanctions relief. The President said plainly he was rejecting it, arguing Iran is 'losing so badly' and that 29 ships had crossed the strait the day before. Iran's President said his government no longer trusts talks, and a senior general said the strait stays closed until US economic pressure ends. Those are threats, not new attacks, and Iran's foreign minister says Tehran is still waiting for a formal reply - so the door is not fully shut.\n\nWhy it matters for portfolios: oil fell about 2% on Friday on hope for exactly this deal, with Brent settling at $104.32. When energy futures reopen at 6 PM Eastern tonight, some of that decline will probably come back. That is a gasoline and inflation story more than a stock story - it feeds into the Fed's thinking.\n\nThe bigger backdrop is unchanged from Friday. The S&P 500 rose 1.2% last week and the Nasdaq 100 3.25%, though neither is at a new high: the S&P is 0.71% below its August 13 record and the Nasdaq 100 0.40% below its September 22 record. The 30-year Treasury yield closed at 5.49%, its highest of 2026, and nearly all of the week's rise in yields was real rates, not inflation fear. Futures price about a 64% chance the Fed hikes again in October.\n\nThe advice stays steady. Bonds above 5% pay a real return again, which is a genuine opportunity for idle cash. Stocks are near their highs without euphoria, with the VIX at 14.87. What would change the view: a sustained oil spike back through Thursday's levels, a 10-year close above 5.25%, or a hot August PCE on Wednesday that pushes the market toward a third hike."
+ "client_frame_short": "The weekend headlines are now showing up in prices. Oil is up about 4% this morning because the Iran deal that markets hoped for on Friday was publicly rejected, and gold is down 3% because higher oil means higher interest rates for longer. **Stock futures are down only about half a percent, which tells you the market sees this as an inflation and rates story, not a crisis.** Both sides are still talking about talks this week. Nothing here calls for action; Wednesday's inflation report and Friday's jobs report will matter more than today's oil price.",
+ "client_frame": "If a client calls this morning, start with what they will see on the screen: oil sharply higher, gold sharply lower, stocks slightly lower. Those three moves tell one coherent story.\n\nOil first. On Friday Brent fell about 2% on hopes that Iran's seven-day plan to reopen the Strait of Hormuz would be accepted. Over the weekend the President rejected it, and Iran said it would not soften its terms. So this morning Brent is back at about $108, up 4%, and it has risen almost 18% this month. Diesel is at record highs because refining is short. That is what reaches household budgets and, eventually, the Fed.\n\nThe part clients rarely hear is that physical oil is flowing better than the headlines suggest. Industry tracking data show Middle East crude exports this month at their highest since the war began, with Saudi shipments more than doubling from August. Supply is still well below where it was in February, but the trend is improving, and both governments say talks could resume this week.\n\nGold is the tell. If investors were frightened, gold would be rising. Instead it is down 3%, because higher oil means higher inflation, higher inflation means the Fed keeps raising rates, and higher rates make an asset that pays no interest less attractive. The 30-year Treasury yield is near its highest since 2004. The market is pricing more tightening, not a panic.\n\nStocks are absorbing it calmly: S&P futures are down about half a percent after last week's 1.2% gain, and the S&P 500 is 0.71% below its August 13 record. The advice stays steady. Yields above 5% are a real opportunity for idle cash, and portfolios built for an inflationary, higher-rate world do not need changing because of one weekend. What would change the view: Brent holding above $110, a 10-year close above 5.25%, or a hot August PCE report on Wednesday."
 }

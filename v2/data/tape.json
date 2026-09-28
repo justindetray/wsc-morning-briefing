@@ -1,21 +1,21 @@
 {
- "SPX": {
-  "value": 7743.41,
-  "prev_close": 7704.13,
-  "delta_pct": 0.5099,
-  "label": "S&P 500",
-  "as_of": "Fri 9/25 close",
-  "status": "CLOSED",
-  "source": "Polygon I:SPX daily 2026-09-25 settled close vs 2026-09-24 close"
+ "ES": {
+  "value": 7766.5,
+  "prev_close": 7803.75,
+  "delta_pct": -0.4773,
+  "label": "E-mini S&P (Dec)",
+  "as_of": "Mon 7:10 AM ET",
+  "status": "LIVE",
+  "source": "finance ESUSD quote ts 2026-09-28 11:00:54 UTC; base = vendor previousClose 7,803.75 (Friday CME settle). Overnight range 7,757-7,803. Dec contract both legs"
  },
- "NDX": {
-  "value": 30608.13,
-  "prev_close": 30478.86,
-  "delta_pct": 0.4241,
-  "label": "Nasdaq 100",
-  "as_of": "Fri 9/25 close",
-  "status": "CLOSED",
-  "source": "Polygon I:NDX daily 2026-09-25 settled close vs 2026-09-24 close"
+ "NQ": {
+  "value": 30626.0,
+  "prev_close": 30889.25,
+  "delta_pct": -0.8522,
+  "label": "E-mini Nasdaq (Dec)",
+  "as_of": "Mon 7:10 AM ET",
+  "status": "LIVE",
+  "source": "finance NQUSD quote ts 2026-09-28 11:00:54 UTC; base = vendor previousClose 30,889.25. Overnight range 30,531-30,920.75"
  },
  "SOX": {
   "value": 12668.93,
@@ -42,7 +42,7 @@
   "label": "VIX",
   "as_of": "Fri 9/25 close",
   "status": "CLOSED",
-  "source": "Polygon I:VIX daily 2026-09-25 settled close vs 2026-09-24 close ; settled status confirmed by same-day I:VXN twin 20.87 (#177-A n/a on a Sunday)"
+  "source": "Polygon I:VIX daily 2026-09-25 settled close vs 2026-09-24 close"
  },
  "US10Y": {
   "value": 5.17,
@@ -51,7 +51,7 @@
   "label": "US 10y",
   "as_of": "Fri 9/25 close",
   "status": "CLOSED",
-  "source": "Treasury CMT 09/25/2026 vs 09/24 5.18 (-1bp). 30y 5.49 and 20y 5.54 are sole 2026 highs; 10y is not (5.18 on 9/24)"
+  "source": "Treasury CMT 09/25/2026 vs 09/24 5.18 (-1bp); Monday's CMT not published until after the close"
  },
  "US2Y": {
   "value": 4.81,
@@ -60,60 +60,61 @@
   "label": "US 2y",
   "as_of": "Fri 9/25 close",
   "status": "CLOSED",
-  "source": "Treasury CMT 09/25/2026 vs 09/24 4.87 (-6bp). 2s10s steepened to +36bp from +31bp - bull steepener"
+  "source": "Treasury CMT 09/25/2026 vs 09/24 4.87 (-6bp). 2s10s +36bp"
  },
  "WTI": {
-  "value": 92.41,
-  "prev_close": 94.61,
-  "delta_pct": -2.3253,
-  "label": "WTI crude",
-  "as_of": "Fri 9/25 close",
-  "status": "CLOSED",
-  "source": "finance CLUSD 9/25 daily close 92.41 vs 9/24 94.61; matches Reuters settle 92.41 (-$2.20, -2.3%) to the cent. Front month is Nov (Oct expired), so value and base are the same contract (#187-B check passed)"
+  "value": 96.29,
+  "prev_close": 92.41,
+  "delta_pct": 4.1987,
+  "label": "WTI (Nov)",
+  "as_of": "Mon 7:10 AM ET",
+  "status": "LIVE",
+  "source": "finance CLUSD quote ts 2026-09-28 11:10:54 UTC vs previousClose 92.41 = Friday Nov settle (Reuters-matched); same contract both legs (#187-B). Overnight range 92.70-96.53",
+  "note": "Nov contract"
  },
  "BRENT": {
-  "value": 104.32,
-  "prev_close": 106.6,
-  "delta_pct": -2.1388,
+  "value": 108.46,
+  "prev_close": 104.32,
+  "delta_pct": 3.9686,
   "label": "Brent crude",
-  "as_of": "Fri 9/25 close",
-  "status": "CLOSED",
-  "source": "finance BZUSD 9/25 daily close 104.32 vs 9/24 106.60; matches Reuters settle 104.32 (-$2.28, -2.1%)"
+  "as_of": "Mon 7:10 AM ET",
+  "status": "LIVE",
+  "source": "finance BZUSD quote ts 2026-09-28 11:00:34 UTC vs previousClose 104.32 = Friday settle. Overnight range 105.10-108.81; Reuters had $107.16 (+2.7%) earlier in Asia"
  },
  "GOLD": {
-  "value": 4321.2,
-  "prev_close": 4298.0,
-  "delta_pct": 0.5398,
+  "value": 4188.5,
+  "prev_close": 4321.2,
+  "delta_pct": -3.0709,
   "label": "Gold",
-  "as_of": "Fri 9/25 close",
-  "status": "CLOSED",
-  "source": "finance GCUSD 9/25 daily close vs 9/24 4,298.00 (same series, histories not quote previousClose per #187-A)"
+  "as_of": "Mon 7:10 AM ET",
+  "status": "LIVE",
+  "source": "finance GCUSD quote ts 2026-09-28 11:00:47 UTC vs previousClose 4,321.20 = Friday settle. Reuters: spot -2.7% at $4,171.85 at 06:27 GMT on rate-hike bets"
  },
  "BTC": {
-  "value": 84849.6,
-  "prev_close": 84429.02,
-  "delta_pct": 0.4981,
+  "value": 82969.63,
+  "prev_close": 84457.3,
+  "delta_pct": -1.7614,
   "label": "Bitcoin",
-  "as_of": "Sun 7:04 ET",
+  "as_of": "Mon 7:10 AM ET",
   "status": "LIVE",
-  "source": "finance BTCUSD live quote ts 2026-09-27 11:04:09 UTC (market_status=open); base = vendor previousClose 84,429.02, corroborated by Polygon X:BTCUSD 9/26 UTC daily close 84,416.65 (0.015%). Polygon live snapshot NOT_AUTHORIZED on this key"
+  "source": "finance BTCUSD live quote ts 2026-09-28 11:10:58 UTC; base = vendor previousClose 84,457.30, corroborated by Polygon X:BTCUSD 9/27 UTC daily close 84,444.20 (0.016%). Polygon live snapshot NOT_AUTHORIZED"
  },
  "EURJPY": {
-  "value": 179.25,
-  "prev_close": 180.656,
-  "delta_pct": -0.7783,
+  "value": 178.63,
+  "prev_close": 179.25,
+  "delta_pct": -0.3459,
   "label": "EUR/JPY",
-  "as_of": "Fri 9/25 close",
-  "status": "CLOSED",
-  "source": "Polygon C:EURJPY settled daily 9/25 close 179.25 (range 178.90-180.57) vs 9/24 180.656 (#188-A)"
+  "as_of": "Mon 7:10 AM ET",
+  "status": "LIVE",
+  "source": "finance EURJPY quote ts 2026-09-28 11:10:13 UTC vs Polygon C:EURJPY Fri 9/25 settled close 179.25 (#188-A); vendor previousClose 179.12 not used"
  },
  "AUDJPY": {
-  "value": 110.391,
-  "prev_close": 111.252,
-  "delta_pct": -0.7739,
+  "value": 110.12,
+  "prev_close": 110.391,
+  "delta_pct": -0.2455,
   "label": "AUD/JPY",
-  "as_of": "Fri 9/25 close",
-  "status": "CLOSED",
-  "source": "Polygon C:AUDJPY settled daily 9/25 close 110.391 (range 110.22-111.315) vs 9/24 111.252 (#188-A)"
+  "as_of": "Mon 7:10 AM ET",
+  "status": "LIVE",
+  "source": "finance AUDJPY quote ts 2026-09-28 11:10:17 UTC vs Polygon C:AUDJPY Fri 9/25 settled close 110.391 (#188-A); vendor previousClose 110.43 not used"
  }
 }
