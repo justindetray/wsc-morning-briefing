@@ -1,71 +1,53 @@
 {
- "last_curated": "2026-09-28",
+ "last_curated": "2026-09-29",
  "macro": [
   {
-   "date": "2026-09-28",
-   "time_et": "8:15 AM",
-   "event": "Fed Vice Chair for Supervision Bowman, bank supervision discussion (virtual)",
-   "consensus": null,
-   "importance": "medium",
-   "note": "regulatory topic; federalreserve.gov calendar"
-  },
-  {
-   "date": "2026-09-28",
-   "time_et": "1:25 PM",
-   "event": "Fed Governor Cook, AI and emerging tech, Oakland",
-   "consensus": null,
-   "importance": "medium",
-   "note": "federalreserve.gov calendar"
-  },
-  {
-   "date": "2026-09-28",
-   "time_et": "After close",
-   "event": "Jefferies (JEF) fiscal Q3 results, after the close",
-   "consensus": "EPS about $1.00 (MarketBeat)",
-   "importance": "medium",
-   "note": "date per company IR"
-  },
-  {
    "date": "2026-09-29",
-   "time_et": "",
-   "event": "Reserve Bank of Australia decision",
-   "consensus": "n/a - Reuters says likely to tighten",
-   "importance": "medium"
+   "time_et": "9:00 AM",
+   "event": "FHFA house price index (Jul)",
+   "consensus": null,
+   "importance": "low",
+   "note": "per CNBC calendar"
   },
   {
    "date": "2026-09-29",
    "time_et": "10:00 AM",
    "event": "JOLTS job openings (Aug)",
-   "consensus": "n/a - per BLS schedule",
-   "importance": "medium"
+   "consensus": null,
+   "importance": "medium",
+   "note": "BLS schedule"
   },
   {
    "date": "2026-09-29",
    "time_et": "10:00 AM",
    "event": "Conference Board consumer confidence (Sep)",
-   "consensus": "n/a - August 89.4",
-   "importance": "low"
+   "consensus": null,
+   "importance": "medium",
+   "note": "August 89.4"
   },
   {
    "date": "2026-09-29",
    "time_et": "12:40 PM",
    "event": "Fed Governor Barr, economic outlook, Detroit",
-   "consensus": "n/a - his remarks helped drive last week's bond selloff",
-   "importance": "high"
+   "consensus": null,
+   "importance": "high",
+   "note": "his remarks helped drive last week's bond selloff"
   },
   {
    "date": "2026-09-29",
    "time_et": "3:00 PM",
    "event": "Fed Governor Waller, payments, Sibos Miami",
-   "consensus": "n/a",
-   "importance": "low"
+   "consensus": null,
+   "importance": "low",
+   "note": "federalreserve.gov calendar"
   },
   {
    "date": "2026-09-29",
    "time_et": "",
    "event": "Carnival (CCL) earnings",
-   "consensus": "n/a - per CNBC calendar",
-   "importance": "low"
+   "consensus": null,
+   "importance": "low",
+   "note": "per CNBC calendar"
   },
   {
    "date": "2026-09-30",
