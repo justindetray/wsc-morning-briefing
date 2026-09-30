@@ -1,63 +1,68 @@
 {
- "window": "Monday 2026-09-28 close -> Tuesday 2026-09-29 7:10 AM ET",
- "lede": "The 10-year closes at its highest since 2007; futures steady; RBA hikes.",
+ "window": "Tuesday 2026-09-29 close -> Wednesday 2026-09-30 7:10 AM ET",
+ "lede": "Hike odds fall to 47%; the 10-year still matches its 2007 high; PCE today.",
  "asia_close": [
   {
-   "market": "Nikkei 225",
-   "delta_pct": -0.6,
-   "level": 65481.27
+   "market": "Nikkei 225 (afternoon)",
+   "delta_pct": 2.14,
+   "level": 66882.34
   },
   {
-   "market": "Topix",
-   "delta_pct": -1.7,
-   "level": 4041.13
+   "market": "ASX 200 (afternoon)",
+   "delta_pct": 1.11,
+   "level": 8806.4
   },
   {
-   "market": "Kospi",
-   "delta_pct": -0.27,
-   "level": 6870.81
+   "market": "Shanghai Comp (afternoon)",
+   "delta_pct": 0.5,
+   "level": 3847.55
   },
   {
-   "market": "CSI 300",
-   "delta_pct": 0.1,
-   "level": 4345.21
+   "market": "Hang Seng (afternoon)",
+   "delta_pct": 0.3,
+   "level": 24585.63
   },
   {
-   "market": "ASX 200",
-   "delta_pct": 0.34,
-   "level": 8709.3
-  },
-  {
-   "market": "Hang Seng (late)",
-   "delta_pct": -0.4
+   "market": "Kospi (afternoon)",
+   "delta_pct": -0.14,
+   "level": 6861.3
   }
  ],
  "europe_open": [
   {
-   "market": "STOXX 600 (open)",
-   "delta_pct": 0.4
+   "market": "FTSE 100 (open)",
+   "delta_pct": 0.79
   },
   {
-   "market": "FTSE 100 (open)",
-   "delta_pct": 0.3
+   "market": "DAX (open)",
+   "delta_pct": 0.69
+  },
+  {
+   "market": "CAC 40 (open)",
+   "delta_pct": 0.21
   }
  ],
  "single_name_moves": [
   {
-   "ticker": "JEF",
-   "delta_pct": -1.15,
-   "venue": "Mon close, before results"
+   "ticker": "CCL",
+   "delta_pct": 13.41,
+   "venue": "Tue close, after results"
+  },
+  {
+   "ticker": "MU",
+   "delta_pct": 1.05,
+   "venue": "Tue close, reports tonight"
   }
  ],
  "geo_headlines": [
-  "THE 10-YEAR CLOSED AT 5.24%, ITS HIGHEST CLOSE SINCE JUNE 2007. Treasury's daily curve: the 10-year rose 7bp to 5.24%, the 2-year 11bp to 4.92% and the 30-year 7bp to 5.56%. The 10-year briefly touched 5.274% intraday (CNBC). **Real yields did all the work: the 10-year TIPS yield rose 7bp to 2.90%, so inflation expectations were flat.** The 2s10s curve flattened to 32bp as the front end repriced harder.",
-  "STOCKS FELL ON YIELDS, NOT ON FEAR. The S&P 500 fell 0.77% to 7,683.69 and the Dow lost 347 points; the Nasdaq 100 fell 1.08% and semis 1.61%. VIX rose to 16.07. The S&P is 1.48% below its August 13 record and the Nasdaq 100 1.48% below its September 22 record. After the bell, AMD agreed to buy World Labs for $8.2 billion and Nvidia authorized another $150 billion of buybacks earlier in the day (CNBC).",
-  "FEDWATCH NOW PUTS OCTOBER HIKE ODDS AT 70%. October 28 hike probability rose to 69.8% from 64.2% on Friday's data; a December hike is 94.8% priced, with 57.8% odds on a cumulative 50bp by then. Governor Cook said AI and oil are keeping inflation pressure up and further hikes are data dependent (investingLive). Barr speaks at 12:40 PM; his remarks helped drive last week's bond selloff.",
-  "AUSTRALIA HIKED TOO, TO A 15-YEAR HIGH. The RBA raised its cash rate 25bp to 4.60%, its fourth hike this year, citing energy costs (ABC). Westpac now expects another move in November. It is the same pattern as the Fed: oil-driven inflation is forcing central banks to keep tightening, even as growth slows.",
-  "IRAN IS WAITING ON A FORMAL US ANSWER; OIL IS FIRM BUT OFF ITS HIGHS. Araghchi met Qatari mediators and says Iran has not changed its seven-point plan; he expects Washington's formal reply via Qatar Tuesday (CBS). A US official called talks \"positive and constructive\" but says no deal without the nuclear file (Al Jazeera); Trump denied offering sanctions relief. November Brent was $106.77 (+1.4%) in Asia (Reuters); WTI has since faded to $91.72 (-0.95%).",
-  "FUTURES FLAT, ASIA MIXED, EUROPE HIGHER. S&P futures +0.08%, Nasdaq futures +0.24%. Japan's Topix fell 1.7% and the Nikkei 0.6%, led by refiners and power stocks; Australia and China edged up. The Stoxx 600 opened up about 0.4% despite higher oil. Gold +0.4% after Monday's 3% drop; bitcoin about $84,030.",
-  "JEFFERIES BEAT ON DEALS; TODAY BRINGS JOLTS AND CONFIDENCE. Jefferies earned $1.08 a share versus $1.00 expected, with investment banking up 17% and record equities trading; asset management fees fell (Reuters). JOLTS and Conference Board confidence are at 10:00 AM, Barr at 12:40 PM, Waller at 3:00 PM. Wednesday brings PCE; Friday's payrolls are expected around 85,000."
+  "OCTOBER HIKE ODDS FELL FROM 70% TO 47% IN ONE SESSION. FedWatch now shows a 46.5% chance of an October 28 hike, down from 69.8%; a December hike is still 91.0% priced. New York Fed President Williams: \"there is no need for urgency, and we have time to gather more information,\" though one more hike \"may be appropriate late this year\" (CNBC). Barr took the other side, saying further increases are likely needed.",
+  "THE LONG END DID NOT GET THE MEMO. Treasury's curve: the 2-year fell 3bp to 4.89% on the softer Fed path, but the 10-year rose 2bp to 5.26%, matching its June 12, 2007 close, and the 30-year rose 3bp to 5.59%. **The 2s10s curve steepened to 37bp: less Fed, more term premium.** The 30-year touched about 5.62% intraday, its highest since 2002 (Reuters).",
+  "CONSUMERS ARE GLOOMIER THAN THE ECONOMY. Conference Board confidence fell 6.7 points to 81.9, the lowest since 2014, against expectations of about 89 (CNBC). Job openings were little changed at 7.1 million in August (BLS). Reuters' framing: nominal growth near 8-9% and 4.1% unemployment, yet Americans are the most insecure about jobs in more than five years.",
+  "OIL FELL 2.5% TUESDAY ON SUPPLY, STEADY THIS MORNING. The Energy Department offered up to 40 million barrels of SPR loans, and Goldman estimates Gulf exports are back to their 2025 average (investingLive). The November Brent contract expires today at about $103; the active December contract is $97.65 (+1.6%) and WTI $90.74 (+1.5%). Trump again denied offering Iran sanctions relief; Qatar says it is still working toward common ground (Reuters).",
+  "STOCKS SLIPPED; CHIPS AND CRUISES ROSE. S&P 500 -0.17% to 7,670.84, Dow -132 points; the Nasdaq 100 rose 0.21% and semis 1.31%. Carnival jumped 13% after beating and raising guidance; Apple fell 2.7%. The S&P is 1.64% below its August 13 record and the Nasdaq 100 1.28% below its September 22 record. VIX 16.04.",
+  "ASIA RALLIED ON CHIPS; EUROPE OPENED HIGHER. The Nikkei was up about 2.1% in the afternoon, with SoftBank up more than 6% (AP); the ASX gained 1.1%. China's official manufacturing PMI returned to 50.1. Australian CPI was 4.0% but core was softer than forecast. The FTSE opened up 0.8% and the DAX 0.7% (QNA). S&P futures flat; Nasdaq futures -0.09%.",
+  "TODAY IS THE BIG ONE: PCE, GDP, THEN MICRON. August PCE prices at 8:30 AM are expected up 0.3% on the month and 3.7% from a year ago (Dow Jones via CNBC), alongside the Q2 GDP third estimate and ADP at 8:15. Governor Cook speaks at 3:25 PM and Micron reports after the close. It is also quarter-end, which Reuters flags as a source of volatility."
  ],
- "client_frame_short": "The story this morning is interest rates, not headlines. The 10-year Treasury closed at 5.24% yesterday, its highest close since 2007, and stocks slipped less than 1%. **The whole rise was in real yields, meaning investors are demanding more return for lending, not bracing for more inflation.** Futures are flat this morning, and oil is firm but off its overnight highs. Nothing here calls for action; this is the best yield on safe money in nearly two decades, and Wednesday's inflation report and Friday's jobs report matter more than today.",
- "client_frame": "If a client calls this morning, the headline they will have seen is that bond yields are at their highest since 2007. That is true, and it is the single most useful thing to explain today.\n\nThe 10-year Treasury closed at 5.24% on Monday, its highest close since June 2007. The 2-year rose even more, to 4.92%, because the market now sees about a 70% chance the Fed raises rates again on October 28 and almost certainly by December. Central banks are moving together: Australia raised rates overnight to a 15-year high, also citing energy costs.\n\nThe part worth slowing down on is why yields rose. Inflation-protected Treasury yields rose by the same amount, so the market's inflation expectation did not change. Investors are simply demanding a higher real return to lend money. That is a tighter financial environment, but it is not a panic signal, and it is not the market saying inflation is running away. It also matters for the mortgage and borrowing conversations clients are having: longer-term borrowing costs are set by these yields, so rates on new loans are likely to stay elevated until the Fed signals it is done.\n\nStocks are handling it in stride. The S&P 500 fell 0.77% Monday and is 1.48% below its August 13 record; futures are flat this morning. Oil is firm on the Iran standoff, with Iran awaiting a formal US answer through Qatar today, but it has not driven a new leg down in stocks.\n\nFor clients, the practical point is that cash and high-quality bonds are paying their best real returns in almost two decades. That is an opportunity for idle money and for anyone who needs income, not a reason to sell equities built for the long run. Locking in some of today's yields for several years is a reasonable conversation for clients with near-term spending needs. What would change the view: a 10-year close above 5.25% (we closed at 5.24%), a hot August PCE report on Wednesday, or Brent holding above $110."
+ "client_frame_short": "The Fed story got a little softer yesterday, and the bond story did not. Traders cut the odds of an October rate hike from about 70% to under 50% after a senior Fed official said there is no rush. **But long-term Treasury yields still rose, so borrowing costs for mortgages and businesses are not getting relief from a gentler Fed.** Stocks barely moved, and chip stocks rose. Today's inflation report is the real test; nothing here calls for action before we see it, and yields near 5% remain an opportunity for idle cash.",
+ "client_frame": "If a client calls this morning, there are two headlines that seem to conflict, and explaining why they do not is the useful part.\n\nFirst, the Fed. On Monday markets saw about a 70% chance of another rate hike in October. By Tuesday afternoon it was under 50%. New York Fed President Williams said there is no urgency and the Fed has time to gather data, and consumer confidence dropped to its lowest since 2014. A softer path for the Fed pulled the 2-year Treasury yield down. Job openings were steady at 7.1 million, so this is not a labor market cracking; it is a Fed signaling patience after already hiking in September.\n\nSecond, long rates. The 10-year Treasury still rose to 5.26%, matching its June 2007 close, and the 30-year reached levels last seen in 2002. That is investors demanding more to lend for a long time: large deficits, sticky inflation and heavy borrowing to fund AI data centers. Mortgage and corporate borrowing costs key off these long rates, so relief from the Fed is not reaching them.\n\nWe said a 10-year close above 5.25% would change our view. It closed at 5.26%, so it is worth being precise about what changes. It raises the bar for rate-sensitive stocks and real estate, and it strengthens the case for locking in longer bond yields for clients who need income, since those yields are the best on offer in almost two decades. It does not change the equity plan: the S&P 500 is 1.64% below its August 13 record, and stocks fell less than 0.2% on the day, with semiconductors up more than 1%. Diversified portfolios built for a higher-rate world are doing their job.\n\nThe next test is this morning's PCE inflation report, expected at 3.7% year over year. What would change the view further: a hot PCE print that pushes October odds back above 70%, a 10-year close above 5.40%, or the 30-year holding above 5.75%."
 }

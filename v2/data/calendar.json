@@ -1,95 +1,61 @@
 {
- "last_curated": "2026-09-29",
+ "last_curated": "2026-09-30",
  "macro": [
-  {
-   "date": "2026-09-29",
-   "time_et": "9:00 AM",
-   "event": "FHFA house price index (Jul)",
-   "consensus": null,
-   "importance": "low",
-   "note": "per CNBC calendar"
-  },
-  {
-   "date": "2026-09-29",
-   "time_et": "10:00 AM",
-   "event": "JOLTS job openings (Aug)",
-   "consensus": null,
-   "importance": "medium",
-   "note": "BLS schedule"
-  },
-  {
-   "date": "2026-09-29",
-   "time_et": "10:00 AM",
-   "event": "Conference Board consumer confidence (Sep)",
-   "consensus": null,
-   "importance": "medium",
-   "note": "August 89.4"
-  },
-  {
-   "date": "2026-09-29",
-   "time_et": "12:40 PM",
-   "event": "Fed Governor Barr, economic outlook, Detroit",
-   "consensus": null,
-   "importance": "high",
-   "note": "his remarks helped drive last week's bond selloff"
-  },
-  {
-   "date": "2026-09-29",
-   "time_et": "3:00 PM",
-   "event": "Fed Governor Waller, payments, Sibos Miami",
-   "consensus": null,
-   "importance": "low",
-   "note": "federalreserve.gov calendar"
-  },
-  {
-   "date": "2026-09-29",
-   "time_et": "",
-   "event": "Carnival (CCL) earnings",
-   "consensus": null,
-   "importance": "low",
-   "note": "per CNBC calendar"
-  },
   {
    "date": "2026-09-30",
    "time_et": "8:15 AM",
    "event": "ADP employment (Sep)",
-   "consensus": "n/a - per CNBC calendar",
-   "importance": "low"
+   "consensus": null,
+   "importance": "medium",
+   "note": "per CNBC calendar"
   },
   {
    "date": "2026-09-30",
    "time_et": "8:30 AM",
    "event": "Personal income and outlays incl. PCE prices (Aug)",
-   "consensus": "n/a - the Fed's preferred inflation gauge; BEA schedule",
-   "importance": "high"
+   "consensus": null,
+   "importance": "high",
+   "note": "expected +0.3% m/m, 3.7% y/y (Dow Jones via CNBC); BEA schedule"
   },
   {
    "date": "2026-09-30",
    "time_et": "8:30 AM",
    "event": "Q2 GDP third estimate and corporate profits",
-   "consensus": "n/a - second estimate 1.5% annualized",
-   "importance": "high"
+   "consensus": null,
+   "importance": "high",
+   "note": "second estimate 1.5% annualized"
   },
   {
    "date": "2026-09-30",
    "time_et": "8:30 AM",
    "event": "Advance economic indicators (trade, retail and wholesale inventories)",
-   "consensus": "n/a - Census",
-   "importance": "low"
+   "consensus": null,
+   "importance": "low",
+   "note": "Census"
+  },
+  {
+   "date": "2026-09-30",
+   "time_et": "10:30 AM",
+   "event": "EIA weekly petroleum status",
+   "consensus": null,
+   "importance": "low",
+   "note": "Reuters poll expects crude and product draws"
   },
   {
    "date": "2026-09-30",
    "time_et": "3:25 PM",
    "event": "Fed Governor Cook, rural economy, Asheville",
-   "consensus": "n/a",
-   "importance": "low"
+   "consensus": null,
+   "importance": "medium",
+   "note": "federalreserve.gov calendar"
   },
   {
    "date": "2026-09-30",
    "time_et": "4:30 PM",
    "event": "Micron (MU) fiscal Q4 2026",
-   "consensus": "n/a - after the close",
-   "importance": "high"
+   "consensus": null,
+   "importance": "high",
+   "note": "after the close"
   },
   {
    "date": "2026-10-01",
