@@ -1,110 +1,61 @@
 {
- "last_curated": "2026-09-30",
+ "last_curated": "2026-10-01",
  "macro": [
-  {
-   "date": "2026-09-30",
-   "time_et": "8:15 AM",
-   "event": "ADP employment (Sep)",
-   "consensus": null,
-   "importance": "medium",
-   "note": "per CNBC calendar"
-  },
-  {
-   "date": "2026-09-30",
-   "time_et": "8:30 AM",
-   "event": "Personal income and outlays incl. PCE prices (Aug)",
-   "consensus": null,
-   "importance": "high",
-   "note": "expected +0.3% m/m, 3.7% y/y (Dow Jones via CNBC); BEA schedule"
-  },
-  {
-   "date": "2026-09-30",
-   "time_et": "8:30 AM",
-   "event": "Q2 GDP third estimate and corporate profits",
-   "consensus": null,
-   "importance": "high",
-   "note": "second estimate 1.5% annualized"
-  },
-  {
-   "date": "2026-09-30",
-   "time_et": "8:30 AM",
-   "event": "Advance economic indicators (trade, retail and wholesale inventories)",
-   "consensus": null,
-   "importance": "low",
-   "note": "Census"
-  },
-  {
-   "date": "2026-09-30",
-   "time_et": "10:30 AM",
-   "event": "EIA weekly petroleum status",
-   "consensus": null,
-   "importance": "low",
-   "note": "Reuters poll expects crude and product draws"
-  },
-  {
-   "date": "2026-09-30",
-   "time_et": "3:25 PM",
-   "event": "Fed Governor Cook, rural economy, Asheville",
-   "consensus": null,
-   "importance": "medium",
-   "note": "federalreserve.gov calendar"
-  },
-  {
-   "date": "2026-09-30",
-   "time_et": "4:30 PM",
-   "event": "Micron (MU) fiscal Q4 2026",
-   "consensus": null,
-   "importance": "high",
-   "note": "after the close"
-  },
   {
    "date": "2026-10-01",
    "time_et": "8:30 AM",
    "event": "Initial jobless claims",
-   "consensus": "n/a - weekly",
-   "importance": "low"
+   "consensus": null,
+   "importance": "low",
+   "note": "weekly; DOL"
   },
   {
    "date": "2026-10-01",
    "time_et": "10:00 AM",
    "event": "ISM manufacturing PMI (Sep)",
-   "consensus": "n/a - August 54.6",
-   "importance": "medium"
+   "consensus": null,
+   "importance": "medium",
+   "note": "August 54.6"
   },
   {
    "date": "2026-10-01",
    "time_et": "10:00 AM",
    "event": "Construction spending (Aug)",
-   "consensus": "n/a - Census",
-   "importance": "low"
+   "consensus": null,
+   "importance": "low",
+   "note": "Census"
   },
   {
    "date": "2026-10-01",
    "time_et": "10:00 AM",
    "event": "Fed Governor Waller, Federal Reserve economic data",
-   "consensus": "n/a",
-   "importance": "low"
+   "consensus": null,
+   "importance": "medium",
+   "note": "federalreserve.gov calendar"
   },
   {
    "date": "2026-10-01",
    "time_et": "1:30 PM",
    "event": "Fed Vice Chair Jefferson, US economy and monetary policy",
-   "consensus": "n/a - most senior Board voice of the week",
-   "importance": "high"
+   "consensus": null,
+   "importance": "high",
+   "note": "most senior Board voice of the week"
   },
   {
    "date": "2026-10-01",
    "time_et": "",
    "event": "Nike (NKE) and McCormick (MKC) earnings",
-   "consensus": "n/a - per CNBC calendar",
-   "importance": "low"
+   "consensus": null,
+   "importance": "medium",
+   "note": "per CNBC calendar"
   },
   {
    "date": "2026-10-01",
    "time_et": "",
    "event": "Accenture (ACN) fiscal Q4",
-   "consensus": "n/a - company IR confirms Oct 1",
-   "importance": "low"
+   "consensus": null,
+   "importance": "medium",
+   "note": "company IR confirms Oct 1"
   },
   {
    "date": "2026-10-02",

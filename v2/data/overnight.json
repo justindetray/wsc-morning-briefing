@@ -1,68 +1,71 @@
 {
- "window": "Tuesday 2026-09-29 close -> Wednesday 2026-09-30 7:10 AM ET",
- "lede": "Hike odds fall to 47%; the 10-year still matches its 2007 high; PCE today.",
+ "window": "Wednesday 2026-09-30 close -> Thursday 2026-10-01 7:10 AM ET",
+ "lede": "Cooler PCE cuts October hike odds to 35%; the 10-year still closes at its highest since 2002.",
  "asia_close": [
   {
-   "market": "Nikkei 225 (afternoon)",
-   "delta_pct": 2.14,
-   "level": 66882.34
+   "market": "Nikkei 225",
+   "delta_pct": 3.3,
+   "level": 68956.72
   },
   {
-   "market": "ASX 200 (afternoon)",
-   "delta_pct": 1.11,
-   "level": 8806.4
+   "market": "Kospi",
+   "delta_pct": 2.0,
+   "level": 6971.35
   },
   {
-   "market": "Shanghai Comp (afternoon)",
-   "delta_pct": 0.5,
-   "level": 3847.55
-  },
-  {
-   "market": "Hang Seng (afternoon)",
-   "delta_pct": 0.3,
-   "level": 24585.63
-  },
-  {
-   "market": "Kospi (afternoon)",
-   "delta_pct": -0.14,
-   "level": 6861.3
+   "market": "ASX 200",
+   "delta_pct": -2.0,
+   "level": 8614.4
   }
  ],
  "europe_open": [
   {
-   "market": "FTSE 100 (open)",
-   "delta_pct": 0.79
+   "market": "STOXX 600 (07:2x GMT)",
+   "delta_pct": -1.0,
+   "level": 628.1
   },
   {
-   "market": "DAX (open)",
-   "delta_pct": 0.69
+   "market": "FTSE 100 (early)",
+   "delta_pct": -1.8,
+   "level": 10413.86
   },
   {
-   "market": "CAC 40 (open)",
-   "delta_pct": 0.21
+   "market": "DAX (early)",
+   "delta_pct": -1.4,
+   "level": 24851.94
+  },
+  {
+   "market": "CAC 40 (early)",
+   "delta_pct": -1.8,
+   "level": 7822.48
   }
  ],
  "single_name_moves": [
   {
-   "ticker": "CCL",
-   "delta_pct": 13.41,
-   "venue": "Tue close, after results"
+   "ticker": "MU",
+   "delta_pct": 0.16,
+   "venue": "after hours, post-results"
   },
   {
-   "ticker": "MU",
-   "delta_pct": 1.05,
-   "venue": "Tue close, reports tonight"
+   "ticker": "ACN",
+   "delta_pct": 3.53,
+   "venue": "Wed close"
+  },
+  {
+   "ticker": "NKE",
+   "delta_pct": -1.23,
+   "venue": "Wed close, reports today"
   }
  ],
  "geo_headlines": [
-  "OCTOBER HIKE ODDS FELL FROM 70% TO 47% IN ONE SESSION. FedWatch now shows a 46.5% chance of an October 28 hike, down from 69.8%; a December hike is still 91.0% priced. New York Fed President Williams: \"there is no need for urgency, and we have time to gather more information,\" though one more hike \"may be appropriate late this year\" (CNBC). Barr took the other side, saying further increases are likely needed.",
-  "THE LONG END DID NOT GET THE MEMO. Treasury's curve: the 2-year fell 3bp to 4.89% on the softer Fed path, but the 10-year rose 2bp to 5.26%, matching its June 12, 2007 close, and the 30-year rose 3bp to 5.59%. **The 2s10s curve steepened to 37bp: less Fed, more term premium.** The 30-year touched about 5.62% intraday, its highest since 2002 (Reuters).",
-  "CONSUMERS ARE GLOOMIER THAN THE ECONOMY. Conference Board confidence fell 6.7 points to 81.9, the lowest since 2014, against expectations of about 89 (CNBC). Job openings were little changed at 7.1 million in August (BLS). Reuters' framing: nominal growth near 8-9% and 4.1% unemployment, yet Americans are the most insecure about jobs in more than five years.",
-  "OIL FELL 2.5% TUESDAY ON SUPPLY, STEADY THIS MORNING. The Energy Department offered up to 40 million barrels of SPR loans, and Goldman estimates Gulf exports are back to their 2025 average (investingLive). The November Brent contract expires today at about $103; the active December contract is $97.65 (+1.6%) and WTI $90.74 (+1.5%). Trump again denied offering Iran sanctions relief; Qatar says it is still working toward common ground (Reuters).",
-  "STOCKS SLIPPED; CHIPS AND CRUISES ROSE. S&P 500 -0.17% to 7,670.84, Dow -132 points; the Nasdaq 100 rose 0.21% and semis 1.31%. Carnival jumped 13% after beating and raising guidance; Apple fell 2.7%. The S&P is 1.64% below its August 13 record and the Nasdaq 100 1.28% below its September 22 record. VIX 16.04.",
-  "ASIA RALLIED ON CHIPS; EUROPE OPENED HIGHER. The Nikkei was up about 2.1% in the afternoon, with SoftBank up more than 6% (AP); the ASX gained 1.1%. China's official manufacturing PMI returned to 50.1. Australian CPI was 4.0% but core was softer than forecast. The FTSE opened up 0.8% and the DAX 0.7% (QNA). S&P futures flat; Nasdaq futures -0.09%.",
-  "TODAY IS THE BIG ONE: PCE, GDP, THEN MICRON. August PCE prices at 8:30 AM are expected up 0.3% on the month and 3.7% from a year ago (Dow Jones via CNBC), alongside the Q2 GDP third estimate and ADP at 8:15. Governor Cook speaks at 3:25 PM and Micron reports after the close. It is also quarter-end, which Reuters flags as a source of volatility."
+  "INFLATION CAME IN COOLER THAN FEARED. August PCE prices rose 3.4% from a year ago against 3.7% expected; core was 3.0% against 3.3%, with core up 0.2% on the month (CNBC). **Spending still rose 0.9%, so this was not a weak consumer.** Part of the miss reflects BEA measurement changes that lowered the July core level. Q2 GDP was revised up to 2.2% (BEA).",
+  "OCTOBER HIKE ODDS FELL AGAIN, TO 35%. FedWatch now puts an October 28 hike at 35.4%, down from 46.5% a day earlier and about 70% on Monday; a December hike is 87.7% priced. The market has moved the next hike from October to December.",
+  "AND LONG YIELDS STILL ROSE. Treasury's curve: the 10-year closed at 5.29% (+3bp), its highest since May 2002; the 30-year at 5.64% (+5bp), the highest published 30-year close since July 2001. The 2-year slipped to 4.88%, so the 2s10s curve steepened to 41bp. The 10-year TIPS yield rose 2bp to 2.93%. Japan's 10-year rose 6bp to 3.11% overnight (Bloomberg).",
+  "STOCKS GAVE UP A PCE RALLY INTO THE CLOSE. The S&P 500 closed down 0.25% at 7,651.54, at its session low, after trading up about 0.4% in the morning; the Dow fell 444 points and the Nasdaq 100 rose 0.23%. The S&P is 1.89% below its August 13 record and the Nasdaq 100 1.05% below its September 22 record. VIX 16.34.",
+  "MICRON BEAT, AND FUTURES ARE LEANING ON IT. Micron reported fiscal Q4 revenue of $54.23 billion against about $50.45 billion expected and adjusted EPS of $33.42 against $31.16, and said AI memory demand stays tight through 2028; the stock was little changed after hours (Investing.com). Nasdaq futures +0.77%, S&P futures +0.35%; Japan's Nikkei closed up 3.3% and Korea's Kospi 2.0% on chips (AP).",
+  "IRAN RECEIVED A US COUNTERPROPOSAL; OIL BACK TO $100. Iran's cabinet is weighing the US response; Reuters says the sides largely agree on steps but not their order. Two ships were hit by projectiles Tuesday (UKMTO via Reuters). Brent December is $100.00 (+2.0%) and WTI $91.73 (+1.5%). Europe opened lower: the Stoxx 600 fell 1% (Reuters), with the FTSE down 1.8% early (AP).",
+  "TODAY: ISM, TWO FED SPEAKERS, NIKE. Jobless claims at 8:30 AM; ISM manufacturing and construction spending at 10:00; Governor Waller at 10:00 and Vice Chair Jefferson at 1:30 PM. Nike, McCormick and Accenture report. Friday's September payrolls are expected around 85,000 with unemployment at 4.1%."
  ],
- "client_frame_short": "The Fed story got a little softer yesterday, and the bond story did not. Traders cut the odds of an October rate hike from about 70% to under 50% after a senior Fed official said there is no rush. **But long-term Treasury yields still rose, so borrowing costs for mortgages and businesses are not getting relief from a gentler Fed.** Stocks barely moved, and chip stocks rose. Today's inflation report is the real test; nothing here calls for action before we see it, and yields near 5% remain an opportunity for idle cash.",
- "client_frame": "If a client calls this morning, there are two headlines that seem to conflict, and explaining why they do not is the useful part.\n\nFirst, the Fed. On Monday markets saw about a 70% chance of another rate hike in October. By Tuesday afternoon it was under 50%. New York Fed President Williams said there is no urgency and the Fed has time to gather data, and consumer confidence dropped to its lowest since 2014. A softer path for the Fed pulled the 2-year Treasury yield down. Job openings were steady at 7.1 million, so this is not a labor market cracking; it is a Fed signaling patience after already hiking in September.\n\nSecond, long rates. The 10-year Treasury still rose to 5.26%, matching its June 2007 close, and the 30-year reached levels last seen in 2002. That is investors demanding more to lend for a long time: large deficits, sticky inflation and heavy borrowing to fund AI data centers. Mortgage and corporate borrowing costs key off these long rates, so relief from the Fed is not reaching them.\n\nWe said a 10-year close above 5.25% would change our view. It closed at 5.26%, so it is worth being precise about what changes. It raises the bar for rate-sensitive stocks and real estate, and it strengthens the case for locking in longer bond yields for clients who need income, since those yields are the best on offer in almost two decades. It does not change the equity plan: the S&P 500 is 1.64% below its August 13 record, and stocks fell less than 0.2% on the day, with semiconductors up more than 1%. Diversified portfolios built for a higher-rate world are doing their job.\n\nThe next test is this morning's PCE inflation report, expected at 3.7% year over year. What would change the view further: a hot PCE print that pushes October odds back above 70%, a 10-year close above 5.40%, or the 30-year holding above 5.75%."
+ "client_frame_short": "Yesterday brought good news on inflation: the Fed's preferred gauge came in well below forecasts, and markets now see the next rate hike in December rather than October. **Yet the 10-year Treasury yield still rose to its highest close since 2002, which tells you long rates are being driven by more than the Fed.** Stocks dipped slightly, and futures are higher this morning on strong Micron results. Nothing here calls for action; yields near 5% remain an opportunity for idle cash, and Friday's jobs report is the next real test.",
+ "client_frame": "If a client calls this morning, lead with the good news, then explain why it did not lower their mortgage rate.\n\nThe good news: inflation cooled more than expected in August. The Fed's preferred measure rose 3.4% from a year ago, against forecasts of 3.7%, and the core measure that strips out food and energy came in at 3.0%. Consumer spending still grew strongly, up 0.9% in the month, and second-quarter growth was revised up to 2.2%, so this is not a weakening economy. Markets responded sensibly: the chance of another Fed rate hike in October fell to about 35%, from about 70% on Monday.\n\nThe puzzle: long-term Treasury yields rose anyway. The 10-year closed at 5.29%, its highest since May 2002, and the 30-year at 5.64%. Short rates follow the Fed and eased. Long rates follow what investors demand to lend for a decade or more, and that is being pushed up by large government deficits, heavy borrowing for AI data centers, rising bond yields abroad, including Japan, and oil back near $100. The 10-year was the trigger we flagged at 5.25%; it is now 5.29%, and it is moving for reasons a softer Fed does not fix.\n\nStocks are absorbing this better than headlines suggest. The S&P 500 slipped 0.25% Wednesday and sits 1.89% below its August 13 record; Micron's strong results, with revenue well ahead of forecasts and AI memory demand described as tight through 2028, have Nasdaq futures up this morning.\n\nFor clients, the practical message is unchanged: high-quality bonds now pay real returns not seen in two decades, which is an opportunity for income and idle cash, and equity portfolios built for the long run do not need changing for a yield move. What would change the view: a 10-year close above 5.40%, a 30-year above 5.75%, or a strong payrolls report Friday that puts October hike odds back above 50%."
 }
