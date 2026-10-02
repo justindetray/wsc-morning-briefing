@@ -1,71 +1,61 @@
 {
- "window": "Wednesday 2026-09-30 close -> Thursday 2026-10-01 7:10 AM ET",
- "lede": "Cooler PCE cuts October hike odds to 35%; the 10-year still closes at its highest since 2002.",
+ "window": "Thursday 2026-10-01 close -> Friday 2026-10-02 7:10 AM ET",
+ "lede": "The 10-year touched a 24-year high, then reversed; October hike odds fall to 30% ahead of payrolls.",
  "asia_close": [
   {
    "market": "Nikkei 225",
-   "delta_pct": 3.3,
-   "level": 68956.72
+   "delta_pct": -0.9,
+   "level": 68326.72
+  },
+  {
+   "market": "Hang Seng",
+   "delta_pct": -2.7,
+   "level": 23956.32
   },
   {
    "market": "Kospi",
-   "delta_pct": 2.0,
-   "level": 6971.35
+   "delta_pct": 0.2,
+   "level": 6984.96
   },
   {
    "market": "ASX 200",
-   "delta_pct": -2.0,
-   "level": 8614.4
+   "delta_pct": 0.4,
+   "level": 8651.3
   }
  ],
  "europe_open": [
   {
-   "market": "STOXX 600 (07:2x GMT)",
-   "delta_pct": -1.0,
-   "level": 628.1
-  },
-  {
-   "market": "FTSE 100 (early)",
-   "delta_pct": -1.8,
-   "level": 10413.86
-  },
-  {
-   "market": "DAX (early)",
-   "delta_pct": -1.4,
-   "level": 24851.94
-  },
-  {
-   "market": "CAC 40 (early)",
-   "delta_pct": -1.8,
-   "level": 7822.48
+   "market": "STOXX 600 (0720 GMT)",
+   "delta_pct": 0.4,
+   "level": 629.18
   }
  ],
  "single_name_moves": [
   {
-   "ticker": "MU",
-   "delta_pct": 0.16,
-   "venue": "after hours, post-results"
+   "ticker": "NKE",
+   "delta_pct": -9.0,
+   "venue": "premarket, approx. (Investing.com), post-results"
   },
   {
    "ticker": "ACN",
-   "delta_pct": 3.53,
-   "venue": "Wed close"
+   "delta_pct": 15.78,
+   "venue": "Thu close, post-results"
   },
   {
-   "ticker": "NKE",
-   "delta_pct": -1.23,
-   "venue": "Wed close, reports today"
+   "ticker": "MKC",
+   "delta_pct": -4.87,
+   "venue": "Thu close, post-results"
   }
  ],
  "geo_headlines": [
-  "INFLATION CAME IN COOLER THAN FEARED. August PCE prices rose 3.4% from a year ago against 3.7% expected; core was 3.0% against 3.3%, with core up 0.2% on the month (CNBC). **Spending still rose 0.9%, so this was not a weak consumer.** Part of the miss reflects BEA measurement changes that lowered the July core level. Q2 GDP was revised up to 2.2% (BEA).",
-  "OCTOBER HIKE ODDS FELL AGAIN, TO 35%. FedWatch now puts an October 28 hike at 35.4%, down from 46.5% a day earlier and about 70% on Monday; a December hike is 87.7% priced. The market has moved the next hike from October to December.",
-  "AND LONG YIELDS STILL ROSE. Treasury's curve: the 10-year closed at 5.29% (+3bp), its highest since May 2002; the 30-year at 5.64% (+5bp), the highest published 30-year close since July 2001. The 2-year slipped to 4.88%, so the 2s10s curve steepened to 41bp. The 10-year TIPS yield rose 2bp to 2.93%. Japan's 10-year rose 6bp to 3.11% overnight (Bloomberg).",
-  "STOCKS GAVE UP A PCE RALLY INTO THE CLOSE. The S&P 500 closed down 0.25% at 7,651.54, at its session low, after trading up about 0.4% in the morning; the Dow fell 444 points and the Nasdaq 100 rose 0.23%. The S&P is 1.89% below its August 13 record and the Nasdaq 100 1.05% below its September 22 record. VIX 16.34.",
-  "MICRON BEAT, AND FUTURES ARE LEANING ON IT. Micron reported fiscal Q4 revenue of $54.23 billion against about $50.45 billion expected and adjusted EPS of $33.42 against $31.16, and said AI memory demand stays tight through 2028; the stock was little changed after hours (Investing.com). Nasdaq futures +0.77%, S&P futures +0.35%; Japan's Nikkei closed up 3.3% and Korea's Kospi 2.0% on chips (AP).",
-  "IRAN RECEIVED A US COUNTERPROPOSAL; OIL BACK TO $100. Iran's cabinet is weighing the US response; Reuters says the sides largely agree on steps but not their order. Two ships were hit by projectiles Tuesday (UKMTO via Reuters). Brent December is $100.00 (+2.0%) and WTI $91.73 (+1.5%). Europe opened lower: the Stoxx 600 fell 1% (Reuters), with the FTSE down 1.8% early (AP).",
-  "TODAY: ISM, TWO FED SPEAKERS, NIKE. Jobless claims at 8:30 AM; ISM manufacturing and construction spending at 10:00; Governor Waller at 10:00 and Vice Chair Jefferson at 1:30 PM. Nike, McCormick and Accenture report. Friday's September payrolls are expected around 85,000 with unemployment at 4.1%."
+  "THE 10-YEAR HIT A 24-YEAR HIGH, THEN BUYERS SHOWED UP. The 10-year Treasury yield touched 5.34% Thursday, its highest since 2002, then reversed (Reuters). Treasury's curve closed the 10-year at 5.24% (-5bp) and the 2-year at 4.78% (-10bp), with the 30-year at 5.61%. **Dovish comments from Fed officials drove the 2-year rally, per Reuters.** The 2s10s curve steepened to 46bp. The 10-year TIPS yield fell 5bp to 2.88%.",
+  "OCTOBER HIKE ODDS DOWN AGAIN, TO 30%. FedWatch puts an October 28 hike at 29.9%, from 35.4% a day earlier and about 70% a week ago; a December hike is 82.7% priced. Today's jobs report decides whether that keeps falling.",
+  "PAYROLLS AT 8:30 AM. Reuters' survey expects 90,000 September jobs (range 35,000-180,000) after 162,000 in August, unemployment steady at 4.1% and average hourly earnings up 3.2% from a year ago. Economists estimate 50,000-80,000 a month keeps pace with population growth.",
+  "STOCKS EDGED UP AS YIELDS EASED. The S&P 500 rose 0.19% to 7,666.45 Thursday and the Nasdaq 100 0.31%; the Dow was flat. The S&P is 1.70% below its August 13 record and the Nasdaq 100 0.75% below its September 22 record. VIX 16.39. Accenture jumped 15.8% after results; McCormick fell 4.9%.",
+  "NIKE MISSED ON SALES. Nike earned 48 cents a share against 44 cents expected, but revenue of $11.21 billion missed $11.35 billion and fell 5% currency-neutral; it guided to a high-single-digit revenue decline this fiscal year. Shares were down nearly 9% premarket (Investing.com).",
+  "INFLATION IS STILL RUNNING HOT ABROAD. Euro-zone September inflation rose to 3.8%, above the 3.6% forecast and the highest in three years (Bloomberg). Tokyo core CPI rose 2.7% against a 2.4% forecast. French yields hit 14-year highs (Reuters). ISM manufacturing Thursday was 54.5, with prices paid jumping to 77.9 from 71.1.",
+  "IRAN: MORE TROOPS, A THIRD CARRIER; OIL LOWER THIS MORNING. The US is deploying thousands more troops and a third aircraft carrier to the Middle East (AP); Trump said \"we blow them up or make a deal\" (Politico). Brent December is $99.89 (-2.4%) after Thursday's 4.4% jump; WTI $89.28 (-3.9%). Asia was mixed: Hong Kong -2.7%, Nikkei -0.9%. Futures: Nasdaq +0.72%, S&P +0.48%."
  ],
- "client_frame_short": "Yesterday brought good news on inflation: the Fed's preferred gauge came in well below forecasts, and markets now see the next rate hike in December rather than October. **Yet the 10-year Treasury yield still rose to its highest close since 2002, which tells you long rates are being driven by more than the Fed.** Stocks dipped slightly, and futures are higher this morning on strong Micron results. Nothing here calls for action; yields near 5% remain an opportunity for idle cash, and Friday's jobs report is the next real test.",
- "client_frame": "If a client calls this morning, lead with the good news, then explain why it did not lower their mortgage rate.\n\nThe good news: inflation cooled more than expected in August. The Fed's preferred measure rose 3.4% from a year ago, against forecasts of 3.7%, and the core measure that strips out food and energy came in at 3.0%. Consumer spending still grew strongly, up 0.9% in the month, and second-quarter growth was revised up to 2.2%, so this is not a weakening economy. Markets responded sensibly: the chance of another Fed rate hike in October fell to about 35%, from about 70% on Monday.\n\nThe puzzle: long-term Treasury yields rose anyway. The 10-year closed at 5.29%, its highest since May 2002, and the 30-year at 5.64%. Short rates follow the Fed and eased. Long rates follow what investors demand to lend for a decade or more, and that is being pushed up by large government deficits, heavy borrowing for AI data centers, rising bond yields abroad, including Japan, and oil back near $100. The 10-year was the trigger we flagged at 5.25%; it is now 5.29%, and it is moving for reasons a softer Fed does not fix.\n\nStocks are absorbing this better than headlines suggest. The S&P 500 slipped 0.25% Wednesday and sits 1.89% below its August 13 record; Micron's strong results, with revenue well ahead of forecasts and AI memory demand described as tight through 2028, have Nasdaq futures up this morning.\n\nFor clients, the practical message is unchanged: high-quality bonds now pay real returns not seen in two decades, which is an opportunity for income and idle cash, and equity portfolios built for the long run do not need changing for a yield move. What would change the view: a 10-year close above 5.40%, a 30-year above 5.75%, or a strong payrolls report Friday that puts October hike odds back above 50%."
+ "client_frame_short": "The bond market finally caught a break: the 10-year Treasury yield touched its highest level since 2002 on Thursday, then fell as buyers stepped in, and short-term yields dropped sharply on softer talk from Fed officials. **Markets now see under a one-in-three chance of an October rate hike.** Stocks edged higher Thursday and futures are up this morning, helped by oil slipping back below $100. Today's jobs report at 8:30 is the real test; a middling number keeps this calm intact, and nothing here calls for portfolio changes.",
+ "client_frame": "If a client calls before the jobs report, the story is a bond market that blinked, in a good way.\n\nWhat happened: on Thursday morning the 10-year Treasury yield touched 5.34%, the highest since 2002. Then buyers stepped in, and it closed at 5.24%. Shorter-term yields fell more, after Fed officials said they wanted more data before raising rates again. Markets now put the chance of an October hike near 30%, down from about 70% a week ago. Stocks edged higher, and futures are up this morning.\n\nWhy it matters: high yields are attracting buyers. That is how bond markets are supposed to work, and it is a useful reminder for clients that 5% yields are an opportunity, not only a threat. A client holding cash or short-term Treasuries can now lock in yields near 5% for a decade, levels most investors have not seen in their careers.\n\nWhat has not changed: inflation is still too high around the world. Europe's inflation rate jumped to 3.8%, Tokyo's beat forecasts, and American factories say their input prices rose sharply in September. Oil is still near $100 with the US sending another carrier to the Gulf. So this is a pause in the bond sell-off, not an all-clear. Nike also warned that its sales will shrink this year, citing weak demand in China and tougher competition, a reminder that not every consumer brand is thriving.\n\nToday's test: economists expect about 90,000 jobs and 4.1% unemployment. A number near that keeps the calm. A strong number would likely push yields and hike odds back up; a weak one would pull them down further, with growth worries attached.\n\nFor clients, the message holds: lock in quality income at these yields, keep equity plans in place, and do not trade the jobs report. What would change the view: a 10-year close above 5.40%, a 30-year above 5.75%, or payrolls strong enough to lift October hike odds back above 50%."
 }

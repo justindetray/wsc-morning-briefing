@@ -1,75 +1,35 @@
 {
- "last_curated": "2026-10-01",
+ "last_curated": "2026-10-02",
  "macro": [
-  {
-   "date": "2026-10-01",
-   "time_et": "8:30 AM",
-   "event": "Initial jobless claims",
-   "consensus": null,
-   "importance": "low",
-   "note": "weekly; DOL"
-  },
-  {
-   "date": "2026-10-01",
-   "time_et": "10:00 AM",
-   "event": "ISM manufacturing PMI (Sep)",
-   "consensus": null,
-   "importance": "medium",
-   "note": "August 54.6"
-  },
-  {
-   "date": "2026-10-01",
-   "time_et": "10:00 AM",
-   "event": "Construction spending (Aug)",
-   "consensus": null,
-   "importance": "low",
-   "note": "Census"
-  },
-  {
-   "date": "2026-10-01",
-   "time_et": "10:00 AM",
-   "event": "Fed Governor Waller, Federal Reserve economic data",
-   "consensus": null,
-   "importance": "medium",
-   "note": "federalreserve.gov calendar"
-  },
-  {
-   "date": "2026-10-01",
-   "time_et": "1:30 PM",
-   "event": "Fed Vice Chair Jefferson, US economy and monetary policy",
-   "consensus": null,
-   "importance": "high",
-   "note": "most senior Board voice of the week"
-  },
-  {
-   "date": "2026-10-01",
-   "time_et": "",
-   "event": "Nike (NKE) and McCormick (MKC) earnings",
-   "consensus": null,
-   "importance": "medium",
-   "note": "per CNBC calendar"
-  },
-  {
-   "date": "2026-10-01",
-   "time_et": "",
-   "event": "Accenture (ACN) fiscal Q4",
-   "consensus": null,
-   "importance": "medium",
-   "note": "company IR confirms Oct 1"
-  },
   {
    "date": "2026-10-02",
    "time_et": "8:30 AM",
    "event": "Employment Situation (Sep)",
-   "consensus": "~85k expected per CNBC/Reuters (Aug 162k); unemployment 4.1% - first payrolls since the Sept 16 hike",
-   "importance": "high"
+   "consensus": null,
+   "importance": "high",
+   "note": "Reuters poll 90k (range 35k-180k; Aug 162k); unemployment 4.1%; AHE +3.2% y/y"
   },
   {
    "date": "2026-10-02",
    "time_et": "10:00 AM",
    "event": "Factory orders full report (Aug)",
-   "consensus": "n/a - Census",
-   "importance": "low"
+   "consensus": null,
+   "importance": "low",
+   "note": "Census"
+  },
+  {
+   "date": "2026-10-05",
+   "time_et": "10:00 AM",
+   "event": "ISM services PMI (Sep)",
+   "consensus": "n/a - August 55.4; ISM release calendar",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-10-07",
+   "time_et": "2:00 PM",
+   "event": "FOMC minutes (Sept 15-16 meeting)",
+   "consensus": "n/a - Federal Reserve Board calendar",
+   "importance": "high"
   }
  ],
  "earnings": []
