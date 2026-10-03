@@ -1,121 +1,121 @@
 {
- "ES": {
-  "value": 7761.0,
-  "prev_close": 7724.0,
-  "delta_pct": 0.479,
-  "label": "E-mini S&P (Dec)",
-  "as_of": "Fri 7:10 AM ET",
-  "status": "LIVE",
-  "source": "finance ESUSD quote ts 2026-10-02 10:54:03 UTC; base = vendor previousClose 7,724 (Thursday CME settle). Overnight range 7,723.25-7,765.75"
+ "SPX": {
+  "value": 7722.72,
+  "prev_close": 7666.45,
+  "delta_pct": 0.734,
+  "label": "S&P 500",
+  "as_of": "Fri 10/2 close",
+  "status": "CLOSED",
+  "source": "Polygon I:SPX daily 2026-10-02 settled close vs 2026-10-01 close"
  },
- "NQ": {
-  "value": 30982.75,
-  "prev_close": 30760.5,
-  "delta_pct": 0.7225,
-  "label": "E-mini Nasdaq (Dec)",
-  "as_of": "Fri 7:10 AM ET",
-  "status": "LIVE",
-  "source": "finance NQUSD quote ts 2026-10-02 10:54:01 UTC; base = vendor previousClose 30,760.50. Overnight range 30,760.25-31,035.50"
+ "NDX": {
+  "value": 30807.93,
+  "prev_close": 30501.56,
+  "delta_pct": 1.0044,
+  "label": "Nasdaq 100",
+  "as_of": "Fri 10/2 close",
+  "status": "CLOSED",
+  "source": "Polygon I:NDX daily 2026-10-02 settled close vs 2026-10-01 close ; RECORD close and high (ath201: close +0.246% / high +0.802% above 9/22 maxima)"
  },
  "SOX": {
-  "value": 12829.0,
-  "prev_close": 12628.62,
-  "delta_pct": 1.5867,
+  "value": 13136.67,
+  "prev_close": 12829.0,
+  "delta_pct": 2.3982,
   "label": "Semis",
-  "as_of": "Thu 10/1 close",
+  "as_of": "Fri 10/2 close",
   "status": "CLOSED",
-  "source": "Polygon I:SOX daily 2026-10-01 settled close vs 2026-09-30 close"
+  "source": "Polygon I:SOX daily 2026-10-02 settled close vs 2026-10-01 close"
  },
  "DJI": {
-  "value": 50926.56,
-  "prev_close": 50906.05,
-  "delta_pct": 0.0403,
+  "value": 51176.96,
+  "prev_close": 50926.56,
+  "delta_pct": 0.4917,
   "label": "Dow",
-  "as_of": "Thu 10/1 close",
+  "as_of": "Fri 10/2 close",
   "status": "CLOSED",
-  "source": "Polygon I:DJI daily 2026-10-01 settled close vs 2026-09-30 close"
+  "source": "Polygon I:DJI daily 2026-10-02 settled close vs 2026-10-01 close"
  },
  "VIX": {
-  "value": 16.39,
-  "prev_close": 16.34,
-  "delta_pct": 0.306,
+  "value": 15.31,
+  "prev_close": 16.39,
+  "delta_pct": -6.5894,
   "label": "VIX",
-  "as_of": "Thu 10/1 close",
+  "as_of": "Fri 10/2 close",
   "status": "CLOSED",
-  "source": "Polygon I:VIX daily 2026-10-01 settled close vs 2026-09-30 close"
+  "source": "Polygon I:VIX daily 2026-10-02 settled close vs 2026-10-01 close ; settled status confirmed by same-day I:VXN twin 21.20"
  },
  "US10Y": {
-  "value": 5.24,
-  "prev_close": 5.29,
-  "delta_pct": -0.9452,
+  "value": 5.28,
+  "prev_close": 5.24,
+  "delta_pct": 0.7634,
   "label": "US 10y",
-  "as_of": "Thu 10/1 close",
+  "as_of": "Fri 10/2 close",
   "status": "CLOSED",
-  "source": "Treasury CMT 10/01/2026 5.24 vs 09/30 5.29 (-5bp); intraday touched 5.3445% (Reuters), a 24-year high, before reversing"
+  "source": "Treasury CMT 10/02/2026 5.28 vs 10/01 5.24 (+4bp); week from 9/25 5.17 (+11bp). Traded near 5.17% right after payrolls, then reversed (investingLive)"
  },
  "US2Y": {
-  "value": 4.78,
-  "prev_close": 4.88,
-  "delta_pct": -2.0492,
+  "value": 4.83,
+  "prev_close": 4.78,
+  "delta_pct": 1.046,
   "label": "US 2y",
-  "as_of": "Thu 10/1 close",
+  "as_of": "Fri 10/2 close",
   "status": "CLOSED",
-  "source": "Treasury CMT 10/01/2026 4.78 vs 09/30 4.88 (-10bp). 2s10s +46bp from +41bp (bull steepening)"
+  "source": "Treasury CMT 10/02/2026 4.83 vs 10/01 4.78 (+5bp). 2s10s +45bp"
  },
  "WTI": {
-  "value": 89.28,
+  "value": 91.11,
   "prev_close": 92.87,
-  "delta_pct": -3.8656,
+  "delta_pct": -1.8951,
   "label": "WTI (Nov)",
-  "as_of": "Fri 7:10 AM ET",
-  "status": "LIVE",
-  "source": "finance CLUSD quote ts 2026-10-02 11:03:56 UTC vs previousClose 92.87 = Thursday Nov settle (CNBC: WTI +2.7% to settle at $92.87; 90.42 x 1.027 = 92.86); same contract both legs (#187-B). Overnight range 88.85-93.30",
+  "as_of": "Fri 10/2 close",
+  "status": "CLOSED",
+  "source": "finance CLUSD 10/2 daily close 91.11 vs 10/1 92.87; matches Reuters/CNBC settle $91.11 (-$1.76, -1.90%). Nov front month both legs (#187-B)",
   "note": "Nov contract"
  },
  "BRENT": {
-  "value": 99.89,
+  "value": 102.25,
   "prev_close": 102.31,
-  "delta_pct": -2.3654,
+  "delta_pct": -0.0586,
   "label": "Brent (Dec)",
-  "as_of": "Fri 7:10 AM ET",
-  "status": "LIVE",
-  "source": "finance BZUSD quote ts 2026-10-02 11:04:04 UTC vs previousClose 102.31 = Thursday Dec close (CNBC: +4.4% to $102.31; 98.03 x 1.044 = 102.34). Dec both legs. AP had Brent 102.13 early Friday; fell during the European morning. Overnight range 98.96-102.91",
+  "as_of": "Fri 10/2 close",
+  "status": "CLOSED",
+  "source": "finance BZUSD 10/2 daily close 102.25 vs 10/1 102.31; matches Reuters/CNBC settle $102.25 (-6 cents). Dec both legs (Nov expired 9/30)",
   "note": "Dec contract"
  },
  "GOLD": {
-  "value": 4210.4,
+  "value": 4162.3,
   "prev_close": 4202.3,
-  "delta_pct": 0.1928,
+  "delta_pct": -0.9519,
   "label": "Gold",
-  "as_of": "Fri 7:10 AM ET",
-  "status": "LIVE",
-  "source": "finance GCUSD quote ts 2026-10-02 10:53:51 UTC vs previousClose 4,202.30 = Thursday settle"
+  "as_of": "Fri 10/2 close",
+  "status": "CLOSED",
+  "source": "finance GCUSD 10/2 daily close vs 10/1 4,202.30 (histories)"
  },
  "BTC": {
-  "value": 86343.76,
-  "prev_close": 84849.93,
-  "delta_pct": 1.7606,
+  "value": 84629.71,
+  "prev_close": 84506.34,
+  "delta_pct": 0.146,
   "label": "Bitcoin",
-  "as_of": "Fri 7:10 AM ET",
+  "as_of": "Sat 7:08 AM ET",
   "status": "LIVE",
-  "source": "finance BTCUSD live quote ts 2026-10-02 11:04:04 UTC; base = vendor previousClose 84,849.93, corroborated by Polygon X:BTCUSD 10/1 UTC daily close 84,848.73 (0.001%). Polygon live snapshot NOT_AUTHORIZED"
+  "source": "finance BTCUSD live quote ts 2026-10-03 11:08:53 UTC (market_status=open); base = vendor previousClose 84,506.34, corroborated by Polygon X:BTCUSD 10/2 UTC daily close 84,504.88 (0.002%). Polygon live snapshot NOT_AUTHORIZED"
  },
  "EURJPY": {
-  "value": 177.16,
+  "value": 177.94,
   "prev_close": 177.648,
-  "delta_pct": -0.2747,
+  "delta_pct": 0.1644,
   "label": "EUR/JPY",
-  "as_of": "Fri 7:10 AM ET",
-  "status": "LIVE",
-  "source": "finance EURJPY quote ts 2026-10-02 11:01:21 UTC vs Polygon C:EURJPY Thu 10/1 settled close 177.648 (#188-A); vendor previousClose 177.64"
+  "as_of": "Fri 10/2 close",
+  "status": "CLOSED",
+  "source": "Polygon C:EURJPY settled daily 10/2 close 177.94 vs 10/1 177.648 (#188-A)"
  },
  "AUDJPY": {
-  "value": 109.32,
+  "value": 109.79,
   "prev_close": 109.414,
-  "delta_pct": -0.0859,
+  "delta_pct": 0.3436,
   "label": "AUD/JPY",
-  "as_of": "Fri 7:10 AM ET",
-  "status": "LIVE",
-  "source": "finance AUDJPY quote ts 2026-10-02 11:04:06 UTC vs Polygon C:AUDJPY Thu 10/1 settled close 109.414 (#188-A); vendor previousClose 109.53 not used"
+  "as_of": "Fri 10/2 close",
+  "status": "CLOSED",
+  "source": "Polygon C:AUDJPY settled daily 10/2 close 109.79 vs 10/1 109.414 (#188-A)"
  }
 }

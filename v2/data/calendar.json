@@ -1,21 +1,12 @@
 {
- "last_curated": "2026-10-02",
+ "last_curated": "2026-10-03",
  "macro": [
   {
-   "date": "2026-10-02",
-   "time_et": "8:30 AM",
-   "event": "Employment Situation (Sep)",
-   "consensus": null,
-   "importance": "high",
-   "note": "Reuters poll 90k (range 35k-180k; Aug 162k); unemployment 4.1%; AHE +3.2% y/y"
-  },
-  {
-   "date": "2026-10-02",
-   "time_et": "10:00 AM",
-   "event": "Factory orders full report (Aug)",
-   "consensus": null,
-   "importance": "low",
-   "note": "Census"
+   "date": "2026-10-05",
+   "time_et": "9:45 AM",
+   "event": "S&P Global services PMI final (Sep)",
+   "consensus": "n/a - per CNBC calendar",
+   "importance": "low"
   },
   {
    "date": "2026-10-05",
@@ -25,11 +16,67 @@
    "importance": "medium"
   },
   {
+   "date": "2026-10-06",
+   "time_et": "8:15 AM",
+   "event": "ADP weekly employment change",
+   "consensus": "n/a - per CNBC calendar",
+   "importance": "low"
+  },
+  {
+   "date": "2026-10-06",
+   "time_et": "",
+   "event": "Constellation Brands (STZ) earnings",
+   "consensus": "n/a - per CNBC calendar",
+   "importance": "low"
+  },
+  {
    "date": "2026-10-07",
    "time_et": "2:00 PM",
    "event": "FOMC minutes (Sept 15-16 meeting)",
    "consensus": "n/a - Federal Reserve Board calendar",
    "importance": "high"
+  },
+  {
+   "date": "2026-10-07",
+   "time_et": "3:00 PM",
+   "event": "Consumer credit (Aug)",
+   "consensus": "n/a - per CNBC calendar",
+   "importance": "low"
+  },
+  {
+   "date": "2026-10-08",
+   "time_et": "8:30 AM",
+   "event": "Initial jobless claims",
+   "consensus": "n/a - weekly",
+   "importance": "low"
+  },
+  {
+   "date": "2026-10-08",
+   "time_et": "10:00 AM",
+   "event": "Wholesale inventories (Aug)",
+   "consensus": "n/a - per CNBC calendar",
+   "importance": "low"
+  },
+  {
+   "date": "2026-10-08",
+   "time_et": "",
+   "event": "PepsiCo (PEP) earnings",
+   "consensus": "n/a - per CNBC calendar",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-10-09",
+   "time_et": "10:00 AM",
+   "event": "UMich consumer sentiment, preliminary (Oct)",
+   "consensus": "n/a - per CNBC calendar",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-10-09",
+   "time_et": "",
+   "event": "Delta Air Lines (DAL) earnings",
+   "consensus": "n/a - per CNBC calendar",
+   "importance": "medium"
   }
  ],
  "earnings": []
