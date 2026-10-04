@@ -15,7 +15,7 @@
   "label": "Nasdaq 100",
   "as_of": "Fri 10/2 close",
   "status": "CLOSED",
-  "source": "Polygon I:NDX daily 2026-10-02 settled close vs 2026-10-01 close ; RECORD close and high (ath201: close +0.246% / high +0.802% above 9/22 maxima)"
+  "source": "Polygon I:NDX daily 2026-10-02 settled close vs 2026-10-01 close ; RECORD close and high (ath202: close +0.246% / high +0.802% above 9/22 maxima)"
  },
  "SOX": {
   "value": 13136.67,
@@ -92,13 +92,13 @@
   "source": "finance GCUSD 10/2 daily close vs 10/1 4,202.30 (histories)"
  },
  "BTC": {
-  "value": 84629.71,
-  "prev_close": 84506.34,
-  "delta_pct": 0.146,
+  "value": 85217.27,
+  "prev_close": 84742.47,
+  "delta_pct": 0.5603,
   "label": "Bitcoin",
-  "as_of": "Sat 7:08 AM ET",
+  "as_of": "Sun 7:06 AM ET",
   "status": "LIVE",
-  "source": "finance BTCUSD live quote ts 2026-10-03 11:08:53 UTC (market_status=open); base = vendor previousClose 84,506.34, corroborated by Polygon X:BTCUSD 10/2 UTC daily close 84,504.88 (0.002%). Polygon live snapshot NOT_AUTHORIZED"
+  "source": "finance BTCUSD live quote ts 2026-10-04 11:06:48 UTC (market_status=open); base = vendor previousClose 84,742.47, corroborated by Polygon X:BTCUSD 10/3 UTC daily close 84,742.22 (0.0003%). Polygon live snapshot NOT_AUTHORIZED"
  },
  "EURJPY": {
   "value": 177.94,
