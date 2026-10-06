@@ -1,56 +1,60 @@
 {
- "window": "Friday 2026-10-02 close -> Monday 2026-10-05 7:09 AM ET",
- "lede": "Futures flat after Friday's Nasdaq 100 record; no Iran deal, but oil holds near $102; Nikkei tops 70,000.",
+ "window": "Monday 2026-10-05 close -> Tuesday 2026-10-06 7:05 AM ET",
+ "lede": "Nasdaq 100 sets another record as the 10-year closes at 5.31%, highest since 2002; Brent slips below $100.",
  "asia_close": [
   {
-   "market": "Nikkei 225 (morning)",
-   "delta_pct": 2.5,
-   "level": 70037.61
+   "market": "Nikkei 225",
+   "delta_pct": 1.1,
+   "level": 70683.98
   },
   {
-   "market": "Hang Seng (morning)",
-   "delta_pct": 0.0,
-   "level": 23971.55
+   "market": "Hang Seng",
+   "delta_pct": 0.8,
+   "level": 24221.54
   },
   {
-   "market": "ASX 200 (morning)",
-   "delta_pct": 0.1,
-   "level": 8691.9
+   "market": "Kospi",
+   "delta_pct": -0.9,
+   "level": 6941.39
+  },
+  {
+   "market": "ASX 200",
+   "delta_pct": 0.6,
+   "level": 8735.7
   }
  ],
  "europe_open": [
   {
-   "market": "DAX (open)",
-   "delta_pct": 0.06,
-   "level": null
-  },
-  {
-   "market": "FTSE 100 (open)",
-   "delta_pct": 0.14,
-   "level": null
-  },
-  {
-   "market": "CAC 40",
-   "delta_pct": -0.9,
-   "level": null
+   "market": "FTSE 100 (early)",
+   "delta_pct": 0.5,
+   "level": 10552.18
   }
  ],
  "single_name_moves": [
   {
-   "ticker": "SU FP (Schneider Electric)",
-   "delta_pct": -9.1,
-   "venue": "Paris, after agreeing to buy PTC (Reuters)"
+   "ticker": "NVDA",
+   "delta_pct": 2.1,
+   "venue": "Mon close (AP)"
+  },
+  {
+   "ticker": "PTC",
+   "delta_pct": 36.0,
+   "venue": "Mon close, approx., Schneider Electric $205/share cash deal (CNBC)"
+  },
+  {
+   "ticker": "CHRW",
+   "delta_pct": -12.0,
+   "venue": "Mon close, approx., after $5.8B RXO deal (CNBC)"
   }
  ],
  "geo_headlines": [
-  "FUTURES ARE FLAT AFTER FRIDAY'S NASDAQ 100 RECORD. S&P 500 futures are 7,770.50 (-0.09%) and Nasdaq 100 futures 31,021.25 (-0.13%) as of 6:59 AM ET. Friday the Nasdaq 100 closed at 30,807.93, above its September 22 record; the S&P 500 closed at 7,722.72, 0.98% below its August 13 record.",
-  "OIL IS PULLED BOTH WAYS. Brent December is $102.69 (+0.4%) and WTI November $90.52 (-0.6%). Brent fell to $101.59 early as Middle East exports recovered and the G7 reserve release took hold (Independent). It firmed after Yemen's Houthis said they launched missiles and drones at Saudi Aramco sites in Riyadh and Khurais (Reuters). **OPEC+ kept November output targets steady on Sunday; its core members are still pumping about 5 million barrels a day below prewar levels (Reuters).**",
-  "IRAN: NO DEAL OVER THE WEEKEND. Parliament speaker Qalibaf said Sunday the Strait of Hormuz will not reopen until seven conditions from the June interim agreement are met; Foreign Minister Araghchi said Iran's plan could reopen it within seven days if accepted (Reuters). Trump said Saturday Iran faces \"the easy way or the hard way\" (Iran International).",
-  "ASIA ROSE; THE NIKKEI TOPPED 70,000. The Nikkei jumped 2.5% in morning trading to 70,037.61, its first time above 70,000 in three months; Hong Kong was unchanged and Australia rose 0.1% (AP). Mainland China and South Korea were closed for holidays.",
-  "FRANCE IS WEIGHING ON THE EURO. The euro hit a 17-month low on French fiscal worries and political uncertainty (Bloomberg, via investingLive); EUR/JPY is 176.88 (-0.6%). France's CAC 40 fell 0.9%, with Schneider Electric down 9.1% after agreeing to buy PTC (Reuters). Germany's DAX and the FTSE 100 opened slightly higher (QNA).",
-  "YIELDS EASED OVERNIGHT. The 10-year was 5.26% and the 2-year 4.81% in Asian trading (Reuters), after Friday's Treasury closes of 5.28% and 4.83%. FedWatch still shows a 21.0% chance of an October hike and 85.0% for December, as of Friday's CME close. Gold is $4,191.50 (+0.7%).",
-  "TODAY: SERVICES DATA. S&P Global services PMI final at 9:45 and ISM services at 10:00 (August 55.4). This week: FOMC minutes Wednesday at 2:00 PM, jobless claims Thursday, Michigan sentiment Friday; Constellation Brands Tuesday, PepsiCo Thursday, Delta Friday (CNBC calendar)."
+  "THE NASDAQ 100 SET ANOTHER RECORD; THE 10-YEAR HIT ITS HIGHEST CLOSE SINCE 2002. The Nasdaq 100 rose 0.87% Monday to 31,076.44, above Friday's record on both the close and the intraday high, and the Nasdaq Composite closed at a record 27,477.31 (+1.05%), led by Nvidia (+2.1%). The S&P 500 rose 0.66% to 7,773.95, 0.32% below its August 13 record. **The 10-year Treasury closed at 5.31%, its highest close since May 2002, after trading above 5.35% intraday.**",
+  "OIL SLIPPED BELOW $100. Brent December is $98.31 (-2.0%) and WTI November $87.75 (-1.9%), after Monday settles of $100.32 and $89.43. Saudi Aramco cut its November Arab Light price for Asia to $5 below the benchmark, a six-year low (Rigzone, citing Bloomberg), and Middle East exports outside Iran passed prewar levels last week (AFP). Aramco's CEO warned the supply cushion is \"scarily thin.\"",
+  "IRAN: TRUMP SAYS THE WAR IS 'ESSENTIALLY ALMOST OVER'. Trump called higher gas prices \"a small price to pay\" (Iran International). Iran's President Pezeshkian called talks with the US meaningless. A tanker was struck in the Strait of Hormuz Monday after two were hit Sunday (UKMTO). The US moved B-1 bombers from RAF Fairford over a suspected Iranian drone threat (Wall Street Journal, via the Independent).",
+  "SERVICES COOLED, BUT PRICES DID NOT. ISM services slipped to 54.9 from 55.4, about in line with forecasts; prices paid rose to 74.0, the highest since 2022 (TheStreet). FedWatch now puts an October hike at 23.2%, from 21.0% Friday; December 85.2%.",
+  "FUTURES UP, ASIA MOSTLY HIGHER. S&P 500 futures 7,850 (+0.30%) and Nasdaq 100 futures 31,451.50 (+0.43%) as of 6:55 AM ET. The Nikkei closed up 1.1% at 70,683.98 and Hong Kong rose 0.8%; Seoul fell 0.9% (AP, AFP). London, Paris and Frankfurt opened higher, with the FTSE 100 up 0.5% (AFP). Gold $4,188.10 (+0.8%).",
+  "TODAY: TRADE DATA AND THREE FED SPEAKERS. August trade balance at 8:30 (BEA). New York Fed President Williams at 9:05, Vice Chair for Supervision Bowman at 10:45 and Kansas City Fed President Schmid at 1:15. Constellation Brands reports. FOMC minutes Wednesday at 2:00 PM."
  ],
- "client_frame_short": "Markets start the week calm. Futures are flat after the Nasdaq 100 closed at a record on Friday, and Asian stocks rose, with Japan's Nikkei above 70,000. **The weekend brought no deal with Iran, but oil is holding near $102 because Gulf exports are recovering and governments are releasing reserves.** Treasury yields eased a little overnight, and an October Fed hike now looks unlikely after Friday's weak jobs report. For clients, nothing here calls for changes; the tests this week are the services data this morning and the Fed minutes on Wednesday.",
- "client_frame": "If a client calls this morning, the story is a quiet start after a big week.\n\nWhere we are: Friday's jobs report showed just 29,000 jobs added in September, and unemployment rose to 4.2%. Markets read that as a cooling economy, which takes pressure off the Fed. The odds of an October rate hike fell to about one in five. The Nasdaq 100 closed at a record. The S&P 500 is within 1% of its August record.\n\nThe weekend: Iran said the Strait of Hormuz stays closed until its conditions are met, and President Trump said he has a decision to make. That sounds alarming, but oil barely moved. Gulf exports have been recovering toward prewar levels, the G7 is releasing 100 million barrels of reserves, and OPEC+ left its targets unchanged. Brent is about $102.70, up less than half a percent from Friday.\n\nThe bond market: the 10-year Treasury yield is about 5.26%, just below Friday's close. Long-term rates remain the main pressure point for clients, mortgages and valuations. They stayed high even after a weak jobs report, because inflation and heavy government borrowing drive them more than hiring does.\n\nOverseas: Japan's stock market topped 70,000 for the first time since July. In Europe, worries about France's budget pushed the euro to its lowest level in 17 months, a reminder that high government debt is a global theme, not just an American one.\n\nThis week: the services surveys this morning show whether the slowdown is spreading beyond hiring. The Fed minutes on Wednesday show how many officials wanted to keep raising rates.\n\nFor clients, the message holds: high-quality bonds now pay about 5% for a decade, an opportunity to lock in income, and long-term equity plans do not need changing. What would change the view: a 10-year close above 5.40%, a 30-year above 5.75%, or a resumption of US strikes on Iran that sends Brent well above $105."
+ "client_frame_short": "Two things are true at once. Stocks keep climbing: the Nasdaq 100 set another record Monday and futures are up again this morning. **But the 10-year Treasury yield closed at 5.31%, its highest close since 2002, so borrowing costs keep rising even as stocks rally.** Oil is helping, now back below $100 as Gulf exports recover. For clients, this is the trade-off of a strong economy with sticky inflation: stocks are earning their keep, and bonds now pay more than they have in a generation. Nothing here calls for changes; the next test is the Fed minutes Wednesday.",
+ "client_frame": "If a client calls this morning, the story is stocks and bonds telling different stories.\n\nStocks: the Nasdaq 100 closed at a record Monday for the second straight session, led by chip and AI companies. The S&P 500 is within half a percent of its August record. Futures are up again this morning.\n\nBonds: the 10-year Treasury yield closed at 5.31%, the highest since May 2002. Long rates are rising faster than short ones. That pattern usually means investors want more pay to hold long bonds, because of inflation and heavy government borrowing, not because they expect the Fed to keep raising rates. Fed hike odds for October are still only about one in four.\n\nInflation: the service sector kept growing in September, but the prices businesses pay rose to their highest level since 2022. That is why yields have not fallen even after a weak jobs report.\n\nOil: Brent fell back below $100. Saudi Arabia cut its prices to Asian buyers, and Gulf exports are recovering toward prewar levels. President Trump said the Iran war is \"essentially almost over,\" though Iran's president called talks meaningless and tankers are still being hit.\n\nWhy it matters: higher long rates raise mortgage costs and make bonds more competitive with stocks. So far, earnings optimism around AI has outweighed that pressure, but it leaves less room for disappointment.\n\nThis week: three Fed officials speak today, the minutes of the September meeting come out Wednesday, and consumer sentiment arrives Friday.\n\nFor clients, the message holds: high-quality bonds pay more than 5% for a decade, an opportunity to lock in income, and long-term equity plans do not need changing. What would change the view: a 10-year close above 5.40% (now 5.31%), a 30-year above 5.75% (now 5.66%), or a resumption of US strikes on Iran that sends Brent well above $105."
 }

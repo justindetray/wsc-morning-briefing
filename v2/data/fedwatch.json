@@ -2,54 +2,54 @@
  "meetings": [
   {
    "meetingDt": "2026-10-28",
-   "reportingDt": "2026-10-02",
-   "hold": 0.789643,
-   "hike_25": 0.210357,
+   "reportingDt": "2026-10-05",
+   "hold": 0.7675,
+   "hike_25": 0.2325,
    "hike_50": 0.0,
    "hike_75": 0.0,
    "hike_100": 0.0,
-   "cumulative_hike": 0.210357
+   "cumulative_hike": 0.2325
   },
   {
    "meetingDt": "2026-12-09",
-   "reportingDt": "2026-10-02",
-   "hold": 0.150325,
-   "hike_25": 0.679364,
-   "hike_50": 0.170311,
+   "reportingDt": "2026-10-05",
+   "hold": 0.148383,
+   "hike_25": 0.664067,
+   "hike_50": 0.18755,
    "hike_75": 0.0,
    "hike_100": 0.0,
-   "cumulative_hike": 0.849675
+   "cumulative_hike": 0.851617
   },
   {
    "meetingDt": "2027-01-27",
-   "reportingDt": "2026-10-02",
-   "hold": 0.091642,
-   "hike_25": 0.472843,
-   "hike_50": 0.36903,
-   "hike_75": 0.066485,
+   "reportingDt": "2026-10-05",
+   "hold": 0.087052,
+   "hike_25": 0.450918,
+   "hike_50": 0.38451,
+   "hike_75": 0.077521,
    "hike_100": 0.0,
-   "cumulative_hike": 0.9083580000000001
+   "cumulative_hike": 0.912949
   },
   {
    "meetingDt": "2027-03-17",
-   "reportingDt": "2026-10-02",
-   "hold": 0.024482,
-   "hike_25": 0.193477,
-   "hike_50": 0.44511,
-   "hike_75": 0.288207,
-   "hike_100": 0.048724,
-   "cumulative_hike": 0.975518
+   "reportingDt": "2026-10-05",
+   "hold": 0.026862,
+   "hike_25": 0.19933,
+   "hike_50": 0.430426,
+   "hike_75": 0.289782,
+   "hike_100": 0.0536,
+   "cumulative_hike": 0.973138
   },
   {
    "meetingDt": "2027-04-28",
-   "reportingDt": "2026-10-02",
-   "hold": 0.014514,
-   "hike_25": 0.124672,
-   "hike_50": 0.34266,
-   "hike_75": 0.352089,
-   "hike_100": 0.146228,
-   "hike_125": 0.019837,
-   "cumulative_hike": 0.985486
+   "reportingDt": "2026-10-05",
+   "hold": 0.015349,
+   "hike_25": 0.125415,
+   "hike_50": 0.331385,
+   "hike_75": 0.350058,
+   "hike_100": 0.154821,
+   "hike_125": 0.022971,
+   "cumulative_hike": 0.9846499999999999
   }
  ],
  "status": "LIVE"
