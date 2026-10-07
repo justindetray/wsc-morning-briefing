@@ -1,60 +1,55 @@
 {
- "window": "Monday 2026-10-05 close -> Tuesday 2026-10-06 7:05 AM ET",
- "lede": "Nasdaq 100 sets another record as the 10-year closes at 5.31%, highest since 2002; Brent slips below $100.",
+ "window": "Tuesday 2026-10-06 close -> Wednesday 2026-10-07 7:05 AM ET",
+ "lede": "S&P 500 joins the Nasdaqs at a record; oil back above $101 on Houthi attacks; Fed minutes at 2:00.",
  "asia_close": [
   {
    "market": "Nikkei 225",
-   "delta_pct": 1.1,
-   "level": 70683.98
+   "delta_pct": -0.9,
+   "level": 70284.81
   },
   {
    "market": "Hang Seng",
-   "delta_pct": 0.8,
-   "level": 24221.54
+   "delta_pct": -0.6,
+   "level": 24129.96
   },
   {
    "market": "Kospi",
    "delta_pct": -0.9,
-   "level": 6941.39
+   "level": 6876.76
   },
   {
    "market": "ASX 200",
-   "delta_pct": 0.6,
-   "level": 8735.7
+   "delta_pct": 0.1,
+   "level": 8740.1
   }
  ],
- "europe_open": [
-  {
-   "market": "FTSE 100 (early)",
-   "delta_pct": 0.5,
-   "level": 10552.18
-  }
- ],
+ "europe_open": [],
  "single_name_moves": [
   {
-   "ticker": "NVDA",
-   "delta_pct": 2.1,
-   "venue": "Mon close (AP)"
+   "ticker": "CEG",
+   "delta_pct": 12.3,
+   "venue": "Tue close, Alphabet 3,590 MW power deal (Reuters)"
   },
   {
-   "ticker": "PTC",
-   "delta_pct": 36.0,
-   "venue": "Mon close, approx., Schneider Electric $205/share cash deal (CNBC)"
+   "ticker": "MRVL",
+   "delta_pct": 5.8,
+   "venue": "Tue close, raised 2028 revenue forecast (Reuters)"
   },
   {
-   "ticker": "CHRW",
-   "delta_pct": -12.0,
-   "venue": "Mon close, approx., after $5.8B RXO deal (CNBC)"
+   "ticker": "AMD",
+   "delta_pct": 2.8,
+   "venue": "Tue close, plans to boost 2027 chip supply (Reuters)"
   }
  ],
  "geo_headlines": [
-  "THE NASDAQ 100 SET ANOTHER RECORD; THE 10-YEAR HIT ITS HIGHEST CLOSE SINCE 2002. The Nasdaq 100 rose 0.87% Monday to 31,076.44, above Friday's record on both the close and the intraday high, and the Nasdaq Composite closed at a record 27,477.31 (+1.05%), led by Nvidia (+2.1%). The S&P 500 rose 0.66% to 7,773.95, 0.32% below its August 13 record. **The 10-year Treasury closed at 5.31%, its highest close since May 2002, after trading above 5.35% intraday.**",
-  "OIL SLIPPED BELOW $100. Brent December is $98.31 (-2.0%) and WTI November $87.75 (-1.9%), after Monday settles of $100.32 and $89.43. Saudi Aramco cut its November Arab Light price for Asia to $5 below the benchmark, a six-year low (Rigzone, citing Bloomberg), and Middle East exports outside Iran passed prewar levels last week (AFP). Aramco's CEO warned the supply cushion is \"scarily thin.\"",
-  "IRAN: TRUMP SAYS THE WAR IS 'ESSENTIALLY ALMOST OVER'. Trump called higher gas prices \"a small price to pay\" (Iran International). Iran's President Pezeshkian called talks with the US meaningless. A tanker was struck in the Strait of Hormuz Monday after two were hit Sunday (UKMTO). The US moved B-1 bombers from RAF Fairford over a suspected Iranian drone threat (Wall Street Journal, via the Independent).",
-  "SERVICES COOLED, BUT PRICES DID NOT. ISM services slipped to 54.9 from 55.4, about in line with forecasts; prices paid rose to 74.0, the highest since 2022 (TheStreet). FedWatch now puts an October hike at 23.2%, from 21.0% Friday; December 85.2%.",
-  "FUTURES UP, ASIA MOSTLY HIGHER. S&P 500 futures 7,850 (+0.30%) and Nasdaq 100 futures 31,451.50 (+0.43%) as of 6:55 AM ET. The Nikkei closed up 1.1% at 70,683.98 and Hong Kong rose 0.8%; Seoul fell 0.9% (AP, AFP). London, Paris and Frankfurt opened higher, with the FTSE 100 up 0.5% (AFP). Gold $4,188.10 (+0.8%).",
-  "TODAY: TRADE DATA AND THREE FED SPEAKERS. August trade balance at 8:30 (BEA). New York Fed President Williams at 9:05, Vice Chair for Supervision Bowman at 10:45 and Kansas City Fed President Schmid at 1:15. Constellation Brands reports. FOMC minutes Wednesday at 2:00 PM."
+  "THREE RECORDS: THE S&P 500 JOINED THE NASDAQS. The S&P 500 rose 0.58% Tuesday to 7,818.93, above its August 13 record on both the close and the intraday high, its first record close in two months. The Nasdaq 100 rose 0.48% to 31,224.69 and the Nasdaq Composite 0.45% to 27,599.89, both records again; the Dow rose 0.49% but is 5.2% below its August record (Reuters, AP). **Analysts expect S&P 500 third-quarter earnings growth of about 30% (LSEG), and that is what stocks are pricing.**",
+  "YIELDS EASED, THEN FIRMED. The 10-year closed at 5.27% (-4bp) and the 2-year at 4.79% (-5bp) on Treasury's curve, then rose back to 5.3% in Asia ahead of today's $39 billion 10-year auction and Thursday's 30-year (Reuters). FedWatch: an October hike at 21.0%, from 23.2%; December 84.7%.",
+  "OIL ROSE ON HOUTHI ATTACKS AND A GULF STORM. Brent December is $101.68 (+1.1%) and WTI November $89.81 (+0.4%). Tuesday's early slide reversed: Brent fell as much as 3.3% before settling at $100.58 (Saxo, CommodityScope). Overnight, the Houthis hit two Saudi airports (CNBC) and a storm is heading for the Gulf of Mexico (Reuters).",
+  "IRAN: TALKS STILL STALLED. Secretary of State Rubio said Iran has passed up \"multiple\" chances for a nuclear deal; Vice President Vance said any agreement needs a \"meaningful\" cut in enrichment. Iran has stepped up attacks on tankers, which now rely on US military escorts (CNBC).",
+  "FUTURES SLIP; ASIA LOWER; BITCOIN DOWN 2%. S&P 500 futures 7,853.25 (-0.26%), Nasdaq 100 futures 31,304.75 (-0.57%) as of 6:55 AM ET. The Nikkei fell 0.9%, Hong Kong 0.6% and Seoul 0.9% (AP). Bitcoin is $83,738 (-2.1%) after about $487 million of leveraged positions were liquidated (Coinomist). Gold $4,143.60 (-1.0%).",
+  "TRADE GAP WIDEST SINCE MARCH 2025. The August deficit widened to $105.6 billion, against $102.0 billion expected, as imports hit a record $420.8 billion (Reuters, BEA). Capital-goods imports rose 4.4%, a sign of AI investment (Reuters).",
+  "TODAY: FED MINUTES AT 2:00 PM. Minutes of the September 15-16 meeting, when the Fed raised rates to 3.75%-4.00%. Also: EIA oil inventories, the 10-year auction and consumer credit at 3:00 PM. Dallas Fed President Logan speaks."
  ],
- "client_frame_short": "Two things are true at once. Stocks keep climbing: the Nasdaq 100 set another record Monday and futures are up again this morning. **But the 10-year Treasury yield closed at 5.31%, its highest close since 2002, so borrowing costs keep rising even as stocks rally.** Oil is helping, now back below $100 as Gulf exports recover. For clients, this is the trade-off of a strong economy with sticky inflation: stocks are earning their keep, and bonds now pay more than they have in a generation. Nothing here calls for changes; the next test is the Fed minutes Wednesday.",
- "client_frame": "If a client calls this morning, the story is stocks and bonds telling different stories.\n\nStocks: the Nasdaq 100 closed at a record Monday for the second straight session, led by chip and AI companies. The S&P 500 is within half a percent of its August record. Futures are up again this morning.\n\nBonds: the 10-year Treasury yield closed at 5.31%, the highest since May 2002. Long rates are rising faster than short ones. That pattern usually means investors want more pay to hold long bonds, because of inflation and heavy government borrowing, not because they expect the Fed to keep raising rates. Fed hike odds for October are still only about one in four.\n\nInflation: the service sector kept growing in September, but the prices businesses pay rose to their highest level since 2022. That is why yields have not fallen even after a weak jobs report.\n\nOil: Brent fell back below $100. Saudi Arabia cut its prices to Asian buyers, and Gulf exports are recovering toward prewar levels. President Trump said the Iran war is \"essentially almost over,\" though Iran's president called talks meaningless and tankers are still being hit.\n\nWhy it matters: higher long rates raise mortgage costs and make bonds more competitive with stocks. So far, earnings optimism around AI has outweighed that pressure, but it leaves less room for disappointment.\n\nThis week: three Fed officials speak today, the minutes of the September meeting come out Wednesday, and consumer sentiment arrives Friday.\n\nFor clients, the message holds: high-quality bonds pay more than 5% for a decade, an opportunity to lock in income, and long-term equity plans do not need changing. What would change the view: a 10-year close above 5.40% (now 5.31%), a 30-year above 5.75% (now 5.66%), or a resumption of US strikes on Iran that sends Brent well above $105."
+ "client_frame_short": "Stocks are at records across the board. The S&P 500 closed at its first record in two months on Tuesday, joining the Nasdaq. **The bet is on earnings: analysts expect third-quarter profits up about 30%, led by AI and energy.** Long-term Treasury yields eased a little from their 2002 highs but are still above 5.25%, so bonds remain the competition. Futures are slightly lower this morning, and oil is back above $100 after attacks on Saudi Arabia. For clients, nothing here calls for changes; today's tests are the Fed minutes at 2:00 and the 10-year auction.",
+ "client_frame": "If a client calls this morning, the story is records, and what they rest on.\n\nStocks: the S&P 500 closed at a record Tuesday, its first since August 13, and both Nasdaq indexes set records again. The rally rests on earnings: analysts expect S&P 500 profits to grow about 30% from a year earlier in the third quarter, and results start next week with the big banks. Records on earnings growth are healthier than records on hope alone.\n\nBonds: the 10-year Treasury yield eased to 5.27% Tuesday from 5.31%, its highest close since 2002. It drifted back toward 5.3% overnight ahead of today's auction. The auctions this week show how much demand there is for US debt at these levels.\n\nOil: Brent fell below $98 Tuesday morning, settled at $100.58, and is above $101 this morning. Gulf exports are recovering, but Houthi attacks on Saudi Arabia and a storm heading for the Gulf of Mexico keep supply risk alive. Iran talks remain stuck.\n\nGrowth: the trade deficit widened to $105.6 billion in August as imports hit a record, including a 4.4% jump in capital goods. That is AI spending showing up in the data. It is a sign of strong demand, though it subtracts from GDP.\n\nThe Fed: markets put October hike odds near one in five. Vice Chair Jefferson has said another hike can wait. Today's minutes show how many officials wanted to keep raising rates.\n\nWhy it matters: when stocks hit records while bonds pay over 5%, the bar for future returns rises. That is a reason for rebalancing discipline, not for selling.\n\nFor clients, the message holds: high-quality bonds pay more than 5% for a decade, an opportunity to lock in income, and long-term equity plans do not need changing. What would change the view: a 10-year close above 5.40% (now 5.27%), a 30-year above 5.75% (now 5.64%), or a resumption of US strikes on Iran that sends Brent well above $105."
 }

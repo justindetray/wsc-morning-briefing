@@ -1,47 +1,19 @@
 {
- "last_curated": "2026-10-06",
+ "last_curated": "2026-10-07",
  "macro": [
   {
-   "date": "2026-10-06",
-   "time_et": "8:15 AM",
-   "event": "ADP weekly employment change",
-   "consensus": "n/a - per CNBC calendar",
-   "importance": "low"
-  },
-  {
-   "date": "2026-10-06",
-   "time_et": "8:30 AM",
-   "event": "International trade in goods and services (Aug)",
-   "consensus": "n/a - BEA release schedule; July -$88.6B",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-06",
-   "time_et": "9:05 AM",
-   "event": "NY Fed President Williams speaks",
-   "consensus": "n/a - per ZeroHedge week-ahead (FOMC voter)",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-06",
-   "time_et": "10:45 AM",
-   "event": "Fed Vice Chair for Supervision Bowman speaks (St. Louis Fed)",
-   "consensus": "n/a - Federal Reserve Board schedule",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-06",
-   "time_et": "1:15 PM",
-   "event": "Kansas City Fed President Schmid speaks",
-   "consensus": "n/a - per ZeroHedge week-ahead",
-   "importance": "low"
-  },
-  {
-   "date": "2026-10-06",
+   "date": "2026-10-07",
    "time_et": "",
-   "event": "Constellation Brands (STZ) earnings",
-   "consensus": "n/a - per CNBC calendar",
+   "event": "EIA weekly petroleum status report",
+   "consensus": "n/a - weekly (EIA)",
    "importance": "low"
+  },
+  {
+   "date": "2026-10-07",
+   "time_et": "",
+   "event": "$39B 10-year note reopening auction",
+   "consensus": "n/a - per Reuters / ZeroHedge",
+   "importance": "medium"
   },
   {
    "date": "2026-10-07",
@@ -58,6 +30,13 @@
    "importance": "low"
   },
   {
+   "date": "2026-10-07",
+   "time_et": "",
+   "event": "Dallas Fed President Logan speaks",
+   "consensus": "n/a - per ZeroHedge week-ahead; time not listed",
+   "importance": "low"
+  },
+  {
    "date": "2026-10-08",
    "time_et": "8:30 AM",
    "event": "Initial jobless claims",
@@ -70,6 +49,13 @@
    "event": "Wholesale inventories (Aug)",
    "consensus": "n/a - per CNBC calendar",
    "importance": "low"
+  },
+  {
+   "date": "2026-10-08",
+   "time_et": "",
+   "event": "30-year bond auction",
+   "consensus": "n/a - per Reuters",
+   "importance": "medium"
   },
   {
    "date": "2026-10-08",
