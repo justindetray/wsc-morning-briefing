@@ -1,55 +1,28 @@
 {
- "window": "Tuesday 2026-10-06 close -> Wednesday 2026-10-07 7:05 AM ET",
- "lede": "S&P 500 joins the Nasdaqs at a record; oil back above $101 on Houthi attacks; Fed minutes at 2:00.",
- "asia_close": [
-  {
-   "market": "Nikkei 225",
-   "delta_pct": -0.9,
-   "level": 70284.81
-  },
-  {
-   "market": "Hang Seng",
-   "delta_pct": -0.6,
-   "level": 24129.96
-  },
-  {
-   "market": "Kospi",
-   "delta_pct": -0.9,
-   "level": 6876.76
-  },
-  {
-   "market": "ASX 200",
-   "delta_pct": 0.1,
-   "level": 8740.1
-  }
- ],
+ "window": "Wednesday 2026-10-07 close -> Thursday 2026-10-08 7:05 AM ET",
+ "lede": "Oil up 5% on Hurricane Isaias, Hormuz attacks and Iran strike-option reports; Fed minutes lean to another hike.",
+ "asia_close": [],
  "europe_open": [],
  "single_name_moves": [
   {
-   "ticker": "CEG",
-   "delta_pct": 12.3,
-   "venue": "Tue close, Alphabet 3,590 MW power deal (Reuters)"
+   "ticker": "CAT",
+   "delta_pct": -6.0,
+   "venue": "Wed close, nearly -6%, weighed on the Dow (Investopedia)"
   },
   {
-   "ticker": "MRVL",
-   "delta_pct": 5.8,
-   "venue": "Tue close, raised 2028 revenue forecast (Reuters)"
-  },
-  {
-   "ticker": "AMD",
-   "delta_pct": 2.8,
-   "venue": "Tue close, plans to boost 2027 chip supply (Reuters)"
+   "ticker": "SKYD",
+   "delta_pct": -6.5,
+   "venue": "Wed close, worst S&P 500 stock (Investopedia)"
   }
  ],
  "geo_headlines": [
-  "THREE RECORDS: THE S&P 500 JOINED THE NASDAQS. The S&P 500 rose 0.58% Tuesday to 7,818.93, above its August 13 record on both the close and the intraday high, its first record close in two months. The Nasdaq 100 rose 0.48% to 31,224.69 and the Nasdaq Composite 0.45% to 27,599.89, both records again; the Dow rose 0.49% but is 5.2% below its August record (Reuters, AP). **Analysts expect S&P 500 third-quarter earnings growth of about 30% (LSEG), and that is what stocks are pricing.**",
-  "YIELDS EASED, THEN FIRMED. The 10-year closed at 5.27% (-4bp) and the 2-year at 4.79% (-5bp) on Treasury's curve, then rose back to 5.3% in Asia ahead of today's $39 billion 10-year auction and Thursday's 30-year (Reuters). FedWatch: an October hike at 21.0%, from 23.2%; December 84.7%.",
-  "OIL ROSE ON HOUTHI ATTACKS AND A GULF STORM. Brent December is $101.68 (+1.1%) and WTI November $89.81 (+0.4%). Tuesday's early slide reversed: Brent fell as much as 3.3% before settling at $100.58 (Saxo, CommodityScope). Overnight, the Houthis hit two Saudi airports (CNBC) and a storm is heading for the Gulf of Mexico (Reuters).",
-  "IRAN: TALKS STILL STALLED. Secretary of State Rubio said Iran has passed up \"multiple\" chances for a nuclear deal; Vice President Vance said any agreement needs a \"meaningful\" cut in enrichment. Iran has stepped up attacks on tankers, which now rely on US military escorts (CNBC).",
-  "FUTURES SLIP; ASIA LOWER; BITCOIN DOWN 2%. S&P 500 futures 7,853.25 (-0.26%), Nasdaq 100 futures 31,304.75 (-0.57%) as of 6:55 AM ET. The Nikkei fell 0.9%, Hong Kong 0.6% and Seoul 0.9% (AP). Bitcoin is $83,738 (-2.1%) after about $487 million of leveraged positions were liquidated (Coinomist). Gold $4,143.60 (-1.0%).",
-  "TRADE GAP WIDEST SINCE MARCH 2025. The August deficit widened to $105.6 billion, against $102.0 billion expected, as imports hit a record $420.8 billion (Reuters, BEA). Capital-goods imports rose 4.4%, a sign of AI investment (Reuters).",
-  "TODAY: FED MINUTES AT 2:00 PM. Minutes of the September 15-16 meeting, when the Fed raised rates to 3.75%-4.00%. Also: EIA oil inventories, the 10-year auction and consumer credit at 3:00 PM. Dallas Fed President Logan speaks."
+  "OIL UP 5%: BRENT BACK ABOVE $105. Brent December is $105.22 (+5.0%) and WTI November $92.65 (+5.0%) as of 7:05 AM ET. Three drivers: Hurricane Isaias is heading for the Gulf Coast, with about 25% of Gulf crude output shut in (Plastics News, citing producers); attacks on tankers pushed Hormuz traffic to its lowest in more than two months (Iran International, citing Reuters); and reports say the White House asked the Pentagon for Iran strike options before the November 3 midterms (The Atlantic, Axios). **Brent is now at the $105 line the client frame flags.**",
+  "FED MINUTES: MOST SEE ANOTHER HIKE BY YEAR END. The September minutes said \"most participants\" judged another increase \"would likely be appropriate by year end,\" with inflation risks seen to the upside (Investopedia, TD Economics). FedWatch: October hike odds 17.7%, from 21.0%; December 84.3%.",
+  "STRONG 10-YEAR AUCTION CAPPED YIELDS. The $39 billion 10-year sold at 5.300% with a 2.77 bid-to-cover, well above the 2.52 average (RTTNews). The 10-year touched about 5.37% before the sale, then closed at 5.28% (+1bp) on Treasury's curve; the 30-year closed at 5.67%, above Monday's 5.66%. The $22 billion 30-year auction is today.",
+  "STOCKS SLIPPED FROM RECORDS. The S&P 500 fell 0.22% to 7,801.77, the Nasdaq 100 0.21% and the Composite 0.22%; the Dow fell 0.66% as Caterpillar dropped nearly 6% (Investopedia). Chip stocks fell about 1.1%.",
+  "FUTURES LOWER; ASIA DOWN; BITCOIN WEAKER. S&P 500 futures 7,809 (-0.56%), Nasdaq 100 futures 31,145.75 (-0.82%) as of 6:55 AM ET. Asian shares fell on rising yields and oil (AP). Bitcoin $82,554 (-0.9%). Gold $4,143.90 (+0.1%).",
+  "TODAY: CLAIMS, PEPSICO, 30-YEAR AUCTION. Jobless claims 8:30 AM (consensus 200k), wholesale inventories 10:00, St. Louis Fed President Musalem 1:40 PM, the 30-year auction, and PepsiCo before the open (ZeroHedge, MarketBeat)."
  ],
- "client_frame_short": "Stocks are at records across the board. The S&P 500 closed at its first record in two months on Tuesday, joining the Nasdaq. **The bet is on earnings: analysts expect third-quarter profits up about 30%, led by AI and energy.** Long-term Treasury yields eased a little from their 2002 highs but are still above 5.25%, so bonds remain the competition. Futures are slightly lower this morning, and oil is back above $100 after attacks on Saudi Arabia. For clients, nothing here calls for changes; today's tests are the Fed minutes at 2:00 and the 10-year auction.",
- "client_frame": "If a client calls this morning, the story is records, and what they rest on.\n\nStocks: the S&P 500 closed at a record Tuesday, its first since August 13, and both Nasdaq indexes set records again. The rally rests on earnings: analysts expect S&P 500 profits to grow about 30% from a year earlier in the third quarter, and results start next week with the big banks. Records on earnings growth are healthier than records on hope alone.\n\nBonds: the 10-year Treasury yield eased to 5.27% Tuesday from 5.31%, its highest close since 2002. It drifted back toward 5.3% overnight ahead of today's auction. The auctions this week show how much demand there is for US debt at these levels.\n\nOil: Brent fell below $98 Tuesday morning, settled at $100.58, and is above $101 this morning. Gulf exports are recovering, but Houthi attacks on Saudi Arabia and a storm heading for the Gulf of Mexico keep supply risk alive. Iran talks remain stuck.\n\nGrowth: the trade deficit widened to $105.6 billion in August as imports hit a record, including a 4.4% jump in capital goods. That is AI spending showing up in the data. It is a sign of strong demand, though it subtracts from GDP.\n\nThe Fed: markets put October hike odds near one in five. Vice Chair Jefferson has said another hike can wait. Today's minutes show how many officials wanted to keep raising rates.\n\nWhy it matters: when stocks hit records while bonds pay over 5%, the bar for future returns rises. That is a reason for rebalancing discipline, not for selling.\n\nFor clients, the message holds: high-quality bonds pay more than 5% for a decade, an opportunity to lock in income, and long-term equity plans do not need changing. What would change the view: a 10-year close above 5.40% (now 5.27%), a 30-year above 5.75% (now 5.64%), or a resumption of US strikes on Iran that sends Brent well above $105."
+ "client_frame_short": "Oil is the story this morning. Brent jumped 5% to about $105 as a hurricane heads for Gulf oil platforms, tanker attacks slowed traffic through Hormuz, and reports say the White House asked for Iran strike options. **Yesterday's Fed minutes said most officials expect another rate hike by year end, so higher oil makes that more likely, not less.** Stocks slipped from records and futures are lower. For clients, nothing here calls for changes, but this is the day to watch the $105 oil line and the 30-year auction.",
+ "client_frame": "If a client calls this morning, the story is oil, and why it matters for rates.\n\nOil: Brent rose about 5% overnight to roughly $105. Three things hit at once. Hurricane Isaias is heading for the Gulf Coast, and producers have shut in about a quarter of Gulf crude output. Tanker attacks cut traffic through the Strait of Hormuz to the lowest in more than two months. And news reports say the White House asked the Pentagon for Iran strike options before the midterms. No decision has been reported. A storm is a short-lived supply hit; a return to strikes on Iran would be a longer one.\n\nThe Fed: Wednesday's minutes said most officials see another hike as likely appropriate by year end. Markets still put October odds below one in five, with December near 84%. Higher oil feeds inflation, which supports that path.\n\nBonds: the 10-year touched about 5.37% before a strong auction pulled it back to 5.28% at the close. Demand was well above average. That is a useful sign that buyers show up at these yields. The 30-year closed at 5.67%, a hair above Monday's level, ahead of today's 30-year auction.\n\nStocks: the S&P 500 slipped 0.2% from Tuesday's record, and futures are lower this morning. Earnings season starts next week with the banks, and analysts expect third-quarter profits up about 30%. Records built on earnings are sturdier than records built on hope.\n\nWhy it matters: oil near $105 and long yields near 5.7% are the two forces most likely to test stock valuations. Neither has broken its line yet.\n\nFor clients, the message holds: high-quality bonds pay more than 5% for a decade, and long-term equity plans do not need changing. What would change the view: a 10-year close above 5.40% (now 5.28%), a 30-year above 5.75% (now 5.67%), or actual US strikes on Iran that keep Brent well above $105. Brent is at that line this morning, so we're watching it, but strike options are planning, not action."
 }

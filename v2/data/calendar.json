@@ -1,68 +1,40 @@
 {
- "last_curated": "2026-10-07",
+ "last_curated": "2026-10-08",
  "macro": [
   {
-   "date": "2026-10-07",
+   "date": "2026-10-08",
    "time_et": "",
-   "event": "EIA weekly petroleum status report",
-   "consensus": "n/a - weekly (EIA)",
-   "importance": "low"
-  },
-  {
-   "date": "2026-10-07",
-   "time_et": "",
-   "event": "$39B 10-year note reopening auction",
-   "consensus": "n/a - per Reuters / ZeroHedge",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-07",
-   "time_et": "2:00 PM",
-   "event": "FOMC minutes (Sept 15-16 meeting)",
-   "consensus": "n/a - Federal Reserve Board calendar",
-   "importance": "high"
-  },
-  {
-   "date": "2026-10-07",
-   "time_et": "3:00 PM",
-   "event": "Consumer credit (Aug)",
-   "consensus": "n/a - per CNBC calendar",
-   "importance": "low"
-  },
-  {
-   "date": "2026-10-07",
-   "time_et": "",
-   "event": "Dallas Fed President Logan speaks",
-   "consensus": "n/a - per ZeroHedge week-ahead; time not listed",
+   "event": "PepsiCo (PEP) Q3 earnings, before the open",
+   "consensus": "n/a - MarketBeat; call 8:15 AM (Yahoo)",
    "importance": "low"
   },
   {
    "date": "2026-10-08",
    "time_et": "8:30 AM",
-   "event": "Initial jobless claims",
-   "consensus": "n/a - weekly",
+   "event": "Initial jobless claims (wk ended Oct 3)",
+   "consensus": "200k (prior 197k) - per ZeroHedge",
    "importance": "medium"
   },
   {
    "date": "2026-10-08",
    "time_et": "10:00 AM",
-   "event": "Wholesale inventories (Aug)",
-   "consensus": "n/a - per CNBC calendar",
+   "event": "Wholesale inventories (Aug final)",
+   "consensus": "+0.7% - per ZeroHedge",
+   "importance": "low"
+  },
+  {
+   "date": "2026-10-08",
+   "time_et": "1:40 PM",
+   "event": "St. Louis Fed President Musalem speaks",
+   "consensus": "n/a - per ZeroHedge week-ahead",
    "importance": "low"
   },
   {
    "date": "2026-10-08",
    "time_et": "",
-   "event": "30-year bond auction",
-   "consensus": "n/a - per Reuters",
+   "event": "$22B 30-year bond auction",
+   "consensus": "n/a - per RTTNews / ZeroHedge",
    "importance": "medium"
-  },
-  {
-   "date": "2026-10-08",
-   "time_et": "",
-   "event": "PepsiCo (PEP) earnings",
-   "consensus": "n/a - per CNBC calendar",
-   "importance": "low"
   },
   {
    "date": "2026-10-09",
@@ -77,6 +49,13 @@
    "event": "Delta Air Lines (DAL) earnings",
    "consensus": "n/a - per CNBC calendar",
    "importance": "low"
+  },
+  {
+   "date": "2026-10-09",
+   "time_et": "",
+   "event": "Hurricane Isaias Gulf Coast landfall expected late Fri / early Sat",
+   "consensus": "n/a - per CNN / NHC forecast",
+   "importance": "medium"
   }
  ],
  "earnings": []
