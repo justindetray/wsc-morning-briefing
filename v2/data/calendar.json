@@ -1,33 +1,33 @@
 {
- "last_curated": "2026-10-09",
+ "last_curated": "2026-10-10",
  "macro": [
   {
-   "date": "2026-10-09",
+   "date": "2026-10-12",
    "time_et": "",
-   "event": "Delta Air Lines (DAL) Q3 earnings, before the open; webcast 10:00 AM",
-   "consensus": "n/a - Delta IR",
-   "importance": "low"
-  },
-  {
-   "date": "2026-10-09",
-   "time_et": "10:00 AM",
-   "event": "UMich consumer sentiment, preliminary (Oct)",
-   "consensus": "47.6-48.0 (Sep 48.1) - UMich release schedule; Admiral Markets / Morningstar",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-09",
-   "time_et": "",
-   "event": "Hurricane Isaias landfall expected tonight or early Saturday",
-   "consensus": "n/a - NHC advisory 11",
+   "event": "Columbus Day: cash bond market closed (SIFMA); stocks open",
+   "consensus": "n/a - per MarketWatch/Morningstar",
    "importance": "medium"
   },
   {
    "date": "2026-10-13",
-   "time_et": "",
-   "event": "Big-bank Q3 earnings begin",
-   "consensus": "n/a - per Yahoo Finance / AP",
+   "time_et": "8:30 AM",
+   "event": "JPMorgan Chase Q3 earnings call (Goldman, Citi, Wells Fargo also report)",
+   "consensus": "n/a - JPMorgan IR; Reuters",
    "importance": "medium"
+  },
+  {
+   "date": "2026-10-14",
+   "time_et": "8:30 AM",
+   "event": "CPI (Sep)",
+   "consensus": "n/a - BLS release schedule",
+   "importance": "high"
+  },
+  {
+   "date": "2026-10-28",
+   "time_et": "2:00 PM",
+   "event": "FOMC decision",
+   "consensus": "Hike odds 18.8% - CME FedWatch",
+   "importance": "high"
   }
  ],
  "earnings": []
