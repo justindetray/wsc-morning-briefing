@@ -6,7 +6,7 @@
   "label": "S&P 500",
   "as_of": "Fri 10/9 close",
   "status": "CLOSED",
-  "source": "Polygon I:SPX daily 2026-10-09 settled close vs 2026-10-08 close ; NOT ATH (ath208: close -0.095% / high -0.305% vs 10/6 maxima; Saturday highs provisional per #202-A)"
+  "source": "Polygon I:SPX daily 2026-10-09 settled close vs 2026-10-08 close ; NOT ATH (ath209 Sunday re-run, highs unchanged vs Saturday pull: close -0.095% / high -0.305% vs 10/6 maxima)"
  },
  "NDX": {
   "value": 30883.15,
@@ -92,13 +92,13 @@
   "source": "finance GCUSD ts 2026-10-09 21:00 UTC 4,216.30 vs previousClose 4,157"
  },
  "BTC": {
-  "value": 82776.05,
-  "prev_close": 82554.98,
-  "delta_pct": 0.2678,
+  "value": 82922.48,
+  "prev_close": 82911.77,
+  "delta_pct": 0.0129,
   "label": "Bitcoin",
-  "as_of": "Sat 7:05 AM ET",
+  "as_of": "Sun 7:02 AM ET",
   "status": "LIVE",
-  "source": "finance BTCUSD live quote ts 2026-10-10 11:05:06 UTC (market_status=open); base = vendor previousClose 82,554.98, corroborated by Polygon X:BTCUSD 10/9 UTC daily close 82,544.71 (0.012%). Polygon live snapshot NOT_AUTHORIZED"
+  "source": "finance BTCUSD live quote ts 2026-10-11 11:01:56 UTC (market_status=open); base = vendor previousClose 82,911.77, corroborated by Polygon X:BTCUSD 10/10 UTC daily close 82,910.80 (0.001%). Polygon live snapshot NOT_AUTHORIZED"
  },
  "EURJPY": {
   "value": 177.31,
