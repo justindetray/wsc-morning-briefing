@@ -1,18 +1,11 @@
 {
- "last_curated": "2026-10-11",
+ "last_curated": "2026-10-12",
  "macro": [
-  {
-   "date": "2026-10-11",
-   "time_et": "6:00 PM",
-   "event": "Index futures reopen after the weekend",
-   "consensus": "n/a - per Regards of Wall Street",
-   "importance": "medium"
-  },
   {
    "date": "2026-10-12",
    "time_et": "",
    "event": "Columbus Day: cash bond market closed (SIFMA); stocks open",
-   "consensus": "n/a - SIFMA; MarketWatch/Morningstar",
+   "consensus": "n/a - SIFMA; Bloomberg",
    "importance": "medium"
   },
   {
