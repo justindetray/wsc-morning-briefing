@@ -1,26 +1,33 @@
 {
- "last_curated": "2026-10-12",
+ "last_curated": "2026-10-13",
  "macro": [
   {
-   "date": "2026-10-12",
-   "time_et": "",
-   "event": "Columbus Day: cash bond market closed (SIFMA); stocks open",
-   "consensus": "n/a - SIFMA; Bloomberg",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-12",
-   "time_et": "12:10 PM",
-   "event": "Cleveland Fed President Hammack speaks",
-   "consensus": "n/a - Fed calendar via Live Trading News",
-   "importance": "low"
+   "date": "2026-10-13",
+   "time_et": "7:00 AM",
+   "event": "JPMorgan and Wells Fargo Q3 results (calls 8:30 / 10:00 AM)",
+   "consensus": "EPS $5.90-5.93 / $1.85 - CNBC (LSEG), MarketBeat; company releases",
+   "importance": "high"
   },
   {
    "date": "2026-10-13",
-   "time_et": "Before open",
-   "event": "JPMorgan, Goldman, Wells Fargo, Citi, J&J, UnitedHealth earnings",
-   "consensus": "n/a - JPMorgan IR; Reuters; Live Trading News",
+   "time_et": "9:30 AM",
+   "event": "Goldman Sachs Q3 call",
+   "consensus": "EPS $13.02 - CNBC (LSEG)",
    "importance": "medium"
+  },
+  {
+   "date": "2026-10-13",
+   "time_et": "11:00 AM",
+   "event": "Citigroup Q3 call",
+   "consensus": "EPS $2.66 - CNBC (LSEG)",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-10-13",
+   "time_et": "",
+   "event": "Cash Treasury market reopens after Columbus Day",
+   "consensus": "n/a",
+   "importance": "low"
   },
   {
    "date": "2026-10-14",
