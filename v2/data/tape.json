@@ -1,121 +1,121 @@
 {
  "ES": {
-  "value": 7848.75,
-  "prev_close": 7858.0,
-  "delta_pct": -0.1177,
+  "value": 7868.25,
+  "prev_close": 7855.75,
+  "delta_pct": 0.1591,
   "label": "E-mini S&P (Dec)",
-  "as_of": "Tue 7:05 AM ET",
+  "as_of": "Wed 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance ESUSD quote ts 2026-10-13 10:55:43 UTC; base = vendor previousClose 7,858 (Monday settle); range 7,836-7,864"
+  "source": "finance ESUSD quote ts 2026-10-14 10:55:47 UTC; base = vendor previousClose 7,855.75 (Tuesday settle); range 7,848.75-7,874.25"
  },
  "NQ": {
-  "value": 30718.75,
-  "prev_close": 30898.25,
-  "delta_pct": -0.5809,
+  "value": 30757.75,
+  "prev_close": 30791.5,
+  "delta_pct": -0.1096,
   "label": "E-mini Nasdaq (Dec)",
-  "as_of": "Tue 7:05 AM ET",
+  "as_of": "Wed 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance NQUSD quote ts 2026-10-13 10:55:45 UTC; base = vendor previousClose 30,898.25 (Monday settle); range 30,604.75-30,906"
+  "source": "finance NQUSD quote ts 2026-10-14 10:55:47 UTC; base = vendor previousClose 30,791.50 (Tuesday settle); range 30,705.25-30,891.50"
  },
  "SOX": {
-  "value": 12236.79,
-  "prev_close": 12572.42,
-  "delta_pct": -2.6696,
+  "value": 12208.79,
+  "prev_close": 12236.79,
+  "delta_pct": -0.2288,
   "label": "Semis",
-  "as_of": "Mon 10/12 close",
+  "as_of": "Tue 10/13 close",
   "status": "CLOSED",
-  "source": "Polygon I:SOX daily 2026-10-12 settled close vs 2026-10-09 close (same-day 10/13 VIX bar 15.56 rejected, #177-A)"
+  "source": "Polygon I:SOX daily 2026-10-13 settled close vs 2026-10-12 close (same-day 10/14 VIX bar 15.35 rejected, #177-A)"
  },
  "DJI": {
-  "value": 51850.55,
-  "prev_close": 51654.95,
-  "delta_pct": 0.3787,
+  "value": 51670.1,
+  "prev_close": 51850.55,
+  "delta_pct": -0.348,
   "label": "Dow",
-  "as_of": "Mon 10/12 close",
+  "as_of": "Tue 10/13 close",
   "status": "CLOSED",
-  "source": "Polygon I:DJI daily 2026-10-12 settled close vs 2026-10-09 close (same-day 10/13 VIX bar 15.56 rejected, #177-A)"
+  "source": "Polygon I:DJI daily 2026-10-13 settled close vs 2026-10-12 close (same-day 10/14 VIX bar 15.35 rejected, #177-A)"
  },
  "VIX": {
-  "value": 15.21,
-  "prev_close": 14.84,
-  "delta_pct": 2.4933,
+  "value": 15.27,
+  "prev_close": 15.21,
+  "delta_pct": 0.3945,
   "label": "VIX",
-  "as_of": "Mon 10/12 close",
+  "as_of": "Tue 10/13 close",
   "status": "CLOSED",
-  "source": "Polygon I:VIX daily 2026-10-12 settled close vs 2026-10-09 close (same-day 10/13 VIX bar 15.56 rejected, #177-A)"
+  "source": "Polygon I:VIX daily 2026-10-13 settled close vs 2026-10-12 close (same-day 10/14 VIX bar 15.35 rejected, #177-A)"
  },
  "US10Y": {
-  "value": 5.24,
-  "prev_close": 5.22,
-  "delta_pct": 0.3831,
+  "value": 5.21,
+  "prev_close": 5.24,
+  "delta_pct": -0.5725,
   "label": "US 10y",
-  "as_of": "Fri 10/9 close",
+  "as_of": "Tue 10/13 close",
   "status": "CLOSED",
-  "source": "Treasury CMT 10/09/2026 5.24 vs 10/08 5.22. No 10/12 observation (Columbus Day, cash market closed); first new print is today's close"
+  "source": "Treasury CMT 10/13/2026 5.21 vs prior observation 10/09 5.24 (no 10/12 row, Columbus Day)"
  },
  "US2Y": {
-  "value": 4.8,
-  "prev_close": 4.75,
-  "delta_pct": 1.0526,
+  "value": 4.79,
+  "prev_close": 4.8,
+  "delta_pct": -0.2083,
   "label": "US 2y",
-  "as_of": "Fri 10/9 close",
+  "as_of": "Tue 10/13 close",
   "status": "CLOSED",
-  "source": "Treasury CMT 10/09/2026 4.80 vs 10/08 4.75. No 10/12 observation (holiday)"
+  "source": "Treasury CMT 10/13/2026 4.79 vs 10/09 4.80"
  },
  "WTI": {
-  "value": 91.76,
-  "prev_close": 93.74,
-  "delta_pct": -2.1122,
+  "value": 95.63,
+  "prev_close": 94.14,
+  "delta_pct": 1.5827,
   "label": "WTI (Nov)",
-  "as_of": "Tue 7:05 AM ET",
+  "as_of": "Wed 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance CLUSD quote ts 2026-10-13 11:05:46 UTC vs previousClose 93.74 = Monday Nov settle (Barchart via Yahoo: CLX26 closed up more than 2%, consistent with 91.85 -> 93.74); range 91.72-93.48. Nov both legs (#187-B)",
+  "source": "finance CLUSD quote ts 2026-10-14 11:05:46 UTC vs previousClose 94.14 = Tuesday settle (Reuters: WTI $94.94, up 80 cents at 0030 GMT => base 94.14; WTI rose 0.4% Tuesday, 93.74 -> 94.14); range 94.00-95.64. Nov both legs (#187-B)",
   "note": "Nov contract"
  },
  "BRENT": {
-  "value": 104.59,
-  "prev_close": 106.65,
-  "delta_pct": -1.9316,
+  "value": 106.56,
+  "prev_close": 105.69,
+  "delta_pct": 0.8232,
   "label": "Brent (Dec)",
-  "as_of": "Tue 7:05 AM ET",
+  "as_of": "Wed 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance BZUSD quote ts 2026-10-13 11:05:44 UTC vs previousClose 106.65 = Monday Dec settle (Business Standard/Reuters: fell 61c to 106.04 early Tue => base 106.65); range 104.36-106.27. Dec both legs (#197-A)",
+  "source": "finance BZUSD quote ts 2026-10-14 11:05:44 UTC vs previousClose 105.69 = Tuesday Dec settle (Reuters: $106.58, up 89 cents => base 105.69; Brent fell 0.9% Tuesday, 106.65 -> 105.69); range 105.24-107.14. Dec both legs (#197-A)",
   "note": "Dec contract"
  },
  "GOLD": {
-  "value": 4204.7,
-  "prev_close": 4190.6,
-  "delta_pct": 0.3365,
+  "value": 4163.9,
+  "prev_close": 4177.3,
+  "delta_pct": -0.3208,
   "label": "Gold",
-  "as_of": "Tue 7:05 AM ET",
+  "as_of": "Wed 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance GCUSD quote ts 2026-10-13 10:55:10 UTC vs previousClose 4,190.60 = Monday settle"
+  "source": "finance GCUSD quote ts 2026-10-14 10:55:39 UTC vs previousClose 4,177.30 = Tuesday settle"
  },
  "BTC": {
-  "value": 83112.46,
-  "prev_close": 81754.48,
-  "delta_pct": 1.661,
+  "value": 83304.21,
+  "prev_close": 83092.65,
+  "delta_pct": 0.2546,
   "label": "Bitcoin",
-  "as_of": "Tue 7:05 AM ET",
+  "as_of": "Wed 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance BTCUSD live quote ts 2026-10-13 11:05:45 UTC; base = vendor previousClose 81,754.48, corroborated by Polygon X:BTCUSD 10/12 UTC daily close 81,742.50 (0.015%). Polygon live snapshot NOT_AUTHORIZED"
+  "source": "finance BTCUSD live quote ts 2026-10-14 11:05:48 UTC; base = vendor previousClose 83,092.65, corroborated by Polygon X:BTCUSD 10/13 UTC daily close 83,101.99 (0.011%). Polygon live snapshot NOT_AUTHORIZED"
  },
  "EURJPY": {
-  "value": 176.8,
-  "prev_close": 176.911,
-  "delta_pct": -0.0627,
+  "value": 177.31,
+  "prev_close": 177.331,
+  "delta_pct": -0.0118,
   "label": "EUR/JPY",
-  "as_of": "Tue 7:05 AM ET",
+  "as_of": "Wed 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance EURJPY quote ts 2026-10-13 11:05:15 UTC vs Polygon C:EURJPY Mon 10/12 settled close 176.911 (#188-A); vendor previousClose 176.86 not used"
+  "source": "finance EURJPY quote ts 2026-10-14 11:04:04 UTC vs Polygon C:EURJPY Tue 10/13 settled close 177.331 (#188-A); vendor previousClose 177.25 not used"
  },
  "AUDJPY": {
-  "value": 110.2,
-  "prev_close": 110.266,
-  "delta_pct": -0.0599,
+  "value": 111.03,
+  "prev_close": 110.565,
+  "delta_pct": 0.4206,
   "label": "AUD/JPY",
-  "as_of": "Tue 7:05 AM ET",
+  "as_of": "Wed 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance AUDJPY quote ts 2026-10-13 11:05:11 UTC vs Polygon C:AUDJPY Mon 10/12 settled close 110.266 (#188-A); vendor previousClose 110.31 not used"
+  "source": "finance AUDJPY quote ts 2026-10-14 11:04:15 UTC vs Polygon C:AUDJPY Tue 10/13 settled close 110.565 (#188-A); vendor previousClose 110.48 not used"
  }
 }

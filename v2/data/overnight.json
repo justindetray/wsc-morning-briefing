@@ -1,43 +1,33 @@
 {
- "window": "Monday 2026-10-12 close -> Tuesday 2026-10-13 7:05 AM ET",
- "lede": "AI funding worries hit Asian chipmakers (Kospi down more than 5%); Nasdaq futures -0.6%; oil eases; big banks report today.",
+ "window": "Tuesday 2026-10-13 close -> Wednesday 2026-10-14 7:05 AM ET",
+ "lede": "CPI at 8:30 AM; banks profit but warn on rates; ASML says demand exceeds supply; oil firmer on Iran shipping tactics.",
  "asia_close": [],
  "europe_open": [],
  "single_name_moves": [
   {
-   "ticker": "SK Hynix",
-   "delta_pct": -10.0,
-   "venue": "Seoul Tue, more than -10% (CNBC)"
+   "ticker": "C",
+   "delta_pct": -5.5,
+   "venue": "Tue close, roughly -5.5% (Investopedia)"
   },
   {
-   "ticker": "SoftBank",
-   "delta_pct": -8.5,
-   "venue": "Tokyo Tue (CNBC)"
+   "ticker": "JNJ",
+   "delta_pct": -6.0,
+   "venue": "Tue close, nearly -6% (Investopedia)"
   },
   {
-   "ticker": "Samsung Elec.",
-   "delta_pct": -7.4,
-   "venue": "Seoul Tue (CNBC)"
-  },
-  {
-   "ticker": "Tokyo Electron",
-   "delta_pct": -7.2,
-   "venue": "Tokyo Tue (CNBC)"
-  },
-  {
-   "ticker": "MU",
-   "delta_pct": -3.9,
-   "venue": "Mon close; about -3% premarket Tue (CNBC)"
+   "ticker": "AMAT",
+   "delta_pct": -6.5,
+   "venue": "Tue close, more than -6.5% (Investopedia)"
   }
  ],
  "geo_headlines": [
-  "THE CHIP SELLOFF SPREAD TO ASIA. South Korea's Kospi fell more than 5% to below 6,000, its lowest since July 31, and Japan's Nikkei fell 2.6% (investingLive). SK Hynix fell more than 10%, SoftBank 8.5%, Samsung 7.4% and Tokyo Electron 7.2% (CNBC). **The triggers were warnings from the Intel and Broadcom CEOs that access to capital could become a major headwind for the AI boom, plus a memory-chip advance by China's CXMT (CNBC).**",
-  "FUTURES LOWER; NASDAQ LEADS. Nasdaq 100 futures 30,718.75 (-0.58%) and S&P 500 futures 7,848.75 (-0.12%) as of 6:55 AM ET. Monday the Nasdaq 100 fell 0.71% and chips 2.67%, while the Dow rose 0.38%; the S&P 500 slipped 0.06% to 7,807.24, 0.15% below its October 6 record close. Micron fell 3.9% (CNBC).",
-  "OIL EASED; SAUDI PIPELINE PLAN. Brent December $104.59 (-1.9%) and WTI November $91.76 (-2.1%) after Monday's 2% rally. Saudi Arabia is studying raising pipeline crude export capacity to 10 million barrels a day, bypassing Hormuz, with 1.2 million added within seven to eight weeks (investingLive). UKMTO counted six vessel strikes in and near the Strait on Sunday (The National).",
-  "HOUTHIS: AIRLINES PULL BACK. Trump said the Houthis are \"misbehaving very badly\" after attacks on Riyadh and Dammam airports. Saudi Arabia halted flights at Riyadh, and Air France-KLM, Lufthansa, Qatar Airways and others suspended service (Al Jazeera).",
-  "FED: HAMMACK SEES BROAD INFLATION. Cleveland Fed President Hammack said Monday inflation pressures are broad-based and restrictive policy is needed (Barchart). NFIB small-business optimism fell to 97.9 from 98.7 (98 expected) (Dow Jones). FedWatch, as of Friday 10/9: October hike 18.8%, December 84.3%.",
-  "TODAY: BIG BANKS REPORT. JPMorgan and Wells Fargo release at about 7:00 AM; JPMorgan call 8:30 AM (consensus EPS $5.90-5.93), Goldman 9:30 AM ($13.02), Wells Fargo 10:00 AM ($1.85), Citi 11:00 AM ($2.66) (CNBC, company releases). Treasuries reopen after the holiday. Wednesday 8:30 AM: September CPI."
+  "CPI AT 8:30 AM IS THE EVENT. September CPI is expected to rise to 3.7% a year from 3.4% in August, with core at 2.5% from 2.4% (Investopedia); prediction-market traders price 3.6% (CNBC). **New York Fed President Williams said overnight he still sees one more hike this year but downplayed the need for another in 2027 (Reuters).** FedWatch, as of Tuesday 10/13: October hike 22.1%, December 89.4%.",
+  "BANKS: STRONG PROFITS, STOCKS DOWN. Goldman earned $17.01 a share vs $13.02 expected and Citi $2.85 vs $2.66; JPMorgan missed at $5.57 vs $5.90, and Wells Fargo's revenue missed (CNBC). All four closed lower, Citi down about 5.5% (Investopedia). Dimon warned that a move in rates from 5% to 6% would hurt more than 4% to 5%, adding he is not predicting it (CNBC).",
+  "ASML BEAT; CHIPS STEADIER. ASML posted Q3 sales of 11.7 billion euros and said planned supply for 2027 and 2028 will not fully meet demand, with some customers asking about 2029-2030 orders (ASML). In Asia, Samsung rose 2.8% and SK Hynix 2.0% early as the chip selloff eased (Investing.com); the Kospi closed down 0.4% at 6,008.81 (AP). China's September exports rose 36.3% vs 25.5% expected.",
+  "OIL FIRMER ON NEW IRAN TACTICS. Brent December $106.56 (+0.8%), WTI November $95.63 (+1.6%). Iranian officials told Reuters Tehran has shifted tactics to step up attacks on ships and keep oil high before the US midterms, and will expand beyond Hormuz to the Gulf of Oman (Reuters). Iran said a cargo ship carrying 2,500 containers sank after hitting a mine Wednesday; not independently verified (AP).",
+  "FUTURES A TOUCH HIGHER. S&P 500 futures 7,868.25 (+0.16%), Nasdaq 100 futures 30,757.75 (-0.11%) as of 6:55 AM ET. Tuesday: S&P 500 7,805.45 (-0.02%), 0.17% below its October 6 record close; Nasdaq 100 -0.31%; Dow -0.35%. The 10-year yield fell 3 basis points to 5.21%. VIX 15.27.",
+  "TODAY: BANK OF AMERICA, MORGAN STANLEY, BEIGE BOOK. Bank of America call 8:30 AM; Morgan Stanley results about 7:30 AM, call 9:30 AM; BlackRock before the open (company releases). Fed Beige Book 2:00 PM. Thursday: retail sales, PPI, TSMC. Friday: options expiration."
  ],
- "client_frame_short": "The AI scare is back, and this time it started overseas. South Korea's market fell more than 5% overnight after the Intel and Broadcom CEOs warned that financing could become a bottleneck for AI spending, and US Nasdaq futures are down about 0.6%. **This is a correction inside a strong market, not a break: the S&P 500 is 0.15% below its record, and the Dow rose Monday.** Today's bank earnings and Wednesday's inflation report matter more for most portfolios than one rough night in Seoul. For clients, no changes are needed.",
- "client_frame": "If a client calls this morning, the story is AI nerves, again, while the rest of the market holds up.\n\nWhat happened: on Monday, the CEOs of Intel and Broadcom warned that access to capital could become a major headwind for the AI build-out, and a Chinese memory maker announced a technical advance. Chip stocks fell 2.7% in the US. Overnight that spread to Asia: Korea's market fell more than 5%, with SK Hynix down more than 10% and Samsung down 7.4%, and SoftBank, a big OpenAI investor, fell 8.5%.\n\nThe context: AI stocks have had a huge run and a lot of spending riding on them, so they are sensitive to any hint that the money could slow. This is the second scare in a week, after Thursday's report on OpenAI's revenue.\n\nThe rest of the market: the Dow rose Monday and the S&P 500 is 0.15% below its record. Analysts expect third-quarter S&P 500 profits to rise about 25%, up from 22% in July (Bloomberg Intelligence).\n\nOil eased to about $105 Brent. Saudi Arabia is studying a pipeline expansion to move more crude around Hormuz, which would ease the supply squeeze over time.\n\nToday: JPMorgan, Goldman, Wells Fargo and Citi report. Then Wednesday's CPI, expected at 3.6% headline and 2.5% core.\n\nWhy it matters: concentration risk is the real lesson. Portfolios tilted heavily toward AI and chips feel these weeks much more than diversified ones. That argues for regular rebalancing, not for selling. A client who has let a few big tech winners grow into an outsized share of the account is the right person to call this week.\n\nFor clients, the message holds: high-quality bonds pay more than 5% for a decade, and long-term equity plans do not need changing. What would change the view: a 10-year close above 5.40% (Friday 5.24%), a 30-year above 5.75% (Friday 5.60%), or US strikes on Iran that keep Brent well above $105 (now $104.59)."
+ "client_frame_short": "Today is about inflation. September's consumer price report at 8:30 is expected to show prices up about 3.7% from a year ago, mostly because of energy, with core inflation near 2.5%. **The banks told the more useful story yesterday: profits are strong, but rates near 5% are starting to bite, and Jamie Dimon warned that a move to 6% would hurt more than the move to 5% did.** Stocks are steady, 0.17% below their record. For clients: a hot headline number is mostly energy, and the long-term plan does not change.",
+ "client_frame": "If a client calls this morning, the story is the inflation report, read through what the banks said yesterday.\n\nThe report: at 8:30 AM the government publishes September consumer prices. Forecasters expect 3.7% over the past year, up from 3.4%, driven mainly by gasoline and energy. Core inflation, which strips out food and energy, is expected around 2.5%. That gap is the point: most of the increase is oil, not a broad wage-price spiral.\n\nThe banks: the four biggest reporters showed strong profits, led by Goldman, which earned $17.01 a share against $13.02 expected. Even so, all four stocks fell, because management warned that higher rates and sticky inflation are starting to bite. Jamie Dimon said a move in rates from 5% to 6% would be more painful than the move from 4% to 5%, while saying clearly he is not predicting it.\n\nThe Fed: New York Fed President Williams still sees one more hike this year but not more in 2027. Futures put an October hike near 22%.\n\nOil: Brent is about $106. Iranian officials told Reuters they are stepping up attacks on shipping to keep prices high before the US midterm elections. That is the inflation story in one sentence.\n\nChips: ASML, the maker of the machines that make advanced chips, said it cannot fully meet demand through 2028, a useful counterweight to this week's AI funding scare.\n\nWhy it matters: higher-for-longer rates are good news for savers and bond buyers and a headwind for borrowers and richly valued stocks. Diversified portfolios are built for this mix.\n\nFor clients, the message holds: high-quality bonds pay more than 5% for a decade, and long-term equity plans do not need changing. What would change the view: a 10-year close above 5.40% (Tuesday 5.21%), a 30-year above 5.75% (Tuesday 5.56%), or US strikes on Iran that keep Brent well above $105 (now $106.56)."
 }

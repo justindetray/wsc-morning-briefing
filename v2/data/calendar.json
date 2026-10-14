@@ -1,46 +1,32 @@
 {
- "last_curated": "2026-10-13",
+ "last_curated": "2026-10-14",
  "macro": [
   {
-   "date": "2026-10-13",
-   "time_et": "7:00 AM",
-   "event": "JPMorgan and Wells Fargo Q3 results (calls 8:30 / 10:00 AM)",
-   "consensus": "EPS $5.90-5.93 / $1.85 - CNBC (LSEG), MarketBeat; company releases",
-   "importance": "high"
-  },
-  {
-   "date": "2026-10-13",
-   "time_et": "9:30 AM",
-   "event": "Goldman Sachs Q3 call",
-   "consensus": "EPS $13.02 - CNBC (LSEG)",
+   "date": "2026-10-14",
+   "time_et": "7:30 AM",
+   "event": "Morgan Stanley Q3 results (call 9:30 AM)",
+   "consensus": "EPS $2.94 - MarketBeat/BigGo; company release",
    "importance": "medium"
-  },
-  {
-   "date": "2026-10-13",
-   "time_et": "11:00 AM",
-   "event": "Citigroup Q3 call",
-   "consensus": "EPS $2.66 - CNBC (LSEG)",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-13",
-   "time_et": "",
-   "event": "Cash Treasury market reopens after Columbus Day",
-   "consensus": "n/a",
-   "importance": "low"
   },
   {
    "date": "2026-10-14",
    "time_et": "8:30 AM",
    "event": "CPI (Sep)",
-   "consensus": "3.6% y/y (Aug 3.4%); core 2.5% (2.4%) - BLS schedule; consensus per investingLive",
+   "consensus": "3.7% y/y (Aug 3.4%); core 2.5% (2.4%) - BLS schedule; Investopedia consensus",
    "importance": "high"
   },
   {
    "date": "2026-10-14",
-   "time_et": "Before open",
-   "event": "Bank of America, Morgan Stanley, BlackRock earnings",
-   "consensus": "n/a - Live Trading News",
+   "time_et": "8:30 AM",
+   "event": "Bank of America Q3 call",
+   "consensus": "EPS $1.17-1.18 - BigGo; BofA investor relations",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-10-14",
+   "time_et": "2:00 PM",
+   "event": "Fed Beige Book",
+   "consensus": "n/a - Federal Reserve / financecalendar",
    "importance": "medium"
   },
   {
