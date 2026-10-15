@@ -1,39 +1,25 @@
 {
- "last_curated": "2026-10-14",
+ "last_curated": "2026-10-15",
  "macro": [
   {
-   "date": "2026-10-14",
-   "time_et": "7:30 AM",
-   "event": "Morgan Stanley Q3 results (call 9:30 AM)",
-   "consensus": "EPS $2.94 - MarketBeat/BigGo; company release",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-14",
+   "date": "2026-10-15",
    "time_et": "8:30 AM",
-   "event": "CPI (Sep)",
-   "consensus": "3.7% y/y (Aug 3.4%); core 2.5% (2.4%) - BLS schedule; Investopedia consensus",
+   "event": "PPI (Sep)",
+   "consensus": "+0.6% m/m (Aug +0.4%); core +0.3% - BLS schedule; Investing.com consensus",
    "importance": "high"
-  },
-  {
-   "date": "2026-10-14",
-   "time_et": "8:30 AM",
-   "event": "Bank of America Q3 call",
-   "consensus": "EPS $1.17-1.18 - BigGo; BofA investor relations",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-14",
-   "time_et": "2:00 PM",
-   "event": "Fed Beige Book",
-   "consensus": "n/a - Federal Reserve / financecalendar",
-   "importance": "medium"
   },
   {
    "date": "2026-10-15",
    "time_et": "8:30 AM",
-   "event": "Retail sales and PPI (Sep); TSMC earnings",
-   "consensus": "Retail +0.3% m/m; PPI +0.5% - investingLive via Live Trading News",
+   "event": "Retail sales (Sep)",
+   "consensus": "+0.3% m/m (Aug +1.2%) - Census schedule; Schwab/Investing.com consensus",
+   "importance": "high"
+  },
+  {
+   "date": "2026-10-15",
+   "time_et": "8:30 AM",
+   "event": "Initial jobless claims",
+   "consensus": "199K (prior 197K) - Investing.com",
    "importance": "medium"
   },
   {

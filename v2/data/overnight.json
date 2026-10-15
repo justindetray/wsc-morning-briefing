@@ -1,33 +1,48 @@
 {
- "window": "Tuesday 2026-10-13 close -> Wednesday 2026-10-14 7:05 AM ET",
- "lede": "CPI at 8:30 AM; banks profit but warn on rates; ASML says demand exceeds supply; oil firmer on Iran shipping tactics.",
+ "window": "Wednesday 2026-10-14 close -> Thursday 2026-10-15 7:05 AM ET",
+ "lede": "Asia tech crash (Kospi -7%+, Nikkei -4%+) on AI debt worries after hot CPI; Nasdaq futures -1.3%; yields and oil lower, gold up.",
  "asia_close": [],
  "europe_open": [],
  "single_name_moves": [
   {
-   "ticker": "C",
-   "delta_pct": -5.5,
-   "venue": "Tue close, roughly -5.5% (Investopedia)"
+   "ticker": "Samsung Elec.",
+   "delta_pct": -9.48,
+   "venue": "Seoul Thu (DPA via Yahoo)"
   },
   {
-   "ticker": "JNJ",
-   "delta_pct": -6.0,
-   "venue": "Tue close, nearly -6% (Investopedia)"
+   "ticker": "SK Hynix",
+   "delta_pct": -6.06,
+   "venue": "Seoul Thu (DPA via Yahoo)"
   },
   {
-   "ticker": "AMAT",
-   "delta_pct": -6.5,
-   "venue": "Tue close, more than -6.5% (Investopedia)"
+   "ticker": "CRWV",
+   "delta_pct": -17.0,
+   "venue": "Wed close, nearly -17% (Investopedia)"
+  },
+  {
+   "ticker": "DELL",
+   "delta_pct": -11.4,
+   "venue": "Wed close; Barclays downgrade (Reuters)"
+  },
+  {
+   "ticker": "ORCL",
+   "delta_pct": -8.8,
+   "venue": "Wed close (Reuters)"
+  },
+  {
+   "ticker": "BAC",
+   "delta_pct": -4.8,
+   "venue": "Wed close; EPS $0.91 vs $1.09 est after $1.2B fine (Reuters, Investopedia)"
   }
  ],
  "geo_headlines": [
-  "CPI AT 8:30 AM IS THE EVENT. September CPI is expected to rise to 3.7% a year from 3.4% in August, with core at 2.5% from 2.4% (Investopedia); prediction-market traders price 3.6% (CNBC). **New York Fed President Williams said overnight he still sees one more hike this year but downplayed the need for another in 2027 (Reuters).** FedWatch, as of Tuesday 10/13: October hike 22.1%, December 89.4%.",
-  "BANKS: STRONG PROFITS, STOCKS DOWN. Goldman earned $17.01 a share vs $13.02 expected and Citi $2.85 vs $2.66; JPMorgan missed at $5.57 vs $5.90, and Wells Fargo's revenue missed (CNBC). All four closed lower, Citi down about 5.5% (Investopedia). Dimon warned that a move in rates from 5% to 6% would hurt more than 4% to 5%, adding he is not predicting it (CNBC).",
-  "ASML BEAT; CHIPS STEADIER. ASML posted Q3 sales of 11.7 billion euros and said planned supply for 2027 and 2028 will not fully meet demand, with some customers asking about 2029-2030 orders (ASML). In Asia, Samsung rose 2.8% and SK Hynix 2.0% early as the chip selloff eased (Investing.com); the Kospi closed down 0.4% at 6,008.81 (AP). China's September exports rose 36.3% vs 25.5% expected.",
-  "OIL FIRMER ON NEW IRAN TACTICS. Brent December $106.56 (+0.8%), WTI November $95.63 (+1.6%). Iranian officials told Reuters Tehran has shifted tactics to step up attacks on ships and keep oil high before the US midterms, and will expand beyond Hormuz to the Gulf of Oman (Reuters). Iran said a cargo ship carrying 2,500 containers sank after hitting a mine Wednesday; not independently verified (AP).",
-  "FUTURES A TOUCH HIGHER. S&P 500 futures 7,868.25 (+0.16%), Nasdaq 100 futures 30,757.75 (-0.11%) as of 6:55 AM ET. Tuesday: S&P 500 7,805.45 (-0.02%), 0.17% below its October 6 record close; Nasdaq 100 -0.31%; Dow -0.35%. The 10-year yield fell 3 basis points to 5.21%. VIX 15.27.",
-  "TODAY: BANK OF AMERICA, MORGAN STANLEY, BEIGE BOOK. Bank of America call 8:30 AM; Morgan Stanley results about 7:30 AM, call 9:30 AM; BlackRock before the open (company releases). Fed Beige Book 2:00 PM. Thursday: retail sales, PPI, TSMC. Friday: options expiration."
+  "ASIA TECH CRASHED OVERNIGHT. South Korea's Kospi fell more than 7% and Japan's Nikkei more than 4% (CNBC); the Kosdaq dropped 8%, triggering a 20-minute halt (investingLive). Samsung fell 9.5% and SK Hynix 6.1% (DPA). **The driver is worry about AI infrastructure debt as rates rise: CoreWeave fell nearly 17% Wednesday and its 2032 bond yielded 15% (Investopedia), and Broadcom's CEO again warned about AI financing in Singapore (DPA).**",
+  "HOT CPI HIT TECH WEDNESDAY. September CPI rose 3.7% from a year ago vs 3.6% expected, and core 2.6% vs 2.5%; core rose 0.3% on the month vs 0.2%. Gasoline rose 9.1% and was about half the headline increase (CNBC). The S&P 500 fell 1.11% to 7,718.94, 1.28% below its October 6 record close; the Nasdaq 100 fell 2.02% and chips 4.3%, a sixth straight loss (Reuters). Oracle fell 8.8% and Dell 11.4%.",
+  "FUTURES: NASDAQ DOWN AGAIN. Nasdaq 100 futures 29,794 (-1.29%), S&P 500 futures 7,743.50 (-0.34%) as of 6:50 AM ET. TSMC posted record profit of NT$763 billion, up 69%, with a 66.4% gross margin (TrendForce), but that has not lifted chips. Anthropic reportedly told investors third-quarter revenue rose 45% to about $16.8 billion, slower growth than before (Investing.com).",
+  "RATES: HIKE ODDS UP, YIELDS DOWN. FedWatch, as of Wednesday 10/14: October hike 29.9%, December 89.5%. San Francisco Fed President Daly said further hikes are \"more likely than not\" but signaled no need to move in October (investingLive). The 10-year fell to 5.144% overnight (Reuters); gold rose to $4,175.10 (+1.6%).",
+  "OIL: ARAMCO HQ HIT; BRENT EASES. A Houthi missile hit an Aramco building in Dhahran overnight after a Saudi-led strike on a Yemen fuel depot (BBC). Brent December $104.54 (-1.4%), WTI November $95.06 (flat), after Wednesday settles of $106.06 and $95.09 (Rigzone). The Beige Book said higher oil prices were reported across all 12 districts (Federal Reserve).",
+  "TODAY: PPI, RETAIL SALES, CLAIMS. 8:30 AM: PPI (BLS) and September retail sales (Census), consensus +0.3%; jobless claims, 199,000 expected. Friday: options expiration. Australia lost 39,300 jobs in September vs gains expected; unemployment 4.7% (ABS); AUD/JPY -0.9%."
  ],
- "client_frame_short": "Today is about inflation. September's consumer price report at 8:30 is expected to show prices up about 3.7% from a year ago, mostly because of energy, with core inflation near 2.5%. **The banks told the more useful story yesterday: profits are strong, but rates near 5% are starting to bite, and Jamie Dimon warned that a move to 6% would hurt more than the move to 5% did.** Stocks are steady, 0.17% below their record. For clients: a hot headline number is mostly energy, and the long-term plan does not change.",
- "client_frame": "If a client calls this morning, the story is the inflation report, read through what the banks said yesterday.\n\nThe report: at 8:30 AM the government publishes September consumer prices. Forecasters expect 3.7% over the past year, up from 3.4%, driven mainly by gasoline and energy. Core inflation, which strips out food and energy, is expected around 2.5%. That gap is the point: most of the increase is oil, not a broad wage-price spiral.\n\nThe banks: the four biggest reporters showed strong profits, led by Goldman, which earned $17.01 a share against $13.02 expected. Even so, all four stocks fell, because management warned that higher rates and sticky inflation are starting to bite. Jamie Dimon said a move in rates from 5% to 6% would be more painful than the move from 4% to 5%, while saying clearly he is not predicting it.\n\nThe Fed: New York Fed President Williams still sees one more hike this year but not more in 2027. Futures put an October hike near 22%.\n\nOil: Brent is about $106. Iranian officials told Reuters they are stepping up attacks on shipping to keep prices high before the US midterm elections. That is the inflation story in one sentence.\n\nChips: ASML, the maker of the machines that make advanced chips, said it cannot fully meet demand through 2028, a useful counterweight to this week's AI funding scare.\n\nWhy it matters: higher-for-longer rates are good news for savers and bond buyers and a headwind for borrowers and richly valued stocks. Diversified portfolios are built for this mix.\n\nFor clients, the message holds: high-quality bonds pay more than 5% for a decade, and long-term equity plans do not need changing. What would change the view: a 10-year close above 5.40% (Tuesday 5.21%), a 30-year above 5.75% (Tuesday 5.56%), or US strikes on Iran that keep Brent well above $105 (now $106.56)."
+ "client_frame_short": "This is the week the AI trade met higher rates. Wednesday's inflation report came in hot, mostly because of gasoline, and the market now worries that rising borrowing costs will squeeze the companies building AI data centers on debt. **Korea fell more than 7% and Japan more than 4% overnight, and Nasdaq futures are down another 1.3%, but the Dow is nearly flat and bonds rallied: this is a tech correction, not a broad market break.** For clients: diversification is doing its job, and long-term plans do not change.",
+ "client_frame": "If a client calls this morning, the story is a sharp pullback in AI stocks, set off by Wednesday's inflation report.\n\nWhat happened: consumer prices rose 3.7% over the past year, a bit hotter than expected, and gasoline was about half the increase. Core inflation, which excludes food and energy, was 2.6%. That raised the odds of another Fed hike, and the market sold the stocks most sensitive to borrowing costs: the AI infrastructure names. CoreWeave, which borrows heavily to build data centers, fell nearly 17%, and its bonds yield about 15%. Oracle fell 8.8% and Dell 11.4%.\n\nOvernight it spread: Korea fell more than 7%, Japan more than 4%, and Nasdaq futures are down another 1.3%.\n\nThe context: the S&P 500 is 1.28% below its October 6 record. The Nasdaq 100 is about 4% below its record, and chip stocks are about 20% below their June peak. The Dow was nearly flat Wednesday, Apple closed above $5 trillion, and TSMC just reported record profits. The demand for AI is real; the question the market is asking is who pays for it and at what interest rate.\n\nThe bond market is helping: the 10-year yield fell to about 5.14% overnight and gold rose, which is what diversification is supposed to do on a day like this.\n\nWhy it matters: portfolios concentrated in AI and chips are feeling this; balanced portfolios much less. Corrections of this kind are normal inside long bull markets, and selling into them has historically been costly. Rebalancing toward targets is the right move; abandoning the plan is not.\n\nFor clients, the message holds: high-quality bonds pay more than 5% for a decade, and long-term equity plans do not need changing. What would change the view: a 10-year close above 5.40% (Wednesday 5.19%), a 30-year above 5.75% (Wednesday 5.52%), or US strikes on Iran that keep Brent well above $105 (now $104.54)."
 }
