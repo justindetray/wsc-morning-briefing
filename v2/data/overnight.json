@@ -1,49 +1,48 @@
 {
- "window": "Thursday 2026-10-15 close -> Friday 2026-10-16 7:05 AM ET",
- "lede": "Rotation week: Dow +1.1% Thursday as money left tech; hot PPI but 10y fell to 5.10%; Asia bounced; futures flat to slightly higher.",
+ "window": "Friday 2026-10-16 close -> Saturday 2026-10-17 7:05 AM ET",
+ "lede": "Tech's worst week since June (Nasdaq 100 -5.5%, S&P -1.95%, Dow +0.67%); Brent $109.86; 10y 5.09%, down 15bp on the week.",
  "asia_close": [],
  "europe_open": [],
  "single_name_moves": [
   {
-   "ticker": "NKE",
-   "delta_pct": 6.0,
-   "venue": "Thu; led Dow, down 45% YTD before Thursday (Investopedia)"
-  },
-  {
    "ticker": "CRWV",
-   "delta_pct": 6.0,
-   "venue": "Thu close after Huang defense; still ~-15% on week (Investopedia, CNBC)"
+   "delta_pct": -12.0,
+   "venue": "Fri close; second big drop in three days (Investopedia)"
   },
   {
-   "ticker": "LLY",
-   "delta_pct": 5.0,
-   "venue": "Thu; health care sector +2.5% (Investopedia)"
+   "ticker": "MSTR",
+   "delta_pct": -10.0,
+   "venue": "Fri, nearly -10%; bitcoin lower and MSCI index-eligibility change (Investopedia)"
   },
   {
-   "ticker": "MRNA",
-   "delta_pct": 5.5,
-   "venue": "Thu (Investopedia)"
+   "ticker": "META",
+   "delta_pct": -4.0,
+   "venue": "Fri, nearly -4% (Investopedia)"
+  },
+  {
+   "ticker": "SOXX",
+   "delta_pct": -4.0,
+   "venue": "Fri; had fallen 8% through Thursday (Investopedia)"
   },
   {
    "ticker": "NVDA",
-   "delta_pct": -2.0,
-   "venue": "Thu, nearly -2% after -3% Wed (Investopedia)"
+   "delta_pct": -1.5,
+   "venue": "Fri close (Investopedia)"
   },
   {
-   "ticker": "WMT",
-   "delta_pct": 2.0,
-   "venue": "Thu; Deutsche Bank upgrade to buy, PT $136 (Investopedia)"
+   "ticker": "AAPL",
+   "delta_pct": 0.5,
+   "venue": "Fri; only Magnificent Seven gainer (Investopedia)"
   }
  ],
  "geo_headlines": [
-  "ROTATION, NOT RETREAT. Thursday the Dow rose 1.08% (550 points) as money moved out of tech into health care (+2.5%), Nike (+6%), Walmart and Home Depot; energy fell 1.6% and tech 1.1% (Investopedia). S&P 500 +0.33% to 7,744.06, 0.96% below its October 6 record close; Nasdaq 100 -0.05%, about 4% below its record; chips -0.88%. **CoreWeave closed up about 6% after Nvidia's Jensen Huang said its \"cost of capital is actually decreasing\" (AFP).**",
-  "HOT PPI, STRONG SPENDING. September producer prices rose 1.3% on the month vs 0.6% expected and 6.3% from a year ago vs 5.5%, the largest annual gain since 2022; core PPI 5.0%. Almost half the jump in goods for immediate demand traced to diesel (CNBC). Retail sales rose 0.8% vs 0.4% expected. The 10-year still fell to 5.10% (Treasury), from 5.19%.",
-  "BONDS' BEST WEEK SINCE FEBRUARY. The 10-year is 5.09% Friday morning and yields are headed for their biggest weekly decline since February (Bloomberg). The 2-year closed at 4.77%, the 30-year at 5.43%. FedWatch, as of Thursday 10/15: October hike 25.5% (from 29.9%), December 89.0%. Gold $4,198.70 (+0.7%).",
-  "WARSH: AI 'MOST CONSEQUENTIAL CHANGE'. At the IMF-World Bank meetings in Bangkok, Fed Chair Warsh called AI the most consequential change to the global economy in his lifetime, with a \"bumpy\" path (AFP). He said central bankers everywhere hear the same about \"the surge in prices\" and would not say what he will do at the remaining meetings; the FOMC meets October 27-28 (Investing.com).",
-  "ASIA BOUNCES; KOSPI WORST WEEK SINCE 2008. Nikkei +1.4% to 65,324.29 and Kospi +2.1% to 5,668.05 after Thursday's 4.9% and 7.6% drops; Jakarta fell more than 11%, its worst day since 1998 (AFP). The Kospi is still down 14.5% this week, its worst since October 2008 (CNBC). China urged state funds to buy shares (Bloomberg). Futures: S&P 7,804 (+0.17%), Nasdaq 100 30,123.25 (-0.07%).",
-  "OIL: WTI CATCHES UP TO BRENT. November WTI settled $97.97 (+3%) Thursday while December Brent slipped to $105.92, as cheaper US shipping lifted demand for US barrels (Rigzone). Now WTI $96.01 (-2.0%), Brent $106.15 (+0.2%). Hormuz flows are 68% of normal (Kpler); the US may ease sanctions on some shadow-fleet tankers to cut freight rates, and the IEA is releasing 20 million barrels of diesel (Reuters).",
-  "TODAY: IMPORT PRICES, OUTPUT, OPEX. 8:30 AM: import and export prices (BLS), consensus +0.9% and +1.0%. 9:15 AM: industrial production, +0.4% expected; capacity use 76.5%. Monthly options expiration. Houthis say they will keep targeting Saudi airports and oil sites; Riyadh's airport was attacked 20 times in October (coalition). Citizens Financial EPS $1.41, up 34%."
+  "TECH'S WORST WEEK SINCE JUNE. Friday the S&P 500 fell 1.09% to 7,659.44 and the Nasdaq 100 2.50%; chips fell 3.83% and the Dow 0.34% (AP). **For the week the S&P 500 lost 1.95%, the Nasdaq Composite 4.5%, its worst week since June, and the Nasdaq 100 5.5%, while the Dow gained 0.67% (AP).** VIX 19.99, up from 16.46. The S&P 500 is 2.04% below its October 6 record close.",
+  "AI DEBT WORRIES CAME BACK. CoreWeave fell 12% Friday, giving back Thursday's Huang-driven bounce (Investopedia). D.A. Davidson's Gil Luria called neoclouds the \"subprime tranche\" of the AI trade, and Chinese memory maker CXMT's progress on advanced chips weighed on memory stocks (CNN). Meta fell nearly 4%; Apple was the only Magnificent Seven gainer.",
+  "OIL: BRENT HIT $110. December Brent settled $109.86 (+3.7%) and November WTI $101.41 (+3.5%), above $100 (Rigzone, CNBC). WTI gained more than 10% on the week and Brent nearly 5% (CNBC). At least nine ships were attacked around Hormuz since Sunday; Eurasia Group raised its odds of escalation to 65% from 35%; the US offered up to 17 million barrels from the SPR (Rigzone).",
+  "IRAN: TALK OF STRIKES, NOT STRIKES. Trump told Newsmax the US \"may have to\" hit Iran's Pickaxe Mountain nuclear site (Reuters). No US strike has been reported. Saturday, Iran's Revolutionary Guard said a supertanker carrying more than two million barrels caught fire after hitting a mine in Hormuz, and Trump said the US blockade has stopped all Iranian ships (Al Jazeera).",
+  "DATA: IMPORT PRICES HOT, FACTORIES FIRM. Import prices rose 1.1% in September and 8.1% from a year ago; fuel imports +34.5% (BLS). Industrial production rose 0.7%, capacity use 76.9% (Federal Reserve). The 10-year closed at 5.09%, down 15bp on the week (Treasury). FedWatch, as of Friday: October hike 18.8% (from 25.5%), December 84.8%. Gold $4,181.10.",
+  "NEXT WEEK: EARNINGS PICK UP. Tuesday: GE Aerospace, GM before the open; Netflix after. Wednesday after the close: Meta, Tesla, Texas Instruments, IBM, Lam Research. Thursday: Procter & Gamble. Friday: American Express (StockTitan). November WTI expires Tuesday. The Fed meets October 27-28."
  ],
- "client_frame_short": "This was a rotation week, not a crash. Money came out of the AI and chip stocks that had led for months and went into health care, consumer names and bonds. **The Nasdaq 100 is down about 3% since Monday and Korea had its worst week since 2008, yet the Dow is up about 1% for the week and bonds are on track for their best week since February.** That is exactly what a diversified portfolio is built to do. Inflation is still running hot, so the Fed stays on alert, but long-term plans do not need to change.",
- "client_frame": "If a client calls this morning, the story is a market rotating, not a market breaking.\n\nWhat happened this week: worries about how AI data centers get financed, plus hot inflation reports, knocked the AI and chip stocks that led for most of the year. The Nasdaq 100 fell about 3% since Monday, chip stocks are about 21% below their June peak, and Korea, home of Samsung and SK Hynix, had its worst week since 2008.\n\nWhere the money went: health care, consumer companies and bonds. Thursday the Dow rose 550 points while Nike, Eli Lilly, Walmart and Home Depot rallied. The 10-year Treasury yield fell from 5.19% to 5.10% in a day, and bonds are headed for their best week since February. The S&P 500 is less than 1% below its October 6 record.\n\nThe inflation picture: wholesale prices rose 6.3% over the past year, the most since 2022, much of it diesel and energy from the Middle East conflict. Shoppers kept spending, with retail sales up 0.8%. That is why the Fed is still weighing another hike; the odds of an October move are about one in four, and a December hike is close to fully priced.\n\nThe Fed Chair's long view: Warsh called AI the most consequential economic change of his lifetime, positive over time but with a bumpy path. That is a fair description of this week.\n\nWhy it matters: concentrated AI and chip portfolios felt this; balanced portfolios mostly did not. Leadership rotations like this happen inside long bull markets, and the investors who get hurt are usually the ones who chase whatever just worked.\n\nFor clients: diversification is earning its keep, high-quality bonds still pay about 5% for a decade, and this is a reasonable moment to rebalance toward targets, not to abandon them. What would change the view: a 10-year close above 5.40% (Thursday 5.10%), a 30-year above 5.75% (Thursday 5.43%), or US strikes on Iran that keep Brent well above $105 (now $106.15)."
+ "client_frame_short": "This was a tough week for technology stocks and a fine week for almost everything else. The Nasdaq 100 fell 5.5% on worries about how AI data centers get financed at today's interest rates, while the Dow rose 0.7% and bonds rallied. **Oil is the new wrinkle: Brent touched $110 Friday as attacks around the Strait of Hormuz rose, and that matters more for inflation and the Fed than the AI debate does.** For clients, balanced portfolios held up as designed, and long-term plans do not need to change.",
+ "client_frame": "If a client calls this weekend, the story is a tech pullback inside a market that is otherwise holding together.\n\nThe week: the S&P 500 fell 1.95% and the Nasdaq 100 5.5%, the worst week for tech since June. The Dow rose 0.67%. The S&P 500 is about 2% below its October 6 record close, and chip stocks are about 24% below their June peak.\n\nWhy tech fell: a hot inflation report raised the odds of more Fed hikes, and investors began asking whether the companies borrowing heavily to build AI data centers can carry that debt at 5% interest rates. CoreWeave, the poster child, swung from -15% to +6% to -12% in three days. One analyst called these companies the \"subprime tranche\" of the AI trade. The demand for AI is not in question; the financing is.\n\nOil is the bigger macro story: Brent rose to $109.86 and US crude above $100 as attacks on ships around Hormuz hit a high. Higher fuel costs already showed up in this week's inflation reports: wholesale prices up 6.3% from a year ago and import prices up 8.1%. That is what keeps the Fed leaning toward a December hike, which markets price at about 85%.\n\nWhat helped: bonds. The 10-year yield fell from 5.24% to 5.09% over the week, so balanced portfolios had a cushion.\n\nWhy it matters: concentrated tech portfolios felt this, diversified ones much less. Weeks like this are normal; the S&P 500 has had four down weeks in the last six and is still only about 2% from its high.\n\nNext week: Netflix Tuesday, Meta and Tesla Wednesday, which will test the AI story directly.\n\nFor clients: stay invested, rebalance toward targets, and let high-quality bonds that pay about 5% do their job. What would change the view: a 10-year close above 5.40% (Friday 5.09%), a 30-year above 5.75% (Friday 5.43%), or US strikes on Iran that keep Brent well above $105. Brent is already there at $109.86; the missing piece is strikes, and Trump is now talking about them."
 }

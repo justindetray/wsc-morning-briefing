@@ -1,39 +1,53 @@
 {
- "last_curated": "2026-10-16",
+ "last_curated": "2026-10-17",
  "macro": [
   {
-   "date": "2026-10-16",
-   "time_et": "8:30 AM",
-   "event": "Import / export prices (Sep)",
-   "consensus": "import +0.9% m/m (Aug +0.7%); export +1.0% (Aug +0.6%) - BLS schedule; Investing.com consensus",
+   "date": "2026-10-20",
+   "time_et": "Before open",
+   "event": "GE Aerospace, GM, RTX, 3M earnings",
+   "consensus": "n/a - StockTitan",
    "importance": "medium"
   },
   {
-   "date": "2026-10-16",
-   "time_et": "9:15 AM",
-   "event": "Industrial production (Sep)",
-   "consensus": "+0.4% m/m (Aug 0.0%); capacity utilization 76.5% - Fed G.17 date confirmed; standard 9:15 ET time",
+   "date": "2026-10-20",
+   "time_et": "After close",
+   "event": "Netflix earnings (~4:01 PM)",
+   "consensus": "n/a - StockTitan",
    "importance": "medium"
   },
   {
-   "date": "2026-10-16",
-   "time_et": "1:00 PM",
-   "event": "Baker Hughes rig count",
-   "consensus": "prior 462 oil / 603 total",
+   "date": "2026-10-20",
+   "time_et": "",
+   "event": "November WTI contract expires",
+   "consensus": "n/a - CME rule (3 business days before the 25th)",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-10-21",
+   "time_et": "After close",
+   "event": "Meta, Tesla, Texas Instruments, IBM, Lam Research earnings",
+   "consensus": "n/a - StockTitan",
+   "importance": "high"
+  },
+  {
+   "date": "2026-10-22",
+   "time_et": "Before open",
+   "event": "Procter & Gamble, Union Pacific, Valero earnings",
+   "consensus": "n/a - StockTitan",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-10-23",
+   "time_et": "Before open",
+   "event": "American Express earnings (~7:00 AM)",
+   "consensus": "n/a - StockTitan",
    "importance": "low"
   },
   {
-   "date": "2026-10-16",
-   "time_et": "",
-   "event": "Monthly options expiration",
-   "consensus": "n/a",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-27",
-   "time_et": "",
-   "event": "FOMC meeting begins (Oct 27-28)",
-   "consensus": "FedWatch Oct hike 25.5%",
+   "date": "2026-10-28",
+   "time_et": "2:00 PM",
+   "event": "FOMC decision",
+   "consensus": "Hike odds 18.8% - CME FedWatch",
    "importance": "high"
   }
  ],
