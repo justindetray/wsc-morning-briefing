@@ -1,5 +1,5 @@
 {
- "last_curated": "2026-10-17",
+ "last_curated": "2026-10-18",
  "macro": [
   {
    "date": "2026-10-20",
@@ -20,6 +20,13 @@
    "time_et": "",
    "event": "November WTI contract expires",
    "consensus": "n/a - CME rule (3 business days before the 25th)",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-10-21",
+   "time_et": "",
+   "event": "VIX options and futures expire (October)",
+   "consensus": "n/a - Cboe; Learn Orderflow calendar",
    "importance": "medium"
   },
   {
