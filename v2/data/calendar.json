@@ -1,6 +1,34 @@
 {
- "last_curated": "2026-10-18",
+ "last_curated": "2026-10-19",
  "macro": [
+  {
+   "date": "2026-10-19",
+   "time_et": "Before open",
+   "event": "Cleveland-Cliffs, Fifth Third earnings",
+   "consensus": "n/a - Schwab Network",
+   "importance": "low"
+  },
+  {
+   "date": "2026-10-19",
+   "time_et": "10:00 AM",
+   "event": "NAHB homebuilder index (Oct)",
+   "consensus": "prior 32 - Schwab Network calendar; NAHB normal 10:00 ET release time",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-10-19",
+   "time_et": "After close",
+   "event": "Steel Dynamics, Zions earnings",
+   "consensus": "n/a - Schwab Network",
+   "importance": "low"
+  },
+  {
+   "date": "2026-10-20",
+   "time_et": "8:30 AM",
+   "event": "Housing starts and permits (Sep)",
+   "consensus": "n/a - Schwab Network",
+   "importance": "medium"
+  },
   {
    "date": "2026-10-20",
    "time_et": "Before open",
@@ -35,20 +63,6 @@
    "event": "Meta, Tesla, Texas Instruments, IBM, Lam Research earnings",
    "consensus": "n/a - StockTitan",
    "importance": "high"
-  },
-  {
-   "date": "2026-10-22",
-   "time_et": "Before open",
-   "event": "Procter & Gamble, Union Pacific, Valero earnings",
-   "consensus": "n/a - StockTitan",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-23",
-   "time_et": "Before open",
-   "event": "American Express earnings (~7:00 AM)",
-   "consensus": "n/a - StockTitan",
-   "importance": "low"
   },
   {
    "date": "2026-10-28",
