@@ -1,47 +1,33 @@
 {
- "last_curated": "2026-10-19",
+ "last_curated": "2026-10-20",
  "macro": [
-  {
-   "date": "2026-10-19",
-   "time_et": "Before open",
-   "event": "Cleveland-Cliffs, Fifth Third earnings",
-   "consensus": "n/a - Schwab Network",
-   "importance": "low"
-  },
-  {
-   "date": "2026-10-19",
-   "time_et": "10:00 AM",
-   "event": "NAHB homebuilder index (Oct)",
-   "consensus": "prior 32 - Schwab Network calendar; NAHB normal 10:00 ET release time",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-19",
-   "time_et": "After close",
-   "event": "Steel Dynamics, Zions earnings",
-   "consensus": "n/a - Schwab Network",
-   "importance": "low"
-  },
   {
    "date": "2026-10-20",
    "time_et": "8:30 AM",
    "event": "Housing starts and permits (Sep)",
-   "consensus": "n/a - Schwab Network",
+   "consensus": "n/a - Schwab Network calendar",
    "importance": "medium"
   },
   {
    "date": "2026-10-20",
+   "time_et": "10:00 AM",
+   "event": "Pending home sales (Sep)",
+   "consensus": "n/a - Schwab Network calendar",
+   "importance": "low"
+  },
+  {
+   "date": "2026-10-20",
    "time_et": "Before open",
-   "event": "GE Aerospace, GM, RTX, 3M earnings",
-   "consensus": "n/a - StockTitan",
+   "event": "GE Aerospace, RTX, 3M, Halliburton earnings (GM, Northrop out)",
+   "consensus": "n/a - Schwab Network, StockTitan",
    "importance": "medium"
   },
   {
    "date": "2026-10-20",
    "time_et": "After close",
-   "event": "Netflix earnings (~4:01 PM)",
-   "consensus": "n/a - StockTitan",
-   "importance": "medium"
+   "event": "Netflix earnings (4:01 PM); Capital One, Intuitive Surgical, United",
+   "consensus": "options imply ~9.6% NFLX move - TipRanks",
+   "importance": "high"
   },
   {
    "date": "2026-10-20",
@@ -65,10 +51,24 @@
    "importance": "high"
   },
   {
+   "date": "2026-10-22",
+   "time_et": "8:30 AM",
+   "event": "Weekly jobless claims",
+   "consensus": "n/a - Schwab Network calendar",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-10-22",
+   "time_et": "Before open",
+   "event": "Procter & Gamble, Union Pacific, Valero earnings",
+   "consensus": "n/a - StockTitan",
+   "importance": "medium"
+  },
+  {
    "date": "2026-10-28",
    "time_et": "2:00 PM",
    "event": "FOMC decision",
-   "consensus": "Hike odds 18.8% - CME FedWatch",
+   "consensus": "Hike odds 17.7% - CME FedWatch",
    "importance": "high"
   }
  ],

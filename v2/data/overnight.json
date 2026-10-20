@@ -1,49 +1,49 @@
 {
- "window": "Friday 2026-10-16 close -> Monday 2026-10-19 7:05 AM ET",
- "lede": "Futures bounce led by chips; oil eases on Russia sanctions waiver; China GDP beats; France riots weigh on Europe; no US strikes on Iran.",
+ "window": "Monday 2026-10-19 close -> Tuesday 2026-10-20 7:05 AM ET",
+ "lede": "Chip bounce fades in futures; 10y 5.15%, Dec hike 92%; Brent $111; Iran claims a US strike, US denies; GM beats; Netflix tonight.",
  "asia_close": [],
  "europe_open": [],
  "single_name_moves": [
   {
+   "ticker": "NOC",
+   "delta_pct": 3.8,
+   "venue": "premarket; Q3 sales $11.12B (+7%), EPS $7.89, backlog $109.6B, raised 2026 profit outlook (CNBC, TradingView)"
+  },
+  {
+   "ticker": "AMZN",
+   "delta_pct": 5.0,
+   "venue": "Mon close; Morgan Stanley top pick, target $350 (Investopedia)"
+  },
+  {
+   "ticker": "TSLA",
+   "delta_pct": 3.8,
+   "venue": "Mon close, ahead of Wednesday earnings (CNBC)"
+  },
+  {
    "ticker": "INTC",
-   "delta_pct": 4.0,
-   "venue": "premarket; JPMorgan upgrade to neutral from underweight, $85 target (TipRanks, CNBC)"
+   "delta_pct": 2.5,
+   "venue": "Mon close after JPMorgan upgrade (Investopedia)"
   },
   {
    "ticker": "CRWV",
-   "delta_pct": 1.3,
-   "venue": "premarket after -11.9% Friday (StockAnalysis); CDS at distress levels (CNBC)"
+   "delta_pct": -0.4,
+   "venue": "Mon close; Goldman upgrade to buy, early gains faded; CDS still distressed (CNBC)"
   },
   {
-   "ticker": "CXMT",
-   "delta_pct": -7.0,
-   "venue": "Shanghai; fell more than 7% despite strong nine-month profit forecast (AP)"
-  },
-  {
-   "ticker": "8035.T",
-   "delta_pct": -2.6,
-   "venue": "Tokyo Electron, Tokyo close (AP)"
-  },
-  {
-   "ticker": "9984.T",
+   "ticker": "MU",
    "delta_pct": -2.0,
-   "venue": "SoftBank Group, Tokyo close (AP)"
-  },
-  {
-   "ticker": "005930.KS",
-   "delta_pct": 1.2,
-   "venue": "Samsung Electronics, Seoul close (AP)"
+   "venue": "premarket, after rising up to ~6% Monday (CNBC, Investopedia)"
   }
  ],
  "geo_headlines": [
-  "FUTURES BOUNCE, LED BY CHIPS. S&P 500 futures 7,749.25 (+0.58%) and Nasdaq 100 futures 29,748 (+1.21%) after last week's 5.5% Nasdaq 100 drop. Intel rose about 4% premarket on a JPMorgan upgrade to neutral; Micron, Broadcom, Qualcomm and TSMC traded 2-5% higher (Yahoo Finance). **Goldman traders said AI credit spreads are the widest of the year and Friday's put volume was the second-highest of the year, behind June (CNBC).**",
-  "NEOCLOUD CREDIT STRESS. CoreWeave's credit default swaps reached distress levels last week (CNBC); the stock is up about 1% premarket after Friday's 11.9% drop. The Information reported executives expect only 7-10 of hundreds of neocloud operators to survive, with Nvidia backstopping about $20 billion in leases (AI Weekly).",
-  "OIL EASES ON RUSSIA WAIVER. Brent $108.45 (-1.3%) after Friday's $109.86 settle, its highest since May; December WTI $98.17 (-0.9%). Trump signed an executive order Friday evening suspending Russia sanctions and waiving proposed tariffs on buyers of Russian oil (Yahoo Finance); the US expects more than 300,000 tonnes of Russian diesel (investingLive). No US strike on Iran was reported; Trump said the US could \"soon finish the job\" (Iran International).",
-  "CHINA BEATS; ASIA MIXED. China's third-quarter GDP grew 4.5% from a year ago vs 4.4% expected, up from 4.3%; September output +5.5%, retail sales +1.1%, fixed investment -7.2% year to date (investingLive). Kospi +1.8% to 5,768.01, Nikkei -0.6% to 64,916.70, Shanghai +0.4%; Hong Kong closed. Indonesia fell more than 5% to its lowest since 2020 on an MSCI downgrade warning (AP).",
-  "FRANCE RIOTS WEIGH ON EUROPE. About 550,000 marched Saturday against living costs; protests turned to rioting and looting, with 2,400 arrests and about 1,500 shops hit (Euronews). At the open the Stoxx 600 fell 0.6%, the DAX 0.8% and the CAC 40 0.5%; the euro slipped 0.2%. Unions called a national strike for November 5.",
-  "BONDS STEADY NEAR 5.06%. The 10-year is 5.06% this morning (Bloomberg), after closing Friday at 5.09% (Treasury), down about 15bp last week; 2-year 4.74%, 30-year 5.43%. FedWatch, as of Friday 10/16: October hike 18.8%, December 84.8%. Gold $4,187.50. Bitcoin $82,284.58 (+0.3%).",
-  "TODAY AND THIS WEEK. 10:00 AM: NAHB homebuilder index, September 32 (Schwab Network). Earnings: Cleveland-Cliffs and Fifth Third before the open; Steel Dynamics and Zions after. Tuesday: housing starts, GE, GM, RTX, Netflix; November WTI expires. Wednesday: VIX expiration, Meta, Tesla, IBM, Texas Instruments. Fed officials are in their quiet period before October 27-28."
+  "CHIPS SNAP AN 8-DAY SLIDE. Monday the S&P 500 rose 0.41% to 7,690.73, the Nasdaq 100 1.17% and chips 1.61%, ending an eight-day losing streak (Bloomberg); the Dow slipped 0.07%. Amazon rose 5% on a Morgan Stanley top-pick call, Tesla 3.8% (Investopedia). The S&P 500 is 1.64% below its October 6 record close. **This morning the bounce is fading: S&P futures 7,725.25 (-0.12%), Nasdaq 100 futures 29,580 (-0.48%), with Micron and Sandisk down 2% (CNBC).**",
+  "YIELDS BACK UP. The 10-year rose to 5.15% Monday from 5.09%, the 2-year to 4.77%, the 30-year to 5.48% (Treasury), on higher oil, less haven demand and rebuilt hike bets (Bloomberg). FedWatch, as of Monday 10/19: October hike 17.7%, December 91.8%, up from 84.8% Friday.",
+  "OIL: BRENT $111. Brent $111.12 (+1.4%), above Monday's $110.70 peak, the highest since May 20 (WAM). December WTI $100.40 (+1.9%) as the November contract expires today; it settled $103.66 on thin volume (oilauthority). Iran's first vice president said Tehran has \"no choice\" but to assert control over Hormuz (IRNA via roic.ai); Houthi claims of hits on Aramco sites are unconfirmed.",
+  "IRAN: A DISPUTED STRIKE CLAIM. Iran's navy said US forces fired two light projectiles at its Konarak base early Monday, wounding two soldiers (Al Jazeera); a US official denied it (Shafaq News). Trump told a Kansas rally \"we can leave right now\" (ABC). Iranian officials told Reuters Tehran is dragging out talks to hurt Trump before the November 3 midterms. Lavrov said Russia will keep working with Iran (ABC).",
+  "ASIA AND EUROPE LOWER. Kospi -3.7% to 5,552.74 on chip selling and Nikkei -1.3% to 64,075.42 (AP, Chosun). France imposed nighttime curfews in Paris and Nice; French bonds had their worst day in nearly a month Monday. Stoxx 600 -0.3%, DAX -0.4% (Yahoo Finance).",
+  "EARNINGS: GM BEATS, NETFLIX TONIGHT. GM's core profit rose 22% and easily beat estimates on pickups and SUVs (Reuters), and its board approved a new $20 billion buyback (GM release). Northrop +3.8% premarket on higher sales and outlook. GE, RTX, 3M and Halliburton report this morning; Netflix at 4:01 PM, with options pricing about a 9.6% move (TipRanks).",
+  "TODAY AND THIS WEEK. 8:30 AM: housing starts and permits (September). 10:00 AM: pending home sales (Schwab Network). November WTI expires. Wednesday: VIX expiration; Meta, Tesla, IBM, Texas Instruments after the close. Thursday: jobless claims, P&G. Fed quiet period before October 27-28."
  ],
- "client_frame_short": "Markets are bouncing this morning after tech's worst week since June: Nasdaq futures are up about 1%, led by the same chip stocks that fell hardest. **One good morning does not settle the AI financing question, so the right response to last week is the same as the right response to today: rebalance, don't chase or flee.** Oil has eased a bit after the White House waived Russia sanctions, China's growth beat expectations, and this week's earnings from Netflix, Meta and Tesla will tell us more than headlines. Long-term plans do not need to change.",
- "client_frame": "If a client calls this morning, the story is a rebound after a rough week, not a change in direction either way.\n\nWhere we are: the S&P 500 is about 2% below its October 6 record close after falling 1.95% last week; the Nasdaq 100 fell 5.5%; the Dow rose. This morning S&P futures are up about 0.6% and Nasdaq futures about 1.2%, led by Intel, Micron and other chip makers.\n\nThe AI question is still open. Goldman's traders say AI-related credit spreads are the widest of the year, and CoreWeave's default insurance is priced at distress levels. Money is still flowing to AI, but lenders are asking for more, and the weakest borrowers are being sorted out. That is a credit story inside a healthy demand story, and it can take weeks to play out.\n\nOil: Brent is about $108, down from Friday's five-month high, after the White House suspended Russia sanctions and waived tariffs on buyers of Russian oil to bring fuel prices down. Hormuz attacks remain elevated and there is no deal with Iran, so oil is still the main inflation risk and the reason markets price about an 85% chance of a December Fed hike.\n\nElsewhere: China grew 4.5%, a bit better than expected, and riots in France knocked European stocks lower this morning.\n\nWhy it matters: diversified portfolios handled last week as designed. Bonds paying about 5% cushioned the tech drop, and the Dow rose. Sharp one-week drops in leadership stocks happen inside long bull markets, and selling into them has historically cost more than it saved.\n\nFor clients: stay invested, rebalance toward targets, and do not read too much into one up morning or one down week. What would change the view: a 10-year close above 5.40% (Friday 5.09%), a 30-year above 5.75% (Friday 5.43%), or US strikes on Iran that keep Brent well above $105 (now $108.45). Brent is already there; the missing piece is strikes."
+ "client_frame_short": "Monday's tech bounce was real but small, and it is already fading this morning. The bigger change is in rates and oil: the 10-year is back to 5.15%, Brent is above $111, and markets now see a December Fed hike as about 92% likely. **For clients, the message is unchanged: this is a market sorting out what AI is worth while energy keeps inflation sticky, and diversified portfolios are handling it.** Netflix tonight and Meta and Tesla tomorrow are the next tests, and long-term plans do not need to change.",
+ "client_frame": "If a client calls this morning, the story is that the tech rebound paused while oil and rates moved back up.\n\nMonday: the S&P 500 rose 0.4% and the Nasdaq 100 1.2%, and chip stocks ended an eight-day losing streak. Amazon and Tesla led. The S&P 500 is about 1.6% below its October 6 record close. This morning futures are slightly lower, with chip stocks giving back some of Monday's gain.\n\nRates: the 10-year Treasury yield rose from 5.09% to 5.15%, as higher oil prices fed inflation worries and traders rebuilt bets on Fed hikes. Markets now price about a 92% chance of a December hike, up from 85% Friday. Higher yields are the main headwind for stock valuations right now.\n\nOil: Brent is above $111, its highest since May. Iran says it has no choice but to control Hormuz, and its navy claims a US strike on one of its bases, which a US official denied. Trump says the US could leave any time. The fog of war is thick, and the market is paying a risk premium for it.\n\nEarnings: GM beat and announced a $20 billion buyback, Northrop raised its outlook, and Netflix reports tonight, with Meta and Tesla tomorrow. Company results so far are solid, which is the best counterweight to the AI financing worries.\n\nWhy it matters: the drivers are rates and oil, not a collapse in earnings. That is a slow-moving backdrop, not a reason to change plans. Bonds yielding over 5% for a decade are a real alternative to cash, and a balanced portfolio collects that income while it waits.\n\nFor clients: stay invested, rebalance toward targets, and keep bond ladders working at today's yields. What would change the view: a 10-year close above 5.40% (Monday 5.15%), a 30-year above 5.75% (Monday 5.48%), or confirmed US strikes on Iran that keep Brent well above $105 (now $111.12). Brent is there; the strike claim is disputed, and confirmation is the missing piece."
 }
