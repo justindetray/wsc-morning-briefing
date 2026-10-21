@@ -1,53 +1,32 @@
 {
- "last_curated": "2026-10-20",
+ "last_curated": "2026-10-21",
  "macro": [
-  {
-   "date": "2026-10-20",
-   "time_et": "8:30 AM",
-   "event": "Housing starts and permits (Sep)",
-   "consensus": "n/a - Schwab Network calendar",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-20",
-   "time_et": "10:00 AM",
-   "event": "Pending home sales (Sep)",
-   "consensus": "n/a - Schwab Network calendar",
-   "importance": "low"
-  },
-  {
-   "date": "2026-10-20",
-   "time_et": "Before open",
-   "event": "GE Aerospace, RTX, 3M, Halliburton earnings (GM, Northrop out)",
-   "consensus": "n/a - Schwab Network, StockTitan",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-20",
-   "time_et": "After close",
-   "event": "Netflix earnings (4:01 PM); Capital One, Intuitive Surgical, United",
-   "consensus": "options imply ~9.6% NFLX move - TipRanks",
-   "importance": "high"
-  },
-  {
-   "date": "2026-10-20",
-   "time_et": "",
-   "event": "November WTI contract expires",
-   "consensus": "n/a - CME rule (3 business days before the 25th)",
-   "importance": "medium"
-  },
   {
    "date": "2026-10-21",
    "time_et": "",
-   "event": "VIX options and futures expire (October)",
+   "event": "VIX options and futures expire (October, AM settlement)",
    "consensus": "n/a - Cboe; Learn Orderflow calendar",
    "importance": "medium"
   },
   {
    "date": "2026-10-21",
+   "time_et": "Before open",
+   "event": "AT&T, Abbott, NextEra, CME, Thermo Fisher, Philip Morris earnings",
+   "consensus": "n/a - Earnings Whispers",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-10-21",
+   "time_et": "10:30 AM",
+   "event": "EIA weekly petroleum status report",
+   "consensus": "API est. crude -4.9M bbl - engine.online/Trading Economics",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-10-21",
    "time_et": "After close",
-   "event": "Meta, Tesla, Texas Instruments, IBM, Lam Research earnings",
-   "consensus": "n/a - StockTitan",
+   "event": "Meta, Tesla, IBM, Texas Instruments, Lam Research earnings",
+   "consensus": "n/a - StockTitan, TheStreet",
    "importance": "high"
   },
   {
@@ -65,10 +44,17 @@
    "importance": "medium"
   },
   {
+   "date": "2026-10-23",
+   "time_et": "Before open",
+   "event": "American Express earnings (~7:00 AM)",
+   "consensus": "n/a - StockTitan",
+   "importance": "low"
+  },
+  {
    "date": "2026-10-28",
    "time_et": "2:00 PM",
    "event": "FOMC decision",
-   "consensus": "Hike odds 17.7% - CME FedWatch",
+   "consensus": "Hike odds 16.6% - CME FedWatch",
    "importance": "high"
   }
  ],

@@ -1,121 +1,121 @@
 {
  "ES": {
-  "value": 7725.25,
-  "prev_close": 7734.5,
-  "delta_pct": -0.1196,
+  "value": 7768.75,
+  "prev_close": 7755.25,
+  "delta_pct": 0.1741,
   "label": "E-mini S&P (Dec)",
-  "as_of": "Tue 7:05 AM ET",
+  "as_of": "Wed 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance ESUSD quote ts 2026-10-20 10:50:56 UTC; base = vendor previousClose 7,734.50 (Monday settle); range 7,720-7,752.75; CNBC 6:22 AM: S&P futures flat"
+  "source": "finance ESUSD quote ts 2026-10-21 10:51:03 UTC; base = vendor previousClose 7,755.25 (Tuesday settle); range 7,757-7,793; Bloomberg S&P futures +0.2%, Investopedia +0.1% corroborate"
  },
  "NQ": {
-  "value": 29580.0,
-  "prev_close": 29722.5,
-  "delta_pct": -0.4794,
+  "value": 29817.5,
+  "prev_close": 29675.25,
+  "delta_pct": 0.4794,
   "label": "E-mini Nasdaq (Dec)",
-  "as_of": "Tue 7:05 AM ET",
+  "as_of": "Wed 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance NQUSD quote ts 2026-10-20 10:50:55 UTC; base = vendor previousClose 29,722.50 (Monday settle); range 29,527.75-29,803.50; CNBC 6:22 AM: Nasdaq 100 futures -0.3%"
+  "source": "finance NQUSD quote ts 2026-10-21 10:51:06 UTC; base = vendor previousClose 29,675.25 (Tuesday settle); range 29,728.75-30,010.25; Bloomberg +0.7%, Investopedia +0.3% corroborate"
  },
  "SOX": {
-  "value": 11316.34,
-  "prev_close": 11137.29,
-  "delta_pct": 1.6077,
+  "value": 11283.81,
+  "prev_close": 11316.34,
+  "delta_pct": -0.2875,
   "label": "Semis",
-  "as_of": "Mon 10/19 close",
+  "as_of": "Tue 10/20 close",
   "status": "CLOSED",
-  "source": "Polygon I:SOX daily 2026-10-19 settled close vs 2026-10-16 close (same-day 10/20 VIX bar dropped, #177-A)"
+  "source": "Polygon I:SOX daily 2026-10-20 settled close vs 2026-10-19 close (same-day 10/21 VIX bar dropped, #177-A)"
  },
  "DJI": {
-  "value": 51966.03,
-  "prev_close": 52002.41,
-  "delta_pct": -0.07,
+  "value": 52495.88,
+  "prev_close": 51966.03,
+  "delta_pct": 1.0196,
   "label": "Dow",
-  "as_of": "Mon 10/19 close",
+  "as_of": "Tue 10/20 close",
   "status": "CLOSED",
-  "source": "Polygon I:DJI daily 2026-10-19 settled close vs 2026-10-16 close (same-day 10/20 VIX bar dropped, #177-A)"
+  "source": "Polygon I:DJI daily 2026-10-20 settled close vs 2026-10-19 close (same-day 10/21 VIX bar dropped, #177-A)"
  },
  "VIX": {
-  "value": 18.44,
-  "prev_close": 19.99,
-  "delta_pct": -7.7539,
+  "value": 17.31,
+  "prev_close": 18.44,
+  "delta_pct": -6.128,
   "label": "VIX",
-  "as_of": "Mon 10/19 close",
+  "as_of": "Tue 10/20 close",
   "status": "CLOSED",
-  "source": "Polygon I:VIX daily 2026-10-19 settled close vs 2026-10-16 close (same-day 10/20 VIX bar dropped, #177-A)"
+  "source": "Polygon I:VIX daily 2026-10-20 settled close vs 2026-10-19 close (same-day 10/21 VIX bar dropped, #177-A)"
  },
  "US10Y": {
-  "value": 5.15,
-  "prev_close": 5.09,
-  "delta_pct": 1.1788,
+  "value": 5.12,
+  "prev_close": 5.15,
+  "delta_pct": -0.5825,
   "label": "US 10y",
-  "as_of": "Mon 10/19 close",
+  "as_of": "Tue 10/20 close",
   "status": "CLOSED",
-  "source": "Treasury CMT 10/19/2026 5.15 vs 10/16 5.09"
+  "source": "Treasury CMT 10/20/2026 5.12 vs 10/19 5.15"
  },
  "US2Y": {
-  "value": 4.77,
-  "prev_close": 4.74,
-  "delta_pct": 0.6329,
+  "value": 4.79,
+  "prev_close": 4.77,
+  "delta_pct": 0.4193,
   "label": "US 2y",
-  "as_of": "Mon 10/19 close",
+  "as_of": "Tue 10/20 close",
   "status": "CLOSED",
-  "source": "Treasury CMT 10/19/2026 4.77 vs 10/16 4.74"
+  "source": "Treasury CMT 10/20/2026 4.79 vs 10/19 4.77"
  },
  "WTI": {
-  "value": 100.4,
-  "prev_close": 98.54,
-  "delta_pct": 1.8876,
+  "value": 99.57,
+  "prev_close": 97.82,
+  "delta_pct": 1.789,
   "label": "WTI (Dec)",
-  "as_of": "Tue 7:05 AM ET",
+  "as_of": "Wed 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance CLUSD quote ts 2026-10-20 11:00:52 UTC vs previousClose 98.54 = Monday DEC settle (oilauthority: WTI Dec $98.54; Nov expiring contract settled $103.66). Sharjah24/WAM 00:10 GMT Dec $98.08, since higher; range 98.04-100.92 (#210-A). Dec both legs (#187-B, #217-A); Nov expires today",
+  "source": "finance CLUSD quote ts 2026-10-21 11:00:59 UTC vs previousClose 97.82 = Tuesday Dec settle (OilPrice.com WTI 98.98 +1.16 implies 97.82). Dec is front month after Nov expiry 10/20. Range 97.91-100.40; Investopedia 99.75 +2%, CNBC 98.92 earlier (#210-A)",
   "note": "Dec contract"
  },
  "BRENT": {
-  "value": 111.12,
-  "prev_close": 109.55,
-  "delta_pct": 1.4331,
+  "value": 110.45,
+  "prev_close": 108.79,
+  "delta_pct": 1.5259,
   "label": "Brent (Dec)",
-  "as_of": "Tue 7:05 AM ET",
+  "as_of": "Wed 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance BZUSD quote ts 2026-10-20 11:00:54 UTC vs previousClose 109.55 = Monday Dec settle (CNBC, oilauthority: Brent $109.55, -0.28%); range 109.03-111.75; Sharjah24/WAM 00:10 GMT $109.06, since higher (#210-A). Dec both legs (#197-A)",
+  "source": "finance BZUSD quote ts 2026-10-21 11:00:49 UTC vs previousClose 108.79 = Tuesday Dec settle (OilPrice.com 109.9 +1.13 implies 108.77); range 108.87-111.32; Investopedia 110.50 +1.5%, CNBC 110.13 +1.22% (#210-A). Dec both legs (#197-A)",
   "note": "Dec contract"
  },
  "GOLD": {
-  "value": 4139.6,
-  "prev_close": 4160.1,
-  "delta_pct": -0.4928,
+  "value": 4144.7,
+  "prev_close": 4142.6,
+  "delta_pct": 0.0507,
   "label": "Gold",
-  "as_of": "Tue 7:05 AM ET",
+  "as_of": "Wed 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance GCUSD quote ts 2026-10-20 10:50:38 UTC vs previousClose 4,160.10 = Monday settle; range 4,130.10-4,166.50; Bloomberg spot ~4,135"
+  "source": "finance GCUSD quote ts 2026-10-21 10:51:04 UTC vs previousClose 4,142.60 = Tuesday settle; range 4,124-4,149.80"
  },
  "BTC": {
-  "value": 81485.67,
-  "prev_close": 81837.69,
-  "delta_pct": -0.4301,
+  "value": 83339.59,
+  "prev_close": 82938.26,
+  "delta_pct": 0.4839,
   "label": "Bitcoin",
-  "as_of": "Tue 7:05 AM ET",
+  "as_of": "Wed 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance BTCUSD live quote ts 2026-10-20 11:00:55 UTC; base = Polygon X:BTCUSD 10/19 UTC settled daily close 81,837.69 (#213-A); vendor previousClose 81,844.43 agrees"
+  "source": "finance BTCUSD live quote ts 2026-10-21 11:01:04 UTC; base = Polygon X:BTCUSD 10/20 UTC settled daily close 82,938.26 (#213-A); vendor previousClose 82,940.14 agrees"
  },
  "EURJPY": {
-  "value": 177.23,
-  "prev_close": 177.758,
-  "delta_pct": -0.297,
+  "value": 177.49,
+  "prev_close": 177.686,
+  "delta_pct": -0.1103,
   "label": "EUR/JPY",
-  "as_of": "Tue 7:05 AM ET",
+  "as_of": "Wed 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance EURJPY quote ts 2026-10-20 10:56:59 UTC vs Polygon C:EURJPY Mon 10/19 settled close 177.758 (#188-A); vendor previousClose 177.67 not used"
+  "source": "finance EURJPY quote ts 2026-10-21 10:57:59 UTC vs Polygon C:EURJPY Tue 10/20 settled close 177.686 (#188-A); vendor previousClose 177.64 not used"
  },
  "AUDJPY": {
-  "value": 110.51,
-  "prev_close": 110.683,
-  "delta_pct": -0.1563,
+  "value": 111.17,
+  "prev_close": 110.894,
+  "delta_pct": 0.2489,
   "label": "AUD/JPY",
-  "as_of": "Tue 7:05 AM ET",
+  "as_of": "Wed 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance AUDJPY quote ts 2026-10-20 10:56:57 UTC vs Polygon C:AUDJPY Mon 10/19 settled close 110.683 (#188-A); vendor previousClose 110.58 not used"
+  "source": "finance AUDJPY quote ts 2026-10-21 10:58:05 UTC vs Polygon C:AUDJPY Tue 10/20 settled close 110.894 (#188-A); vendor previousClose 110.71 not used"
  }
 }
