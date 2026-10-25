@@ -6,7 +6,7 @@
   "label": "S&P 500",
   "as_of": "Fri 10/23 close",
   "status": "CLOSED",
-  "source": "Polygon I:SPX daily 2026-10-23 settled close vs 2026-10-22 close ; NOT ATH (ath220: close -2.497% / high -2.350% vs 10/6 maxima; Saturday highs provisional per #202-A)"
+  "source": "Polygon I:SPX daily 2026-10-23 settled close vs 2026-10-22 close ; NOT ATH (ath220: close -2.497% / high -2.350% vs 10/6 maxima; Sunday re-run confirmed, Friday bars unrevised)"
  },
  "NDX": {
   "value": 28957.53,
@@ -92,13 +92,13 @@
   "source": "finance GCUSD ts 2026-10-23 21:00:01 UTC 4,007.90 vs previousClose 4,060.40 (-1.29%); week vs 10/16 4,181.10: -4.1%"
  },
  "BTC": {
-  "value": 79557.99,
-  "prev_close": 81078.04,
-  "delta_pct": -1.8748,
+  "value": 80282.79,
+  "prev_close": 80769.67,
+  "delta_pct": -0.6028,
   "label": "Bitcoin",
-  "as_of": "Sat 12:33 PM ET",
+  "as_of": "Sun 7:05 AM ET",
   "status": "LIVE",
-  "source": "finance BTCUSD live quote ts 2026-10-24 16:33:58 UTC (market_status=open); base = Polygon X:BTCUSD 10/23 UTC settled daily close 81,078.04 (#213-A); vendor previousClose 81,079.98 agrees. Late build (12:33 PM ET)"
+  "source": "finance BTCUSD live quote ts 2026-10-25 11:00:57 UTC (market_status=open); base = Polygon X:BTCUSD 10/24 UTC settled daily close 80,769.67 (#213-A); vendor previousClose 80,770.71 agrees"
  },
  "EURJPY": {
   "value": 175.633,
