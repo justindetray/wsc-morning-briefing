@@ -1,48 +1,33 @@
 {
- "window": "Friday 2026-10-23 close -> Monday 2026-10-26 7:05 AM ET",
- "lede": "No weekend strike; Trump says decision time; oil -2% on mediation; futures flat to higher; Brazil ETF -27% on Lula upset; Fed, ECB, BOJ week.",
+ "window": "Monday 2026-10-26 close -> Tuesday 2026-10-27 7:05 AM ET",
+ "lede": "Tehran talks but no deal; oil whipsaws near $115; futures flat after Anthropic-led rally; Asia up, Europe down on HSBC; Fed meeting begins.",
  "asia_close": [],
  "europe_open": [],
  "single_name_moves": [
   {
-   "ticker": "EWZ",
-   "delta_pct": -27.3,
-   "venue": "premarket; Brazilian shares tumbled after Lula won a fourth term in an upset that defied polls (Reuters)"
+   "ticker": "WHR",
+   "delta_pct": -8.8,
+   "venue": "premarket; third-quarter loss and revenue miss, cut full-year revenue guidance to $14.5 billion (Reuters, CNBC)"
   },
   {
-   "ticker": "SGRY",
-   "delta_pct": 20.9,
-   "venue": "premarket; Bon Secours Mercy Health reported in late-stage talks to buy a majority stake (Reuters)"
+   "ticker": "NVDA",
+   "delta_pct": -0.28,
+   "venue": "premarket; unveiled plan to invest $3 billion in Meta (CNBC)"
   },
   {
-   "ticker": "TSLA",
-   "delta_pct": 2.1,
-   "venue": "premarket; led megacaps (Reuters)"
-  },
-  {
-   "ticker": "CRWV",
-   "delta_pct": -3.0,
-   "venue": "premarket; down more than 30% in October (Reuters)"
-  },
-  {
-   "ticker": "NBIS",
-   "delta_pct": -3.0,
-   "venue": "premarket; down more than 30% in October (Reuters)"
-  },
-  {
-   "ticker": "IREN",
-   "delta_pct": -2.6,
-   "venue": "premarket (Reuters)"
+   "ticker": "HSBA.L",
+   "delta_pct": -6.2,
+   "venue": "London; third-quarter earnings missed estimates, outlook unchanged (Bloomberg)"
   }
  ],
  "geo_headlines": [
-  "NO STRIKE; TRUMP SAYS DECISION TIME. Trump said Sunday \"there won't be a strike today\" but that it is \"getting to be decision time\": \"Do I finish it off... or do I make a deal?\" (Bloomberg). He has suggested strikes could resume after the November 3 midterms and sent a third carrier group toward the Gulf. Saudi, Pakistani and Turkish defense chiefs meet Iran's leaders in Tehran today (Al Jazeera).",
-  "OIL EASES ON MEDIATION. **Brent $114.94 (-1.5%) and December WTI $100.84 (-2.4%), easing from Friday's highest weekly close since 2022 after reports Qatari mediators visited Tehran (Investing.com, Reuters).** Gold $4,025.70 (+0.4%). Goldman calls oil above its forecasts the most important risk for the Fed (Reuters).",
-  "FUTURES EDGE UP INTO A BIG WEEK. S&P 500 futures 7,670.25 (+0.14%) and Nasdaq 100 futures 29,125.50 (+0.03%), fading earlier gains of about 0.3%. Tesla +2.1% premarket; CoreWeave and Nebius -3%, both down more than 30% in October (Reuters). The chip index sits at a three-month low after two weeks of losses (Bloomberg).",
-  "BRAZIL SHOCK. Lula won a fourth term Sunday in an upset that defied polls; the iShares Brazil ETF is down 27.3% premarket (Reuters). Asia was quiet: Nikkei -0.2%, South Korea -0.5% (down almost 20% this month), Chinese blue chips -0.5% for an 11th straight weekly decline (Reuters).",
-  "CENTRAL BANK WEEK. The Fed, ECB and Bank of Japan all decide this week. Markets price a Fed hold Wednesday and about 80% odds of a December hike (Reuters); FedWatch as of Friday 10/23: October 7.8%, December 77.2%. 10-year 5.00%, 2-year 4.69%, 30-year 5.33% (Treasury). Europe opened higher: Stoxx 600 +0.5%, CAC +0.9% (Bloomberg).",
-  "TODAY AND THIS WEEK. Verizon before the open; Cadence, Nucor, Welltower and Amkor after (Yahoo Finance). Chicago Fed national activity index (Sept, est. -0.1) and Dallas Fed manufacturing (Oct). Tuesday: Coca-Cola, Boeing, Visa. Wednesday: FOMC 2:00 PM; Alphabet, Microsoft. Thursday: GDP, PCE, Amazon."
+  "TEHRAN TALKS, NO DEAL. Saudi, Pakistani and Turkish security chiefs met Iran's president in Tehran Monday; the four agreed to keep talking, but Iran says the US is not serious and will not deal unless the naval blockade is lifted (Al Jazeera, Reuters). Strikes remain on hold until after the November 3 midterms per Trump's October 8 pledge; at a Monday rally he called the earlier ceasefire a waste of time (Al Jazeera).",
+  "OIL WHIPSAWS. **Brent $114.99 (-0.7%) and December WTI $101.17 (-0.6%) after swinging between $114.50 and $116.93 overnight: Tehran talks pulled prices down, then Houthi drones aimed at southern Saudi Arabia pushed them back up (Reuters).** A vessel caught fire off Iraq's coast (UKMTO). Gold $4,023.90 (-0.4%).",
+  "FUTURES FLAT AFTER AI RALLY. S&P 500 futures 7,730.25 (+0.20%) and Nasdaq 100 futures 29,530.50 (+0.32%) after Monday's Anthropic IPO-filing rally lifted the S&P 500 0.7% and the chip index 2.8%. Whirlpool -8.8% premarket on a loss and revenue miss; Meta raised its equity fundraising to $97.5 billion (Reuters).",
+  "ASIA UP, EUROPE DOWN. Nikkei +1.9% and South Korea up more than 4% on a GDP beat; MSCI Asia ex-Japan +1.2% (Reuters, NDTV Profit). Stoxx 600 -0.3% as HSBC fell 6.2% on an earnings miss (Bloomberg). Brazil's Ibovespa closed -13.9% Monday and the real fell 8% after Lula's upset win (G1).",
+  "FED MEETING STARTS TODAY. The Fed begins its two-day meeting and is expected to hold Wednesday; markets price at least two more hikes by mid-2027 (Reuters). FedWatch as of Monday 10/26: October 10.0%, December 83.1%. 10-year 5.00%, 2-year 4.68%, 30-year 5.31% (Treasury). Bank of Japan decides Friday.",
+  "TODAY AND THIS WEEK. Coca-Cola, Boeing, UPS and PayPal before the open; Visa, Seagate, Robinhood and NXP after (StockTitan). Durable goods (Sept) 8:30 AM; consumer confidence (Oct, prior 81.9) 10:00 AM. Wednesday: Fed 2:00 PM; Alphabet, Microsoft. Thursday: GDP, PCE, Amazon."
  ],
- "client_frame_short": "The weekend passed without a strike, and markets are calmer this morning: oil is down about 2% on reports of mediation, and stock futures are slightly higher. **Trump says it is \"decision time\" between a deal and finishing the war, and he has pointed to after the November 3 midterms, so the oil risk is postponed, not gone.** This week the Fed, Microsoft, Alphabet and Amazon will matter more for portfolios than any single headline. For clients: stay diversified and rebalanced; plans do not need to change.",
- "client_frame": "If a client calls this morning, the story is a calmer start to a very busy week, with the Iran decision hanging over oil.\n\nWhat changed over the weekend: no US strike. Trump said there would be no strike Sunday, called it decision time between a deal and finishing it off, and has pointed to after the November 3 midterms for any renewed attacks. Qatari mediators visited Tehran, and Saudi, Pakistani and Turkish defense chiefs meet Iran's leaders today. Brent eased about 2% to $115.\n\nWhere we stand: the S&P 500 is about 2.5% below its October 6 record close after two down weeks. The Nasdaq 100 has been hit harder by AI spending worries, while the Dow has held up. Bonds rallied last week, with the 10-year back to 5.00%.\n\nThis week: the Fed decides Wednesday and is expected to hold; markets still lean toward a hike in December. Microsoft and Alphabet report Wednesday and Amazon Thursday, alongside GDP and PCE inflation. Those reports are the real tests of the AI spending story. About a quarter of S&P 500 companies have reported so far, and analysts describe results as healthy, with resilient demand.\n\nElsewhere: Brazilian stocks are down sharply after an upset election result, a reminder that emerging-market positions can move a lot on politics and why position sizing matters.\n\nWhy it matters: the biggest risks are scheduled (earnings, the Fed) or postponed (Iran), which gives investors time to rebalance calmly rather than react.\n\nFor clients: stay invested, rebalance toward targets, and keep bonds working at today's yields. What would change the view: a 10-year close above 5.40% (Friday 5.00%), a 30-year above 5.75% (Friday 5.33%), or US strikes on Iran that keep Brent well above $105 (now $114.94). Brent is there; strikes are the missing piece, and the timing now points after November 3."
+ "client_frame_short": "Stocks rallied Monday on excitement over Anthropic's IPO filing, and futures are flat this morning as the Fed begins its two-day meeting. **Iran held talks with Saudi Arabia, Turkey and Pakistan but no deal emerged, so oil is still near $115 and the risk is on hold rather than resolved.** The Fed Wednesday and Microsoft, Alphabet and Amazon later this week matter more for portfolios than any single headline. For clients: stay diversified, rebalanced and patient; with yields near 5%, bonds are paid to wait, and plans do not need to change.",
+ "client_frame": "If a client calls this morning, the story is a good Monday for tech, a quiet night, and a Fed meeting that starts today.\n\nWhat changed overnight: Iran met senior Saudi, Pakistani and Turkish officials in Tehran. All four agreed to keep talking, but Iran says it will not deal while the US naval blockade stays in place, and it calls Washington not serious. Trump has said there will be no strikes before the November 3 midterms. Oil swung in a $2.40 range overnight and sits near $115 Brent. Asian stocks rose strongly; European stocks dipped on a disappointing HSBC report.\n\nWhere we stand: the S&P 500 rose 0.7% Monday and chip stocks 2.8%, helped by Anthropic's IPO filing, which showed very fast revenue growth alongside heavy spending. The S&P 500 is now about 1.8% below its October 6 record close. The 10-year Treasury yield is steady at 5.00%.\n\nThis week: the Fed decides Wednesday and is expected to hold, with markets leaning toward a December hike. Microsoft and Alphabet report Wednesday and Amazon Thursday, alongside GDP and PCE inflation. Today brings Coca-Cola, Boeing, UPS and Visa, a useful read on the consumer and on travel and shipping costs with oil this high.\n\nElsewhere: Brazilian stocks fell almost 14% Monday and the currency about 8% after the election upset, a reminder that single-country emerging-market positions can move a lot on politics and why position sizing matters.\n\nWhy it matters: the AI spending debate swung back toward optimism in one day, which shows how quickly sentiment can turn. The biggest risks this week are scheduled (earnings, the Fed) or postponed (Iran), which gives investors time to rebalance calmly rather than react.\n\nFor clients: stay invested, rebalance toward targets, and keep bonds working at today's yields. What would change the view: a 10-year close above 5.40% (Monday 5.00%), a 30-year above 5.75% (Monday 5.31%), or US strikes on Iran that keep Brent well above $105 (now $114.99). Brent is there; strikes are the missing piece, and the timing still points after November 3."
 }

@@ -1,40 +1,33 @@
 {
- "last_curated": "2026-10-26",
+ "last_curated": "2026-10-27",
  "macro": [
-  {
-   "date": "2026-10-26",
-   "time_et": "Before open",
-   "event": "Verizon earnings",
-   "consensus": "n/a - Yahoo Finance, StockTitan",
-   "importance": "low"
-  },
-  {
-   "date": "2026-10-26",
-   "time_et": "8:30 AM",
-   "event": "Chicago Fed national activity index (Sep)",
-   "consensus": "est. -0.1, prior -0.04 - Yahoo Finance calendar; Chicago Fed standard 8:30 ET",
-   "importance": "low"
-  },
-  {
-   "date": "2026-10-26",
-   "time_et": "10:30 AM",
-   "event": "Dallas Fed manufacturing index (Oct)",
-   "consensus": "prior 9.8 - Yahoo Finance calendar; Dallas Fed standard 10:30 ET",
-   "importance": "low"
-  },
-  {
-   "date": "2026-10-26",
-   "time_et": "After close",
-   "event": "Cadence, Nucor, Welltower, Amkor earnings",
-   "consensus": "n/a - Yahoo Finance, StockTitan",
-   "importance": "low"
-  },
   {
    "date": "2026-10-27",
    "time_et": "Before open",
-   "event": "Coca-Cola, Boeing, UPS, PayPal earnings",
-   "consensus": "n/a - StockTitan",
+   "event": "Coca-Cola (8:30 AM call), Boeing (10:30 AM call), UPS, PayPal earnings",
+   "consensus": "n/a - StockTitan, company IR",
    "importance": "medium"
+  },
+  {
+   "date": "2026-10-27",
+   "time_et": "8:30 AM",
+   "event": "Durable goods orders, advance (Sep)",
+   "consensus": "prior 0.0% - FinancialJuice; 8:30 ET per Census schedule",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-10-27",
+   "time_et": "10:00 AM",
+   "event": "Conference Board consumer confidence (Oct)",
+   "consensus": "prior 81.9 - FinancialJuice week ahead",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-10-27",
+   "time_et": "",
+   "event": "FOMC two-day meeting begins",
+   "consensus": "decision Wednesday - Reuters",
+   "importance": "low"
   },
   {
    "date": "2026-10-27",
@@ -47,7 +40,7 @@
    "date": "2026-10-28",
    "time_et": "2:00 PM",
    "event": "FOMC decision",
-   "consensus": "Hike odds 7.8% - CME FedWatch",
+   "consensus": "Hike odds 10.0% - CME FedWatch",
    "importance": "high"
   },
   {
@@ -61,7 +54,7 @@
    "date": "2026-10-29",
    "time_et": "8:30 AM",
    "event": "Q3 GDP (advance), September PCE, jobless claims",
-   "consensus": "n/a - CNBC calendar",
+   "consensus": "n/a - CNBC, FinancialJuice",
    "importance": "high"
   },
   {
@@ -70,6 +63,13 @@
    "event": "Amazon, Eli Lilly, Mastercard, Caterpillar earnings",
    "consensus": "n/a - CNBC, StockTitan",
    "importance": "high"
+  },
+  {
+   "date": "2026-10-30",
+   "time_et": "",
+   "event": "Bank of Japan decision",
+   "consensus": "expected hold at 1.25% - Reuters, investingLive",
+   "importance": "medium"
   }
  ],
  "earnings": []
