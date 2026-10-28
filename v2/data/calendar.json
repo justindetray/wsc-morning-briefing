@@ -1,46 +1,18 @@
 {
- "last_curated": "2026-10-27",
+ "last_curated": "2026-10-28",
  "macro": [
   {
-   "date": "2026-10-27",
-   "time_et": "Before open",
-   "event": "Coca-Cola (8:30 AM call), Boeing (10:30 AM call), UPS, PayPal earnings",
-   "consensus": "n/a - StockTitan, company IR",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-27",
-   "time_et": "8:30 AM",
-   "event": "Durable goods orders, advance (Sep)",
-   "consensus": "prior 0.0% - FinancialJuice; 8:30 ET per Census schedule",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-27",
-   "time_et": "10:00 AM",
-   "event": "Conference Board consumer confidence (Oct)",
-   "consensus": "prior 81.9 - FinancialJuice week ahead",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-27",
-   "time_et": "",
-   "event": "FOMC two-day meeting begins",
-   "consensus": "decision Wednesday - Reuters",
-   "importance": "low"
-  },
-  {
-   "date": "2026-10-27",
-   "time_et": "After close",
-   "event": "Visa, Seagate, Robinhood, NXP earnings",
-   "consensus": "n/a - StockTitan",
+   "date": "2026-10-28",
+   "time_et": "9:45 AM",
+   "event": "Bank of Canada decision and Monetary Policy Report",
+   "consensus": "expected hike to 2.50% - Bank of Canada, Reuters poll",
    "importance": "medium"
   },
   {
    "date": "2026-10-28",
    "time_et": "2:00 PM",
-   "event": "FOMC decision",
-   "consensus": "Hike odds 10.0% - CME FedWatch",
+   "event": "FOMC decision (Warsh press conference follows)",
+   "consensus": "hold 3.75-4.00% expected - Reuters poll (94 of 100)",
    "importance": "high"
   },
   {
@@ -60,9 +32,16 @@
   {
    "date": "2026-10-29",
    "time_et": "",
-   "event": "Amazon, Eli Lilly, Mastercard, Caterpillar earnings",
-   "consensus": "n/a - CNBC, StockTitan",
+   "event": "Amazon, Eli Lilly, Mastercard, Caterpillar, Samsung earnings",
+   "consensus": "n/a - CNBC, StockTitan, AP",
    "importance": "high"
+  },
+  {
+   "date": "2026-10-30",
+   "time_et": "8:30 AM",
+   "event": "Employment cost index (Q3)",
+   "consensus": "n/a - CNBC",
+   "importance": "medium"
   },
   {
    "date": "2026-10-30",
