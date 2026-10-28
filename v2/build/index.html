@@ -57,15 +57,14 @@ html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -ap
 .cal th{color:#888;font-weight:500;text-transform:uppercase;letter-spacing:.06em;font-size:10px}
 .cal tr.imp-high td{background:#181818}
 .cal .muted{color:#888}
-.research{list-style:none;padding:0;margin:0}
-.research li{padding:5px 0;font-size:12px}
-.research li a{color:#9cb8ff;text-decoration:none}
-.research li a:hover{text-decoration:underline}
+.econ{width:100%;border-collapse:collapse;font-size:13px}
+.econ td{padding:5px 8px;border-bottom:1px solid #1c1d1e;vertical-align:top}
+.econ .elabel{color:#cfcfcf;width:26%}
+.econ .evalue{color:#fafafa;font-weight:600;font-variant-numeric:tabular-nums;width:22%;white-space:nowrap}
+.econ .enote{color:#9a9a9a;font-size:12px}
+.rstale{color:#c9a227;font-size:11px;margin-bottom:6px}
 /* Run #180: #888/#666 on #0d0d0d failed a contrast check. Raised to keep the
    monospace metadata legible without competing with the link itself. */
-.research .rdate{color:#a6a6a6;font-family:ui-monospace,Menlo,monospace;margin-right:8px}
-.research .rtoken{color:#8f8f8f;font-size:10px;margin-left:8px;font-family:ui-monospace,Menlo,monospace}
-.research .rstale{color:#c9a227;font-size:11px;margin-bottom:6px}
 .muted{color:#888;font-size:12px;padding:6px 0}
 @media (max-width:760px){
   .tape{grid-template-columns:repeat(4,1fr)}
@@ -80,7 +79,7 @@ html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -ap
 
 <div class="masthead">
   <h1>WSC Morning Briefing — Wednesday, October 28, 2026</h1>
-  <span class="stamp">Built 07:04 ET · v2</span>
+  <span class="stamp">Built 09:26 ET · v2</span>
 </div>
 
 
@@ -176,8 +175,8 @@ html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -ap
 </div>
 
 <div class="section">
-  <h2>Research</h2>
-  <div class="rstale">Archive - newest entry is 127 days old (2026-06-23). The daily research Doc is discontinued.</div><ul class="research"><li><span class="rdate">2026-06-23</span> <a href="https://drive.google.com/file/d/1dmeFc9aAPq3S5iJFJigA1KncEEzr3oa7/view?usp=drivesdk">Morning Macro Brief — June 23 2026</a> <span class="rtoken">GLOBAL_TECH_SELLOFF + BURGENSTOCK_WASHINGTON_DAY1</span></li><li><span class="rdate">2026-06-22</span> <a href="https://drive.google.com/file/d/1EwomvbBJZffzildoe-9wugFcgPKuehJa/view?usp=drivesdk">Morning Macro Brief — June 22 2026</a> <span class="rtoken">BURGENSTOCK_ROADMAP_60DAY + RATE_HIKE_REPRICING + MRVL_FLEX_INCLUSION</span></li></ul>
+  <h2>Key Indicators</h2>
+  <table class="econ"><tr><td class="elabel">Treasury 2y / 10y / 30y (10/27)</td><td class="evalue">4.70% / 4.99% / 5.30%</td><td class="enote">Treasury CMT. Client triggers: 10y above 5.40%, 30y above 5.75%</td></tr><tr><td class="elabel">2s10s curve</td><td class="evalue">+29bp</td><td class="enote">10y minus 2y, Treasury CMT 10/27</td></tr><tr><td class="elabel">10y real yield / breakeven</td><td class="evalue">2.64% / 2.35%</td><td class="enote">Treasury real curve; breakeven = nominal minus real</td></tr><tr><td class="elabel">December hike odds</td><td class="evalue">81.9%</td><td class="enote">CME FedWatch as of 10/27; today&#x27;s decision expected hold at 3.75-4.00%</td></tr><tr><td class="elabel">VIX</td><td class="evalue">17.52</td><td class="enote">Tuesday close, -4.7% d/d (Polygon)</td></tr><tr><td class="elabel">Brent - WTI spread (Dec)</td><td class="evalue">$13.33</td><td class="enote">Live December futures quotes (finance feed); seaborne Brent carries the Gulf supply risk</td></tr><tr><td class="elabel">Consumer confidence (Oct)</td><td class="evalue">91.7</td><td class="enote">Conference Board, up from 84.2 in September</td></tr><tr><td class="elabel">Distance from record close</td><td class="evalue">S&amp;P -1.2% / NDX -5.0%</td><td class="enote">Dow -3.6%, Nasdaq Comp -4.1%, chips -21.5% (Polygon closes; S&amp;P, NDX, Comp records Oct 6)</td></tr><tr><td class="elabel">Kospi</td><td class="evalue">6,023.73 (+6.8%)</td><td class="enote">SK Hynix +11.4% on quarterly profit nearly 7x a year earlier (AP)</td></tr></table>
 </div>
 
 </div>

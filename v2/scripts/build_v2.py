@@ -4,7 +4,7 @@ Morning Briefing v2 - HTML builder.
 
 Inputs (all in v2/data/):
   tape.json, fedwatch.json, briefing_economic.json, status.json
-  calendar.json, overnight.json, research_manifest.json
+  calendar.json, overnight.json, economic.json (Key Indicators panel; research archive removed 2026-10-28)
 
 Output:
   v2/build/index.html  (single page, target <= 15KB)
@@ -392,31 +392,33 @@ def render_calendar(calendar, today_et):
 
 # ---------- Research links ----------
 
-def render_research(manifest):
-    if not manifest or not manifest.get("docs"):
-        return '<div class="muted">No research docs in manifest.</div>'
-    items = []
-    for d in manifest["docs"][:7]:
-        items.append(
-            f'<li><span class="rdate">{html_mod.escape(d.get("date",""))}</span> '
-            f'<a href="{html_mod.escape(d.get("drive_url",""))}">{html_mod.escape(d.get("title",""))}</a> '
-            f'<span class="rtoken">{html_mod.escape(d.get("headline_token",""))}</span></li>'
-        )
-    # Run #180: the daily Drive Doc has been permanently skipped since Run #100, so
-    # this manifest is frozen and the newest entry recedes further from today on every
-    # build - a September page was advertising June docs as "Research" with no hint
-    # they were an archive. Name the staleness rather than silently render it.
+def render_economic(econ, today_et):
+    """Key Indicators panel from data/economic.json (written by the daily mk script).
+
+    Wired in 2026-10-28 at Justin's request; replaces the frozen June research archive.
+    Schema: {"status","as_of": "YYYY-MM-DD","items":[{"label","value","note"?}]}.
+    Stale guard: as_of older than 3 days -> amber banner; missing/empty -> muted line.
+    """
+    items = (econ or {}).get("items") or []
+    if not items:
+        return '<div class="muted">No indicators this build.</div>'
     stale = ""
-    newest = max((d.get("date") or "" for d in manifest["docs"]), default="")
-    if newest:
-        try:
-            age = (datetime.now(timezone.utc).date() - datetime.fromisoformat(newest).date()).days
-            if age > 14:
-                stale = ('<div class="rstale">Archive - newest entry is %d days old '
-                         '(%s). The daily research Doc is discontinued.</div>' % (age, newest))
-        except Exception:
-            pass
-    return stale + "<ul class=\"research\">" + "".join(items) + "</ul>"
+    as_of = econ.get("as_of") or ""
+    try:
+        age = (today_et - datetime.fromisoformat(as_of[:10]).date()).days
+        if age > 3:
+            stale = ('<div class="rstale">Indicators are %d days old (as of %s). '
+                     'Not refreshed this build.</div>' % (age, html_mod.escape(as_of)))
+    except Exception:
+        stale = '<div class="rstale">Indicators carry no valid as_of date.</div>'
+    rows = []
+    for it in items:
+        rows.append(
+            f'<tr><td class="elabel">{html_mod.escape(str(it.get("label","")))}</td>'
+            f'<td class="evalue">{html_mod.escape(str(it.get("value","")))}</td>'
+            f'<td class="enote">{html_mod.escape(str(it.get("note","")))}</td></tr>'
+        )
+    return stale + '<table class="econ">' + "".join(rows) + "</table>"
 
 # ---------- DEGRADED banner ----------
 
@@ -486,15 +488,14 @@ html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -ap
 .cal th{color:#888;font-weight:500;text-transform:uppercase;letter-spacing:.06em;font-size:10px}
 .cal tr.imp-high td{background:#181818}
 .cal .muted{color:#888}
-.research{list-style:none;padding:0;margin:0}
-.research li{padding:5px 0;font-size:12px}
-.research li a{color:#9cb8ff;text-decoration:none}
-.research li a:hover{text-decoration:underline}
+.econ{width:100%;border-collapse:collapse;font-size:13px}
+.econ td{padding:5px 8px;border-bottom:1px solid #1c1d1e;vertical-align:top}
+.econ .elabel{color:#cfcfcf;width:26%}
+.econ .evalue{color:#fafafa;font-weight:600;font-variant-numeric:tabular-nums;width:22%;white-space:nowrap}
+.econ .enote{color:#9a9a9a;font-size:12px}
+.rstale{color:#c9a227;font-size:11px;margin-bottom:6px}
 /* Run #180: #888/#666 on #0d0d0d failed a contrast check. Raised to keep the
    monospace metadata legible without competing with the link itself. */
-.research .rdate{color:#a6a6a6;font-family:ui-monospace,Menlo,monospace;margin-right:8px}
-.research .rtoken{color:#8f8f8f;font-size:10px;margin-left:8px;font-family:ui-monospace,Menlo,monospace}
-.research .rstale{color:#c9a227;font-size:11px;margin-bottom:6px}
 .muted{color:#888;font-size:12px;padding:6px 0}
 @media (max-width:760px){
   .tape{grid-template-columns:repeat(4,1fr)}
@@ -513,7 +514,7 @@ def main():
     status = jload("status.json") or {}
     calendar = jload("calendar.json") or {}
     overnight = jload("overnight.json") or {}
-    research = jload("research_manifest.json") or {}
+    econ_panel = jload("economic.json") or {}
 
     # Sanity: if all tape DEGRADED, refuse to write.
     # CLOSED is a healthy state, not a degraded one: on weekends and market
@@ -547,7 +548,7 @@ def main():
     overnight_html = render_overnight(overnight)
     fedwatch_html = render_fedwatch(fedwatch)
     calendar_html = render_calendar(calendar, today_et)
-    research_html = render_research(research)
+    econ_html = render_economic(econ_panel, today_et)
     degraded_html = render_degraded_banner(tape, fedwatch, economic, calendar)
 
     html = f"""<!DOCTYPE html>
@@ -594,8 +595,8 @@ def main():
 </div>
 
 <div class="section">
-  <h2>Research</h2>
-  {research_html}
+  <h2>Key Indicators</h2>
+  {econ_html}
 </div>
 
 </div>
