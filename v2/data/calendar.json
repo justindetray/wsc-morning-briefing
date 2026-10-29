@@ -1,39 +1,46 @@
 {
- "last_curated": "2026-10-28",
+ "last_curated": "2026-10-29",
  "macro": [
   {
-   "date": "2026-10-28",
-   "time_et": "9:45 AM",
-   "event": "Bank of Canada decision and Monetary Policy Report",
-   "consensus": "expected hike to 2.50% - Bank of Canada, Reuters poll",
+   "date": "2026-10-29",
+   "time_et": "Before open",
+   "event": "Eli Lilly, Mastercard, Caterpillar, Merck earnings",
+   "consensus": "n/a - Saxo, StockTitan",
    "importance": "medium"
   },
   {
-   "date": "2026-10-28",
-   "time_et": "2:00 PM",
-   "event": "FOMC decision (Warsh press conference follows)",
-   "consensus": "hold 3.75-4.00% expected - Reuters poll (94 of 100)",
-   "importance": "high"
-  },
-  {
-   "date": "2026-10-28",
-   "time_et": "After close",
-   "event": "Alphabet (4:30 PM), Microsoft (5:30 PM), KLA, ServiceNow earnings",
-   "consensus": "n/a - StockTitan",
+   "date": "2026-10-29",
+   "time_et": "8:30 AM",
+   "event": "Q3 GDP (advance)",
+   "consensus": "3.2% annualized - Saxo, FXStreet",
    "importance": "high"
   },
   {
    "date": "2026-10-29",
    "time_et": "8:30 AM",
-   "event": "Q3 GDP (advance), September PCE, jobless claims",
-   "consensus": "n/a - CNBC, FinancialJuice",
+   "event": "September PCE inflation",
+   "consensus": "core 3.1% y/y, headline 3.6% - Saxo",
    "importance": "high"
   },
   {
    "date": "2026-10-29",
-   "time_et": "",
-   "event": "Amazon, Eli Lilly, Mastercard, Caterpillar, Samsung earnings",
-   "consensus": "n/a - CNBC, StockTitan, AP",
+   "time_et": "8:30 AM",
+   "event": "Weekly jobless claims",
+   "consensus": "n/a - Saxo",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-10-29",
+   "time_et": "9:15 AM",
+   "event": "ECB decision (Lagarde press conference 9:45 AM)",
+   "consensus": "hold expected - ECB, Bloomberg",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-10-29",
+   "time_et": "After close",
+   "event": "Amazon, Intel earnings",
+   "consensus": "n/a - Saxo",
    "importance": "high"
   },
   {
@@ -47,8 +54,15 @@
    "date": "2026-10-30",
    "time_et": "",
    "event": "Bank of Japan decision",
-   "consensus": "expected hold at 1.25% - Reuters, investingLive",
+   "consensus": "expected hold - Bloomberg",
    "importance": "medium"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "",
+   "event": "US midterm elections",
+   "consensus": "n/a",
+   "importance": "high"
   }
  ],
  "earnings": []
