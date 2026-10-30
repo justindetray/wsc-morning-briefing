@@ -1,38 +1,38 @@
 {
- "window": "Wednesday 2026-10-28 close -> Thursday 2026-10-29 7:05 AM ET",
- "lede": "Fed holds 10-2 with two hike dissents; Alphabet -10%, Microsoft +3.7%; IRGC says three tankers hit Hormuz mines; Brent rolls lower; GDP, PCE, ECB, Amazon today.",
+ "window": "Thursday 2026-10-29 close -> Friday 2026-10-30 7:05 AM ET",
+ "lede": "Nasdaq futures -2.4% as Amazon -6% and Intel -21% after earnings; Binance $6.3B hack; four tankers hit Hormuz mines; Brent +2.6%; BOJ holds.",
  "asia_close": [],
  "europe_open": [],
  "single_name_moves": [
   {
-   "ticker": "GOOGL",
-   "delta_pct": -10.0,
-   "venue": "premarket; revenue and core search missed, negative free cash flow of $9.07 billion; held 2026 capex, signaled a big 2027 increase (CNBC, Bloomberg)"
+   "ticker": "AMZN",
+   "delta_pct": -6.0,
+   "venue": "premarket; EPS $1.89 and revenue $201.94 billion missed; negative free cash flow; AWS $46 billion, fastest growth in years (CNBC, Investing.com)"
   },
   {
-   "ticker": "MSFT",
-   "delta_pct": 3.7,
-   "venue": "premarket; revenue $92.28 billion beat, Azure +48% (CNBC, Bloomberg)"
+   "ticker": "INTC",
+   "delta_pct": -21.0,
+   "venue": "after hours; fourth-quarter guide $15-16 billion vs $17.1 billion expected, PC slowdown (CNBC)"
   },
   {
-   "ticker": "NOW",
-   "delta_pct": -15.0,
-   "venue": "after hours; profit missed (CNBC)"
+   "ticker": "RDDT",
+   "delta_pct": -18.0,
+   "venue": "after hours; fourth-quarter sales guide below estimates (CNBC)"
   },
   {
-   "ticker": "FTNT",
-   "delta_pct": -25.0,
-   "venue": "after hours; gross margin below estimates (CNBC)"
+   "ticker": "SYK",
+   "delta_pct": -12.0,
+   "venue": "after hours; cut full-year guidance (CNBC)"
   }
  ],
  "geo_headlines": [
-  "FED HOLDS, TWO WANT A HIKE. The Fed held at 3.75-4.00% on a 10-2 vote; Governor Cook and Cleveland's Hammack dissented for a quarter-point hike. The statement kept inflation elevated and upgraded growth to a strong pace; Warsh gave no guidance (CNBC). FedWatch as of Wednesday: December hike 85.3%. 10-year 5.05% at Wednesday's close, 4.99% this morning (Treasury, Bloomberg).",
-  "ALPHABET DOWN, MICROSOFT UP. **Nasdaq 100 futures 29,708.25 (-0.9%) and S&P 500 futures 7,766.50 (-0.2%) as Alphabet fell 10% premarket on a revenue miss and negative free cash flow, while Microsoft rose 3.7% on Azure growth of 48% (CNBC, Bloomberg).** ServiceNow -15% and Fortinet -25% after hours; Dow futures +0.4%.",
-  "HORMUZ: TANKERS HIT MINES. The IRGC said three tankers struck mines and caught fire in the Strait of Hormuz over the past 24 hours; UKMTO separately reported a vessel ablaze nine nautical miles north of Khasab, Oman (CBS News). AP confirmed the US told allies to prepare for possible strikes lasting several days after the November 3 midterms; no final decision (CBS News).",
-  "DIPLOMACY STILL OPEN. Vice President Vance wrote to Iran's Security Council chief seeking to revive talks (WSJ via Moneycontrol). Iran called the Qatari draft unacceptable ideas but says diplomacy continues. Saudi air defenses intercepted a Houthi missile aimed at the Ras Tanura refinery (CBS News).",
-  "OIL LOWER, BRENT ROLLS. January Brent $110.19 (-1.3%) and December WTI $101.18 (-1.6%); December Brent, which expires Friday, is near $114.41 (Bloomberg). EIA crude stocks fell 1.9 million barrels versus an expected small build (Moneycontrol). Gold $4,039.10 (-0.3%).",
-  "ASIA MIXED, ECB TODAY. Kospi -2.2% and Taiex -1.9%; Samsung -5.4% despite strong results; Nikkei +0.2% (AP). Stoxx 600 +0.4% (Bloomberg). ECB 9:15 AM, expected to hold; Lagarde announced she will step down February 7, 2027 (ECB). GDP, PCE and claims 8:30 AM; Amazon and Intel after the close."
+  "AMAZON AND INTEL HIT TECH. **Nasdaq 100 futures 28,841 (-2.4%) and S&P 500 futures 7,668.75 (-1.1%) as Amazon fell 6% on an earnings miss and negative free cash flow, and Intel fell 21% on weak guidance; Dow futures roughly flat (CNBC, Investing.com).** Thursday Alphabet had its worst day ever, losing more than $500 billion in market value (Investing.com).",
+  "HORMUZ: MORE TANKER ATTACKS. Iran said four tankers struck mines; UKMTO reported a small boat attached two explosive devices to a tanker 25 nautical miles northeast of Khasab, Oman, disabling it, crew safe (CNBC). Central Command says the main routes are cleared of mines; the IRGC disputes it. The WSJ says the top regional commander briefed Trump on Iran options; Qatari mediators returned to Tehran Friday (Reuters).",
+  "OIL UP, GOLD DOWN. January Brent $113.65 (+2.6%) and December WTI $104.27 (+2.2%), lifted by the tanker attacks, a US crude draw and a Norway strike (BusinessDay); December Brent expires today near $116.73 (FT). Gold $3,986 (-1.1%).",
+  "CRYPTO: BINANCE HACK. Binance said $6.3 billion was stolen in what it called the largest attack in the industry's history (Investing.com). Bitcoin $77,706.85, after a 4.2% drop Thursday (TokenPost).",
+  "ASIA DOWN, BOJ HOLDS. Nikkei -2.1% and Kospi -3.5%; Hang Seng rallied late (CNBC). The Bank of Japan held at 1.25% with one vote for a hike, said inflation has roughly reached 2%, and will speed up ETF sales; December is live (Reuters). Stoxx 600 -0.25%, tech -2% (Reuters).",
+  "DATA: STRONG GROWTH, STICKY INFLATION. Thursday: Q3 GDP +3.4% versus 3.1% expected; September core PCE 3.1% year over year, in line; claims 194,000 (CNBC). FedWatch as of Thursday: December hike 74.4%, down from 85.3%. 10-year 4.98%, 2-year 4.61% (Treasury). Today: employment cost index 8:30 AM."
  ],
- "client_frame_short": "The Fed held rates steady but two officials wanted a hike, so a December increase is still the base case. **Overnight, Alphabet fell about 10% and Microsoft rose about 4% after earnings, a reminder that the AI trade is now picking winners and losers rather than lifting everything.** Oil dipped as diplomacy stayed open even with new tanker incidents in Hormuz. Today brings GDP, inflation and Amazon. For clients: diversification is doing its job, and broad index exposure absorbs single-stock swings like these.",
- "client_frame": "If a client calls this morning, the story is a Fed that held but leans toward hiking, and a split verdict on Big Tech.\n\nWhat changed overnight: Alphabet fell about 10% in premarket trading after revenue and search sales missed estimates and it reported negative free cash flow, while Microsoft rose almost 4% on strong cloud growth. Nasdaq futures are down about 1%, while Dow futures are up. In Iran, the Revolutionary Guard said three tankers hit mines in the Strait of Hormuz, and AP confirmed the US has told allies to prepare for possible strikes after the November 3 midterms. At the same time, Vice President Vance reached out to Iran to revive talks. Oil slipped.\n\nWhere we stand: the S&P 500 rose 0.3% Wednesday and is about 1% below its October 6 record close. The Fed held rates at 3.75-4.00%, but two officials voted to raise, and markets put December hike odds near 85%. The 10-year Treasury yield is back near 5%.\n\nToday: third-quarter GDP (expected near 3.2%) and September PCE inflation (core expected 3.1%) at 8:30 AM, the ECB at 9:15 AM, and Amazon and Intel after the close. ECB President Lagarde announced she will step down in February 2027.\n\nWhy it matters: the AI story has moved from everyone wins to show me the returns. Alphabet's drop came from spending running ahead of cash flow; Microsoft's gain came from cloud revenue that is already paying. Investors who own the broad index own both, which is the point of diversification.\n\nFor clients: stay invested, rebalance toward targets, and keep bonds working at today's yields. What would change the view: a 10-year close above 5.40% (Wednesday 5.05%), a 30-year above 5.75% (Wednesday 5.37%), or US strikes on Iran that keep Brent well above $105 (January Brent now $110.19). Brent is there; strikes are the missing piece, and allies are now being told to prepare for after November 3."
+ "client_frame_short": "Tech is under pressure this morning: Nasdaq futures are down more than 2% after Amazon and Intel disappointed, following Alphabet's record one-day drop Thursday. **This is a repricing of how fast AI spending pays off, not a broad economic scare: GDP grew 3.4% last quarter, the Dow is roughly flat, and bonds are rallying.** For clients: the S&P 500 is only about 1% below its high going in, broad portfolios are cushioned by bonds and non-tech stocks, and this is exactly the kind of week that disciplined rebalancing is for.",
+ "client_frame": "If a client calls this morning, the story is a sharp tech selloff driven by earnings, with the rest of the market and the economy holding up.\n\nWhat changed overnight: Amazon fell about 6% after missing profit and revenue estimates and reporting negative free cash flow from AI spending, even as its cloud business grew at its fastest pace in years. Intel fell about 21% on weak guidance. Nasdaq 100 futures are down about 2.4% and S&P 500 futures about 1.1%, while Dow futures are roughly flat. Separately, crypto exchange Binance reported a $6.3 billion theft, and Iran said four more tankers hit mines in the Strait of Hormuz. Oil rose about 2.5%.\n\nWhere we stand: Thursday the S&P 500 slipped 0.3% and the Nasdaq Composite 1.4%, led by Alphabet's worst day ever. Even so, the S&P 500 closed about 1.3% below its October 6 record close. GDP grew a strong 3.4% in the third quarter, core inflation held at 3.1%, and jobless claims stayed near historic lows. Treasury yields fell, with the 10-year back below 5%, and December hike odds dropped to about 74%.\n\nWhy it matters: investors are no longer paying for AI spending on faith; they want to see cash returns. Microsoft passed that test this week; Alphabet, Amazon and Intel did not. The selling is concentrated in the largest tech names, and bonds are doing their job as a cushion. This is the kind of week where an index-concentrated portfolio feels it, and a diversified one much less.\n\nFor clients: stay invested, rebalance toward targets, and use tech weakness to trim overweight positions back to plan rather than to sell in a hurry. What would change the view: a 10-year close above 5.40% (Thursday 4.98%), a 30-year above 5.75% (Thursday 5.32%), or US strikes on Iran that keep Brent well above $105 (January Brent now $113.65). Brent is there; strikes are the missing piece, and the timing still points to after November 3."
 }

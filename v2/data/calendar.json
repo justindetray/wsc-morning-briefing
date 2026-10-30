@@ -1,48 +1,6 @@
 {
- "last_curated": "2026-10-29",
+ "last_curated": "2026-10-30",
  "macro": [
-  {
-   "date": "2026-10-29",
-   "time_et": "Before open",
-   "event": "Eli Lilly, Mastercard, Caterpillar, Merck earnings",
-   "consensus": "n/a - Saxo, StockTitan",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-29",
-   "time_et": "8:30 AM",
-   "event": "Q3 GDP (advance)",
-   "consensus": "3.2% annualized - Saxo, FXStreet",
-   "importance": "high"
-  },
-  {
-   "date": "2026-10-29",
-   "time_et": "8:30 AM",
-   "event": "September PCE inflation",
-   "consensus": "core 3.1% y/y, headline 3.6% - Saxo",
-   "importance": "high"
-  },
-  {
-   "date": "2026-10-29",
-   "time_et": "8:30 AM",
-   "event": "Weekly jobless claims",
-   "consensus": "n/a - Saxo",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-29",
-   "time_et": "9:15 AM",
-   "event": "ECB decision (Lagarde press conference 9:45 AM)",
-   "consensus": "hold expected - ECB, Bloomberg",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-10-29",
-   "time_et": "After close",
-   "event": "Amazon, Intel earnings",
-   "consensus": "n/a - Saxo",
-   "importance": "high"
-  },
   {
    "date": "2026-10-30",
    "time_et": "8:30 AM",
@@ -53,9 +11,9 @@
   {
    "date": "2026-10-30",
    "time_et": "",
-   "event": "Bank of Japan decision",
-   "consensus": "expected hold - Bloomberg",
-   "importance": "medium"
+   "event": "December Brent futures expire",
+   "consensus": "Jan becomes front month - FT, ICE",
+   "importance": "low"
   },
   {
    "date": "2026-11-03",
