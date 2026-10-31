@@ -1,25 +1,60 @@
 {
- "last_curated": "2026-10-30",
+ "last_curated": "2026-10-31",
  "macro": [
   {
-   "date": "2026-10-30",
-   "time_et": "8:30 AM",
-   "event": "Employment cost index (Q3)",
+   "date": "2026-11-01",
+   "time_et": "2:00 AM",
+   "event": "US daylight saving time ends",
+   "consensus": "clocks fall back one hour",
+   "importance": "low"
+  },
+  {
+   "date": "2026-11-02",
+   "time_et": "10:00 AM",
+   "event": "ISM manufacturing (Oct), construction spending",
    "consensus": "n/a - CNBC",
    "importance": "medium"
   },
   {
-   "date": "2026-10-30",
-   "time_et": "",
-   "event": "December Brent futures expire",
-   "consensus": "Jan becomes front month - FT, ICE",
-   "importance": "low"
+   "date": "2026-11-02",
+   "time_et": "After close",
+   "event": "Apple, Palantir, Vertex, On Semiconductor earnings",
+   "consensus": "n/a - CNBC",
+   "importance": "high"
   },
   {
    "date": "2026-11-03",
    "time_et": "",
    "event": "US midterm elections",
    "consensus": "n/a",
+   "importance": "high"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "10:00 AM",
+   "event": "JOLTS job openings (Sep), factory orders",
+   "consensus": "n/a - CNBC",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-11-03",
+   "time_et": "",
+   "event": "AMD, Booking, Pfizer, Amgen, Arista earnings",
+   "consensus": "n/a - CNBC",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-11-04",
+   "time_et": "8:15 AM",
+   "event": "ADP employment (Oct); ISM services 10:00 AM",
+   "consensus": "n/a - CNBC",
+   "importance": "medium"
+  },
+  {
+   "date": "2026-11-06",
+   "time_et": "8:30 AM",
+   "event": "October nonfarm payrolls",
+   "consensus": "n/a - CNBC",
    "importance": "high"
   }
  ],

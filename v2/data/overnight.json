@@ -1,38 +1,48 @@
 {
- "window": "Thursday 2026-10-29 close -> Friday 2026-10-30 7:05 AM ET",
- "lede": "Nasdaq futures -2.4% as Amazon -6% and Intel -21% after earnings; Binance $6.3B hack; four tankers hit Hormuz mines; Brent +2.6%; BOJ holds.",
+ "window": "Friday 2026-10-30 close -> Saturday 2026-10-31 7:05 AM ET",
+ "lede": "Friday: S&P -1.8%, Nasdaq -2.9%, chips -7.2% on Intel and Amazon; week S&P -0.6%; Iran strike window as early as Nov 4 vs Doha talks; midterms and payrolls next week.",
  "asia_close": [],
  "europe_open": [],
  "single_name_moves": [
   {
-   "ticker": "AMZN",
-   "delta_pct": -6.0,
-   "venue": "premarket; EPS $1.89 and revenue $201.94 billion missed; negative free cash flow; AWS $46 billion, fastest growth in years (CNBC, Investing.com)"
-  },
-  {
    "ticker": "INTC",
-   "delta_pct": -21.0,
-   "venue": "after hours; fourth-quarter guide $15-16 billion vs $17.1 billion expected, PC slowdown (CNBC)"
+   "delta_pct": -28.6,
+   "venue": "Fri; fourth-quarter revenue guide $15-16 billion below estimates, PC slowdown from memory costs (Reuters, Investopedia)"
   },
   {
-   "ticker": "RDDT",
-   "delta_pct": -18.0,
-   "venue": "after hours; fourth-quarter sales guide below estimates (CNBC)"
+   "ticker": "AMD",
+   "delta_pct": -10.9,
+   "venue": "Fri; chip selloff (Reuters)"
   },
   {
-   "ticker": "SYK",
-   "delta_pct": -12.0,
-   "venue": "after hours; cut full-year guidance (CNBC)"
+   "ticker": "AMZN",
+   "delta_pct": -1.4,
+   "venue": "Fri; pared an early 6% drop after missing estimates (Investopedia)"
+  },
+  {
+   "ticker": "NVDA",
+   "delta_pct": -4.2,
+   "venue": "Fri (Reuters)"
+  },
+  {
+   "ticker": "COIN",
+   "delta_pct": -10.0,
+   "venue": "Fri; after reports of a $6.3 billion Binance theft (Reuters, Investopedia)"
+  },
+  {
+   "ticker": "CVX",
+   "delta_pct": 2.8,
+   "venue": "Fri; profit beat on energy-supply disruptions; Exxon +2.2% (Reuters)"
   }
  ],
  "geo_headlines": [
-  "AMAZON AND INTEL HIT TECH. **Nasdaq 100 futures 28,841 (-2.4%) and S&P 500 futures 7,668.75 (-1.1%) as Amazon fell 6% on an earnings miss and negative free cash flow, and Intel fell 21% on weak guidance; Dow futures roughly flat (CNBC, Investing.com).** Thursday Alphabet had its worst day ever, losing more than $500 billion in market value (Investing.com).",
-  "HORMUZ: MORE TANKER ATTACKS. Iran said four tankers struck mines; UKMTO reported a small boat attached two explosive devices to a tanker 25 nautical miles northeast of Khasab, Oman, disabling it, crew safe (CNBC). Central Command says the main routes are cleared of mines; the IRGC disputes it. The WSJ says the top regional commander briefed Trump on Iran options; Qatari mediators returned to Tehran Friday (Reuters).",
-  "OIL UP, GOLD DOWN. January Brent $113.65 (+2.6%) and December WTI $104.27 (+2.2%), lifted by the tanker attacks, a US crude draw and a Norway strike (BusinessDay); December Brent expires today near $116.73 (FT). Gold $3,986 (-1.1%).",
-  "CRYPTO: BINANCE HACK. Binance said $6.3 billion was stolen in what it called the largest attack in the industry's history (Investing.com). Bitcoin $77,706.85, after a 4.2% drop Thursday (TokenPost).",
-  "ASIA DOWN, BOJ HOLDS. Nikkei -2.1% and Kospi -3.5%; Hang Seng rallied late (CNBC). The Bank of Japan held at 1.25% with one vote for a hike, said inflation has roughly reached 2%, and will speed up ETF sales; December is live (Reuters). Stoxx 600 -0.25%, tech -2% (Reuters).",
-  "DATA: STRONG GROWTH, STICKY INFLATION. Thursday: Q3 GDP +3.4% versus 3.1% expected; September core PCE 3.1% year over year, in line; claims 194,000 (CNBC). FedWatch as of Thursday: December hike 74.4%, down from 85.3%. 10-year 4.98%, 2-year 4.61% (Treasury). Today: employment cost index 8:30 AM."
+  "FRIDAY: AI SPENDING SELLOFF. **The S&P 500 fell 1.82% to 7,580.07 and the Nasdaq Composite 2.86%, its biggest daily drop since June 5, after Intel fell 28.6% on weak guidance and Amazon's results revived concerns about AI cash burn; the chip index fell 7.2% (Reuters).** The Dow fell 1.09%. VIX 19.42.",
+  "THE WEEK AND THE MONTH. S&P 500 -0.57% on the week, 3.05% below its October 6 record close; Nasdaq 100 -1.98%; Dow -0.85%. The Nasdaq fell 5.3% in October, its worst month since March 2025 (Investopedia); the Dow finished October higher (Reuters). Earnings are strong overall: 82% of reporting S&P 500 companies beat, with growth expected near 31.6% (Reuters/LSEG).",
+  "IRAN: STRIKES AS EARLY AS NOVEMBER 4. Washington warned Gulf allies to prepare for possible new strikes as early as November 4, the day after the midterms (Times of Israel). At the same time, Qatari mediators held more than 12 hours of talks in Tehran, and the Iranian team flew back with them to Doha; one report cited a breakthrough toward direct US-Iran talks (Axios, Al-Araby Al-Jadeed via Times of Israel). Trump said the war will get wrapped up soon (Al Jazeera).",
+  "HORMUZ AND THE GULF. The IRGC said four tankers caught fire on unauthorised routes, and drones targeted Riyadh (Al Jazeera). Iran says a drone attacked two fishing boats near Qeshm Island Saturday, with two fishermen missing; no US confirmation (Reuters).",
+  "OIL UP, GOLD AT A ONE-YEAR LOW. January Brent settled $113.10 (+2.1%) and December WTI $104.12 (+2.1%), the highest settles since late April (PFL Petroleum). Gold fell 3.3% to $3,898.90, its lowest in about a year, as oil and sticky inflation kept Fed hike bets alive (Reuters). Bitcoin about $77,261 after the Binance hack.",
+  "NEXT WEEK. Monday: ISM manufacturing 10:00 AM; Apple and Palantir after the close. Tuesday: midterm elections; JOLTS; AMD. Wednesday: ADP, ISM services. Friday: October payrolls 8:30 AM (CNBC). FedWatch as of Friday: December hike 72.1%. US clocks fall back Sunday."
  ],
- "client_frame_short": "Tech is under pressure this morning: Nasdaq futures are down more than 2% after Amazon and Intel disappointed, following Alphabet's record one-day drop Thursday. **This is a repricing of how fast AI spending pays off, not a broad economic scare: GDP grew 3.4% last quarter, the Dow is roughly flat, and bonds are rallying.** For clients: the S&P 500 is only about 1% below its high going in, broad portfolios are cushioned by bonds and non-tech stocks, and this is exactly the kind of week that disciplined rebalancing is for.",
- "client_frame": "If a client calls this morning, the story is a sharp tech selloff driven by earnings, with the rest of the market and the economy holding up.\n\nWhat changed overnight: Amazon fell about 6% after missing profit and revenue estimates and reporting negative free cash flow from AI spending, even as its cloud business grew at its fastest pace in years. Intel fell about 21% on weak guidance. Nasdaq 100 futures are down about 2.4% and S&P 500 futures about 1.1%, while Dow futures are roughly flat. Separately, crypto exchange Binance reported a $6.3 billion theft, and Iran said four more tankers hit mines in the Strait of Hormuz. Oil rose about 2.5%.\n\nWhere we stand: Thursday the S&P 500 slipped 0.3% and the Nasdaq Composite 1.4%, led by Alphabet's worst day ever. Even so, the S&P 500 closed about 1.3% below its October 6 record close. GDP grew a strong 3.4% in the third quarter, core inflation held at 3.1%, and jobless claims stayed near historic lows. Treasury yields fell, with the 10-year back below 5%, and December hike odds dropped to about 74%.\n\nWhy it matters: investors are no longer paying for AI spending on faith; they want to see cash returns. Microsoft passed that test this week; Alphabet, Amazon and Intel did not. The selling is concentrated in the largest tech names, and bonds are doing their job as a cushion. This is the kind of week where an index-concentrated portfolio feels it, and a diversified one much less.\n\nFor clients: stay invested, rebalance toward targets, and use tech weakness to trim overweight positions back to plan rather than to sell in a hurry. What would change the view: a 10-year close above 5.40% (Thursday 4.98%), a 30-year above 5.75% (Thursday 5.32%), or US strikes on Iran that keep Brent well above $105 (January Brent now $113.65). Brent is there; strikes are the missing piece, and the timing still points to after November 3."
+ "client_frame_short": "It was a rough Friday for tech: the Nasdaq fell almost 3% and chip stocks more than 7% as Intel and Amazon revived doubts about the payoff from AI spending. **Zoom out, though: the S&P 500 fell only about half a percent for the week, the Dow rose in October, and companies are still beating earnings estimates at a high rate.** Next week brings the midterms, the jobs report and a possible Iran decision. For clients: stay diversified, rebalance into weakness where you are under target, and do not let one bad day for tech set the plan.",
+ "client_frame": "If a client calls this weekend, the story is a sharp Friday tech selloff inside a much milder week, with a heavy calendar ahead.\n\nWhat happened: Intel fell almost 29% after a weak forecast, and Amazon's results renewed worries about how much cash AI spending is burning. Chip stocks fell 7.2% Friday, the Nasdaq 2.9% and the S&P 500 1.8%. Gold fell more than 3% to its lowest in about a year, while oil rose about 2% to its highest settles since April. Bitcoin slid after a reported $6.3 billion theft at the Binance exchange.\n\nWhere we stand: for the week, the S&P 500 fell about 0.6% and is roughly 3% below its October 6 record close. The Nasdaq lost 5.3% in October, its worst month since March 2025, while the Dow rose for the month. Earnings are still strong overall: 82% of S&P 500 companies that have reported beat estimates. The 10-year Treasury yield fell to 4.94%.\n\nIran: reports say the US told Gulf allies to prepare for possible strikes as early as November 4, the day after the midterms, while Qatar and Pakistan push talks that may bring US and Iranian officials together in Doha. Both paths are now live within days.\n\nWhy it matters: this is a market rotating away from the most expensive AI names, not a broad economic scare. Growth was 3.4% last quarter and unemployment claims are low. Diversified investors held up far better than tech-heavy ones, which is the point of diversification.\n\nFor clients: stay invested, rebalance toward targets, and avoid making election-week or Iran-headline trades in either direction. What would change the view: a 10-year close above 5.40% (Friday 4.94%), a 30-year above 5.75% (Friday 5.31%), or US strikes on Iran that keep Brent well above $105 (Friday $113.10). Brent is there; strikes are the missing piece, and the earliest reported date is now November 4."
 }
