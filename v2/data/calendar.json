@@ -1,13 +1,6 @@
 {
- "last_curated": "2026-10-31",
+ "last_curated": "2026-11-01",
  "macro": [
-  {
-   "date": "2026-11-01",
-   "time_et": "2:00 AM",
-   "event": "US daylight saving time ends",
-   "consensus": "clocks fall back one hour",
-   "importance": "low"
-  },
   {
    "date": "2026-11-02",
    "time_et": "10:00 AM",
@@ -54,7 +47,7 @@
    "date": "2026-11-06",
    "time_et": "8:30 AM",
    "event": "October nonfarm payrolls",
-   "consensus": "n/a - CNBC",
+   "consensus": "about +65K (prior +29K) - ThriveInMarkets",
    "importance": "high"
   }
  ],
