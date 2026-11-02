@@ -1,48 +1,23 @@
 {
- "window": "Friday 2026-10-30 close -> Sunday 2026-11-01 6:05 AM ET",
- "lede": "Weekend: Iran floats a two-day Hormuz reopening plan; Rubio says no strike decision; Trump says one or two targets remain; Iran's leader warns; midterms and payrolls this week.",
+ "window": "Friday 2026-10-30 close -> Monday 2026-11-02 6:05 AM ET",
+ "lede": "Oil -4.4% as Iran-Qatar talks continue; Trump leans toward letting talks play out (Axios); futures rebound, Nasdaq +0.8%; Apple and Palantir tonight; midterms Tuesday.",
  "asia_close": [],
  "europe_open": [],
  "single_name_moves": [
   {
-   "ticker": "INTC",
-   "delta_pct": -28.6,
-   "venue": "Fri; fourth-quarter revenue guide $15-16 billion below estimates, PC slowdown from memory costs (Reuters, Investopedia)"
-  },
-  {
-   "ticker": "AMD",
-   "delta_pct": -10.9,
-   "venue": "Fri; chip selloff (Reuters)"
-  },
-  {
-   "ticker": "AMZN",
-   "delta_pct": -1.4,
-   "venue": "Fri; pared an early 6% drop after missing estimates (Investopedia)"
-  },
-  {
-   "ticker": "NVDA",
-   "delta_pct": -4.2,
-   "venue": "Fri (Reuters)"
-  },
-  {
-   "ticker": "COIN",
-   "delta_pct": -10.0,
-   "venue": "Fri; after reports of a $6.3 billion Binance theft (Reuters, Investopedia)"
-  },
-  {
-   "ticker": "CVX",
-   "delta_pct": 2.8,
-   "venue": "Fri; profit beat on energy-supply disruptions; Exxon +2.2% (Reuters)"
+   "ticker": "AAPL",
+   "delta_pct": -0.5,
+   "venue": "premarket; reports after the close, first call under CEO John Ternus; EPS about $1.99-2.00 on revenue about $113 billion expected (Benzinga, Reuters)"
   }
  ],
  "geo_headlines": [
-  "IRAN: TWO-DAY HORMUZ PLAN. **Iran's foreign minister said talks with Qatari mediators cut the timeline for reopening the Strait of Hormuz from five days to two, if the US meets Iran's conditions, including sanctions relief and the release of frozen funds; he said no direct talks with US officials are scheduled (Dawn, SBS).** Iranian negotiators met Qatari mediators in Doha Saturday after more than 12 hours of talks in Tehran Friday (Reuters via GMA).",
-  "WASHINGTON: NO DECISION YET. Secretary of State Rubio said Saturday that Trump has not decided on new strikes and would prefer a diplomatic outcome (Reuters via GMA). Trump said talks are going fine and he is in no hurry, but that the US still has to take care of one or two targets, including the suspected Pickaxe Mountain nuclear site, which he said could be done in 10 minutes (Arab News). Reports say Gulf allies were told strikes could come as early as November 4 (Times of Israel).",
-  "TEHRAN: HARDER WARNINGS. Iran's supreme leader ordered the armed forces to answer any attack immediately and without geographic limits and to update target lists (Dawn). Security chief Mohsen Rezaei said Tehran is debating whether to lift its ban on nuclear weapons if fighting resumes, though no decision has been taken (Reuters via GMA). He also said the tone of a US letter from Vice President Vance has completely changed (AP via Sun Sentinel).",
-  "HORMUZ TRAFFIC. Iranian state television reported a ship hit a mine and caught fire in the strait Saturday (Daily Star). A tracker counted 41 crossings in the 24 hours to early Sunday (Hormuz tracker). Brent and WTI have not traded since Friday's settles of $113.10 and $104.12; futures reopen 6 PM ET.",
-  "FRIDAY RECAP. S&P 500 -1.82% to 7,580.07, Nasdaq Composite -2.86% (its biggest drop since June 5), chips -7.2% after Intel's 28.6% drop (Reuters). For the week the S&P fell 0.57% and sits 3.05% below its October 6 record close. Gold $3,898.90, 10-year 4.94%, VIX 19.42.",
-  "THIS WEEK. Monday: ISM manufacturing 10:00 AM; Apple (call 5:00 PM) and Palantir after the close. Tuesday: midterm elections; JOLTS 10:00 AM; AMD. Wednesday: ADP 8:15 AM, ISM services 10:00 AM. Friday: October payrolls 8:30 AM, consensus about +65,000 after September's +29,000 (CNBC, ThriveInMarkets). Clocks fell back overnight; futures reopen 6 PM ET."
+  "OIL DROPS ON IRAN DIPLOMACY. **January Brent $108.49 (-4.4%) and December WTI $99.53 (-4.4%), back below $100, after Iranian negotiators held a third straight day of talks with Qatari mediators in Doha on a plan to reopen the Strait of Hormuz within two days if the US meets Iran's conditions (Reuters, AP).** OPEC+ agreed over the weekend to keep December quotas unchanged (dpa via Yahoo).",
+  "TRUMP LEANS TOWARD TALKS, FOR NOW. Netanyahu pressed Trump in a Saturday call to strike Iran right after Tuesday's midterms, but Trump wants to let negotiations play out for now while preparing for possible renewed combat (Axios). At an Iowa rally Sunday he said the US may at some point have to deliver a devastating blow (Mezha, RFE/RL).",
+  "FUTURES REBOUND. S&P 500 futures 7,652.75 (+0.5%) and Nasdaq 100 futures 28,767 (+0.8%) after Friday's tech rout. Europe is flat: STOXX 600 about unchanged, Alstom sharply lower on a forecast cut, and Fitch cut France's outlook (Reuters, Sharecast, Investing.com).",
+  "ASIA MIXED. Kospi +2.3%, Shanghai +1.2% and Hang Seng +0.6%; Nikkei -0.1% and TSMC -1.5%. China's official factory gauge slipped back into contraction in October (AP).",
+  "APPLE AND PALANTIR TONIGHT. Apple reports after the close, its first call under CEO John Ternus; analysts expect about $2.00 a share on about $113 billion in revenue, with early iPhone 18 demand in focus. Apple has overtaken Nvidia as the most valuable listed company (Reuters, Investing.com).",
+  "THIS WEEK. ISM manufacturing today 10:00 AM. Tuesday: midterm elections, JOLTS. Wednesday: ADP, ISM services. Friday: October payrolls 8:30 AM, consensus 55,000 (Dow Jones via JKN) to 65,000 (ThriveInMarkets) after September's 29,000. Reports cite possible US strikes as early as Wednesday."
  ],
- "client_frame_short": "The weekend tilted slightly toward diplomacy, but both paths stay open. Iran says a plan to reopen the Strait of Hormuz within two days is on the table if its conditions are met, and Washington says no strike decision has been made. **At the same time, reports still point to possible US strikes as early as Wednesday, and Iran's leadership is issuing harder warnings, so oil can swing either way when futures reopen Sunday evening.** For clients: this is a week of headlines (Iran, the midterms, Apple, and the jobs report). Stay diversified and keep to the plan.",
- "client_frame": "If a client calls this weekend, the honest answer is that the next few days could move markets in either direction, and that is exactly why we do not trade on headlines.\n\nWhat changed: Iran's foreign minister said Qatari mediation shortened its plan to reopen the Strait of Hormuz from five days to two, provided the US meets conditions such as sanctions relief and releasing frozen funds. Secretary of State Rubio said President Trump has not decided on new strikes and prefers diplomacy. Trump said talks are going fine but that one or two targets, including a suspected nuclear site, remain. Iran's supreme leader ordered the military to respond to any attack without geographic limits.\n\nWhere we stand: on Friday the S&P 500 fell 1.8% and the Nasdaq 2.9% on Intel and Amazon. For the week the S&P fell about 0.6% and is about 3% below its October 6 record close. Brent settled at $113.10 and gold at $3,898.90. The 10-year Treasury yield is 4.94%.\n\nThe week ahead: Apple and Palantir report Monday, the midterm elections are Tuesday, and the October jobs report is Friday, with economists expecting about 65,000 new jobs after just 29,000 in September. Reports say strikes could come as early as Wednesday.\n\nWhy it matters: a credible Hormuz reopening would likely pull oil sharply lower and ease inflation and rate-hike fears; renewed strikes would push oil higher and add to inflation worries. A diversified portfolio is built to live through both outcomes without needing to guess which one comes first, or when.\n\nFor clients: stay invested, rebalance toward targets, and avoid making election-week or Iran-headline trades in either direction. What would change the view: a 10-year close above 5.40% (Friday 4.94%), a 30-year above 5.75% (Friday 5.31%), or US strikes that keep Brent well above $105 (Friday $113.10)."
+ "client_frame_short": "A calmer Monday morning. Oil is down more than 4% and back under $100 for US crude as Iran and Qatari mediators keep talking, and stock futures are bouncing after Friday's tech rout. **The catch is timing: Apple reports tonight, the midterms are tomorrow, Israel is reportedly pressing for strikes right after the vote, and the jobs report lands Friday, so this week can swing both ways.** For clients: one calm morning does not change the plan, and neither would one rough one; stay diversified and rebalance toward targets.",
+ "client_frame": "If a client calls this morning, the short version is that the weekend brought more diplomacy than escalation, and markets are taking some relief from it.\n\nWhat changed overnight: oil fell more than 4%, with Brent near $108 and US crude back under $100, after Iranian negotiators spent a third day with Qatari mediators on a plan to reopen the Strait of Hormuz within two days if the US meets Iran's conditions. Axios reports President Trump wants to let talks play out for now, even as Israel presses for strikes right after Tuesday's vote; at a rally Trump also warned the US may at some point need to deliver a devastating blow. Stock futures are up about 0.5% for the S&P 500 and 0.8% for the Nasdaq 100. OPEC+ left output targets unchanged.\n\nWhere we stand: Friday the S&P 500 fell 1.8% and the Nasdaq 2.9% on Intel and Amazon, leaving the S&P about 3% below its October 6 record close. The 10-year Treasury yield is 4.94%, and futures markets still see about a 72% chance of a December rate hike.\n\nThe week ahead: Apple reports tonight, the first call under its new CEO; the midterms are tomorrow; AMD reports Tuesday; and the October jobs report is Friday, with economists expecting a modest 55,000 to 65,000 new jobs.\n\nWhy it matters: lower oil is the most direct relief valve for inflation and rate-hike fears. If talks hold, that helps bonds and stocks alike; if they break down after the vote, oil can reverse quickly. Diversified portfolios are built for either outcome.\n\nFor clients: stay invested, rebalance toward targets, and avoid election-week or Iran-headline trades in either direction. What would change the view: a 10-year close above 5.40% (Friday 4.94%), a 30-year above 5.75% (Friday 5.31%), or US strikes that keep Brent well above $105 (now $108.49, down from $113.43 Friday)."
 }
