@@ -1,31 +1,24 @@
 {
- "last_curated": "2026-11-03",
+ "last_curated": "2026-11-04",
  "macro": [
   {
-   "date": "2026-11-03",
-   "time_et": "",
-   "event": "US midterm elections (polls close from 6 PM ET)",
-   "consensus": "n/a",
-   "importance": "high"
-  },
-  {
-   "date": "2026-11-03",
-   "time_et": "10:00 AM",
-   "event": "JOLTS job openings (Sep), factory orders (Sep), durable goods final",
+   "date": "2026-11-04",
+   "time_et": "8:15 AM",
+   "event": "ADP employment (Oct)",
    "consensus": "n/a - CNBC",
    "importance": "medium"
   },
   {
-   "date": "2026-11-03",
-   "time_et": "After close",
-   "event": "AMD earnings (Booking, Arista, Super Micro also report today)",
-   "consensus": "n/a - CNBC, Benzinga",
-   "importance": "high"
+   "date": "2026-11-04",
+   "time_et": "8:30 AM",
+   "event": "Trade balance (Sep)",
+   "consensus": "n/a - CNBC",
+   "importance": "low"
   },
   {
    "date": "2026-11-04",
-   "time_et": "8:15 AM",
-   "event": "ADP employment (Oct); ISM services 10:00 AM",
+   "time_et": "10:00 AM",
+   "event": "ISM services (Oct)",
    "consensus": "n/a - CNBC",
    "importance": "medium"
   },
@@ -42,6 +35,13 @@
    "event": "October nonfarm payrolls",
    "consensus": "55K (Dow Jones via JKN) to 65K (ThriveInMarkets); prior +29K",
    "importance": "high"
+  },
+  {
+   "date": "2026-11-06",
+   "time_et": "10:00 AM",
+   "event": "Michigan sentiment preliminary (Nov)",
+   "consensus": "n/a - CNBC",
+   "importance": "low"
   }
  ],
  "earnings": []

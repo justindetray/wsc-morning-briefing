@@ -1,33 +1,43 @@
 {
- "window": "Monday 2026-11-02 close -> Tuesday 2026-11-03 6:05 AM ET",
- "lede": "US strikes Iranian missile sites on Qeshm in limited defensive action; Trump says Iran wants a settlement; oil +0.8% after -7.6%; Apple -4.5%, Palantir -7% premarket; futures flat on midterm day.",
+ "window": "Tuesday 2026-11-03 close -> Wednesday 2026-11-04 6:05 AM ET",
+ "lede": "Democrats win House and Senate; futures round-trip from Nasdaq -2.4% to +0.9%; AMD +6% after hours; US strike plans reportedly ready as early as today; gold +2.8%.",
  "asia_close": [],
  "europe_open": [],
  "single_name_moves": [
   {
-   "ticker": "AAPL",
+   "ticker": "AMD",
+   "delta_pct": 6.4,
+   "venue": "after hours; beat Q3, guided Q4 sales above estimates and sees 2027 revenue +80% on data-center demand (finance feed, Benzinga)"
+  },
+  {
+   "ticker": "SMCI",
+   "delta_pct": 6.0,
+   "venue": "premarket; quarterly revenue $19.9 billion, up 298% (Benzinga)"
+  },
+  {
+   "ticker": "DJT",
+   "delta_pct": -7.0,
+   "venue": "premarket; after Democrats won Congress (Benzinga)"
+  },
+  {
+   "ticker": "SPCX",
    "delta_pct": -4.5,
-   "venue": "premarket; revenue and iPhone sales beat, but Apple said surging memory-chip prices will keep squeezing gross margin (Benzinga)"
+   "venue": "premarket; SpaceX on congressional-scrutiny concerns (Benzinga)"
   },
   {
    "ticker": "PLTR",
-   "delta_pct": -7.0,
-   "venue": "premarket; revenue +96% to $2.31 billion and adjusted EPS $0.44 vs $0.41 expected, but US commercial contract growth slowed (Benzinga, MarketWatch, TradingKey)"
-  },
-  {
-   "ticker": "AMD",
-   "delta_pct": 2.4,
-   "venue": "premarket; reports after the close today (Benzinga)"
+   "delta_pct": -2.3,
+   "venue": "premarket; regulation concerns after the election (Benzinga)"
   }
  ],
  "geo_headlines": [
-  "US STRIKES QESHM ON ELECTION EVE. **US forces carried out limited defensive strikes on Iranian targets on Qeshm Island Monday night after an IRGC missile was fired at a US aircraft over the Strait of Hormuz; officials said it was not a return to major combat (AP, ABC, Jerusalem Post).** Hours earlier Trump posted that a deal could happen and that Iran wants a settlement as soon as possible (CBS).",
-  "TEHRAN: BALL IN US COURT. Parliament speaker and chief negotiator Qalibaf said Iran delivered a firm and rational response and is ready for battle with its finger on the trigger (AP). A senior Iranian official told Reuters a deal is still far off and Iran will not accept excessive US demands; Qatari mediators were in Tehran again Monday night, and a diplomat called the talks positive (Reuters via Jerusalem Post, Bloomberg).",
-  "OIL BOUNCES AFTER A 7.6% DROP. January Brent $105.60 (+0.8%) and December WTI $97.44 (+1.0%) after Monday's settles of $104.77 (-7.6%) and $96.46 (-7.4%) on diplomacy hopes (CNBC). Gold $3,914.10 (-1.4%).",
-  "APPLE AND PALANTIR BEAT, SHARES FALL. Apple topped revenue and iPhone estimates but warned memory-chip costs will keep pressuring margins; shares -4.5% premarket. Palantir revenue rose 96% to $2.31 billion, but slower US commercial contract growth sent shares about 7% lower (Benzinga, MarketWatch).",
-  "FUTURES FLAT ON MIDTERM DAY. S&P 500 futures 7,570 (-0.1%), Nasdaq 100 futures 28,235.50 (+0.4%). Monday: S&P 500 -0.51% to 7,541.40, Nasdaq Composite -1.07%, Dow +0.41%; ISM manufacturing rose to 55.5, above the 54.6 expected (CNBC, ISM, Trading Economics).",
-  "TODAY. Midterm elections; polls close from 6 PM ET and control of Congress may not be clear tonight. JOLTS and factory orders 10:00 AM. AMD reports after the close. Reports have cited possible US strikes as early as Wednesday (Times of Israel)."
+  "DEMOCRATS WIN BOTH CHAMBERS. **Democrats took control of the Senate and the House, flipping Senate seats in Texas, Ohio, Iowa, Kansas, South Carolina, North Carolina and Maine; Trump said he will accept the results (CNN, NBC, Economic Times).** CNBC projects at least 54 Democratic Senate seats. Divided government from January means subpoena power and a check on the White House agenda.",
+  "FUTURES: A ROUND TRIP. Nasdaq 100 futures fell as much as 2.4% and S&P 500 futures 1.4% as results came in, then recovered (Reuters). Now S&P futures 7,671 (+1.0%) and Nasdaq 100 futures 28,560.75 (+0.9%), led by AMD after hours. Trump Media -7% and SpaceX -4.5% premarket (Benzinga).",
+  "IRAN: STRIKE PLANS VS TALKS. US media report Central Command has plans ready for strikes that could begin as early as today, with three carriers in the region. Trump called Monday's Qeshm strike minor and said it wasn't war. Iran called the US reply to its seven conditions not convincing, while Qatar says it is relaying proposals in real time (Al Jazeera).",
+  "HORMUZ AND TEHRAN'S MESSAGE. The IRGC said four tankers were destroyed after hitting mines on a prohibited route south of the strait (Reuters). Parliament speaker Ghalibaf said Americans voted no to war and Iran endorses that message (ABC).",
+  "GOLD JUMPS, OIL SLIPS. Gold $4,052.30 (+2.8%), back above $4,000. January Brent $102.37 (-1.2%) after Tuesday's $103.60 settle, the lowest in nearly four weeks; December WTI $95.37 (-0.7%) (Benzinga). Bitcoin $78,490 (+1.5%). FedWatch: December hike odds 80.4%, up from 73.4%.",
+  "TODAY. ADP employment 8:15 AM; ISM services 10:00 AM (CNBC). Tuesday: S&P 500 +0.4% to 7,568.92, Nasdaq 100 +0.68%, chips +2.6%, Dow -0.38%. Friday: October payrolls 8:30 AM."
  ],
- "client_frame_short": "Election Day opens with mixed signals. Overnight the US struck Iranian missile sites on Qeshm Island in what officials called a limited, defensive action, while Trump says Iran wants a deal and mediators are still shuttling. **Oil gave back only a sliver of Monday's 7.6% drop, and stock futures are flat, so markets are reading this as a skirmish inside talks rather than a return to war.** Apple and Palantir beat but fell on margins and growth. For clients: election nights are noisy, history says they rarely change long-run returns; stay diversified.",
- "client_frame": "If a client calls this morning, the short version is that three big things are happening at once, and none of them is a reason to change a long-term plan.\n\nWhat changed overnight: US forces carried out limited strikes on Iranian missile sites on Qeshm Island after an Iranian missile was fired at a US aircraft. Officials stressed this was not a return to full combat. Hours earlier, President Trump posted that Iran wants a settlement as soon as possible, and Qatari mediators were back in Tehran. Iran's chief negotiator says the ball is in the US court. Oil rose less than 1% after falling more than 7% Monday, which tells you markets still lean toward diplomacy.\n\nEarnings: Apple and Palantir both beat expectations but fell after hours, Apple on memory-chip costs squeezing margins and Palantir on slower US commercial growth. That fits the theme of the past week: investors are demanding more from AI-related winners.\n\nWhere we stand: the S&P 500 fell 0.5% Monday and is about 3.5% below its October 6 record close. Manufacturing data were strong, with the ISM index at 55.5. The 10-year Treasury yield is 4.91%.\n\nThe election: control of Congress may not be known tonight. Historically, markets have done fine under every combination of divided and unified government; the policy noise usually fades faster than the headlines suggest. The bigger near-term swing factor is Iran: reports have cited possible US strikes as early as Wednesday, while mediators push for a framework that trades an end to Hormuz attacks for lifting the US blockade.\n\nFor clients: stay invested, rebalance toward targets, and avoid election-night or Iran-headline trades in either direction. What would change the view: a 10-year close above 5.40% (Monday 4.91%), a 30-year above 5.75% (Monday 5.28%), or US strikes that resume full combat and keep Brent well above $105 (now $105.60)."
+ "client_frame_short": "The election delivered a clean result: Democrats won both the House and the Senate, so Washington moves to divided government in January. Futures dropped on the news overnight, then fully recovered, and are now up about 1%, helped by strong AMD results. **Divided government has historically been fine for markets because it limits big policy swings; the bigger near-term risk is still Iran, where US strike plans are reportedly ready as early as today.** For clients: no portfolio changes for an election result; stay diversified.",
+ "client_frame": "If a client calls this morning, the headline is the election, but the market risk this week is still Iran.\n\nWhat changed overnight: Democrats won control of both the Senate and the House, flipping Senate seats in states such as Texas, Ohio, Kansas and South Carolina. From January, Washington moves to divided government, which means more oversight, more gridlock, and fewer sweeping policy changes. Futures fell sharply as results came in, with Nasdaq futures down as much as 2.4%, then recovered completely; S&P 500 futures are now up about 1%. AMD helped, guiding for 80% revenue growth next year. Gold jumped almost 3% back above $4,000.\n\nIran: US media report that strike plans are ready as early as today, with three aircraft carriers in the region. Iran called the latest US reply not convincing, while Qatar says it is relaying proposals between the two sides in real time. Oil slipped about 1%, so traders are not pricing a big escalation yet.\n\nWhere we stand: the S&P 500 rose 0.4% Tuesday and is about 3.2% below its October 6 record close. The 10-year Treasury yield is 4.95%, and futures markets now see an 80% chance of a December rate hike, up from 73%.\n\nWhy it matters: markets have historically done well under divided government; gridlock reduces policy surprises. The real swing factor is whether strikes resume and push oil and inflation fears higher. The new Congress is not seated until January, so nothing changes in fiscal or trade policy before then; expect hearings and headlines, not new laws, in the near term.\n\nFor clients: stay invested, rebalance toward targets, and avoid election or Iran-headline trades in either direction. What would change the view: a 10-year close above 5.40% (Tuesday 4.95%), a 30-year above 5.75% (Tuesday 5.32%), or US strikes that resume full combat and keep Brent well above $105 (now $102.37)."
 }
