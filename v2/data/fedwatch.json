@@ -2,54 +2,54 @@
  "meetings": [
   {
    "meetingDt": "2026-12-09",
-   "reportingDt": "2026-11-03",
-   "hold": 0.195556,
-   "hike_25": 0.804444,
+   "reportingDt": "2026-11-04",
+   "hold": 0.16963,
+   "hike_25": 0.83037,
    "hike_50": 0.0,
    "hike_75": 0.0,
    "hike_100": 0.0,
-   "cumulative_hike": 0.804444
+   "cumulative_hike": 0.83037
   },
   {
    "meetingDt": "2027-01-27",
-   "reportingDt": "2026-11-03",
-   "hold": 0.141669,
-   "hike_25": 0.636662,
-   "hike_50": 0.221669,
+   "reportingDt": "2026-11-04",
+   "hold": 0.130678,
+   "hike_25": 0.678645,
+   "hike_50": 0.190678,
    "hike_75": 0.0,
    "hike_100": 0.0,
-   "cumulative_hike": 0.858331
+   "cumulative_hike": 0.8693230000000001
   },
   {
    "meetingDt": "2027-03-17",
-   "reportingDt": "2026-11-03",
-   "hold": 0.056465,
-   "hike_25": 0.338959,
-   "hike_50": 0.471258,
-   "hike_75": 0.133318,
+   "reportingDt": "2026-11-04",
+   "hold": 0.057125,
+   "hike_25": 0.370218,
+   "hike_50": 0.465333,
+   "hike_75": 0.107324,
    "hike_100": 0.0,
-   "cumulative_hike": 0.943535
+   "cumulative_hike": 0.9428749999999999
   },
   {
    "meetingDt": "2027-04-28",
-   "reportingDt": "2026-11-03",
-   "hold": 0.040736,
-   "hike_25": 0.260264,
-   "hike_50": 0.434403,
-   "hike_75": 0.227458,
-   "hike_100": 0.037139,
-   "cumulative_hike": 0.9592639999999999
+   "reportingDt": "2026-11-04",
+   "hold": 0.042436,
+   "hike_25": 0.289708,
+   "hike_50": 0.440875,
+   "hike_75": 0.199384,
+   "hike_100": 0.027598,
+   "cumulative_hike": 0.957565
   },
   {
    "meetingDt": "2027-06-09",
-   "reportingDt": "2026-11-03",
-   "hold": 0.025605,
-   "hike_25": 0.178725,
-   "hike_50": 0.369723,
-   "hike_75": 0.304324,
-   "hike_100": 0.107829,
-   "hike_125": 0.013794,
-   "cumulative_hike": 0.974395
+   "reportingDt": "2026-11-04",
+   "hold": 0.029038,
+   "hike_25": 0.211641,
+   "hike_50": 0.393149,
+   "hike_75": 0.275626,
+   "hike_100": 0.081833,
+   "hike_125": 0.008713,
+   "cumulative_hike": 0.9709620000000001
   }
  ],
  "status": "LIVE"

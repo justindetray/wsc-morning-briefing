@@ -1,43 +1,43 @@
 {
- "window": "Tuesday 2026-11-03 close -> Wednesday 2026-11-04 6:05 AM ET",
- "lede": "Democrats win House and Senate; futures round-trip from Nasdaq -2.4% to +0.9%; AMD +6% after hours; US strike plans reportedly ready as early as today; gold +2.8%.",
+ "window": "Wednesday 2026-11-04 close -> Thursday 2026-11-05 6:05 AM ET",
+ "lede": "Oil bounces 1.5% after an 8% drop on new Hormuz tanker fires; Trump says war cost GOP but would do it again; AI chips slide; BoE expected to hike to 4.00%.",
  "asia_close": [],
  "europe_open": [],
  "single_name_moves": [
   {
-   "ticker": "AMD",
-   "delta_pct": 6.4,
-   "venue": "after hours; beat Q3, guided Q4 sales above estimates and sees 2027 revenue +80% on data-center demand (finance feed, Benzinga)"
-  },
-  {
-   "ticker": "SMCI",
-   "delta_pct": 6.0,
-   "venue": "premarket; quarterly revenue $19.9 billion, up 298% (Benzinga)"
-  },
-  {
-   "ticker": "DJT",
+   "ticker": "MU",
    "delta_pct": -7.0,
-   "venue": "premarket; after Democrats won Congress (Benzinga)"
+   "venue": "Wed close, lower again overnight; AI-policy concerns after the Democratic sweep (Benzinga)"
   },
   {
-   "ticker": "SPCX",
-   "delta_pct": -4.5,
-   "venue": "premarket; SpaceX on congressional-scrutiny concerns (Benzinga)"
+   "ticker": "SNDK",
+   "delta_pct": -8.0,
+   "venue": "Wed close, lower again overnight (Benzinga)"
   },
   {
-   "ticker": "PLTR",
-   "delta_pct": -2.3,
-   "venue": "premarket; regulation concerns after the election (Benzinga)"
+   "ticker": "NBIS",
+   "delta_pct": -3.0,
+   "venue": "overnight, after -6% Wednesday (Benzinga)"
+  },
+  {
+   "ticker": "NVDA",
+   "delta_pct": -3.0,
+   "venue": "Wed; concern about tighter AI data-center rules (Benzinga)"
+  },
+  {
+   "ticker": "DUOL",
+   "delta_pct": 26.8,
+   "venue": "Wed close; daily active users +29% to 64.9 million (24/7 Wall St, Yahoo Finance)"
   }
  ],
  "geo_headlines": [
-  "DEMOCRATS WIN BOTH CHAMBERS. **Democrats took control of the Senate and the House, flipping Senate seats in Texas, Ohio, Iowa, Kansas, South Carolina, North Carolina and Maine; Trump said he will accept the results (CNN, NBC, Economic Times).** CNBC projects at least 54 Democratic Senate seats. Divided government from January means subpoena power and a check on the White House agenda.",
-  "FUTURES: A ROUND TRIP. Nasdaq 100 futures fell as much as 2.4% and S&P 500 futures 1.4% as results came in, then recovered (Reuters). Now S&P futures 7,671 (+1.0%) and Nasdaq 100 futures 28,560.75 (+0.9%), led by AMD after hours. Trump Media -7% and SpaceX -4.5% premarket (Benzinga).",
-  "IRAN: STRIKE PLANS VS TALKS. US media report Central Command has plans ready for strikes that could begin as early as today, with three carriers in the region. Trump called Monday's Qeshm strike minor and said it wasn't war. Iran called the US reply to its seven conditions not convincing, while Qatar says it is relaying proposals in real time (Al Jazeera).",
-  "HORMUZ AND TEHRAN'S MESSAGE. The IRGC said four tankers were destroyed after hitting mines on a prohibited route south of the strait (Reuters). Parliament speaker Ghalibaf said Americans voted no to war and Iran endorses that message (ABC).",
-  "GOLD JUMPS, OIL SLIPS. Gold $4,052.30 (+2.8%), back above $4,000. January Brent $102.37 (-1.2%) after Tuesday's $103.60 settle, the lowest in nearly four weeks; December WTI $95.37 (-0.7%) (Benzinga). Bitcoin $78,490 (+1.5%). FedWatch: December hike odds 80.4%, up from 73.4%.",
-  "TODAY. ADP employment 8:15 AM; ISM services 10:00 AM (CNBC). Tuesday: S&P 500 +0.4% to 7,568.92, Nasdaq 100 +0.68%, chips +2.6%, Dow -0.38%. Friday: October payrolls 8:30 AM."
+  "OIL BOUNCES AFTER AN 8% DROP. **January Brent $96.06 (+1.5%) after settling $94.62 Wednesday, down about 8.7% and its lowest since late August, as Gulf sources said a weakened Trump facing a Democratic Congress has more reason to seek a deal (Al Jazeera, Reuters).** The rebound came after the IRGC said two tankers and a tugboat caught fire on unauthorised Hormuz routes and claimed it seized two US drones (Reuters, Trend).",
+  "TRUMP: WAR COST US THE ELECTION, WOULD DO IT AGAIN. Trump said it was largely true that the Iran war cost Republicans the midterms by pushing up gasoline, but said he would do it again because Iran cannot have a nuclear weapon (AP, DW). Vance wrote that the reason we lost is the war (BBC). Axios says Trump must now choose between a deal and renewed bombing (Axios).",
+  "TEHRAN DIGS IN. The supreme leader said the election changes nothing and US hostility will persist; Iran says it has a maximum deterrence plan ready (Al Jazeera, Daily Star). A tanker was hit by two projectiles about 50 nautical miles north of Qatar (UKMTO via CBS). The US sanctioned Indian and Turkish firms over Iranian oil (Al Jazeera).",
+  "FUTURES MIXED AFTER A BIG RALLY. S&P 500 futures 7,727.25 (+0.1%), Nasdaq 100 futures 28,423.75 (-0.5%) as AI names extend losses: Micron and Sandisk fell 7-8% Wednesday and slid again overnight (Benzinga). Gold $4,137.10 (+1.6%). Bitcoin $80,213.",
+  "WEDNESDAY: DOW'S BEST DAY OF 2026. Dow +3.03% to 53,356.12, S&P 500 +1.58% to 7,688.62 (1.67% below its October 6 record close), Nasdaq Composite +1.44%; chips -3.1%. VIX fell to 16.61 (Yahoo Finance, Polygon).",
+  "TODAY. Bank of England decision 7:00 AM ET, widely expected to raise Bank Rate to 4.00% from 3.75% (Bank of England, AOL). Jobless claims and Q3 productivity 8:30 AM. Friday: October payrolls 8:30 AM."
  ],
- "client_frame_short": "The election delivered a clean result: Democrats won both the House and the Senate, so Washington moves to divided government in January. Futures dropped on the news overnight, then fully recovered, and are now up about 1%, helped by strong AMD results. **Divided government has historically been fine for markets because it limits big policy swings; the bigger near-term risk is still Iran, where US strike plans are reportedly ready as early as today.** For clients: no portfolio changes for an election result; stay diversified.",
- "client_frame": "If a client calls this morning, the headline is the election, but the market risk this week is still Iran.\n\nWhat changed overnight: Democrats won control of both the Senate and the House, flipping Senate seats in states such as Texas, Ohio, Kansas and South Carolina. From January, Washington moves to divided government, which means more oversight, more gridlock, and fewer sweeping policy changes. Futures fell sharply as results came in, with Nasdaq futures down as much as 2.4%, then recovered completely; S&P 500 futures are now up about 1%. AMD helped, guiding for 80% revenue growth next year. Gold jumped almost 3% back above $4,000.\n\nIran: US media report that strike plans are ready as early as today, with three aircraft carriers in the region. Iran called the latest US reply not convincing, while Qatar says it is relaying proposals between the two sides in real time. Oil slipped about 1%, so traders are not pricing a big escalation yet.\n\nWhere we stand: the S&P 500 rose 0.4% Tuesday and is about 3.2% below its October 6 record close. The 10-year Treasury yield is 4.95%, and futures markets now see an 80% chance of a December rate hike, up from 73%.\n\nWhy it matters: markets have historically done well under divided government; gridlock reduces policy surprises. The real swing factor is whether strikes resume and push oil and inflation fears higher. The new Congress is not seated until January, so nothing changes in fiscal or trade policy before then; expect hearings and headlines, not new laws, in the near term.\n\nFor clients: stay invested, rebalance toward targets, and avoid election or Iran-headline trades in either direction. What would change the view: a 10-year close above 5.40% (Tuesday 4.95%), a 30-year above 5.75% (Tuesday 5.32%), or US strikes that resume full combat and keep Brent well above $105 (now $102.37)."
+ "client_frame_short": "The market's verdict on the election came fast: the Dow had its best day of the year, the S&P 500 rose 1.6% and oil fell about 8% on hopes that a weakened White House will now seek a deal with Iran. **Overnight the picture is more mixed: oil is bouncing on new tanker fires, Iran says the vote changes nothing, and AI chip stocks are sliding on fears of tighter rules under a Democratic Congress.** For clients: this is rotation, not panic, and the jobs report lands tomorrow. Stay diversified and rebalance toward targets.",
+ "client_frame": "If a client calls this morning, the short version is that the election sparked a broad relief rally, but the leadership underneath is changing.\n\nWhat happened: Wednesday the Dow jumped 3%, its best day of 2026, and the S&P 500 rose 1.6% to about 1.7% below its October 6 record close. Oil fell about 8%, with Brent near $95, as investors bet that a Democratic Congress makes a negotiated end to the Iran war more likely. Volatility dropped sharply, with the VIX at 16.6. At the same time, chip stocks fell about 3% as investors worried about tighter rules for AI data centers.\n\nWhat changed overnight: oil bounced about 1.5% after Iran said two tankers and a tugboat caught fire in the Strait of Hormuz. Trump said the war largely cost Republicans the election but that he would do it again, and Iran's supreme leader said the vote changes nothing. Stock futures are mixed, with the Nasdaq 100 down 0.5%.\n\nWhere we stand: the 10-year Treasury yield fell to 4.90%. Futures markets now see an 83% chance of a December Fed hike, and the Bank of England is expected to raise rates this morning. The October jobs report comes tomorrow.\n\nWhy it matters: lower oil is helping, but central banks are still leaning toward tightening, and the market is rotating away from the most crowded AI names toward a broader set of companies. That favors diversified portfolios over concentrated tech bets. Divided government also tends to mean fewer surprise policy changes, which markets have usually welcomed over time.\n\nFor clients: stay invested, rebalance toward targets, and avoid chasing Wednesday's rally or selling into the AI pullback. What would change the view: a 10-year close above 5.40% (Wednesday 4.90%), a 30-year above 5.75% (Wednesday 5.28%), or renewed US strikes that send Brent back well above $105 (now $96.06)."
 }

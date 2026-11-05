@@ -1,31 +1,17 @@
 {
- "last_curated": "2026-11-04",
+ "last_curated": "2026-11-05",
  "macro": [
   {
-   "date": "2026-11-04",
-   "time_et": "8:15 AM",
-   "event": "ADP employment (Oct)",
-   "consensus": "n/a - CNBC",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-11-04",
-   "time_et": "8:30 AM",
-   "event": "Trade balance (Sep)",
-   "consensus": "n/a - CNBC",
-   "importance": "low"
-  },
-  {
-   "date": "2026-11-04",
-   "time_et": "10:00 AM",
-   "event": "ISM services (Oct)",
-   "consensus": "n/a - CNBC",
-   "importance": "medium"
+   "date": "2026-11-05",
+   "time_et": "7:00 AM",
+   "event": "Bank of England rate decision and Monetary Policy Report (12:00 UK)",
+   "consensus": "hike to 4.00% from 3.75% expected - AOL, EBC",
+   "importance": "high"
   },
   {
    "date": "2026-11-05",
    "time_et": "8:30 AM",
-   "event": "Initial jobless claims; Q3 productivity and unit labor costs",
+   "event": "Initial jobless claims; Q3 productivity and unit labor costs (prelim)",
    "consensus": "n/a - CNBC",
    "importance": "medium"
   },
@@ -40,6 +26,13 @@
    "date": "2026-11-06",
    "time_et": "10:00 AM",
    "event": "Michigan sentiment preliminary (Nov)",
+   "consensus": "n/a - CNBC",
+   "importance": "low"
+  },
+  {
+   "date": "2026-11-06",
+   "time_et": "3:00 PM",
+   "event": "Consumer credit (Sep)",
    "consensus": "n/a - CNBC",
    "importance": "low"
   }
