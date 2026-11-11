@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>WSC Morning Briefing — Thu Nov 05 2026</title>
+<title>WSC Morning Briefing — Wed Nov 11 2026</title>
 <style>
 *{box-sizing:border-box}
 html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
@@ -23,7 +23,7 @@ html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -ap
 .tile .delta.up{color:#4ade80}
 .tile .delta.down{color:#f87171}
 .tile .delta.neutral{color:#888}
-.tile .meta{font-size:10px;color:#666;margin-top:3px;font-family:ui-monospace,Menlo,monospace}
+.tile .meta{font-size:10px;color:#aaa;margin-top:3px;font-family:ui-monospace,Menlo,monospace}
 .ondeck{list-style:none;padding:0;margin:0}
 .ondeck .ev{padding:4px 0;border-bottom:1px solid #1c1d1e;font-size:13px}
 .ondeck .ev:last-child{border-bottom:none}
@@ -45,7 +45,9 @@ html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -ap
 .fw th,.fw td{padding:5px 8px;text-align:right;border-bottom:1px solid #1c1d1e}
 .fw th:first-child,.fw td:first-child{text-align:left;font-weight:600}
 .fw thead th{color:#888;font-weight:500;text-transform:uppercase;letter-spacing:.06em;font-size:10px}
-.fw-meta{font-size:10px;color:#666;margin-top:6px;font-family:ui-monospace,Menlo,monospace}
+.fw-meta{font-size:10px;color:#aaa;margin-top:6px;font-family:ui-monospace,Menlo,monospace}
+.edition-note,.provenance{color:#bbb;font-size:12px;line-height:1.6}
+.provenance a{color:#9ccbf0}
 .fw-dead{padding:8px;color:#f87171;font-size:12px;background:#1f1414;border-radius:4px}
 .cal{width:100%;border-collapse:collapse;font-size:12px}
 .cal th,.cal td{padding:6px 8px;border-bottom:1px solid #1c1d1e;text-align:left}
@@ -71,6 +73,13 @@ html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -ap
 }
 @media (max-width:480px){
   .tape{grid-template-columns:repeat(2,1fr)}
+  .fw th,.fw td{padding:5px 3px;font-size:11px}
+  .econ tr{display:block;padding:8px 0;border-bottom:1px solid #292929}
+  .econ td{display:block;width:auto!important;border:0;padding:3px 8px;white-space:normal!important}
+  .cal thead{display:none}
+  .cal tr{display:grid;grid-template-columns:1fr 1fr;padding:8px 0;border-bottom:1px solid #292929}
+  .cal td{border:0}
+  .cal td:nth-child(3),.cal td:nth-child(4){grid-column:1/-1}
 }
 </style>
 </head>
@@ -78,105 +87,121 @@ html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -ap
 <div class="wrap">
 
 <div class="masthead">
-  <h1>WSC Morning Briefing — Thursday, November 5, 2026</h1>
-  <span class="stamp">Built 06:02 ET · v2</span>
+  <h1>WSC Morning Briefing — Wednesday, November 11, 2026</h1>
+  <span class="stamp">Built 10:32 ET · v2</span>
 </div>
 
 
+<p class="edition-note">Recovery edition. Overnight narrative stops at 09:29 ET; tape quotes are separate 10:14–10:24 ET snapshots, not live-refreshing. Cash indexes and Bitcoin are Nov 10 closes. Treasury quotes are Nov 10, carried for Veterans Day.</p>
 
 <div class="section">
   <h2>Tape</h2>
   <div class="tape"><div class="tile">
   <div class="sym">ES</div>
-  <div class="val">7,727.25</div>
-  <div class="delta up">+0.09%</div>
-  <div class="meta">prev 7,720.50</div>
+  <div class="val">7,598.50</div>
+  <div class="delta up">+0.72%</div>
+  <div class="meta">prev 7,544.25 &middot; 10:14 ET snapshot; delayed</div>
 </div><div class="tile">
   <div class="sym">NQ</div>
-  <div class="val">28,423.75</div>
-  <div class="delta down">-0.50%</div>
-  <div class="meta">prev 28,566.75</div>
+  <div class="val">28,270.75</div>
+  <div class="delta up">+1.56%</div>
+  <div class="meta">prev 27,835.25 &middot; 10:14 ET snapshot; delayed</div>
+</div><div class="tile">
+  <div class="sym">SPX</div>
+  <div class="val">7,520.93</div>
+  <div class="delta down">-0.38%</div>
+  <div class="meta">prev 7,549.94 &middot; Nov 10 close; not today&#x27;s cash</div>
+</div><div class="tile">
+  <div class="sym">NDX</div>
+  <div class="val">27,740.80</div>
+  <div class="delta down">-0.60%</div>
+  <div class="meta">prev 27,907.63 &middot; Nov 10 close; not today&#x27;s cash</div>
 </div><div class="tile">
   <div class="sym">SOX</div>
-  <div class="val">10,268.65</div>
-  <div class="delta down">-3.13%</div>
-  <div class="meta">prev 10,600.40</div>
+  <div class="val">9,998.33</div>
+  <div class="delta down">-0.35%</div>
+  <div class="meta">prev 10,033.93 &middot; Nov 10 close; not today&#x27;s cash</div>
 </div><div class="tile">
   <div class="sym">DJI</div>
-  <div class="val">53,356.12</div>
-  <div class="delta up">+3.03%</div>
-  <div class="meta">prev 51,786.72</div>
+  <div class="val">52,231.89</div>
+  <div class="delta down">-0.30%</div>
+  <div class="meta">prev 52,389.75 &middot; Nov 10 close; not today&#x27;s cash</div>
 </div><div class="tile">
   <div class="sym">VIX</div>
-  <div class="val">16.61</div>
-  <div class="delta down">-20.26%</div>
-  <div class="meta">prev 20.83</div>
+  <div class="val">19.46</div>
+  <div class="delta down">-2.31%</div>
+  <div class="meta">prev 19.92 &middot; Nov 10 close; not today&#x27;s cash</div>
 </div><div class="tile">
   <div class="sym">US10Y</div>
-  <div class="val">4.900%</div>
-  <div class="delta down">-5bp</div>
-  <div class="meta">prev 4.950%</div>
+  <div class="val">4.990%</div>
+  <div class="delta neutral"></div>
+  <div class="meta">Nov 10 quote; bond holiday</div>
 </div><div class="tile">
   <div class="sym">US2Y</div>
-  <div class="val">4.580%</div>
-  <div class="delta down">-3bp</div>
-  <div class="meta">prev 4.610%</div>
+  <div class="val">4.750%</div>
+  <div class="delta neutral"></div>
+  <div class="meta">Nov 10 quote; bond holiday</div>
 </div><div class="tile">
   <div class="sym">WTI</div>
-  <div class="val">88.63</div>
-  <div class="delta up">+0.67%</div>
-  <div class="meta">prev 88.04 &middot; Dec contract</div>
+  <div class="val">88.67</div>
+  <div class="delta up">+3.06%</div>
+  <div class="meta">prev 86.04 &middot; 10:24 ET snapshot</div>
 </div><div class="tile">
   <div class="sym">BRENT</div>
-  <div class="val">96.06</div>
-  <div class="delta up">+1.52%</div>
-  <div class="meta">prev 94.62 &middot; Jan contract</div>
+  <div class="val">94.45</div>
+  <div class="delta up">+3.24%</div>
+  <div class="meta">prev 91.49 &middot; 10:24 ET snapshot</div>
 </div><div class="tile">
   <div class="sym">GOLD</div>
-  <div class="val">4,137.10</div>
-  <div class="delta up">+1.57%</div>
-  <div class="meta">prev 4,073.00</div>
+  <div class="val">4,025.30</div>
+  <div class="delta down">-0.12%</div>
+  <div class="meta">prev 4,030.20 &middot; 10:14 ET snapshot; delayed</div>
 </div><div class="tile">
   <div class="sym">BTC</div>
-  <div class="val">80,213</div>
-  <div class="delta down">-0.27%</div>
-  <div class="meta">prev 80,428</div>
+  <div class="val">73,698</div>
+  <div class="delta down">-2.07%</div>
+  <div class="meta">prev 75,259 &middot; Nov 10 UTC close; not live</div>
 </div><div class="tile">
   <div class="sym">EURJPY</div>
-  <div class="val">177.80</div>
-  <div class="delta down">-0.06%</div>
-  <div class="meta">prev 177.90</div>
+  <div class="val">177.23</div>
+  <div class="delta down">-0.01%</div>
+  <div class="meta">prev 177.25 &middot; Nov 11; time unstated; UTC baseline</div>
 </div><div class="tile">
   <div class="sym">AUDJPY</div>
-  <div class="val">111.08</div>
-  <div class="delta up">+0.16%</div>
-  <div class="meta">prev 110.90</div>
+  <div class="val">109.43</div>
+  <div class="delta up">+0.38%</div>
+  <div class="meta">prev 109.02 &middot; Nov 11; time unstated; UTC baseline</div>
 </div></div>
 </div>
 
 <div class="section">
   <h2>On Deck Today</h2>
-  <ul class="ondeck"><li class="ev imp-high"><b>7:00 AM</b> — Bank of England rate decision and Monetary Policy Report (12:00 UK) — cons hike to 4.00% from 3.75% expected - AOL, EBC</li><li class="ev imp-medium"><b>8:30 AM</b> — Initial jobless claims; Q3 productivity and unit labor costs (prelim) — cons n/a - CNBC</li></ul>
+  <ul class="ondeck"><li class="ev imp-medium"><b>All day</b> — Veterans Day: US dollar fixed-income closure recommendation <span class="note">(SIFMA; BLS lists the holiday, no BLS release today. Not an equity-market holiday.)</span></li></ul>
 </div>
 
 <div class="section">
   <h2>Overnight</h2>
-  <p class="overnight">Single names: MU -7.00% (Wed close, lower again overnight; AI-policy concerns after the Democratic sweep (Benzinga)); SNDK -8.00% (Wed close, lower again overnight (Benzinga)); NBIS -3.00% (overnight, after -6% Wednesday (Benzinga)); NVDA -3.00% (Wed; concern about tighter AI data-center rules (Benzinga)); DUOL +26.80% (Wed close; daily active users +29% to 64.9 million (24/7 Wall St, Yahoo Finance)).</p><ul class="geo"><li>OIL BOUNCES AFTER AN 8% DROP. <strong>January Brent $96.06 (+1.5%) after settling $94.62 Wednesday, down about 8.7% and its lowest since late August, as Gulf sources said a weakened Trump facing a Democratic Congress has more reason to seek a deal (Al Jazeera, Reuters).</strong> The rebound came after the IRGC said two tankers and a tugboat caught fire on unauthorised Hormuz routes and claimed it seized two US drones (Reuters, Trend).</li><li>TRUMP: WAR COST US THE ELECTION, WOULD DO IT AGAIN. Trump said it was largely true that the Iran war cost Republicans the midterms by pushing up gasoline, but said he would do it again because Iran cannot have a nuclear weapon (AP, DW). Vance wrote that the reason we lost is the war (BBC). Axios says Trump must now choose between a deal and renewed bombing (Axios).</li><li>TEHRAN DIGS IN. The supreme leader said the election changes nothing and US hostility will persist; Iran says it has a maximum deterrence plan ready (Al Jazeera, Daily Star). A tanker was hit by two projectiles about 50 nautical miles north of Qatar (UKMTO via CBS). The US sanctioned Indian and Turkish firms over Iranian oil (Al Jazeera).</li><li>FUTURES MIXED AFTER A BIG RALLY. S&amp;P 500 futures 7,727.25 (+0.1%), Nasdaq 100 futures 28,423.75 (-0.5%) as AI names extend losses: Micron and Sandisk fell 7-8% Wednesday and slid again overnight (Benzinga). Gold $4,137.10 (+1.6%). Bitcoin $80,213.</li><li>WEDNESDAY: DOW&#x27;S BEST DAY OF 2026. Dow +3.03% to 53,356.12, S&amp;P 500 +1.58% to 7,688.62 (1.67% below its October 6 record close), Nasdaq Composite +1.44%; chips -3.1%. VIX fell to 16.61 (Yahoo Finance, Polygon).</li><li>TODAY. Bank of England decision 7:00 AM ET, widely expected to raise Bank Rate to 4.00% from 3.75% (Bank of England, AOL). Jobless claims and Q3 productivity 8:30 AM. Friday: October payrolls 8:30 AM.</li></ul><div class="clientframe cf-short"><div class="cf-h">THE SHORT ANSWER &middot; IF A CLIENT CALLS</div><p>The market&#x27;s verdict on the election came fast: the Dow had its best day of the year, the S&amp;P 500 rose 1.6% and oil fell about 8% on hopes that a weakened White House will now seek a deal with Iran. <strong>Overnight the picture is more mixed: oil is bouncing on new tanker fires, Iran says the vote changes nothing, and AI chip stocks are sliding on fears of tighter rules under a Democratic Congress.</strong> For clients: this is rotation, not panic, and the jobs report lands tomorrow. Stay diversified and rebalance toward targets.</p></div><div class="clientframe"><div class="cf-h">THE FULLER PICTURE &middot; IF THEY WANT THE MECHANICS</div><p>If a client calls this morning, the short version is that the election sparked a broad relief rally, but the leadership underneath is changing.</p><p>What happened: Wednesday the Dow jumped 3%, its best day of 2026, and the S&amp;P 500 rose 1.6% to about 1.7% below its October 6 record close. Oil fell about 8%, with Brent near $95, as investors bet that a Democratic Congress makes a negotiated end to the Iran war more likely. Volatility dropped sharply, with the VIX at 16.6. At the same time, chip stocks fell about 3% as investors worried about tighter rules for AI data centers.</p><p>What changed overnight: oil bounced about 1.5% after Iran said two tankers and a tugboat caught fire in the Strait of Hormuz. Trump said the war largely cost Republicans the election but that he would do it again, and Iran&#x27;s supreme leader said the vote changes nothing. Stock futures are mixed, with the Nasdaq 100 down 0.5%.</p><p>Where we stand: the 10-year Treasury yield fell to 4.90%. Futures markets now see an 83% chance of a December Fed hike, and the Bank of England is expected to raise rates this morning. The October jobs report comes tomorrow.</p><p>Why it matters: lower oil is helping, but central banks are still leaning toward tightening, and the market is rotating away from the most crowded AI names toward a broader set of companies. That favors diversified portfolios over concentrated tech bets. Divided government also tends to mean fewer surprise policy changes, which markets have usually welcomed over time.</p><p>For clients: stay invested, rebalance toward targets, and avoid chasing Wednesday&#x27;s rally or selling into the AI pullback. What would change the view: a 10-year close above 5.40% (Wednesday 4.90%), a 30-year above 5.75% (Wednesday 5.28%), or renewed US strikes that send Brent back well above $105 (now $96.06).</p></div>
+  <ul class="geo"><li><strong>Pre-open rebound, not a bottom signal:</strong> NQ was 28,350.50 (+1.85%) at 09:29 ET, versus its prior API reference 27,835.25. Its pre-open high reached +2.04%. ES was 7,612.25 (+0.90%) at 09:29 ET. These are pre-open minute bars, not the later tape above.</li><li><strong>An identifiable after-close catalyst:</strong> CoreWeave released results and raised its outlook Tuesday evening, with its conference call at 17:00 ET. That is a concrete AI-demand update; attributing the entire index rebound to one company would overstate the evidence. (CoreWeave investor relations)</li><li><strong>Oil&#x27;s risk premium remains two-sided:</strong> Reuters&#x27; overnight report described oil recovering as continuing Hormuz shipping attacks complicated hopes for de-escalation. The attacks cited were earlier incidents, not newly verified overnight strikes. (Reuters, Nov 11 report)</li></ul><div class="clientframe cf-short"><div class="cf-h">THE SHORT ANSWER &middot; IF A CLIENT CALLS</div><p>“Does this bounce mean the worst is behind us?” It is encouraging, but <strong>a rebound is not an all-clear</strong>. The technology-heavy futures market recovered before the open, while renewed pressure in oil reminds us that the risks have not disappeared.</p><p>We can welcome a better morning without chasing it or abandoning a diversified plan. If your spending needs and risk tolerance have not changed, there is no need to make a portfolio decision because of this bounce alone. We are watching whether the recovery holds through the close, whether participation broadens, and Friday&#x27;s inflation report.</p></div><div class="clientframe"><div class="cf-h">THE FULLER PICTURE &middot; IF THEY WANT THE MECHANICS</div><p>There is a concrete after-close development to discuss: CoreWeave&#x27;s results and higher outlook provided a fresh update on AI demand. That supports a more constructive reading of this morning&#x27;s rebound, but it does not establish that every technology business has the same economics or that selling pressure is exhausted. We have not measured positioning or dealer flows well enough to call this short covering or capitulation. (CoreWeave investor relations)</p><p>Keep the time windows straight. Nasdaq futures were up 1.85% just before the cash open; the later snapshot was up 1.56%. Tuesday&#x27;s semiconductor index close was down 0.35%, and the VIX closed at 19.46. Neither is a reading of today&#x27;s cash session. A futures rebound and yesterday&#x27;s volatility close are not enough to declare a durable bottom. (Finance API; Polygon)</p><p>The rate backdrop still calls for discipline. The verified policy band is 3.75–4.00%; CME&#x27;s November 10 cohort assigns December 90% to a quarter-point increase and 10% to a half-point increase. That is a market-implied distribution, not certainty. Treasury cash-market quotes are carried from November 10 because of the Veterans Day closure recommendation, so this edition does not infer fresh bond-market confirmation. (Federal Reserve; CME; SIFMA)</p><p>For clients: stay anchored to cash needs, diversification and agreed allocation ranges rather than one morning&#x27;s direction. Rebalancing toward existing targets is different from chasing a rally. The next checks are closing breadth and leadership, sustained oil pressure, and Friday&#x27;s 08:30 ET producer-price release; we would reassess if the rebound fails while inflation and financing pressure intensify. (BLS calendar)</p></div>
 </div>
 
 <div class="section">
   <h2>FedWatch</h2>
-  <table class="fw"><thead><tr><th>Meeting</th><th>Hold</th><th>+25</th><th>+50</th><th>+75</th><th>+100</th><th>Cum hike</th></tr></thead><tbody><tr><td>2026-12-09</td><td>17.0</td><td>83.0</td><td>0.0</td><td>0.0</td><td>0.0</td><td><b>83.0</b></td></tr><tr><td>2027-01-27</td><td>13.1</td><td>67.9</td><td>19.1</td><td>0.0</td><td>0.0</td><td><b>86.9</b></td></tr><tr><td>2027-03-17</td><td>5.7</td><td>37.0</td><td>46.5</td><td>10.7</td><td>0.0</td><td><b>94.3</b></td></tr><tr><td>2027-04-28</td><td>4.2</td><td>29.0</td><td>44.1</td><td>19.9</td><td>2.8</td><td><b>95.8</b></td></tr><tr><td>2027-06-09</td><td>2.9</td><td>21.2</td><td>39.3</td><td>27.6</td><td>8.2</td><td><b>97.1</b></td></tr></tbody></table><div class="fw-meta">CME cohort as of 2026-11-04</div>
+  <table class="fw"><thead><tr><th>Meeting</th><th>Hold</th><th>+25</th><th>+50</th><th>+75</th><th>+100</th><th>Cum hike</th></tr></thead><tbody><tr><td>2026-12-09</td><td>0.0</td><td>90.0</td><td>10.0</td><td>0.0</td><td>0.0</td><td><b>100.0</b></td></tr><tr><td>2027-01-27</td><td>0.0</td><td>34.2</td><td>59.6</td><td>6.2</td><td>0.0</td><td><b>100.0</b></td></tr><tr><td>2027-03-17</td><td>0.0</td><td>11.5</td><td>42.8</td><td>41.6</td><td>4.1</td><td><b>100.0</b></td></tr></tbody></table><div class="fw-meta">CME cohort as of 2026-11-10</div>
 </div>
 
 <div class="section">
   <h2>5-Day Calendar</h2>
-  <table class="cal"><thead><tr><th>Date</th><th>Time ET</th><th>Event</th><th>Consensus / Note</th></tr></thead><tbody><tr class="imp-high"><td>2026-11-05</td><td>7:00 AM</td><td>Bank of England rate decision and Monetary Policy Report (12:00 UK)</td><td class="muted">hike to 4.00% from 3.75% expected - AOL, EBC</td></tr><tr class="imp-medium"><td>2026-11-05</td><td>8:30 AM</td><td>Initial jobless claims; Q3 productivity and unit labor costs (prelim)</td><td class="muted">n/a - CNBC</td></tr><tr class="imp-high"><td>2026-11-06</td><td>8:30 AM</td><td>October nonfarm payrolls</td><td class="muted">55K (Dow Jones via JKN) to 65K (ThriveInMarkets); prior +29K</td></tr><tr class=""><td>2026-11-06</td><td>10:00 AM</td><td>Michigan sentiment preliminary (Nov)</td><td class="muted">n/a - CNBC</td></tr><tr class=""><td>2026-11-06</td><td>3:00 PM</td><td>Consumer credit (Sep)</td><td class="muted">n/a - CNBC</td></tr></tbody></table>
+  <table class="cal"><thead><tr><th>Date</th><th>Time ET</th><th>Event</th><th>Consensus / Note</th></tr></thead><tbody><tr class="imp-medium"><td>2026-11-11</td><td>All day</td><td>Veterans Day: US dollar fixed-income closure recommendation</td><td class="muted">SIFMA; BLS lists the holiday, no BLS release today. Not an equity-market holiday.</td></tr><tr class="imp-high"><td>2026-11-13</td><td>8:30 AM</td><td>October Producer Price Index</td><td class="muted">Date and Eastern time verified with BLS; consensus not independently verified.</td></tr></tbody></table>
 </div>
 
 <div class="section">
   <h2>Key Indicators</h2>
-  <table class="econ"><tr><td class="elabel">Treasury 2y / 10y / 30y (11/4)</td><td class="evalue">4.58% / 4.90% / 5.28%</td><td class="enote">Treasury CMT. Client triggers: 10y above 5.40%, 30y above 5.75%</td></tr><tr><td class="elabel">2s10s curve</td><td class="evalue">+32bp</td><td class="enote">10y minus 2y, Treasury CMT 11/4</td></tr><tr><td class="elabel">10y real yield / breakeven</td><td class="evalue">2.64% / 2.26%</td><td class="enote">Treasury real curve; breakeven = nominal minus real</td></tr><tr><td class="elabel">December hike odds</td><td class="evalue">83.0%</td><td class="enote">CME FedWatch as of 11/4 (meeting 12/9); was 80.4% Tuesday; January cumulative 86.9%</td></tr><tr><td class="elabel">Bank of England today</td><td class="evalue">3.75% -&gt; 4.00% expected</td><td class="enote">Decision 7:00 AM ET; economists see a 7-2 vote (EBC, AOL)</td></tr><tr><td class="elabel">VIX / VXN</td><td class="evalue">16.61 / 25.08</td><td class="enote">Wednesday closes (Polygon); VIX from 20.83</td></tr><tr><td class="elabel">Distance from record close</td><td class="evalue">S&amp;P -1.7% / NDX -8.9%</td><td class="enote">Dow -1.8%, Nasdaq Comp -6.8%, chips -29.8% (Polygon closes)</td></tr><tr><td class="elabel">Brent Wednesday settle</td><td class="evalue">$94.62</td><td class="enote">About -8.7% on the day, lowest since late August (Reuters via Al Jazeera)</td></tr><tr><td class="elabel">Oct payrolls consensus (Fri)</td><td class="evalue">55K-65K</td><td class="enote">Dow Jones via JKN; ThriveInMarkets. September +29K</td></tr></table>
+  <table class="econ"><tr><td class="elabel">Treasury 2y / 5y / 10y / 30y</td><td class="evalue">4.75% / 4.83% / 4.99% / 5.36%</td><td class="enote">Nov 10 indicative TE quotes, not CMT; carried for holiday</td></tr><tr><td class="elabel">2s10s indicative curve</td><td class="evalue">+24bp</td><td class="enote">Calculated from rounded Nov 10 TE 10y and 2y quotes</td></tr><tr><td class="elabel">December rate distribution</td><td class="evalue">+25: 90% / +50: 10%</td><td class="enote">CME Nov 10 cohort; current band 3.75–4.00%; hold 0%</td></tr><tr><td class="elabel">October CPI, monthly</td><td class="evalue">+0.4% / core +0.3%</td><td class="enote">API observation period Oct 31; prior +0.6% / +0.3%; not annual rates</td></tr><tr><td class="elabel">October payrolls / jobless rate</td><td class="evalue">+165K / 4.1%</td><td class="enote">API prior +60K / 4.2%; released Nov 6; not an overnight event</td></tr><tr><td class="elabel">Tuesday cash close</td><td class="evalue">SOX -0.35% / VIX 19.46</td><td class="enote">Polygon Nov 10 settled daily bars, not today&#x27;s volatility</td></tr><tr><td class="elabel">Dollar index</td><td class="evalue">102.785 / +1.11%</td><td class="enote">Finance API 10:24 ET snapshot; not an overnight-only change</td></tr><tr><td class="elabel">Bitcoin prior UTC close</td><td class="evalue">$73,697.87 / -2.07%</td><td class="enote">Polygon X:BTCUSD Nov 10; daily change, not a live crypto quote</td></tr><tr><td class="elabel">Next verified BLS release</td><td class="evalue">Fri Nov 13 · 08:30 ET</td><td class="enote">October PPI; no BLS release on Veterans Day</td></tr></table>
+</div>
+
+<div class="section provenance">
+  <h2>Sources &amp; Timing</h2>
+  <ul><li><a href="https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx" target="_blank" rel="noopener noreferrer">CoreWeave results and outlook</a>: Nov 10 after-close release; 17:00 ET call.</li><li><a href="https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/" target="_blank" rel="noopener noreferrer">Reuters overnight oil report</a>: Shipping-risk context; do not treat earlier incidents as new overnight attacks.</li><li><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm" target="_blank" rel="noopener noreferrer">Federal Reserve policy statement</a>: Oct 28 verified target band 3.75–4.00%.</li><li><a href="https://www.cmegroup.com/trading/interest-rates/countdown-to-fomc.html" target="_blank" rel="noopener noreferrer">CME FedWatch</a>: Authenticated API fetched 14:41 UTC; Nov 10 reporting cohort. Dec buckets changed from last observed Nov 4 cohort.</li><li><a href="https://www.bls.gov/schedule/2026/11_sched_list.htm" target="_blank" rel="noopener noreferrer">BLS November calendar</a>: Nov 11 holiday; Oct PPI Nov 13 at 08:30 ET.</li><li><a href="https://www.sifma.org/resources/guides-playbooks/holiday-schedule" target="_blank" rel="noopener noreferrer">SIFMA holiday recommendation</a>: Nov 11 US dollar fixed-income closure recommendation.</li><li><a href="https://tradingeconomics.com/united-states/2-year-note-yield" target="_blank" rel="noopener noreferrer">Treasury quote: 2-year</a>: Nov 10 indicative quote, not Treasury CMT.</li><li><a href="https://tradingeconomics.com/united-states/government-bond-yield" target="_blank" rel="noopener noreferrer">Treasury quote: 10-year</a>: Nov 10 indicative quote; no same-day rates inference.</li><li><a href="https://tradingeconomics.com/united-states/5-year-note-yield" target="_blank" rel="noopener noreferrer">Treasury quote: 5-year</a>: Nov 10 observation.</li><li><a href="https://tradingeconomics.com/united-states/30-year-bond-yield" target="_blank" rel="noopener noreferrer">Treasury quote: 30-year</a>: Nov 10 observation.</li><li><a href="https://tradingeconomics.com/euro-area/currency" target="_blank" rel="noopener noreferrer">EUR/JPY quote</a>: Nov 11; exact time not supplied; delta uses Polygon Nov 10 UTC-day baseline.</li><li><a href="https://tradingeconomics.com/australia/currency" target="_blank" rel="noopener noreferrer">AUD/JPY quote</a>: Nov 11; exact time not supplied; delta uses Polygon Nov 10 UTC-day baseline.</li></ul>
 </div>
 
 </div>

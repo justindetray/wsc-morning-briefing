@@ -1,0 +1,75 @@
+{
+  "as_of": "2026-11-11T15:30:42.173639+00:00",
+  "sources": [
+    {
+      "name": "CoreWeave results and outlook",
+      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
+      "note": "Nov 10 after-close release; 17:00 ET call."
+    },
+    {
+      "name": "Reuters overnight oil report",
+      "url": "https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/",
+      "note": "Shipping-risk context; do not treat earlier incidents as new overnight attacks."
+    },
+    {
+      "name": "Federal Reserve policy statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "note": "Oct 28 verified target band 3.75\u20134.00%."
+    },
+    {
+      "name": "CME FedWatch",
+      "url": "https://www.cmegroup.com/trading/interest-rates/countdown-to-fomc.html",
+      "note": "Authenticated API fetched 14:41 UTC; Nov 10 reporting cohort. Dec buckets changed from last observed Nov 4 cohort."
+    },
+    {
+      "name": "BLS November calendar",
+      "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
+      "note": "Nov 11 holiday; Oct PPI Nov 13 at 08:30 ET."
+    },
+    {
+      "name": "SIFMA holiday recommendation",
+      "url": "https://www.sifma.org/resources/guides-playbooks/holiday-schedule",
+      "note": "Nov 11 US dollar fixed-income closure recommendation."
+    },
+    {
+      "name": "Treasury quote: 2-year",
+      "url": "https://tradingeconomics.com/united-states/2-year-note-yield",
+      "note": "Nov 10 indicative quote, not Treasury CMT."
+    },
+    {
+      "name": "Treasury quote: 10-year",
+      "url": "https://tradingeconomics.com/united-states/government-bond-yield",
+      "note": "Nov 10 indicative quote; no same-day rates inference."
+    },
+    {
+      "name": "Treasury quote: 5-year",
+      "url": "https://tradingeconomics.com/united-states/5-year-note-yield",
+      "note": "Nov 10 observation."
+    },
+    {
+      "name": "Treasury quote: 30-year",
+      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield",
+      "note": "Nov 10 observation."
+    },
+    {
+      "name": "EUR/JPY quote",
+      "url": "https://tradingeconomics.com/euro-area/currency",
+      "note": "Nov 11; exact time not supplied; delta uses Polygon Nov 10 UTC-day baseline."
+    },
+    {
+      "name": "AUD/JPY quote",
+      "url": "https://tradingeconomics.com/australia/currency",
+      "note": "Nov 11; exact time not supplied; delta uses Polygon Nov 10 UTC-day baseline."
+    }
+  ],
+  "market_evidence": "/home/user/workspace/cron_tracking/b28120e0/run239",
+  "omissions": [
+    "MBA release not verified with primary dated source; omitted",
+    "No unverified earnings/speakers added to today's calendar",
+    "BTC minute endpoint 403; unused optional endpoint; required /prev passed",
+    "Treasury direct endpoint unavailable; dated TE fallback used under standing instructions",
+    "FRED Nov 9 values rejected rather than passed as Nov 10",
+    "No historical records or dealer-flow claims",
+    "Research Google Doc permanently skipped"
+  ]
+}

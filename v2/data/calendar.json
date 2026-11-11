@@ -1,41 +1,20 @@
 {
- "last_curated": "2026-11-05",
- "macro": [
-  {
-   "date": "2026-11-05",
-   "time_et": "7:00 AM",
-   "event": "Bank of England rate decision and Monetary Policy Report (12:00 UK)",
-   "consensus": "hike to 4.00% from 3.75% expected - AOL, EBC",
-   "importance": "high"
-  },
-  {
-   "date": "2026-11-05",
-   "time_et": "8:30 AM",
-   "event": "Initial jobless claims; Q3 productivity and unit labor costs (prelim)",
-   "consensus": "n/a - CNBC",
-   "importance": "medium"
-  },
-  {
-   "date": "2026-11-06",
-   "time_et": "8:30 AM",
-   "event": "October nonfarm payrolls",
-   "consensus": "55K (Dow Jones via JKN) to 65K (ThriveInMarkets); prior +29K",
-   "importance": "high"
-  },
-  {
-   "date": "2026-11-06",
-   "time_et": "10:00 AM",
-   "event": "Michigan sentiment preliminary (Nov)",
-   "consensus": "n/a - CNBC",
-   "importance": "low"
-  },
-  {
-   "date": "2026-11-06",
-   "time_et": "3:00 PM",
-   "event": "Consumer credit (Sep)",
-   "consensus": "n/a - CNBC",
-   "importance": "low"
-  }
- ],
- "earnings": []
+  "last_curated": "2026-11-11T15:30:42.173639+00:00",
+  "macro": [
+    {
+      "date": "2026-11-11",
+      "time_et": "All day",
+      "event": "Veterans Day: US dollar fixed-income closure recommendation",
+      "importance": "medium",
+      "note": "SIFMA; BLS lists the holiday, no BLS release today. Not an equity-market holiday."
+    },
+    {
+      "date": "2026-11-13",
+      "time_et": "8:30 AM",
+      "event": "October Producer Price Index",
+      "importance": "high",
+      "note": "Date and Eastern time verified with BLS; consensus not independently verified."
+    }
+  ],
+  "earnings": []
 }

@@ -1,43 +1,14 @@
 {
- "window": "Wednesday 2026-11-04 close -> Thursday 2026-11-05 6:05 AM ET",
- "lede": "Oil bounces 1.5% after an 8% drop on new Hormuz tanker fires; Trump says war cost GOP but would do it again; AI chips slide; BoE expected to hike to 4.00%.",
- "asia_close": [],
- "europe_open": [],
- "single_name_moves": [
-  {
-   "ticker": "MU",
-   "delta_pct": -7.0,
-   "venue": "Wed close, lower again overnight; AI-policy concerns after the Democratic sweep (Benzinga)"
-  },
-  {
-   "ticker": "SNDK",
-   "delta_pct": -8.0,
-   "venue": "Wed close, lower again overnight (Benzinga)"
-  },
-  {
-   "ticker": "NBIS",
-   "delta_pct": -3.0,
-   "venue": "overnight, after -6% Wednesday (Benzinga)"
-  },
-  {
-   "ticker": "NVDA",
-   "delta_pct": -3.0,
-   "venue": "Wed; concern about tighter AI data-center rules (Benzinga)"
-  },
-  {
-   "ticker": "DUOL",
-   "delta_pct": 26.8,
-   "venue": "Wed close; daily active users +29% to 64.9 million (24/7 Wall St, Yahoo Finance)"
-  }
- ],
- "geo_headlines": [
-  "OIL BOUNCES AFTER AN 8% DROP. **January Brent $96.06 (+1.5%) after settling $94.62 Wednesday, down about 8.7% and its lowest since late August, as Gulf sources said a weakened Trump facing a Democratic Congress has more reason to seek a deal (Al Jazeera, Reuters).** The rebound came after the IRGC said two tankers and a tugboat caught fire on unauthorised Hormuz routes and claimed it seized two US drones (Reuters, Trend).",
-  "TRUMP: WAR COST US THE ELECTION, WOULD DO IT AGAIN. Trump said it was largely true that the Iran war cost Republicans the midterms by pushing up gasoline, but said he would do it again because Iran cannot have a nuclear weapon (AP, DW). Vance wrote that the reason we lost is the war (BBC). Axios says Trump must now choose between a deal and renewed bombing (Axios).",
-  "TEHRAN DIGS IN. The supreme leader said the election changes nothing and US hostility will persist; Iran says it has a maximum deterrence plan ready (Al Jazeera, Daily Star). A tanker was hit by two projectiles about 50 nautical miles north of Qatar (UKMTO via CBS). The US sanctioned Indian and Turkish firms over Iranian oil (Al Jazeera).",
-  "FUTURES MIXED AFTER A BIG RALLY. S&P 500 futures 7,727.25 (+0.1%), Nasdaq 100 futures 28,423.75 (-0.5%) as AI names extend losses: Micron and Sandisk fell 7-8% Wednesday and slid again overnight (Benzinga). Gold $4,137.10 (+1.6%). Bitcoin $80,213.",
-  "WEDNESDAY: DOW'S BEST DAY OF 2026. Dow +3.03% to 53,356.12, S&P 500 +1.58% to 7,688.62 (1.67% below its October 6 record close), Nasdaq Composite +1.44%; chips -3.1%. VIX fell to 16.61 (Yahoo Finance, Polygon).",
-  "TODAY. Bank of England decision 7:00 AM ET, widely expected to raise Bank Rate to 4.00% from 3.75% (Bank of England, AOL). Jobless claims and Q3 productivity 8:30 AM. Friday: October payrolls 8:30 AM."
- ],
- "client_frame_short": "The market's verdict on the election came fast: the Dow had its best day of the year, the S&P 500 rose 1.6% and oil fell about 8% on hopes that a weakened White House will now seek a deal with Iran. **Overnight the picture is more mixed: oil is bouncing on new tanker fires, Iran says the vote changes nothing, and AI chip stocks are sliding on fears of tighter rules under a Democratic Congress.** For clients: this is rotation, not panic, and the jobs report lands tomorrow. Stay diversified and rebalance toward targets.",
- "client_frame": "If a client calls this morning, the short version is that the election sparked a broad relief rally, but the leadership underneath is changing.\n\nWhat happened: Wednesday the Dow jumped 3%, its best day of 2026, and the S&P 500 rose 1.6% to about 1.7% below its October 6 record close. Oil fell about 8%, with Brent near $95, as investors bet that a Democratic Congress makes a negotiated end to the Iran war more likely. Volatility dropped sharply, with the VIX at 16.6. At the same time, chip stocks fell about 3% as investors worried about tighter rules for AI data centers.\n\nWhat changed overnight: oil bounced about 1.5% after Iran said two tankers and a tugboat caught fire in the Strait of Hormuz. Trump said the war largely cost Republicans the election but that he would do it again, and Iran's supreme leader said the vote changes nothing. Stock futures are mixed, with the Nasdaq 100 down 0.5%.\n\nWhere we stand: the 10-year Treasury yield fell to 4.90%. Futures markets now see an 83% chance of a December Fed hike, and the Bank of England is expected to raise rates this morning. The October jobs report comes tomorrow.\n\nWhy it matters: lower oil is helping, but central banks are still leaning toward tightening, and the market is rotating away from the most crowded AI names toward a broader set of companies. That favors diversified portfolios over concentrated tech bets. Divided government also tends to mean fewer surprise policy changes, which markets have usually welcomed over time.\n\nFor clients: stay invested, rebalance toward targets, and avoid chasing Wednesday's rally or selling into the AI pullback. What would change the view: a 10-year close above 5.40% (Wednesday 4.90%), a 30-year above 5.75% (Wednesday 5.28%), or renewed US strikes that send Brent back well above $105 (now $96.06)."
+  "as_of": "2026-11-11T15:30:42.173639+00:00",
+  "asia_close": [],
+  "europe_open": [],
+  "single_name_moves": [],
+  "edition_note": "Recovery edition. Overnight narrative stops at 09:29 ET; tape quotes are separate 10:14\u201310:24 ET snapshots, not live-refreshing. Cash indexes and Bitcoin are Nov 10 closes. Treasury quotes are Nov 10, carried for Veterans Day.",
+  "geo_headlines": [
+    "**Pre-open rebound, not a bottom signal:** NQ was 28,350.50 (+1.85%) at 09:29 ET, versus its prior API reference 27,835.25. Its pre-open high reached +2.04%. ES was 7,612.25 (+0.90%) at 09:29 ET. These are pre-open minute bars, not the later tape above.",
+    "**An identifiable after-close catalyst:** CoreWeave released results and raised its outlook Tuesday evening, with its conference call at 17:00 ET. That is a concrete AI-demand update; attributing the entire index rebound to one company would overstate the evidence. (CoreWeave investor relations)",
+    "**Oil's risk premium remains two-sided:** Reuters' overnight report described oil recovering as continuing Hormuz shipping attacks complicated hopes for de-escalation. The attacks cited were earlier incidents, not newly verified overnight strikes. (Reuters, Nov 11 report)"
+  ],
+  "client_frame_short": "\u201cDoes this bounce mean the worst is behind us?\u201d It is encouraging, but **a rebound is not an all-clear**. The technology-heavy futures market recovered before the open, while renewed pressure in oil reminds us that the risks have not disappeared.\n\nWe can welcome a better morning without chasing it or abandoning a diversified plan. If your spending needs and risk tolerance have not changed, there is no need to make a portfolio decision because of this bounce alone. We are watching whether the recovery holds through the close, whether participation broadens, and Friday's inflation report.",
+  "client_frame": "There is a concrete after-close development to discuss: CoreWeave's results and higher outlook provided a fresh update on AI demand. That supports a more constructive reading of this morning's rebound, but it does not establish that every technology business has the same economics or that selling pressure is exhausted. We have not measured positioning or dealer flows well enough to call this short covering or capitulation. (CoreWeave investor relations)\n\nKeep the time windows straight. Nasdaq futures were up 1.85% just before the cash open; the later snapshot was up 1.56%. Tuesday's semiconductor index close was down 0.35%, and the VIX closed at 19.46. Neither is a reading of today's cash session. A futures rebound and yesterday's volatility close are not enough to declare a durable bottom. (Finance API; Polygon)\n\nThe rate backdrop still calls for discipline. The verified policy band is 3.75\u20134.00%; CME's November 10 cohort assigns December 90% to a quarter-point increase and 10% to a half-point increase. That is a market-implied distribution, not certainty. Treasury cash-market quotes are carried from November 10 because of the Veterans Day closure recommendation, so this edition does not infer fresh bond-market confirmation. (Federal Reserve; CME; SIFMA)\n\nFor clients: stay anchored to cash needs, diversification and agreed allocation ranges rather than one morning's direction. Rebalancing toward existing targets is different from chasing a rally. The next checks are closing breadth and leadership, sustained oil pressure, and Friday's 08:30 ET producer-price release; we would reassess if the rebound fails while inflation and financing pressure intensify. (BLS calendar)"
 }

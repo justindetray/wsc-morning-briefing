@@ -1,56 +1,88 @@
 {
-  "build_started": "2026-07-17T11:08:32.282908+00:00",
+  "build_started": "2026-11-11T15:30:42.173639+00:00",
   "fields": [
     {
       "field": "ES",
       "status": "LIVE",
-      "reason": null
+      "reason": "10:14 ET snapshot; delayed"
     },
     {
       "field": "NQ",
       "status": "LIVE",
-      "reason": null
-    },
-    {
-      "field": "VIX",
-      "status": "LIVE",
-      "reason": null
-    },
-    {
-      "field": "US10Y",
-      "status": "LIVE",
-      "reason": null
+      "reason": "10:14 ET snapshot; delayed"
     },
     {
       "field": "WTI",
       "status": "LIVE",
-      "reason": null
+      "reason": "10:24 ET snapshot"
+    },
+    {
+      "field": "BRENT",
+      "status": "LIVE",
+      "reason": "10:24 ET snapshot"
     },
     {
       "field": "GOLD",
       "status": "LIVE",
-      "reason": null
+      "reason": "10:14 ET snapshot; delayed"
     },
     {
-      "field": "US2Y",
+      "field": "DXY",
       "status": "LIVE",
-      "reason": null
+      "reason": "10:24 ET snapshot"
+    },
+    {
+      "field": "SPX",
+      "status": "CLOSED",
+      "reason": "Nov 10 close; not today's cash"
+    },
+    {
+      "field": "NDX",
+      "status": "CLOSED",
+      "reason": "Nov 10 close; not today's cash"
+    },
+    {
+      "field": "DJI",
+      "status": "CLOSED",
+      "reason": "Nov 10 close; not today's cash"
+    },
+    {
+      "field": "SOX",
+      "status": "CLOSED",
+      "reason": "Nov 10 close; not today's cash"
+    },
+    {
+      "field": "VIX",
+      "status": "CLOSED",
+      "reason": "Nov 10 close; not today's cash"
     },
     {
       "field": "BTC",
-      "status": "LIVE",
-      "reason": null
+      "status": "CLOSED",
+      "reason": "Nov 10 UTC close; not live"
     },
     {
-      "field": "FEDWATCH",
-      "status": "LIVE",
-      "reason": null
+      "field": "US2Y",
+      "status": "CLOSED",
+      "reason": "Nov 10 quote; bond holiday"
     },
     {
-      "field": "ECONOMIC",
+      "field": "US10Y",
+      "status": "CLOSED",
+      "reason": "Nov 10 quote; bond holiday"
+    },
+    {
+      "field": "EURJPY",
       "status": "LIVE",
-      "reason": null
+      "reason": "Nov 11; time unstated; UTC baseline"
+    },
+    {
+      "field": "AUDJPY",
+      "status": "LIVE",
+      "reason": "Nov 11; time unstated; UTC baseline"
     }
   ],
-  "degraded_count": 0
+  "degraded_count": 0,
+  "edition": "late recovery",
+  "scheduled_credential_access": "UNVERIFIED"
 }

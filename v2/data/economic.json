@@ -1,0 +1,50 @@
+{
+  "as_of": "2026-11-11",
+  "items": [
+    {
+      "label": "Treasury 2y / 5y / 10y / 30y",
+      "value": "4.75% / 4.83% / 4.99% / 5.36%",
+      "note": "Nov 10 indicative TE quotes, not CMT; carried for holiday"
+    },
+    {
+      "label": "2s10s indicative curve",
+      "value": "+24bp",
+      "note": "Calculated from rounded Nov 10 TE 10y and 2y quotes"
+    },
+    {
+      "label": "December rate distribution",
+      "value": "+25: 90% / +50: 10%",
+      "note": "CME Nov 10 cohort; current band 3.75\u20134.00%; hold 0%"
+    },
+    {
+      "label": "October CPI, monthly",
+      "value": "+0.4% / core +0.3%",
+      "note": "API observation period Oct 31; prior +0.6% / +0.3%; not annual rates"
+    },
+    {
+      "label": "October payrolls / jobless rate",
+      "value": "+165K / 4.1%",
+      "note": "API prior +60K / 4.2%; released Nov 6; not an overnight event"
+    },
+    {
+      "label": "Tuesday cash close",
+      "value": "SOX -0.35% / VIX 19.46",
+      "note": "Polygon Nov 10 settled daily bars, not today's volatility"
+    },
+    {
+      "label": "Dollar index",
+      "value": "102.785 / +1.11%",
+      "note": "Finance API 10:24 ET snapshot; not an overnight-only change"
+    },
+    {
+      "label": "Bitcoin prior UTC close",
+      "value": "$73,697.87 / -2.07%",
+      "note": "Polygon X:BTCUSD Nov 10; daily change, not a live crypto quote"
+    },
+    {
+      "label": "Next verified BLS release",
+      "value": "Fri Nov 13 \u00b7 08:30 ET",
+      "note": "October PPI; no BLS release on Veterans Day"
+    }
+  ]
+}

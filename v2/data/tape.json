@@ -1,121 +1,166 @@
 {
- "ES": {
-  "value": 7727.25,
-  "prev_close": 7720.5,
-  "delta_pct": 0.0874,
-  "label": "E-mini S&P (Dec)",
-  "as_of": "Thu 6:05 AM ET",
-  "status": "LIVE",
-  "source": "finance ESUSD quote ts 2026-11-05 10:51:17 UTC vs vendor previousClose 7,720.50 (Wednesday settle); Benzinga 9:30 PM ET S&P futures -0.04%"
- },
- "NQ": {
-  "value": 28423.75,
-  "prev_close": 28566.75,
-  "delta_pct": -0.5006,
-  "label": "E-mini Nasdaq (Dec)",
-  "as_of": "Thu 6:05 AM ET",
-  "status": "LIVE",
-  "source": "finance NQUSD quote ts 2026-11-05 10:51:17 UTC vs vendor previousClose 28,566.75 (Wednesday settle); Benzinga 9:30 PM ET Nasdaq-100 futures -0.46%"
- },
- "SOX": {
-  "value": 10268.65,
-  "prev_close": 10600.4,
-  "delta_pct": -3.1296,
-  "label": "Semis",
-  "as_of": "Wed 11/4 close",
-  "status": "CLOSED",
-  "source": "Polygon I:SOX daily 2026-11-04 settled close vs 2026-11-03 close"
- },
- "DJI": {
-  "value": 53356.12,
-  "prev_close": 51786.72,
-  "delta_pct": 3.0305,
-  "label": "Dow",
-  "as_of": "Wed 11/4 close",
-  "status": "CLOSED",
-  "source": "Polygon I:DJI daily 2026-11-04 settled close vs 2026-11-03 close ; Yahoo/Benzinga Dow +3.03% to 53,356.12"
- },
- "VIX": {
-  "value": 16.61,
-  "prev_close": 20.83,
-  "delta_pct": -20.2592,
-  "label": "VIX",
-  "as_of": "Wed 11/4 close",
-  "status": "CLOSED",
-  "source": "Polygon I:VIX daily 2026-11-04 settled close vs 2026-11-03 close"
- },
- "US10Y": {
-  "value": 4.9,
-  "prev_close": 4.95,
-  "delta_pct": -1.0101,
-  "label": "US 10y",
-  "as_of": "Wed 11/4 close",
-  "status": "CLOSED",
-  "source": "Treasury CMT 11/04/2026 4.90 vs 11/03 4.95"
- },
- "US2Y": {
-  "value": 4.58,
-  "prev_close": 4.61,
-  "delta_pct": -0.6508,
-  "label": "US 2y",
-  "as_of": "Wed 11/4 close",
-  "status": "CLOSED",
-  "source": "Treasury CMT 11/04/2026 4.58 vs 11/03 4.61"
- },
- "WTI": {
-  "value": 88.63,
-  "prev_close": 88.04,
-  "delta_pct": 0.6701,
-  "label": "WTI (Dec)",
-  "as_of": "Thu 6:05 AM ET",
-  "status": "LIVE",
-  "source": "finance CLUSD quote ts 2026-11-05 11:01:13 UTC vs previousClose 88.04 = Wednesday Dec settle (Al Jazeera/Reuters 02:11 GMT 86.98 down 1.14 implies 88.12; Gulf News 87.13 down 0.99 implies 88.12 -- 8c gap vs vendor, within settle/close noise). Dec both legs",
-  "note": "Dec contract"
- },
- "BRENT": {
-  "value": 96.06,
-  "prev_close": 94.62,
-  "delta_pct": 1.5219,
-  "label": "Brent (Jan)",
-  "as_of": "Thu 6:05 AM ET",
-  "status": "LIVE",
-  "source": "finance BZUSD quote ts 2026-11-05 11:01:17 UTC (Jan) vs previousClose 94.62 = Wednesday Jan settle (Al Jazeera/Reuters: 93.65 down 0.97 implies 94.62). Wed -8.7% from 103.60. Jan both legs",
-  "note": "Jan contract"
- },
- "GOLD": {
-  "value": 4137.1,
-  "prev_close": 4073.0,
-  "delta_pct": 1.5738,
-  "label": "Gold",
-  "as_of": "Thu 6:05 AM ET",
-  "status": "LIVE",
-  "source": "finance GCUSD quote ts 2026-11-05 10:51:12 UTC vs previousClose 4,073 = Wednesday settle"
- },
- "BTC": {
-  "value": 80212.6,
-  "prev_close": 80428.31,
-  "delta_pct": -0.2682,
-  "label": "Bitcoin",
-  "as_of": "Thu 6:05 AM ET",
-  "status": "LIVE",
-  "source": "finance BTCUSD live quote ts 2026-11-05 11:01:15 UTC; base = Polygon X:BTCUSD 11/04 UTC settled daily close 80,428.31 (#213-A); vendor previousClose 80,428.30"
- },
- "EURJPY": {
-  "value": 177.8,
-  "prev_close": 177.9,
-  "delta_pct": -0.0562,
-  "label": "EUR/JPY",
-  "as_of": "Thu 6:05 AM ET",
-  "status": "LIVE",
-  "source": "finance EURJPY quote ts 2026-11-05 11:00:35 UTC vs Polygon C:EURJPY 11/04 settled close 177.90 (#188-A); vendor previousClose 177.85"
- },
- "AUDJPY": {
-  "value": 111.08,
-  "prev_close": 110.898,
-  "delta_pct": 0.1641,
-  "label": "AUD/JPY",
-  "as_of": "Thu 6:05 AM ET",
-  "status": "LIVE",
-  "source": "finance AUDJPY quote ts 2026-11-05 11:00:37 UTC vs Polygon C:AUDJPY 11/04 settled close 110.898 (#188-A); vendor previousClose 110.90"
- }
+  "ES": {
+    "value": 7598.5,
+    "prev_close": 7544.25,
+    "delta_pct": 0.7190906982138756,
+    "as_of": "2026-11-11T15:14:46+00:00",
+    "status": "LIVE",
+    "label": "ES",
+    "source": "Finance quotes API; ESUSD",
+    "note": "10:14 ET snapshot; delayed"
+  },
+  "NQ": {
+    "value": 28270.75,
+    "prev_close": 27835.25,
+    "delta_pct": 1.5645629193199229,
+    "as_of": "2026-11-11T15:14:46+00:00",
+    "status": "LIVE",
+    "label": "NQ",
+    "source": "Finance quotes API; NQUSD",
+    "note": "10:14 ET snapshot; delayed"
+  },
+  "WTI": {
+    "value": 88.67,
+    "prev_close": 86.04,
+    "delta_pct": 3.0567178056717825,
+    "as_of": "2026-11-11T15:24:44+00:00",
+    "status": "LIVE",
+    "label": "WTI",
+    "source": "Finance quotes API; CLUSD",
+    "note": "10:24 ET snapshot"
+  },
+  "BRENT": {
+    "value": 94.45,
+    "prev_close": 91.49,
+    "delta_pct": 3.2353262651656056,
+    "as_of": "2026-11-11T15:24:23+00:00",
+    "status": "LIVE",
+    "label": "BRENT",
+    "source": "Finance quotes API; BZUSD",
+    "note": "10:24 ET snapshot"
+  },
+  "GOLD": {
+    "value": 4025.3,
+    "prev_close": 4030.2,
+    "delta_pct": -0.12158205548110645,
+    "as_of": "2026-11-11T15:14:45+00:00",
+    "status": "LIVE",
+    "label": "GOLD",
+    "source": "Finance quotes API; GCUSD",
+    "note": "10:14 ET snapshot; delayed"
+  },
+  "DXY": {
+    "value": 102.785,
+    "prev_close": 101.653,
+    "delta_pct": 1.1135923189674601,
+    "as_of": "2026-11-11T15:24:38+00:00",
+    "status": "LIVE",
+    "label": "DXY",
+    "source": "Finance quotes API; DX-Y.NYB",
+    "note": "10:24 ET snapshot"
+  },
+  "SPX": {
+    "value": 7520.93,
+    "prev_close": 7549.94,
+    "delta_pct": -0.38424146417056493,
+    "as_of": "2026-11-10",
+    "status": "CLOSED",
+    "label": "SPX",
+    "source": "Polygon I:SPX daily aggregates",
+    "note": "Nov 10 close; not today's cash"
+  },
+  "NDX": {
+    "value": 27740.79542959483,
+    "prev_close": 27907.62507027353,
+    "delta_pct": -0.5977923247091455,
+    "as_of": "2026-11-10",
+    "status": "CLOSED",
+    "label": "NDX",
+    "source": "Polygon I:NDX daily aggregates",
+    "note": "Nov 10 close; not today's cash"
+  },
+  "DJI": {
+    "value": 52231.89,
+    "prev_close": 52389.75,
+    "delta_pct": -0.30131848310022136,
+    "as_of": "2026-11-10",
+    "status": "CLOSED",
+    "label": "DJI",
+    "source": "Polygon I:DJI daily aggregates",
+    "note": "Nov 10 close; not today's cash"
+  },
+  "SOX": {
+    "value": 9998.33034451955,
+    "prev_close": 10033.93257810317,
+    "delta_pct": -0.354818345713348,
+    "as_of": "2026-11-10",
+    "status": "CLOSED",
+    "label": "SOX",
+    "source": "Polygon I:SOX daily aggregates",
+    "note": "Nov 10 close; not today's cash"
+  },
+  "VIX": {
+    "value": 19.46,
+    "prev_close": 19.92,
+    "delta_pct": -2.309236947791171,
+    "as_of": "2026-11-10",
+    "status": "CLOSED",
+    "label": "VIX",
+    "source": "Polygon I:VIX daily aggregates",
+    "note": "Nov 10 close; not today's cash"
+  },
+  "BTC": {
+    "value": 73697.87,
+    "prev_close": 75259.28,
+    "delta_pct": -2.07470759752153,
+    "as_of": "2026-11-10T23:59:59.999000+00:00",
+    "status": "CLOSED",
+    "label": "BTC",
+    "source": "Polygon X:BTCUSD /prev; prior UTC-day close",
+    "note": "Nov 10 UTC close; not live"
+  },
+  "US2Y": {
+    "value": 4.75,
+    "prev_close": null,
+    "delta_pct": null,
+    "as_of": "2026-11-10",
+    "status": "CLOSED",
+    "label": "US2Y",
+    "source": "Trading Economics dated indicative quote; November 10, not Treasury CMT",
+    "note": "Nov 10 quote; bond holiday",
+    "unit": "yield",
+    "delta_bp": null
+  },
+  "US10Y": {
+    "value": 4.99,
+    "prev_close": null,
+    "delta_pct": null,
+    "as_of": "2026-11-10",
+    "status": "CLOSED",
+    "label": "US10Y",
+    "source": "Trading Economics dated indicative quote; November 10, not Treasury CMT",
+    "note": "Nov 10 quote; bond holiday",
+    "unit": "yield",
+    "delta_bp": null
+  },
+  "EURJPY": {
+    "value": 177.23,
+    "prev_close": 177.253,
+    "delta_pct": -0.012975802948322901,
+    "as_of": "2026-11-11",
+    "status": "LIVE",
+    "label": "EURJPY",
+    "source": "Trading Economics Nov 11 live page (time unstated); Polygon Nov 10 UTC-day close baseline",
+    "note": "Nov 11; time unstated; UTC baseline"
+  },
+  "AUDJPY": {
+    "value": 109.431,
+    "prev_close": 109.02,
+    "delta_pct": 0.37699504678041507,
+    "as_of": "2026-11-11",
+    "status": "LIVE",
+    "label": "AUDJPY",
+    "source": "Trading Economics Nov 11 live page (time unstated); Polygon Nov 10 UTC-day close baseline",
+    "note": "Nov 11; time unstated; UTC baseline"
+  }
 }

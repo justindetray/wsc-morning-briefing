@@ -1,56 +1,46 @@
 {
- "meetings": [
-  {
-   "meetingDt": "2026-12-09",
-   "reportingDt": "2026-11-04",
-   "hold": 0.16963,
-   "hike_25": 0.83037,
-   "hike_50": 0.0,
-   "hike_75": 0.0,
-   "hike_100": 0.0,
-   "cumulative_hike": 0.83037
-  },
-  {
-   "meetingDt": "2027-01-27",
-   "reportingDt": "2026-11-04",
-   "hold": 0.130678,
-   "hike_25": 0.678645,
-   "hike_50": 0.190678,
-   "hike_75": 0.0,
-   "hike_100": 0.0,
-   "cumulative_hike": 0.8693230000000001
-  },
-  {
-   "meetingDt": "2027-03-17",
-   "reportingDt": "2026-11-04",
-   "hold": 0.057125,
-   "hike_25": 0.370218,
-   "hike_50": 0.465333,
-   "hike_75": 0.107324,
-   "hike_100": 0.0,
-   "cumulative_hike": 0.9428749999999999
-  },
-  {
-   "meetingDt": "2027-04-28",
-   "reportingDt": "2026-11-04",
-   "hold": 0.042436,
-   "hike_25": 0.289708,
-   "hike_50": 0.440875,
-   "hike_75": 0.199384,
-   "hike_100": 0.027598,
-   "cumulative_hike": 0.957565
-  },
-  {
-   "meetingDt": "2027-06-09",
-   "reportingDt": "2026-11-04",
-   "hold": 0.029038,
-   "hike_25": 0.211641,
-   "hike_50": 0.393149,
-   "hike_75": 0.275626,
-   "hike_100": 0.081833,
-   "hike_125": 0.008713,
-   "cumulative_hike": 0.9709620000000001
-  }
- ],
- "status": "LIVE"
+  "status": "LIVE",
+  "as_of": "2026-11-11T14:41:35.079485+00:00",
+  "reason": null,
+  "meetings": [
+    {
+      "meetingDt": "2026-12-09",
+      "reportingDt": "2026-11-10",
+      "hold": 0,
+      "cut": 0,
+      "cumulative_hike": 1.0,
+      "hike_25": 0.9,
+      "hike_50": 0.1,
+      "hike_75": 0,
+      "hike_100": 0
+    },
+    {
+      "meetingDt": "2027-01-27",
+      "reportingDt": "2026-11-10",
+      "hold": 0,
+      "cut": 0,
+      "cumulative_hike": 1.0,
+      "hike_25": 0.342,
+      "hike_50": 0.596,
+      "hike_75": 0.062,
+      "hike_100": 0
+    },
+    {
+      "meetingDt": "2027-03-17",
+      "reportingDt": "2026-11-10",
+      "hold": 0,
+      "cut": 0,
+      "cumulative_hike": 1.0,
+      "hike_25": 0.115303,
+      "hike_50": 0.427634,
+      "hike_75": 0.415966,
+      "hike_100": 0.041097
+    }
+  ],
+  "current_band_bps": [
+    375,
+    400
+  ],
+  "policy_verified": "2026-10-28 Federal Reserve statement",
+  "note": "Nov 10 cohort. Three meetings displayed; fourth raw meeting retained. Implied probabilities are not guarantees."
 }
