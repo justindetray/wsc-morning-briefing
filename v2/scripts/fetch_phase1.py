@@ -24,14 +24,13 @@ import urllib.parse
 import urllib.error
 from datetime import datetime, timezone, timedelta
 from pathlib import Path
+from fedwatch_secure import fetch_snapshot, validate_snapshot, _probabilities, _rows
 
 REPO_ROOT = Path(__file__).resolve().parents[2]
 DATA_DIR = REPO_ROOT / "v2" / "data"
 DATA_DIR.mkdir(parents=True, exist_ok=True)
 
 POLYGON_KEY = os.environ.get("POLYGON_API_KEY", "")
-FEDWATCH_CLIENT = os.environ.get("FEDWATCH_CLIENT_ID", "")
-FEDWATCH_SECRET = os.environ.get("FEDWATCH_CLIENT_SECRET", "")
 
 UA = "Mozilla/5.0 (compatible; WSC-Morning-Briefing/2.0)"
 
@@ -218,94 +217,43 @@ def fetch_btc_polygon():
 
 # ---------- FedWatch (correct CME endpoints) ----------
 
-def _fedwatch_token():
-    import base64
-    basic = base64.b64encode(f"{FEDWATCH_CLIENT}:{FEDWATCH_SECRET}".encode()).decode()
-    body = urllib.parse.urlencode({"grant_type": "client_credentials"}).encode()
-    req = urllib.request.Request(
-        "https://auth.cmegroup.com/as/token.oauth2",
-        data=body,
-        headers={
-            "Authorization": f"Basic {basic}",
-            "Content-Type": "application/x-www-form-urlencoded",
-            "User-Agent": UA,
-        },
-    )
-    with urllib.request.urlopen(req, timeout=15) as r:
-        return json.loads(r.read().decode())["access_token"]
-
-def _condense_forecast(payload):
-    """Collapse the raw 13+ rateRange buckets into hold/+25/+50/+75/+100 vs current band.
-    Current band Jun-2026 is 3.50-3.75 (lowerRt=350, upperRt=375). Anchor on that.
-    Returns dict {hold, hike_25, hike_50, hike_75, hike_100, cumulative_hike, current_band}.
-    """
-    items = payload.get("payload", [])
-    if not items:
-        return None
-    rate_range = items[0].get("rateRange", [])
-    # Build map by lower bound
-    by_lower = {r["lowerRt"]: r.get("probability") for r in rate_range if r.get("probability") is not None}
-    if not by_lower:
-        return None
-    # Determine current band by max prob below the mode-of-mass (anchor heuristic):
-    # Use 350 as current band (3.50-3.75% = Jun 2026 actual Fed target band)
-    CURRENT_LOWER = 350
+def _condense_forecast(payload, current_lower):
+    """Classify against an explicitly verified policy band, expressed in basis points."""
+    by_lower = {lo: p for (lo, hi), p in _probabilities(_rows(payload)).items()}
+    current_lower = int(current_lower)
     out = {
-        "hold":      by_lower.get(CURRENT_LOWER, 0.0),
-        "hike_25":   by_lower.get(CURRENT_LOWER + 25, 0.0),
-        "hike_50":   by_lower.get(CURRENT_LOWER + 50, 0.0),
-        "hike_75":   by_lower.get(CURRENT_LOWER + 75, 0.0),
-        "hike_100":  by_lower.get(CURRENT_LOWER + 100, 0.0),
-        "current_band": "3.50-3.75",
+        "hold": by_lower.get(current_lower, 0.0),
+        "cut": sum(p for lo, p in by_lower.items() if lo < current_lower),
+        "hike_25": by_lower.get(current_lower + 25, 0.0),
+        "hike_50": by_lower.get(current_lower + 50, 0.0),
+        "hike_75": by_lower.get(current_lower + 75, 0.0),
+        "hike_100": by_lower.get(current_lower + 100, 0.0),
+        "current_band": f"{current_lower/100:.2f}-{(current_lower+25)/100:.2f}",
     }
-    out["cumulative_hike"] = round(
-        out["hike_25"] + out["hike_50"] + out["hike_75"] + out["hike_100"], 2
-    )
+    out["cumulative_hike"] = sum(p for lo, p in by_lower.items() if lo > current_lower)
     return out
 
-def fetch_fedwatch():
-    if not FEDWATCH_CLIENT or not FEDWATCH_SECRET:
-        return {"status": "DEGRADED", "reason": "FEDWATCH_CLIENT_ID/SECRET missing", "meetings": []}
+def fetch_fedwatch(current_lower=None, expected_reporting_date=None, previous_path=None):
+    current_lower = current_lower if current_lower is not None else os.environ.get("FEDWATCH_CURRENT_LOWER")
+    expected_reporting_date = expected_reporting_date or os.environ.get("FEDWATCH_EXPECTED_REPORTING_DATE")
+    previous_path = previous_path or os.environ.get("FEDWATCH_PREVIOUS_PATH")
+    if current_lower is None or not expected_reporting_date or not previous_path:
+        return {"status": "DEGRADED", "reason": "Verified policy band, expected reporting date and previous payload path required", "meetings": []}
     try:
-        tok = _fedwatch_token()
-        # Next 4 meetings
-        meet_req = urllib.request.Request(
-            "https://markets.api.cmegroup.com/fedwatch/v1/meetings/future",
-            headers={"Authorization": f"Bearer {tok}", "User-Agent": UA},
-        )
-        with urllib.request.urlopen(meet_req, timeout=15) as r:
-            meetings_payload = json.loads(r.read().decode())
-        meet_list = meetings_payload.get("payload", [])
-        if not meet_list and isinstance(meetings_payload, list):
-            meet_list = meetings_payload
+        previous = json.loads(Path(previous_path).read_text())
+        snapshot = fetch_snapshot()
+        integrity = validate_snapshot(snapshot, previous, expected_reporting_date)
         out_meetings = []
-        for m in meet_list[:4]:
-            dt = m.get("meetingDt")
-            if not dt:
-                continue
-            fc_req = urllib.request.Request(
-                f"https://markets.api.cmegroup.com/fedwatch/v1/forecasts?meetingDt={dt}",
-                headers={"Authorization": f"Bearer {tok}", "User-Agent": UA},
-            )
-            try:
-                with urllib.request.urlopen(fc_req, timeout=15) as r:
-                    fc = json.loads(r.read().decode())
-                condensed = _condense_forecast(fc)
-                if condensed:
-                    out_meetings.append({
-                        "meetingDt": dt,
-                        "reportingDt": fc.get("payload", [{}])[0].get("reportingDt"),
-                        **condensed,
-                    })
-                else:
-                    out_meetings.append({"meetingDt": dt, "error": "condense failed"})
-            except Exception as e:
-                out_meetings.append({"meetingDt": dt, "error": f"{type(e).__name__}: {e}"})
+        for fc in snapshot["forecasts"]:
+            row = _rows(fc)
+            out_meetings.append({
+                "meetingDt": row["meetingDt"], "reportingDt": row["reportingDt"],
+                **_condense_forecast(fc, current_lower),
+            })
         return {
-            "status": "LIVE" if any("hold" in m for m in out_meetings) else "DEGRADED",
-            "as_of": now_utc_iso(),
-            "reason": None if out_meetings else "no meetings returned",
-            "meetings": out_meetings,
+            "status": integrity["status"], "as_of": integrity["reportingDt"],
+            "fetched_at": snapshot["fetched_at"], "reason": None,
+            "meetings": out_meetings, "integrity": integrity,
         }
     except Exception as e:
         return {"status": "DEGRADED", "reason": f"{type(e).__name__}: {e}", "meetings": []}
