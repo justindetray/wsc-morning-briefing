@@ -454,7 +454,7 @@ html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -ap
 .tile .delta.up{color:#4ade80}
 .tile .delta.down{color:#f87171}
 .tile .delta.neutral{color:#888}
-.tile .meta{font-size:10px;color:#666;margin-top:3px;font-family:ui-monospace,Menlo,monospace}
+.tile .meta{font-size:10px;color:#aaa;margin-top:3px;font-family:ui-monospace,Menlo,monospace}
 .ondeck{list-style:none;padding:0;margin:0}
 .ondeck .ev{padding:4px 0;border-bottom:1px solid #1c1d1e;font-size:13px}
 .ondeck .ev:last-child{border-bottom:none}
@@ -476,7 +476,9 @@ html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -ap
 .fw th,.fw td{padding:5px 8px;text-align:right;border-bottom:1px solid #1c1d1e}
 .fw th:first-child,.fw td:first-child{text-align:left;font-weight:600}
 .fw thead th{color:#888;font-weight:500;text-transform:uppercase;letter-spacing:.06em;font-size:10px}
-.fw-meta{font-size:10px;color:#666;margin-top:6px;font-family:ui-monospace,Menlo,monospace}
+.fw-meta{font-size:10px;color:#aaa;margin-top:6px;font-family:ui-monospace,Menlo,monospace}
+.edition-note,.provenance{color:#bbb;font-size:12px;line-height:1.6}
+.provenance a{color:#9ccbf0}
 .fw-dead{padding:8px;color:#f87171;font-size:12px;background:#1f1414;border-radius:4px}
 .cal{width:100%;border-collapse:collapse;font-size:12px}
 .cal th,.cal td{padding:6px 8px;border-bottom:1px solid #1c1d1e;text-align:left}
@@ -502,6 +504,13 @@ html,body{margin:0;padding:0;background:#0b0c0d;color:#e8e8e8;font:14px/1.45 -ap
 }
 @media (max-width:480px){
   .tape{grid-template-columns:repeat(2,1fr)}
+  .fw th,.fw td{padding:5px 3px;font-size:11px}
+  .econ tr{display:block;padding:8px 0;border-bottom:1px solid #292929}
+  .econ td{display:block;width:auto!important;border:0;padding:3px 8px;white-space:normal!important}
+  .cal thead{display:none}
+  .cal tr{display:grid;grid-template-columns:1fr 1fr;padding:8px 0;border-bottom:1px solid #292929}
+  .cal td{border:0}
+  .cal td:nth-child(3),.cal td:nth-child(4){grid-column:1/-1}
 }
 """
 
@@ -515,6 +524,14 @@ def main():
     calendar = jload("calendar.json") or {}
     overnight = jload("overnight.json") or {}
     econ_panel = jload("economic.json") or {}
+    manifest = jload("research_manifest.json") or {}
+    edition_note = html_mod.escape(overnight.get("edition_note", ""))
+    sources_html = "".join(
+        f'<li><a href="{html_mod.escape(s["url"], quote=True)}" target="_blank" rel="noopener noreferrer">'
+        f'{html_mod.escape(s["name"])}</a>: {html_mod.escape(s.get("note", ""))}</li>'
+        for s in manifest.get("sources", [])
+        if s.get("url", "").startswith("https://")
+    )
 
     # Sanity: if all tape DEGRADED, refuse to write.
     # CLOSED is a healthy state, not a degraded one: on weekends and market
@@ -568,6 +585,7 @@ def main():
 </div>
 
 {degraded_html}
+<p class="edition-note">{edition_note}</p>
 
 <div class="section">
   <h2>Tape</h2>
@@ -597,6 +615,11 @@ def main():
 <div class="section">
   <h2>Key Indicators</h2>
   {econ_html}
+</div>
+
+<div class="section provenance">
+  <h2>Sources &amp; Timing</h2>
+  <ul>{sources_html}</ul>
 </div>
 
 </div>
