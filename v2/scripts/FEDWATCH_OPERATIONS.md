@@ -26,10 +26,14 @@ changing a date or claiming unchanged data is a fresh update.
 The default exact handle is the corrected CME credential ending in UUID
 `90967ca7-5ef4-400d-a1d1-63ed968b9ae8`. `CME_CREDENTIAL_HANDLE` or `--handle` may
 select a newly listed, authorized exact credential. Never fall back to the old
-rejected entry. The corrected entry was user-scoped during the interactive
-repair; scheduled availability is unverified. If the scheduler reports the
-handle unavailable, ask for the same correct credential to be saved to Trading
-Project scope. Do not request a different password based only on scope failure.
+rejected entry. The corrected user-scoped entry worked in the persistent
+scheduled thread on November 12, 2026 at 11:01:46 UTC: four forecasts were
+retrieved, but freshness failed because all remained on the November 10 cohort.
+Evidence: `cron_tracking/b28120e0/run240/fedwatch_raw.json` and `integrity.json`.
+This does not establish access in other project/worker contexts. If a scheduler
+reports the handle unavailable, ask for the same correct credential to be saved
+to Trading Project scope. Do not request a different password based only on
+scope failure, and do not confuse successful access with fresh forecast data.
 
 ## Phase 1 integration
 
