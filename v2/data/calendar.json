@@ -15,7 +15,7 @@
       "event": "Bowman: supervision and regulation discussion",
       "importance": "medium",
       "consensus": null,
-      "note": "Federal Reserve calendar; "
+      "note": "Federal Reserve calendar"
     },
     {
       "date": "2026-11-13",
@@ -23,7 +23,7 @@
       "event": "New York Fed Staff Nowcast",
       "importance": "medium",
       "consensus": null,
-      "note": "New York Fed calendar; "
+      "note": "New York Fed calendar"
     },
     {
       "date": "2026-11-13",
@@ -39,7 +39,7 @@
       "event": "Jefferson: technology and productivity",
       "importance": "medium",
       "consensus": null,
-      "note": "Federal Reserve calendar; "
+      "note": "Federal Reserve calendar"
     },
     {
       "date": "2026-11-16",
@@ -47,7 +47,7 @@
       "event": "Empire State Manufacturing Survey",
       "importance": "medium",
       "consensus": null,
-      "note": "New York Fed calendar; "
+      "note": "New York Fed calendar"
     },
     {
       "date": "2026-11-17",
@@ -55,7 +55,7 @@
       "event": "October import and export prices",
       "importance": "medium",
       "consensus": null,
-      "note": "BLS / New York Fed; "
+      "note": "BLS / New York Fed"
     },
     {
       "date": "2026-11-17",
@@ -63,7 +63,7 @@
       "event": "Advance retail sales",
       "importance": "high",
       "consensus": null,
-      "note": "New York Fed calendar; "
+      "note": "New York Fed calendar"
     },
     {
       "date": "2026-11-17",
@@ -71,7 +71,7 @@
       "event": "Industrial production and capacity utilization",
       "importance": "medium",
       "consensus": null,
-      "note": "Federal Reserve / New York Fed; "
+      "note": "Federal Reserve / New York Fed"
     }
   ],
   "earnings": []
