@@ -1,166 +1,230 @@
 {
   "ES": {
-    "value": 7598.5,
-    "prev_close": 7544.25,
-    "delta_pct": 0.7190906982138756,
-    "as_of": "2026-11-11T15:14:46+00:00",
+    "value": 7629.25,
+    "prev_close": 7615.25,
+    "delta_pct": 0.183841633564219,
+    "as_of": "2026-11-13T10:51:23+00:00",
     "status": "LIVE",
     "label": "ES",
-    "source": "Finance quotes API; ESUSD",
-    "note": "10:14 ET snapshot; delayed"
+    "source": "Finance quotes API: ESUSD",
+    "note": "05:51 ET snapshot; provider prior-session reference; delayed"
   },
   "NQ": {
-    "value": 28270.75,
-    "prev_close": 27835.25,
-    "delta_pct": 1.5645629193199229,
-    "as_of": "2026-11-11T15:14:46+00:00",
+    "value": 28383.25,
+    "prev_close": 28384.5,
+    "delta_pct": -0.004403811939612812,
+    "as_of": "2026-11-13T10:51:22+00:00",
     "status": "LIVE",
     "label": "NQ",
-    "source": "Finance quotes API; NQUSD",
-    "note": "10:14 ET snapshot; delayed"
+    "source": "Finance quotes API: NQUSD",
+    "note": "05:51 ET snapshot; provider prior-session reference; delayed"
+  },
+  "YM": {
+    "value": 52488.0,
+    "prev_close": 52390.0,
+    "delta_pct": 0.18705859896925858,
+    "as_of": "2026-11-13T10:51:21+00:00",
+    "status": "LIVE",
+    "label": "YM",
+    "source": "Finance quotes API: YMUSD",
+    "note": "05:51 ET snapshot; provider prior-session reference; delayed"
+  },
+  "RTY": {
+    "value": 2810.2,
+    "prev_close": 2807.3,
+    "delta_pct": 0.10330210522564442,
+    "as_of": "2026-11-13T10:48:16+00:00",
+    "status": "LIVE",
+    "label": "RTY",
+    "source": "Finance quotes API: RTYUSD",
+    "note": "05:48 ET snapshot; provider prior-session reference; delayed"
   },
   "WTI": {
-    "value": 88.67,
-    "prev_close": 86.04,
-    "delta_pct": 3.0567178056717825,
-    "as_of": "2026-11-11T15:24:44+00:00",
+    "value": 88.24,
+    "prev_close": 88.7,
+    "delta_pct": -0.5186020293122984,
+    "as_of": "2026-11-13T11:01:24+00:00",
     "status": "LIVE",
     "label": "WTI",
-    "source": "Finance quotes API; CLUSD",
-    "note": "10:24 ET snapshot"
+    "source": "Finance quotes API: CLUSD",
+    "note": "06:01 ET snapshot; provider prior-session reference"
   },
   "BRENT": {
-    "value": 94.45,
-    "prev_close": 91.49,
-    "delta_pct": 3.2353262651656056,
-    "as_of": "2026-11-11T15:24:23+00:00",
+    "value": 95.73,
+    "prev_close": 95.82,
+    "delta_pct": -0.09392611145897511,
+    "as_of": "2026-11-13T11:01:15+00:00",
     "status": "LIVE",
     "label": "BRENT",
-    "source": "Finance quotes API; BZUSD",
-    "note": "10:24 ET snapshot"
+    "source": "Finance quotes API: BZUSD",
+    "note": "06:01 ET snapshot; provider prior-session reference"
   },
   "GOLD": {
-    "value": 4025.3,
-    "prev_close": 4030.2,
-    "delta_pct": -0.12158205548110645,
-    "as_of": "2026-11-11T15:14:45+00:00",
+    "value": 3895.0,
+    "prev_close": 3885.3,
+    "delta_pct": 0.2496589709932273,
+    "as_of": "2026-11-13T10:51:06+00:00",
     "status": "LIVE",
     "label": "GOLD",
-    "source": "Finance quotes API; GCUSD",
-    "note": "10:14 ET snapshot; delayed"
+    "source": "Finance quotes API: GCUSD",
+    "note": "05:51 ET snapshot; provider prior-session reference; delayed"
   },
   "DXY": {
-    "value": 102.785,
-    "prev_close": 101.653,
-    "delta_pct": 1.1135923189674601,
-    "as_of": "2026-11-11T15:24:38+00:00",
+    "value": 103.16,
+    "prev_close": 102.908,
+    "delta_pct": 0.24487892097795338,
+    "as_of": "2026-11-13T11:01:00+00:00",
     "status": "LIVE",
     "label": "DXY",
-    "source": "Finance quotes API; DX-Y.NYB",
-    "note": "10:24 ET snapshot"
+    "source": "Finance quotes API: DX-Y.NYB",
+    "note": "06:01 ET snapshot; provider prior-session reference"
+  },
+  "TLT": {
+    "value": 79.72,
+    "prev_close": 80.92,
+    "delta_pct": -1.4829461196243288,
+    "as_of": "2026-11-12T21:00:00+00:00",
+    "status": "CLOSED",
+    "label": "TLT",
+    "source": "Finance quotes API: TLT",
+    "note": "Nov 12 closing snapshot; not today's quote"
+  },
+  "SHY": {
+    "value": 81.14,
+    "prev_close": 81.31,
+    "delta_pct": -0.20907637436969884,
+    "as_of": "2026-11-12T21:00:00+00:00",
+    "status": "CLOSED",
+    "label": "SHY",
+    "source": "Finance quotes API: SHY",
+    "note": "Nov 12 closing snapshot; not today's quote"
+  },
+  "US5Y": {
+    "value": 4.945,
+    "prev_close": 4.827,
+    "delta_pct": 2.444582556453301,
+    "as_of": "2026-11-12T19:59:54+00:00",
+    "status": "CLOSED",
+    "label": "US5Y",
+    "source": "Finance quotes API: ^FVX",
+    "note": "Nov 12 14:59 ET yield index; not current CMT",
+    "unit": "yield",
+    "delta_bp": 11.800000000000033
+  },
+  "US10Y": {
+    "value": 5.103,
+    "prev_close": 4.998,
+    "delta_pct": 2.1008403361344463,
+    "as_of": "2026-11-12T19:59:54+00:00",
+    "status": "CLOSED",
+    "label": "US10Y",
+    "source": "Finance quotes API: ^TNX",
+    "note": "Nov 12 14:59 ET yield index; not current CMT",
+    "unit": "yield",
+    "delta_bp": 10.499999999999954
+  },
+  "US30Y": {
+    "value": 5.433,
+    "prev_close": 5.356,
+    "delta_pct": 1.437640029873033,
+    "as_of": "2026-11-12T19:59:54+00:00",
+    "status": "CLOSED",
+    "label": "US30Y",
+    "source": "Finance quotes API: ^TYX",
+    "note": "Nov 12 14:59 ET yield index; not current CMT",
+    "unit": "yield",
+    "delta_bp": 7.699999999999996
   },
   "SPX": {
-    "value": 7520.93,
-    "prev_close": 7549.94,
-    "delta_pct": -0.38424146417056493,
-    "as_of": "2026-11-10",
+    "value": 7592.4,
+    "prev_close": 7619.38,
+    "delta_pct": -0.35409705251608914,
+    "as_of": "2026-11-12T06:00:00+00:00",
     "status": "CLOSED",
     "label": "SPX",
     "source": "Polygon I:SPX daily aggregates",
-    "note": "Nov 10 close; not today's cash"
+    "note": "Nov 12 cash close; not today's session"
   },
   "NDX": {
-    "value": 27740.79542959483,
-    "prev_close": 27907.62507027353,
-    "delta_pct": -0.5977923247091455,
-    "as_of": "2026-11-10",
+    "value": 28289.18754984328,
+    "prev_close": 28374.2524215455,
+    "delta_pct": -0.29979599264307044,
+    "as_of": "2026-11-12T06:00:00+00:00",
     "status": "CLOSED",
     "label": "NDX",
     "source": "Polygon I:NDX daily aggregates",
-    "note": "Nov 10 close; not today's cash"
+    "note": "Nov 12 cash close; not today's session"
   },
   "DJI": {
-    "value": 52231.89,
-    "prev_close": 52389.75,
-    "delta_pct": -0.30131848310022136,
-    "as_of": "2026-11-10",
+    "value": 52297.09,
+    "prev_close": 52486.49,
+    "delta_pct": -0.36085476472136335,
+    "as_of": "2026-11-12T06:00:00+00:00",
     "status": "CLOSED",
     "label": "DJI",
     "source": "Polygon I:DJI daily aggregates",
-    "note": "Nov 10 close; not today's cash"
+    "note": "Nov 12 cash close; not today's session"
   },
   "SOX": {
-    "value": 9998.33034451955,
-    "prev_close": 10033.93257810317,
-    "delta_pct": -0.354818345713348,
-    "as_of": "2026-11-10",
+    "value": 10506.6738548949,
+    "prev_close": 10564.11112061831,
+    "delta_pct": -0.5437018322470011,
+    "as_of": "2026-11-12T06:00:00+00:00",
     "status": "CLOSED",
     "label": "SOX",
     "source": "Polygon I:SOX daily aggregates",
-    "note": "Nov 10 close; not today's cash"
+    "note": "Nov 12 cash close; not today's session"
   },
   "VIX": {
-    "value": 19.46,
-    "prev_close": 19.92,
-    "delta_pct": -2.309236947791171,
-    "as_of": "2026-11-10",
+    "value": 18.7,
+    "prev_close": 17.49,
+    "delta_pct": 6.91823899371069,
+    "as_of": "2026-11-12T06:00:00+00:00",
     "status": "CLOSED",
     "label": "VIX",
     "source": "Polygon I:VIX daily aggregates",
-    "note": "Nov 10 close; not today's cash"
+    "note": "Nov 12 cash close; not today's session"
+  },
+  "EURJPY": {
+    "value": 176.64,
+    "prev_close": 177.21800000000002,
+    "delta_pct": -0.32615197101876214,
+    "as_of": "2026-11-12T00:00:00+00:00",
+    "status": "CLOSED",
+    "label": "EURJPY",
+    "source": "Polygon C:EURJPY daily aggregates",
+    "note": "Nov 12 UTC close; not live FX"
+  },
+  "AUDJPY": {
+    "value": 108.81,
+    "prev_close": 109.32400000000001,
+    "delta_pct": -0.4701620870074419,
+    "as_of": "2026-11-12T00:00:00+00:00",
+    "status": "CLOSED",
+    "label": "AUDJPY",
+    "source": "Polygon C:AUDJPY daily aggregates",
+    "note": "Nov 12 UTC close; not live FX"
   },
   "BTC": {
-    "value": 73697.87,
-    "prev_close": 75259.28,
-    "delta_pct": -2.07470759752153,
-    "as_of": "2026-11-10T23:59:59.999000+00:00",
+    "value": 71370.7,
+    "prev_close": 73927.63,
+    "delta_pct": -3.4586933193989977,
+    "as_of": "2026-11-12T23:59:59.999000+00:00",
     "status": "CLOSED",
     "label": "BTC",
-    "source": "Polygon X:BTCUSD /prev; prior UTC-day close",
-    "note": "Nov 10 UTC close; not live"
+    "source": "Polygon X:BTCUSD /prev, cross-checked against daily aggregates",
+    "note": "Nov 12 UTC close; daily change, not overnight"
   },
   "US2Y": {
-    "value": 4.75,
-    "prev_close": null,
-    "delta_pct": null,
+    "value": 4.73,
+    "prev_close": 4.56,
+    "delta_pct": 3.7280701754386136,
     "as_of": "2026-11-10",
     "status": "CLOSED",
     "label": "US2Y",
-    "source": "Trading Economics dated indicative quote; November 10, not Treasury CMT",
-    "note": "Nov 10 quote; bond holiday",
+    "source": "Federal Reserve H.15 SDMX XML; Nov 12 release",
+    "note": "Nov 10 CMT; lagged H.15, next release 16:15 ET",
     "unit": "yield",
-    "delta_bp": null
-  },
-  "US10Y": {
-    "value": 4.99,
-    "prev_close": null,
-    "delta_pct": null,
-    "as_of": "2026-11-10",
-    "status": "CLOSED",
-    "label": "US10Y",
-    "source": "Trading Economics dated indicative quote; November 10, not Treasury CMT",
-    "note": "Nov 10 quote; bond holiday",
-    "unit": "yield",
-    "delta_bp": null
-  },
-  "EURJPY": {
-    "value": 177.23,
-    "prev_close": 177.253,
-    "delta_pct": -0.012975802948322901,
-    "as_of": "2026-11-11",
-    "status": "LIVE",
-    "label": "EURJPY",
-    "source": "Trading Economics Nov 11 live page (time unstated); Polygon Nov 10 UTC-day close baseline",
-    "note": "Nov 11; time unstated; UTC baseline"
-  },
-  "AUDJPY": {
-    "value": 109.431,
-    "prev_close": 109.02,
-    "delta_pct": 0.37699504678041507,
-    "as_of": "2026-11-11",
-    "status": "LIVE",
-    "label": "AUDJPY",
-    "source": "Trading Economics Nov 11 live page (time unstated); Polygon Nov 10 UTC-day close baseline",
-    "note": "Nov 11; time unstated; UTC baseline"
+    "delta_bp": 17.00000000000008
   }
 }

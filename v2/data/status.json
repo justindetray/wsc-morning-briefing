@@ -1,88 +1,128 @@
 {
-  "build_started": "2026-11-11T15:30:42.173639+00:00",
+  "build_started": "2026-11-13T11:06:43.098761+00:00",
   "fields": [
     {
       "field": "ES",
       "status": "LIVE",
-      "reason": "10:14 ET snapshot; delayed"
+      "reason": "05:51 ET snapshot; provider prior-session reference; delayed"
     },
     {
       "field": "NQ",
       "status": "LIVE",
-      "reason": "10:14 ET snapshot; delayed"
+      "reason": "05:51 ET snapshot; provider prior-session reference; delayed"
+    },
+    {
+      "field": "YM",
+      "status": "LIVE",
+      "reason": "05:51 ET snapshot; provider prior-session reference; delayed"
+    },
+    {
+      "field": "RTY",
+      "status": "LIVE",
+      "reason": "05:48 ET snapshot; provider prior-session reference; delayed"
     },
     {
       "field": "WTI",
       "status": "LIVE",
-      "reason": "10:24 ET snapshot"
+      "reason": "06:01 ET snapshot; provider prior-session reference"
     },
     {
       "field": "BRENT",
       "status": "LIVE",
-      "reason": "10:24 ET snapshot"
+      "reason": "06:01 ET snapshot; provider prior-session reference"
     },
     {
       "field": "GOLD",
       "status": "LIVE",
-      "reason": "10:14 ET snapshot; delayed"
+      "reason": "05:51 ET snapshot; provider prior-session reference; delayed"
     },
     {
       "field": "DXY",
       "status": "LIVE",
-      "reason": "10:24 ET snapshot"
+      "reason": "06:01 ET snapshot; provider prior-session reference"
     },
     {
-      "field": "SPX",
+      "field": "TLT",
       "status": "CLOSED",
-      "reason": "Nov 10 close; not today's cash"
+      "reason": "Nov 12 closing snapshot; not today's quote"
     },
     {
-      "field": "NDX",
+      "field": "SHY",
       "status": "CLOSED",
-      "reason": "Nov 10 close; not today's cash"
+      "reason": "Nov 12 closing snapshot; not today's quote"
     },
     {
-      "field": "DJI",
+      "field": "US5Y",
       "status": "CLOSED",
-      "reason": "Nov 10 close; not today's cash"
-    },
-    {
-      "field": "SOX",
-      "status": "CLOSED",
-      "reason": "Nov 10 close; not today's cash"
-    },
-    {
-      "field": "VIX",
-      "status": "CLOSED",
-      "reason": "Nov 10 close; not today's cash"
-    },
-    {
-      "field": "BTC",
-      "status": "CLOSED",
-      "reason": "Nov 10 UTC close; not live"
-    },
-    {
-      "field": "US2Y",
-      "status": "CLOSED",
-      "reason": "Nov 10 quote; bond holiday"
+      "reason": "Nov 12 14:59 ET yield index; not current CMT"
     },
     {
       "field": "US10Y",
       "status": "CLOSED",
-      "reason": "Nov 10 quote; bond holiday"
+      "reason": "Nov 12 14:59 ET yield index; not current CMT"
+    },
+    {
+      "field": "US30Y",
+      "status": "CLOSED",
+      "reason": "Nov 12 14:59 ET yield index; not current CMT"
+    },
+    {
+      "field": "SPX",
+      "status": "CLOSED",
+      "reason": "Nov 12 cash close; not today's session"
+    },
+    {
+      "field": "NDX",
+      "status": "CLOSED",
+      "reason": "Nov 12 cash close; not today's session"
+    },
+    {
+      "field": "DJI",
+      "status": "CLOSED",
+      "reason": "Nov 12 cash close; not today's session"
+    },
+    {
+      "field": "SOX",
+      "status": "CLOSED",
+      "reason": "Nov 12 cash close; not today's session"
+    },
+    {
+      "field": "VIX",
+      "status": "CLOSED",
+      "reason": "Nov 12 cash close; not today's session"
     },
     {
       "field": "EURJPY",
-      "status": "LIVE",
-      "reason": "Nov 11; time unstated; UTC baseline"
+      "status": "CLOSED",
+      "reason": "Nov 12 UTC close; not live FX"
     },
     {
       "field": "AUDJPY",
-      "status": "LIVE",
-      "reason": "Nov 11; time unstated; UTC baseline"
+      "status": "CLOSED",
+      "reason": "Nov 12 UTC close; not live FX"
+    },
+    {
+      "field": "BTC",
+      "status": "CLOSED",
+      "reason": "Nov 12 UTC close; daily change, not overnight"
+    },
+    {
+      "field": "US2Y",
+      "status": "CLOSED",
+      "reason": "Nov 10 CMT; lagged H.15, next release 16:15 ET"
     }
   ],
   "degraded_count": 0,
-  "edition": "late recovery",
-  "scheduled_credential_access": "UNVERIFIED"
+  "edition": "pre-open November 13",
+  "scheduled_credential_access": "VERIFIED",
+  "caveats": [
+    "No live FX or crypto claim: required Polygon daily endpoints used",
+    "Two-year intraday API quote unavailable; official lagged SDMX data labeled explicitly",
+    "Treasury XML endpoint timed out; FRED graph CSV failed; neither supplied displayed values",
+    "Mixed-date curve suppressed; only Nov 10 same-source CMT spread displayed",
+    "No independently confirmed earnings added to today's upcoming calendar",
+    "Annual CPI/core API rows remain September and are not presented as October",
+    "Dealer flows, capitulation, record claims and unverified geopolitical events omitted",
+    "Google Doc permanently skipped"
+  ]
 }

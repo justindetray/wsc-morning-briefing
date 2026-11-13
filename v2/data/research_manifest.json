@@ -1,75 +1,66 @@
 {
-  "as_of": "2026-11-11T15:30:42.173639+00:00",
+  "as_of": "2026-11-13T11:06:43.098761+00:00",
   "sources": [
     {
-      "name": "CoreWeave results and outlook",
-      "url": "https://investors.coreweave.com/news/news-details/2026/CoreWeave-Reports-Strong-Third-Quarter-2026-Results/default.aspx",
-      "note": "Nov 10 after-close release; 17:00 ET call."
+      "name": "Applied Materials after-close release",
+      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2026/",
+      "note": "Nov 12, 16:01 EST; qualitative AI-demand commentary"
     },
     {
-      "name": "Reuters overnight oil report",
-      "url": "https://www.reuters.com/business/energy/oil-rises-two-month-low-hormuz-shipping-attacks-offset-iran-truce-hopes-2026-11-11/",
-      "note": "Shipping-risk context; do not treat earlier incidents as new overnight attacks."
+      "name": "Cisco results event",
+      "url": "https://investor.cisco.com/events-and-presentations/event-details/2026/Cisco-Q1FY27-Earnings-Results/default.aspx",
+      "note": "Nov 12, 16:30 ET; not today's upcoming earnings"
     },
     {
-      "name": "Federal Reserve policy statement",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-      "note": "Oct 28 verified target band 3.75\u20134.00%."
-    },
-    {
-      "name": "CME FedWatch",
-      "url": "https://www.cmegroup.com/trading/interest-rates/countdown-to-fomc.html",
-      "note": "Authenticated API fetched 14:41 UTC; Nov 10 reporting cohort. Dec buckets changed from last observed Nov 4 cohort."
+      "name": "NVIDIA leadership announcement",
+      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/",
+      "note": "Nov 12; publication clock unverified; prior-session context only"
     },
     {
       "name": "BLS November calendar",
       "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
-      "note": "Nov 11 holiday; Oct PPI Nov 13 at 08:30 ET."
+      "note": "PPI Nov 13 at 08:30 ET; CPI Nov 10; jobs Nov 6"
     },
     {
-      "name": "SIFMA holiday recommendation",
-      "url": "https://www.sifma.org/resources/guides-playbooks/holiday-schedule",
-      "note": "Nov 11 US dollar fixed-income closure recommendation."
+      "name": "New York Fed November calendar",
+      "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
+      "note": "PPI 08:30, Nowcast 12:45 today; Michigan final Nov 20"
     },
     {
-      "name": "Treasury quote: 2-year",
-      "url": "https://tradingeconomics.com/united-states/2-year-note-yield",
-      "note": "Nov 10 indicative quote, not Treasury CMT."
+      "name": "Federal Reserve November calendar",
+      "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
+      "note": "Bowman 10:50 ET, Jefferson 19:00 ET today; H.15 at 16:15 ET"
     },
     {
-      "name": "Treasury quote: 10-year",
-      "url": "https://tradingeconomics.com/united-states/government-bond-yield",
-      "note": "Nov 10 indicative quote; no same-day rates inference."
+      "name": "Federal Reserve policy statement",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "note": "Current 3.75-4.00% target band verified independently"
     },
     {
-      "name": "Treasury quote: 5-year",
-      "url": "https://tradingeconomics.com/united-states/5-year-note-yield",
-      "note": "Nov 10 observation."
+      "name": "CME FedWatch",
+      "url": "https://www.cmegroup.com/trading/interest-rates/countdown-to-fomc.html",
+      "note": "Authenticated API 06:00:55 ET; Nov 12 cohort; changed from last observed Nov 10"
     },
     {
-      "name": "Treasury quote: 30-year",
-      "url": "https://tradingeconomics.com/united-states/30-year-bond-yield",
-      "note": "Nov 10 observation."
+      "name": "H.15 release and publication timing",
+      "url": "https://www.federalreserve.gov/releases/h15/",
+      "note": "Nov 12 release: Nov 11 market closure; last valid two-year CMT Nov 10"
     },
     {
-      "name": "EUR/JPY quote",
-      "url": "https://tradingeconomics.com/euro-area/currency",
-      "note": "Nov 11; exact time not supplied; delta uses Polygon Nov 10 UTC-day baseline."
-    },
-    {
-      "name": "AUD/JPY quote",
-      "url": "https://tradingeconomics.com/australia/currency",
-      "note": "Nov 11; exact time not supplied; delta uses Polygon Nov 10 UTC-day baseline."
+      "name": "H.15 machine-readable data",
+      "url": "https://www.federalreserve.gov/releases/h15/data/FRB_h15_xml.zip",
+      "note": "SDMX daily observations; curve calculated only from matching Nov 10 CMT series"
     }
   ],
-  "market_evidence": "/home/user/workspace/cron_tracking/b28120e0/run239",
+  "market_evidence": "/home/user/workspace/cron_tracking/b28120e0/run241",
   "omissions": [
-    "MBA release not verified with primary dated source; omitted",
-    "No unverified earnings/speakers added to today's calendar",
-    "BTC minute endpoint 403; unused optional endpoint; required /prev passed",
-    "Treasury direct endpoint unavailable; dated TE fallback used under standing instructions",
-    "FRED Nov 9 values rejected rather than passed as Nov 10",
-    "No historical records or dealer-flow claims",
-    "Research Google Doc permanently skipped"
+    "No live FX or crypto claim: required Polygon daily endpoints used",
+    "Two-year intraday API quote unavailable; official lagged SDMX data labeled explicitly",
+    "Treasury XML endpoint timed out; FRED graph CSV failed; neither supplied displayed values",
+    "Mixed-date curve suppressed; only Nov 10 same-source CMT spread displayed",
+    "No independently confirmed earnings added to today's upcoming calendar",
+    "Annual CPI/core API rows remain September and are not presented as October",
+    "Dealer flows, capitulation, record claims and unverified geopolitical events omitted",
+    "Google Doc permanently skipped"
   ]
 }
