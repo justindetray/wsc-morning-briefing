@@ -1,46 +1,45 @@
 {
   "status": "LIVE",
-  "as_of": "2026-11-13T11:00:55.863499+00:00",
+  "as_of": "2026-11-14T11:00:40.000193+00:00",
   "reason": null,
   "current_band_bps": [
     375,
     400
   ],
-  "policy_verified": "Federal Reserve October 28 statement",
   "meetings": [
     {
       "meetingDt": "2026-12-09",
-      "reportingDt": "2026-11-12",
+      "reportingDt": "2026-11-13",
       "hold": 0,
       "cut": 0,
       "cumulative_hike": 1.0,
-      "hike_25": 0.854815,
-      "hike_50": 0.145185,
+      "hike_25": 0.941852,
+      "hike_50": 0.058148,
       "hike_75": 0,
       "hike_100": 0
     },
     {
       "meetingDt": "2027-01-27",
-      "reportingDt": "2026-11-12",
+      "reportingDt": "2026-11-13",
       "hold": 0,
       "cut": 0,
       "cumulative_hike": 1.0,
-      "hike_25": 0.226684,
-      "hike_50": 0.666632,
-      "hike_75": 0.106684,
+      "hike_25": 0.271393,
+      "hike_50": 0.687214,
+      "hike_75": 0.041393,
       "hike_100": 0
     },
     {
       "meetingDt": "2027-03-17",
-      "reportingDt": "2026-11-12",
+      "reportingDt": "2026-11-13",
       "hold": 0,
       "cut": 0,
-      "cumulative_hike": 0.999999,
-      "hike_25": 0.059909,
-      "hike_50": 0.342956,
-      "hike_75": 0.518645,
-      "hike_100": 0.078489
+      "cumulative_hike": 1.0,
+      "hike_25": 0.093049,
+      "hike_50": 0.41396,
+      "hike_75": 0.46579,
+      "hike_100": 0.027201
     }
   ],
-  "note": "Nov 12 cohort; changes cumulative versus current 3.75-4.00% band. Raw probabilities retained without normalization."
+  "note": "Nov 13 cohort; changes cumulative versus current 3.75-4.00% band. Raw probabilities retained."
 }

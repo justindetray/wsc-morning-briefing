@@ -1,66 +1,77 @@
 {
-  "as_of": "2026-11-13T11:06:43.098761+00:00",
+  "as_of": "2026-11-14T11:04:04.463571+00:00",
   "sources": [
     {
-      "name": "Applied Materials after-close release",
-      "url": "https://ir.appliedmaterials.com/news-releases/news-release-details/applied-materials-announces-fourth-quarter-and-fiscal-year-2026/",
-      "note": "Nov 12, 16:01 EST; qualitative AI-demand commentary"
+      "name": "Reuters: Nvidia governance reporting",
+      "url": "https://www.reuters.com/world/china/ex-nvidia-ceo-misled-top-lawyer-affair-with-chinese-businesswoman-sources-say-2026-11-14/",
+      "note": "Published Nov 14 00:25 UTC / Friday 19:25 ET; new reporting, not proof of export violations"
     },
     {
-      "name": "Cisco results event",
-      "url": "https://investor.cisco.com/events-and-presentations/event-details/2026/Cisco-Q1FY27-Earnings-Results/default.aspx",
-      "note": "Nov 12, 16:30 ET; not today's upcoming earnings"
+      "name": "Jefferson: technology, inflation and policy",
+      "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
+      "note": "Delivered Friday Nov 13 19:00 ET; official speech"
     },
     {
-      "name": "NVIDIA leadership announcement",
-      "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-Announces-CEO-Transition/",
-      "note": "Nov 12; publication clock unverified; prior-session context only"
+      "name": "Jefferson speech release-time cover",
+      "url": "https://www.federalreserve.gov/newsevents/speech/files/jefferson20261113a.pdf",
+      "note": "Official cover specifies Nov 13 19:00 EST"
+    },
+    {
+      "name": "Reuters: Saturday China trade readout",
+      "url": "https://www.investing.com/news/economy-news/china-us-discuss-tariffs-farm-trade-at-first-trade-council-meeting-5027183",
+      "note": "Saturday publication about Friday meeting; no new agreement announced"
+    },
+    {
+      "name": "BLS October PPI release",
+      "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
+      "note": "Nov 13 08:30 ET; prior-session context, not overnight"
     },
     {
       "name": "BLS November calendar",
       "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
-      "note": "PPI Nov 13 at 08:30 ET; CPI Nov 10; jobs Nov 6"
+      "note": "No Saturday releases; import/export prices Nov 17"
     },
     {
       "name": "New York Fed November calendar",
       "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
-      "note": "PPI 08:30, Nowcast 12:45 today; Michigan final Nov 20"
+      "note": "No Saturday releases; Empire Monday 08:30 ET; retail sales Tuesday 08:30 ET"
     },
     {
       "name": "Federal Reserve November calendar",
       "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "note": "Bowman 10:50 ET, Jefferson 19:00 ET today; H.15 at 16:15 ET"
+      "note": "No Saturday events; FOMC minutes Nov 18 14:00 ET"
     },
     {
       "name": "Federal Reserve policy statement",
       "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-      "note": "Current 3.75-4.00% target band verified independently"
+      "note": "Current 3.75-4.00% target band"
     },
     {
       "name": "CME FedWatch",
       "url": "https://www.cmegroup.com/trading/interest-rates/countdown-to-fomc.html",
-      "note": "Authenticated API 06:00:55 ET; Nov 12 cohort; changed from last observed Nov 10"
+      "note": "Authenticated API at 06:00:40 ET; reporting date advanced Nov 12 to Nov 13"
     },
     {
-      "name": "H.15 release and publication timing",
+      "name": "H.15 release and timing",
       "url": "https://www.federalreserve.gov/releases/h15/",
-      "note": "Nov 12 release: Nov 11 market closure; last valid two-year CMT Nov 10"
+      "note": "Nov 13 release, latest valid CMT Nov 12; next release Monday Nov 16 16:15 ET"
     },
     {
       "name": "H.15 machine-readable data",
       "url": "https://www.federalreserve.gov/releases/h15/data/FRB_h15_xml.zip",
-      "note": "SDMX daily observations; curve calculated only from matching Nov 10 CMT series"
+      "note": "Official SDMX XML; same-date two- and ten-year CMT"
     }
   ],
-  "market_evidence": "/home/user/workspace/cron_tracking/b28120e0/run241",
+  "market_evidence": "/home/user/workspace/cron_tracking/b28120e0/run242",
   "omissions": [
-    "No live FX or crypto claim: required Polygon daily endpoints used",
-    "Two-year intraday API quote unavailable; official lagged SDMX data labeled explicitly",
-    "Treasury XML endpoint timed out; FRED graph CSV failed; neither supplied displayed values",
-    "Mixed-date curve suppressed; only Nov 10 same-source CMT spread displayed",
-    "No independently confirmed earnings added to today's upcoming calendar",
-    "Annual CPI/core API rows remain September and are not presented as October",
-    "Dealer flows, capitulation, record claims and unverified geopolitical events omitted",
+    "No live Saturday tape claim: all market observations labeled by session",
+    "BTC daily return is not an overnight-only return",
+    "No mixed-date yield curve; Nov 12 CMT curve only",
+    "Stale September PPI provider rows replaced by official October BLS release",
+    "September annual CPI rows excluded, not relabeled October",
+    "No new Daily Shot email found; no refreshed chart claim",
+    "No verified positioning data; capitulation and forced-selling claims omitted",
+    "Uncorroborated tanker incident omitted",
     "Google Doc permanently skipped"
   ]
 }

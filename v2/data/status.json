@@ -1,128 +1,129 @@
 {
-  "build_started": "2026-11-13T11:06:43.098761+00:00",
+  "build_started": "2026-11-14T11:04:04.463571+00:00",
+  "edition": "Saturday November 14 weekend",
   "fields": [
     {
       "field": "ES",
-      "status": "LIVE",
-      "reason": "05:51 ET snapshot; provider prior-session reference; delayed"
+      "status": "CLOSED",
+      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
     },
     {
       "field": "NQ",
-      "status": "LIVE",
-      "reason": "05:51 ET snapshot; provider prior-session reference; delayed"
+      "status": "CLOSED",
+      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
     },
     {
       "field": "YM",
-      "status": "LIVE",
-      "reason": "05:51 ET snapshot; provider prior-session reference; delayed"
+      "status": "CLOSED",
+      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
     },
     {
       "field": "RTY",
-      "status": "LIVE",
-      "reason": "05:48 ET snapshot; provider prior-session reference; delayed"
+      "status": "CLOSED",
+      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
     },
     {
       "field": "WTI",
-      "status": "LIVE",
-      "reason": "06:01 ET snapshot; provider prior-session reference"
+      "status": "CLOSED",
+      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
     },
     {
       "field": "BRENT",
-      "status": "LIVE",
-      "reason": "06:01 ET snapshot; provider prior-session reference"
+      "status": "CLOSED",
+      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
     },
     {
       "field": "GOLD",
-      "status": "LIVE",
-      "reason": "05:51 ET snapshot; provider prior-session reference; delayed"
+      "status": "CLOSED",
+      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
     },
     {
       "field": "DXY",
-      "status": "LIVE",
-      "reason": "06:01 ET snapshot; provider prior-session reference"
+      "status": "CLOSED",
+      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
     },
     {
       "field": "TLT",
       "status": "CLOSED",
-      "reason": "Nov 12 closing snapshot; not today's quote"
+      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
     },
     {
       "field": "SHY",
       "status": "CLOSED",
-      "reason": "Nov 12 closing snapshot; not today's quote"
+      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
     },
     {
       "field": "US5Y",
       "status": "CLOSED",
-      "reason": "Nov 12 14:59 ET yield index; not current CMT"
+      "reason": "Nov 13 14:59 ET yield index; not a live CMT quote"
     },
     {
       "field": "US10Y",
       "status": "CLOSED",
-      "reason": "Nov 12 14:59 ET yield index; not current CMT"
+      "reason": "Nov 13 14:59 ET yield index; not a live CMT quote"
     },
     {
       "field": "US30Y",
       "status": "CLOSED",
-      "reason": "Nov 12 14:59 ET yield index; not current CMT"
+      "reason": "Nov 13 14:59 ET yield index; not a live CMT quote"
     },
     {
       "field": "SPX",
       "status": "CLOSED",
-      "reason": "Nov 12 cash close; not today's session"
+      "reason": "Nov 13 cash close; not an overnight move"
     },
     {
       "field": "NDX",
       "status": "CLOSED",
-      "reason": "Nov 12 cash close; not today's session"
+      "reason": "Nov 13 cash close; not an overnight move"
     },
     {
       "field": "DJI",
       "status": "CLOSED",
-      "reason": "Nov 12 cash close; not today's session"
+      "reason": "Nov 13 cash close; not an overnight move"
     },
     {
       "field": "SOX",
       "status": "CLOSED",
-      "reason": "Nov 12 cash close; not today's session"
+      "reason": "Nov 13 cash close; not an overnight move"
     },
     {
       "field": "VIX",
       "status": "CLOSED",
-      "reason": "Nov 12 cash close; not today's session"
+      "reason": "Nov 13 cash close; not an overnight move"
     },
     {
       "field": "EURJPY",
       "status": "CLOSED",
-      "reason": "Nov 12 UTC close; not live FX"
+      "reason": "Nov 13 UTC daily close; not live FX"
     },
     {
       "field": "AUDJPY",
       "status": "CLOSED",
-      "reason": "Nov 12 UTC close; not live FX"
+      "reason": "Nov 13 UTC daily close; not live FX"
     },
     {
       "field": "BTC",
       "status": "CLOSED",
-      "reason": "Nov 12 UTC close; daily change, not overnight"
+      "reason": "Nov 13 UTC close; daily change, not live BTC or an overnight-only move"
     },
     {
       "field": "US2Y",
       "status": "CLOSED",
-      "reason": "Nov 10 CMT; lagged H.15, next release 16:15 ET"
+      "reason": "Nov 12 official CMT; next H.15 Monday Nov 16 16:15 ET"
     }
   ],
   "degraded_count": 0,
-  "edition": "pre-open November 13",
   "scheduled_credential_access": "VERIFIED",
   "caveats": [
-    "No live FX or crypto claim: required Polygon daily endpoints used",
-    "Two-year intraday API quote unavailable; official lagged SDMX data labeled explicitly",
-    "Treasury XML endpoint timed out; FRED graph CSV failed; neither supplied displayed values",
-    "Mixed-date curve suppressed; only Nov 10 same-source CMT spread displayed",
-    "No independently confirmed earnings added to today's upcoming calendar",
-    "Annual CPI/core API rows remain September and are not presented as October",
-    "Dealer flows, capitulation, record claims and unverified geopolitical events omitted",
+    "No live Saturday tape claim: all market observations labeled by session",
+    "BTC daily return is not an overnight-only return",
+    "No mixed-date yield curve; Nov 12 CMT curve only",
+    "Stale September PPI provider rows replaced by official October BLS release",
+    "September annual CPI rows excluded, not relabeled October",
+    "No new Daily Shot email found; no refreshed chart claim",
+    "No verified positioning data; capitulation and forced-selling claims omitted",
+    "Uncorroborated tanker incident omitted",
     "Google Doc permanently skipped"
   ]
 }

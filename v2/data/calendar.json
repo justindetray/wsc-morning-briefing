@@ -1,53 +1,37 @@
 {
-  "last_curated": "2026-11-13T11:06:43.098761+00:00",
+  "last_curated": "2026-11-14T11:04:04.463571+00:00",
   "macro": [
-    {
-      "date": "2026-11-13",
-      "time_et": "8:30 AM",
-      "event": "October Producer Price Index",
-      "importance": "high",
-      "consensus": null,
-      "note": "BLS / New York Fed; Consensus not independently verified"
-    },
-    {
-      "date": "2026-11-13",
-      "time_et": "10:50 AM",
-      "event": "Bowman: supervision and regulation discussion",
-      "importance": "medium",
-      "consensus": null,
-      "note": "Federal Reserve calendar"
-    },
-    {
-      "date": "2026-11-13",
-      "time_et": "12:45 PM",
-      "event": "New York Fed Staff Nowcast",
-      "importance": "medium",
-      "consensus": null,
-      "note": "New York Fed calendar"
-    },
-    {
-      "date": "2026-11-13",
-      "time_et": "4:15 PM",
-      "event": "H.15 selected interest rates update",
-      "importance": "low",
-      "consensus": null,
-      "note": "Federal Reserve calendar; Lagged official rates, not a live quote feed"
-    },
-    {
-      "date": "2026-11-13",
-      "time_et": "7:00 PM",
-      "event": "Jefferson: technology and productivity",
-      "importance": "medium",
-      "consensus": null,
-      "note": "Federal Reserve calendar"
-    },
     {
       "date": "2026-11-16",
       "time_et": "8:30 AM",
       "event": "Empire State Manufacturing Survey",
       "importance": "medium",
       "consensus": null,
-      "note": "New York Fed calendar"
+      "note": "New York Fed"
+    },
+    {
+      "date": "2026-11-16",
+      "time_et": "11:00 AM",
+      "event": "SCE Credit Access Survey",
+      "importance": "medium",
+      "consensus": null,
+      "note": "New York Fed"
+    },
+    {
+      "date": "2026-11-16",
+      "time_et": "4:15 PM",
+      "event": "H.15 interest rates update",
+      "importance": "low",
+      "consensus": null,
+      "note": "Federal Reserve"
+    },
+    {
+      "date": "2026-11-17",
+      "time_et": "8:30 AM",
+      "event": "Advance retail sales",
+      "importance": "high",
+      "consensus": null,
+      "note": "New York Fed"
     },
     {
       "date": "2026-11-17",
@@ -59,19 +43,27 @@
     },
     {
       "date": "2026-11-17",
-      "time_et": "8:30 AM",
-      "event": "Advance retail sales",
-      "importance": "high",
-      "consensus": null,
-      "note": "New York Fed calendar"
-    },
-    {
-      "date": "2026-11-17",
       "time_et": "9:15 AM",
       "event": "Industrial production and capacity utilization",
       "importance": "medium",
       "consensus": null,
       "note": "Federal Reserve / New York Fed"
+    },
+    {
+      "date": "2026-11-18",
+      "time_et": "8:30 AM",
+      "event": "New residential construction",
+      "importance": "medium",
+      "consensus": null,
+      "note": "New York Fed"
+    },
+    {
+      "date": "2026-11-18",
+      "time_et": "2:00 PM",
+      "event": "FOMC meeting minutes",
+      "importance": "high",
+      "consensus": null,
+      "note": "Federal Reserve"
     }
   ],
   "earnings": []
