@@ -1,14 +1,28 @@
 {
-  "as_of": "2026-11-14T11:04:04.463571+00:00",
-  "asia_close": [],
-  "europe_open": [],
-  "single_name_moves": [],
-  "edition_note": "Saturday weekend edition. U.S. cash and futures markets closed. Tape: Friday Nov 13 snapshots; BTC and yen crosses: Nov 13 UTC daily closes, not live. Two-year CMT: Nov 12. Overnight news window begins Friday 16:00 ET; session returns below are not overnight returns.",
-  "geo_headlines": [
-    "**Nvidia governance report, Friday 19:25 ET:** Reuters reports, citing two people and correspondence it reviewed, that the former CEO misled company leaders about his relationship with a former MegaSpeed executive. This is newly published reporting about earlier conduct, not a new finding of illegal chip exports. Reuters says it has not independently established whether she worked for the Chinese government. (Reuters)",
-    "**Jefferson, Friday 19:00 ET:** The vice chair said inflation is the more important signal for policy while economic activity and labor conditions remain broadly solid. His speech describes AI investment as adding near-term demand and price pressure before its broader productivity benefits arrive. (Federal Reserve)",
-    "**Trade update released Saturday:** China's commerce ministry described discussions about tariffs and agricultural trade after Friday's first trade-council meeting. Reuters reports that the statement did not say a new agreement had been reached; the meeting itself is prior-session context, while Saturday's readout is the fresh information. (Reuters)"
+  "as_of": "2026-11-20T11:02:33.021844+00:00",
+  "edition_note": "Friday premarket, 06:00 ET snapshot. Futures vs prior contract close. Cash indices and BTC: completed Nov 19 bars. Official Treasury yields: Nov 18; not live. Premarket ETF moves are separate from their regular-session returns.",
+  "client_frame_short": "How can Anthropic have a good first day and tech stocks still fall? Investors were willing to fund one company, but **buying its shares is not the same as buying the whole AI industry**. Amazon and Google benefit from a more valuable stake; that does not tell us what they will earn on their next data center.\n\nChip shares are down again before the open, while the Dow futures are slightly higher. There\u2019s no need to trade a diversified account on that split. I\u2019m watching whether the selling spreads beyond tech after the open and how consumers describe inflation later this morning.",
+  "client_frame": "Thursday gave us two different answers. Anthropic ended its debut at $97.17 versus an $83 offer, but the Nasdaq-100 finished lower. Early Friday, the semiconductor ETF fell more than the Nasdaq tracker. Investors can like the price of one offering and still demand better evidence that its suppliers will earn an adequate return. (Quote API; Anthropic)\n\nAmazon and Alphabet have direct stakes in Anthropic. A higher share price raises the implied value of those existing holdings, not cash received. A better-funded customer also matters to its cloud providers. Neither channel guarantees that the additional servers, power and buildings will produce attractive margins. (SEC offering materials)\n\nThe December rate distribution is a separate piece of the picture. CME\u2019s November 19 probabilities put more weight on a quarter-point increase than its previous reading, but less on a half-point increase. That is a shift toward the smaller of two increases, not a fresh move toward a larger hike. (CME; Federal Reserve)\n\nFor clients: a concentrated account and a diversified account need different conversations. The useful check today is whether the losses stay concentrated in chips or spread to the rest of the market. Near-term spending needs are a better reason to revisit risk than the first two trading sessions of one stock.",
+  "single_name_moves": [
+    {
+      "ticker": "ANT",
+      "delta_pct": -6.3497,
+      "venue": "premarket vs Thursday close"
+    },
+    {
+      "ticker": "QQQ",
+      "delta_pct": -1.0511,
+      "venue": "premarket vs Thursday close"
+    },
+    {
+      "ticker": "SOXX",
+      "delta_pct": -2.8344,
+      "venue": "premarket vs Thursday close"
+    }
   ],
-  "client_frame_short": "\"Does the technology selloff mean we should change the plan?\" It is a reason to check concentration, not a reason to abandon diversification. **A company crisis is not the same as a broken financial plan**.\n\nKeep near-term spending money separate from investments intended for years, and avoid making a weekend decision simply to relieve headline anxiety. We are watching whether weakness spreads beyond technology and whether inflation keeps financing costs under pressure. If your cash needs or tolerance for losses have changed, that is the reason to revisit the allocation.",
-  "client_frame": "The fresh Nvidia story is about governance and disclosure: Reuters published new reporting after Friday's close about what the former CEO told other company leaders. It is not proof that Nvidia knowingly violated export rules, and the report does not establish the alleged intelligence connection. Those distinctions matter when discussing a company that sits at the center of a much larger technology supply chain. (Reuters)\n\nFriday's completed session showed concentration rather than uniform selling: the Nasdaq 100 fell 1.22% and semiconductors 3.43%, while the Dow gained 0.10%. The VIX closed at 19.30; Bitcoin's separate UTC-day close was $68,324.00. These observations do not, by themselves, establish capitulation, forced dealer selling or a yen-funded liquidation. (Polygon)\n\nInflation remains a separate constraint. Friday morning's October producer-price report showed a 0.3% monthly increase, down from September's revised 1.4%, but prices excluding foods, energy and trade services still rose 0.5%. Jefferson's evening speech emphasized inflation as the key policy signal. CME's November 13 cohort prices December at 94.2% for a 25bp increase and 5.8% for 50bp, not a guaranteed outcome. (BLS; Federal Reserve; CME)\n\nFor clients: use the weekend to check cash reserves and concentrated exposures, not to make a forecast from one headline. Keep diversified long-term holdings tied to the plan and rebalance only within agreed constraints. A material change in cash needs, broader deterioration beyond technology, or persistent inflation alongside tighter financing conditions would prompt a renewed risk review."
+  "geo_headlines": [
+    "**Overnight futures:** Nasdaq-100 futures fell 1.07%, S&P futures slipped 0.34% and Dow futures edged up 0.24%. The weakness is not uniform.",
+    "**Asian session:** Equities fell in Japan and South Korea after the US selloff. The sequence is clear; it is not proof that the IPO caused those declines. (Reuters)",
+    "**Oil and gold:** WTI futures slipped 0.80% and gold futures fell 2.56% from their respective prior closes."
+  ]
 }

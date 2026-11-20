@@ -1,77 +1,45 @@
 {
-  "as_of": "2026-11-14T11:04:04.463571+00:00",
+  "as_of": "2026-11-20T11:02:33.021844+00:00",
   "sources": [
     {
-      "name": "Reuters: Nvidia governance reporting",
-      "url": "https://www.reuters.com/world/china/ex-nvidia-ceo-misled-top-lawyer-affair-with-chinese-businesswoman-sources-say-2026-11-14/",
-      "note": "Published Nov 14 00:25 UTC / Friday 19:25 ET; new reporting, not proof of export violations"
+      "name": "Reuters: Asian markets on Friday",
+      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/",
+      "note": "Asian equities followed Thursday\u2019s US losses"
     },
     {
-      "name": "Jefferson: technology, inflation and policy",
-      "url": "https://www.federalreserve.gov/newsevents/speech/jefferson20261113a.htm",
-      "note": "Delivered Friday Nov 13 19:00 ET; official speech"
+      "name": "Anthropic: IPO terms",
+      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
+      "note": "Offer price, not an opening or closing trade"
     },
     {
-      "name": "Jefferson speech release-time cover",
-      "url": "https://www.federalreserve.gov/newsevents/speech/files/jefferson20261113a.pdf",
-      "note": "Official cover specifies Nov 13 19:00 EST"
+      "name": "SEC: ownership and commercial relationships",
+      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026073040/anthropicpbc-fwpxeeaprospea.htm",
+      "note": "Pre-offer holdings after conversion and cloud relationships"
     },
     {
-      "name": "Reuters: Saturday China trade readout",
-      "url": "https://www.investing.com/news/economy-news/china-us-discuss-tariffs-farm-trade-at-first-trade-council-meeting-5027183",
-      "note": "Saturday publication about Friday meeting; no new agreement announced"
+      "name": "Philadelphia Fed: November manufacturing survey",
+      "url": "https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/mbos-2026-11",
+      "note": "Released Thursday before cash trading"
     },
     {
-      "name": "BLS October PPI release",
-      "url": "https://www.bls.gov/news.release/ppi.nr0.htm",
-      "note": "Nov 13 08:30 ET; prior-session context, not overnight"
-    },
-    {
-      "name": "BLS November calendar",
-      "url": "https://www.bls.gov/schedule/2026/11_sched_list.htm",
-      "note": "No Saturday releases; import/export prices Nov 17"
-    },
-    {
-      "name": "New York Fed November calendar",
+      "name": "New York Fed: November calendar",
       "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
-      "note": "No Saturday releases; Empire Monday 08:30 ET; retail sales Tuesday 08:30 ET"
+      "note": "Verified Friday releases"
     },
     {
-      "name": "Federal Reserve November calendar",
+      "name": "Federal Reserve: November calendar",
       "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "note": "No Saturday events; FOMC minutes Nov 18 14:00 ET"
+      "note": "Friday events in ET"
     },
     {
-      "name": "Federal Reserve policy statement",
-      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
-      "note": "Current 3.75-4.00% target band"
-    },
-    {
-      "name": "CME FedWatch",
-      "url": "https://www.cmegroup.com/trading/interest-rates/countdown-to-fomc.html",
-      "note": "Authenticated API at 06:00:40 ET; reporting date advanced Nov 12 to Nov 13"
-    },
-    {
-      "name": "H.15 release and timing",
+      "name": "Federal Reserve: H.15",
       "url": "https://www.federalreserve.gov/releases/h15/",
-      "note": "Nov 13 release, latest valid CMT Nov 12; next release Monday Nov 16 16:15 ET"
+      "note": "Latest official curve available: November 18 observations"
     },
     {
-      "name": "H.15 machine-readable data",
-      "url": "https://www.federalreserve.gov/releases/h15/data/FRB_h15_xml.zip",
-      "note": "Official SDMX XML; same-date two- and ten-year CMT"
+      "name": "CME: FedWatch",
+      "url": "https://www.cmegroup.com/market-data/market-data-api/fedwatch-api.html",
+      "note": "November 19 cohort; not live intraday odds"
     }
-  ],
-  "market_evidence": "/home/user/workspace/cron_tracking/b28120e0/run242",
-  "omissions": [
-    "No live Saturday tape claim: all market observations labeled by session",
-    "BTC daily return is not an overnight-only return",
-    "No mixed-date yield curve; Nov 12 CMT curve only",
-    "Stale September PPI provider rows replaced by official October BLS release",
-    "September annual CPI rows excluded, not relabeled October",
-    "No new Daily Shot email found; no refreshed chart claim",
-    "No verified positioning data; capitulation and forced-selling claims omitted",
-    "Uncorroborated tanker incident omitted",
-    "Google Doc permanently skipped"
   ]
 }

@@ -1,45 +1,50 @@
 {
   "status": "LIVE",
-  "as_of": "2026-11-14T11:00:40.000193+00:00",
-  "reason": null,
-  "current_band_bps": [
-    375,
-    400
-  ],
+  "as_of": "2026-11-19",
   "meetings": [
     {
       "meetingDt": "2026-12-09",
-      "reportingDt": "2026-11-13",
+      "reportingDt": "2026-11-19",
       "hold": 0,
-      "cut": 0,
       "cumulative_hike": 1.0,
-      "hike_25": 0.941852,
-      "hike_50": 0.058148,
+      "hike_25": 0.978889,
+      "hike_50": 0.021111,
       "hike_75": 0,
       "hike_100": 0
     },
     {
       "meetingDt": "2027-01-27",
-      "reportingDt": "2026-11-13",
+      "reportingDt": "2026-11-19",
       "hold": 0,
-      "cut": 0,
       "cumulative_hike": 1.0,
-      "hike_25": 0.271393,
-      "hike_50": 0.687214,
-      "hike_75": 0.041393,
+      "hike_25": 0.304543,
+      "hike_50": 0.680914,
+      "hike_75": 0.014543,
       "hike_100": 0
     },
     {
       "meetingDt": "2027-03-17",
-      "reportingDt": "2026-11-13",
+      "reportingDt": "2026-11-19",
       "hold": 0,
-      "cut": 0,
       "cumulative_hike": 1.0,
-      "hike_25": 0.093049,
-      "hike_50": 0.41396,
-      "hike_75": 0.46579,
-      "hike_100": 0.027201
+      "hike_25": 0.114856,
+      "hike_50": 0.446489,
+      "hike_75": 0.429597,
+      "hike_100": 0.009058
+    },
+    {
+      "meetingDt": "2027-04-28",
+      "reportingDt": "2026-11-19",
+      "hold": 0,
+      "cumulative_hike": 1.0,
+      "hike_25": 0.085322,
+      "hike_50": 0.361212,
+      "hike_75": 0.43394,
+      "hike_100": 0.117197
     }
   ],
-  "note": "Nov 13 cohort; changes cumulative versus current 3.75-4.00% band. Raw probabilities retained."
+  "current_band_bps": [
+    375,
+    400
+  ]
 }

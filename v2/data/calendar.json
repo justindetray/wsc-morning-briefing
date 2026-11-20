@@ -1,70 +1,61 @@
 {
-  "last_curated": "2026-11-14T11:04:04.463571+00:00",
+  "last_curated": "2026-11-20T11:02:33.021844+00:00",
   "macro": [
     {
-      "date": "2026-11-16",
-      "time_et": "8:30 AM",
-      "event": "Empire State Manufacturing Survey",
-      "importance": "medium",
-      "consensus": null,
-      "note": "New York Fed"
+      "date": "2026-11-20",
+      "time_et": "08:25",
+      "event": "Governor Waller: welcoming remarks",
+      "importance": "medium"
     },
     {
-      "date": "2026-11-16",
-      "time_et": "11:00 AM",
-      "event": "SCE Credit Access Survey",
-      "importance": "medium",
-      "consensus": null,
-      "note": "New York Fed"
+      "date": "2026-11-20",
+      "time_et": "10:00",
+      "event": "Michigan consumer survey: final November reading",
+      "importance": "high"
     },
     {
-      "date": "2026-11-16",
-      "time_et": "4:15 PM",
-      "event": "H.15 interest rates update",
-      "importance": "low",
-      "consensus": null,
-      "note": "Federal Reserve"
+      "date": "2026-11-20",
+      "time_et": "12:15",
+      "event": "Governor Cook: The U.S. Economy in Global Context",
+      "importance": "medium"
     },
     {
-      "date": "2026-11-17",
-      "time_et": "8:30 AM",
-      "event": "Advance retail sales",
-      "importance": "high",
-      "consensus": null,
-      "note": "New York Fed"
+      "date": "2026-11-20",
+      "time_et": "12:45",
+      "event": "New York Fed staff nowcast",
+      "importance": "medium"
     },
     {
-      "date": "2026-11-17",
-      "time_et": "8:30 AM",
-      "event": "October import and export prices",
-      "importance": "medium",
-      "consensus": null,
-      "note": "BLS / New York Fed"
+      "date": "2026-11-20",
+      "time_et": "13:00",
+      "event": "Federal Reserve commercial paper release",
+      "importance": "medium"
     },
     {
-      "date": "2026-11-17",
-      "time_et": "9:15 AM",
-      "event": "Industrial production and capacity utilization",
-      "importance": "medium",
-      "consensus": null,
-      "note": "Federal Reserve / New York Fed"
-    },
-    {
-      "date": "2026-11-18",
-      "time_et": "8:30 AM",
-      "event": "New residential construction",
-      "importance": "medium",
-      "consensus": null,
-      "note": "New York Fed"
-    },
-    {
-      "date": "2026-11-18",
-      "time_et": "2:00 PM",
-      "event": "FOMC meeting minutes",
-      "importance": "high",
-      "consensus": null,
-      "note": "Federal Reserve"
+      "date": "2026-11-20",
+      "time_et": "16:15",
+      "event": "Federal Reserve H.8 and H.15 releases",
+      "importance": "medium"
     }
   ],
-  "earnings": []
+  "earnings": [
+    {
+      "date": "2026-11-20",
+      "ticker": "BJ",
+      "name": "BJ\u2019s Wholesale Club",
+      "session": "pre-market"
+    },
+    {
+      "date": "2026-11-20",
+      "ticker": "FRO",
+      "name": "Frontline",
+      "session": "pre-market"
+    },
+    {
+      "date": "2026-11-20",
+      "ticker": "BKE",
+      "name": "Buckle",
+      "session": "pre-market"
+    }
+  ]
 }

@@ -1,65 +1,50 @@
 {
-  "as_of": "2026-11-14",
+  "as_of": "2026-11-20",
   "items": [
     {
-      "label": "Friday technology close",
-      "value": "NDX -1.22% / SOX -3.43%",
-      "note": "Nov 13 settled cash bars; not overnight returns"
+      "label": "2-year Treasury",
+      "value": "4.80%",
+      "note": "Nov 18 H.15 observation"
     },
     {
-      "label": "Friday volatility",
-      "value": "VIX 19.30 / +3.21%",
-      "note": "Nov 13 settled cash bar; no capitulation inference"
+      "label": "5-year Treasury",
+      "value": "4.89%",
+      "note": "Nov 18 H.15 observation"
     },
     {
-      "label": "5y / 10y / 30y yield indexes",
-      "value": "4.981% / 5.154% / 5.481%",
-      "note": "Nov 13 14:59 ET snapshots; not live Treasury quotes"
+      "label": "10-year Treasury",
+      "value": "5.07%",
+      "note": "Nov 18 H.15 observation"
     },
     {
-      "label": "2-year official CMT",
-      "value": "4.86%",
-      "note": "Nov 12 observation, Nov 13 H.15 release; next update Monday 16:15 ET"
+      "label": "30-year Treasury",
+      "value": "5.41%",
+      "note": "Nov 18 H.15 observation"
     },
     {
-      "label": "Same-date 2s10s CMT curve",
-      "value": "+24bp",
-      "note": "Nov 12 only: 5.10% minus 4.86%; not a Nov 13 spread"
+      "label": "2s10s spread",
+      "value": "27 bp",
+      "note": "Matched Nov 18 official yields"
     },
     {
-      "label": "December rate distribution",
-      "value": "+25: 94.2% / +50: 5.8%",
-      "note": "CME Nov 13 cohort; current band 3.75-4.00%; hold 0%"
+      "label": "Philadelphia Fed activity",
+      "value": "6.3",
+      "note": "November; prior 20.9"
     },
     {
-      "label": "October producer prices",
-      "value": "+0.3% MoM / +6.5% YoY",
-      "note": "BLS Nov 13 at 08:30 ET; September revised to +1.4% MoM"
+      "label": "Philadelphia Fed new orders",
+      "value": "\u22120.4",
+      "note": "November; prior 4.3"
     },
     {
-      "label": "PPI less food, energy, trade",
-      "value": "+0.5% MoM / +4.9% YoY",
-      "note": "October; different exclusion basket from conventional core PPI"
+      "label": "Philadelphia Fed prices paid",
+      "value": "58.2",
+      "note": "November; prior 43.2"
     },
     {
-      "label": "October monthly CPI",
-      "value": "+0.4% / core +0.3%",
-      "note": "Released Nov 10; annual API rows remain September and are omitted"
-    },
-    {
-      "label": "Bitcoin prior UTC close",
-      "value": "$68,324.00 / -4.27%",
-      "note": "Fresh Polygon X:BTCUSD /prev response; Nov 13 daily close, not live"
-    },
-    {
-      "label": "Dollar and yen crosses",
-      "value": "DXY 103.411 / EURJPY 176.11 / AUDJPY 108.077",
-      "note": "Nov 13 snapshots; differing session clocks; no funding-squeeze inference"
-    },
-    {
-      "label": "Today: Saturday Nov 14",
-      "value": "No scheduled releases",
-      "note": "BLS, New York Fed and Federal Reserve calendars checked"
+      "label": "December +25 bp probability",
+      "value": "97.9%",
+      "note": "Nov 19 CME cohort"
     }
   ]
 }

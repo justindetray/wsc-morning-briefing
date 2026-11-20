@@ -1,129 +1,117 @@
 {
-  "build_started": "2026-11-14T11:04:04.463571+00:00",
-  "edition": "Saturday November 14 weekend",
+  "build_started": "2026-11-20T11:02:33.021844+00:00",
+  "edition": "Friday November 20 premarket",
   "fields": [
     {
       "field": "ES",
-      "status": "CLOSED",
-      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
+      "status": "LIVE",
+      "reason": "Premarket capture"
     },
     {
       "field": "NQ",
-      "status": "CLOSED",
-      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
+      "status": "LIVE",
+      "reason": "Premarket capture"
     },
     {
       "field": "YM",
-      "status": "CLOSED",
-      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
+      "status": "LIVE",
+      "reason": "Premarket capture"
     },
     {
       "field": "RTY",
-      "status": "CLOSED",
-      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
-    },
-    {
-      "field": "WTI",
-      "status": "CLOSED",
-      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
-    },
-    {
-      "field": "BRENT",
-      "status": "CLOSED",
-      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
-    },
-    {
-      "field": "GOLD",
-      "status": "CLOSED",
-      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
+      "status": "LIVE",
+      "reason": "Premarket capture"
     },
     {
       "field": "DXY",
-      "status": "CLOSED",
-      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
+      "status": "LIVE",
+      "reason": "Premarket capture"
+    },
+    {
+      "field": "WTI",
+      "status": "LIVE",
+      "reason": "Premarket capture"
+    },
+    {
+      "field": "BRENT",
+      "status": "LIVE",
+      "reason": "Premarket capture"
+    },
+    {
+      "field": "GOLD",
+      "status": "LIVE",
+      "reason": "Premarket capture"
     },
     {
       "field": "TLT",
       "status": "CLOSED",
-      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
+      "reason": "Nov 19 regular close"
     },
     {
       "field": "SHY",
       "status": "CLOSED",
-      "reason": "Nov 13 last-session snapshot; markets closed; change vs provider prior-session reference"
+      "reason": "Nov 19 regular close"
     },
     {
-      "field": "US5Y",
-      "status": "CLOSED",
-      "reason": "Nov 13 14:59 ET yield index; not a live CMT quote"
+      "field": "EURJPY",
+      "status": "LIVE",
+      "reason": "Premarket capture"
     },
     {
-      "field": "US10Y",
-      "status": "CLOSED",
-      "reason": "Nov 13 14:59 ET yield index; not a live CMT quote"
-    },
-    {
-      "field": "US30Y",
-      "status": "CLOSED",
-      "reason": "Nov 13 14:59 ET yield index; not a live CMT quote"
+      "field": "AUDJPY",
+      "status": "LIVE",
+      "reason": "Premarket capture"
     },
     {
       "field": "SPX",
       "status": "CLOSED",
-      "reason": "Nov 13 cash close; not an overnight move"
+      "reason": "Nov 19 cash session"
     },
     {
       "field": "NDX",
       "status": "CLOSED",
-      "reason": "Nov 13 cash close; not an overnight move"
+      "reason": "Nov 19 cash session"
     },
     {
       "field": "DJI",
       "status": "CLOSED",
-      "reason": "Nov 13 cash close; not an overnight move"
+      "reason": "Nov 19 cash session"
     },
     {
       "field": "SOX",
       "status": "CLOSED",
-      "reason": "Nov 13 cash close; not an overnight move"
+      "reason": "Nov 19 cash session"
     },
     {
       "field": "VIX",
       "status": "CLOSED",
-      "reason": "Nov 13 cash close; not an overnight move"
-    },
-    {
-      "field": "EURJPY",
-      "status": "CLOSED",
-      "reason": "Nov 13 UTC daily close; not live FX"
-    },
-    {
-      "field": "AUDJPY",
-      "status": "CLOSED",
-      "reason": "Nov 13 UTC daily close; not live FX"
+      "reason": "Nov 19 cash session"
     },
     {
       "field": "BTC",
       "status": "CLOSED",
-      "reason": "Nov 13 UTC close; daily change, not live BTC or an overnight-only move"
+      "reason": "Nov 19 completed UTC day; not live spot"
     },
     {
       "field": "US2Y",
       "status": "CLOSED",
-      "reason": "Nov 12 official CMT; next H.15 Monday Nov 16 16:15 ET"
+      "reason": "Nov 18 official daily CMT, not an overnight yield"
+    },
+    {
+      "field": "US5Y",
+      "status": "CLOSED",
+      "reason": "Nov 18 official daily CMT, not an overnight yield"
+    },
+    {
+      "field": "US10Y",
+      "status": "CLOSED",
+      "reason": "Nov 18 official daily CMT, not an overnight yield"
+    },
+    {
+      "field": "US30Y",
+      "status": "CLOSED",
+      "reason": "Nov 18 official daily CMT, not an overnight yield"
     }
   ],
-  "degraded_count": 0,
-  "scheduled_credential_access": "VERIFIED",
-  "caveats": [
-    "No live Saturday tape claim: all market observations labeled by session",
-    "BTC daily return is not an overnight-only return",
-    "No mixed-date yield curve; Nov 12 CMT curve only",
-    "Stale September PPI provider rows replaced by official October BLS release",
-    "September annual CPI rows excluded, not relabeled October",
-    "No new Daily Shot email found; no refreshed chart claim",
-    "No verified positioning data; capitulation and forced-selling claims omitted",
-    "Uncorroborated tanker incident omitted",
-    "Google Doc permanently skipped"
-  ]
+  "degraded_count": 0
 }
