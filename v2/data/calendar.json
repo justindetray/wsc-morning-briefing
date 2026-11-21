@@ -1,61 +1,12 @@
 {
-  "last_curated": "2026-11-20T11:02:33.021844+00:00",
+  "last_curated": "2026-11-21T11:02:59.243607+00:00",
   "macro": [
     {
-      "date": "2026-11-20",
-      "time_et": "08:25",
-      "event": "Governor Waller: welcoming remarks",
-      "importance": "medium"
-    },
-    {
-      "date": "2026-11-20",
-      "time_et": "10:00",
-      "event": "Michigan consumer survey: final November reading",
-      "importance": "high"
-    },
-    {
-      "date": "2026-11-20",
-      "time_et": "12:15",
-      "event": "Governor Cook: The U.S. Economy in Global Context",
-      "importance": "medium"
-    },
-    {
-      "date": "2026-11-20",
-      "time_et": "12:45",
-      "event": "New York Fed staff nowcast",
-      "importance": "medium"
-    },
-    {
-      "date": "2026-11-20",
-      "time_et": "13:00",
-      "event": "Federal Reserve commercial paper release",
-      "importance": "medium"
-    },
-    {
-      "date": "2026-11-20",
-      "time_et": "16:15",
-      "event": "Federal Reserve H.8 and H.15 releases",
-      "importance": "medium"
+      "date": "2026-11-23",
+      "time_et": "08:30",
+      "event": "Capricor regulatory update call",
+      "importance": "low"
     }
   ],
-  "earnings": [
-    {
-      "date": "2026-11-20",
-      "ticker": "BJ",
-      "name": "BJ\u2019s Wholesale Club",
-      "session": "pre-market"
-    },
-    {
-      "date": "2026-11-20",
-      "ticker": "FRO",
-      "name": "Frontline",
-      "session": "pre-market"
-    },
-    {
-      "date": "2026-11-20",
-      "ticker": "BKE",
-      "name": "Buckle",
-      "session": "pre-market"
-    }
-  ]
+  "earnings": []
 }

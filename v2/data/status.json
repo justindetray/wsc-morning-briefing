@@ -1,116 +1,116 @@
 {
-  "build_started": "2026-11-20T11:02:33.021844+00:00",
-  "edition": "Friday November 20 premarket",
+  "build_started": "2026-11-21T11:02:59.243607+00:00",
+  "edition": "Saturday November 21 weekend edition",
   "fields": [
     {
       "field": "ES",
-      "status": "LIVE",
-      "reason": "Premarket capture"
+      "status": "CLOSED",
+      "reason": "Friday session, last available quote"
     },
     {
       "field": "NQ",
-      "status": "LIVE",
-      "reason": "Premarket capture"
+      "status": "CLOSED",
+      "reason": "Friday session, last available quote"
     },
     {
       "field": "YM",
-      "status": "LIVE",
-      "reason": "Premarket capture"
+      "status": "CLOSED",
+      "reason": "Friday session, last available quote"
     },
     {
       "field": "RTY",
-      "status": "LIVE",
-      "reason": "Premarket capture"
+      "status": "CLOSED",
+      "reason": "Friday session, last available quote"
     },
     {
       "field": "DXY",
-      "status": "LIVE",
-      "reason": "Premarket capture"
+      "status": "CLOSED",
+      "reason": "Friday session, last available quote"
     },
     {
       "field": "WTI",
-      "status": "LIVE",
-      "reason": "Premarket capture"
+      "status": "CLOSED",
+      "reason": "Friday session, last available quote"
     },
     {
       "field": "BRENT",
-      "status": "LIVE",
-      "reason": "Premarket capture"
+      "status": "CLOSED",
+      "reason": "Friday session, last available quote"
     },
     {
       "field": "GOLD",
-      "status": "LIVE",
-      "reason": "Premarket capture"
+      "status": "CLOSED",
+      "reason": "Friday session, last available quote"
     },
     {
       "field": "TLT",
       "status": "CLOSED",
-      "reason": "Nov 19 regular close"
+      "reason": "Friday session, last available quote"
     },
     {
       "field": "SHY",
       "status": "CLOSED",
-      "reason": "Nov 19 regular close"
+      "reason": "Friday session, last available quote"
     },
     {
       "field": "EURJPY",
-      "status": "LIVE",
-      "reason": "Premarket capture"
+      "status": "CLOSED",
+      "reason": "Friday session, last available quote"
     },
     {
       "field": "AUDJPY",
-      "status": "LIVE",
-      "reason": "Premarket capture"
+      "status": "CLOSED",
+      "reason": "Friday session, last available quote"
     },
     {
       "field": "SPX",
       "status": "CLOSED",
-      "reason": "Nov 19 cash session"
+      "reason": "Nov 20 cash session"
     },
     {
       "field": "NDX",
       "status": "CLOSED",
-      "reason": "Nov 19 cash session"
+      "reason": "Nov 20 cash session"
     },
     {
       "field": "DJI",
       "status": "CLOSED",
-      "reason": "Nov 19 cash session"
+      "reason": "Nov 20 cash session"
     },
     {
       "field": "SOX",
       "status": "CLOSED",
-      "reason": "Nov 19 cash session"
+      "reason": "Nov 20 cash session"
     },
     {
       "field": "VIX",
       "status": "CLOSED",
-      "reason": "Nov 19 cash session"
+      "reason": "Nov 20 cash session"
     },
     {
       "field": "BTC",
       "status": "CLOSED",
-      "reason": "Nov 19 completed UTC day; not live spot"
+      "reason": "Nov 20 completed UTC day; not live spot"
     },
     {
       "field": "US2Y",
       "status": "CLOSED",
-      "reason": "Nov 18 official daily CMT, not an overnight yield"
+      "reason": "Nov 19 official daily CMT, not an overnight yield"
     },
     {
       "field": "US5Y",
       "status": "CLOSED",
-      "reason": "Nov 18 official daily CMT, not an overnight yield"
+      "reason": "Nov 19 official daily CMT, not an overnight yield"
     },
     {
       "field": "US10Y",
       "status": "CLOSED",
-      "reason": "Nov 18 official daily CMT, not an overnight yield"
+      "reason": "Nov 19 official daily CMT, not an overnight yield"
     },
     {
       "field": "US30Y",
       "status": "CLOSED",
-      "reason": "Nov 18 official daily CMT, not an overnight yield"
+      "reason": "Nov 19 official daily CMT, not an overnight yield"
     }
   ],
   "degraded_count": 0

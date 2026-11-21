@@ -1,50 +1,45 @@
 {
-  "as_of": "2026-11-20",
+  "as_of": "2026-11-21",
   "items": [
     {
       "label": "2-year Treasury",
-      "value": "4.80%",
-      "note": "Nov 18 H.15 observation"
+      "value": "4.76%",
+      "note": "Nov 19 H.15"
     },
     {
       "label": "5-year Treasury",
-      "value": "4.89%",
-      "note": "Nov 18 H.15 observation"
+      "value": "4.86%",
+      "note": "Nov 19 H.15"
     },
     {
       "label": "10-year Treasury",
-      "value": "5.07%",
-      "note": "Nov 18 H.15 observation"
+      "value": "5.04%",
+      "note": "Nov 19 H.15"
     },
     {
       "label": "30-year Treasury",
-      "value": "5.41%",
-      "note": "Nov 18 H.15 observation"
+      "value": "5.40%",
+      "note": "Nov 19 H.15"
     },
     {
-      "label": "2s10s spread",
-      "value": "27 bp",
-      "note": "Matched Nov 18 official yields"
+      "label": "Consumer sentiment",
+      "value": "51.5",
+      "note": "November final; October 48.0"
     },
     {
-      "label": "Philadelphia Fed activity",
-      "value": "6.3",
-      "note": "November; prior 20.9"
+      "label": "One-year inflation expectations",
+      "value": "3.7%",
+      "note": "Michigan; October 4.7%"
     },
     {
-      "label": "Philadelphia Fed new orders",
-      "value": "\u22120.4",
-      "note": "November; prior 4.3"
+      "label": "Long-run inflation expectations",
+      "value": "3.3%",
+      "note": "Michigan; October 3.5%"
     },
     {
-      "label": "Philadelphia Fed prices paid",
-      "value": "58.2",
-      "note": "November; prior 43.2"
-    },
-    {
-      "label": "December +25 bp probability",
-      "value": "97.9%",
-      "note": "Nov 19 CME cohort"
+      "label": "December quarter-point hike",
+      "value": "89.70%",
+      "note": "Nov 20 CME probabilities"
     }
   ]
 }

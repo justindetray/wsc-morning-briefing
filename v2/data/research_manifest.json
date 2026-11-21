@@ -1,45 +1,45 @@
 {
-  "as_of": "2026-11-20T11:02:33.021844+00:00",
+  "as_of": "2026-11-21T11:02:59.243607+00:00",
   "sources": [
     {
-      "name": "Reuters: Asian markets on Friday",
-      "url": "https://www.reuters.com/world/china/global-markets-global-markets-2026-11-20/",
-      "note": "Asian equities followed Thursday\u2019s US losses"
+      "name": "University of Michigan: November survey",
+      "url": "https://www.sca.isr.umich.edu/",
+      "note": "Friday release; interviews ended Nov 16"
     },
     {
-      "name": "Anthropic: IPO terms",
-      "url": "https://www.anthropic.com/news/anthropic-prices-initial-public-offering",
-      "note": "Offer price, not an opening or closing trade"
+      "name": "Capricor: Friday evening announcement",
+      "url": "https://www.globenewswire.com/news-release/2026/11/21/3407877/0/en/capricor-therapeutics-provides-regulatory-update-on-deramiocel-bla-for-duchenne-muscular-dystrophy.html",
+      "note": "Issued 7:55 p.m. ET; Monday call confirmed"
     },
     {
-      "name": "SEC: ownership and commercial relationships",
-      "url": "https://www.sec.gov/Archives/edgar/data/2130357/000162828026073040/anthropicpbc-fwpxeeaprospea.htm",
-      "note": "Pre-offer holdings after conversion and cloud relationships"
+      "name": "FDA: deramiocel decision",
+      "url": "https://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy",
+      "note": "Agency assessment"
     },
     {
-      "name": "Philadelphia Fed: November manufacturing survey",
-      "url": "https://www.philadelphiafed.org/surveys-and-data/regional-economic-analysis/mbos-2026-11",
-      "note": "Released Thursday before cash trading"
-    },
-    {
-      "name": "New York Fed: November calendar",
+      "name": "New York Fed calendar",
       "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
-      "note": "Verified Friday releases"
+      "note": "No Saturday release listed"
     },
     {
-      "name": "Federal Reserve: November calendar",
+      "name": "Federal Reserve calendar",
       "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "note": "Friday events in ET"
+      "note": "No Saturday event listed"
     },
     {
-      "name": "Federal Reserve: H.15",
+      "name": "Federal Reserve H.15",
       "url": "https://www.federalreserve.gov/releases/h15/",
-      "note": "Latest official curve available: November 18 observations"
+      "note": "Nov 19 official yield observations"
     },
     {
-      "name": "CME: FedWatch",
+      "name": "FOMC implementation note",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20261028a1.pdf",
+      "note": "Current target range"
+    },
+    {
+      "name": "CME FedWatch",
       "url": "https://www.cmegroup.com/market-data/market-data-api/fedwatch-api.html",
-      "note": "November 19 cohort; not live intraday odds"
+      "note": "November 20 cohort"
     }
   ]
 }
