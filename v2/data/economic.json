@@ -1,45 +1,40 @@
 {
-  "as_of": "2026-11-21",
+  "as_of": "2026-11-22",
   "items": [
     {
       "label": "2-year Treasury",
       "value": "4.76%",
-      "note": "Nov 19 H.15"
+      "note": "Nov 19 official H.15"
     },
     {
       "label": "5-year Treasury",
       "value": "4.86%",
-      "note": "Nov 19 H.15"
+      "note": "Nov 19 official H.15"
     },
     {
       "label": "10-year Treasury",
       "value": "5.04%",
-      "note": "Nov 19 H.15"
+      "note": "Nov 19 official H.15"
     },
     {
       "label": "30-year Treasury",
       "value": "5.40%",
-      "note": "Nov 19 H.15"
-    },
-    {
-      "label": "Consumer sentiment",
-      "value": "51.5",
-      "note": "November final; October 48.0"
-    },
-    {
-      "label": "One-year inflation expectations",
-      "value": "3.7%",
-      "note": "Michigan; October 4.7%"
-    },
-    {
-      "label": "Long-run inflation expectations",
-      "value": "3.3%",
-      "note": "Michigan; October 3.5%"
+      "note": "Nov 19 official H.15"
     },
     {
       "label": "December quarter-point hike",
       "value": "89.70%",
-      "note": "Nov 20 CME probabilities"
+      "note": "Nov 20 CME; no Sunday update"
+    },
+    {
+      "label": "December hold",
+      "value": "10.30%",
+      "note": "Nov 20 CME"
+    },
+    {
+      "label": "10y minus 2y Treasury",
+      "value": "28 bp",
+      "note": "Nov 19, same-date curve"
     }
   ]
 }

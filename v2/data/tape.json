@@ -6,7 +6,7 @@
     "delta_pct": -3.643752822258506,
     "as_of": "2026-11-20T22:00:01+00:00",
     "source": "Quote API ESUSD",
-    "note": "Friday session, last available quote",
+    "note": "Friday session; no Sunday morning trade",
     "status": "CLOSED"
   },
   "NQ": {
@@ -16,7 +16,7 @@
     "delta_pct": -5.540361462768207,
     "as_of": "2026-11-20T22:00:01+00:00",
     "source": "Quote API NQUSD",
-    "note": "Friday session, last available quote",
+    "note": "Friday session; no Sunday morning trade",
     "status": "CLOSED"
   },
   "YM": {
@@ -26,7 +26,7 @@
     "delta_pct": -1.960146400976004,
     "as_of": "2026-11-20T22:00:01+00:00",
     "source": "Quote API YMUSD",
-    "note": "Friday session, last available quote",
+    "note": "Friday session; no Sunday morning trade",
     "status": "CLOSED"
   },
   "RTY": {
@@ -36,7 +36,7 @@
     "delta_pct": -2.849847933015437,
     "as_of": "2026-11-20T22:00:01+00:00",
     "source": "Quote API RTYUSD",
-    "note": "Friday session, last available quote",
+    "note": "Friday session; no Sunday morning trade",
     "status": "CLOSED"
   },
   "DXY": {
@@ -46,7 +46,7 @@
     "delta_pct": -0.12034273611244428,
     "as_of": "2026-11-21T01:11:59+00:00",
     "source": "Quote API DXUSD",
-    "note": "Friday session, last available quote",
+    "note": "Friday session; no Sunday morning trade",
     "status": "CLOSED"
   },
   "WTI": {
@@ -56,7 +56,7 @@
     "delta_pct": 1.1766132945172147,
     "as_of": "2026-11-20T22:00:01+00:00",
     "source": "Quote API CLUSD",
-    "note": "Friday session, last available quote",
+    "note": "Friday session; no Sunday morning trade",
     "status": "CLOSED"
   },
   "BRENT": {
@@ -66,7 +66,7 @@
     "delta_pct": 0.6414437921287153,
     "as_of": "2026-11-20T22:00:02+00:00",
     "source": "Quote API BZUSD",
-    "note": "Friday session, last available quote",
+    "note": "Friday session; no Sunday morning trade",
     "status": "CLOSED"
   },
   "GOLD": {
@@ -76,7 +76,7 @@
     "delta_pct": -4.61538461538461,
     "as_of": "2026-11-20T22:00:01+00:00",
     "source": "Quote API GCUSD",
-    "note": "Friday session, last available quote",
+    "note": "Friday session; no Sunday morning trade",
     "status": "CLOSED"
   },
   "TLT": {
@@ -86,7 +86,7 @@
     "delta_pct": 1.3690105787181217,
     "as_of": "2026-11-20T21:00:01+00:00",
     "source": "Quote API TLT",
-    "note": "Friday session, last available quote",
+    "note": "Friday session; no Sunday morning trade",
     "status": "CLOSED"
   },
   "SHY": {
@@ -96,27 +96,7 @@
     "delta_pct": 0.282624723519298,
     "as_of": "2026-11-20T21:00:01+00:00",
     "source": "Quote API SHY",
-    "note": "Friday session, last available quote",
-    "status": "CLOSED"
-  },
-  "EURJPY": {
-    "label": "EURJPY",
-    "value": 173.94207,
-    "prev_close": 175.11909,
-    "delta_pct": -0.672125466161344,
-    "as_of": "2026-11-21T00:00:00+00:00",
-    "source": "Quote API EURJPY",
-    "note": "Friday session, last available quote",
-    "status": "CLOSED"
-  },
-  "AUDJPY": {
-    "label": "AUDJPY",
-    "value": 104.95351,
-    "prev_close": 106.198,
-    "delta_pct": -1.171858227085254,
-    "as_of": "2026-11-21T00:00:00+00:00",
-    "source": "Quote API AUDJPY",
-    "note": "Friday session, last available quote",
+    "note": "Friday session; no Sunday morning trade",
     "status": "CLOSED"
   },
   "SPX": {
@@ -126,7 +106,7 @@
     "delta_pct": -3.6990842871138185,
     "as_of": "2026-11-20T06:00:00+00:00",
     "source": "Polygon I:SPX",
-    "note": "Nov 20 cash session",
+    "note": "Friday cash close; no weekend equity session",
     "status": "CLOSED"
   },
   "NDX": {
@@ -136,7 +116,7 @@
     "delta_pct": -5.6117460058268005,
     "as_of": "2026-11-20T06:00:00+00:00",
     "source": "Polygon I:NDX",
-    "note": "Nov 20 cash session",
+    "note": "Friday cash close; no weekend equity session",
     "status": "CLOSED"
   },
   "DJI": {
@@ -146,7 +126,7 @@
     "delta_pct": -1.9343928129301302,
     "as_of": "2026-11-20T06:00:00+00:00",
     "source": "Polygon I:DJI",
-    "note": "Nov 20 cash session",
+    "note": "Friday cash close; no weekend equity session",
     "status": "CLOSED"
   },
   "SOX": {
@@ -156,7 +136,7 @@
     "delta_pct": -10.734201319731508,
     "as_of": "2026-11-20T06:00:00+00:00",
     "source": "Polygon I:SOX",
-    "note": "Nov 20 cash session",
+    "note": "Friday cash close; no weekend equity session",
     "status": "CLOSED"
   },
   "VIX": {
@@ -166,17 +146,37 @@
     "delta_pct": 26.195499296765124,
     "as_of": "2026-11-20T06:00:00+00:00",
     "source": "Polygon I:VIX",
-    "note": "Nov 20 cash session",
+    "note": "Friday cash close; no weekend equity session",
+    "status": "CLOSED"
+  },
+  "EURJPY": {
+    "label": "EURJPY",
+    "value": 173.818,
+    "prev_close": 175.168,
+    "delta_pct": -0.7706887102667093,
+    "as_of": "2026-11-20T00:00:00+00:00",
+    "source": "Polygon C:EURJPY",
+    "note": "Friday UTC FX close",
+    "status": "CLOSED"
+  },
+  "AUDJPY": {
+    "label": "AUDJPY",
+    "value": 104.905,
+    "prev_close": 106.293,
+    "delta_pct": -1.3058244663336271,
+    "as_of": "2026-11-20T00:00:00+00:00",
+    "source": "Polygon C:AUDJPY",
+    "note": "Friday UTC FX close",
     "status": "CLOSED"
   },
   "BTC": {
     "label": "BTC",
-    "value": 58814.99,
-    "prev_close": 61913.23,
-    "delta_pct": -5.004164699531922,
-    "as_of": "2026-11-20T23:59:59.999000+00:00",
+    "value": 60088.6,
+    "prev_close": 58814.99,
+    "delta_pct": 2.1654513585737334,
+    "as_of": "2026-11-21T23:59:59.999000+00:00",
     "source": "Polygon X:BTCUSD /prev",
-    "note": "Nov 20 completed UTC day; not live spot",
+    "note": "Saturday completed UTC day, not Sunday spot",
     "status": "CLOSED"
   },
   "US2Y": {
@@ -186,7 +186,7 @@
     "delta_pct": -0.8333333333333304,
     "as_of": "2026-11-19",
     "source": "Federal Reserve H.15",
-    "note": "Nov 19 official daily CMT, not an overnight yield",
+    "note": "Nov 19 official yield, not a weekend quote",
     "status": "CLOSED",
     "unit": "yield",
     "delta_bp": -4.0000000000000036
@@ -198,7 +198,7 @@
     "delta_pct": -0.6134969325153228,
     "as_of": "2026-11-19",
     "source": "Federal Reserve H.15",
-    "note": "Nov 19 official daily CMT, not an overnight yield",
+    "note": "Nov 19 official yield, not a weekend quote",
     "status": "CLOSED",
     "unit": "yield",
     "delta_bp": -2.999999999999936
@@ -210,7 +210,7 @@
     "delta_pct": -0.591715976331364,
     "as_of": "2026-11-19",
     "source": "Federal Reserve H.15",
-    "note": "Nov 19 official daily CMT, not an overnight yield",
+    "note": "Nov 19 official yield, not a weekend quote",
     "status": "CLOSED",
     "unit": "yield",
     "delta_bp": -3.000000000000025
@@ -222,7 +222,7 @@
     "delta_pct": -0.1848428835489746,
     "as_of": "2026-11-19",
     "source": "Federal Reserve H.15",
-    "note": "Nov 19 official daily CMT, not an overnight yield",
+    "note": "Nov 19 official yield, not a weekend quote",
     "status": "CLOSED",
     "unit": "yield",
     "delta_bp": -0.9999999999999787

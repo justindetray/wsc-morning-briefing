@@ -1,45 +1,50 @@
 {
-  "as_of": "2026-11-21T11:02:59.243607+00:00",
+  "as_of": "2026-11-22T11:03:13.495093+00:00",
   "sources": [
     {
-      "name": "University of Michigan: November survey",
-      "url": "https://www.sca.isr.umich.edu/",
-      "note": "Friday release; interviews ended Nov 16"
-    },
-    {
-      "name": "Capricor: Friday evening announcement",
-      "url": "https://www.globenewswire.com/news-release/2026/11/21/3407877/0/en/capricor-therapeutics-provides-regulatory-update-on-deramiocel-bla-for-duchenne-muscular-dystrophy.html",
-      "note": "Issued 7:55 p.m. ET; Monday call confirmed"
-    },
-    {
-      "name": "FDA: deramiocel decision",
-      "url": "https://www.fda.gov/vaccines-blood-biologics/whats-new-biologics/statement-deramiocel-bla-duchenne-muscular-dystrophy",
-      "note": "Agency assessment"
-    },
-    {
-      "name": "New York Fed calendar",
-      "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
-      "note": "No Saturday release listed"
+      "name": "BEA release schedule",
+      "url": "https://www.bea.gov/news/schedule",
+      "note": "Nov 25 GDP and income/outlays releases"
     },
     {
       "name": "Federal Reserve calendar",
       "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "note": "No Saturday event listed"
+      "note": "No Sunday event; Wednesday Beige Book"
     },
     {
-      "name": "Federal Reserve H.15",
-      "url": "https://www.federalreserve.gov/releases/h15/",
-      "note": "Nov 19 official yield observations"
+      "name": "New York Fed calendar",
+      "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
+      "note": "No Sunday release; Wednesday times cross-checked"
     },
     {
-      "name": "FOMC implementation note",
-      "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20261028a1.pdf",
-      "note": "Current target range"
+      "name": "NYSE market hours",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": "Thanksgiving week schedule"
+    },
+    {
+      "name": "CENTCOM statement quoted by Reuters",
+      "url": "https://www.reuters.com/3fec1b0a85a0/business/aerospace-defense/us-denies-iranian-account-that-missile-damaged-f-16-over-gulf-2026-11-21/",
+      "note": "Saturday 15:20 UTC report; conflicting accounts"
     },
     {
       "name": "CME FedWatch",
       "url": "https://www.cmegroup.com/market-data/market-data-api/fedwatch-api.html",
-      "note": "November 20 cohort"
+      "note": "Friday EOD cohort"
+    },
+    {
+      "name": "CME fed funds futures hours",
+      "url": "https://www.cmegroup.com/markets/interest-rates/stirs/30-day-federal-fund.contractSpecs.html",
+      "note": "No Saturday session"
+    },
+    {
+      "name": "FOMC target range",
+      "url": "https://www.federalreserve.gov/monetarypolicy/files/monetary20261028a1.pdf",
+      "note": "3.75% to 4.00%"
+    },
+    {
+      "name": "Federal Reserve H.15",
+      "url": "https://www.federalreserve.gov/releases/h15/",
+      "note": "Latest daily observations in retrieved series: Nov 19"
     }
   ]
 }

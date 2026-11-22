@@ -1,27 +1,10 @@
 {
-  "as_of": "2026-11-21T11:02:59.243607+00:00",
-  "client_frame_short": "Friday\u2019s selling spread beyond technology, but chip stocks still took the hardest hit. Buyers came back to chips and the Nasdaq tracker after the close; **a bounce in thin trading is not yet a recovery**.\n\nIf you have cash set aside for upcoming spending, Friday\u2019s prices need not decide what you sell. What matters next is whether buyers also show up for the broader market when regular trading resumes.",
-  "client_frame": "On Friday the S&P 500 fell 3.70%, the Nasdaq-100 fell 5.61% and the semiconductor index fell 10.73%. That answers the question we had before the open: losses did spread, but they were far from evenly distributed. After the close, chip shares recovered only part of their decline.\n\nConsider what the two percentages buy. The semiconductor ETF closed at $123.40 after starting from a previous close of $137.95. The extended-session quote of $126.50 was better, but someone who held through both sessions was still well below Thursday\u2019s close. Neither print tells us how much stock could change hands at that price on Monday.\n\nHouseholds offered a different perspective. The Michigan survey showed a decline in expected inflation, but interviews ended on November 16. It is not a poll of how families felt after Friday\u2019s losses. Nor does a rise in the volatility index tell us sellers have finished.\n\nFor clients: start with what the money is for. Near-term withdrawals and a concentrated chip position deserve a different conversation from a diversified retirement account with years to invest. When trading resumes, watch whether the recovery extends beyond the names that fell furthest.",
+  "as_of": "2026-11-22T11:03:13.495093+00:00",
+  "edition_note": "Sunday, 6 a.m. ET. Bitcoin: completed Nov 21 UTC day. U.S. stocks, futures and FX: Friday observations; their changes are not overnight moves. FedWatch: Nov 20, unchanged over the weekend. Official yields: Nov 19.",
+  "client_frame_short": "Bitcoin recovered some ground on Saturday, but it trades on a weekend when the U.S. stock market is closed. **That is a Bitcoin price, not a vote on Monday\u2019s stock market.**\n\nFriday\u2019s losses were real, and a weekend bounce elsewhere does not reverse them. When stocks reopen, I\u2019ll be looking for buyers beyond the chip companies that fell hardest. That will tell us more about the health of a diversified portfolio than Sunday\u2019s headlines can.",
+  "client_frame": "Bitcoin finished Saturday at $60,088.60, up from $58,814.99 at the end of Friday\u2019s UTC day. For someone who owns bitcoin, that is a meaningful change. For someone trying to value a U.S. stock portfolio over breakfast on Sunday, it is the wrong market.\n\nFriday\u2019s semiconductor index fell 10.73%, versus 3.70% for the S&P 500. The difference matters for portfolios heavy in chipmakers. But a diversified account with near-term spending covered has a different question: did the selloff change the amount of risk the family can afford, or just the price on this week\u2019s statement?\n\nWednesday brings two distinct readings at the same time. The revised third-quarter GDP estimate looks backward at economic output; October\u2019s spending and inflation figures give a more recent view of household demand and prices. Neither release is due today.\n\nFor clients: if a withdrawal is coming, check which assets were set aside to fund it. For the rest of the portfolio, watch whether Monday\u2019s buying or selling extends beyond technology. A broad move in a full session carries more weight than a weekend price in a different asset.",
   "geo_headlines": [
-    "**After-hours trading:** SOXX and QQQ rose from their Friday closes, while Anthropic slipped further. These are extended-session prints, not Saturday stock trading.",
-    "**Friday, 7:55 p.m. ET:** Capricor said the FDA had declined to approve deramiocel on the evidence submitted. The company disagrees with the assessment and plans a Monday call. This was company-specific news, not an explanation for the earlier index selloff."
-  ],
-  "single_name_moves": [
-    {
-      "ticker": "SOXX",
-      "delta_pct": 2.5118,
-      "venue": "after hours vs Friday cash close"
-    },
-    {
-      "ticker": "QQQ",
-      "delta_pct": 1.5367,
-      "venue": "after hours vs Friday cash close"
-    },
-    {
-      "ticker": "ANT",
-      "delta_pct": -1.2492,
-      "venue": "after hours vs Friday cash close"
-    }
-  ],
-  "edition_note": "Weekend edition. Equity and futures changes on the tape are Friday session returns, not overnight changes. Bitcoin is the November 20 completed UTC bar, not current spot. Treasury yields are November 19 observations."
+    "**Bitcoin:** Saturday\u2019s completed UTC bar closed at $60,088.60, up 2.17% from Friday. Both Polygon endpoints agree on the close; this is not a Sunday spot quote.",
+    "**Gulf:** On Saturday, U.S. Central Command denied Iran\u2019s account of damage to a U.S. aircraft. The conflicting accounts do not establish a new interruption to oil shipments. Friday\u2019s oil close predates the denial."
+  ]
 }

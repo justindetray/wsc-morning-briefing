@@ -1,6 +1,12 @@
 {
   "status": "LIVE",
+  "data_freshness": "EXPECTED_NO_DATA",
+  "raw_helper_status": "DEGRADED",
   "as_of": "2026-11-20",
+  "current_band_bps": [
+    375,
+    400
+  ],
   "meetings": [
     {
       "meetingDt": "2026-12-09",
@@ -42,9 +48,5 @@
       "hike_75": 0.325324,
       "hike_100": 0.050284
     }
-  ],
-  "current_band_bps": [
-    375,
-    400
   ]
 }

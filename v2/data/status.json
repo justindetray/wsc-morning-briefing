@@ -1,117 +1,117 @@
 {
-  "build_started": "2026-11-21T11:02:59.243607+00:00",
-  "edition": "Saturday November 21 weekend edition",
+  "build_started": "2026-11-22T11:03:13.495093+00:00",
+  "edition": "Sunday November 22 weekend edition",
+  "degraded_count": 0,
   "fields": [
     {
       "field": "ES",
       "status": "CLOSED",
-      "reason": "Friday session, last available quote"
+      "reason": "Friday session; no Sunday morning trade"
     },
     {
       "field": "NQ",
       "status": "CLOSED",
-      "reason": "Friday session, last available quote"
+      "reason": "Friday session; no Sunday morning trade"
     },
     {
       "field": "YM",
       "status": "CLOSED",
-      "reason": "Friday session, last available quote"
+      "reason": "Friday session; no Sunday morning trade"
     },
     {
       "field": "RTY",
       "status": "CLOSED",
-      "reason": "Friday session, last available quote"
+      "reason": "Friday session; no Sunday morning trade"
     },
     {
       "field": "DXY",
       "status": "CLOSED",
-      "reason": "Friday session, last available quote"
+      "reason": "Friday session; no Sunday morning trade"
     },
     {
       "field": "WTI",
       "status": "CLOSED",
-      "reason": "Friday session, last available quote"
+      "reason": "Friday session; no Sunday morning trade"
     },
     {
       "field": "BRENT",
       "status": "CLOSED",
-      "reason": "Friday session, last available quote"
+      "reason": "Friday session; no Sunday morning trade"
     },
     {
       "field": "GOLD",
       "status": "CLOSED",
-      "reason": "Friday session, last available quote"
+      "reason": "Friday session; no Sunday morning trade"
     },
     {
       "field": "TLT",
       "status": "CLOSED",
-      "reason": "Friday session, last available quote"
+      "reason": "Friday session; no Sunday morning trade"
     },
     {
       "field": "SHY",
       "status": "CLOSED",
-      "reason": "Friday session, last available quote"
-    },
-    {
-      "field": "EURJPY",
-      "status": "CLOSED",
-      "reason": "Friday session, last available quote"
-    },
-    {
-      "field": "AUDJPY",
-      "status": "CLOSED",
-      "reason": "Friday session, last available quote"
+      "reason": "Friday session; no Sunday morning trade"
     },
     {
       "field": "SPX",
       "status": "CLOSED",
-      "reason": "Nov 20 cash session"
+      "reason": "Friday cash close; no weekend equity session"
     },
     {
       "field": "NDX",
       "status": "CLOSED",
-      "reason": "Nov 20 cash session"
+      "reason": "Friday cash close; no weekend equity session"
     },
     {
       "field": "DJI",
       "status": "CLOSED",
-      "reason": "Nov 20 cash session"
+      "reason": "Friday cash close; no weekend equity session"
     },
     {
       "field": "SOX",
       "status": "CLOSED",
-      "reason": "Nov 20 cash session"
+      "reason": "Friday cash close; no weekend equity session"
     },
     {
       "field": "VIX",
       "status": "CLOSED",
-      "reason": "Nov 20 cash session"
+      "reason": "Friday cash close; no weekend equity session"
+    },
+    {
+      "field": "EURJPY",
+      "status": "CLOSED",
+      "reason": "Friday UTC FX close"
+    },
+    {
+      "field": "AUDJPY",
+      "status": "CLOSED",
+      "reason": "Friday UTC FX close"
     },
     {
       "field": "BTC",
       "status": "CLOSED",
-      "reason": "Nov 20 completed UTC day; not live spot"
+      "reason": "Saturday completed UTC day, not Sunday spot"
     },
     {
       "field": "US2Y",
       "status": "CLOSED",
-      "reason": "Nov 19 official daily CMT, not an overnight yield"
+      "reason": "Nov 19 official yield, not a weekend quote"
     },
     {
       "field": "US5Y",
       "status": "CLOSED",
-      "reason": "Nov 19 official daily CMT, not an overnight yield"
+      "reason": "Nov 19 official yield, not a weekend quote"
     },
     {
       "field": "US10Y",
       "status": "CLOSED",
-      "reason": "Nov 19 official daily CMT, not an overnight yield"
+      "reason": "Nov 19 official yield, not a weekend quote"
     },
     {
       "field": "US30Y",
       "status": "CLOSED",
-      "reason": "Nov 19 official daily CMT, not an overnight yield"
+      "reason": "Nov 19 official yield, not a weekend quote"
     }
-  ],
-  "degraded_count": 0
+  ]
 }

@@ -1,11 +1,33 @@
 {
-  "last_curated": "2026-11-21T11:02:59.243607+00:00",
+  "last_curated": "2026-11-22T11:03:13.495093+00:00",
   "macro": [
     {
-      "date": "2026-11-23",
+      "date": "2026-11-25",
       "time_et": "08:30",
-      "event": "Capricor regulatory update call",
-      "importance": "low"
+      "event": "Third-quarter GDP, second estimate, and corporate profits",
+      "importance": "high"
+    },
+    {
+      "date": "2026-11-25",
+      "time_et": "08:30",
+      "event": "October personal income, spending and PCE inflation",
+      "importance": "high"
+    },
+    {
+      "date": "2026-11-25",
+      "time_et": "14:00",
+      "event": "Federal Reserve Beige Book",
+      "importance": "medium"
+    },
+    {
+      "date": "2026-11-26",
+      "time_et": "",
+      "event": "Thanksgiving: NYSE closed"
+    },
+    {
+      "date": "2026-11-27",
+      "time_et": "13:00",
+      "event": "NYSE equities early close"
     }
   ],
   "earnings": []
