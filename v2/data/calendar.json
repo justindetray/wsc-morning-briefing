@@ -1,34 +1,234 @@
 {
-  "last_curated": "2026-11-22T11:03:13.495093+00:00",
+  "last_curated": "2026-11-24T11:08:12.622785+00:00",
   "macro": [
     {
-      "date": "2026-11-25",
+      "date": "2026-11-24",
       "time_et": "08:30",
-      "event": "Third-quarter GDP, second estimate, and corporate profits",
-      "importance": "high"
+      "event": "Philadelphia Fed Non-Manufacturing Survey (Nov)",
+      "importance": "low",
+      "consensus": null,
+      "note": "NY Fed calendar"
+    },
+    {
+      "date": "2026-11-24",
+      "time_et": "09:00",
+      "event": "FHFA House Price Index (Sep & Q3) / Case-Shiller Home Prices",
+      "importance": "medium",
+      "consensus": null,
+      "note": "FHFA & S&P DJI schedule"
+    },
+    {
+      "date": "2026-11-24",
+      "time_et": "10:00",
+      "event": "Conference Board Consumer Confidence (Nov)",
+      "importance": "high",
+      "consensus": null,
+      "note": "Prior Oct reading: 91.7"
+    },
+    {
+      "date": "2026-11-24",
+      "time_et": "10:00",
+      "event": "Richmond Fed Survey of Manufacturing Activity (Nov)",
+      "importance": "medium",
+      "consensus": null,
+      "note": "NY Fed calendar"
+    },
+    {
+      "date": "2026-11-24",
+      "time_et": "13:00",
+      "event": "U.S. Treasury $70B 5-Year Note Auction",
+      "importance": "medium",
+      "consensus": null,
+      "note": "Competitive close 1:00 p.m. ET"
+    },
+    {
+      "date": "2026-11-24",
+      "time_et": "13:00",
+      "event": "Federal Reserve H.6 Money Stock & Commercial Paper",
+      "importance": "low",
+      "consensus": null,
+      "note": "Board statistical releases"
+    },
+    {
+      "date": "2026-11-24",
+      "time_et": "16:15",
+      "event": "Federal Reserve H.15 Selected Interest Rates",
+      "importance": "low",
+      "consensus": null,
+      "note": "Publishes Nov 23 official CMT yields"
     },
     {
       "date": "2026-11-25",
       "time_et": "08:30",
-      "event": "October personal income, spending and PCE inflation",
-      "importance": "high"
+      "event": "Q3 2026 GDP (Second Estimate) & Corporate Profits",
+      "importance": "high",
+      "consensus": null,
+      "note": "BEA schedule"
+    },
+    {
+      "date": "2026-11-25",
+      "time_et": "08:30",
+      "event": "Personal Income & Outlays / PCE Price Index (Oct)",
+      "importance": "high",
+      "consensus": null,
+      "note": "BEA schedule; key pre-Dec FOMC print"
+    },
+    {
+      "date": "2026-11-25",
+      "time_et": "08:30",
+      "event": "Advance Durable Goods Orders (Oct)",
+      "importance": "medium",
+      "consensus": null,
+      "note": "NY Fed calendar"
+    },
+    {
+      "date": "2026-11-25",
+      "time_et": "10:00",
+      "event": "New Residential Sales (Oct)",
+      "importance": "medium",
+      "consensus": null,
+      "note": "NY Fed calendar"
+    },
+    {
+      "date": "2026-11-25",
+      "time_et": "13:00",
+      "event": "U.S. Treasury 7-Year Note Auction",
+      "importance": "medium",
+      "consensus": null,
+      "note": "Tentative Treasury schedule"
     },
     {
       "date": "2026-11-25",
       "time_et": "14:00",
       "event": "Federal Reserve Beige Book",
-      "importance": "medium"
+      "importance": "high",
+      "consensus": null,
+      "note": "Prepared for Dec 8-9 FOMC"
     },
     {
       "date": "2026-11-26",
-      "time_et": "",
-      "event": "Thanksgiving: NYSE closed"
+      "time_et": "Closed",
+      "event": "U.S. Markets Closed \u2014 Thanksgiving Day",
+      "importance": "high",
+      "consensus": null,
+      "note": "NYSE & bond markets closed"
+    },
+    {
+      "date": "2026-11-27",
+      "time_et": "08:30",
+      "event": "Initial Jobless Claims",
+      "importance": "medium",
+      "consensus": null,
+      "note": "NY Fed calendar"
     },
     {
       "date": "2026-11-27",
       "time_et": "13:00",
-      "event": "NYSE equities early close"
+      "event": "U.S. Equities Early Close (Black Friday)",
+      "importance": "high",
+      "consensus": null,
+      "note": "NYSE regular session ends 1:00 p.m. ET"
     }
   ],
-  "earnings": []
+  "earnings": [
+    {
+      "date": "2026-11-24",
+      "time_et": "07:30",
+      "session": "pre-market",
+      "ticker": "MDT",
+      "name": "Medtronic",
+      "importance": "medium",
+      "note": "Q2 FY27"
+    },
+    {
+      "date": "2026-11-24",
+      "time_et": "08:00",
+      "session": "pre-market",
+      "ticker": "BBY",
+      "name": "Best Buy",
+      "importance": "medium",
+      "note": "Q3 FY27 holiday electronics read"
+    },
+    {
+      "date": "2026-11-24",
+      "time_et": "08:00",
+      "session": "pre-market",
+      "ticker": "DLTR",
+      "name": "Dollar Tree",
+      "importance": "low",
+      "note": "Q3 FY27"
+    },
+    {
+      "date": "2026-11-24",
+      "time_et": "08:00",
+      "session": "pre-market",
+      "ticker": "DKS",
+      "name": "DICK'S Sporting Goods",
+      "importance": "low",
+      "note": "Q3 FY27"
+    },
+    {
+      "date": "2026-11-24",
+      "time_et": "08:30",
+      "session": "pre-market",
+      "ticker": "ANF",
+      "name": "Abercrombie & Fitch",
+      "importance": "low",
+      "note": "Q3 FY27"
+    },
+    {
+      "date": "2026-11-24",
+      "time_et": "10:00",
+      "session": "pre-market",
+      "ticker": "ADI",
+      "name": "Analog Devices",
+      "importance": "medium",
+      "note": "Q4 FY26 industrial/auto chips"
+    },
+    {
+      "date": "2026-11-24",
+      "time_et": "16:30",
+      "session": "after-close",
+      "ticker": "DELL",
+      "name": "Dell Technologies",
+      "importance": "high",
+      "note": "Q3 FY27 AI server backlog test"
+    },
+    {
+      "date": "2026-11-24",
+      "time_et": "16:30",
+      "session": "after-close",
+      "ticker": "WDAY",
+      "name": "Workday",
+      "importance": "medium",
+      "note": "Q3 FY27 enterprise software"
+    },
+    {
+      "date": "2026-11-24",
+      "time_et": "17:00",
+      "session": "after-close",
+      "ticker": "HPQ",
+      "name": "HP Inc.",
+      "importance": "medium",
+      "note": "Q4 FY26"
+    },
+    {
+      "date": "2026-11-24",
+      "time_et": "17:00",
+      "session": "after-close",
+      "ticker": "ADSK",
+      "name": "Autodesk",
+      "importance": "medium",
+      "note": "Q3 FY27"
+    },
+    {
+      "date": "2026-11-25",
+      "time_et": "10:00",
+      "session": "pre-market",
+      "ticker": "DE",
+      "name": "Deere & Company",
+      "importance": "medium",
+      "note": "Q4 FY26"
+    }
+  ]
 }

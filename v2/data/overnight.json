@@ -1,10 +1,80 @@
 {
-  "as_of": "2026-11-22T11:03:13.495093+00:00",
-  "edition_note": "Sunday, 6 a.m. ET. Bitcoin: completed Nov 21 UTC day. U.S. stocks, futures and FX: Friday observations; their changes are not overnight moves. FedWatch: Nov 20, unchanged over the weekend. Official yields: Nov 19.",
-  "client_frame_short": "Bitcoin recovered some ground on Saturday, but it trades on a weekend when the U.S. stock market is closed. **That is a Bitcoin price, not a vote on Monday\u2019s stock market.**\n\nFriday\u2019s losses were real, and a weekend bounce elsewhere does not reverse them. When stocks reopen, I\u2019ll be looking for buyers beyond the chip companies that fell hardest. That will tell us more about the health of a diversified portfolio than Sunday\u2019s headlines can.",
-  "client_frame": "Bitcoin finished Saturday at $60,088.60, up from $58,814.99 at the end of Friday\u2019s UTC day. For someone who owns bitcoin, that is a meaningful change. For someone trying to value a U.S. stock portfolio over breakfast on Sunday, it is the wrong market.\n\nFriday\u2019s semiconductor index fell 10.73%, versus 3.70% for the S&P 500. The difference matters for portfolios heavy in chipmakers. But a diversified account with near-term spending covered has a different question: did the selloff change the amount of risk the family can afford, or just the price on this week\u2019s statement?\n\nWednesday brings two distinct readings at the same time. The revised third-quarter GDP estimate looks backward at economic output; October\u2019s spending and inflation figures give a more recent view of household demand and prices. Neither release is due today.\n\nFor clients: if a withdrawal is coming, check which assets were set aside to fund it. For the rest of the portfolio, watch whether Monday\u2019s buying or selling extends beyond technology. A broad move in a full session carries more weight than a weekend price in a different asset.",
+  "as_of": "2026-11-24T11:08:12.622785+00:00",
+  "edition_note": "Tuesday premarket. Futures & FX live as of ~06:00 ET; US cash indices & bond ETFs show Monday Nov 23 regular closes (extended/premarket equity prints noted separately). BTC is Polygon's completed Nov 23 UTC bar, not live Tuesday spot. H.15 yields: Nov 20.",
+  "asia_close": [
+    {
+      "market": "Taiwan TAIEX",
+      "delta_pct": 9.1
+    },
+    {
+      "market": "South Korea KOSPI",
+      "delta_pct": 7.5
+    },
+    {
+      "market": "Japan Nikkei 225",
+      "delta_pct": 4.5
+    },
+    {
+      "market": "Hong Kong Hang Seng",
+      "delta_pct": -0.8
+    }
+  ],
+  "europe_open": [
+    {
+      "market": "Germany DAX",
+      "delta_pct": -0.1
+    },
+    {
+      "market": "UK FTSE 100",
+      "delta_pct": -0.1
+    },
+    {
+      "market": "France CAC 40",
+      "delta_pct": 0.2
+    }
+  ],
+  "single_name_moves": [
+    {
+      "ticker": "HPE",
+      "delta_pct": -11.6746,
+      "venue": "premarket"
+    },
+    {
+      "ticker": "SMTC",
+      "delta_pct": -10.6694,
+      "venue": "premarket"
+    },
+    {
+      "ticker": "DELL",
+      "delta_pct": -6.517,
+      "venue": "premarket"
+    },
+    {
+      "ticker": "NVDA",
+      "delta_pct": -5.5256,
+      "venue": "premarket"
+    },
+    {
+      "ticker": "ANT",
+      "delta_pct": -4.5539,
+      "venue": "premarket"
+    },
+    {
+      "ticker": "SOXX",
+      "delta_pct": -4.1649,
+      "venue": "premarket"
+    },
+    {
+      "ticker": "A",
+      "delta_pct": 6.9246,
+      "venue": "premarket"
+    }
+  ],
   "geo_headlines": [
-    "**Bitcoin:** Saturday\u2019s completed UTC bar closed at $60,088.60, up 2.17% from Friday. Both Polygon endpoints agree on the close; this is not a Sunday spot quote.",
-    "**Gulf:** On Saturday, U.S. Central Command denied Iran\u2019s account of damage to a U.S. aircraft. The conflicting accounts do not establish a new interruption to oil shipments. Friday\u2019s oil close predates the denial."
-  ]
+    "**Post-close AI hardware test:** HPE beat Q4 estimates ($14.5B revenue, $1.43 non-GAAP EPS) and guided Q1 EPS to $1.30-$1.40, but fell 11.67% premarket after Monday's 18.09% surge; Dell (-6.52%) reports tonight.",
+    "**Asia catch-up vs. U.S. consolidation:** Taiwan (+9.1%), South Korea (+7.5%), and Japan (+4.5%) rallied on Monday's Nvidia CEO reinstatement, while Nasdaq-100 futures pulled back 1.82% and S&P 500 futures eased 0.93%.",
+    "**December Fed pause priced out:** CME's November 23 EOD cohort cut December 9 hold odds from 10.3% to 0.0%, putting 94.3% on +25 bps and 5.7% on +50 bps as Monday's stock surge loosened financial conditions."
+  ],
+  "client_frame": "Overnight action split cleanly by time zone. Asian semiconductor benchmarks surged Tuesday solely to catch up with Monday's U.S. session \u2014 Taiwan's TAIEX jumped 9.1%, South Korea's KOSPI gained 7.5%, and Japan's Nikkei added 4.5% coming off a holiday \u2014 after Nvidia's board reinstated Jensen Huang as CEO Monday morning while forming independent committees on foreign-intelligence targeting and export controls (Reuters; SEC Form 8-K). In U.S. overnight trading, by contrast, futures cooled from Monday's close: Nasdaq-100 contracts slipped 1.82% to 26,319.00 and S&P 500 futures eased 0.93% to 7,187.25 as of 5:50 a.m. ET, following Monday's regular-session rebound of 6.86% in the Nasdaq-100 and 14.03% in the SOX (Quote API; Polygon).\n\nTwo post-close developments drove the U.S. pullback. First, Hewlett Packard Enterprise reported Q4 revenue up 50% to $14.5 billion and non-GAAP EPS of $1.43 with Q1 guidance of $1.30 to $1.40 \u2014 well ahead of consensus \u2014 yet shares tumbled 11.67% in premarket trade to $42.67 after Monday's 18.09% regular-session run, pulling Dell down 6.52% ahead of tonight's report and Nvidia down 5.53% (HPE release; Quote API). Second, Monday evening's CME FedWatch settlement erased the prior 10.3% probability of a December 9 hold, leaving 94.3% on a 25-basis-point hike and 5.7% on a 50-basis-point hike above the 3.75% to 4.00% target band (CME FedWatch). WTI crude edged down 0.35% to $79.89 and Brent settled near $89.19 on steadier Middle East supply (Quote API; Reuters).\n\nOfficial Federal Reserve H.15 Treasury yields for November 20 \u2014 published Monday afternoon \u2014 stood at 4.63% on the 2-year and 4.92% on the 10-year (+29 bps 2s10s), before Monday's equity rebound pushed secondary-market yields back up toward 4.94% overnight (Federal Reserve H.15; Reuters). Today's calendar brings FHFA and Case-Shiller home prices at 9:00 a.m. ET, Conference Board Consumer Confidence and the Richmond Fed survey at 10:00 a.m. ET, a $70 billion 5-year Treasury note auction at 1:00 p.m. ET, and Dell, Workday, HP Inc., and Autodesk earnings after the close (FHFA; Conference Board; NY Fed; TreasuryDirect).\n\nFor clients: resist treating Asia's overnight jump as a second leg of news \u2014 Asian markets were simply pricing Monday's Nvidia announcement for the first time. HPE's post-close selloff on strong numbers and a 100% market-implied probability of a December rate hike show that investors remain demanding on AI hardware valuations when borrowing costs stay near 5%. Keep rebalancing disciplined rather than chasing gap moves; we would watch Dell's AI server margins tonight and Wednesday morning's October PCE inflation print to see whether Monday's rebound can consolidate above last week's lows.",
+  "client_frame_short": "U.S. stock futures are giving back a fraction of Monday's surge, with the Nasdaq off about 1.8% before the bell even as Asian chip markets rallied overnight to catch up with Jensen Huang's return at Nvidia. After yesterday's closing bell, Hewlett Packard Enterprise beat earnings and raised its outlook yet still dropped nearly 12% in extended trading, while bond traders priced out any remaining chance of a December Fed pause.\n\nThat split tells us **leadership relief is different from valuation relief**. Removing an executive overhang stopped last week's forced selling, but hardware margins and higher interest rates still govern returns from here, making today's consumer confidence report and Wednesday's inflation data the real tests."
 }

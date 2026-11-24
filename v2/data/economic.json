@@ -1,40 +1,51 @@
 {
-  "as_of": "2026-11-22",
+  "status": "LIVE",
+  "as_of": "2026-11-24",
   "items": [
     {
       "label": "2-year Treasury",
-      "value": "4.76%",
-      "note": "Nov 19 official H.15"
+      "value": "4.63%",
+      "note": "Nov 20 official H.15 CMT"
     },
     {
       "label": "5-year Treasury",
-      "value": "4.86%",
-      "note": "Nov 19 official H.15"
+      "value": "4.71%",
+      "note": "Nov 20 official H.15 CMT"
     },
     {
       "label": "10-year Treasury",
-      "value": "5.04%",
-      "note": "Nov 19 official H.15"
+      "value": "4.92%",
+      "note": "Nov 20 official H.15 CMT"
     },
     {
       "label": "30-year Treasury",
-      "value": "5.40%",
-      "note": "Nov 19 official H.15"
+      "value": "5.31%",
+      "note": "Nov 20 official H.15 CMT"
     },
     {
-      "label": "December quarter-point hike",
-      "value": "89.70%",
-      "note": "Nov 20 CME; no Sunday update"
+      "label": "2s10s spread",
+      "value": "+29 bp",
+      "note": "Nov 20 matched-date curve"
     },
     {
-      "label": "December hold",
-      "value": "10.30%",
-      "note": "Nov 20 CME"
+      "label": "Policy target",
+      "value": "3.75% to 4.00%",
+      "note": "Oct 28 FOMC decision"
     },
     {
-      "label": "10y minus 2y Treasury",
-      "value": "28 bp",
-      "note": "Nov 19, same-date curve"
+      "label": "Dec 9 +25 bp / +50 bp odds",
+      "value": "94.3% / 5.7%",
+      "note": "Nov 23 CME cohort (hold 0.0%)"
+    },
+    {
+      "label": "S&P Global Flash US PMI",
+      "value": "54.6",
+      "note": "Nov preliminary (printed Mon vs 55.9 Oct)"
+    },
+    {
+      "label": "Consumer Confidence (prior)",
+      "value": "91.7",
+      "note": "Oct reading; Nov prints 10:00 ET today"
     }
   ]
 }
