@@ -1,45 +1,50 @@
 {
-  "as_of": "2026-11-24T11:08:12.622785+00:00",
+  "as_of": "2026-11-26T11:03:05.332668+00:00",
   "sources": [
     {
-      "name": "SEC Form 8-K (Exhibit 99.1): NVIDIA reinstates Jensen Huang & forms oversight committees",
-      "url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000090/nov23pressrelease.htm",
-      "note": "Nov 23 pre-open governance filing behind Monday's US rally & Tuesday's Asia catch-up"
+      "name": "Bank of Korea: November decision",
+      "url": "https://www.bok.or.kr/eng/bbs/E0000634/view.do?nttId=11067086&menuNo=400423&relate=Y&depth=400423&programType=newsDataEng",
+      "note": ""
     },
     {
-      "name": "HPE Newsroom: Fiscal Q4 2026 financial results & FY27 outlook",
-      "url": "https://www.hpe.com/us/en/newsroom/press-release/2026/11/hpe-reports-fiscal-2026-fourth-quarter-results.html",
-      "note": "Post-close Q4 rev $14.5B (+50%), non-GAAP EPS $1.43, Q1 EPS guide $1.30-$1.40"
+      "name": "NYSE trading calendar",
+      "url": "https://www.nyse.com/markets/hours-calendars",
+      "note": ""
     },
     {
-      "name": "Reuters (via Business Standard): Asian stocks surge on Nvidia catch-up & Fed hike odds",
-      "url": "https://www.tbsnews.net/economy/stocks/asian-stocks-surge-huangs-nvidia-return-fuels-1-trillion-tech-rally-1612186",
-      "note": "TAIEX +9.1%, KOSPI +7.5%, Nikkei +4.5%; crude & Treasury reaction"
-    },
-    {
-      "name": "Conference Board: U.S. Consumer Confidence schedule",
-      "url": "https://www.conference-board.org/topics/consumer-confidence/index.cfm",
-      "note": "Nov 24 at 10:00 a.m. ET; prior October reading 91.7"
-    },
-    {
-      "name": "FHFA: House Price Index release schedule",
-      "url": "https://www.fhfa.gov/document/d/hpi/fhfa-house-price-index-report-2026q2",
-      "note": "Nov 24 release of September & Q3 2026 HPI"
-    },
-    {
-      "name": "TreasuryDirect: $70B 5-Year Note offering announcement",
-      "url": "https://www.treasurydirect.gov/instit/annceresult/press/preanre/2026/A_20261119_7.pdf",
-      "note": "Competitive auction close Nov 24 at 13:00 ET"
-    },
-    {
-      "name": "New York Fed: November 2026 economic calendar",
-      "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
-      "note": "Philly Non-Mfg 08:30 ET, Richmond Mfg & Consumer Confidence 10:00 ET, Wed GDP/PCE"
-    },
-    {
-      "name": "Federal Reserve Board: November 2026 statistical & Beige Book calendar",
+      "name": "Federal Reserve holiday release schedule",
       "url": "https://www.federalreserve.gov/newsevents/2026-november.htm",
-      "note": "H.6 & CP 13:00 ET, H.15 16:15 ET, Wed Beige Book 14:00 ET"
+      "note": ""
+    },
+    {
+      "name": "New York Fed economic calendar",
+      "url": "https://www.newyorkfed.org/research/calendars/i-nov26.html",
+      "note": ""
+    },
+    {
+      "name": "BEA: GDP, second estimate",
+      "url": "https://www.bea.gov/news/2026/gdp-second-estimate-and-corporate-profits-3rd-quarter-2026",
+      "note": ""
+    },
+    {
+      "name": "BEA: October income and outlays",
+      "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-October-2026",
+      "note": ""
+    },
+    {
+      "name": "USTR: proposed duties",
+      "url": "https://ustr.gov/about/policy-offices/press-office/press-releases/2026/november/ustr-makes-determinations-and-proposes-actions-14-section-301-investigations-relating-structural",
+      "note": ""
+    },
+    {
+      "name": "FinVolution: issuer event calendar",
+      "url": "https://ir.finvgroup.com/news-events/events",
+      "note": ""
+    },
+    {
+      "name": "FOMC: current target range",
+      "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm",
+      "note": ""
     }
   ]
 }

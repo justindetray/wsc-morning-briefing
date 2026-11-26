@@ -1,117 +1,117 @@
 {
-  "build_started": "2026-11-24T11:08:12.622785+00:00",
-  "edition": "Tuesday November 24 premarket",
+  "build_started": "2026-11-26T11:03:05.332668+00:00",
+  "edition": "Thanksgiving",
   "degraded_count": 0,
   "fields": [
     {
       "field": "ES",
-      "status": "LIVE",
-      "reason": "Tuesday premarket capture vs Monday settlement"
+      "status": "CLOSED",
+      "reason": "Holiday snapshot 10:50 UTC vs prior settlement"
     },
     {
       "field": "NQ",
-      "status": "LIVE",
-      "reason": "Tuesday premarket capture vs Monday settlement"
+      "status": "CLOSED",
+      "reason": "Holiday snapshot 10:50 UTC vs prior settlement"
     },
     {
       "field": "YM",
-      "status": "LIVE",
-      "reason": "Tuesday premarket capture vs Monday settlement"
+      "status": "CLOSED",
+      "reason": "Holiday snapshot 10:50 UTC vs prior settlement"
     },
     {
       "field": "RTY",
-      "status": "LIVE",
-      "reason": "Tuesday premarket capture vs Monday settlement"
+      "status": "CLOSED",
+      "reason": "Holiday snapshot 10:50 UTC vs prior settlement"
     },
     {
       "field": "DXY",
-      "status": "LIVE",
-      "reason": "Tuesday premarket capture vs Monday settlement"
+      "status": "CLOSED",
+      "reason": "Holiday snapshot 10:50 UTC vs prior settlement"
     },
     {
       "field": "WTI",
-      "status": "LIVE",
-      "reason": "Tuesday premarket capture vs Monday settlement"
+      "status": "CLOSED",
+      "reason": "Holiday snapshot 11:00 UTC vs prior settlement"
     },
     {
       "field": "BRENT",
-      "status": "LIVE",
-      "reason": "Tuesday premarket capture vs Monday settlement"
+      "status": "CLOSED",
+      "reason": "Holiday snapshot 10:50 UTC vs prior settlement"
     },
     {
       "field": "GOLD",
-      "status": "LIVE",
-      "reason": "Tuesday premarket capture vs Monday settlement"
+      "status": "CLOSED",
+      "reason": "Holiday snapshot 10:50 UTC vs prior settlement"
+    },
+    {
+      "field": "EURJPY",
+      "status": "CLOSED",
+      "reason": "Holiday spot vs Nov 25 Polygon UTC close"
+    },
+    {
+      "field": "AUDJPY",
+      "status": "CLOSED",
+      "reason": "Holiday spot vs Nov 25 Polygon UTC close"
     },
     {
       "field": "TLT",
       "status": "CLOSED",
-      "reason": "Monday 2026-11-23 regular close; premarket 81.89 (+0.25%) separate"
+      "reason": "Nov 25 cash close"
     },
     {
       "field": "SHY",
       "status": "CLOSED",
-      "reason": "Monday 2026-11-23 regular close; premarket 81.50 (-0.08%) separate"
-    },
-    {
-      "field": "EURJPY",
-      "status": "LIVE",
-      "reason": "Tuesday premarket spot vs Monday 2026-11-23 Polygon UTC close (173.448)"
-    },
-    {
-      "field": "AUDJPY",
-      "status": "LIVE",
-      "reason": "Tuesday premarket spot vs Monday 2026-11-23 Polygon UTC close (105.416)"
+      "reason": "Nov 25 cash close"
     },
     {
       "field": "SPX",
       "status": "CLOSED",
-      "reason": "Monday 2026-11-23 cash close; Tuesday regular session opens 09:30 ET"
+      "reason": "Nov 25 cash close vs Nov 24"
     },
     {
       "field": "NDX",
       "status": "CLOSED",
-      "reason": "Monday 2026-11-23 cash close; Tuesday regular session opens 09:30 ET"
+      "reason": "Nov 25 cash close vs Nov 24"
     },
     {
       "field": "DJI",
       "status": "CLOSED",
-      "reason": "Monday 2026-11-23 cash close; Tuesday regular session opens 09:30 ET"
-    },
-    {
-      "field": "SOX",
-      "status": "CLOSED",
-      "reason": "Monday 2026-11-23 cash close; Tuesday regular session opens 09:30 ET"
+      "reason": "Nov 25 cash close vs Nov 24"
     },
     {
       "field": "VIX",
       "status": "CLOSED",
-      "reason": "Monday 2026-11-23 cash close; Tuesday regular session opens 09:30 ET"
+      "reason": "Nov 25 cash close vs Nov 24"
+    },
+    {
+      "field": "SOX",
+      "status": "CLOSED",
+      "reason": "Nov 25 cash close vs Nov 24"
     },
     {
       "field": "BTC",
       "status": "CLOSED",
-      "reason": "Completed 2026-11-23 UTC daily bar; not live Tuesday spot"
+      "reason": "Nov 25 completed UTC day; not spot"
     },
     {
       "field": "US2Y",
       "status": "CLOSED",
-      "reason": "Nov 20 official daily CMT; Nov 23 prints 16:15 ET Tuesday"
+      "reason": "Nov 24 official observation; not holiday trading"
     },
     {
       "field": "US5Y",
       "status": "CLOSED",
-      "reason": "Nov 20 official daily CMT; Nov 23 prints 16:15 ET Tuesday"
+      "reason": "Nov 24 official observation; not holiday trading"
     },
     {
       "field": "US10Y",
       "status": "CLOSED",
-      "reason": "Nov 20 official daily CMT; Nov 23 prints 16:15 ET Tuesday"
+      "reason": "Nov 24 official observation; not holiday trading"
     },
     {
       "field": "US30Y",
       "status": "CLOSED",
-      "reason": "Nov 20 official daily CMT; Nov 23 prints 16:15 ET Tuesday"
+      "reason": "Nov 24 official observation; not holiday trading"
     }
   ]
 }

@@ -1,51 +1,46 @@
 {
-  "status": "LIVE",
-  "as_of": "2026-11-24",
+  "status": "CLOSED",
+  "as_of": "2026-11-26",
   "items": [
     {
       "label": "2-year Treasury",
       "value": "4.63%",
-      "note": "Nov 20 official H.15 CMT"
+      "note": "H.15, Nov 24"
     },
     {
       "label": "5-year Treasury",
-      "value": "4.71%",
-      "note": "Nov 20 official H.15 CMT"
+      "value": "4.69%",
+      "note": "H.15, Nov 24"
     },
     {
       "label": "10-year Treasury",
-      "value": "4.92%",
-      "note": "Nov 20 official H.15 CMT"
+      "value": "4.91%",
+      "note": "H.15, Nov 24"
     },
     {
       "label": "30-year Treasury",
-      "value": "5.31%",
-      "note": "Nov 20 official H.15 CMT"
+      "value": "5.30%",
+      "note": "H.15, Nov 24"
     },
     {
-      "label": "2s10s spread",
-      "value": "+29 bp",
-      "note": "Nov 20 matched-date curve"
+      "label": "Real GDP",
+      "value": "+4.3%",
+      "note": "Q3 second estimate, annualized"
     },
     {
-      "label": "Policy target",
-      "value": "3.75% to 4.00%",
-      "note": "Oct 28 FOMC decision"
+      "label": "Core PCE inflation",
+      "value": "+3.3%",
+      "note": "October, year over year"
     },
     {
-      "label": "Dec 9 +25 bp / +50 bp odds",
-      "value": "94.3% / 5.7%",
-      "note": "Nov 23 CME cohort (hold 0.0%)"
+      "label": "Headline PCE inflation",
+      "value": "+3.8%",
+      "note": "October, year over year"
     },
     {
-      "label": "S&P Global Flash US PMI",
-      "value": "54.6",
-      "note": "Nov preliminary (printed Mon vs 55.9 Oct)"
-    },
-    {
-      "label": "Consumer Confidence (prior)",
-      "value": "91.7",
-      "note": "Oct reading; Nov prints 10:00 ET today"
+      "label": "Korean base rate",
+      "value": "3.25%",
+      "note": "Nov 26 decision"
     }
   ]
 }
